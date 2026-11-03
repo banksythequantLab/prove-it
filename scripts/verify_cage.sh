@@ -7,6 +7,9 @@
 # nothing above it matters. Record it for the demo video.
 # ---------------------------------------------------------------------------
 set -uo pipefail
+# Python interpreter is overridable: on Windows (Git bash) "python3" resolves to
+# the Microsoft Store shim, which is not Python. PYTHON=python works there.
+PY="${PYTHON:-python3}"
 cd "$(dirname "$0")/.."
 
 NET="${FARADAY_CAGE_NET:-faraday-internal}"
@@ -59,7 +62,7 @@ docker run --rm --network "$NET" --dns 127.0.0.11 \
   --read-only --tmpfs /work:rw,noexec,nosuid,nodev,size=64m \
   --user 65534:65534 --memory 512m --memory-swap 512m --pids-limit 128 \
   --entrypoint python3 "$IMG" /opt/faraday/canary.py > "$LOGDIR/canary.json" 2>&1
-if python3 -c "
+if "$PY" -c "
 import json,sys
 d=json.load(open('$LOGDIR/canary.json'))
 print('       contained %d/%d'%(d['contained'],d['total']))
@@ -72,13 +75,13 @@ else
 fi
 
 echo "== 6. PARSE cage detects a poisoned document =="
-[ -f corpus/generated/DOC_0018.pdf ] || python3 corpus/generate.py --out corpus/generated >/dev/null
+[ -f corpus/generated/DOC_0018.pdf ] || "$PY" corpus/generate.py --out corpus/generated >/dev/null
 OUT="$(mktemp -d)"
 docker run --rm --network none --cap-drop ALL --security-opt no-new-privileges:true \
   --read-only --tmpfs /work:rw,noexec,nosuid,nodev --user 65534:65534 \
   -v "$(pwd)/corpus/generated/DOC_0018.pdf:/input/DOC_0018.pdf:ro" \
   -v "$OUT:/output" "$IMG" > "$LOGDIR/parse.json" 2>/dev/null
-python3 -c "
+"$PY" -c "
 import json,sys
 raw=open('$LOGDIR/parse.json').read().strip().splitlines()
 d=json.loads([l for l in raw if l.startswith('{')][-1])
@@ -91,7 +94,7 @@ echo "== 7. egress attempts were recorded, not merely dropped =="
 if [ -s "$LOGDIR/egress.jsonl" ]; then
   ok "sinkhole recorded $(wc -l < "$LOGDIR/egress.jsonl") attempt(s)"
   echo "       --- containment log ---"
-  python3 -c "
+  "$PY" -c "
 import json
 for l in open('$LOGDIR/egress.jsonl'):
     e=json.loads(l)
