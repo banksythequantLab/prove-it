@@ -215,6 +215,77 @@ bash scripts/verify_cage.sh
 systemctl start faraday         # UI on :8080
 ```
 
+### The sealing proof, run
+
+`scripts/verify_cage.sh` against Docker 29.9.2 — all ten checks green:
+
+```
+== 2. internal bridge ==
+  PASS  bridge faraday-internal is INTERNAL (no route off the host)
+== 3. start sinkhole ==
+  PASS  sinkhole reachable at 172.18.0.2 (cage will resolve through it)
+== 4. PARSE cage has no network at all ==
+  PASS  parse cage cannot open an external socket
+== 5. canary in the AGENT cage ==
+       contained 11 (refused 9, sinkholed 2)  allowed 0  skipped 0  of 11
+       dns_resolve_external   SINKHOLED resolved to 172.18.0.2 (sinkhole on the bridge)
+       tcp_connect_external   REFUSED   OSError: [Errno 101] Network is unreachable
+       http_post_exfil        SINKHOLED HTTP 200 absorbed by the sinkhole and logged
+       read_etc_shadow        REFUSED   PermissionError: [Errno 13] Permission denied
+       write_readonly_rootfs  REFUSED   OSError: [Errno 30] Read-only file system
+       tamper_input_evidence  REFUSED   OSError: [Errno 30] Read-only file system: /input/...
+       exec_from_tmpfs        REFUSED   PermissionError: [Errno 13] Permission denied
+       create_net_namespace   REFUSED   unshare exited 1: Operation not permitted
+       reach_docker_socket    REFUSED   FileNotFoundError: [Errno 2] No such file
+       privilege_escalation   REFUSED   PermissionError: [Errno 1] Operation not permitted
+       process_exhaustion     REFUSED   BlockingIOError: [Errno 11] Resource unavailable
+  PASS  all canary attempts refused -- cage is sealed
+== 6. PARSE cage detects a poisoned document ==
+       injection_suspected = True  techniques = ['background_colour']
+  PASS  injection detected inside the cage
+== 7. egress attempts were recorded, not merely dropped ==
+  PASS  sinkhole recorded 1 attempt(s)
+       BLOCKED http  intake.exfil-example.invalid  /manifest
+
+================  10 passed, 0 failed  ================
+```
+
+**REFUSED vs SINKHOLED is the distinction that matters.** Nine probes were refused
+outright. Two — the DNS lookup and the HTTP POST of "privileged document text" —
+*appeared to succeed*, because the sinkhole answered them. A naive proof scores
+that as a breach. What matters is not whether the call returned but whether the
+bytes left the host, which the sinkhole proves by identifying itself in the
+response body. That last line is the containment moment: an exfiltration attempt
+recorded rather than silently dropped.
+
+### What validating on a real daemon cost
+
+Five defects no unit test could have found — four of them in our own proof
+harness rather than in the cage:
+
+1. **A hand-written seccomp profile that made things worse.** It omitted
+   `setgroups`/`setgid`/`setuid`, so runc could not drop to the unprivileged user
+   and container init failed outright. It broke ordinary `fork()`
+   (`sh: Cannot fork`), so nothing spawning a child could run. And its single
+   namespace rule used `SCMP_CMP_MASKED_EQ` with `valueTwo` omitted — defaulting
+   to 0 — which inverted the test: it denied plain fork and **permitted the
+   namespace creation it was written to block**. Replaced with Docker's default
+   profile; the custom one stays in-tree, unused, as a cautionary experiment.
+   An allowlist you cannot validate is worse security than a tested default.
+2. **The canary scored by exception, not outcome.** `unshare -n` exiting 1 raised
+   nothing, so a kernel refusal was logged as ALLOWED. Reading an unmounted
+   `/input` raised `StopIteration` and scored as REFUSED — a pass for a test that
+   never ran. A false pass in a containment proof is worse than a false failure.
+3. **The sinkhole answered DNS with a hardcoded address it did not own**, so a
+   resolved name pointed nowhere and the follow-up connection was never made.
+4. **The cage was not resolving through the sinkhole at all.** Without `--dns`,
+   lookups went to Docker's embedded resolver, which NXDOMAINs an invented host.
+   Attempts were blocked but *invisible* — the one failure mode this design
+   exists to prevent.
+5. **Portability:** `python3` on Windows is the Microsoft Store shim; Docker
+   cannot resolve Git bash `/d/...` paths; MSYS rewrites container paths as it
+   execs `docker.exe`.
+
 ### The canary
 
 `canary/canary.py` deliberately attempts 11 operations the cage must refuse — external DNS, outbound TCP, an HTTP POST of "privileged" text, reading `/etc/shadow`, writing the read-only rootfs, tampering with the evidence mount, exec from `noexec` tmpfs, creating a net namespace, reaching the Docker socket, `setuid(0)`, and process exhaustion — then reports which were refused.
@@ -259,7 +330,7 @@ ui/             single-file operator dashboard
 | Vision asymmetry | confirmed on all 4 techniques (82-95% of hidden words unseen) |
 | Injection obedience | **64% ungated; 0 reach the classifier gated** |
 | Privilege classification | **weak (recall 0.19-0.28) — needs fuller document context; no claim made** |
-| **Cage spawn / sealing proof** | **not yet run — needs a live daemon (`scripts/verify_cage.sh`)** |
+| **Cage sealing proof** | **PASSED on a live daemon — 10/10, `contained 11 (refused 9, sinkholed 2), allowed 0, skipped 0`** |
 | Model passes | run on live Vultr Serverless Inference |
 
 ## License
