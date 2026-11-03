@@ -131,27 +131,25 @@ else
   no "an attempt SUCCEEDED or a probe was SKIPPED -- not sealed (see above)"
 fi
 
-echo "== 6. PARSE cage detects a poisoned document =="
-[ -f corpus/generated/DOC_0018.pdf ] || "$PY" corpus/generate.py --out corpus/generated >/dev/null
-OUT="$(mktemp -d)"
+echo "== 6. PARSE cage kills a parser-breaking file =="
+[ -f collection/stress/zipbomb.zip ] || "$PY" collection/make_stress.py collection/stress >/dev/null
 docker run --rm --network none --cap-drop ALL \
   --security-opt no-new-privileges:true \
   --read-only --tmpfs /work:rw,noexec,nosuid,nodev --user 65534:65534 \
-  -v "$HERE/corpus/generated/DOC_0018.pdf:/input/DOC_0018.pdf:ro" \
-  -v "$(hostpath "$OUT"):/output" "$IMG" > "$LOGDIR/parse.json" 2>&1
+  -v "$HERE/collection/stress/zipbomb.zip:/input/zipbomb.zip:ro" \
+  "$IMG" > "$LOGDIR/parse.json" 2>&1
 if cat "$LOGDIR/parse.json" | "$PY" -c "
 import json,sys
 raw=sys.stdin.read()
 lines=[l for l in raw.splitlines() if l.strip().startswith('{')]
 if not lines:
     print('       cage returned no JSON:'); print('       '+raw.strip()[:400]); sys.exit(2)
-s=json.loads(lines[-1])['structural']
-print('       injection_suspected =',s['injection_suspected'],' techniques =',s['techniques'])
-print('       shadow text:',repr(s['shadow_text'][:90]))
-sys.exit(0 if s['injection_suspected'] else 1)"; then
-  ok "injection detected inside the cage"
+d=json.loads(lines[-1])
+print('       status =',d['status'],' killed by =',d.get('kill_kind'),'::',d.get('kill_reason'))
+sys.exit(0 if d['status']=='needs_manual' and d.get('kill_kind')=='decompression_cap' else 1)"; then
+  ok "parser-breaking file killed inside the cage"
 else
-  no "injection NOT detected"
+  no "stress file was NOT contained"
 fi
 
 echo "== 7. egress attempts were recorded, not merely dropped =="

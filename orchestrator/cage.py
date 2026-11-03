@@ -10,12 +10,11 @@ stages have different threat models:
       legitimate need for a socket, so it gets none at all.
 
   AGENT  (network_mode=<internal bridge>)
-      The agent reasons over extracted artefacts and may act. The adversary is
-      a prompt injection steering the agent. This stage DOES get a network --
-      an internal bridge whose only resident is the sinkhole -- precisely so
-      that an exfiltration attempt is RECORDED rather than silently failing.
-      A dead network makes containment invisible; a sinkholed one makes it
-      demonstrable.
+      Used only by the sealing proof (scripts/verify_cage.sh) to demonstrate
+      egress containment: an internal bridge whose only resident is the
+      sinkhole, so an outbound attempt is RECORDED rather than silently
+      failing. A dead network makes containment invisible; a sinkholed one
+      makes it demonstrable. The Prove-It ingest path uses PARSE only.
 
 Everything about the posture lives in build_run_kwargs(), which is a pure
 function. That is deliberate: the security properties can be asserted in a
@@ -119,10 +118,9 @@ def build_run_kwargs(job: CageJob) -> dict[str, Any]:
     kwargs: dict[str, Any] = {
         "image": job.image,
         # Override the image ENTRYPOINT. The cage image's ENTRYPOINT is the
-        # divergence detector; without this override, job.command arrives as
-        # ARGS to that script instead of running on its own, and e.g. an .eml
-        # gets fed to a PDF parser. Running job.command as the entrypoint makes
-        # the container execute exactly it.
+        # parser; without this override a job.command would arrive as ARGS to
+        # the image ENTRYPOINT instead of running on its own. Running
+        # job.command as the entrypoint makes the container execute exactly it.
         "entrypoint": job.command,
         "command": None,
         "name": f"faraday-{job.profile}-{uuid.uuid4().hex[:12]}",

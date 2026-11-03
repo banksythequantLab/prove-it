@@ -1,8 +1,8 @@
 """
 Hash-chained, append-only audit log.
 
-Every state transition in a review -- ingest, cage spawn, classification,
-injection detection, egress attempt, human approval, release -- becomes a
+Every state transition in a review -- ingest, sandbox spawn, a file flagged
+for manual handling, ranking, human coding, custody re-hash -- becomes a
 chained entry. Each entry commits to its predecessor, so any retroactive edit
 to an earlier entry invalidates every hash after it.
 
