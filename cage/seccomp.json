@@ -1,0 +1,43 @@
+{
+  "comment": "Faraday cage seccomp profile. Deny-by-default allowlist sized for CPython + pdfium. NOTE: socket/connect/sendto are absent, so even if the PARSE cage were mis-wired onto a routed network, the kernel refuses the syscall. Must be validated against a live daemon (see scripts/verify_cage.sh) before relying on it.",
+  "defaultAction": "SCMP_ACT_ERRNO",
+  "defaultErrnoRet": 1,
+  "architectures": ["SCMP_ARCH_X86_64", "SCMP_ARCH_X86", "SCMP_ARCH_X32"],
+  "syscalls": [
+    {
+      "names": [
+        "access", "arch_prctl", "brk", "capget", "capset", "chdir", "clock_getres",
+        "clock_gettime", "clock_nanosleep", "close", "close_range", "dup", "dup2",
+        "dup3", "epoll_create1", "epoll_ctl", "epoll_pwait", "epoll_wait",
+        "eventfd2", "execve", "exit", "exit_group", "faccessat", "faccessat2",
+        "fadvise64", "fchdir", "fchmod", "fchmodat", "fcntl", "fdatasync",
+        "flock", "fstat", "fstatfs", "fsync", "ftruncate", "futex", "getcwd",
+        "getdents64", "getegid", "geteuid", "getgid", "getgroups", "getpgrp",
+        "getpid", "getppid", "getrandom", "getrlimit", "getrusage", "getsid",
+        "gettid", "gettimeofday", "getuid", "ioctl", "lseek", "madvise",
+        "membarrier", "memfd_create", "mkdir", "mkdirat", "mmap", "mprotect",
+        "mremap", "munmap", "nanosleep", "newfstatat", "open", "openat",
+        "openat2", "pipe", "pipe2", "poll", "ppoll", "prctl", "pread64",
+        "preadv", "prlimit64", "pwrite64", "pwritev", "read", "readlink",
+        "readlinkat", "readv", "rename", "renameat", "renameat2",
+        "restart_syscall", "rseq", "rt_sigaction", "rt_sigprocmask",
+        "rt_sigreturn", "sched_getaffinity", "sched_yield", "set_robust_list",
+        "set_tid_address", "setitimer", "sigaltstack", "stat", "statfs",
+        "statx", "sysinfo", "tgkill", "umask", "uname", "unlink", "unlinkat",
+        "utimensat", "wait4", "waitid", "write", "writev"
+      ],
+      "action": "SCMP_ACT_ALLOW"
+    },
+    {
+      "names": ["clone", "clone3"],
+      "action": "SCMP_ACT_ALLOW",
+      "comment": "threading only: CLONE_NEWNS/NEWUSER/NEWNET etc. are refused by the arg filter below"
+    },
+    {
+      "names": ["clone"],
+      "action": "SCMP_ACT_ERRNO",
+      "args": [{ "index": 0, "value": 2114060288, "op": "SCMP_CMP_MASKED_EQ" }],
+      "comment": "block new namespaces -- the usual first step of a container escape"
+    }
+  ]
+}
