@@ -47,12 +47,23 @@ def test_all_capabilities_dropped():
 
 
 def test_no_new_privileges_and_seccomp():
+    """
+    We rely on Docker's DEFAULT seccomp profile and must never disable it.
+
+    A hand-written allowlist used to be pinned here. Against a real daemon it
+    broke container init (missing setgroups) and ordinary fork(), while its
+    one namespace rule was inverted and permitted exactly what it was meant
+    to block. The default profile is the safer choice, so the requirement is
+    "not unconfined" rather than "pinned".
+    """
     k = cage.build_run_kwargs(_job())
     opts = k["security_opt"]
     assert "no-new-privileges:true" in opts
-    assert any(o.startswith("seccomp=") for o in opts), "seccomp profile must be pinned"
-    assert not any("seccomp=unconfined" in o for o in opts)
+    assert not any("seccomp=unconfined" in o for o in opts), \
+        "seccomp must never be disabled"
     assert not any("apparmor=unconfined" in o for o in opts)
+    assert not any(o.startswith("seccomp=") for o in opts), \
+        "do not pin a custom profile without validating it on a live daemon"
 
 
 def test_rootfs_readonly_and_workdir_is_noexec_tmpfs():

@@ -107,7 +107,6 @@ echo "== 5. canary in the AGENT cage (every attempt must be refused) =="
 # scored as "contained" -- a pass for a test that never happened.
 docker run --rm --network "$NET" --dns "$SINK_ADDR" \
   --cap-drop ALL --security-opt no-new-privileges:true \
-  --security-opt "seccomp=$HERE/cage/seccomp.json" \
   --read-only --tmpfs /work:rw,noexec,nosuid,nodev,size=64m \
   --user 65534:65534 --memory 512m --memory-swap 512m --pids-limit 128 \
   -v "$HERE/corpus/generated/DOC_0018.pdf:/input/DOC_0018.pdf:ro" \
@@ -121,8 +120,9 @@ try:
     d=json.loads(raw)
 except Exception:
     print('       cage did not return JSON:'); print('       '+raw.strip()[:400]); sys.exit(2)
-print('       contained %d  allowed %d  skipped %d  of %d'%(
-    d['contained'],d['allowed'],d['skipped'],d['total']))
+print('       contained %d (refused %d, sinkholed %d)  allowed %d  skipped %d  of %d'%(
+    d['contained'],d.get('refused',0),d.get('sinkholed',0),
+    d['allowed'],d['skipped'],d['total']))
 for a in d['attempts']:
     print('       %-26s %-8s %s'%(a['attempt'],a['outcome'],a['detail'][:58]))
 sys.exit(0 if d['sealed'] else 1)"; then

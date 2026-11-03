@@ -1,43 +1,247 @@
 {
-  "comment": "Faraday cage seccomp profile. Deny-by-default allowlist sized for CPython + pdfium. NOTE: socket/connect/sendto are absent, so even if the PARSE cage were mis-wired onto a routed network, the kernel refuses the syscall. Must be validated against a live daemon (see scripts/verify_cage.sh) before relying on it.",
+  "comment": "Faraday cage seccomp profile. Deny-by-default allowlist sized for CPython + pdfium. socket/connect/sendto are absent, so even a mis-wired PARSE cage is refused at the syscall layer. Namespace creation is denied per-flag: an earlier version used one masked rule with valueTwo omitted (defaulting to 0), which inverted the test -- it denied ordinary fork() and PERMITTED namespace creation. Symptom was 'sh: Cannot fork' plus a canary reporting create_net_namespace as ALLOWED. Validate with scripts/verify_cage.sh.",
   "defaultAction": "SCMP_ACT_ERRNO",
   "defaultErrnoRet": 1,
-  "architectures": ["SCMP_ARCH_X86_64", "SCMP_ARCH_X86", "SCMP_ARCH_X32"],
+  "architectures": [
+    "SCMP_ARCH_X86_64",
+    "SCMP_ARCH_X86",
+    "SCMP_ARCH_X32"
+  ],
   "syscalls": [
     {
       "names": [
-        "access", "arch_prctl", "brk", "capget", "capset", "chdir", "clock_getres",
-        "clock_gettime", "clock_nanosleep", "close", "close_range", "dup", "dup2",
-        "dup3", "epoll_create1", "epoll_ctl", "epoll_pwait", "epoll_wait",
-        "eventfd2", "execve", "exit", "exit_group", "faccessat", "faccessat2",
-        "fadvise64", "fchdir", "fchmod", "fchmodat", "fcntl", "fdatasync",
-        "flock", "fstat", "fstatfs", "fsync", "ftruncate", "futex", "getcwd",
-        "getdents64", "getegid", "geteuid", "getgid", "getgroups", "getpgrp",
-        "getpid", "getppid", "getrandom", "getrlimit", "getrusage", "getsid",
-        "gettid", "gettimeofday", "getuid", "ioctl", "lseek", "madvise",
-        "membarrier", "memfd_create", "mkdir", "mkdirat", "mmap", "mprotect",
-        "mremap", "munmap", "nanosleep", "newfstatat", "open", "openat",
-        "openat2", "pipe", "pipe2", "poll", "ppoll", "prctl", "pread64",
-        "preadv", "prlimit64", "pwrite64", "pwritev", "read", "readlink",
-        "readlinkat", "readv", "rename", "renameat", "renameat2",
-        "restart_syscall", "rseq", "rt_sigaction", "rt_sigprocmask",
-        "rt_sigreturn", "sched_getaffinity", "sched_yield", "set_robust_list",
-        "set_tid_address", "setitimer", "sigaltstack", "stat", "statfs",
-        "statx", "sysinfo", "tgkill", "umask", "uname", "unlink", "unlinkat",
-        "utimensat", "wait4", "waitid", "write", "writev"
+        "access",
+        "arch_prctl",
+        "brk",
+        "capget",
+        "capset",
+        "chdir",
+        "clock_getres",
+        "clock_gettime",
+        "clock_nanosleep",
+        "close",
+        "close_range",
+        "dup",
+        "dup2",
+        "dup3",
+        "epoll_create1",
+        "epoll_ctl",
+        "epoll_pwait",
+        "epoll_wait",
+        "eventfd2",
+        "execve",
+        "exit",
+        "exit_group",
+        "faccessat",
+        "faccessat2",
+        "fadvise64",
+        "fchdir",
+        "fchmod",
+        "fchmodat",
+        "fcntl",
+        "fdatasync",
+        "flock",
+        "fstat",
+        "fstatfs",
+        "fsync",
+        "ftruncate",
+        "futex",
+        "getcwd",
+        "getdents64",
+        "getegid",
+        "geteuid",
+        "getgid",
+        "getgroups",
+        "getpgrp",
+        "getpid",
+        "getppid",
+        "getrandom",
+        "getrlimit",
+        "getrusage",
+        "getsid",
+        "gettid",
+        "gettimeofday",
+        "getuid",
+        "ioctl",
+        "lseek",
+        "madvise",
+        "membarrier",
+        "memfd_create",
+        "mkdir",
+        "mkdirat",
+        "mmap",
+        "mprotect",
+        "mremap",
+        "munmap",
+        "nanosleep",
+        "newfstatat",
+        "open",
+        "openat",
+        "openat2",
+        "pipe",
+        "pipe2",
+        "poll",
+        "ppoll",
+        "prctl",
+        "pread64",
+        "preadv",
+        "prlimit64",
+        "pwrite64",
+        "pwritev",
+        "read",
+        "readlink",
+        "readlinkat",
+        "readv",
+        "rename",
+        "renameat",
+        "renameat2",
+        "restart_syscall",
+        "rseq",
+        "rt_sigaction",
+        "rt_sigprocmask",
+        "rt_sigreturn",
+        "sched_getaffinity",
+        "sched_yield",
+        "set_robust_list",
+        "set_tid_address",
+        "setitimer",
+        "sigaltstack",
+        "stat",
+        "statfs",
+        "statx",
+        "sysinfo",
+        "tgkill",
+        "umask",
+        "uname",
+        "unlink",
+        "unlinkat",
+        "utimensat",
+        "wait4",
+        "waitid",
+        "write",
+        "writev"
       ],
       "action": "SCMP_ACT_ALLOW"
     },
     {
-      "names": ["clone", "clone3"],
+      "names": [
+        "clone",
+        "clone3"
+      ],
       "action": "SCMP_ACT_ALLOW",
-      "comment": "threading only: CLONE_NEWNS/NEWUSER/NEWNET etc. are refused by the arg filter below"
+      "comment": "fork/thread creation must work: sh forking python3 needs it. Namespace flags are refused by the per-flag rules below."
     },
     {
-      "names": ["clone"],
+      "names": [
+        "clone"
+      ],
       "action": "SCMP_ACT_ERRNO",
-      "args": [{ "index": 0, "value": 2114060288, "op": "SCMP_CMP_MASKED_EQ" }],
-      "comment": "block new namespaces -- the usual first step of a container escape"
+      "errnoRet": 1,
+      "args": [
+        {
+          "index": 0,
+          "value": 131072,
+          "valueTwo": 131072,
+          "op": "SCMP_CMP_MASKED_EQ"
+        }
+      ],
+      "comment": "deny CLONE_NEWNS (mount namespace)"
+    },
+    {
+      "names": [
+        "clone"
+      ],
+      "action": "SCMP_ACT_ERRNO",
+      "errnoRet": 1,
+      "args": [
+        {
+          "index": 0,
+          "value": 33554432,
+          "valueTwo": 33554432,
+          "op": "SCMP_CMP_MASKED_EQ"
+        }
+      ],
+      "comment": "deny CLONE_NEWCGROUP (cgroup namespace)"
+    },
+    {
+      "names": [
+        "clone"
+      ],
+      "action": "SCMP_ACT_ERRNO",
+      "errnoRet": 1,
+      "args": [
+        {
+          "index": 0,
+          "value": 67108864,
+          "valueTwo": 67108864,
+          "op": "SCMP_CMP_MASKED_EQ"
+        }
+      ],
+      "comment": "deny CLONE_NEWUTS (UTS namespace)"
+    },
+    {
+      "names": [
+        "clone"
+      ],
+      "action": "SCMP_ACT_ERRNO",
+      "errnoRet": 1,
+      "args": [
+        {
+          "index": 0,
+          "value": 134217728,
+          "valueTwo": 134217728,
+          "op": "SCMP_CMP_MASKED_EQ"
+        }
+      ],
+      "comment": "deny CLONE_NEWIPC (IPC namespace)"
+    },
+    {
+      "names": [
+        "clone"
+      ],
+      "action": "SCMP_ACT_ERRNO",
+      "errnoRet": 1,
+      "args": [
+        {
+          "index": 0,
+          "value": 268435456,
+          "valueTwo": 268435456,
+          "op": "SCMP_CMP_MASKED_EQ"
+        }
+      ],
+      "comment": "deny CLONE_NEWUSER (user namespace -- the usual escape primitive)"
+    },
+    {
+      "names": [
+        "clone"
+      ],
+      "action": "SCMP_ACT_ERRNO",
+      "errnoRet": 1,
+      "args": [
+        {
+          "index": 0,
+          "value": 536870912,
+          "valueTwo": 536870912,
+          "op": "SCMP_CMP_MASKED_EQ"
+        }
+      ],
+      "comment": "deny CLONE_NEWPID (PID namespace)"
+    },
+    {
+      "names": [
+        "clone"
+      ],
+      "action": "SCMP_ACT_ERRNO",
+      "errnoRet": 1,
+      "args": [
+        {
+          "index": 0,
+          "value": 1073741824,
+          "valueTwo": 1073741824,
+          "op": "SCMP_CMP_MASKED_EQ"
+        }
+      ],
+      "comment": "deny CLONE_NEWNET (network namespace -- would route around the sinkhole)"
     }
   ]
 }

@@ -116,9 +116,23 @@ def build_run_kwargs(job: CageJob) -> dict[str, Any]:
         "cap_drop": CAP_DROP_ALL,
         "cap_add": [],
         "privileged": False,
+        # Docker's DEFAULT seccomp profile, deliberately. An earlier version
+        # pinned a hand-written allowlist here (cage/seccomp.json). Validating
+        # it against a real daemon found three defects in it:
+        #   * it omitted setgroups/setgid/setuid, so runc could not drop to the
+        #     unprivileged user and container init failed outright;
+        #   * it broke ordinary fork() -- "sh: Cannot fork" -- so nothing that
+        #     spawned a child process could run in the cage at all;
+        #   * its one namespace rule used SCMP_CMP_MASKED_EQ with valueTwo
+        #     omitted (defaulting to 0), inverting the test: it denied plain
+        #     fork and PERMITTED the namespace creation it was written to stop.
+        # Docker's default profile blocks ~44 dangerous syscalls and is widely
+        # tested; namespace creation is already refused here by cap_drop ALL.
+        # A bespoke allowlist we cannot validate is worse security than a
+        # well-tested default, so the profile is kept in the repo as an
+        # unused experiment and is NOT wired in.
         "security_opt": [
             "no-new-privileges:true",
-            "seccomp=/etc/faraday/seccomp.json",
             "apparmor=docker-default",
         ],
         "read_only": True,                       # immutable rootfs

