@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prove-It eDiscovery</title>
+<style>
+:root{
+  --bg:#0b0d11; --panel:#12151c; --panel2:#171b24; --line:#242a36;
+  --ink:#e9edf3; --dim:#8a93a6; --accent:#5b9cff;
+  --ok:#2fbf71; --warn:#f0a93b; --bad:#f0544f; --hot:#ff6b4a; --priv:#b06cf5;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:14px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif}
+header{padding:14px 22px;border-bottom:1px solid var(--line);background:var(--panel);
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+h1{margin:0;font-size:15px;letter-spacing:.12em;text-transform:uppercase;font-weight:700}
+h1 em{color:var(--dim);font-weight:400;text-transform:none;letter-spacing:.01em;
+  font-size:12.5px;margin-left:8px;font-style:normal}
+.pill{font:600 10.5px/1 var(--mono);padding:5px 9px;border-radius:99px;
+  border:1px solid var(--line);color:var(--dim);white-space:nowrap}
+.pill.on{color:var(--ok);border-color:#1d4d35;background:#0f2419}
+.pill.off{color:var(--bad);border-color:#53241f;background:#24100f}
+.banner{margin:0;padding:10px 22px;background:#2a1410;border-bottom:1px solid #53241f;
+  color:#ffb4ae;font:600 12.5px/1.4 var(--mono);display:none}
+nav{display:flex;gap:2px;padding:0 14px;background:var(--panel);border-bottom:1px solid var(--line);
+  overflow-x:auto}
+nav button{background:none;border:none;border-bottom:2px solid transparent;color:var(--dim);
+  padding:11px 15px;font:600 12.5px/1 inherit;cursor:pointer;white-space:nowrap}
+nav button:hover{color:var(--ink)}
+nav button.active{color:var(--accent);border-bottom-color:var(--accent)}
+main{padding:20px 22px;max-width:1180px}
+.tab{display:none}.tab.active{display:block}
+h2{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);
+  font-weight:700;margin:0 0 12px}
+button.act{font:600 12.5px/1 inherit;padding:9px 15px;border-radius:7px;cursor:pointer;
+  background:#14284a;color:#cfe0ff;border:1px solid #1e3a66}
+button.act:hover{border-color:var(--accent)}
+button.act:disabled{opacity:.45;cursor:default}
+button.ghost{background:var(--panel2);color:var(--ink);border:1px solid var(--line)}
+.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.cards{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:14px 16px}
+.kpi{min-width:120px}.kpi .n{font:700 26px/1 var(--mono);color:var(--ink)}
+.kpi .l{font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.08em;margin-top:6px}
+.chip{display:inline-flex;gap:6px;align-items:center;font:600 11px/1 var(--mono);
+  padding:6px 10px;border-radius:6px;border:1px solid var(--line);color:var(--dim);margin:3px}
+.chip b{color:var(--ink)}
+.bar{height:9px;background:var(--panel2);border-radius:99px;overflow:hidden;border:1px solid var(--line)}
+.bar>i{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
+table{width:100%;border-collapse:collapse;margin-top:8px}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--line);font-size:12.5px;vertical-align:top}
+th{color:var(--dim);font-size:10px;letter-spacing:.09em;text-transform:uppercase;font-weight:700}
+tr.killed td{background:#1b100e}
+.tag{display:inline-block;font:600 10px/1 var(--mono);padding:3px 6px;border-radius:4px;border:1px solid var(--line);color:var(--dim)}
+.tag.bad{color:var(--bad);border-color:#53241f;background:#24100f}
+.tag.ok{color:var(--ok);border-color:#1d4d35;background:#0f2419}
+.tag.hot{color:var(--hot);border-color:#5c2a1c;background:#241310}
+.tag.priv{color:var(--priv);border-color:#40246b;background:#190f28}
+.score{font:700 13px/1 var(--mono);color:var(--ink)}
+.mut{color:var(--dim)}
+.split{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);border-radius:9px;overflow:hidden}
+.split>div{background:var(--bg);padding:14px 16px;min-width:0}
+.qrow{padding:8px;border-bottom:1px solid var(--line);cursor:pointer;border-radius:6px}
+.qrow:hover{background:var(--panel)}
+.qrow.sel{background:#14284a}
+.qrow .f{font:600 12px/1.3 var(--mono);color:var(--ink);word-break:break-all}
+.doc{white-space:pre-wrap;font-family:var(--mono);font-size:12px;line-height:1.6;
+  max-height:440px;overflow:auto;background:#0e1016;border:1px solid var(--line);
+  border-radius:7px;padding:12px}
+.doc mark{background:#1d4d35;color:#b6f0cf;padding:1px 0;border-radius:2px}
+.quote{border-left:3px solid var(--ok);padding:7px 11px;margin:6px 0;background:#0f2419;
+  border-radius:0 5px 5px 0;font-size:12px}
+.quote.rej{border-left-color:var(--bad);background:#1b0f0e;color:#ffb4ae}
+.limitbox{font-family:var(--mono);font-size:11.5px;color:var(--dim);line-height:1.9}
+.limitbox b{color:var(--ink)}
+.empty{color:var(--dim);font-style:italic;padding:16px 0}
+.note{color:var(--dim);font-size:12px;margin:6px 0}
+.arch{font-family:var(--mono);font-size:11.5px;color:var(--dim);white-space:pre;
+  background:#0e1016;border:1px solid var(--line);border-radius:7px;padding:14px;overflow:auto}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Prove-It <em>sandboxed first-pass review</em></h1>
+  <span class="pill" id="p-sandbox">sandbox &middot; …</span>
+  <span class="pill" id="p-model">model &middot; …</span>
+  <span class="pill" id="p-chain">custody &middot; …</span>
+</header>
+<p class="banner" id="banner"></p>
+
+<nav id="nav"></nav>
+<main>
+  <!-- INGEST -->
+  <section class="tab active" data-tab="ingest">
+    <h2>Ingest</h2>
+    <div class="row">
+      <button class="act" id="btn-ingest">Load Enron demo collection</button>
+      <span class="mut" id="ingest-note">Each file is hashed, then parsed in its own container: no network, read-only evidence, 512&nbsp;MB, 20&nbsp;s.</span>
+    </div>
+    <div class="cards" id="ingest-kpis"></div>
+    <div class="bar" style="max-width:560px"><i id="ingest-bar"></i></div>
+    <div id="chips" style="margin-top:14px"></div>
+
+    <h2 style="margin-top:26px">Needs manual processing <span class="tag bad" id="nm-count"></span></h2>
+    <p class="note">Real collections contain files that break parsers. These are killed in their sandbox and flagged for a human. The rest keep going.</p>
+    <div class="split">
+      <div>
+        <table><thead><tr><th>File</th><th>Type</th><th>Killed by</th></tr></thead>
+          <tbody id="nm-table"><tr><td colspan="3" class="empty">run ingest</td></tr></tbody></table>
+      </div>
+      <div>
+        <h2>Sandbox limits (per file)</h2>
+        <div class="limitbox" id="limits">
+          <b>network</b> &mdash; none (no route off the host)<br>
+          <b>evidence</b> &mdash; read-only mount<br>
+          <b>memory</b> &mdash; 512 MB, swap disabled<br>
+          <b>wall clock</b> &mdash; 20 s, then killed<br>
+          <b>decompression</b> &mdash; 256 MB expansion cap<br>
+          <b>pages</b> &mdash; 500 PDF page cap<br>
+          <b>user</b> &mdash; unprivileged (nobody)<br>
+          <b>filesystem</b> &mdash; read-only rootfs, noexec scratch
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROTOCOL -->
+  <section class="tab" data-tab="protocol">
+    <h2>Review protocol</h2>
+    <p class="note">The reviewer sets the issues and the privilege signals. The model is advisory only.</p>
+    <div id="issues"></div>
+    <h2 style="margin-top:22px">Privilege signals (flag for a human &mdash; never a determination)</h2>
+    <ul id="privsignals" class="mut"></ul>
+  </section>
+
+  <!-- REVIEW -->
+  <section class="tab" data-tab="review">
+    <div class="row" style="margin-bottom:12px">
+      <button class="act" id="btn-rank">Rank parsed documents</button>
+      <span class="mut" id="rank-note">The model reads extracted text only. Every quote it cites is checked word-for-word against the document, or it is thrown out.</span>
+    </div>
+    <div class="bar" style="max-width:420px;margin-bottom:12px"><i id="rank-bar"></i></div>
+    <div class="split">
+      <div>
+        <h2>Ranked queue</h2>
+        <div id="queue"><div class="empty">rank to populate</div></div>
+      </div>
+      <div id="viewer"><div class="empty">select a document</div></div>
+    </div>
+  </section>
+
+  <!-- QC -->
+  <section class="tab" data-tab="qc">
+    <h2>Quality control</h2>
+    <div class="cards" id="qc-kpis"></div>
+    <h2 style="margin-top:14px">Model vs. human (coded documents)</h2>
+    <table><thead><tr><th>Doc</th><th>Model</th><th>Human</th><th>Agree</th></tr></thead>
+      <tbody id="qc-table"><tr><td colspan="4" class="empty">code some documents first</td></tr></tbody></table>
+    <h2 style="margin-top:22px">Elusion sample</h2>
+    <p class="note" id="elusion-note">A random sample of low-scored documents checks what the model may have missed.</p>
+    <div id="elusion" class="mut"></div>
+  </section>
+
+  <!-- CUSTODY -->
+  <section class="tab" data-tab="custody">
+    <h2>Chain of custody &amp; audit</h2>
+    <div class="row">
+      <button class="act" id="btn-rehash">Re-hash all evidence</button>
+      <span class="mut">Proof the tool never altered the evidence.</span>
+    </div>
+    <div class="cards" id="custody-kpis"></div>
+    <h2 style="margin-top:14px">Audit log <span class="tag" id="chain-state"></span></h2>
+    <div class="chain" id="audit"></div>
+  </section>
+
+  <!-- EXPORTS -->
+  <section class="tab" data-tab="exports">
+    <h2>Exports</h2>
+    <div class="row">
+      <a class="act" href="/api/export/coding" download="coding.csv">Coding CSV</a>
+      <a class="act ghost" href="/api/export/privilege" download="privilege_log.csv">Privilege log</a>
+      <a class="act ghost" href="/api/export/audit" download="audit.ndjson">Audit log</a>
+    </div>
+    <h2 style="margin-top:26px">Architecture</h2>
+    <div class="arch" id="arch">Vultr VM
+  └─ Caddy (TLS)
+      └─ App  (control plane — no Docker access of its own)
+          └─ internal Runner
+              └─ one sandbox per file:  no network · read-only evidence
+                                        512 MB · 20 s · unprivileged
+LLM: Vultr Serverless Inference — glm-5.3-flash (ranking, advisory)
+     every cited quote verified against the document, or discarded</div>
+    <p class="note" style="margin-top:12px">Repo + live URL on the end card.</p>
+  </section>
+</main>
+
+<script>
+const q=s=>document.querySelector(s), qa=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const api=async(u,o)=>(await fetch(u,o)).json();
+const TABS=[["ingest","Ingest"],["protocol","Protocol"],["review","Review queue"],["qc","QC"],["custody","Custody & audit"],["exports","Exports"]];
+let sel=null;
+
+q('#nav').innerHTML=TABS.map((t,i)=>`<button data-t="${t[0]}" class="${i===0?'active':''}">${t[1]}</button>`).join('');
+qa('#nav button').forEach(b=>b.onclick=()=>{
+  qa('#nav button').forEach(x=>x.classList.toggle('active',x===b));
+  qa('.tab').forEach(x=>x.classList.toggle('active',x.dataset.tab===b.dataset.t));
+  if(b.dataset.t==='protocol')loadProtocol();
+  if(b.dataset.t==='qc')loadQC();
+  if(b.dataset.t==='custody')loadAudit();
+});
+
+async function health(){
+  const h=await api('/api/health');
+  const s=q('#p-sandbox');
+  s.textContent='sandbox · '+(h.docker?'live':'DEGRADED');
+  s.className='pill '+(h.docker?'on':'off');
+  const m=q('#p-model'); m.textContent='model · '+(h.model||'unset'); m.className='pill '+(h.model?'on':'');
+  if(h.warning){q('#banner').style.display='block';q('#banner').textContent='⚠ '+h.warning;}
+  else q('#banner').style.display='none';
+}
+
+/* INGEST */
+q('#btn-ingest').onclick=async e=>{
+  e.target.disabled=true;
+  await api('/api/ingest',{method:'POST'});
+  pollIngest();
+};
+async function pollIngest(){
+  const st=await api('/api/ingest/status');
+  const pct=st.total?Math.round(100*st.done/st.total):0;
+  q('#ingest-bar').style.width=pct+'%';
+  q('#ingest-kpis').innerHTML=[
+    ['files',st.total],['parsed',st.parsed],['flagged',(st.needs_manual||[]).length],
+    ['sandbox',st.contained?'live':'degraded']
+  ].map(k=>`<div class="card kpi"><div class="n">${esc(k[1])}</div><div class="l">${k[0]}</div></div>`).join('');
+  const tc=st.type_counts||{};
+  q('#chips').innerHTML=Object.keys(tc).sort((a,b)=>tc[b]-tc[a])
+    .map(t=>`<span class="chip"><b>${tc[t]}</b> ${esc(t)}</span>`).join('');
+  const nm=st.needs_manual||[];
+  q('#nm-count').textContent=nm.length;
+  q('#nm-table').innerHTML=nm.length?nm.map(r=>
+    `<tr class="killed"><td class="f">${esc(r.file)}</td><td><span class="tag">${esc(r.type)}</span></td>
+     <td><span class="tag bad">${esc((r.kill_kind||'').replace('_',' '))}</span> <span class="mut">${esc(r.kill_reason||'')}</span></td></tr>`
+  ).join(''):'<tr><td colspan="3" class="empty">none flagged yet</td></tr>';
+  if(st.running){q('#ingest-note').textContent=`parsing ${st.done}/${st.total} in sandboxes…`;setTimeout(pollIngest,700);}
+  else if(st.total){q('#ingest-note').textContent=`${st.parsed} parsed, ${nm.length} flagged for a human.`;q('#btn-ingest').disabled=false;health();}
+}
+
+/* PROTOCOL */
+async function loadProtocol(){
+  const p=await api('/api/protocol');
+  q('#issues').innerHTML=Object.entries(p.issues).map(([k,v])=>
+    `<div class="card" style="margin-bottom:8px"><div class="score">${esc(k)}</div><div class="mut">${esc(v)}</div></div>`).join('');
+  q('#privsignals').innerHTML=p.privilege_signals.map(s=>`<li>${esc(s)}</li>`).join('');
+}
+
+/* REVIEW */
+q('#btn-rank').onclick=async e=>{e.target.disabled=true;const r=await api('/api/rank',{method:'POST'});if(r.model){const m=q('#p-model');m.textContent='model · '+r.model;m.className='pill on';}pollRank();};
+async function pollRank(){
+  const st=await api('/api/rank/status');
+  const pct=st.total?Math.round(100*st.done/st.total):0;
+  q('#rank-bar').style.width=pct+'%';
+  if(st.running){q('#rank-note').textContent=`ranking ${st.done}/${st.total}…`;setTimeout(pollRank,800);}
+  else{q('#rank-note').textContent='Advisory only. The human makes the call.';q('#btn-rank').disabled=false;loadQueue();}
+}
+async function loadQueue(){
+  const d=await api('/api/queue');
+  const qd=q('#queue');
+  if(!d.queue.length){qd.innerHTML='<div class="empty">rank to populate</div>';return;}
+  qd.innerHTML=d.queue.map(r=>{
+    const coded=r.coded_responsive!=null;
+    const tags=[r.privilege_signal?'<span class="tag priv">PRIV?</span>':'',
+      coded?(r.coded_responsive?'<span class="tag ok">R</span>':'<span class="tag">NR</span>'):'',
+      r.coded_hot?'<span class="tag hot">HOT</span>':''].join(' ');
+    const sc=Object.entries(r.issues||{}).map(([k,v])=>`${k.split('_')[0]} ${v}`).join(' · ');
+    return `<div class="qrow" data-id="${esc(r.docid)}"><div class="f">${esc(r.file)}</div>
+      <div class="mut" style="margin-top:3px"><span class="score">${r.overall}</span> &nbsp;${esc(sc)} ${tags}</div></div>`;
+  }).join('');
+  qa('#queue .qrow').forEach(el=>el.onclick=()=>openDoc(el.dataset.id,el));
+}
+async function openDoc(docid,el){
+  qa('#queue .qrow').forEach(x=>x.classList.toggle('sel',x===el));
+  sel=docid;
+  const d=await api('/api/doc/'+encodeURIComponent(docid));
+  const rk=d.ranking||{issues:{}};
+  // collect verified spans to highlight
+  let spans=[];
+  Object.values(rk.issues||{}).forEach(it=>(it.verified_quotes||[]).forEach(v=>{if(v.start!=null)spans.push([v.start,v.end]);}));
+  spans.sort((a,b)=>a[0]-b[0]);
+  let html='',last=0;const t=d.text||'';
+  spans.forEach(([s,e])=>{if(s<last)return;html+=esc(t.slice(last,s))+'<mark>'+esc(t.slice(s,e))+'</mark>';last=e;});
+  html+=esc(t.slice(last));
+  const issuesHtml=Object.entries(rk.issues||{}).map(([k,it])=>{
+    const vq=(it.verified_quotes||[]).map(v=>`<div class="quote">✓ verified · ${esc(v.matched_text||v.quote)}</div>`).join('');
+    const rq=(it.rejected_quotes||[]).map(v=>`<div class="quote rej">✗ cited but not in document · ${esc(v.quote)}</div>`).join('');
+    return `<div style="margin:8px 0"><span class="score">${it.score}</span> <b>${esc(k)}</b>
+      ${it.supported?'':'<span class="tag bad">unsupported</span>'}<div class="mut">${esc(it.rationale||'')}</div>${vq}${rq}</div>`;
+  }).join('');
+  q('#viewer').innerHTML=`
+    <div class="row" style="justify-content:space-between">
+      <div class="f score">${esc(d.file)}</div>
+      ${rk.privilege_signal?'<span class="tag priv">privilege signal</span>':''}
+    </div>
+    <div class="mut" style="font:11px/1.5 var(--mono);margin:4px 0 10px">sha256 ${esc((d.sha256_ingest||'').slice(0,40))}…</div>
+    ${issuesHtml}
+    <div class="doc">${html||'<span class="empty">no extracted text</span>'}</div>
+    <div class="row" style="margin-top:12px">
+      <button class="act" data-r="1">Responsive</button>
+      <button class="act ghost" data-r="0">Not responsive</button>
+      <label class="mut"><input type="checkbox" id="hotbox"> Hot</label>
+      <label class="mut"><input type="checkbox" id="privbox" ${d.coded_privileged?'checked':''}> Privileged</label>
+    </div>
+    <div class="note">Advisory only. The human makes the call.</div>`;
+  qa('#viewer [data-r]').forEach(b=>b.onclick=()=>saveCode(docid,+b.dataset.r));
+}
+async function saveCode(docid,responsive){
+  const hot=q('#hotbox')&&q('#hotbox').checked?1:0;
+  const priv=q('#privbox')&&q('#privbox').checked?1:0;
+  const fd=new FormData();fd.append('responsive',responsive);fd.append('hot',hot);fd.append('privileged',priv);fd.append('by','reviewer');
+  await fetch('/api/code/'+encodeURIComponent(docid),{method:'POST',body:fd});
+  await loadQueue();
+  // advance to next unselected row
+  const rows=qa('#queue .qrow');const i=rows.findIndex(r=>r.dataset.id===docid);
+  const nxt=rows[i+1]||rows[0];if(nxt)openDoc(nxt.dataset.id,nxt);
+}
+
+/* QC */
+async function loadQC(){
+  const d=await api('/api/qc');
+  q('#qc-kpis').innerHTML=[
+    ['coded',d.coded],['agree',d.agree],['disagree',d.disagree],
+    ['agreement',d.agreement_pct!=null?d.agreement_pct+'%':'—']
+  ].map(k=>`<div class="card kpi"><div class="n">${esc(k[1])}</div><div class="l">${k[0]}</div></div>`).join('');
+  q('#qc-table').innerHTML=(d.rows||[]).length?d.rows.map(r=>
+    `<tr><td class="f">${esc(r.docid.slice(0,24))}</td><td>${r.model_responsive?'R':'NR'} <span class="mut">(${r.overall})</span></td>
+     <td>${r.human_responsive?'R':'NR'}</td><td>${r.agree?'<span class="tag ok">✓</span>':'<span class="tag bad">✗</span>'}</td></tr>`
+  ).join(''):'<tr><td colspan="4" class="empty">code some documents first</td></tr>';
+  const e=d.elusion||{};
+  q('#elusion').innerHTML=`<div class="card">pool of low-scored docs: <b>${e.low_pool||0}</b> · sampled: <b>${e.sampled||0}</b>
+    <div class="note">${esc(e.note||'')}</div>
+    <div class="mut" style="font:11px/1.6 var(--mono)">${(e.docids||[]).map(esc).join('<br>')}</div></div>`;
+}
+
+/* CUSTODY */
+q('#btn-rehash').onclick=async()=>{
+  const d=await api('/api/custody');
+  q('#custody-kpis').innerHTML=[
+    ['total',d.total],['match',d.match],['altered',d.mismatch],['missing',d.missing]
+  ].map(k=>`<div class="card kpi"><div class="n">${esc(k[1])}</div><div class="l">${k[0]}</div></div>`).join('');
+  const v=q('#chain-state');v.textContent=d.chain_valid?'chain verified':'CHAIN BROKEN';
+  v.className='tag '+(d.chain_valid?'ok':'bad');
+  q('#p-chain').textContent='custody · '+d.verdict;
+  q('#p-chain').className='pill '+(d.mismatch===0&&d.missing===0?'on':'off');
+  loadAudit();
+};
+async function loadAudit(){
+  const d=await api('/api/audit');
+  const v=q('#chain-state');if(v){v.textContent=d.verification.valid?'chain verified':'CHAIN BROKEN';v.className='tag '+(d.verification.valid?'ok':'bad');}
+  q('#audit').innerHTML='<table><thead><tr><th>#</th><th>Event</th><th>Detail</th><th>Hash</th></tr></thead><tbody>'+
+    d.entries.slice().reverse().map(e=>`<tr><td class="mut">${e.seq}</td><td>${esc(e.event)}</td>
+      <td class="mut" style="font:11px/1.4 var(--mono)">${esc(JSON.stringify(e.payload).slice(0,80))}</td>
+      <td class="mut" style="font-family:var(--mono)">${esc(e.hash)}</td></tr>`).join('')+'</tbody></table>';
+}
+
+health();pollIngest();

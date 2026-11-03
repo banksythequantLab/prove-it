@@ -183,13 +183,9 @@ EXTRACTORS = {
 }
 
 
-def main() -> int:
-    inp = Path("/input")
-    files = [p for p in inp.iterdir() if p.is_file()] if inp.is_dir() else []
-    if not files:
-        print(json.dumps({"ok": False, "error": "no input file mounted"}))
-        return 2
-    target = files[0]
+def parse_path(target: Path) -> dict:
+    """Parse one file, enforcing the in-code caps. Used both by the container
+    entrypoint (reading /input) and by the degraded in-process path."""
     ext = target.suffix.lower()
     started = time.monotonic()
 
@@ -236,7 +232,16 @@ def main() -> int:
             result["kill_kind"] = "parse_error"
 
     result["parse_s"] = round(time.monotonic() - started, 3)
-    print(json.dumps(result, default=str))
+    return result
+
+
+def main() -> int:
+    inp = Path("/input")
+    files = [p for p in inp.iterdir() if p.is_file()] if inp.is_dir() else []
+    if not files:
+        print(json.dumps({"ok": False, "error": "no input file mounted"}))
+        return 2
+    print(json.dumps(parse_path(files[0]), default=str))
     return 0
 
 

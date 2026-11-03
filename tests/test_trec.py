@@ -273,3 +273,34 @@ def test_benchmark_pdf_title_leaks_no_label():
         "build_pdf varies something by label BEFORE the label field -- likely a leak"
     assert 'title="Document Production"' in build, \
         "benchmark PDFs must use a single neutral title"
+
+
+def test_parser_kills_stress_files():
+    """The honest containment core: real parser-breaking files hit their caps."""
+    import sys as _s
+    _s.path.insert(0, str(ROOT / "collection"))
+    import parse_entry as pe
+    stress = ROOT / "collection" / "stress"
+    if not (stress / "zipbomb.zip").exists():
+        import subprocess
+        subprocess.run([_s.executable, str(ROOT / "collection" / "make_stress.py"),
+                        str(stress)], check=True)
+    expect = {"zipbomb.zip": "decompression_cap",
+              "wordbomb.docx": "decompression_cap",
+              "pagebomb.pdf": "page_cap"}
+    for name, kind in expect.items():
+        r = pe.parse_path(stress / name)
+        assert r["status"] == "needs_manual", f"{name} should be flagged"
+        assert r["kill_kind"] == kind, f"{name}: {r.get('kill_kind')} != {kind}"
+
+
+def test_parser_passes_normal_mail():
+    import sys as _s
+    _s.path.insert(0, str(ROOT / "collection"))
+    import parse_entry as pe
+    import tempfile, pathlib
+    p = pathlib.Path(tempfile.mkdtemp()) / "n.eml"
+    p.write_bytes(b"From: a@enron.com\r\nSubject: hi\r\n\r\nNormal body text here.\r\n")
+    r = pe.parse_path(p)
+    assert r["status"] == "parsed" and r["kill_reason"] is None
+    assert "Normal body" in r["text"]

@@ -10,6 +10,7 @@ RUN mkdir -p /opt/faraday /work /input /output \
 
 COPY orchestrator/divergence.py /opt/faraday/divergence.py
 COPY cage/entrypoint.py        /opt/faraday/entrypoint.py
+COPY collection/parse_entry.py /opt/faraday/parse_entry.py
 COPY canary/canary.py          /opt/faraday/canary.py
 
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 HOME=/work
