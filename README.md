@@ -99,6 +99,65 @@ Model IDs are **not hardcoded**. `GET /api/models` queries the live catalogue; s
 
 ---
 
+## Benchmark: real documents, real privilege labels
+
+The synthetic corpus proves the detector works, but its labels are ones we wrote. So Faraday also benchmarks against **TREC 2010 Legal Track Topic 304** — a privilege call ("documents withheld on the basis of a claim of privilege, attorney work-product, or any other applicable protection") made over real Enron correspondence by a commercial review firm, appealed, and adjudicated by a named Topic Authority. **175 labels changed on appeal**, which is what real privilege review looks like.
+
+| | |
+|---|---|
+| Judged documents | **11,509** (1,220 privileged, 1,144 grey) |
+| Judged messages | 6,766 (941 privileged) |
+| Label source | Topic Authority, adjudicated |
+| Access | open — `scripts/fetch_trec.sh`, no login, no signed agreement |
+
+### Detector results — 1,000 real documents, balanced 500/500
+
+| | |
+|---|---|
+| Poisoned | 500 |
+| **Detected** | **500 (100%)** |
+| Clean | 500 |
+| **False positives** | **0 (0%)** |
+| Max shadow text on a clean document | 0 chars (threshold: 24) |
+
+Per technique, each firing its own signal with zero cross-talk:
+
+| technique | detected | correct signal | multi-signal noise |
+|---|---|---|---|
+| white-on-white | 119/119 | 119/119 | 0 |
+| micro-type | 125/125 | 125/125 | 0 |
+| off-page | 124/124 | 124/124 | 0 |
+| render mode 3 | 132/132 | 132/132 | 0 |
+
+Reproduce with no API key:
+
+```bash
+bash scripts/fetch_trec.sh                                        # ~90MB kept
+python3 scripts/benchmark_privilege.py --mode structural --n 1000
+```
+
+### What real data changed
+
+Synthetic data flattered the detector. On the authored corpus the false-positive rate was 0%. On real correspondence it was **35%** (6 of 17 clean documents quarantined), because real carrier lines average **178 characters** (max seen: 2,210) and ran off the right edge of the page, tripping the off-page rule.
+
+Two fixes, and the second is the one that matters:
+
+1. The renderer now wraps body prose. `drawString` does not wrap, so the generator had been producing pages no human could read — the corpus was not testing what it claimed to.
+2. The off-page rule became **directional**. Text parked above, below, or to the left of the page has no innocent explanation and stays a strong signal. Text running off the *right* edge is what an unwrapped long line does in countless real documents, so it is now a **weak signal**: recorded and surfaced, but never enough to quarantine a document on its own.
+
+Carrier prose is also scrubbed before use. Mail transport headers (`Received:`, `Message-ID:`) are stripped, and so are confidentiality footers — leaving those in would let a classifier score well by pattern-matching "privileged and confidential" boilerplate instead of reading the document, inflating the one number here that is meant to be trustworthy. A test asserts the keyword rates stay within 10 points across classes.
+
+### Model benchmarks (need a Vultr Inference key)
+
+```bash
+python3 scripts/benchmark_privilege.py --mode text --n 100   # baseline precision/recall
+python3 scripts/benchmark_privilege.py --mode pdf  --n 60    # injection obedience
+```
+
+`--mode pdf` reports the number this project exists to move: **injection obedience** — how often a hidden instruction demanding "reclassify as NOT PRIVILEGED" actually flips the label on a genuinely privileged document. It measures it twice, with the quarantine gate off and on. A model at 0.9 F1 that obeys injections 60% of the time is not usable in a law firm, and the gap between those two runs is what Faraday is selling.
+
+> **Privacy.** This is real correspondence from real people, including personal mail swept into a public regulatory release. Aggregate benchmarking is ordinary research practice; putting an identifiable person's personal message on screen is not. `redact()` masks addresses, phone numbers and long digit strings and is **on by default**. Use the real corpus for the number and the synthetic corpus on camera.
+
 ## Quick start
 
 ```bash
@@ -155,13 +214,15 @@ ui/             single-file operator dashboard
 
 | Component | State |
 |---|---|
-| Structural detector | 4/4 techniques caught, 0 false positives on 17 clean docs |
+| Structural detector | **100% detection, 0% false positives on 1,000 real Enron documents** (TREC Topic 304 labels) |
+| TREC ground truth | 11,509 judged docs at 100% coverage; parse cross-checks published figures (6,766 / 11,509 / 941 / 1,220 / 175) |
 | Audit chain | tamper-evidence verified (edit and delete both break it) |
 | Cage posture | 12 flag assertions passing without a daemon |
 | Sinkhole | all four listeners verified end to end |
 | Pipeline + API | verified end to end in degraded mode |
+| Test suite | 40 passing |
 | **Cage spawn / sealing proof** | **not yet run — needs a live daemon (`scripts/verify_cage.sh`)** |
-| Model passes | not yet run — needs a Vultr Inference key |
+| Model passes (baseline F1, injection obedience) | not yet run — needs a Vultr Inference key |
 
 ## License
 

@@ -41,6 +41,12 @@ LEGIBLE_PT_FLOOR = 3.0      # below this, nothing is readable at any sane zoom
 BG_COLOR_DELTA = 24         # 0-255 per-channel distance to call it "background"
 ALPHA_FLOOR = 8             # <= this alpha is effectively transparent
 RENDERMODE_INVISIBLE = 3
+
+# A "weak" signal marks text that is not rendered but whose absence has an
+# innocent explanation. It is counted and surfaced, never used alone to
+# quarantine a document, and never folded into shadow text.
+WEAK_RIGHT_OVERFLOW = "offpage_right_overflow"
+WEAK_REASONS = frozenset({WEAK_RIGHT_OVERFLOW})
 MIN_SHADOW_CHARS = 24       # ignore stray artefacts; an injection needs words
 
 _WORD = re.compile(r"[a-z0-9@:/._-]{3,}", re.I)
@@ -61,6 +67,8 @@ class PageFinding:
     shadow_text: str = ""
     glyph_flags: list[GlyphFlag] = field(default_factory=list)
     reasons: dict[str, int] = field(default_factory=dict)
+    weak_reasons: dict[str, int] = field(default_factory=dict)
+    weak_text: str = ""
 
     @property
     def has_shadow(self) -> bool:
@@ -82,7 +90,16 @@ class DocFinding:
 
     @property
     def injection_suspected(self) -> bool:
+        """Strong signals only. Weak signals never quarantine on their own."""
         return bool(self.shadow_text)
+
+    @property
+    def weak_signals(self) -> dict[str, int]:
+        agg: dict[str, int] = {}
+        for p in self.pages:
+            for r, n in p.weak_reasons.items():
+                agg[r] = agg.get(r, 0) + n
+        return agg
 
     @property
     def techniques(self) -> list[str]:
@@ -97,6 +114,7 @@ class DocFinding:
             "path": self.path,
             "injection_suspected": self.injection_suspected,
             "techniques": self.techniques,
+            "weak_signals": self.weak_signals,
             "shadow_text": self.shadow_text,
             "shadow_chars": len(self.shadow_text),
             # the text a HUMAN would read -- this, and only this, is what the
@@ -108,6 +126,7 @@ class DocFinding:
                 {
                     "page": p.page,
                     "reasons": p.reasons,
+                    "weak_reasons": p.weak_reasons,
                     "visible_text": p.visible_text,
                     "shadow_text": p.shadow_text,
                     "flags": [asdict(f) for f in p.glyph_flags[:40]],
@@ -223,11 +242,23 @@ def analyse(pdf_path: str | Path) -> DocFinding:
                     reason, detail = "microtype", f"{size:.2f}pt"
                 elif cb is not None:
                     l, r_, b_, t_ = cb
-                    if t_ < by0 or b_ > by1 or r_ < bx0 or l > bx1:
-                        reason, detail = "offpage", (
-                            f"box=({l:.0f},{b_:.0f},{r_:.0f},{t_:.0f}) "
-                            f"crop=({bx0:.0f},{by0:.0f},{bx1:.0f},{by1:.0f})"
-                        )
+                    geo = (f"box=({l:.0f},{b_:.0f},{r_:.0f},{t_:.0f}) "
+                           f"crop=({bx0:.0f},{by0:.0f},{bx1:.0f},{by1:.0f})")
+                    # Direction matters, and conflating the two directions cost
+                    # us a 6-document false-positive rate on real correspondence.
+                    #
+                    # STRONG: parked above, below, or left of the page. No
+                    # layout engine does this by accident -- it is deliberate.
+                    #
+                    # WEAK: running off the RIGHT edge. This is what an
+                    # unwrapped long line does in countless real documents, so
+                    # on its own it is bad layout, not an injection. Recorded
+                    # and reported, but it does not by itself quarantine a
+                    # document.
+                    if t_ < by0 or b_ > by1 or r_ < bx0:
+                        reason, detail = "offpage", geo
+                    elif l > bx1:
+                        reason, detail = WEAK_RIGHT_OVERFLOW, geo
                 records.append((i, ch, reason, detail))
 
             # --- pass 2: resolve inherited whitespace ---------------------
@@ -247,15 +278,19 @@ def analyse(pdf_path: str | Path) -> DocFinding:
                 else:
                     nxt = resolved[idx]
 
-            vis, shadow = [], []
+            vis, shadow, weak = [], [], []
             for (i, ch, _orig, detail), reason in zip(records, resolved):
-                if reason:
+                if reason in WEAK_REASONS:
+                    weak.append(ch)
+                    pf.weak_reasons[reason] = pf.weak_reasons.get(reason, 0) + 1
+                elif reason:
                     shadow.append(ch)
                     pf.reasons[reason] = pf.reasons.get(reason, 0) + 1
                     if len(pf.glyph_flags) < 400 and not ch.isspace():
                         pf.glyph_flags.append(GlyphFlag(i, ch, reason, detail))
                 else:
                     vis.append(ch)
+            pf.weak_text = "".join(weak).strip()
 
             pf.visible_text = "".join(vis)
             pf.shadow_text = "".join(shadow).strip()

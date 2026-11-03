@@ -5,3 +5,7 @@ __pycache__/
 out/
 corpus/generated/
 *.db
+corpus/trec/docs/
+corpus/trec/want_docids.txt
+corpus/generated-trec/
+out/
