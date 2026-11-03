@@ -24,6 +24,7 @@ unit test with no Docker daemon present.
 from __future__ import annotations
 
 import json
+import uuid
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -94,22 +95,37 @@ def build_run_kwargs(job: CageJob) -> dict[str, Any]:
     else:
         raise ValueError(f"unknown cage profile: {job.profile!r}")
 
-    mounts: dict[str, dict[str, str]] = {}
+    # Docker accepts forward-slash host paths on every platform; Path.resolve()
+    # yields backslashes on Windows, which docker-py does not translate and
+    # which silently produce an empty bind mount (the parser then sees no file
+    # and flags everything). Normalise to forward slashes.
+    # Portable bind-mount spec as plain data. docker-py's volumes={} dict does
+    # not reliably parse a Windows host path and silently falls back to an
+    # EMPTY named volume (the parser then sees no file and flags everything).
+    # CageRunner turns these into docker.types.Mount(type="bind"), which takes
+    # the native OS path and works the same on Linux and Windows.
+    def _host(p) -> str:
+        return str(Path(p).resolve())
+
+    binds: list[dict] = []
     if job.input_path is not None:
-        mounts[str(Path(job.input_path).resolve())] = {
-            "bind": "/input/" + Path(job.input_path).name,
-            "mode": "ro",
-        }
+        binds.append({"source": _host(job.input_path),
+                      "target": "/input/" + Path(job.input_path).name,
+                      "read_only": True})
     if job.output_dir is not None:
-        mounts[str(Path(job.output_dir).resolve())] = {
-            "bind": "/output",
-            "mode": "rw",
-        }
+        binds.append({"source": _host(job.output_dir),
+                      "target": "/output", "read_only": False})
 
     kwargs: dict[str, Any] = {
         "image": job.image,
-        "command": job.command,
-        "name": f"faraday-{job.profile}-{job.job_id}",
+        # Override the image ENTRYPOINT. The cage image's ENTRYPOINT is the
+        # divergence detector; without this override, job.command arrives as
+        # ARGS to that script instead of running on its own, and e.g. an .eml
+        # gets fed to a PDF parser. Running job.command as the entrypoint makes
+        # the container execute exactly it.
+        "entrypoint": job.command,
+        "command": None,
+        "name": f"faraday-{job.profile}-{uuid.uuid4().hex[:12]}",
 
         # --- isolation -------------------------------------------------
         "network_mode": network_mode,
@@ -137,7 +153,7 @@ def build_run_kwargs(job: CageJob) -> dict[str, Any]:
         ],
         "read_only": True,                       # immutable rootfs
         "tmpfs": {"/work": f"rw,noexec,nosuid,nodev,size={lim.tmpfs_size}"},
-        "volumes": mounts,
+        "_binds": binds,                         # -> docker.types.Mount in run()
         "user": "65534:65534",                   # nobody; never root in the cage
         "working_dir": "/work",
 
@@ -198,6 +214,12 @@ class CageRunner:
 
     def run(self, job: CageJob) -> CageResult:
         kwargs = build_run_kwargs(job)
+        import docker.types
+        binds = kwargs.pop("_binds", [])
+        kwargs["mounts"] = [
+            docker.types.Mount(target=b["target"], source=b["source"],
+                               type="bind", read_only=b["read_only"])
+            for b in binds]
         if job.profile == AGENT:
             self.ensure_network(job.network)  # type: ignore[arg-type]
 

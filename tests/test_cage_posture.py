@@ -89,16 +89,16 @@ def test_resource_ceilings_present():
 def test_input_is_mounted_read_only():
     p = Path("corpus/generated/DOC_0018.pdf").resolve()
     k = cage.build_run_kwargs(_job(input_path=p))
-    mount = k["volumes"][str(p)]
-    assert mount["mode"] == "ro", "evidence file must be unmodifiable by the cage"
-    assert mount["bind"].startswith("/input/")
+    b = next(b for b in k["_binds"] if b["target"].startswith("/input/"))
+    assert b["read_only"] is True, "evidence file must be unmodifiable by the cage"
+    assert b["source"] == str(p)
 
 
 def test_docker_socket_is_never_mounted():
     p = Path("corpus/generated/DOC_0018.pdf").resolve()
     k = cage.build_run_kwargs(_job(input_path=p, output_dir=Path("/tmp/claude-0").resolve()))
-    for host_path in k["volumes"]:
-        assert "docker.sock" not in host_path, "mounting the docker socket defeats the cage"
+    for b in k["_binds"]:
+        assert "docker.sock" not in b["source"], "mounting the docker socket defeats the cage"
 
 
 def test_unknown_profile_refused():

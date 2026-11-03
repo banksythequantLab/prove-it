@@ -68,6 +68,18 @@ def docker_ok() -> bool:
 
 # ---- ingest ---------------------------------------------------------------
 def _parse_one(f: Path, contained: bool) -> dict:
+    try:
+        return _parse_one_inner(f, contained)
+    except Exception as exc:
+        # one file's failure must never kill the whole ingest
+        return {"ok": False, "file": f.name, "ext": f.suffix.lower(),
+                "status": "needs_manual", "kill_kind": "cage_error",
+                "kill_reason": f"{type(exc).__name__}: {exc}"[:160],
+                "sha256": "", "bytes": f.stat().st_size if f.exists() else 0,
+                "parse_s": 0}
+
+
+def _parse_one_inner(f: Path, contained: bool) -> dict:
     if contained:
         runner = cage_mod.CageRunner()
         job = cage_mod.CageJob(
