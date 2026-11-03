@@ -1,0 +1,1548 @@
+EXHIBIT B -  SCOPE OF WORK/SPECIFICATION 2
+EXHIBIT B-1 - SPECIFICATION FOR LM6000 SPRINT™ GAS TURBINE GENERATOR AGREEMENT 4
+
+
+
+
+EXHIBIT B -  SCOPE OF WORK/SPECIFICATION
+
+1. SCOPE OF SUPPLY
+For a detailed description of the basic and optional scope of supply please refer to the accompanying Product Specification manual.
+A. BASIC SCOPE OF SUPPLY
+The following equipment and services are included in the basic scope of supply:
+1) LM6000 gas turbine engine equipped with inlet bellmouth and screen.
+2) Gas fuel system, complete and self-contained on the unit, with connection on the baseplate for customer’s filtered, regulated fuel supply at 675 psig ± 20 psig.
+3a) Brush Generator, 13,800 Volt, 60 Hz, 3600 RPM, 71,000 KVA @ 0.85 pf.   Low maintenance  brushless excitation system suitable for Class 1, Group D, Div 2 areas.  Neutral and line cubicles with CTs, surge protectors and lightning arrestors
+4) I-beam baseplates for turbine, generator and unit mounted accessories.  The baseplate will be drilled and doweled for field re-alignment.
+5) Acoustic enclosure for gas turbine and generator.  Redundant ventilation systems, AC internal lighting and DC emergency lighting.
+6) Multi stage air inlet filtration system for both gas turbine and generator, including weather hoods, inlet screen, pre-filter, final barrier filter, intake silencer, and standard ducting to plenum chamber.  Filterhouse ladders and platforms are included.  The inlet silencer shall be designed for noise attenuation to 85 dBA at 3 feet.
+7) Electro-hydraulic start system.
+8) Separate lube oil systems for gas turbine and generator, including duplex filters, duplex water/oil coolers, stainless steel piping, and stainless steel reservoirs.
+9) Axial-exhaust system with discharge flange for customer connection.
+10) Unit control panel for indoor mounting in a controlled environment, including microprocessor fuel management and sequencing system, generator metering, Bentley Nevada vibration monitoring, CRT annunciation of alarms and shutdowns, and Ethernet connection for data output to customer’s control systems.  Beckwith integrated generator protection system.
+11) I/O cubicle mounted on gas turbine enclosure.
+12) 24V DC control system battery with dual battery chargers.
+13) Fire and gas detection and extinguishing system, serving both turbine and generator compartments, complete with 24V DC battery and charger.
+14) “On-line” water wash system and “soak wash” system.
+15) Generator factory testing to IEEE or IEC standards.  Gas turbine performance test by SSEP at SSEP factory (Houston).
+16) Six sets of drawing and data packages, O & M manuals.  Six sets of drawing and data packages and O&M/Installation Manuals.
+17) Training course for up to 10 customer personnel.
+18) Inlet chiller coil
+19) Enchanced Sprint power augmentation system including main GT skid piping/tubing, injection pump and metering system.
+20) Winterization package to - 10oF
+21) Nox water injection skid including main GT skid piping/tubing, injection pump and metering system.
+22) Special tools for installation and removal of the gas turbine.
+23) Technical Site Supervision - 240 man-hours per Unit
+24) Packing and crating for domestic shipment
+25) Special lifting devices for Unit installation (to be returned to Seller).
+
+
+EXHIBIT B-1 - SPECIFICATION FOR LM6000 SPRINT™ GAS TURBINE GENERATOR AGREEMENT
+ 
+
+
+1.0 GENERAL
+
+This specification defines the details of the design, manufacture and testing of the LM6000 Enhanced SPRINT™ gas turbine generator set (Unit) including all accessories described herein.
+
+The Unit will be designed to operate in simple cycle power plant facilities to be built by others, and will be capable of operating in an isochronous mode to satisfy plant electric loads or synchronized to the utility for power export.  
+
+1.1 Equipment and Services By Seller
+
+1.1.1 Gas Turbine
+
+1.1.2 Air Cooled Generator, brushless exciter and voltage regulator
+
+
+Coupling and Coupling Guard
+
+1.1.4 Structural steel baseplates for gas turbine, generator and unit mounted accessories.  Baseplates will be drilled and doweled for simplified field re-alignment.
+
+1.1.5 Lube Oil System for Gas Turbine.
+
+1.1.6 Lube Oil System for Generator 
+
+1.1.7 On-line and Crank Soak Waterwash System for Gas Turbine 
+
+1.1.8 Multi-Stage Inlet Air Filter System with Chiller Coil
+
+1.1.9 Electrohydraulic Start System 
+
+1.1.10 Ladders, Stairs, and Platforms for Filter House Access
+
+1.1.11 Acoustic Enclosure, Winterization and Ventilation System for Rotating Equipment Compartments
+
+1.1.12 Inlet Silencer for Noise Attenuation to 85 dBA at 3 feet
+
+1.1.13 Gaseous Fuel System 
+
+
+Water Injection Pumps and Metering Systems for NOx Control
+Enhanced SPRINTTM power augmentation system including main GT skid piping/tubing, injection pump, and metering system.
+1.1.16 Unit Control Panel Designed for Indoor Installation
+
+1.1.17  Beckwith Integrated Generator Protection System 
+
+1.1.18 Bently Nevada 3500 Vibration Monitoring System
+
+1.1.19 Fire and Gas Detection System
+
+1.1.20 CO2 Fire Extinguishing System 
+
+1.1.21 Factory Testing of Turbine, Generator, and Generator Sets
+
+1.1.22 Training 
+
+1.1.23 Operating and Maintenance Manuals
+
+1.1.24 Installation Manuals
+
+1.1.25 Special Tools for Installation and Removal of Gas Turbine 
+
+1.1.26 Packing and Crating for Domestic Shipment
+
+1.1.27 Drawings
+
+1.1.28 Special Lifting Devices for Unit Installation (to be returned to Seller)
+
+
+Options Offered By Seller: The following equipment has been offered as optional and is not included with the basic Unit scope of supply.
+
+
+Transport to the job site
+
+
+Simple cycle exhaust stack with EPA ports, platforms and ladders
+
+
+35’ X 14’ Modular Control Room
+
+
+Inlet air chilling module
+
+
+fFired, fuel gas, heating module
+
+
+Unit 480 V Motor Control Center
+
+
+NEMA 3R 15 kV Switchgear
+
+
+Dual Fuel Option (transfer fuels at reduced load, non-cooled CDP)
+
+
+O&M Manuals on CD ROM
+
+
+Low ambient temperature anti-icing system
+
+
+Generator inlet air cooling system
+
+1.3 Equipment and Services by Purchaser
+
+The Purchaser will provide the following equipment, materials, and services. 
+
+1.3.1 Unloading, indoor and outdoor storage (as required) and installation labor. 
+
+1.3.2 Foundations, anchor bolt hardware, grouting forms, and grouting. 
+
+1.3.3 Fuel and water forwarding systems including piping to flange connections at Vendor's baseplate. 
+
+1.3.4 Lubricants and fluids (Operating and Commissioning)
+
+1.3.5 High voltage cables and/or bus duct from the generator terminals.  
+
+1.3.6 Electric utility interconnect including the required circuit breakers and protective devices.
+
+1.3.7 Interconnection piping, conduit, and wiring between the unit control panel, main unit termination boxes, auxiliary system modules, and motor control center. 
+
+1.3.8 Bolts, nuts, washers, and gaskets required at terminal points. 
+
+
+2.0 REFERENCED DOCUMENTS
+
+The applicable sections of the following US and ISO Codes and Standards will be considered as relevant Standards for gas turbine equipment. The designs and procedures will be compliant with applicable sections of the following:
+
+AGMA 421                         Standard Practice for High Speed Helical and Herringbone Gear Units (Used for the accessory gear except for service factor.)
+
+ANSI/AFBMA
+
+Std 9   Loading Ratings and Fatigue Life for Ball Bearings.
+
+Std 11   Load Ratings and Fatigue Life for Roller Bearings.
+
+ASCE-7Minimum Design Loads for Buildings and Other Structures
+(Used for Snow Loads)
+
+ANSI B1.1 Unified Inch Screw Threads (S&S Energy Products complies at the customer's connection)
+
+ANSI B1.20.1   Pipe Threads
+
+ANSI B16.5   Steel Pipe Flanges and Flanged Fittings
+
+ANSI B16.9   Factory - Made Wrought Steel Butt Welding Fittings
+
+ANSI B16.21 Non-metallic Flat Gaskets for Pipe Flanges.  (Spiral-wound gaskets per API 601 may be used, particularly in turbine compartment piping.)
+
+ANSI B31.1 Pressure Piping and gas turbine piping systems comply.
+
+ANSI B133.2 Basic Gas Turbine. Complies, with the exception of paragraph:
+
+8.5 Loose items such as jackscrews and eyebolts are not furnished.  Provisions for use of such items are not included in the design.
+
+
+ANSI B133.3 Gas Turbine Auxiliary Equipment.  Auxiliary equipment will fully comply with design portions only.  The Seller’s recommended lube oil flushing procedure will be implemented.  Atomizing air receiver is not applicable.
+
+ANSI B133.4 Gas Turbine Controls and Protection Systems
+
+ANSI B133.5 Gas Turbine Electrical Equipment
+
+ANSI B133.8   Gas Turbine Installation Sound Emissions
+
+ANSI C37.90   Relays Associated with Electric Power Apparatus
+
+ANSI C37.90.1  Guide for Surge Withstand Capability (SWS) Tests
+
+ANSI C50.10   General Requirements for Synchronous Machines
+
+ANSI C50.13   Requirements for Cylindrical Rotor Synchronous Generators
+
+ANSI C50.14 Requirements for Combustion Gas Turbine Driven Cylindrical Rotor Synchronous Generators (The GTG does not provide a peak reserve rating.  Not all of the prototype tests indicated in Table 2 have necessarily been conducted.)
+
+ANSI C57.94 American Standard, Guide for Installation and Maintenance of Dry Type Transformers
+
+ANSI C83.16   Relays
+
+ANSI S1.2   Method for the Physical Measurement of Sound
+
+ANSI S1.4   Specification for Sound Level Meters
+
+ANSI S1.13   Method for the Measurement of Sound Pressure Levels
+
+ANSI/ASHRAE 52.1-1992 Gravimetric and Dust Spot Procedures for Testing Air-cleaning Devices Used in General Ventilation for Removing Particulate Matter
+
+ANSI/IEEE C37.2 Electrical Power System Device Function Numbers (The Unit complies with respect to device designations except that in a few cases device numbers had to be modified or added for this application.)
+
+ANSI/IEEE 100 IEEE Standard Dictionary of Electrical and Electronics Terms
+
+ANSI/NEMA MG1  Motors and Generators
+
+ANSI/NEMA MG2 Safety Standard for Construction and Guide for Selection, Installation and Use of Electric Motor and Generators
+
+ANSI/NFPA 12  Carbon Dioxide Extinguishing Systems
+
+ANSI/NFPA 70 National Electrical Code (Electrical components will be designed to meet the intent of this Code for Class 1, Group D, Div. 2, Hazardous area classification where appropriate.).
+
+API 614 Lubrication, Shaft-Sealing, and Control - Oil Systems for Special - Purpose Applications
+
+API 616 Gas Turbine for Refinery Services
+
+API 650 Storage Tanks
+
+API 670   Vibration Monitoring Systems
+
+API 678   Accelerometer - Based Vibration Monitoring System
+
+API RP11PGT   Packaged Combustion Gas Turbines
+
+ASME PTC22   Gas Turbine Power Plants - Performance Test Codes
+
+ASME Section VIII  ASME Boiler and Pressure Vessel Code
+
+ASME Section IX  ASME Boiler and Pressure Vessel Code
+
+AWS D1.1   American Welding Specification
+
+EIA RS-232 Interface between Data Terminal Equipment and Data Communication Equipment Employing Serial Binary Interchange
+
+IEC 34.1   Rotating Electrical Machines - Rating and Performance
+
+IEC 34.3   Rotating Electrical Machines - Turbine Type Synchronous Machines
+
+IEEE Std. 421 IEEE Standard Criteria and Definitions for Excitation Systems for Synchronous Machines
+
+JIC    Hydraulic Standards for Industrial Equipment
+
+UBC Uniform Building Code (Used for wind loads and seismic design)
+
+       
+3.0 TECHNICAL REQUIREMENTS
+
+3.1 Operation
+
+The Unit shall be capable of satisfactory operation from 0% load to 100% load at the Site Design Conditions.  During startup, the turbine shall be capable of idling unsynchronized for up to 60 minutes.  The UNIT shall be capable of starting, synchronizing and loading within 10 minutes of dispatch from a ready to start condition.
+
+3.2 Performance Data and Guarantees
+
+The Seller guarantees the kW output, heat rate, NOx, CO, PM10 and UHC emissions, and noise emissions of the Unit according to the Contract. 
+
+Seller shall provide additional performance data to show how changes in ambient temperature and inlet/exhaust losses affect heat rate, power output, exhaust mass flow, and exhaust gas temperature. 
+
+3.3 Site Design Conditions
+
+3.3.1 Climatic Conditions
+
+The Unit and related equipment furnished by the Seller shall be designed for proper operation with the following climatic conditions: 
+
+
+Maximum wind velocity of 100 mph
+Ambient temperature range of 44 to +105°F* 
+Relative humidity of 15% to 100%
+
+*Lower-operating temperatures can be realized with the addition of an anti-ice system
+
+3.3.2 Seismic Conditions
+
+The gas turbine structure and attachments shall be designed in accordance with UBC 1997, Seismic Zone 4.
+
+3.4 Surface Temperatures
+
+Surface temperature of components that can be readily accessed during normal operation shall not exceed 140°F without a barrier to protect personnel.  The engine compartment interior and roof are excluded from this requirement. 
+
+
+4.0 LM6000 SPRINT GAS TURBINE GENERATOR SET
+
+4.1 Gas Turbine
+
+ Major Components of the LM6000 turbine are:
+
+
+5-stage low pressure compressor (LPC)
+14-stage variable geometry high pressure compressor (HPC)
+Annular combustor
+2-stage air cooled high pressure turbine (HPT)
+5-stage low pressure turbine (LPT) 
+Accessory Drive Gear Box
+
+The LPC will be driven through a concentric drive shaft by the 5-stage LPT, forming the low-pressure rotor.  The high-pressure rotor will be formed by the 14-stage HPC, driven by the 2-stage HPT.  The high pressure "core" will be formed by the HPC, combustor and HPT section.
+
+The Unit uses the Low-Pressure Turbine (LPT) powers the output shaft.  Driving with the LPT improves fuel efficiency and allows the turbine to be directly coupled to the electrical generator rotating at 3600 RPM.  The gas turbine drives the generator through a flexible dry type coupling connected to the front, or "cold", end of the LPC shaft.
+
+4.2 Turbine Cycle
+
+ The gas turbine cycle begins with air entering the inlet plenum, where it is directed through inlet guide vanes into the LPC.  The LPC compresses the air by a ratio of approximately 2.4:1.  Air leaving the LPC is directed into the HPC.  Variable bleed valves (VBV) in the flow passage between the two compressors regulate the airflow entering the HPC during idle, low power operation, and transient load conditions.  To further control the airflow, the HPC will be also equipped with variable pitch inlet guide vanes and stator vanes.
+
+ The HPC compresses the air by a ratio of approximately 12:1.  The HPC discharge will then be directed into the annular combustor section where it mixes with the fuel from the 30 fuel nozzles.  One igniter initially ignites the fuel/air mixture.  When combustion is self-sustaining, the igniter will then be turned off.  The hot combustion gases will then be directed into the HPT, which consequently drives the HPC.  The gas then expands further through the LPT, which drives the LPC.  The flanged LPC shaft drives the electric generator.
+
+4.3 Inlet Section
+
+The air intake section of the gas turbine consists of an annular flow section to direct the air stream into the low-pressure compressor.
+
+4.4 Low Pressure Compressor
+
+ The low-pressure compressor (LPC) will be a 5-stage axial flow compressor with 2.4:1 pressure ratio.   At low power settings and during large power reduction transients modulating bleed ports control LPC bypass flow to assure adequate LPC stall margins.  
+
+4.5 High Pressure Compressor
+
+ The high-pressure compressor (HPC) will be a 14-stage design. Variable stators in stages 1 through 5 provide stall-free operation and high efficiency throughout the starting and operating range.  The stator geometry of stages 6-14 will be fixed.
+
+ The HP compressor casing will be split horizontally to allow ready access to the stator vanes and rotor blades for inspection or replacement.
+
+4.6 Combustion System
+
+ The gas generator will be furnished with 30 externally mounted fuel nozzles for the natural gas fuel system requirements.  For NOx reduction, water will also be injected into the fuel nozzles through a separate manifold..
+
+ The Unit uses a high performance annular combustor with low exit temperature pattern, low-pressure loss and high combustion efficiency at all operating conditions.
+
+4.7 High Pressure Turbine
+
+ The high-pressure turbine (HPT) will be an air cooled, 2-stage design with demonstrated high efficiency.
+
+ The HPT will be designed to be easily maintainable in service.  Significant maintainability features include:
+
+ - Stage 1 nozzle assembly will be removable as a unit.
+ - Stage 2 nozzle assembly will be removable as a unit.
+ - Turbine blades will be individually replaceable.
+ - Stage 1 and 2 shrouds will be segmented and designed for removal and replacement in the stator assembly.
+
+ The 2-stage high-pressure turbine will be assembled on the same shaft as the 14-stage high-pressure compressor..
+
+ Compressor discharge air will be used to cool the rotor structure and both blade stages.  The cooling air flows through the shaft and the bore of the stage 1 disk, where it separates to supply stage 1 and 2 blades.  Compressor discharge air and bleed air will be used to cool the HPT stator..
+
+4.8 Low Pressure Turbine
+
+ A 5-stage low-pressure turbine receives the outlet flow from the HP turbine.  The LP turbine will be mounted on a common shaft with the 5-stage LP compressor.  This shaft will be concentric to the HP rotor.
+
+ 4.9 Gas Turbine Support Structures
+
+ Three frames provide support for the LP and HP rotors.  
+
+
+Front Frame
+
+ The front frame will be a major engine structure that provides support for the LPC rotor and the forward end of the HPC rotor.  The frame also forms an airflow path between the outlet of the LPC and the inlet of the HPC.  Engine front mount provisions will be made off the front frame. 
+
+ The front frame contains the engine "A" sump that includes a thrust and a radial bearing for support of the LPC rotor and a radial bearing which supports the forward end of the HPC rotor.  Lubrication oil, supply and scavenge, lines for the "A" sump will be routed inside the frame struts.  The engine inlet gearbox will be located in the "A" sump, with the radial drive shaft extending out through the strut located at the six o'clock position..
+
+ 
+
+Compressor Rear Frame
+
+ The compressor rear frame consists of an outer case, 10 struts and the "B-C" sump housing.  The outer case supports the combustor and 30 fuel nozzles.  The hub provides support for both a thrust bearing and a radial bearing to support the mid section of the HP rotor system.
+
+
+Turbine Rear Frame
+
+ The turbine rear frame provides the aft connection of the gas turbine to the base through the rear engine mounts and is the structure supporting the "D-E" sump, and the LPT stator case.
+
+4.10 Accessory Drive System
+
+ The hydraulic starter, lube and scavenge pump, variable geometry hydraulic pump, and other accessories will be mounted and driven from the accessory gearbox.  The accessory gearbox, located below the front HPC casing at the six o'clock position on the air collector, will be driven from the transfer gearbox through a short horizontal shaft.  The transfer gearbox will be driven by the high-pressure rotor system. 
+
+4.11 Variable Geometry (VG) Control System
+
+ The variable geometry system consists of a positive displacement hydraulic pump, with torque motor positioned hydraulic servos for porting fluid at regulated pressure, two HPC variable stator vane actuators and six LPC bleed valve actuators.  Electrical inputs from the SSEP controls operate three separate servo valves mounted on the gas turbine.  The variable output pressures from these servos position the low-pressure compressor variables bleed valves (VBV) and the high-pressure compressor variable stator vanes (VSV).  Position feedback of the moving elements will be provided by linear variable differential transformers (LVDT) integral with the actuators.
+
+4.12 Gas Generator Overall Features
+
+ Included are modular LPC assembly, fabricated compressor front frame and air collector, modular HPC and HPT, fabricated compressor rear frame and turbine mid-frame and modular LPT.  Each rotating mass will be supported by roller bearings, and rotor axial thrust loads are carried by ball bearings.  Labyrinth type, long-life seals will be used in the bearing sumps.  Each sump will be individually scavenged.  A common line to an air/oil separator vents the “A”, “B-C” and “D-E” sumps..
+
+
+4.13 Starting Motor
+
+ A hydraulic motor will be installed on the accessory gearbox to provide starting torque to the gas turbine.  A 200 HP (150 kW) electric motor and hydraulic pump mounted on the auxiliary equipment module provide pressured hydraulic oil to power the hydraulic starter motor.  (See Section 9)..
+
+
+4.14 Fuel Systems
+
+ The Purchaser will supply fuel in accordance with GE M&IAD Spec MID-TD-0000-1 at the baseplate connection.  The components downstream of the baseplate connection are supplied by the Seller..
+
+
+4.15 Lubrication System 
+
+ A complete lubrication system for the gas turbine will be furnished as described in Section 10.  The lube oil system includes mechanical pump, duplex filters, pressure and temperature instrumentation, 304 stainless steel reservoir and a 304 stainless steel piping system.  The gas turbine uses rolling element dry sump bearings.  There will be no need for auxiliary lube oil pumps.  Bearing sumps will be sealed with knife-edge seals and pressurized with compressor bleed air.  Oil will be removed from the seal air by an air-oil coalescer mounted on the roof skid..
+
+
+4.16 Ignition System
+
+ The ignition system includes one ignition unit, which converts the 115 V, 60 Hz power to high voltage, and includes  a high tension lead and igniter.  The ignition system will be used only during starting and will be turned off once the engine reaches idle speed.
+
+4.17 Borescope Inspection Provisions
+
+ Ports and removable covers in the casing permit borescope inspection of the blades and vanes of the low pressure compressor, the high pressure compressor, the high pressure turbine, the low pressure turbine, combustor, frames, and accessory gearbox.
+
+4.18 Turbine Mounted Instruments
+
+ These devices will be incorporated into an electronic control system furnished.  Details of the control system are described in Section 13.
+
+ The gas turbine will be equipped with the following sensors:.
+
+
+ Qty     Sensor
+
+ 2  Speed sensors (XN25) high-pressure rotor - magnetic pickup type - located on accessory gearbox.
+
+    Speed sensors (XNSD) LP turbine rotor - magnetic pickup type - located in the LP turbine rear frame.
+
+ 1  Low-pressure turbine inlet temperature (T48) sensor system - chromel alumel thermocouples - located on LPT case.
+
+ 2  Accelerometers - located on the gas turbine, compressor rear frame, and LPT rear frame.
+
+ 7  Resistance Temperature Detectors (RTD) will be provided to measure and monitor the temperature of lube oil in the Transfer Gearbox, the B-C sump, D-E sump scavenge lines, the accessory gearbox and the lube supply line to the gas turbine.
+
+ 1  Low-pressure turbine inlet pressure probe (P48) - total pressure - located on the low-pressure turbine case.
+
+ 1  Low-pressure compressor inlet temperature and total pressure probe (T2, P2) - located on the IGV case.  The probe is a dual element RTD (two separate RTDs in one probe).  The probe also includes a P2 (total pressure) sensing port.
+
+ 1  High-pressure compressor inlet temperature and total pressure probe (T25, P25) - located on front frame.  The probe will be a dual element RTD (two separate RTDs in one probe).  The probe also includes a P25 (total pressure) sensing port.
+
+ 2  Variable stator vane (VSV) position sensors - linearly variable differential transformer (LVDT) - located on the actuators.
+
+ 2  Variable bleed valve (VBV) position sensors - linearly variable differential transformer (LVDT) - located on the actuators.
+
+ 1  High-pressure compressor discharge temperature (T3) sensor - A dual element chromel - alumel thermocouple mounted on the compressor rear frame.
+
+ 3  Remote indicating chip detectors, located in scavenge oil return lines.
+
+ 2  Liquid manifold temperature sensors will be provided.  Type K thermocouples (furnished on dual-fuel or gas-fuel-with-water-injection units only).
+
+4 19           ENHANCED SPRINT System
+
+The system will utilize demineralized water as a sprayed “inter-cooler in-between the low pressure and high pressure compressors.  This “inter-cooling” lowers the compressor discharge temperature (T3).  The T3 temperature will typically be the limiting engine control point at higher ambient temperatures.  Cooling the T3 allows the unit to operate at another controlling limit, which will allow more fuel to be injected into the engine at a given engine inlet temperature (T2).  The water flow rates will vary depending on the (T2) conditions.  The maximum flow rate should not exceed 30 GPM of demineralized water.  The system will be programmed to operate automatically after being enabled.  It will shut itself down if the load falls below a pre-determined minimum loading, and if the T2 conditions fall below the point where SPRINT is no longer useful.
+
+
+           Water Injection System
+
+The water injection system consists of inlet strainer, valves, piping controls and a duplex or two simplex boost pump skid(s) to boost water pressure to the required pressure.  Purchaser must supply demineralized water to the customer connection located on the water injection boost skid.  A minimum supply pressure of 5 psig will be available during gas fuel operation at a maximum rate of 55 gpm.  NOx water cleanliness will satisfy GE M&IAD Spec MID-TD-0000-3. 
+
+
+
+5.0 GENERATOR AND AUXILIARIES
+
+5.1 Generator Design
+
+The generator will be an air cooled, self-ventilated, cylindrical rotor machine.  It will be a two pole synchronous generator with a brushless excitation system and a permanent magnet pilot exciter.  The generator utilizes an open, drip-proof design and will be packaged in a housing which reduces average noise levels to 85 dB(A) at 3 feet from unit and 5 feet above grade.  The rotor will be supported by two split sleeve bearings, which will be lubricated with a pressurized mineral oil system.  The generator has a design life of 25-30 years, utilizes Class F insulation and will be sized to operate with Class B temperature rise.  The generator will be capable of absorbing the site rated power output of the gas turbine for baseload operation throughout the entire ambient temperature range of the application.
+
+ The generator will be capable of a 110% power overload for 2 hours out of every 24 hours of operation with no loss of operating life.  The generator will also be capable of withstanding a 30% overload current for 1 minute.
+
+The generator and turbine shall be capable of operating at full output at plus/minus 3-percent frequency deviation continuously. 
+
+5.2 Brushless Excitation System
+
+ A brushless exciter will be furnished with each generator.  The brushless exciter will be the direct connected, rotating type, electrically and mechanically coordinated with the generator to insure a reliable generating unit.  The exciter will be powered by a Permanent-Magnet-Generator (PMG) mounted on the shaft of the main generator. 
+ A rotating, full-wave bridge rectifier converts the AC output of the exciter to DC, which will be fed directly into the generator field.  The voltage regulator controls the output of the exciter.
+
+
+
+
+5.3 Voltage Regulator System
+
+ The generator will be furnished with an auto-manual electronic voltage regulator system.  The voltage regulator system will be rack-mounted in the unit control panel and maintains generator output voltage within +0.5% under steady state operating conditions.  The voltage regulator utilizes single phase sensing circuitry and includes:
+
+ - diode failure alarm   - under excitation limiter
+ - flux limiter    - auto follower & null balance
+ - over-excitation limiter   - auto transfer to manual control 
+- volts per Hz control
+
+5.4 Neutral Cubicle and Line Side Cubicle
+
+Separate terminal boxes are provided on opposite sides of the generator to house the neutral and line terminals.
+
+
+5.4.1 Line Side Cubicle
+
+The line side cubicle will be the Purchaser's connection point to the high voltage output of the generator.  The cubicle bolts to the right hand side of the generator enclosure, as viewed from the exciter end.  It contains 3-phase power lugs, lightning arrestors and surge protectors and bus work.  The cubicle will be adequately sized to accommodate stress cones supplied by others.  The line compartment, provided by the Seller as an option, shall contain 6 CTs for generator protective relaying in Public Utility applications.
+
+
+5.4.2 Neutral Cubicle
+
+The neutral cubicle will be the Purchaser's connection point for grounding the generator.  The cubicle bolts to the left-hand side of the generator enclosure, as viewed from the exciter end.  Within the cubicle the three phases will be brought together to a "Y" point with bus bar.  The "Y" point will be connected to a high impedance grounding system* furnished by the Seller.  The grounding system includes a transformer and a secondary grounding resistor in an enclosure mounted on the neutral cubicle.
+
+The neutral cubicle contains 7 CTs supplied by the Seller; 3 for metering, 3 for protective relaying, and 1 for cross current compensation.
+
+
+5.5 Generator Accessories
+
+5.5.1 Stator Temperature Detectors
+
+ A minimum of six platinum resistance temperature detectors (two per phase) will be embedded in the stator windings.  The RTD's will be the 100-ohm at 32oF type.
+
+5.5.2 Bearing Temperature Detectors
+
+An embedded RTD will be provided for each radial bearing.  In addition, an RTD and local thermometer will be furnished in the drain line of each bearing.  Monitoring and temperature indications will be provided at the unit control panel.
+
+
+5.5.3 Space Heaters
+
+The generator will be equipped with space heaters located inside of the generator enclosure.  The space heaters will have adequate capacity to prevent condensation of moisture within the generator enclosure when the unit is not operating.  The space heaters will be designed for operation on a three phase, 480 VAC, 60 Hz system.  The space heater will be automatically switched ON/OFF by the unit control panel and a contactor in the Unit motor control center.
+
+
+5.5.4 Vibration Detectors
+
+Two Bently Nevada vibration detectors will be mounted 90 degrees apart at each radial bearing (Total 4).  The proximeters and cables will be wired to the main termination box in the generator compartment.  Monitoring equipment will be provided in the unit control panel.
+
+5.5.5 Ground Fault Monitoring
+
+Continuous electronic monitoring of the generator rotor winding and its connections will be provided.  Indication of a ground fault will be provided at the unit control panel.
+
+
+ 6.0 AIR INLET SYSTEM - MULTI STAGE DESIGN
+
+ The air inlet system:
+
+Maintains clean airflow required by the gas turbine, generator cooling, and enclosure ventilation.
+
+Minimizes frequency of high efficiency filter replacement.
+
+Permits the inclusion of optional equipment including inlet conditioning and anti-ice protection.
+
+
+6.1 Filtration Specifications
+
+The Unit air inlet system has a three-stage filter which removes 99.9 percent of all particles 5.0 micron and above under the specified environmental conditions.  The filter is not designed to protect the gas turbine against salt laden air.
+  
+
+ Total AirFlow: 335,000 SCFM
+
+ Engine Combustion Air   230,000 SCFM
+
+ Ventilation Air for Turbine & 105,000 SCFM 
+ Generator Compartments
+
+6.2 Filter House Construction
+
+6.2.1 General Arrangement 
+
+The filter house will be a three-section unit, assembled at the job-site.  The left side and right side filter house sections contain the filtering elements.  The center section will be a fabricated plenum with a bottom outlet for the filtered air flow.  Weather hoods shield the filter sections from driving rain or hail.  A pre-designed transition duct with expansion joint mates the filter to the engine enclosure.  Ladders and platforms will be furnished to provide access to the service doors at each filter section.  Internal walkways and lighting will be provided within each filter section to simplify operator changeout of filter elements.  The filtered airflow will be divided into two air streams by ducting within the filter assembly, providing:
+
+
+Combustion air for the gas turbine
+Generator Cooling Air
+Ventilation air flow for the generator and turbine compartment
+
+
+6.2.2 Material
+
+The filter housing will be constructed of steel plate.  Two (2) coats of protective paint will be applied to the exterior and interior carbon steel surfaces.
+
+6.3 Filtration System Details 
+
+6.3.1 Inlet Screen
+
+The inlet air passes first through a wire mesh screen that removes trash, paper, and other loose objects.
+
+6.3.2 Prefilter
+
+Next, the air stream passes through a replaceable pre-filter.  The pre-filter removes coarse particles and extends the life of the high efficiency barrier filter.
+
+6.3.3 Barrier Filter
+
+ The final filtration stage consists of a high efficiency barrier filter with an extended surface area.  The replaceable cylindrical canister filter elements will be rugged, provide high dirt-holding capacity and have low pressure drop.
+
+6.3.4 Restriction Indication
+
+A pressure switch will be provided for alarm and shutdown based on the filter system pressure drop:
+
+ - New and Clean (Typical)   4" H2O (9.9 mbar)
+ - Alarm     5" H2O (12.4 mbar)
+ - Shutdown    8" H2O (19.8 mbar)
+
+6.4 Air Inlet Anti-Ice 
+
+ Sixteen row heating/chilling coils will be installed in the combustion air stream located in the air filter house in which the customer can circulate a hot water/glycol solution to heat the inlet air of the gas turbine.  This protects against ice formation on the inlet bellmouth when temperatures drop below 45°F with relatively high humidity.  Ice entering the inlet of the gas turbine has potential to cause catastrophic damage.  The heating coils will be built with copper tubes and aluminum fins. The piping and equipment external to the coils, including valves, drains and controls will be provided by others. 
+
+
+
+
+6.5 High Performance Chilling Coils
+
+ This coil will be sized to lower the temperature of the inlet combustion air to 50oF, from a 95oF dry bulb and 74oF wet bulb.
+
+ Cold water supply, and piping, fittings, valves and controls exterior to the exchanger will be furnished by others unless the packaged chiller option is required as outlined in section 6.6 or heater package in section 6.7.
+
+ 6.6 Turbine Inlet Air Chiller Package (Optional Feature)
+
+ The seller offers a 2200 Ton single lift inlet chiller module measuring 14’W x 45’L x 12’H with an estimated operating weight at 114,000 lbs. Redundant pumps for the condenser and evaporator will be included as well as controls, switchgear, valves, piping, and insulation. For further benefit, the seller can supply as an option, a Marley Cooling Tower designed around the chiller module.
+
+ A complete indoor motor control panel containing all the electrical switchgear, breakers, and power distribution system is located inside the acoustically treated module. The Purchaser will provide one 480 volt and one 4160 volt feed to the chiller package. 
+
+6.7 Anti-Ice Heater (Optional Feature)
+
+ Depending on site conditions, this module will house between five and nine, one million BTUH input Natural Gas Fired Boilers.  This option allows for the advantage of utilizing the chilled water pumps already located on the chiller module.  A small stream of water/glycol will be taken out of the chiller water loop, heated, and then mixed downstream to give a minimum five degree temperature rise in the heater coil, with a corresponding combustion air inlet temperature increase of 10 degrees. Materials for integration with the Chilling module include, pumping, control, and auto changeover from inlet cooling to heating.
+
+Similar to the chiller module, the anti-ice heater includes the required electrical, lighting, starters, controls, and disconnects for a single point 480V, 3 phase, 60 hertz power connection. 
+7.0  ENCLOSURE, VENTILATION AND NOISE CONTROL
+
+7.1  Enclosure
+
+ The unit enclosure will be designed for outdoor installation and wind loads of 100 mph.  It will be divided into turbine and generator compartments by a bulkhead.  The inlet volute will be an enclosed structure located in the turbine compartment.   The turbine exhaust flows axially, out a flanged connection at one end of the enclosure.  Access doors and air conditioning (ac) will be located in each compartment. The engine compartment contains an integral overhead bridge crane to facilitate engine removal.
+
+ The enclosure walls utilize a sandwich construction filled with high-density fiberglass insulation blankets.  The inner wall panel will be fabricated from perforated 18-gauge stainless steel.  The outer wall panel will be 14-gauge cold rolled carbon steel.  The turbine and generator compartment walls will be supported by a structural steel framework and will withstand the internal pressure developed by the fire extinguishing system.  The enclosure hinges, latches and mounting hardware are stainless steel or chrome plated.
+
+7.2  Ventilation
+
+ The ventilation system removes heat from the turbine and generator compartments and reduces the hazards in the event of a fuel system failure.  Both the engine compartment and generator compartment will be fully ventilated by redundant fans.  Ventilation air will be filtered to the same quality as the combustion air for the gas turbine.  
+
+7.2.1  Gas Turbine Compartment Ventilation
+
+ Ventilation air enters the compartment at the bottom front center of the room.  The ventilation system maintains airflow of 60,000 SCFM through the gas turbine compartment.  During normal operation, 1 vent fan provides sufficient airflow for ventilation purposes.  If engine compartment temperatures reach 140 °F, the standby fan will assist until temperatures are below the high temperature alarm conditions.  The ventilation system maintains a negative pressure in the turbine compartment.
+
+7.2.2  Generator Compartment Ventilation
+
+ Duplex fans provide ventilation to generator compartment and cooling air to the generator.  During normal operation conditions, a single ventilation fan provides the 45,000 SCFM flow required for ventilation and cooling with the second fan on standby.  The generator compartment will be classified as a non-hazardous enclosure because a positive pressure is maintained.
+
+7.2.3  Noise Control
+ The equipment enclosure and air inlet silencer reduce near field noise to 85 dB(A) at 3 ft. from the enclosure and 5 ft. above grade.
+
+8.0  TURBINE EXHAUST SYSTEM (Optional Feature)
+
+ The UNIT exhausts through an axial exhaust outlet at the end of the turbine enclosure to facilitate in-line mounting of an optional simple cycle exhaust stack.  The stack assembly will consist of expansion joint, 85 dBA silencer, 90° elbow and 45-ft. stack.  An optional 15’ extension may be available separately.  For requirements greater than 60’, a separate reinforced assembly will be required.
+
+ The stack shall include EPA emissions ports with access ladders and platforms per recognized “Good Engineering Practice” design.
+
+
+
+9.0 STARTING & WATER WASH SYSTEMS AND AUXILIARY EQUIPMENT MODULE
+
+ The gas turbine will be started by an electro-hydraulic system that includes:
+
+
+An electric motor-driven hydraulic pump mounted on the auxiliary equipment module. 
+A hydraulic motor mounted on the turbine auxiliary gearbox, which rotates the HPC.
+Controls, valves, filters, interconnect hoses and heat exchanger.
+
+ The same system cranks the turbine for purging, water washing, and cool down.
+9.1 Starting System Operation
+
+ To start the gas turbine, the hydraulic motor must 
+
+
+rotate the HPC to purge the engine 
+accelerate the HPC to ignition speed 
+continue acceleration to self-sustaining speed
+
+ The starter accelerates the HPC to 2,200 RPM, and cranks at this speed for two minutes to purge the exhaust stream for simple cycle applications.  The purge cycle is a safety measure performed at the onset of each start routine.
+
+ After completing the purge cycle, the HPC slows to a light-off speed of 1,700 RPM.  Once ignition is verified, the starter and the turbine then work together to accelerate the HPC to 4,500 RPM, where the starter disengages automatically.  The gas generator continues to accelerate until it reaches idle speed and is stabilized by the governor.  The turbine will then be self-sustaining and support a start time of ten minutes or less as defined in section 3.1.
+
+9.2 Hydraulic System Description
+
+ The hydraulic starting system consists of:
+
+ Hydraulic cranking motor (mounted on turbine auxiliary gearbox)
+
+ And the following equipment mounted on the auxiliary equipment module:
+
+
+200 HP (150 kW) electric motor
+6000 psi hydraulic pump
+40-gallon hydraulic reservoir
+Air/Oil cooler with hydraulic fan motor
+Duplex Filter
+Control system
+
+ The hydraulic circuit will be a closed loop design with a 40-gallon reservoir.  The system requires an initial fill of approximately 35 gallons of ISO VG 46 premium, anti-wear petroleum based hydraulic fluid.  A small charge pump on the cover of the main pump draws fluid from the reservoir to prime the system during each start cycle.  The control system modulates pump flow from zero to approximately 55 GPM during the starting cycle.  This flow regulation permits accurate control of gas generator speed for purging, ignition and acceleration.  The Air/Oil cooler prevents overheating of the hydraulic oil and permits extended cranking for cool down or water wash.
+
+ 9.3 Water Washing Equipment
+
+ The following equipment will be mounted on the auxiliary equipment module:
+
+ - 304 Stainless steel water wash reservoir
+ - Manual fill connection for washing chemicals
+ - Manual water fill valve
+ - Solenoid valves for water wash sequencing  
+ - Interconnect hoses between auxiliary skid and main unit  
+
+ The following equipment will be mounted in the turbine enclosure:
+
+ - "On-line" spray nozzles
+ - "Crank-soak" spray nozzles
+ -  Stainless steel piping
+
+ Purchaser will supply compressed air,  between 80-120 psig filtered to 20 microns, cleaning solution, and demineralized water for the water wash system.
+
+9.3.1 Cleaning Solution Specifications
+
+ The LPC and HPC sections of the engine will be cleaned with a water/detergent mixture followed by a thorough rinsing.  Rochem solvent and B&B Chemical Company compound 3100 are recommended cleaning agents.  Other cleaning agents must conform to GE standard MID-TD-0000-5.  Water will be used to dilute the solvent and also for rinsing after completion of the cleaning process.  A water/anti-freeze mixture must be used for dilution and rinsing in ambient temperatures of 50oF, or below.  See above specifications for suitable anti-freeze recommendations.
+
+9.3.2 Water Quality Standards
+
+ Please refer to the attached GE Spec MID-TD-0000-4 for compressor cleaning water requirements.
+
+
+10.0 LUBE OIL SYSTEMS
+
+The gas turbine will be lubricated with synthetic lube oil.  A separate lube oil system using mineral oil will be provided for the electric generator.
+Fin fan coolers or water to oil coolers will be used for lube oil cooling.  Coolers will be built to the same specifications as the other auxiliary equipment supplied with the Unit including paint specification, weld specification, seismic design, and wind loading.  Coolers will be designed to operate in ambient conditions up to 95°F.  Coolers will be carbon steel with 304 stainless tubes and aluminum fins.  Fans will be aluminum with 7-½ hp Marathon motors. 
+
+10.1 Gas Turbine Lube Oil System
+
+1. Supply System - Provides clean, cool oil to the turbine bearings at the proper pressure.
+
+2. Scavenge System - Recovers (scavenges) the lube oil from the bearing drain sumps, then filters and cools the oil and returns it to the reservoir.
+
+ These sub-systems combine to provide dependable and efficient lubrication for the gas turbine. 
+
+
+10.1.1 Gas Turbine Lube Supply System
+
+ Approximately 130 U.S. gallons of lube oil are stored in the 150 U.S. gallon capacity stainless steel reservoir mounted on the auxiliary equipment module.  The reservoir will be fitted with a low level alarm switch, a level gauge, a filler connection, and a vent demister.  An electric heater with thermostatic control will be included.
+
+ A positive displacement lube oil pump, mounted on the gas turbine accessory drive gearbox, takes suction from the lube oil reservoir.  The pump provides approximately 17 GPM of cooled, filtered lube oil to the turbine bearings.
+
+ Oil from the pump discharge will be filtered by a duplex, full-flow filter (6 microns absolute) located on the auxiliary equipment module for ease of replacement.  Filter elements can be serviced during turbine operation. A local differential pressure indicator will be provided to monitor the lube oil filter condition.  A high differential pressure alarm will be provided to indicate that filter service is required.   
+
+ Lube oil supply temperature will be measured by an RTD.  The temperature will be shown on the control panel CRT, and controls provide high temperature alarm and shutdown.  The lube oil supply passes through an anti-siphon check valve and will then be distributed to the bearing chambers where oil is sprayed onto each engine bearing.  Pressure switches provide low-pressure alarm and shutdown signals to protect the turbine.
+
+10.1.2 Gas Turbine Lube Scavenge System
+
+ Lube oil is removed from the bearing sumps by a 5 element scavenge pump.   RTDs measure scavenged oil temperature at sumps B, C, D, and E.  Scavenge oil temperature will also be measured via RTD at the accessory gearbox and transfer gearbox discharge.  , with readout, alarm and shutdown at the unit control panel.  A check valve on the pump discharge prevents siphoning of oil back into the engine during shutdown.
+
+ The scavenged oil will be filtered through a duplex full-flow filter (6 microns absolute) located on the auxiliary equipment module.  A local pressure indicator and pressure instrumentation will be provided to indicate when filter service is required.  
+ 
+10.1.3 Air/Oil Separator Operation
+
+ To prevent excessive oil consumption, the bearing sumps will be vented to an air/oil separator rated to minimize oil carryover to the environment per accepted “Good Engineering Practice”.  The air/oil separator is mounted on the ventilation module on top of the generator set enclosure.  The recovered oil will be returned to the reservoir by gravity flow.  The air removed from the mixture will be de-misted and vented to the atmosphere.
+
+10.2 Generator Lube Oil System
+
+ The generator lubrication system provides approximately 30 GPM of cooled and filtered oil to the generator bearings.  The generator lube oil reservoir, pumps and filters will be located in the generator compartment.  Two doors provide easy access to these components, and the operator can check the lube oil gauges without entering the generator compartment.  The lube oil filters may be changed while the unit is operating. 
+
+  
+10.2.1 Generator Lube Oil Supply
+
+ The stainless steel reservoir includes a sight level gauge, fill connection and drain valve.  A switch provides a low-level alarm at the unit control panel.  A thermostatically controlled immersion heater will be provided to maintain adequate lube oil temperature in the reservoir.  
+
+ The main oil pump will be a gear type and mechanically coupled to the generator shaft outboard of the exciter.  An AC motor-driven auxiliary lube oil pump will be used during the start/stop sequencing and as a backup to the main pump.  Rundown tanks provide lubrication during coast down, if the AC lube oil pump should fail or if AC power is lost.
+
+ Oil flow will be regulated at each bearing housing by an orifice plate.  The oil flows through the orifice and into the bearings and forms a film that cools and lubricates the journal.  Pressure switches at the bearing supply header provide low pressure alarm and shutdown signals to the unit control panel.  
+
+ If the supply pressure drops, a low lube oil pressure switch automatically starts the auxiliary lube oil pump. If the lube oil pressure falls to a lower level, the turbine generator set shuts down and special “run-down” oil tanks slowly feed the generator bearings during coast down.
+
+ The primary and auxiliary lube oil pumps can each supply 100% of the generator lube oil requirements.  Each pump will be equipped with a pressure relief valve piped to the reservoir.  Lube oil pressure at the supply header will be controlled by a pressure-regulating valve, which bypasses excessive oil flow to the reservoir.
+
+ A local pressure indicator and pressure instrumentation will be provided to indicate when filter service should be required. Filters may be serviced during operation. 
+
+10.2.2 Generator Lube Oil Return
+
+ Each bearing will have a gravity drain and sight glass, which permits the operator to visually verify oil flow.  A dual element RTD will be embedded in each bearing to measure the actual metal temperature.  These RTDs will be continuously monitored at the unit control panel and provide alarm and trip signals.  In addition, an RTD and a temperature gauge will be provided in each drainpipe to monitor bearing discharge oil temperatures.
+
+
+
+11.0 FUEL SYSTEM AND WATER INJECTION SYSTEM 
+
+ The base gas turbine will be configured for gaseous fuel operation.  
+11.1 Gaseous Fuel System
+
+ The gaseous fuel system contains the following major components that are to be mounted in the turbine compartment, adjacent to the engine:
+
+
+Duplex gas strainer, pressure switches and local gauges
+Primary shut-off valve
+Fuel metering valve
+Secondary shut-off valve
+Fuel flow meter
+Fuel gas manifold
+30 Fuel gas nozzles
+
+ Gaseous fuel will be supplied to the baseplate connection at 675-psig ± 20 psi for full power operation.  A Purchaser supplied filter, pressure regulator, pressure relief valve and manually operated shut-off valve will be installed in the purchaser fuel supply system adjacent to the Unit baseplate.
+
+ To protect the turbine against both high and low pressure conditions, the gaseous fuel system will be provided with pressure switches located upstream of the fuel control valve.  The fuel control valve will be an electrically actuated Woodward design.  The fuel control valve provides an accurate, non-pulsating flow of fuel to the engine for initial light off, acceleration and on-line operation.
+
+11.2 Gaseous Fuel Specification
+
+ The minimum temperature of gas fuel supplied to the gas turbine shall be either 50°F greater than the saturated vapor temperature of the gas at the supply pressure or the hydrate temperature, whichever is greater.  The temperature of the gas fuel should not exceed 300°F at the gas fuel manifold inlet.  Gas fuel temperatures above 300°F will result in a shutdown procedure.  The gas fuel will be defined for each application by the Purchaser and should comply with the attached GE Spec MID-TD-000-1 .  
+
+11.3 Water Injection 
+
+ The water injection metering system is added to reduce NOx emissions.  Demineralized water will be injected into the combustor through ports in the fuel nozzles to produce NOx suppression.  Water will be supplied to the nozzles by a special water manifold.  The Seller will supply the complete metering system, controls, and boost pump skid.
+
+11.3.1 Water Quality Specifications
+
+ Purchaser will supply demineralized water to the Seller defined connection on the water injection boost skid.  A minimum 5-psig, supply pressure will be available to the Seller at a flowrate of 55 GPM per GE Spec MID-TD-0000-3 for NOx water requirements.  
+ 
+
+
+12.0 FIRE AND GAS DETECTION AND EXTINGUISHING SYSTEM
+
+12.1 General
+
+ The gas turbine generator set includes an extensive safety system to detect fire, unsafe temperatures or explosive atmospheres in the equipment enclosure.  The system releases CO2 should a fire be detected.
+
+ The enclosures will be designed to reduce the hazard of fire and explosion.  A wall separates the turbine and generator/gearbox compartments to provide isolation.  Individual ventilation systems, with redundant fans, create a positive pressure in the generator/gearbox compartment and a negative pressure in the turbine compartment to maintain separation.  In addition to this fundamental safeguard, gas detectors, thermal detectors, optical flame detectors and an extinguishing system that conforms to NFPA will protect the enclosures.  
+
+12.2 Unit Mounted Equipment
+
+12.2.1 Gas Detectors
+
+ Two (2) hydrocarbon gas detectors will be provided in the turbine compartment near the ceiling.  A third detector will be located in the front of the generator compartment.  If any gas detector senses a gas concentration of 15% LEL, a warning will be initiated.  If a sensor detects a gas concentration of 60% LEL, an emergency shutdown will be initiated.
+
+12.2.2 Optical Flame Detectors
+
+ Four (4) optical flame detectors will be provided. Three (3) are mounted in the front of the engine compartment and operate with 2-out-of-3 voting logic.  One (1) optical flame detector will be mounted in the generator compartment.  A flame indication by the generator room sensor or any two (2) engine room sensors initiates an emergency shutdown and extinguishing agent release.
+
+12.2.3 Thermal Detectors
+
+ Thermal detectors monitor the enclosure temperatures as follows:
+
+ GAS TURBINE ENCLOSURE:
+
+
+Two (2) RTDs.  Alarm at 140o F and shutdown at 150o F.
+Two (2) spot temperature detectors.  Shutdown at 450o F.
+
+ GENERATOR ENCLOSURE:
+
+
+One (1) RTD.  Alarm at 115o F and Shutdown at 150o F.
+Two (2) spot temperature detectors.  Shutdown at 225o F.
+
+ In addition to alarm and shutdown functions, the RTDs provide enclosure temperature signals for the unit control panel CRT.  The spot temperature detectors will be a bimetallic design and respond to both rate-of-rise and compartment temperature.  They cause a unit shutdown and release of the extinguishing agent when tripped.
+
+12.2.4 Manual System Trip
+
+ Three (3) manual trip stations will be located on the rotating equipment module; one (1) on each side, near the center of the package, and the third at the exciter end of the generator.
+
+12.2.5 Extinguishing System
+
+ A CO2 extinguishing system will be provided with the Unit package.  The system components include:
+
+
+Main extinguishing agent storage cylinder(s)
+Reserve extinguishing agent storage cylinder(s)
+Necessary valves, piping and wiring
+
+ The extinguishing agent will be stored in pressurized cylinders in a mounting, complete with rack and clamps to hold the cylinders and piping to connect the cylinders to the distribution header and nozzles.  The reserve cylinders will be an "automatic backup", and will be released if detectors still indicate a hazard ninety (90) seconds after release of the main cylinders.
+
+ The piping within the equipment package, from the pressure connection to the nozzles in the turbine and generator compartment, will be installed.  The fire system control panel controls release of the extinguishing agent.
+
+12.3 Fire System Controls
+
+12.3.1  General
+
+ The fire and gas detection system will be controlled by solid-state modules, which are to be rack-mounted in an enclosure on the front of the unit control panel.  These modules monitor signals from the detectors mounted on the equipment.  Other panel-mounted modules provide logic, memory and output functions to complete the system.
+
+12.3.2 Power Supply
+
+ In accordance with NFPA, the fire and gas detection controls will be powered by a dedicated 24V DC battery system.
+
+12.3.3  Sensor Monitoring
+
+ Each equipment mounted sensor will be monitored by the fire and gas detection system control panel.  Solid state modules compare each signal to alarm and shutdown set points.    Readout of gas detector signals will be provided in the HMI.  An alarm from any gas detector provides a contact closure in the alarm summary channel and sounds the panel alarm horn.  A shutdown signal from a gas detector, optical detector, thermal detector, or manual station provides a contact closure in the shutdown summary bus.  This closure initiates an emergency shutdown.
+
+12.3.4  Defective Sensor Protection
+
+ Each sensor will be connected with closed loop circuitry to verify its readiness.  Should the sensor or its wiring become defective, a "fault" condition will be indicated on the fire and gas detection control panel.  A faulty sensor will not trip the unit nor initiate an extinguishing agent release.
+
+12.3.5 Extinguishing Agent Release Logic
+
+ When a CO2 release situation may be imminent, ventilation fans will be turned off and a horn will sound.  After a time delay, the extinguishing agent will be released into both generator and turbine compartments.  Fire dampers will be closed the instant CO2 should be released. 
+
+ A concentration level sufficient to extinguish flames will be established in approximately thirty (30) seconds.  If the primary cylinders fail to discharge within four (4) seconds, the reserve cylinders will be discharged.  If flames are still detected ninety (90) seconds after the primary extinguishing agent cylinders have been discharged, the reserve cylinders will be discharged.
+
+13.0 CONTROL AND MONITORING SYSTEM
+
+ General Description
+
+ The control and monitoring system for the gas turbine generator set will provide a highly reliable, operator friendly package.  System components will include:
+
+
+Turbine Generator Unit Control Panel
+Control Batteries and Charger Assembly
+Gas turbine wet gauge panel and water wash panel (local)
+Generator wet gauge panel (local)
+
+ The unit control panel will be the primary control point for the system.  The gas turbine wet gauge panel will be mounted on the turbine enclosure and provides process readouts and safety devices necessary for maintenance.  Switchgear cubicles containing circuit breakers, protective relays, transformers and motor control center equipment may be available as optional equipment, as described in Section 16.
+
+13.1 Unit Control Panel
+
+13.1.1  General
+
+ The unit control panel will be the focal point for operating the gas turbine generator system.  The panel uses state of the art electronics and is suitable for installation in a non-hazardous local control room near the gas turbine generator.  The control panel includes digital meters for key parameters control switches and HMI for operator commands, a programmable, microprocessor based sequencer, a CRT display, and Ethernet port to export data to a customer DCS, remote terminal or printer.
+
+13.1.2  Remote Panel Interface
+
+ The Unit Control Panel will have a built-in interface for easy connection of a Purchaser's Remote Control Panel or Distributed Control System.
+
+ The Unit Control Panel will accept Start/Stop and other operating commands from "dry" relay contacts in the Purchaser's system.  This allows the Gas Turbine/Generator to be integrated into the Purchaser's overall plant control system.
+
+ To provide information at a remote location, the Unit Control Panel transmits status information (Stopped, Starting, Running, etc.), Alarms and Shutdowns, and operating parameters (Pressure, Temperature, Flow, etc.) via an Ethernet port in the sequencer.  The Purchaser may use this information on a remote CRT to monitor the operation of the unit.
+
+13.1.3  Cabinet Construction
+
+ The unit control panel will be housed in a freestanding cabinet.  The cabinet will be constructed of welded cold rolled steel.  Approximate dimensions are 90"H x 114"L x 30"D.
+
+ Special care will be given to panel appearance and finish.  A high quality corrosion protection, primary painting and finish painting process will be employed.  The standard finish will be textured semi-gloss ANSI gray color paint
+
+13.2 GE Mark VI Fuel Control/9070 Sequencer
+
+ A GE Mark VI Fuel Control/9070 Sequencer in the unit control panel provides sequencing, monitoring and fuel management control for the system.  The Mark VI uses a 32-bit processor and high-speed digital circuitry to control the turbine and generator.  A front-mounted HMI will permit tuning of selected system variables while in operation.  Plug-in modules provide flexibility of operation and permit future system expansion.
+
+ The Mark VI controls turbine speed with an electrically actuated fuel valve mounted in the engine room adjacent to the turbine.  
+
+13.2.1  Fuel Management System 
+
+ The Fuel Management System provides the following:
+
+13.2.1.1 Light Off Fuel Control
+
+ This function accurately controls minimum fuel flow for reliable engine light off.  
+13.2.1.2 Acceleration Control
+
+ This function controls the rate of increase of fuel flow to the engine.  While increasing the gas generator speed, the acceleration control continuously checks the rate of speed increase to prevent over fueling conditions which could damage the engine.
+
+13.2.1.3 Deceleration Control
+
+ This function prevents flameout by controlling the rate of reduction of fuel flow to the engine.  The deceleration schedule will be a function of HPC minimum speed, corrected by compressor inlet temperature, which will be set to prevent flameout.
+
+13.2.1.4 Temperature Control
+
+ The gas generator LP turbine inlet temperature (T48) will be monitored at all times.  During start-up and acceleration the temperature limits will be lower than the steady state, full-power limit.  After the engine has accelerated to operating speed, the engine will be allowed to operate at its base load T48 temperature to produce full power.
+
+13.2.1.5 Speed Governing
+
+ The Fuel Management Systems varies the speed of the high-pressure compressor by controlling the rate of fuel flow.  For maximum safety and stability, the fuel management system incorporates "low select" circuitry.  This circuit uses the lowest of the following signals to control the high-pressure compressor speed:
+
+ . High-pressure compressor speed control 
+ . Low-pressure compressor/output shaft speed control
+ . Maximum temperature control 
+ . Acceleration control
+ . Deceleration control
+  
+
+13.2.2  Programmable Sequencer 
+
+ The programmable sequencer controls automatic starting, running and stopping of the turbine generator set.  Programmed time delays will be used to ensure that the sequence will be orderly and that permissive conditions exist before starting the next event.  This careful sequencing provides dependable control and permits the unit to be started and stopped, either locally or remotely, with a single pushbutton.
+
+13.2.2.1 Starting Sequence
+
+ A "ready to start" indication shows that the required trips have been reset, the start permissive sequence has been accomplished, the oil and bearing temperatures meet minimum start temps, and the unit stands ready to be restarted.
+
+ From a "ready to start" condition, the following automatic start and load sequence will occur when the operator turns the "start" switch:
+
+
+The GE 9070 PLC turns on the primary ventilation fans;
+The generator AC lube oil pump system activates and output pressure will be verified;
+The starter motor switches on, and the engine begins cranking at 2,200 RPM to purge the system for a minimum of two minutes, depending on exhaust configuration;
+Engine slows to 1,700 RPM;
+The fuel system shutoff valves open;
+The ignition system starts;
+The turbine fires and accelerates to 4,500 RPM;
+The starter disengages, and the turbine accelerates under its own power to idle speed;
+The ignition system de-energizes.
+The turbine warms-up at idle speed for a pre-set time before automatically ramping to synchronous speed;
+Generator voltage builds;
+The automatic synchronizer matches generator speed, phase and voltage to the electrical bus;
+The synchronizer issues a "breaker-close" command (verified by two "synch-check" relays) and the breaker closes;
+The "ready to load" indicator turns on and the operator can begin loading the generator manually.  (Optional automatic loading can also be supplied).
+
+ Sequence events must be completed within preset times, or the start will be aborted.  The sequencer provides similar automatic shutdown sequence when the Stop button is pushed.
+
+13.3 Additional Control System Functions
+
+ The control system also includes the following equipment and control functions:
+
+13.3.1  Engine Temperature
+
+ Eight chromel-alumel dual element thermocouple probes measure the LP turbine inlet temperature.  A connecting harness permits individual readout of the eight input signals, which will be transmitted to the unit control panel and used by the fuel management system.
+
+13.3.2 Low Pressure Compressor (LPC) Speed
+
+ Two eddy-current type speed sensors will measure the low-pressure shaft speed .  These sensors detect the blade-passing frequency and provide an electrical signal to the fuel management system.  This signal will be used to control acceleration and output shaft speed, and to actuate overspeed and underspeed switches.  The LPC speed will be indicated on the unit control panel.
+
+13.3.3  High Pressure Compressor (HPC) Speed
+
+ Two magnetic pickups in the accessory gearbox sense HPC speed.  The speed signals will be used by the fuel management system to control acceleration/ deceleration and to activate switches in the control sequence, including overspeed alarm and shutdown.  The HPC speed will be indicated on the HMI.
+
+
+13.3.4  Alarm and Shutdown System
+
+ A comprehensive alarm and shutdown system will be provided for the turbine generator set and its auxiliaries.  Field-mounted sensing devices (level, pressure, temperature, etc.) provide signals to input modules of the programmable sequencer and fuel management system.  If an abnormal condition should be detected on any sensor, then an alarm and/or shutdown will be initiated.  A HMI display indicates system malfunctions sequentially.  An optional hard copy printer provides a sequential history of alarm and shutdown conditions.
+
+ An “acknowledge” push button on the unit control panel HMI silences the audible alarm.  Pressing the Reset button clears the HMI display if the system faults have been corrected.
+
+ For additional safety following a shutdown, the operator must acknowledge and reset the alarms before restarting the turbine.
+
+13.3.5  Vibration Monitor
+
+ Vibration monitoring will be provided for the gas turbine and electric generator.  Two accelerometers on the Gas Turbine casing will be monitored in accordance with the General Electric Aircraft standards.  Two (2) Bently Nevada proximity probes will be located at each generator bearing (total four (4) probes).
+
+ A Bently Nevada vibration module mounted in the unit control panel continuously monitors each vibration channel.  Vibration levels will be indicated on the HMI.  Excessive vibration causes alarm or shutdown.
+
+13.3.7  Automatic Synchronizer
+
+ Synchronization may be accomplished manually with the synchroscope in the unit panel, or by selecting an automatic synchronizer included in panel.  The auto synchronizer matches the generator's frequency, phase and voltage with the bus and then issues a "breaker close" command signal.  The "breaker close" signal (auto or manual) will be monitored by two (2) independent "synch check relays" to prove synchronization before breaker closure will be permitted.
+
+13.3.8  Control Batteries and Charger Assembly
+
+ A 24-volt DC lead calcium battery system, complete with dual chargers and integral protection equipment will be furnished.  The battery system will be capable of supplying the control loads for at least three (3) hours without recharging.  The battery rack will be made of steel, properly insulated and painted with two (2) coats of acid resistant paint.
+
+ The two (2), 100% battery chargers have 208 volt, 60 Hz, 1 phase power supply.  The chargers will be the static rectifier type.  Either charger, operating alone, can maintain the battery fully charged.
+
+13.3.9  Fire and Gas Detection System
+
+ The Seller will provide an independent control rack dedicated to the monitoring of optical flame detectors, thermal detectors and gas detectors as part of the unit control panel.  The rack will be as described in detail in Section 13.  The fire and gas detection system will have it own independent 24V DC battery system with charger.
+
+13.3.10  Gas Turbine Wet Gauge and Water Wash Panel (Local)
+
+ Gauges showing system temperatures and pressures will be mounted in a panel on the side of the main enclosure.  Controls to "water wash" the turbine will be conveniently located in a small panel, near the water wash equipment.  The water wash controls will be interlocked with the turbine control panel for safe operation.
+
+13.3.11  Generator Wet Gauge Panel (Local)
+
+ Gauges for the generator lube oil system will be located on a small panel adjacent to the generator lube oil reservoir.  The gauges may be monitored without entering the generator compartment.
+
+
+
+14.0 TESTING 
+
+14.1 Gas Turbine Test   
+
+ The gas turbine will be full-load tested at the factory to verify power capability, fuel efficiency and mechanical integrity.  A copy of the factory test report is included in the documentation package.
+
+14.2 Generator Test
+
+ The generator will be built in accordance with ANSI C50.14 or IEC 34-3 and tested to IEEE 115 standards.  The factory tests include high voltage, cold resistances, bearing insulation and vibration levels, open and short circuit losses, voltage and current balance and phase rotation. These tests will be performed at the generators manufacturers works.
+
+14.3 Generator Set Package Testing
+
+ A full load string test will be performed on six of the twenty-four gas turbine generator sets at the Seller’s factory.  The proper operation of the selected entire units will be tested and confirmed, including the gas turbine, generator, fuel management system, alarm and shutdown devices, auxiliary systems and unit vibration.  Electrical loads will be picked up and rejected.  Water injection valves and piping will be checked for completeness and operation.  The water injection system will not be tested during the full-load string test.
+
+ The remaining generator sets will undergo an Unfired Test Procedure that includes functional check-out of the generator set without firing the turbine and generator together.  This procedure includes oil-flushing, verification of piping connections, and calibration of instruments- the same steps taken for a fired test.
+
+ Electrically, each individual control panel will be powered up, loaded with software, and fully simulated in our test lab to test the safeties and alarms.  Furthermore, the Bently Nevada system will be calibrated and the Integrated Generator Protection System programmed.  As a final check, the Seller connects the control panel up to available diesel generators on the test facility to certify the synchronizer circuits.  The Unfired Test results will be measured, recorded and included in the Test Report for submittal to the Purchaser.
+
+14.4 Field Performance Testing
+
+ Performance and Sound Level Tests shall be performed in accordance with the Commercial Contract, (Exhibit F).
+
+
+15.0 ELECTRICAL EQUIPMENT
+
+15.1 Purchaser’s Electrical Interface
+
+ The package will be arranged to simplify the Purchaser’s field connections.  Electrical devices on the rotating equipment module will be wired to junction boxes in the turbine and generator compartments.  Neutral and line-side cubicles will be bolted onto the outside of the generator enclosure for the Purchaser's power connections.  
+
+15.2 Area Classification
+
+ Electrical components located inside the turbine compartment will be suitable for Class I, Group D, Division 2 areas.  This applies primarily to switches, sensors and electrically actuated valves.  Engine mounted instruments and the 115-volt AC ignition system used during start-up will be constructed to aircraft standards, and, in general, meet the requirements of Class I, Group D, Div. 2, but need not be so qualified or stamped.  The filter house, roof-mounted fans, generator compartment, auxiliary equipment module and optional control house will be classified as non-hazardous areas.
+
+15.3 Electric Motors
+
+ The AC electric motors 5 HP (3.7 kW) and larger are 460V AC TEFC or explosion proof motors with a 1.15 service factor. Continuously running motors will be the "high efficiency" type.  Nameplate ratings and normal operating loads for each motor will be selected based on system requirements, which have been proven through the Seller’s experience on numerous successful installations.
+
+15.4 CTs, Lightning Arrestors, Surge Capacitors
+
+ Seller shall furnish seven CTs, mounted in the neutral cubicle; three (3) for metering, three (3) for generator protection and one (1) for cross current compensation.  Three (3) lightning arrestors and three (3) surge capacitors will also be mounted in the line-side cubicle.  Optional line-side CTs for redundant protective relaying may also be provided.
+
+15.5 Generator Metering
+
+ The unit control panel supplied includes a synchroscope and a front mounted digital meter for frequency, voltage, amperage, power factor and vars.  A rack mounted microprocessor based electronic voltage regulator, with both VAR and PF control, will also be included in the unit control panel, along with the rotor ground-fault detection equipment.  
+
+15.6 Lighting
+
+ The scope-of-supply includes AC lighting for the interior of the gas turbine compartment, filter house and generator compartment.  Turbine and generator compartments will be fitted with high-pressure sodium fixtures.
+
+15.7 Modular Control Room (Optional Feature)
+
+ The Seller may supply an optional control room as required by the Purchaser.  When required, the control rooms will be designed to accommodate GT control panels, motor control centers, and unit battery/charger systems.  The control room will be a single lift module using a steel I beam base.
+
+15.7.1  Structural Design
+
+ The modular control room base will be fabricated with 8" wide flange beams welded into a rigid baseplate.  The control room walls will be a "sandwich construction,” consisting of an 18-gauge carbon steel outer panel, 3” of fiberglass insulation and an inner panel of 18-gauge galvanized steel.  The floor-plate will be 1/4" carbon steel.
+
+15.7.2  Air Conditioning/Heating
+
+ The modular control module will be equipped with redundant air conditioning units.  For colder climates, heat pumps may be substituted, or the control module may be arranged with supply/return flanges for Purchaser-supplied heating and cooling fluids.
+
+15.7.3  Lighting
+
+ The modular control room will be complete with ceiling-mounted fluorescent lighting fixtures and switches at each entrance door.
+
+15.7.4  Equipment in Modular Control Room
+
+ Seller will mount the unit control panel, batteries and chargers and Purchaser-selected optional equipment in the modular control room.  Optional items often include:
+
+
+Switchgear (See 15.8 )
+Unit Motor Control Center (See 15.10 )
+
+15.7.6 Battery Room
+
+ The modular control room contains a separate area for battery racks and charger assemblies.  The basic scope-of-supply includes a 24V DC battery pack with a capacity of 300 AMP hours, redundant 208VAC chargers for the unit control system, a 24V DC battery pack with a capacity of 55 AMP hours and a single 120V AC charger for the unit fire protection system.  A separate 125V DC battery/charger assembly to power the switchgear may be provided as an option.  The chargers will be wall-mounted near the battery room and wired to the rack-mounted batteries.
+
+
+15.8 Switchgear (Optional Feature)
+
+ The metal clad switchgear, includes a generator circuit breaker, draw out potential transformers and high-voltage current transformers for generator protective relaying.  The switchgear may be supplied as ship-loose cubicles, for installation by others at the job site, or as part of an integrated modular control room as described in Section 15.7.
+
+ The main generator breaker and auxiliaries will be mounted in a cubicle approximately 36"W x 94 "D x 95 "H, containing the following components:
+
+
+1 - 3000 AMP, 3 phase, 3 wire, main bus system, copper, fully insulated for 15 kV
+1 - 1/4" x 2" copper ground bus
+1 - Set (3) 3000 AMP insulated copper bus bars.
+1 - 3000 AMP, 3 pole, 15 kV, 1000 MVA - electrically operated drawout type, vacuum  circuit breaker, 125V DC close and trip (GE type VBB-1-15-1000-30 or equal)
+4 - Drawout type PTs (for synchronization, protection and metering)
+3 - CT's (for generator differential protection)
+ 
+
+15.9 Generator Protection 
+
+ The generation protection module will be rack mounted in the gas turbine control panel and contains the following protective functions:
+
+
+#59N – Neutral Overvoltage
+#51V AC Time Overcurrent – Voltage Restrained
+#87 Phase differential current
+#46 Reverse phase current
+#27 Undervoltage 
+#59 Overvoltage
+#40 Field failure
+#81 Over/under frequency 
+#24 Overexitation
+#60 Balanced voltage supervision
+#21 Directional impedance
+#xx Inadvertent energization 
+
+15.10 Unit Motor Control Center (MCC) (Optional Feature)
+
+ The MCC will be built in accordance with NEMA 1, Class 1, with Type B wiring.  The MCC will be a freestanding unit, and may be incorporated into the modular control room as described in Section 15.7.
+
+ The standard MCC includes: 
+
+
+Modular, plug-in starters or contactors for each motor or 480-volt load in the Unit package.
+Lighting transformer, 15 to 45 kVA, 3 Phase, dry type, 480/208 /120 volt.
+Lighting distribution panel with circuit breakers for individual /120 volt loads in the Unit package, Integrated into the MCC with the transformer.
+
+
+
+MAINTENANCE, SPECIAL TOOLS AND SPARE PARTS
+
+16.1 Special Tools and Fixtures
+
+ Special tools and fixtures are required to provide Level 1, maintenance activities.  These are as listed below and offered at a separate price.  The Seller will provide the bridge crane required for removing and installing the turbine from the engine compartment in the basic scope of supply.  
+
+ The items listed in the fixtures group designated with (*) are required at initial start-up and shall be furnished by the Seller without charge if returned undamaged within 60 days (freight prepaid). 
+ Fixtures Group     Quantity
+
+
+*Main Baseplate lifting pins         1
+*Main Baseplate rigging cables        1
+*Alignment tool          1
+*Alignment axial gauge         1
+*Alignment spreader tool         1
+
+ Level I Maintenance Tools**(optional)
+
+ Nomenclature     Tool Number
+ 
+
+Engine Handling Support   Tool # Not Assigned
+Dolly, Engine Transfer   TC9025
+Gage, Immersion Depth Igniter  1C9096/2C6613
+Borescope Set     2C6388/GE-CTF-120-5
+Wrench Set     2C6352/1C6344
+Kit, Mechanics Hand Tool   9448M18G01/GE-CTF-106-80C
+Tool Set, Engine Rigging   1C5714G05
+Actuator Unit     2C6395/1C3569
+Tool Set, Radial Drive Shaft   1C6361
+Wrench, Speed Sensor - S.V.   1C8062
+VSV Transmitter    2C6451
+VSV Indicator     2C14232
+Installation/Removal Tools   Tool # Not Assigned
+Adapters     Tool # Not Assigned
+Gages      Tool # Not Assigned
+
+ **This list is preliminary.  Please consult S&S Energy Products for current details.
+
+16.2 Spare Parts
+
+ Two spare parts lists will be presented as follows:
+
+ - Start-up Spares and Consumables
+ - Operating Spares and Consumables 
+
+ The gas turbine spares considered as a minimum start-up spares are listed below and shall beincluded in the Seller’s basic equipment price.  Operating spares for the gas turbine, generator and major systems will be offered separately.
+
+ An operating spare parts list will be prepared on a project-specific basis after the unit details have been designed.  The list will reflect the fuel type, water injection provisions, air inlet filter type, and Purchaser specified requirements.  Additions and deletions will be made as appropriate for multiple unit sites or remote sites.
+
+
+Start-Up Spares
+Start-up spares will be provided in accordance with the recommended quantities below:
+
+ Nomenclature    Recommended Quantity
+
+ 1. Filter Elements - Fuel    1 Set
+ 2. Filter Elements - Lube Oil   1 Set
+ 3. Filter Elements - Hydraulic Oil   1 Set
+ 4. Flexitalic Gaskets for Raised-Face  1 Set
+     Connection Flanges
+ 5. "O" Rings and Mating Flanges for  1 Set
+     High Pressure Hydraulic Connections
+ 6. Fasteners?
+
+
+17.0 DRAWINGS, DOCUMENTATION AND TRAINING
+
+17.1 General
+
+ A comprehensive drawing package will be provided for the gas turbine generator set on a Facility basis, which includes simplified flow diagrams of the fuel system, starting system and lube oil systems. Mutually agreeable corrections will be made and the final drawing reissued by Seller.  Certified drawings will be provided only for anchor bolt locations, foundation design and Purchaser’s piping connection locations.
+
+ In addition to the approval drawing package, general arrangement drawings of skid mounted auxiliary equipment and the unit control panel will be presented for the Purchaser’s information to complete the site layout plans and establish interface locations.  To assist the operator in checkout and trouble shooting, complete internal system wiring diagrams will be provided in the operation and maintenance manuals.  A typical list of drawings will be is provided in Section 17.5.
+
+17.1.1 Drawing Quantities and Format
+
+ Four sets of drawings to support each Facility shall be provided within the Contract Purchase Price.  Each set contains six copies of the package drawings. The drawings shall be 11" x 17" and shall be reproducible on most photocopy machines.  Electronic format submittals of final drawings will be provided in AutoCad, version 14. 
+17.2 Drawings Available
+
+ The Seller will furnish the following documents and drawings.
+
+17.2.1  General Arrangement Drawings
+
+ These drawings define the orientation of the major Seller’s modules to be installed by the Purchaser.  A main unit, general arrangement drawing, showing plan and elevation views, will be issued for the Purchaser’s approval.
+
+  
+The general arrangement drawings include the following information:
+
+ - Overall dimensions of the equipment
+ - Direction of rotation of equipment
+ - Access space required for removal or maintenance of major components
+ - Foundation bolt hole locations and sizes, plus any special requirements (Main unit foundation information will be shown on a separate drawing)
+ - Static and dynamic foundation loads
+ - Lifting lug locations
+ - Center of gravity information
+ - Layout of Purchaser piping and electrical connections, complete with dimensions and locations.
+
+17.2.2  One-Line and Three-Line Electrical Drawings
+
+ These drawings provide electrical description of the power system from the generator terminals to the purchaser's high voltage bus and ground.  Included will be protective relaying, the excitation system and the synchronizing system.  Also shown on these drawings will be auxiliary power systems, with a simplified display of distribution panels.  
+
+ If the Seller’s equipment will be interfaced with an existing facility or with customer supplied protective devices, Purchaser will supply facility one-line drawing to Seller for preparation of the Seller’s one-line electrical diagram.
+
+17.3 Drawings for Information
+
+ The following drawings provide the Purchaser a reference for field construction purposes.  The drawings will be submitted for "information only" and will not be subject to approval.
+
+17.3.1 Electrical System Interconnection Plan
+
+ This drawing contains information for recommended interconnecting cables and conduit between Seller supplied modules, and, if applicable, the Purchaser’s control room.  The drawing includes information to assist the Purchaser in purchasing wire and cable for interconnection and in planning the site layout.  Point-to-point interconnection wiring diagrams will also be provided.  These drawings will be completed when other system approval drawings have been finalized.
+
+17.3.2  Auxiliary General Arrangement Drawings
+
+ The following drawings show physical layout and interconnection details required for proper installation of auxiliary equipment.
+
+
+Auxiliary equipment module
+Water Injection Module
+Enhanced Sprintä Skid
+ 
+17.3.3  Flow and Instrument Diagrams (F & ID)
+
+ F & IDs will be issued for each of the fluid systems in the Seller’s scope of work.  This includes:
+
+
+Natural gas fuel system
+Fuel Oil System, if required
+Water injection system (Enhanced Sprintä and NOx Injection)
+Water wash system
+Hydraulic starting system
+Gas turbine lube oil system
+Generator lube oil system
+Fire protection system
+Air inlet and ventilation system
+Inlet Air Refrigeration System, if required
+Turbine auxiliary instrumentation
+  
+ Each F & ID drawing shows the equipment components, piping, valves and instruments in the system, complete with piping line sizes.  The manufacturer and model number of items on the F & ID will be shown on a Bill of Material, which will be a part of each F & ID drawing.  The F & IDs also show the pressure, temperature and volume limitations of the system, including set points for alarms & shutdowns.  Each working fluid in the system will be identified, and initial fill quantities for fluid reservoirs will be shown.  For clarity, the F & ID drawings will be considered schematic in nature.  Therefore, pipe elbows, fittings and similar details will be omitted.
+
+17.3.4  Unit Control Panel Plan & Elevation
+
+ This drawing provides installation details for operator information.  The drawing shows the front of the unit control panel as viewed by the operator, including meters, HMI and switches which initiate start/stop and other events.  Cable entry locations and overall dimensions will be shown on this drawing.
+
+17.3.6  Documentation List
+
+ Seller provides a list of procedures and specifications used in our plant during manufacturing.  The following specifications will be included:
+
+ . Factory welding and inspection procedures
+ . Application of paint & protective coatings
+ . Drafting symbols for contract drawings
+ . Factory testing procedures
+ . Quality control inspection point program
+
+17.4 Drawings With Manuals
+
+ In addition to the above drawings, a complete set of system wiring diagrams will be included in the operation and maintenance manuals to serve as a reference for field check-out and troubleshooting.
+
+
+17.5 Typical Drawing List
+
+              Submittal
+   Title      Code  Time (Weeks)
+             
+ General Arrangement, Main Unit      CA    8
+ Foundation Loading Diagram, Main Unit     CI  8
+ Installation Foot Print, Main Unit      CI        8
+ Anchor Bolt & Jack Screw Detail, Main Unit     CI        8
+ Lift Plan         CI       12
+ Shipping Data         CI       12
+ Flow & Equipment Symbols       CI       10
+ Flow & Instrument Diagram, Turbine Fuel System    CI       10
+ Flow & Instrument Diagram, Turbine Lube Oil System   CI       10
+ Flow & Instrument Diagram, Generator Lube Oil
+ system            CI       10
+ Flow & Instrument Diagram, Water Wash System    CI       10
+ Flow & Instrument Diagram, Ventilation System    CI       10
+ Flow & Instrument Diagram, Fire Protection System    CI       10
+ Flow & Instrument Diagram, Turbine Hydraulic System   CI       10
+ Instrumentation Diagram, Auxiliary System     CI       10
+ General Arrangement, Hydraulic Start Module    CI        8
+ General Arrangement, Air Filter, Ladder and Platforms   CI        8
+ Electrical Abbreviations Symbols & Reference Data                 CI        8
+ One Line Diagram, Generator 13.8 kV     CA        8
+ Three Line Diagram, Generator Metering     CA       12
+ System Schematic, Generator Excitation     CI       12
+ Schedule, Motor Control Center                 CI        8
+ Interconnect Plan, Electrical                   CI       12
+ Interconnection Wiring Diagram Customer                CI       16
+ Plan & Elevation, 24V DC Battery System     CI       12
+ Plan & Elevation, Turbine Control Panel     CI       12
+ Schematic Diagram, Discrete Control System     CI       12      CI       12
+ Logic Diagram, Fire & Gas Protection  System    CI       12
+
+
+
+
+
+
+
+   Title          Code
+
+      Interconnect Cable Schedule                                                                           CI
+      System Schematic, Communication                                                               CI
+      System Wiring Diagram, Auxiliary Skid                        M
+      System Wiring Diagram, Air Inlet Filter                  M
+      System Wiring Diagram, Turbine Vibration       M
+      Schematic Diagram, Circuit Breaker Control                                                 CI
+      System Wiring Diagram, Turbine Skid       M
+      Plan & Elevation, Lineside Cubicle                                                                CI
+           Plan & Elevation, Neutral Cubicle                                                                  CI
+                         System Wiring Diagram, Fire & Gas Protection      M
+      Wiring Diagram, Lineside Cubicle        M
+      Wiring Diagram, Neutral Cubicle        M
+      Wiring Diagram, Turbine Control Panel Control Cubicle                      M
+      Wiring Diagram, Turbine Control Panel Termination Cubicle                      M
+      Wiring Diagram, Turbine Auxiliary        M
+      System Schematic, Lighting & Distribution                        M
+      Wiring Diagram, Sprint Skid                                                  M
+      Switch Development Control Panel        M
+
+ NOTES:
+
+ 1) CA = Customer Approval
+  CI = Customer Information, Only, Not An Approval Drawing
+  M = Drawings Supplied With Operation And Maintenance Manuals
+
+ 2) Submittal time shown will be in three weeks after the "Design Finalization Meeting (DFM).
+
+17.6 Training - General
+
+ Operator training will be provided by Seller to instruct Purchaser to enable proper and safe operation of Seller’s equipment.
+
+ Seller’s scope of training includes the supply of experienced teachers, materials and training aids for Operator Training to be conducted at four sites with the Contract Purchase Price.  Operator training will be available for up to 10 students.  Purchaser must supply facility for training course.
+
+17.7 LM6000 Familiarization 
+
+ A total of four three-day courses for up to 10 Customer's operators will be available during the general training course.  This course familiarizes operators with the major structures, systems and characteristics of the gas turbine engine.
+
+ Topics include:
+
+
+Introduction to the Gas Turbine Engine (Classroom)
+
+  Application, size, weight, horsepower, temperatures, pressures, RPM
+
+
+Gas Turbine Orientation (Classroom)
+
+ Basic components, air flow, bearings, sumps, seals, parameter designations, piping identification, general system description.
+
+
+Basic Engine - (Classroom)
+
+ Frames, stators, compressor, combustor, high-pressure turbine, power turbine, accessory gearbox, air oil separator.
+
+
+Systems - (Classroom and Shop)
+
+ Fuel system and components, lube system and components, compressor controls, variable stator vanes, starter system, electrical systems, instrumentation.
+
+
+Operation - (Classroom)
+
+  General operation, emergency shutdowns, starting procedures, operation to maximum power, performance and trend monitoring, troubleshooting, engine log records.  
+
+
+Borescope Equipment and Maintenance - (Classroom)
+
+  Equipment operation procedures, inspection procedures, typical limits
+
+
+Hardware Review - (Shop - Observation)
+
+  Visit manufacturing area to provide close study and physical examination of engine components and accessories, with emphasis upon the latest configurations and further explanatory illustration of areas or points questioned during classroom discussions.
+
+17.8 Turbine-Generator Operations
+
+ A total of four five -day courses for up to 10 Customer's operators will be provided at Seller’s plant or Purchaser’s facility site.  The course provides detailed classroom and "hands-on" training on operation of the turbine, generator and auxiliary equipment systems.  Students T & L expenses will not be included.
+
+ Topics include:
+
+ Generator:
+
+
+Fundamentals of Electric Generation
+Generator Construction Details
+Generator Cooling System
+Generator Lube Oil System
+Generator Excitation
+Synchronization
+Generator Protective Relay System
+
+ Turbine:
+
+
+Fundamentals of Gas Turbine Operation
+Gas Turbine Construction and Operation Details
+ Inlet Air Filter and Ventilation System
+Hydraulic Starting System
+Turbine Lube Oil System
+Turbine Fuel System
+Fire Protection System
+
+ Controls:
+
+
+ Basic Control System Concepts
+ Sensors, Valves and Actuators
+ Sequencer
+Fuel Management System
+Alarms, Shutdowns and Annunciation
+Operating Sequences
+Troubleshooting
+
+ Progressive examinations will be provided throughout this course to gauge student progress and identify areas where additional instruction may be required.
+
+18.0 QUALITY ASSURANCE AND CUSTOMER WITNESS PLAN
+
+18.1 Quality Assurance/Quality Control
+
+ Seller’s maintains an ISO 9001 Quality Assurance/Quality Control program.
+
+18.2 Quality Assurance
+
+ The Quality Assurance staff, whose Manager reports directly to the Division Vice-President, writes procedures, specifications and test standards.  Quality Assurance also conducts audits of sub-vendors to assure that their quality programs are in place and that their equipment and procedures meet Seller’s standards.
+
+18.3 Quality Control
+
+ A staff of trained inspectors performs the following:
+
+ . Qualify Welders
+ . Inspect Shop Weld Quality
+ . Review Radiographic Test Reports
+ . Inspect Sub-Vendor's Workmanship
+ . Witness Sub-Vendor's Testing, when required
+ . Monitor Shop Fabrication, Alignment and Testing procedures
+
+
+Inspection Point Program Scope
+
+Attached is a spreadsheet that outlines the inspection and testing required by the quality control, production and test departments.  The quality plan spreadsheet is used as a checklist during the fabrication, assembly and testing of the gas turbine generator packages designed, assembled, and tested at the Seller’s facility.
+
+
+Inspection Point Program Objective
+
+This program will be developed as the minimum requirement for both production and quality control.  This program provided written objective evidence that this gas turbine package has been manufactured, assembled, and tested in accordance with the applicable drawing, specifications and Purchaser’s requirements.
+
+18.5 Factory Test
+
+ The Seller shall perform either a “full load string test” or an unfired test on all new gas turbine generator sets.  Using a special test line at the Seller’s facility, the Seller will perform a functional check-out of the generator set and related control system
+
+18.6 Shop Visits
+
+The Seller shall extend an open invitation for Purchaser’s visits to the manufacturing works during normal business hours.  These facility visits should be scheduled in advance to insure proper staffing for plan tours, inspections, meetings, test witnessing and other similarly scheduled activities.
+
+
+
+
+
+
+
+WAS:83353.1 
+ 
+
+WAS:83353.1 
+
+
+
+
+WAS:83353.1 
+ 
+
+
+
+
+

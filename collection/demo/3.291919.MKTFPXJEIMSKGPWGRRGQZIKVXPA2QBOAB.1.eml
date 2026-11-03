@@ -1,0 +1,374 @@
+ENRON RISK ASSESSMENT AND CONTROL
+ DRAFT - DEAL APPROVAL SHEET
+SELECT DEAL TYPE
+
+DEAL NAME:
+Outage Options–Allegheny "A" (6)
+
+Counterparty:
+Allegheny Power Supply
+
+Business Unit:
+SELECT BUSINESS UNIT
+
+Business Unit Originator: 
+David Hoog
+
+Industry:
+Wholesale Energy-Non-Regulated Power Generation
+
+This Transaction:
+SELECT PUBLIC OR PRIVATE
+
+
+SELECT MERCHANT, STRATEGIC OR TRADING
+
+
+SELECT CONFORMING OR NONCONFORMING
+
+
+Date DASH Completed:
+May 31, 2001
+
+RAC Underwriter:
+SELECT UNDERWRITER
+
+RAC Analyst:
+     
+
+Transaction Type:
+SELECT TRANSACTION TYPE
+
+Capital Funding Source:
+SELECT FUNDING SOURCE
+
+Country:
+United States
+
+Expected Closing Date:
+June 1, 2001
+
+Expected Funding Date:
+NONE
+
+
+
+RAC Recommendation:
+ Proceed with Transaction 
+ Do not Proceed 
+ Returns below Capital Price 
+ See Other RAC Comments
+
+Board Approval:
+SELECT BOARD APPROVAL STATUS
+
+APPROVAL AMOUNT REQUESTED *
+
+P100 - Net Contingent Capital Commitment
+50,000,000
+
+P99 - Notional Maximum Loss
+7,000,000
+
+
+
+
+PORTFOLIO EXPOSURE SUMMARY *
+
+P100 – Aggregate Portfolio
+230,000,000
+
+P99 – Aggregate Portfolio
+25,600,000
+(ENE BoD Approved Level = $120,000,000)
+
+
+
+ *Note change in presentation from previous DASHs
+
+DEAL DESCRIPTION
+
+This Outage Option provides the buyer with protection against the joint event of (1) a forced outage of any of the covered generating units above a capacity strike of 150MW and (2) a rise in power prices above a level equal to the buyer’s cost of generation plus a variable margin based on a higher than expected heat rate.
+
+The buyer of this option is Allegheny Energy Supply Company (“AESC”), the unregulated merchant generation subsidiary of Allegheny Energy, Inc. (AYE).  AYE is a large regulated electric utility in Western Pennsylvania with a market capitalization of $6.8 billion.  AESC recently purchased Merrill Lynch’s energy trading operations as well as 1,710 MW of natural gas-fired merchant generating capacity in three Midwest states from Enron North America to add to its existing 220 MW of peaking capacity in Pennsylvania. 
+
+AESC operates and markets competitive retail and wholesale generation in markets throughout the United States and operates regulated generation for its affiliates. Including the peaking plants, AESC controls or owns more than 14,000 MW of total generating capacity.
+
+Two events must occur 
+to trigger a call on the option.  The first event (the “knock-in event”) is a combined forced-outage of 150MW or greater.  The second event is the index price of power in the delivery market exceeding the generation cost implied by a 14,000-heat rate (“HR”).  The key indices are MW Daily’s Day Ahead TVA, CINergy, and ComED indicies, as applicable to the corresponding units (see table below), and the final monthly settlement price on NYMEX for natural gas.  The strike price per MWh is calculated as a function of [[(HR/1000)*(Monthly NX1 + $.20)] +$2.00], where NYMEX NX1 represents the NYMEX Henry Hub Natural Gas Futures contract final settlement price for such month, $0.20 represents the approximate basis differential to the plants and $2.00 represents the approximate variable cost per MWh for operations and maintainance (“O&M”).  Intra-day hour settlement will be calculated based upon contractually predetermined factors.  The transaction will be financially settled.
+
+
+Unit
+Fuel
+Net Dependable Capacity (MW)
+Heat Rate @ 90o 
+(HHV, Btu/kWh)
+Index
+Gleason, TN
+Gas
+530
+10,592
+TVA
+Wheatland, IN
+Gas
+480
+11,734
+CINergy
+Lincoln Energy, IL
+Gas
+600
+11,973
+ComED
+
+
+Allegheny “A” Transaction Parameters
+
+Term
+6/1/01-8/31/01
+Strike
+Spark spread at 14,000 HR plus $2/Mwh assuming NX1 gas + $0.20
+Region (Index)
+MW Daily Index:
+TVA, CINergy, ComED
+Quantity of Coverage (MW)
+1410MW less the capacity strike of 150MW
+Payout Limit
+$50 million
+Capacity Strike
+150 MW
+Premium
+$2.5 million
+Participation 
+0%
+Coverage Limit on Outage Duration
+368 peak hours per outage
+Settlement
+Financial
+P95 Loss
+$2.9 million
+P99 Loss
+$7.0 million
+Expected Loss
+$700,000
+
+
+
+RETURN SUMMARY
+
+Premium  $ 2,500,000
+Expected Loss  $   (700,000)
+Hedging Cost  $   (             )
+Gross Profit  $ 1,800,000
+
+P95   $(2,900,000)
+P99    $(7,000,000)
+
+CASH FLOW SUMMARY 
+Enron will receive a premium of $2,500,000 from Allegheny on 5/30/01
+
+TRANSACTION UPSIDES/OPTIONALITY
+This transaction is the sixth in a series expected to comprise a portfolio. The portfolio will be managed with daily call options to reduce the expected and extreme loss amounts.
+
+HEDGING STRATEGY 
+The “expected” short position will be hedged, in part, with daily call options at a comparable strike.  Insurance market is not readily accessible at this time to efficiently hedge P99-P100 tail exposure.
+
+
+
+ 
+
+
+
+                Retained
+                            Risk
+
+Derivatives  Reinsurance
+
+
+
+
+
+
+
+
+         Reduces     ENA Reduces P99
+Expected Loss          Loss
+
+
+
+RISK MATRIX 
+
+
+RISK DESCRIPTION
+MITIGATION/COMMENTS
+Risk Retention
+Under hedging “Plan B”, daily call options will be purchased to reduce expected and potential extreme losses.  The original “Plan A” to cover extreme P99 exposure in the reinsurance markets cannot be executed at this time due to timing and market conditions.  The potential profitability of the transaction and the amount of risk retained by GRM remains uncertain until an appropriate hedging program is placed.
+Operator Risk
+GRM has reviewed and analyzed reported operating data for the units indicating reliable service since commencing operation in 1999. These units were previously owned and operated by Enron and sold to Allegheny in the 4th quarter 2000.
+Option Liquidity
+Enron is a market maker in power options and is in a position to manage an entire portfolio. Generally, however, liquidity in power options is not good due to the lack of common pooling points.
+Reinsurance Liquidity
+
+
+
+
+
+
+
+
+Credit Risk 
+There is some demand in the reinsurance market for knock-in options on a portfolio basis. Recent discussions with insurers familiar with the risk have shown interest in underwriting cover for this product, but the timing is not good given volatility in the western markets and .  A condition for RAC recommendation is completion of risk syndication of the P99 to P100 exposure by May 31, 2001.  This condition has been failed and options will be purchased to 
+
+Since premiums are paid prior to commencement of coverage, there is no significant credit risk.
+Transaction Risks
+
+Transmission
+Dispatch
+Environmental/Regulatory
+Planned Outages
+
+Excluded from coverage in this product.
+Excluded from coverage in this product.
+Excluded from coverage in this product.
+Excluded from coverage in this product.
+Moral Hazard
+Strike price should always be out of the money relative to the cost of generation given the relatively higher HR used to determine the strike and relatively lower expected HR of the units.  In addition, there is a 150MW capacity strike.  Payout is capped at $50 million, with limits on duration of 368 on peak hours per outage.  Purchaser is a merchant energy marketer—moral hazard risk would be further mitigated if purchaser were a traditional utility, given a utility’s “obligation to serve”.
+Modeling and Simulation Methodology
+Modeled by research using techniques consistent with ENE modeling of power risk elsewhere in the firm.
+Legal Risk
+This transaction should not be viewed as an insurance product because the payout is not tied to an indemnity of an actual loss, however, there is some minor risk that an insurance regulator/department could conclude that the arrangement operates functionally as insurance and that the option constitutes an insurance contract.  If the transaction were structured where EGM/ENA would pay the premium, the legal risks would be greater. The legal risks are minimal where EGM/ENA receives the premium.
+Governing Law
+New York
+
+
+(
+
+
+
+KEY SUCCESS FACTORS
+
+
+
+NA
+Poor
+Excellent
+
+Core Business
+
+                                                                                 X
+Strategic Fit
+
+                                                                          X
+Upside Potential
+
+X 
+Management
+X
+
+Risk Mitigation
+
+              X
+
+
+
+
+
+Core Business – The product leverages Enron’s knowledge of power markets and risk structuring
+Strategic Fit – The product is aligned with Global Risk Markets’ strategy of  creating superior risk management tools.  The insurance market is more efficient than the derivatives market at clearing certain risks as is the case with power price/outage risk.
+Upside Potential – Multi-trigger products can be offered to other types of customers (IOU’s, industrials, power marketers), in other coverage areas, and applied to other commodities.  On a transaction-by-transaction basis, the upside is fixed by the premium.
+Management – The product will be managed and syndicated by GRM. GRM has created a book and a feed to the Daily Position Report (“DPR”) to manage these positions and intends to work with the power desk to hedge its expected losses.
+Risk Mitigation – See table above.
+
+OTHER RAC COMMENTS
+
+Different from other outage options structured and executed by GRM, this option has a floating strike based upon an out-of-the-money heat rate.  Strike price will float with gas prices and should always be above the units’ cost of generation.   For example, under the agreement, a $5.00 NX1 implies a $74.80/Mwh strike and a $3.00 NX1 implies a $46.80/Mwh strike.  Given historical heat rates of 12,000 Btus/kwh, cost of generation for these plants should always be less than the option strike indicating an incentive for the generator to operate when power prices exceed the cost of generation.  For example, assuming an actual 12,000 Btu/Kwh heat rate, $0.20 basis differential and $2.00 for operations and maintenance, a $5.00 NX1 implies a $64.40/Mwh cost of generation and a $3.00 NX1 implies a $40.40 cost of generation.
+
+Buyer of the option absorbs a first loss on 150MW of capacity.
+
+The GRM Portfolio has been partially hedged through purchases of physical daily call options on Entergy.  No hedges are in place for this capacity.  RAC’s concern is GRMs present inability to syndicate the P99 to P100 tail exposure in the re-insurance market.  The required date for meeting this condition was May 31, 2001.
+
+Maximum loss under this derivative contract is $50 million.  Although additional transactions add value by diversifying risk, until the tail risk has been hedged, there is remains significant extreme value exposure.  Upon inclusion of this transaction, Enron’s Maximum Loss exposure is $230 million.  The portfolio P99 (“Notional Maximum Loss”) exposure is approximately $28.4 million, compared to gross aggregate premiums received of $7.9 million.
+
+An interim Notional Maximum Loss (portfolio P99) limit has been set at $120 million for the Outage Option portfolio.  This limit was approved by the Enron Board of Directors on May 1, 2001.
+
+MILESTONES
+
+
+Notification of deal status       06/01/01
+Report on Re-insurance indications      06/15/01
+Status of Portfolio         06/29/01
+Reinsurance obtained to cover tail risk      06/30/01
+
+
+
+
+APPROVALS
+
+Name
+
+Signature
+
+Date
+GRM Origination
+
+David Hoog
+
+
+
+
+GRM Management
+
+Per Sekse
+
+
+
+
+EGM Executive
+
+Mike McConnell/Jeff Shankman
+
+
+
+
+EWS Legal
+
+Mark Haedicke
+
+
+
+
+EWS Executive
+
+Mark Frevert/Greg Whalley
+
+
+
+
+RAC Management
+
+Rick Buy/Dave Gorte
+
+
+
+
+Enron Global Finance
+
+Andy Fastow/Ben Glisan
+
+
+
+
+ENE Executive
+
+Ken Lay/Jeff Skilling
+
+
+
+
+
+RAC Deal Approval Sheet                                                                                Outage Options – Allegheny “A” (6)
+
+  Page 
+
+___________
+
+

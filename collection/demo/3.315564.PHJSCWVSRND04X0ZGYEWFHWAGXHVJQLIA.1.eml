@@ -1,0 +1,1295 @@
+Behavior of Power Prices- Implications for the 
+Valuation and Hedging of Financial Contracts 
+by 
+Karan Bhanot* 
+Assistant Professor of Finance 
+College of Business Administration 
+University of Texas 
+6900 North Loop 1604 
+SanAntonio, TX-78249. 
+(210)-561-2787, kbhanot@utsa.edu 
+Forthcoming- Journal of Risk, Spring 2000 
+JEL classification code: G0, G1, G13 
+________________________________________________________________________ 
+*I am thankful to Doug Foster and Anand Vijh. All errors are my responsibility. Send all 
+correspondence to Karan Bhanot, Assistant Professor of Finance, College of Business 
+Administration, University of Texas, SanAntonio, TX-78249, email: kbhanot@utsa.edu 
+Voice: (210)-458-7429, Fax: (210)-458-5837 
+2 
+Behavior of Power Prices- Implications for the 
+Valuation and Hedging of Financial Contracts 
+Abstract 
+This paper contains an empirical analysis of electric power prices using data from 
+twelve regional markets. A central feature of the paper is the explicit recognition that it is 
+not possible to store power or carry a negative inventory. Our objective is to characterize 
+and explain the high degree of autocorrelation and seasonality in power prices and address 
+salient issues that are pertinent for the valuation and hedging of power based financial 
+contracts. We show that price behavior changes with each regional market so that a firm 
+that seek to value or hedge power based contracts must use instruments from the region in 
+which it operates. 
+3 
+Behavior of Power Prices- Implications for the 
+Valuation and Hedging of Financial Contracts 
+1. Introduction 
+This paper is concerned with the behavior of electric power prices. Deregulation in 
+the electric power market (Appendix I has a brief description) has spurred the interest of 
+financial market participants. Because power is virtually non-storable1, financial contracts 
+on electric power present risks not encountered in other asset markets. This paper 
+provides an insight into the unique behavior of power prices and relates these observations 
+to the non-storability of power. An understanding of the stochastic behavior of power 
+prices is central to models for valuation and hedging of financial claims on the commodity. 
+Further, this topic is relevant in designing risk-sharing mechanisms amongst stakeholders 
+and in making investment decisions in these markets. 
+There exists a well-developed theory of storage and the behavior of commodity 
+prices. Early on this theory was developed by Working (1948, 1949) and later extended by 
+Deaton and Laroque (1992, 1996), Williams and Wright (1991) and Chambers and Bailey 
+(1996). These papers recognize that carrying of an inventory by speculators may reduce 
+the extent of price shocks in periods of high net-demand for a commodity. Recent 
+research by Routledge, Seppi and Spatt (1998) characterizes the structure of forward 
+commodity prices after explicitly incorporating storage features. In related work, 
+Bessembinder and Lemmon (1998) model power prices when no storage is permitted and 
+when some market participants are risk averse. We relate our study to this recent research 
+4 
+and draw several conclusions to explain salient observations regarding autocorrelation and 
+seasonality in power prices. 
+This paper provides atleast three contributions to literature. First, we provide 
+evidence from twelve markets regarding the applicability of a simple time series model to 
+explain price behavior. We find that models based on storage considerations provide 
+valuable insights into mean reversion, seasonality and other salient observations in the 
+power markets. Second, we show that the difficulty in storage causes a segmentation of 
+the markets. We propose a test to compare the distribution of price shocks across markets 
+and glean lessons for cross-hedging of claims in these segmented markets. Third, even 
+though the nature of commodity price behavior has been studied (e.g., Brennan and 
+Schwartz (1985), Gibson and Schwartz (1990), Coratzer and Scwartz (1994) and 
+Bessembinder, Coughenour, Seguin and Smoller (1995) and most recently by Schwartz 
+(1997)), to our knowledge this is the first paper to study the across-market properties of 
+power prices. This market is identified as a growth area in terms of availability of newer 
+financial products and a corresponding need for risk management. 
+To achieve our objectives, we first present an underlying storage model in Section 
+2. We then analyze survey data on the wholesale prices of Electric Power, compiled by 
+the Energy Market Report (EMR). The data consists of daily high and low prices for 
+twelve delivery points in the United States from January 1st, 1995 to June 1st, 1998 and 
+broken into two series- (1) Off-Peak energy prices for power delivered for the first six and 
+last two hours of the day and (2) Peak energy prices for power delivered during the 
+remaining hours of the day. An autoregressive process describes the evolution of 
+seasonally detrended Electric Power prices (Section 3 and 4). Parameter estimates for this 
+5 
+process and the estimated residuals (representing net-demand induced price shocks) are 
+shown to be significantly different across the various markets. We analyze this price 
+behavior across markets and seasons to cull out the impact of storability for the valuation 
+and hedging of financial contracts. 
+Second, a distribution-free test is constructed to compare the distribution of netdemand 
+induced price shocks (Section 5). A first-order discrete-state discrete-time 
+Markov Process is used and the asymptotic distribution under the null hypothesis is 
+characterized. A pair wise cross-region comparison points to a segmentation in the power 
+markets and a qualitatively different distribution of net-demand induced shocks. The 
+analysis clarifies the pitfalls in cross-hedging of financial claims with contracts from other 
+markets. We use our empirical results to draw inferences on the two topics of interestimplications 
+of non-storability on price behavior and for the valuation and hedging of 
+financial contracts. 
+In summary, the paper is organized as follows: Section 2 has the theoretical 
+background, Section 3 describes the data, Section 4 contains an empirical study of 
+wholesale prices and implications, Section 5 constructs a test to compare price shocks 
+across markets and Section 6 concludes. 
+2. Theoretical Background 
+This section provides a brief overview of the relationship between storage and 
+prices. We begin with a specification for demand and supply and attribute fluctuations in 
+prices to net-demand shocks (as in Deaton and Larouque (1996), Routledge, Seppi and 
+Spatt (1998) and Bessembinder and Lemmon (1998)). Suppose at each date t =1,2… 
+6 
+there is a competitive market for a commodity. Current production ( gt ) and consumption 
+(ct ) are stochastic price sensitive functions. When storage is permitted, for inventory 
+carried forward there is a wastage factor d ∈(0,1). This implies that storage of q units at 
+time t-1 yields (1 − d )q units of the commodity at time t. 
+The spot price, Zt , of the commodity is determined by market clearing. At each 
+point in time, there are two sources of supply: production g t  and incoming inventory 
+(1−d)Qt−1. There are two sources of demand: consumption c t  and outgoing inventory 
+t 
+Q. Market clearing requires that ct−gt=−Qt+(1−d)Qt−1. Assuming appropriate 
+technical conditions, the spot price is given by:    
+( t      t) 
+t    fX  Q 
+Z =    , Δ                               (1) 
+where ΔQt = Qt − (1−d )Qt−1 is the net demand and X t is a stochastic component related 
+to the net-demand shock. In the absence of storage the price is determined solely by the 
+shock realizations, Xt, so that Zt = f(Xt). These net-demand based shocks capture 
+exogenous random shocks like changes in the weather conditions. In this paper, we 
+characterize these shocks in a continuous state space as well in a discrete-state space. 
+The theory of inter-temporal price relations requires that that an inventory of 
+stocks carried from one date to another must be carried in such volume that direct 
+economic reward be offered for the service of carrying (Working (1949)). Optimal trading 
+behavior shows that the equilibrium spot price be related to the next period price by a 
+deflator   
+r 
++ 
+− 
+1 
+1 d 
+where r is the single period interest rate. However, when storage is very 
+costly, no such constraint is possible and markets at each point in time are largely 
+7 
+independent. This observation in turn influences the pattern of both the unconditional and 
+the conditional volatility of prices. Further, because markets are independent form one 
+date to another, price changes on one date may not influence prices at a later date. 
+3. Data 
+We now proceed to relate the framework in Section 2 to data from the power 
+markets. Data for this study is obtained from the Energy Market Report Database on 
+wholesale prices of Electric Power for the period January 1st, 1995 to June 1st, 1998 for 
+twelve delivery points across the United States (Appendix II). Each day, the Energy 
+Market Report (EMR) staff contacts participating subscribers in each region by phone. 
+Due to a large number of participants, EMR obtains transaction price data on each day of 
+the week without contacting the same sources every day (currently EMR contacts over 
+seventy five different utilities, marketers and power brokers each week). In the average 
+five-day week, each source is contacted three times. 
+Prices in the database are the high and the low prices of transactions reported by 
+the participants contacted on a particular day. Note that since power consumption and 
+production are simultaneous, trades are struck for one day forward. A price contract on 
+Monday is for energy that will be delivered on Tuesday. On Fridays, two sets of prices 
+are reported- weekend prices and prices for the following Monday. In the event of 
+government holidays, prices are reported at the earliest day possible, usually the day 
+before the holiday. 
+The database comprises daily high and low prices for twelve delivery points in the 
+country for the period January 1st, 1995 to June 1st, 1998, broken into two series- (1) Off- 
+8 
+Peak energy prices for power delivered for the first six and last two hours of the day (10 
+PM to 6 AM) and, (2) Peak energy prices for power delivered during remaining hours of 
+the day (6 AM to 10 PM). Wholesale prices are reported in dollars per Megawatt-Hour. 
+Transmission charges complicate the process of price reporting. For example, energy 
+purchased in Northern California and exported to Southern California might be delivered 
+at some additional cost. Suppose a power producer pays a charge for use of a transmission 
+line, EMR reports transaction prices that include this charge. Hence prices are for a 
+particular delivery point in each region. 
+Table 1 has summary statistics for the entire data set. The data is categorized by 
+delivery point and by Peak and Off-Peak prices. In each cell we report the daily mean and 
+daily standard deviation of prices for each region. In general, Peak prices are higher than 
+Off-Peak prices in each region. The average Peak prices range between $15.2 per 
+Megawatt-Hour and $21.7 per Megawatt-hour while average Off-Peak prices range 
+between $10.0 per Megawatt-Hour and $11.2 per Megawatt-hour. Further, average Peak 
+prices are more volatile than Off-Peak prices. The daily standard deviation of Peak prices 
+is between $5.4 and $9.3 while the daily standard deviation of Off-Peak prices is between 
+$2.8 and $5.0. Note that there is a substantial variation in Peak prices across the twelve 
+delivery points. For example, the average Peak price in the North-West Rockies is $15.2 
+per Megawatt-Hour against $21.7 per Megawatt-Hour in Mead. 
+The difference in the average price between Peak and Off-Peak hours serves as a 
+first introduction to the unique nature of this market. Because power is not storable, 
+excess supply, (gt −ct), in the Off-Peak hours is not easily stored for use during Peak 
+hours. Such daily fluctuations are unlikely for a storable commodity because speculators 
+9 
+would store inventory to take advantage of deterministic price changes. For storable 
+commodities, convenience yields or the cost of holding a commodity from one period to 
+another is related to the wastage factor and to the interest rate. No such relationship is 
+viable for a non-storable commodity. From a risk management perspective, Off-Peak 
+power based financial contracts provide a different risk exposure than Peak power 
+contracts. 
+4. Empirical Evidence and Implications 
+Figure 1 is a graph of the end-of-month wholesale prices of Electric Power over the 
+sample period January 1st, 1995 to June 1st, 1998, for Four Corners (one of the delivery 
+points in the database). Electric Power demand and price behavior is greatly influenced by 
+weather, which in-turn has a seasonal pattern. We therefore propose a simple model 
+(separately for Peak and Off-Peak power) for the time series of daily mean power prices 
+(refer equation (1)):                    
+r 
+i 
+t 
+r 
+i 
+t 
+r 
+i 
+t                
+X 
+Z,, =m ,,  +  ,,  , t= 0, 1, 2….                     (2) 
+where Zt,i,r is the wholesale price per unit at time t in a particular delivery point r and for 
+i= Peak, Off-Peak, mt,i,r is the deterministic time trend and Xt, i,r is a random net-demand 
+related shock component (to be modeled). A simple assumption for m t,i,r is that there are 
+12 constants b1,i,r,b2,i,r...........b12,i,r (parameters), giving the expected average monthly 
+prices for each of the twelve months. This model is referred to as the “seasonal-means” 
+model in literature. We proceed to run a regression with twelve dummy variables, one for 
+each of the twelve months (for each observation we insert a 1 for the first dummy variable 
+10 
+if the month is January and 0 otherwise and so on). The constant term in the regression is 
+set to zero. The regression is run separately for each delivery point and for Peak and nonPeak 
+hours (a total of twenty-four regressions):                    
+r 
+i 
+t 
+r 
+i 
+r 
+i 
+r 
+i 
+r 
+i 
+t              
+Jan       Feb                Dec  X 
+Z , ,  = b1, , (   ) + b2, , (   ) +..................b12, , (   ) +  , ,                   
+(3) 
+for i= Peak, Off-Peak and delivery point r (Appendix II has the list). The regression 
+results are reported in Table 2 (the abbreviations for each delivery point are available in 
+Appendix II). F-tests in the table strongly reject the hypothesis of equal seasonal mean 
+coefficients. 
+The “seasonal means” specification is motivated by a number of reasons. In the 
+nascent power market there is a paucity of data. A complicated parameterized process 
+may “fit” the data well but provide little guidance on stability of the parameters or out-of- 
+sample performance. For the seasonal means model used in this paper we could have used 
+a dummy for every 15 days rather than for each month. A trade-off between the number of 
+data points for each time period and the possibility of misspecification errors led to this 
+choice. 
+Note that seasonality accounts for a significant portion of the variation in monthly 
+prices. The seasonal means for Peak and Off-Peak prices exhibit significant variation 
+across the twelve months and across the delivery points. For example, June prices of 
+Electric Power range between $5.7 and $7.4 per Megawatt-Hour for Off-Peak prices as 
+against $11.4 to $18.5 per Megawatt-Hour for Peak prices. 
+The seasonal variation in prices across regions is on account of two reasons – the 
+inability to store power for later use and an inability to transmit power to other distant 
+areas. In other words, the absence of storage may allow for systematic increase of prices 
+11 
+in certain months of the year because excess supply cannot be stored or transferred to the 
+markets where there is a demand. Price shocks are not transmitted and equilibrium prices 
+in one region are different from equilibrium prices in another region. 
+Once the time trend is subtracted from the price on each day, we are left with the 
+residual, Xt,i,r, that represents the net-demand related shocks. Figure 2 is a plot of 
+residuals Xt, i,r  at the delivery point r=Four Corners for i=Peak price. On examining the 
+graph, it seems obvious that lagged correlations in the residual component are non-zero 
+and these residuals are not generated from a white-noise process. Evaluating lagged 
+correlations (not reported) of the residuals Xt, i,r  at each delivery point, reveals that 
+correlations of lag 1 are of the order of 0.9 and decay gradually, reminiscent of a first 
+order autoregressive process. We therefore assume that the residual series satisfies: 
+t 
+r 
+i 
+r 
+i 
+t 
+r 
+i 
+r 
+i 
+t           
+X     u 
+X,, =f,  −1,,  + ,,                                        
+(3) 
+where E (ut,i,r)=0and  (   )    
+2 
+,       
+2  
+, 
+,i r        ir 
+t 
+u 
+E     =s . In our problem, the Least Squares estimator for 
+r 
+i, 
+ˆ 
+f  for a fixed i and r, in the equation Xt,i,r =fi,rXt−1,i,r +u,i,rt , is given by (Amemiya 
+(1985)):                            
+∑ 
+∑ 
+=     
+− 
+=     
+− 
+=   
+T 
+t          
+r 
+i 
+t 
+T 
+t                 
+r 
+i 
+t 
+r 
+i 
+t 
+r 
+i             
+X 
+X 
+X 
+2   
+2  
+, 
+, 
+1 
+2              
+, 
+, 
+, 
+, 
+1              
+, 
+ˆ 
+f                                        (4) 
+Subject to the restriction that the errors ut, i,r  are independent of Xt,i,rand that ˆ   1 
+,r  <  
+i 
+f 
+(the stationarity condition). In general, for an autoregressive processes we must rely on 
+the asymptotic properties of the Least Squares estimator to derive confidence intervals. 
+Amemiya (1985) has shown that: 
+12                                              
+(      )    (    
+2) 
+, 
+, 
+,                  
+0,1 
+ˆir   
+ir      
+N     
+ir 
+Tf − f  →     −f  ,                 (5) 
+where N(.,.) is a normal distribution. Table 3 reports the parameter estimates and 
+asymptotic variance of the Least Squares estimator f ˆi,r of f i,r   in the equation 
+rt 
+i 
+r 
+i 
+t 
+r 
+i 
+r 
+i 
+t           
+X     u 
+X,, =f,  −1,,  + ,,  , for each delivery point in the sample. The top panel reports 
+estimates for Peak prices while the lower panel reports estimates for Off-Peak prices. Note 
+that the estimate f ˆi,r for Peak power prices ranges between 0.78 and 0.88 while that of 
+Off-Peak prices ranges between 0.87 and 0.95. In both cases the parameter is less than 1, 
+satisfying a condition for stationarity (half-life of the decay is consistent with the 
+parameter values). These results corroborate Deaton and Larouque (1996) who find that 
+even if there is competitive storage, a substantive part of the autocorrelation in commodity 
+prices are related to the behavior of net-demand shocks. 
+In the valuation of financial claims, a key input is the underlying stochastic process 
+that describes changes in the commodity price. Evidence from each of the twelve markets 
+examined here shows that it is important to use a data generating process and parameter 
+estimates from data that corresponds to the particular market in which the agent operates2. 
+Consider for example, claims valued in the NorthWest (NW) compared to Canada (CA) 
+with an auto-regressive process parameter of 0.88 as against 0.78 that implies a sharper 
+mean reversion in Canadian prices. Hence all else being the same, contingent claims that 
+are out-of-the money are likely to be more valuable in NorthWest than in the Canadian 
+market. This distinction is of importance across regions and also between Peak and Off- 
+Peak prices. 
+13 
+Figure 3 is a histogram plot of errors ut,i,rfor one of the delivery points, for Peak 
+power prices. Even though the autoregressive process captures a significant portion of the 
+net demand related shocks, the residuals of the autoregressive process exhibit large 
+changes characterized by excess kurtosis and skewness. Note that lagged correlations in 
+the residuals do not exhibit any marked pattern and are in most cases less than 0.05 for 
+lags greater than 1. The residuals of the estimated process also vary significantly across 
+regions. This residual has important implications for risk management and for the pricing 
+and hedging of claims. 
+Explaining the residual component, ut,i,r , has belonged to a tradition in financial and 
+economic research. It is plausible to model the error component or residual with either 
+parametric or non-parametric procedures. Recent financial research has focused on using a 
+combination of Gaussian errors and Poisson increments to capture features of the data 
+generating process. Indeed, such a combination may be applied in our case (results not 
+reported here). From the perspective of valuation of contracts and risk management, this 
+indicates the differences in the nature of the risks in each of the markets. The standard 
+deviation of these residual shocks range from a minimum of $2.16 to a maximum of $4.47. 
+This difference significantly changes the assessment of the distribution of future prices of 
+power, which is an input in the valuation and hedging of financial claims. Other 
+distributional features are markedly different between the markets- the skewness and 
+kurtosis across markets shows wide differences- that are again important for the purposes 
+of risk management and valuation because they indicate that similar exposures can have 
+varied risks inherent in a contract depending on the regional market. 
+14 
+The evidence outlined above illustrates the pitfalls in cross-hedging of financial 
+claims. Shocks to prices in a particular market need not be transmitted to the other 
+markets on account of an inability to store power or transmit it to distant regions. A check 
+of across-market correlation of residuals reveals that they are near zero in many cases 
+(Table 6). In some of the neighbouring markets this correlation is marginally positive but 
+the hedges may not work well. A large price jump in, for example, California will mildly, if 
+at all, effect demand in Nevada because of the limited capacity of lines between the two 
+markets. In fact if there is an excess supply of power in Nevada, there may be a minimal 
+impact on the prices in Nevada even though prices are soaring in California! Such muted 
+impacts across markets are often observed in the case of capital markets that have barriers 
+to international capital flows (or are delinked). 
+Because markets for power clear continuously, power must be produced and 
+consumed at the same instant. Excess demand shocks cannot be catered to by stored 
+resources since there is a lag between starting a new plant and bringing it on line. We may 
+expect that areas that have high transmission capacity can transmit excess power to 
+neighboring areas, thus equilibrating demand and supply. Such integration is not possible if 
+there are bottlenecks or an inability to transmit power over long distances due to 
+transmission losses. The excess kurtosis and skewness probably relates to increased 
+demand during certain days of the year when regional demand cannot be satisfied due to 
+segmentation of the markets. 
+5. Across Market Comparison of Net Demand Related Shocks 
+15 
+In this section we construct a non-parametric test for the across-market 
+comparison of net-demand related price shocks. This methodology compares the entire 
+distribution of the demand shocks in each region. For example, if two random variables 
+are perfectly correlated but the distribution of one has larger tails than the other, this test 
+will show that the two distributions are different. This distinction is of importance from a 
+risk management perspective. We wish to compare the across-market distributions of 
+detrended residuals Xt,i,r , which relates to the non-deterministic part of net-demand. A 
+distribution-free test with a first order discrete-state discrete-time Markov Process is 
+convenient for such an across region comparison test (Routledge, Seppi and Spatt (1998) 
+construct a similar two state example). For our across-region comparison the residuals 
+r 
+i 
+t 
+X , ,    are first modeled via a discrete time, time-homogenous Markov Chain on a finite 
+state space S = {1,..........K}. This state space S represents possible price innovations 
+without assuming any distributional form. The discrete time, time-homogenous finite state 
+space Markov Chain is specified by a K × K transition matrix 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+=                
+KK 
+K 
+p 
+p 
+p             
+p 
+p 
+p 
+P              
+. 
+. 
+. 
+.          
+. 
+. 
+. 
+.             
+. 
+. 
+. 
+.          
+. 
+. 
+.    
+22 
+21                     
+1 
+12 
+11                                                                      
+(6) 
+where p ij ≥ 0 for all i, j,i ≠ j and pij represents the actual probability of going from state 
+i to state j in one time period. Let pij(0,n)denote the n-step transition probability of 
+going from state i at time 0 to state j at time n. It is well known that the n-step K×K 
+transition matrix P0 ,n whose (i, j) th entry is pij (0, n) satisfies       
+n 
+n    P 
+P0, =  , the n-fold matrix 
+16 
+product of P. In our sample, let nijdenote the number of observations where there is a 
+transition from state i to state j. The Maximum Likelihood Estimator (MLE) of the 
+transition probabilities is given by:     
+∑ 
+= 
+j   
+ij 
+ij 
+ij        
+n 
+n 
+pˆ                                        (7) 
+We can now evaluate various hypothesis for the homogenous stationary Markov Model. 
+Suppose we want to test the null hypothesis that p ij is equal to a certain specified value 
+ij 
+p′ for j=1,2,…, K and for a particular i. Then, Amemiya (1985) has shown that:                              
+(      )       
+2 
+1 
+2          
+ˆ              
+−    
+→ 
+    
+′ 
+′ 
+−     
+ 
+ 
+ 
+ 
+ 
+ 
+=∑   ∑          M 
+A 
+j         ij 
+ij 
+ij 
+j   
+ij 
+i                         
+p 
+p 
+p 
+n 
+S                         c                         (8) 
+where pˆ ij is the MLE. Furthermore, if pij′ is given for i=1,2,3…, K we can use the test 
+statistic ∑i i 
+S which is asymptotically distributed as chi-square with K(K-1) degrees of 
+freedom. Using these results we test if the matrices for the stochastic component are 
+similar across regions. 
+Tables 4 has estimates of the transition matrices for Four Corners, one of the 
+twelve regions over the sample period for both Peak and non-Peak power. Such a 
+transition matrix is useful for several reasons. The matrix depicts the net-demand induced 
+price shock in one period conditional on the shock in the previous period. For example in 
+Table 4, if the price of power is $8 above its seasonal mean in a particular period, there is 
+a 0.68 empirical probability that the price will remain at this level in the following period. 
+From the perspective of risk management, this gives a clear idea about the persistence of 
+17 
+net-demand induced price shocks and the probability of prices reverting to the mean 
+values in the following period. 
+Table 5 compares these transition matrices for each market (power hub) in our 
+sample. The table reports chi-square test statistics when a particular region is the null 
+matrix and is compared to each one of the other eleven regions. A five percent confidence 
+level for ninety degrees of freedom gives a value of 69.13. A null hypothesis of equality is 
+rejected in most for transition matrices of Peak power prices. However we cannot reject 
+the null hypothesis of equality of transition matrices for many of the regions for Off-Peak 
+power prices. Note that the results do not change as the partitions of the matrix are 
+changed. 
+The analysis shows that residual distributions representing net demand shocks are 
+significantly different in each region and therefore the associated risks of operating in each 
+region are also different. The issue of market segmentation is important for several other 
+reasons too. First, from an economic standpoint an integrated market helps to equilibrate 
+demand and supply by sending excess resources to markets where they are in short supply. 
+This integration in turn influences the behavior of prices and consequently the prices of 
+financial asset and contingent claims. If agents are risk averse, a decrease in volatility of 
+prices is likely to increase agent welfare. 
+As noted above, the chi-square test statistic of equality is rejected in most for 
+transition matrices of Peak power prices. However we cannot reject the null hypothesis of 
+equality of transition matrices for many of the regions for Off-Peak power prices. It is 
+important to recognize the reason for this result. Since there is an excess supply of power 
+18 
+during Off-Peak hours, shocks to prices are not large but during Peak hours “excess” 
+demand leads to jumps in prices as prices change to equilibrate demand and supply. 
+The power markets thus provide a unique setting to study the implications of nonstorability 
+for price behavior and the pricing and hedging of financial assets. An important 
+implication of storability is that the temporal and across market segmentation leads to a 
+greater volatility in prices. Financial assets must therefore be valued taking into account 
+the market characteristics of price behavior where a financial contract is valued. 
+6. Concluding Remarks 
+A simple framework is applied to study price behavior in the power markets. For 
+our analysis, we use survey data from twelve markets and empirically analyze the behavior 
+of prices. We relate many features of price behavior to the non-storability of power. It is 
+argued that the behavior of power prices – deterministic changes in mean prices, 
+seasonality and systematic increases in conditional volatility -is partly on account of the 
+non-storability of power. Since the net-demand related shocks are shown to be different in 
+each market, the associated risks change with the market in which a firm is operating. 
+Storability influences the temporal behavior of prices which in turn is of utmost 
+importance in the valuation and hedging of financial claims. Because markets for power 
+clear continuously and are temporally independent, prices in one period may not influence 
+prices in another period. Further, because price behavior in a market changes with regions 
+(a segmented market), a firm that seeks to value or hedge financial contracts on power 
+must use derivative instruments that are based on prices in the region that it operates. This 
+market serves as a useful real-world laboratory to examine the implication of storability 
+19 
+and its lessons for risk management. With regard to firms that operate in these markets, 
+cross-hedging of financial contracts through exchange traded futures may be problematic 
+unless the firms operate in or near the region on which the exchange traded contract is 
+based. 
+
+20 
+REFERNCES 
+Amemiya,T., (1985). Advanced Econometrics. Harvard University Press, Cambridge, 
+MA. 
+Bessembinder, H., Coughenour, J. F., Seguin P. J., Smoller, M. M., (1995). Mean 
+Reversion in Equilibrium Asset Prices. Journal of Finance 50, 361-375. 
+Bessembinder, H., Lemmon, M. J., (1999). Equilibrium Pricing and Optimal Hedging in 
+Electricity Forward Markets. Working Paper, Arizona State University. 
+Brennan, M., Schwartz, E. S., (1985). Evaluating Natural Resource Investments. Journal 
+of Business 58, 133-155. 
+Chambers, M., Bailey, R., (1996). A Theory of Commodity Price Fluctuations. Journal of 
+Political Economy 104, 924-957. 
+Coratzer, G., Schwartz, E. S., (1994). The Evaluation of Commodity Contingent Claims. 
+Journal of Derivatives 1, 27-39. 
+Deaton, A., Laroque, G., (1995). Competitive Storage and Commodity Price Dynamics. 
+Journal of Political Economy 104, 826-923. 
+Deaton, A., Laroque, G., (1992). On the Behavior of Commodity Prices. Review of 
+Economic Studies 59, 1-23. 
+Gibson, R., Schwartz, E. S., (1990). Stochastic convenience yield and the pricing of oil 
+contingent claims, Journal of Finance 45, 959-976. 
+Jorion, P., Schwartz, E. S., (1986). Integration vs. Segmentation in the Canadian Stock 
+Market. Journal of Finance 51, 603-616. 
+Kaldor, N., (1939). Speculation and Economic Stability. Review of Economic Studies 7, 
+1-27. 
+
+21 
+Miltersen, K. R., Schwartz E.S., (1998). “Pricing of Commodity Futures with Stochastic 
+Term Structures of Convenience Yields and Interest Rates.” Journal of Financial and 
+Quantitative Analysis 33, 33-60. 
+Routledge, B. R., Seppi, D. J., Spatt S. S., (1998). Equilibrium Forward Curves for 
+Commodities. Working Paper, Carnegie Mellon University. 
+Schwartz, E. S., (1997). The Stochastic Behavior of Commodity Prices: Implications for 
+Valuation and Hedging. Journal of Finance 52, 923-973. 
+Working., H., (1948). Theory of the inverse Carrying Charge in Futures Markets. Journal 
+of Farm Economics 30, 1-28. 
+Working, H., (1949). The Theory of the Price of Storage. American Economic Review 39, 
+1254-1262. 
+Wright, B., Williams, J., (1989). A Theory of Negative Prices of Storage. Journal of 
+Futures Markets 9, 1-13. 
+22 
+FOOTNOTES 
+1. Some imperfect storage mediums are available. For example, a dam can store water 
+that is converted to power or energy may be stored in the form of nuclear stock piles. 
+Even though these storage avenues are available it takes several hours to start a power 
+unit that converts the energy into usable power. Therefore the capacity to quickly 
+convert stored energy into electric power remains limited. Further startup costs of 
+$1000 and upwards are incurred on each startup and maintenance costs of $400 per 
+day are added on. 
+2. Our analysis proceeds under the true measure as opposed to a risk neutral measure. 
+The relationship of contingent claim prices and asset prices is described in finance 
+theory. In the theory of valuation, an agent typically assigns a price to each marginal 
+unit of consumption received at some future date in a particular state of the world. In 
+equilibrium, there exists a positive pricing operator p t  such that for any contingent 
+payoff Z (Pt) the current value of the security is given by: C(t)=E[Z(PT)pT], 
+where C(t) the derivative or contract price at time t and the expectation is under the 
+true measure. In the Finance literature, the pricing operator p t has been expressed as 
+a function of the aggregate consumption and a risk aversion parameter g ( e.g, 
+Rubinstein (1976) uses a constant proportional risk aversion specfication, i.e.                                                             
+()        
+g 
+g  
+− 
+− 
+=      
+1 
+1 
+1  
+t 
+t            
+C 
+C 
+U             , to value uncertain payoffs). 
+23 
+Table 1 
+Data Summary 
+The data comprises daily high and low prices for twelve regions in the country (described 
+in Appendix I) for the sample period January 1st 1995 to June 1st 1998. This table has the 
+daily mean and daily standard deviation of prices for each data series. Each cell in this 
+table has the mean price (m ) and the standard deviation (s) for a particular delivery point 
+in the time series. The data set is categorized into two time series (1) Off-Peak prices 
+delivered during the last two hours and first six hours of the day and (2) Peak prices for 
+the remaining hours of the day. Prices are reported in dollars per Megawatt-Hour. 
+Off-Peak Prices                    
+Peak Prices 
+Low      High      Mean      Low      High      Mean 
+Canada 
+m         11.0      11.5      11.2      15.4      16.4      15.9 
+s          5.1       5.0       5.0       5.3       5.5       5.4 
+NW/N.Rockies 
+m          9.4       11.2      10.3      13.9      16.6      15.2 
+s          4.6       4.7       4.6       5.2       6.0       5.5 
+Mid-Columbia 
+m          9.5       10.8      10.2      14.2      16.4      15.3 
+s          4.8       4.9       4.9       5.3       6.1       5.6 
+COB/NOB 
+m         10.2      11.5      10.9      15.5      17.9      16.7 
+s          4.3       4.4       4.3       5.4       6.5       5.8 
+N.California 
+m         10.2      11.6      10.9      15.5      19.0      17.3 
+s          4.1       4.5       4.3       5.4       7.1       6.0 
+Midway/Sylmar 
+m         10.3      11.7      11.0      16.9      20.2      18.5 
+s          4.1       4.3       4.2       6.6       8.2       7.3 
+S. California 
+m         10.4      12.3      11.3      16.3      20.8      18.6 
+s          3.9       4.3       4.1       5.6       8.6       6.8 
+Mead 
+m         10.1      11.7      10.9      18.2      25.1      21.7 
+s          3.2       3.4       3.2       11.2       7.0       9.1 
+Palo Verde 
+m          9.8       11.5      10.6      18.1      24.5      21.4 
+s          3.0       3.2       3.1       12.1       7.9       9.3 
+Inland SW 
+m          9.7       11.9      10.8      17.1      22.0      19.5 
+s          3.0       3.2       3.1       6.7       10.3       8.3 
+4-Corners 
+m          9.5       11.2      10.4      17.7      20.7      19.2 
+s          2.7       2.9       2.8       6.6       8.5       7.4 
+Central Rockies 
+m          9.0       11.0      10.0      15.1      19.2      17.2 
+s          2.5       2.8       2.5       4.5       6.9       5.5 
+24 
+Table 2 
+Regression Estimates of Seasonal Means 
+The equation Zt,i,r = m t,i,r + Xt,i,r describes the evolution of power prices where Zt,i,r is 
+the wholesale price per unit at time t in a particular delivery point r and for i= Peak, OffPeak, 
+mt,i,ris the deterministic time trend and Xt, i,r  is a random component. The data 
+comprises daily mean Peak power prices and daily mean Off-Peak power prices for twelve 
+regions in the country (described in Appendix I) for the sample period January 1st, 1995 to 
+June 1st, 1998. This table has parameter estimates for the time trend mt,i,r . The time trend 
+is estimated by running a regression, separately for each of the twelve regions region and 
+for Peak and non-Peak hours (a total of twenty four regressions):        
+r 
+i 
+t 
+r 
+i 
+r 
+i 
+r 
+i 
+r 
+i 
+t              
+Jan       Feb                Dec  X 
+Z , ,  = b1, , (   ) + b2, , (   ) + ..................b12, , (   ) +  
+, ,                                                                                
+for i= Peak, non Peak and delivery point r. (The t-statistics for each parameter in all cases 
+are greater than 20 ). The last row depicts the F-statistic for the null hypothesis that the 
+mean price is equal in each month (rejected at 5% in each case). 
+Delivery  NW   CA   CR  COB  NC  MW   SC   MD   PV   IN   FC   MC 
+Off Peak Prices 
+Jan     11.3  10.0  11.1  11.5  11.8  12.1  12.6  12.1  11.7  11.9  11.7  11.1 
+Feb     8.3   9.4   8.7   8.4   8.6   8.9   9.5   9.0   9.1   9.3   8.8   7.9 
+Mar     9.8   11.6   9.0   9.9   9.2   9.4   9.9   9.8   9.8   10.0   9.5   9.1 
+Apr    11.2  13.6   9.5   10.6   9.8   10.2  10.6  10.7  10.7  10.8  10.3  10.9 
+May     6.6   7.3   8.4   7.3   7.1   7.8   8.2   8.0   8.0   8.1   8.1   5.9 
+Jun     4.6   5.1   6.8   5.4   5.7   6.2   6.4   7.2   7.4   7.3   7.5   4.4 
+July     7.7   7.8   8.8   7.9   8.0   8.5   8.9   9.1   9.2   9.0   8.9   7.5 
+Aug    12.1  10.8  11.1  12.3  12.3  12.5  12.6  12.1  11.7  11.5  11.0  12.0 
+Sep    14.1  12.6  12.0  14.2  14.3  14.6  14.4  13.4  13.4  13.0  12.7  13.9 
+Oct    13.1  16.0  12.0  13.7  13.9  14.5  14.3  13.0  12.9  12.6  12.6  13.0 
+Nov    14.5  15.9  12.1  15.5  15.7  15.0  15.1  13.5  13.0  12.8  12.5  14.5 
+Dec    13.0  16.4  11.7  13.6  13.7  14.0  14.4  13.5  13.1  13.1  12.4  12.9 
+F-stat    3.1   4.2   4.3   5.3   3.8   4.9   4.2   3.6   4.4   4.9   3.3   5.1 
+Peak Prices 
+Jan     16.3  17.4  17.4  16.8  17.4  17.9  18.4  18.9  18.3  18.1  18.0  15.9 
+Feb    12.2  12.2  14.2  13.1  13.0  13.9  14.4  15.4  15.4  15.2  15.1  11.8 
+Mar    13.7  15.2  14.8  14.7  14.6  15.4  15.6  16.2  16.3  16.1  15.8  13.5 
+Apr    16.1  19.6  16.4  17.2  16.7  17.4  17.9  18.1  18.0  18.1  17.8  16.5 
+May    13.1  14.3  15.9  14.4  14.7  15.9  16.7  18.6  18.8  18.5  18.7  13.3 
+Jun     11.4  13.3  15.2  13.3  14.0  14.9  15.5  18.4  18.5  18.5  18.0  11.7 
+July    14.1  14.4  20.1  16.1  17.7  19.4  19.3  23.7  25.4  23.9  22.6  13.8 
+Aug    17.5  16.4  20.4  18.9  20.9  24.1  23.1  26.2  27.1  25.9  24.8  17.3 
+Sep    17.7  17.1  19.4  19.5  20.9  23.7  23.0  26.0  27.0  26.1  24.5  17.6 
+Oct    16.7  14.9  17.4  18.2  19.2  20.9  20.7  20.8  21.1  20.9  20.2  16.4 
+Nov    18.5  17.9  18.2  20.7  21.3  21.2  21.5  20.7  20.1  20.0  19.4  18.4 
+Dec    17.9  16.4  18.5  19.1  19.6  20.1  20.6  20.3  20.2  19.5  19.0  17.8 
+F-stat    11.1   9.1   5.6   11.5   8.5   7.4   9.2   9.1   5.4   7.5   7.7   9.2 
+Table 3 
+Estimates of Residual Process Parameters 
+The equation Zt,i,r =m t,i,r +Xt,i,r describes the evolution of power prices where Zt,i,ris the 
+wholesale price per unit at time t in a particular delivery point r and for i= Peak, Off-Peak, 
+r 
+i 
+t, ,  
+m  is the deterministic time trend and Xt, i,r is a random component. The data comprises daily 
+mean Peak power prices and daily mean Off-Peak power prices for twelve regions in the 
+country (described in Appendix I) for the sample period January 1st, 1995 to June 1st, 1998. The 
+time trend is estimated by running a regression, separately for each of the twelve regions region 
+and for Peak and non-Peak hours (a total of twenty four regressions):       
+r 
+i 
+t 
+r 
+i 
+r 
+i 
+r 
+i 
+r 
+i 
+t              
+Jan       Feb                Dec  X 
+Z , ,  = b1, , (   ) + b2, , (   ) + ..................b12, , (   ) +  
+, ,                                                                                
+for i= Peak, Non-Peak and delivery point r. The residuals of the regression , Xt,i,r , follow a 
+first-order    Autoregressive    Process:    Xt,i,r=fi,rXt−1,i,r+u,i,rtwhereE(ut,i,r)=0and                                      
+(   )    
+2 
+,       
+2  
+, 
+,i r        ir 
+t 
+u 
+E     = s . This table reports parameter estimates f ˆi,r of fi,r , for each region in the sample 
+(figures in brackets indicate the asymptotic variance). The table also contains descriptive 
+statistics of the residual component ut,i,r .                   
+NW   CA   CR   COB   NC   MW   SC   MD   PV    IN    FC   MC 
+Peak Prices 
+r 
+i, 
+ˆ 
+f      
+0.88 
+(.22)  
+0.78 
+(.39)  
+0.85 
+(.27)  
+0.86 
+(.26)  
+0.88 
+(.22)  
+0.86 
+(.26)  
+0.88 
+(.22)  
+0.86 
+(.26)  
+0.87 
+(.24)  
+0.83 
+(.31)  
+0.86 
+(.26)  
+0.88 
+(.22) 
+Residuals ut,i,r 
+Std. Dev.   2.36   2.16   2.72   2.6   2.54   3.38   2.95   3.58   4.47   4.21   3.4   2.37 
+Skewness   1.65   1.51   1.04   0.9   1.05   1.69   0.87   0.84   0.8    1.4    0.6   1.57 
+Kurtosis   20.48  13.55  11.96  16.27  11.18  48.44  23.42  17.53  39.21  45.48  13.52  17.21 
+Autocorrelations: Residuals  ut,i,r 
+Lag 1    0.12  -0.05  -0.03  0.03   0.04  -0.03  -0.03  -0.01  0.01  -0.05  0.03   0.13 
+Lag 2    -0.09  0.00  -0.06  -0.08  -0.11  -0.1  -0.07  -0.05  -0.08  -0.04  -0.07  -0.09 
+Lag 7    -0.03  0.02   0.03   0.07   0.08   0.06   0.01   0.06   0.03   0.03   0.05   0.01 
+Lag 10    0.06  -0.04  -0.03  0.01  -0.02  -0.02  -0.01  0.02   0.01  -0.01  0.00   0.03 
+Off-Peak Prices 
+r 
+i, 
+ˆ 
+f      
+0.95 
+(.09)  
+0.87 
+(.24)  
+0.90 
+(.19)  
+0.95 
+(.09)  
+0.94 
+(.11)  
+0.94 
+(.11)  
+0.95 
+(.09)  
+0.92 
+(.15)  
+0.92 
+(.15)  
+0.93 
+(.13)  
+0.91 
+(.17)  
+0.95 
+(.09) 
+Residuals ut,i,r 
+Std. Dev.   1.04   1.10   0.79   0.96   0.95   0.89   0.91   0.90   0.86   0.86   0.82   1.06 
+Skewness   0.34  -1.29  -0.05  -0.24  -0.54  -0.20  -0.11  0.11   0.42   0.07   0.11   0.51 
+Kurtosis   9.82  17.21  2.99   9.70   9.33   7.46   6.74   8.77   6.31   4.29   5.49  12.88 
+Autocorrelations: Residuals  ut,i,r 
+Lag 1    -0.03  -0.05  -0.15  -0.10  -0.10  -0.10  -0.13  -0.13  -0.17  -0.10  -0.14  -0.03 
+Lag 2    -0.02  -0.03  -0.10  0.02  -0.01  0.04  -0.01  -0.04  0.04  -0.08  -0.05  -0.05 
+Lag 7    -0.01  0.03   0.04  -0.01  -0.01  -0.04  -0.04  0.03  -0.02  -0.01  -0.02  0.00 
+Lag 10   -0.02  0.06   0.01   0.02   0.05   0.07   0.01   0.06   0.04   0.10   0.02  -0.04 
+26 
+Table 4 
+Transition Matrices of the Random Component 
+This table reports the transition matrices for the residuals  Xt, i,r   in the equation 
+r 
+i 
+t 
+r 
+i 
+t 
+r 
+i 
+t                
+X 
+Z ,,  = m ,,  +  ,,  where Zt,i,r is the wholesale price per unit at time t in a particular delivery 
+point r and for i= Peak, non-Peak , mt,i,r is the deterministic time trend. The data comprises 
+mean Peak power prices and mean Off-Peak power prices for twelve regions in the country 
+(described in Appendix I) for the sample period January 1st, 1995 to June 1st, 1998. The time 
+trend is first determined by running a regression separately for each of the twelve regions region 
+and  for  Peak  and  non-Peak  hours  (a  total  of  twenty-four  regressions):                      
+) 
+( 
+........ 
+.......... 
+) 
+( 
+) 
+(      
+2, ,                             12, , 
+, 
+, 
+1       
+, 
+,              
+Jan       Feb                Dec 
+Ztir= bir     +bir     +         bir      for i= Peak, Off-Peak and delivery 
+point r. The residuals of the regression, Xt, i,r  follow a first-order time-homogeneous Markov 
+Process. We divide the state space into ten intervals of two units each. The tables show the 
+transition matrices separately for Peak and non-Peak prices for each region. The transition 
+probabilities are calculated by the evaluating the proportion of observations in a certain cell 
+conditional on a particular state and given by      
+∑ 
+= 
+j   
+ij 
+ij 
+ij        
+n 
+n 
+pˆ         where n ijare the number of 
+observations in row i and column j. 
+Four Corners: Peak 
+<-8     -6     -4     -2      0      2      4      6      8     >8 
+<-8    0.62   0.35   0.02   0.02 
+-6     0.2    0.46   0.26   0.02   0.03   0.02 
+-4     0.03   0.13   0.61   0.17   0.03   0.02   0.01   0.01   0.01 
+-2            0.05   0.23   0.43   0.23   0.03   0.04 
+0     0.01   0.01   0.04   0.21   0.46   0.11   0.09   0.04   0.01   0.02 
+2                           0.08   0.22   0.27   0.19   0.11   0.05   0.08 
+4            0.01   0.01           0.11   0.21   0.44    0.1    0.09   0.04 
+6                           0.04   0.06   0.06   0.19   0.47   0.12   0.06 
+8                           0.02   0.02   0.12   0.08   0.23    0.3    0.23 
+>8            0.01           0.01   0.02   0.03   0.04   0.04   0.17   0.68 
+Four Corners: Off Peak 
+<-8 
+-6                   0.79   0.21 
+-4                   0.03   0.76   0.21   0.01 
+-2                   0.01   0.07    0.8    0.13 
+0                           0.01   0.13   0.77   0.09 
+2                                  0.03   0.19    0.7    0.08 
+4                                          0.08   0.31    0.5    0.04   0.08 
+6                                                         0.67   0.33 
+8                                                         0.5    0.5 
+>8 
+
+27 
+Table 5 
+Across Region Comparisons 
+The data comprises mean Peak power prices and mean Off-Peak power prices for twelve 
+regions in the country (described in Appendix I) for the sample period January 1st, 1995 to June 
+1st, 1998. We compute transition matrices for the residuals Xt, i,r   in the equation 
+r 
+i 
+t 
+r 
+i 
+t 
+r 
+i 
+t                
+X 
+Z ,,  = m ,,  +  ,,  where Zt,i,r is the wholesale price per unit at time t in a particular delivery 
+point r and for i= Peak, Off-Peak, mt,i,ris the deterministic time trend. The time trend is 
+estimated by running a regression separately for each of the twelve regions region and for Peak 
+and    non-Peak    hours    (a    total    of    twenty    four    regressions):                      
+) 
+( 
+........ 
+.......... 
+) 
+( 
+) 
+(      
+2, ,                             12, , 
+, 
+, 
+1       
+, 
+,              
+Jan       Feb                Dec 
+Ztir= bir     +bir     +         bir      for i= Peak, non Peak and delivery 
+point r. The residuals of the regression, Xt , follow a first-order time-homogeneous Markov 
+Process. We divide the state space into ten intervals. The transition probabilities are calculated 
+by the evaluating the proportion of observations in a certain cell conditional on a particular state 
+and given by      
+∑ 
+= 
+j   
+ij 
+ij 
+ij        
+n 
+n 
+pˆ         where n ij  are the number of observations in row i and column j. 
+This table compares the Markov Transition matrices between regions by computing a chi-square 
+test statistic             (      ) 
+∑ 
+∑      
+′ 
+′ 
+−     
+ 
+ 
+ 
+ 
+ 
+ 
+=       
+j         
+ij 
+ij 
+ij 
+j 
+i    
+ij 
+i                         
+p 
+p 
+p 
+n 
+S                   
+2                         
+,             
+ˆ       
+where we want to test the null hypothesis that p ij  is 
+equal to a certain specified value pij′for j=1,2,…,K and for a particular i. Note that 
+13 
+. 
+69 
+2 
+% 
+95   
+=   
+c         .             
+Table 5 is on the following page 
+28 
+Table 5 (contd.) 
+Across Region Comparisons 
+NULL   NW   CA    CR   COB   NC   MW   SC    MD   PV    IN    FC    MC 
+Peak Prices 
+NW    0    267   213   126   150   181   179   171   242   171   233    43 
+CA   130    0    200   107   145   110   142   145   149   155   171   113 
+CR   358   296    0    196   168   165   144   226   238   148   132   225 
+COB   146   201   172    0    118   145   168   199   198   177   178   109 
+NC   186   234   204   160    0     71    110   148   170   125   146   115 
+MW   267   281   233   185   106    0     74    120   161    90    149   202 
+SC   300   257   226   249   119    66     0    146   147   132   177   141 
+MD   222   352   252   245   190   101   148    0    139    61    106   150 
+PV    250   342   302   260   200   101   157   100    0     84    116   254 
+IN    301   395   225   301   203    84    145    56    113    0    102   232 
+FC    274   326   147   314   210   146   189   103   140   107    0    250 
+MC    53    213   198   124   111   132   130   131   175   131   172    0 
+Off Peak Prices 
+NW    0    181   180    51    59    133    93    120   119   100    99    22 
+CA    56     0     71    37    40    47    54    53    56    38    55    67 
+CR   109   153    0     97    105    98    60    53    47    27    34    118 
+COB   48    140   112    0     28    40    33    48    94    59    79    42 
+NC    71    154   134    26     0     96    78    70    104    97    88    74 
+MW   82    113   136    35    42     0     24    80    92    84    76    83 
+SC    70    132   114    30    41    27     0     74    97    83    82    67 
+MD    74    137    45    41    38    70    60     0     13    28    31    84 
+PV    66    147    58    52    44    63    62    18     0     21    39    70 
+IN    65    151    37    62    47    77    49    29    16     0     34    88 
+FC    73    141    26    53    41    56    43    23    20    30     0     77 
+MC    22    188   174    43    74    112    90    116   121   114    94     0 
+29 
+Table 6 
+Across Region Correlation of Residuals 
+The data comprises daily prices for twelve regions in the country (described in Appendix I) for 
+the sample period January 1st 1995 to June 1st 1998. The time trend is estimated by running a 
+regression, separately for each of the twelve regions region and for Peak and non-Peak hours (a 
+total of twenty four regressions):                                    
+r 
+i 
+t 
+r 
+i 
+r 
+i 
+r 
+i 
+r 
+i 
+t              
+Jan       Feb                Dec  X 
+Z , ,  = b1, , (   ) + b2, , (   ) + ..................b12, , (   ) +  
+, ,                                                                                
+for i= Peak, Non-Peak and delivery point r. The residuals of the regression , Xt,i,r , follow a 
+first-order    Autoregressive    Process:    Xt,i,r=fi,rXt−1,i,r+ut,i,rwhereE(ut,i,r)=0and                                      
+(   )    
+2 
+,       
+2  
+, 
+,i r        ir 
+t 
+u 
+E     = s . This table reports the correlation matrix between the residuals ut,i,r .                                                        
+NW   MC   COB   NC   MW   SC    MD    PV    IN    FC    MC   CA 
+Peak Prices 
+NW    1.00 
+MC    0.05   1.00 
+COB    0.05   0.06   1.00 
+NC    0.08   0.05   0.04   1.00 
+MW    0.02   0.08   0.04   0.08   1.00 
+SC     0.03   0.02  -0.04  -0.03   0.10   1.00 
+MD    0.04   0.03   0.02  -0.04   0.08   0.02   1.00 
+PV    -0.01  -0.04  -0.05   0.04   0.03   0.02   0.03   1.00 
+IN     0.05   0.05   0.04  -0.03   0.02   0.04  -0.03   0.02   1.00 
+FC     0.02   0.04  -0.01  -0.04  -0.03   0.02  -0.03   0.02   0.04   1.00 
+MC     0.11   0.10   0.09  -0.04  -0.03   0.02  -0.10   0.02   0.02   0.05   1.00 
+CA     0.01   0.01   0.05  -0.01  -0.04  -0.03  -0.01  -0.03   0.02   0.02   0.06   1 
+Off Peak Prices 
+NW    1.00 
+MC    0.15   1.00 
+COB    0.09   0.12   1.00 
+NC    0.14   0.10   0.15   1.00 
+MW    0.12   0.08   0.07   0.11   1.00 
+SC     0.13   0.12   0.14   0.19   0.12   1.00 
+MD    0.16   0.09   0.05   0.23   0.13   0.02   1.00 
+PV     0.11   0.14   0.03   0.11   0.03   0.02   0.03   1.00 
+IN     0.15   0.12   0.11   0.13   0.08   0.05   0.08   0.12   1.00 
+FC     0.12   0.13   0.01   0.04   0.03   0.04   0.03   0.02   0.09   1.00 
+MC     0.11   0.03   0.15   0.04   0.03   0.02   0.04   0.03   0.08   0.10   1.00 
+CA     0.11   0.12   0.02   0.01  -0.04  -0.03   0.04   0.03   0.04   0.07   0.07   1 
+30 
+0 
+5 
+10 
+15 
+20 
+25 
+30 
+35 
+40 
+Jan-95         
+Jan-96         
+Jan-97         
+Jan-98 
+Off-P eak 
+Peak 
+Figure 1. End-of-month power prices at Four Corners ($/Megawatt-Hour).     The data 
+comprises end-of-month Peak power prices and Off-Peak power prices for delivery at Four 
+Corners, over the sample period January 1st, 1995 to June 1st, 1998. Data is obtained from the 
+Energy Market Report Database and is collected by randomly surveying a set of utilities and 
+power producers in the region on each day. Power prices are quoted in $/Megawatt hour. 
+31 
+Figure 2. Seasonally Detrended Residual plot for Four Corners: Peak Prices ($).    The data 
+comprises daily Peak power prices for Four Corners for the sample period January 1st, 1995 to 
+June 1st, 1998. We compute the residuals Xt, i,r  in the equation Zt,i,r =m t,i,r +Xt,i,r where 
+r 
+i 
+t 
+Z , , is the wholesale price per unit at time t in a particular delivery point r and for i= Peak, OffPeak, 
+mt,i,r is the deterministic time trend. The time trend is estimated by running a regression 
+separately for each of the twelve regions region and for Peak and non-Peak hours (a total of 
+twenty four regressions): Zt,i,r = b1,i,r(Jan)+ b2,i,r(Feb) +..................b12,i,r(Dec) for i= Peak, 
+non Peak and delivery point r. The graph shows a daily plot of the residual Xt,i,r on the y-axis, 
+for the entire sample period. 
+-20 
+-10 
+0 
+10 
+20 
+30 
+40 
+50                        
+Time 
+Residuals  ($)  
+32 
+Figure 3. Autoregressive Process Residual plot for Four Corners: Peak Prices.     The 
+equation Zt,i,r=m t,i,r+Xt,i,r   describes the evolution of power prices where Zt,i,ris the 
+wholesale price per unit at time t in a particular delivery point r and for i= Peak, Off-Peak, 
+r 
+i 
+t, ,  
+m  is the deterministic time trend and Xt, i,r is a random component. The data comprises daily 
+mean Peak power prices and daily mean Off-Peak power prices for twelve regions in the 
+country (described in Appendix I) for the sample period January 1st, 1995 to June 1st, 1998. The 
+time trend is estimated by running a regression, separately for each of the twelve regions region 
+and for Peak and non-Peak hours (a total of twenty four regressions):       
+r 
+i 
+t 
+r 
+i 
+r 
+i 
+r 
+i 
+r 
+i 
+t              
+Jan       Feb                Dec  X 
+Z , ,  = b1, , (   ) + b2, , (   ) + ..................b12, , (   ) +  
+, ,                                                                                
+for i= Peak, Off-Peak and delivery point r. The residuals of the regression , Xt,i,r, follow a 
+first-order    Autoregressive    Process:    Xt,i,r=fi,rXt−1,i,r+u,i,rtwhereE(ut,i,r)=0and                                      
+(   )    
+2 
+,       
+2  
+, 
+,i r        ir 
+t 
+u 
+E     = s . This histogram plots the residual component ut,i,r .                                         
+0.00% 
+5.00% 
+10.00% 
+15.00% 
+-8  -6.5  -5  -3.5  -2  -0.5  1  2.5  4  5.5  7  8.5  
+Residual ($) 
+Percent  Observations  
+33 
+APPENDIX I: Overview of the Power Market 
+Electric Power is a homogenous good whose physical characteristics are the same regardless of 
+when and where it is produced or consumed. Electric Power has unique features- it is almost 
+impossible to store power and the generation and use of power must be simultaneous. Since 
+Electric Power is a completely perishable resource, there is no possibility of making use of 
+productive capacity in hours when demand for power may be substantially less than supply 
+(some imperfect storage media are available). The quantity of power consumed per unit of time 
+is measured in Mega-Watt-Hours (one Mega-Watt of energy delivered for a period of one 
+hour). 
+From a physical perspective, the United States (combined with portions of Mexico and 
+Canada) comprises three major power transmission networks. Power hubs serve as 
+interconnections between networks serving different geographical areas (our data set includes 
+price data from these hubs). The three networks are further divided into one hundred and forty 
+“control areas” where an individual called the “control operator” ensures a balance between 
+demand and supply of power. These control areas can be regarded as segments of the three 
+networks where utilities or power pools are responsible towards their constituent members. 
+One of the institutional arrangements in the power industry is in the form of “power 
+pools”. The purpose of power pools is to facilitate power transactions amongst its participating 
+members. In other words, demand and supply are first matched within the power pool and any 
+excess power is sold to outside parties at market prices. It is this “excess power” that 
+constitutes the wholesale power market. 
+Excess power is transmitted to other control areas and utilities through power hubs and 
+associated transmission lines (Appendix II has details of twelve hubs for which price data is 
+analyzed in this paper). The generation and transmission entity serving a particular region or 
+34 
+country typically transfers power to one or more distribution entities, that are then responsible 
+for distributing electricity to retail customers in specific geographic areas that they serve 
+exclusively. The inability to store and transport power and the physical barrier in terms of 
+transmission capacity is responsible for segmenting the markets . 
+35 
+APPENDIX II : Regions covered by the Data Set. 
+Currently the EMR collects prices in twelve distinct markets.                                        
+•  Canada (CA) - Prices reported at the Canada and United States border.                                                     
+•  Northwest and North Rockies (NW)- Includes Washington, Oregon, Idaho, and Montana.                                                                  
+•  Mid-Columbia (MC) - The market corresponding to the region of Central Washington State 
+as well as Northern Oregon between the Grand Coulee Dam the McNary Dam.                                                            
+•  California Oregon Border and Nevada Oregon Borders (COB).                                              
+•  Northern California (NC)- The northern portion of the State above Midway.                                                       
+•  Midway and Sylmar (MW)- located between Northern and Southern California.                                                        
+•  Southern California (SC)- The southern portion of the State below Midway.                                                       
+•  Mead (MD)- the Southern Nevada Market.                              
+•  Palo Verde (PV)- located in Southern Arizona.                                
+•  Inland Southwest (IN)- Consisting of Southern Nevada, Arizona, New Mexico, and 
+Western Texas.         
+•  Four-Corners (FC)- At the Utah, Arizona, New Mexico and Colorado border.                                                          
+•  Central Rockies (CR)- Northern Nevada, Utah and Colorado. 
+Note that some of these data collection points represent actual purchasers and producers of 
+energy while other locations, particularly Midway and Sylmar, Mead, Palo Verde, FourCorners, 
+as well as the Mid-Columbia, are often transaction points for energy that is ultimately 
+used elsewhere. These transaction points exist for the most part where many transmission lines 
+converge and facilitate power transfers from one system to another. 

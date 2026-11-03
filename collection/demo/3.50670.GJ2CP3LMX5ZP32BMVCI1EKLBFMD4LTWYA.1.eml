@@ -1,0 +1,1092 @@
+SUMMARY OF MASTER BANDWIDTH PURCHASE AND SALE AGREEMENT
+
+
+Set forth below is a summary of certain provisions of the Master Bandwidth Purchase and Sale Agreement (the “Master Agreement”).  All capitalized terms used herein shall have the meaning set forth in the Master Agreement.
+
+
+Scope of Agreement.  The Master Agreement is a bilateral document for the purchase and sale of Bandwidth Units.  The contracting parties may select the Bandwidth Units and Quality of Service specified in one of the nine attached annexes, or may customize the particular transaction in the Confirmation.  Each Transaction is for a one month term, which may not necessarily correspond to a calendar month.  Quality of Services is defined in terms of Errored Seconds, Severely Errored Seconds and Unavailable Seconds.
+
+
+Transaction Procedures.  Transactions may occur verbally, electronically or pursuant to a Transaction Agreement.  ________________ will send a written confirmation of a Transaction within three days of the Trade Date.  A Transaction is not invalidated by ___________________’s failure to send a Confirmation.  (A Transaction Agreement will be deemed to be a Confirmation.)
+
+
+Confirmations.  Confirmations must be executed or objected to within three days of receipt.  Failure to respond will be deemed to be acceptance of the Confirmation.
+
+
+Demarcation Point.  The Demarcation Point and any other required information shall be exchanged in accordance with the timeframe specified in the Confirmation.  Seller shall provide such information in advance of Buyer.  If either party fails to provide the necessary information, such party will be liable for monetary damages. 
+
+Term of the Master Agreement.  The Master Agreement is evergreen but may be terminated by either party on 30 days prior written notice.
+
+
+Default Interest Rate.  The default interest rate is equal to the prime commercial lending rate, as published in the Wall Street Journal, plus two percent per annum.
+
+7. Damages:
+
+
+If Seller fails to deliver at start of Month, damages shall equal (Days of failure/30) x (Cover Price (if positive) + Contract Price (to the extent paid by Buyer)).
+If Buyer fails to accept, damages shall equal the Contract Price, i.e., take or pay.
+If Seller fails to provide QoS Bandwidth, damages shall be as specified in Annex or Confirmation. (Note, QoS failures may be severe enough to constitute an Event of Default Triggering Event, as specified in Annex or Confirmation.)
+
+Buyer must give Seller notice of noncompliance within two Business Days of the occurrence of such noncompliance or Buyer’s right to above damages are waived.
+
+
+Local Access Service Charges. Local Access Service charges are the sole responsibility of the Buyer.
+
+
+Upgrade of Pooling Point.  Either party may request an upgrade, modification or addition to a Pooling Point on seven days prior written notice.  For an Upgrade to occur, the other Party must consent or fail to object within seven days of delivery of the request.  If a party objects to an Upgrade within the seven-day period, no Upgrade may occur.
+
+
+Billing.  Seller will invoice Buyer on or before the first Day of the month.  Buyer will be billed in advance for Bandwidth Units.  Only the first invoice will include any prior period.  Payments must be made by wire transfer on or before the 25th day of the month.  Netting and setoff is permitted.
+
+
+
+11. Events of Default.
+
+
+Nonpayment
+Failure to comply with obligations under the Agreement
+Bankruptcy of a Party
+Failure of a Guarantor
+Breach of a representation or warranty
+Occurrence of an Event of Default Triggering Event (i.e., QoS)
+Default by a Party or a guarantor on indebtedness to third parties
+Material Adverse Change
+
+12. Cure Period for Certain Defaults.
+
+
+Payment defaults must be cured within three Business Days after written notice.
+Nonpayment defaults must be cured within five Business Days after written notice.
+
+
+Remedies for Defaults.
+
+
+Declare an Early Termination Date (requires 20 days notice) and collect any owing Early Termination Payment. The Early Termination Payment is calculated by comparing the value of each terminated transaction to the market value of an equivalent replacement transaction.
+Withhold payments until the Event of Default is cured.
+Suspend performance until the Event of Default is cured.
+Terminate all Transactions if the default is a payment default or a Default Triggering Event has occurred.
+
+
+Credit Enhancement.  Bracketed language is provided for guaranties and performance assurance requirements.  The Credit Department will determine whether such provisions are appropriate for a particular counterparty.
+
+
+Force Majeure.
+
+
+Either party or the Pooling Point Administrator (in connection with the pooling point or related facilities) may declare an event of Force Majeure.
+To qualify as an event of Force Majeure, the following conditions must exist:
+  
+
+The event must not be in the reasonable control of the party claiming suspension, and
+The event must prevent the performance not only of the claiming party, but also prevent the performance of “similarly situated third parties” involved in the market for bandwidth.
+
+c.  The following does not constitute an event of force majeure:
+
+
+Economic hardship by either party.
+Mechanical or equipment failure.
+Any change in law or regulation after the Trade Date of the affected Transaction unless such change prevents performance by all similarly situated parties.
+
+
+Taxes.   Buyer is responsible for all Taxes applicable to the Transaction.  Buyer is entitled to declare an Early Termination Date if a material New Tax is enacted and it is not subject to “pass through” reimbursement by another third party.  Buyer must give the Seller at least 30 days prior written notice of its intent to declare an Early Termination Date.
+
+
+Limited Liability for Damages.  Only direct, actual damages are recoverable.  Neither party shall be liable for consequential, incidental, punitive or exemplary damages.
+
+
+Representations and Warranties. Each party makes standard representations and warranties concerning organization, execution, enforceability, etc.
+
+
+Arbitration.  Disputes under the Master Agreement will be resolved by binding arbitration in accordance with the Commercial Arbitration Rules of the American Arbitration Association.
+
+
+Assignment.  A party may assign its rights under the Master Agreement under the following circumstances:
+
+
+The other party consents,
+Assignment is to an Affiliate and there is no degradation of creditworthiness, or
+Assignment is incident to a merger or reorganization.
+
+
+Notices.  Notices must be in writing and may be given by hand, facsimile, overnight mail or courier.
+
+
+Governing Law.  The laws of the State of New York govern the Master Agreement.
+
+
+Indemnity.
+
+
+Each party will indemnify the other for Claims for property damage, personal injury or death caused by such party’s negligence or willful misconduct.
+Buyer will indemnify Seller for any claims by third parties resulting from any defect in or failure to provide Bandwidth Units sold under the Master Agreement.
+
+
+MASTER BANDWIDTH PURCHASE AND SALE AGREEMENT
+
+This Master Bandwidth Purchase and Sale Agreement, together with any amendment, modification or change made in accordance with Section 12.6 hereof (this “Master Agreement”) is entered into as of ___________________ (“Effective Date”) between _____________________________, a [corporation][partnership] organized under the laws of the State of [   ] (“Counterparty”) and _____________________, a [corporation][partnership] organized under the laws of the State of [__________________] (“Company”).   Company and Counterparty shall each be referred to as a “Party” under this Master Agreement.  Counterparty and Company hereby agree as follows:
+1. Agreement for Transactions.
+1.1.  Scope of Agreement.  From time to time, the Parties may, but shall not be obligated to, enter into binding Transactions for the purchase or sale of Bandwidth Units, as hereinafter defined.  Each Transaction shall be effectuated, evidenced and governed in accordance with this Master Agreement and the documents and other confirming evidence, whether a Transaction Agreement (as defined below) or any other form of Confirmation (as defined below).  All Transactions are entered into in reliance on the fact that this Master Agreement and all Confirmations form a single agreement between the Parties (collectively referred to as this “Agreement”) and the Parties would not otherwise enter into any Transactions.  Each Confirmation shall supplement and form a part of, and be subject to, this Master Agreement and shall be read and construed together with this Master Agreement.  Any capitalized term used herein and not defined in the Section in which it appears shall have the meaning set forth in Section 2 hereof.
+1.2.  Transaction Procedures.  It is the intent of the Parties to facilitate Transactions in accordance with the procedures set forth in this Section 1 and to assure that such Transactions are valid and enforceable for the mutual benefit of the Parties.  Any Transaction may be formed and effectuated and shall be legally binding (a) by a telephone conversation that may be recorded (each Party thereby and hereby consenting to the recording of its representatives’ telephone conversations without any further notice) or any exchange of retrievable electronic communications between the Parties or their respective representatives whereby an offer and acceptance shall constitute the agreement of the Parties to a Transaction, or (b) if, and only if, the Parties have previously stipulated by a written agreement executed by both Parties, by a written Transaction Agreement executed by the Parties (including by facsimile and/or counterparts).  As a material part of the consideration for entering into a Transaction, each Party hereby waives and agrees not to contest or assert any defense to (i) the validity or enforceability of Transactions under laws relating to whether certain agreements are to be in writing or signed by such Party to be thereby bound, or (ii) the authority of any employee or representative of such Party to enter into a Transaction.  Subject to the applicable rules of evidence, all telephone recordings and retrievals of computer or other electronic messages may be offered into evidence and used to prove the existence of oral agreements as to Transactions between the Parties, but it is understood that such tangible documentation need not reference all of the terms of the Transaction, that it is not the sole evidence of such terms, and that, in the event of a conflict between the tangible documentation of the oral agreement and the subsequent accepted Confirmation, as provided for in Section 1.3, the Confirmation shall prevail.  Any Transaction formed between the Parties pursuant to the procedures set forth in this Section 1 shall be considered to be a “writing” or “in writing” and to have been “signed” by the Parties, and any tape recording of a Transaction and/or retrieval of any computer or other electronic message forming a Transaction shall be considered to constitute an “original” document evidencing the Transaction.
+1.3.  Confirmations.  The Parties agree that Company may confirm a Transaction entered into pursuant to the provisions of Section 1.2(a) above by giving to Counterparty, within three (3) Business Days after the Trade Date, a written or electronic notice (“Confirmation”) confirming the specific terms (other than those terms described in Section 1.4 below) of such Transaction.  Such Confirmation shall be substantially in the form of Exhibit A hereto (or in such other form as the Parties may agree), provided, however, that Company’s failure to send such Confirmation or to send such Confirmation within such three (3) Business Day period shall not invalidate any Transaction previously entered into in accordance with Section 1.2.  If a Confirmation is not executed by Counterparty (with any objections to the accuracy of the contents noted thereon) and returned to Company (or is not otherwise objected to by written notice to Company) within three (3) Business Days after Counterparty’s receipt thereof, such Confirmation will be deemed correct as given and shall constitute conclusive and binding evidence of such Transaction and the final expression of the terms thereof.  Except as otherwise provided in this Agreement, in the event of any irreconcilable, express conflict between the provisions of this Agreement and the provisions of any Confirmation, the terms of such Confirmation will control for the relevant Transaction.
+1.4.  Exchange of Demarcation Point and Other Information.  Within the time period set forth in the Confirmation applicable to a Transaction (or if no time period is set forth in a Confirmation, 60 Days prior to the beginning of the Term), the Parties agree to exchange and provide to the Pooling Point Administrator, the Demarcation Point and any other information required by the Pooling Point Administrator (including all other operational data that may be required for the Pooling Point Administrator to schedule and test the Bandwidth Unit(s)).  Seller shall provide such Demarcation Point and other information to Buyer and the Pooling Point Administrator in advance of Buyer.  In the event that Seller fails to so provide such Demarcation Point or other information (or causes or prevents the Buyer from providing such Demarcation Point or other information), such event shall constitute a failure of Seller under Section 3.3(a)(i) hereof and Buyer shall be entitled to the applicable remedies in respect thereof.  In the event that Buyer fails to provide such Demarcation Point or other information, such event shall constitute a failure of Buyer under Section 3.3(a)(ii) hereof and Seller shall be entitled to the applicable remedies in respect thereof.  An event giving rise to any payment obligation under this Section 1.4 or Section 3.3 shall not constitute an “Event of Default” to the extent that such payment obligation is satisfied on a timely basis.
+1.5. Term of Master Agreement.  This Master Agreement shall be effective as of the Effective Date and shall remain in effect until terminated by either Party upon 30 days prior written notice to the other Party; provided, however, that this Master Agreement shall remain in effect with respect to any Transaction(s) entered into prior to the effective date of such termination until both Parties have fulfilled all their respective obligations with respect thereto.
+2. Definitions.  Terms used, but not expressly defined in this Section or elsewhere in this Master Agreement, shall have the meanings attributed to such terms in the Confirmation.  All references herein to Sections, Annexes and Exhibits are to those set forth in or attached to this Master Agreement.  Reference to any document means such document as amended from time to time and reference to any Party includes any permitted successor or assignee of such Party.  The following definitions and any terms defined elsewhere in this Master Agreement shall apply to this Agreement and all notices and communications made pursuant to this Agreement.
+“Affiliate” means, with respect to any Person, any other Person that directly or indirectly, through one or more intermediaries, controls or is controlled by, or is under common control with, such Person.  For this purpose, “control” of any Person means the power, directly or indirectly, either to (a) vote 10% or more of the securities having ordinary voting power for the election of directors (or Persons performing similar functions) of such Person, or (b) direct or cause the direction of management and policies of such Person, whether by contract or otherwise.
+“Agreement” is defined in Section 1.1.
+“Bandwidth” means the capacity to carry or transmit data and other information over a given Segment.
+“Bandwidth Unit” means the “Bandwidth Unit” specified by the Parties in connection with a particular Transaction.  Such “Bandwidth Unit” may be one of those described in Annex A or any other “Bandwidth Unit” as agreed between the Parties in connection with a particular Transaction.
+“Bankruptcy Proceeding” means with respect to a Party or any other Person, such Party or Person (a) makes an assignment or general arrangement for the benefit of creditors, (b) files a petition or otherwise commences, authorizes or acquiesces in the commencement of a proceeding or cause of action under any bankruptcy, reorganization, debt restructuring, insolvency, liquidation or other law for the protection of debtors or creditors (or analogous proceedings in the jurisdiction of such Party or Person), (c) has such a petition filed against it and such petition is not withdrawn or dismissed within 30 days after such filing, (d) otherwise becomes bankrupt or insolvent (howsoever evidenced) or (e) is unable to pay its debts as they fall due.
+“Beneficiary Party” is defined in Section 6.5.
+“Bit Error” means a Transmission error that results in a bit being incorrectly interpreted by the receiver.
+“BQoS” means the benchmark quality of service standards applicable to such Bandwidth Unit, as set forth in Annex A.
+“Business Day” means a day on which Federal Reserve member banks in New York City are open for business.  As to each Party, a Business Day shall commence at 8:00 a.m. and end at 5:00 p.m. local time in the place designated by such Party in Exhibit B for delivery of “Notices and Correspondence”.
+“Buyer” means the Party to a Transaction who is obligated to purchase one or more Bandwidth Units.
+“Claims” means all claims, demands or actions in connection with this Agreement, threatened or filed and whether groundless, false or fraudulent, that directly or indirectly relate to the subject matter of an indemnity or remedy hereunder, and the resulting losses, liabilities, obligations, damages, expenses, attorneys’ fees and court costs, whether incurred by or in connection with a settlement or otherwise, and whether such claims, demands or actions are threatened or filed prior to or after the termination of this Agreement.
+“Confirmation” is defined in Section 1.3.
+“Contract Price” means the price per Month to be paid by Buyer to Seller for the purchase of Bandwidth Units, calculated as the Unit Price in US$ multiplied by the number of Bandwidth Unit(s).
+“Costs” means any Legal Costs, brokerage fees, commissions and other transactional costs and expenses reasonably incurred by a Party either as a result of terminating any hedges or other risk management contracts and/or entering into new arrangements to replace any Transaction(s).
+“Cover Price” means, with respect to any Month during the Term of a Transaction in which a QoS Damage Triggering Event or a Seller Damage Triggering Event occurs, (a) the Replacement Price applicable to the Bandwidth Unit to be provided during such Month under such Transaction, minus (b) the Contract Price applicable to such Bandwidth Unit; provided, that the Cover Price shall be deemed to be zero in the event that the aforementioned Contract Price exceeds the Replacement Price.
+“Credit Rating” means with respect to a Party (or its Guarantor or the issuer of a Letter of Credit, as the case may be) or entity, on any date of determination, the respective ratings then assigned to the unsecured, senior long-term debt or deposit obligations (not supported by third party credit enhancement) of such Party (or its Guarantor or the issuer of a Letter of Credit, as the case may be) or entity by S&P, Moody’s or the other specified rating agency or agencies.
+“Day” means a 24-hour period commencing at 12:00 midnight (U.S. Eastern Time) on a calendar day and ending at 12:00 midnight (U.S. Eastern Time) on the next calendar day.
+“Defaulting Party” is defined in Section 6.1.
+“Default Rate” means, for any day, unless otherwise agreed by the Parties, that rate of interest from time to time published in the Wall Street Journal as the prime commercial lending rate, as such rate may change when and as such prime commercial lending rate (or such comparable rate, if the Wall Street Journal does not so designate a “prime commercial lending rate”) changes, plus two (2) percent per annum; provided that the Default Rate shall never exceed the maximum rate permitted by applicable law.
+“Demarcation Point” means a unique numeric or other identifier to be established by a Pooling Point Administrator for a Transaction identifying the single point of interconnection of Seller or Buyer at a relevant Pooling Point.
+“Early Termination Date” is defined in Section 6.1(i).
+“Errored Second” means any second in which a minimum of one (1) and a maximum of two thousand four hundred (2400) Bit Errors have occurred.
+“Event of Default Triggering Event” is defined in Section 3.3(b)(iii).
+[“Expiration Date” means the date on which an Option expires as specified in the Confirmation.]
+“Federal Funds Effective Rate” means, for the relevant determination date, the rate opposite the caption “Federal Funds (Effective)” as set forth in the weekly statistical release designated as H.15 (519), or any successor publication, published by the Board of Governors of the Federal Reserve System.
+“GAAP” means accounting principles that are generally accepted in the United States.
+“Gains” means, with respect to a Party, an amount equal to the economic benefit, if any, (exclusive of Costs) to such Party resulting from the termination of its obligations under terminated Transactions (or the applicable part(s) thereof).  The Non-Defaulting Party shall calculate Gains in a commercially reasonable manner.
+[“Guarantor” means, in respect of Company, _____________________ and, in respect of Counterparty, _______________________, together with any additional replacement or substitute guarantors of such Party’s obligations hereunder.]
+[“Guaranty” means the Guaranty executed by a Party’s Guarantor in accordance with Section 6.4.]
+“Legal Costs” means the reasonable out-of-pocket expenses incurred by a Party, including legal fees and costs of collection, in connection with the enforcement and protection of its rights and remedies under this Agreement.
+“Letter of Credit” means one or more irrevocable, transferable standby letters of credit issued by a Qualified Institution.
+“Local Access Service” means, in connection with a Transaction, the facilities connecting Buyer-designated termination points to the Pooling Points at each end of the Segment.
+“Losses” means, with respect to a Party, an amount equal to the economic loss, if any, (exclusive of Costs) to such Party resulting from the termination of its obligations under the Transactions (or the applicable part(s) thereof)[; provided, however, that in the case of an unexercised Option, the “Losses” with respect to such Option shall mean:  (a) with respect to a Transaction where the Non-Defaulting Party is the Option Buyer of the unexercised Option, the market value of the Option determined in a commercially reasonable manner as of the Early Termination Date; and (b) with respect to a Transaction where the Non-Defaulting Party is the Option Seller of the unexercised Option, zero.  The Non-Defaulting Party shall calculate Losses in a commercially reasonable manner.
+“Maintenance” is defined in Section 4.
+“Market Pooling Point” means the Pooling Points identified in Annex B hereto.
+“Market Pooling Point Administrator” or “MPPA”  means the independent entity that has been appointed to manage the administration (including scheduling and testing) of the respective Market Pooling Point.
+[“Material Adverse Change” means _____________________________________________.]
+“Month” means a period of time beginning at midnight U.S. Eastern Time on the Day of any calendar month agreed between the Parties in respect of a Transaction and ending at midnight U.S. Eastern Time on the corresponding Day of the following calendar month; provided, however, that if the beginning Day of any Month (a) is the last day of a calendar month, (b) does not correspond to a date in the following calendar month, or (c) corresponds to the last day of the following calendar month, then, the ending Day of such Month shall be the last Day of the next succeeding calendar month.
+“Moody’s” means Moody’s Investor Services, Inc. or its successor.
+“New Taxes” means (a) any Taxes enacted and effective after the Trade Date of the relevant Transaction, including, without limitation, that portion of any Taxes or New Taxes that constitutes an increase, or (b) Taxes applicable to a new or different class of parties or transactions as a result of any law, order, rule or regulation, or interpretation thereof, enacted and effective after such Trade Date.
+“Non-Defaulting Party” is defined in Section 6.1.
+[“Option” means a Transaction identified as a “Bandwidth Option” in the related Confirmation.]
+[“Option Buyer” means the Party identified as the “Option Buyer” in the related Option Confirmation.]
+[“Option Seller” means the Party identified as the “Option Seller” in the related Option Confirmation.]
+“Payment Date” means the 25th Day of any calendar month or if such Day is not a Business Day, the next following Business Day, unless such next following Business Day falls in the next calendar month, in which event “Payment Date” shall mean the immediately preceding Business Day.
+“Performance Assurance” means credit support in the form of cash, Letters of Credit, or such other form as may be reasonably acceptable to Beneficiary Party.
+“Person” means an individual, partnership, corporation, limited liability company, business trust, joint stock company, trust, unincorporated association, joint venture, firm or other entity, or a government or any political subdivision or agency, department or instrumentality thereof.
+“Pooling Point” or “PP” means (a) a Market Pooling Point, or (b) any other switching and interconnection facility in a particular physical location through which a Bandwidth connection between Buyer and Seller may be established, monitored and otherwise served.
+“Pooling Point Administrator” or “PPA” means (a) the Market Pooling Point Administrator, or (b) in the event that there is no Market Pooling Point Administrator, the independent entity charged with managing the administration (including scheduling and testing) of the applicable Pooling Point, or (c) in the event that an independent entity as described in (a) or (b) above has not been appointed in respect of any applicable Pooling Point, the Seller.
+“Posting Party” is defined in Section 6.5.
+[“Premium” means the premium, if any, that is specified or otherwise determined in the Confirmation related to the applicable Option.]
+“QoS Damage Triggering Event” is defined in Section 3.3(b)(i).
+“QoS” means, as to a Bandwidth Unit, the BQoS or SQoS applicable thereto.
+“Qualified Institution” means a commercial bank or trust company (a)(i) organized under the law of the United States or a political subdivision thereof, or (ii) organized under the law of a jurisdiction other than the United States and having one or more branch offices in the United States, and (b) having a Credit Rating of at least “A-“ in the case of S&P or “A3” in the case of Moody’s.
+“Replacement Price” means, upon the occurrence of a QoS Damage Triggering Event or a Seller Damage Triggering Event during any Month of any Transaction, the price at which Buyer, acting in a commercially reasonable manner, purchases or could purchase Bandwidth Unit(s) (“Replacement Bandwidth Unit(s)”) substantially similar to the Bandwidth Unit(s) agreed to be provided by the Seller to the Buyer during such Month (plus Costs reasonably incurred by Buyer in purchasing Replacement Bandwidth Unit(s), including additional provisioning and connection charges, if any, incurred by Buyer) or, absent any such a purchase, the market price for such Replacement Bandwidth Unit(s) as determined by Buyer in a commercially reasonable manner.  In determining the market price, Buyer may consider, among other valuations, any or all of the settlement prices of any Bandwidth futures contracts, quotations from leading dealers in Bandwidth capacity contracts, and other bona fide third party offers and/or Buyer’s Losses in connection with the Bandwidth Unit(s) agreed to be provided by Seller to Buyer during such Month, all adjusted for differences in provisioning and connection charges.  For purposes of this definition, Replacement Bandwidth Units shall be deemed to be Bandwidth Units having substantially the same characteristics as the Bandwidth Units agreed to be provided by the Seller to the Buyer during such Month.  No actual replacement transaction shall be required in order to determine the Replacement Price.  In the event that a replacement transaction is not commercially available, the Replacement Price shall be equal to the price of the soonest available Replacement Bandwidth Unit.
+“S&P” means the Standard & Poor’s Rating Group (a division of McGraw-Hill, Inc.) or its successor.
+“Segment” means a continuous path for Transmission between two Pooling Points.
+“Seller” means the Party to a Transaction who is obligated to sell and make available Bandwidth Units for the Term.
+“Seller Damage Triggering Event” is defined in Section 3.3(a)(i).
+“Severely Errored Second” means any second in which more than two thousand four hundred (2400) Bit Errors have occurred.
+“SQoS” means the specified quality of service standards otherwise agreed to in respect of a relevant Transaction.
+[“Strike Price” means the price that is specified or otherwise determined in the Confirmation related to the applicable Option.]
+“Taxes” means any or all ad valorem, Bandwidth, consumption, electronic commerce, excise, fiber optic, gross receipts, privilege, property, occupation, sales, telecommunication (including without limitation, any tax or charge levied pursuant to the Telecommunications Act of 1996, or any state equivalent), transaction, transport, use, utility, and other taxes, governmental charges, licenses, fees, permits and assessments, or increases therein, other than those based on net income or net worth.
+“Term” means the time period described in Months and agreed to by the Parties in connection with a particular Transaction.
+“Trade Date” means the date on which the Parties agree to enter into a Transaction.
+“Transaction” means a transaction agreed to between the Parties in accordance with Section 1 hereof, relating to a specific purchase and sale of, [or an Option to sell or purchase,] Bandwidth Units, and any amendment or modification of such transaction in accordance herewith.
+“Transaction Agreement” means a written paper-based agreement executed by the Parties to form and effectuate a Transaction.  A Transaction Agreement shall constitute a Confirmation for all purposes hereunder.
+“Transaction Contract Number” means contract identifying information assigned to a particular Transaction by the Company in a Confirmation.
+“Transfer” means, with respect to any Performance Assurance, payment or interest amount, and in accordance with the instructions of the recipient or its Custodian, as applicable:
+(a) in the case of cash, payment or delivery by wire transfer into one or more bank accounts specified by the recipient;
+(b) in the case of certificated securities that cannot be paid or delivered by book-entry, payment or delivery in appropriate physical form to the recipient or its account accompanied by any duly executed instruments of transfer, assignments in blank, transfer tax stamps and any other documents necessary to constitute a legally valid transfer to the recipient;
+(c) in the case of securities that can be paid or delivered by book-entry, the giving of written instructions to the relevant depository institution or other entity specified by the recipient, together with a written copy thereof to the recipient, sufficient if complied with to result in a legally effective transfer of the relevant interest to the recipient; and
+(d) in the case of other Performance Assurance, as otherwise specified by the recipient or its Custodian.
+“Transmission” means the simultaneous two-way transfer of a signal, message or other form of data between two Pooling Points.
+“Unavailable Seconds” means a consecutive string of ten (10) or more Severely Errored Seconds.  By way of illustration, nine (9) consecutive Severely Errored Seconds are not Unavailable Seconds, but eleven (11) consecutive Severely Errored Seconds are equal to eleven (11) Unavailable Seconds.
+“Unit Price” means the price in US$ per Bandwidth Unit per Month agreed to in respect of a relevant Transaction.
+“Upgrade” is defined in Section 4.
+“U.S. Dollar”, “Dollar”, “US$”, “$” and “USD” means the lawful currency of the United States of America.
+3. Obligations.
+3.1.  Purchase and Sale.  In a Transaction, Seller agrees to sell and make available, and Buyer agrees to purchase for the relevant Contract Price, Bandwidth Unit(s) for the Term[; provided, however, with respect to Options, the obligations set forth in the preceding sentence shall only arise if Option Buyer exercises an Option in accordance with its terms].  Any Local Access Service charges are the sole responsibility and expense of Buyer.  Taxes in connection with any Transaction shall be allocated in accordance with Section 8.
+3.2.  Availability and Quality of Service.  As agreed between the Parties in accordance with Section 1 hereof in connection with any Transaction, Seller agrees to make available to Buyer Bandwidth Unit(s) over the Segment that satisfy the applicable QoS for the Term.
+3.3.  Damages.  The remedies set forth in this Section 3.3 shall be a Party’s sole and exclusive remedies for the other Party’s failure to provide/accept Bandwidth Units under a Transaction prior to the Non-Defaulting Party’s early termination of such Transaction due to an Event of Default under Section 6.1.
+(a) Failure of Seller to Provide Bandwidth Units at the start of a Month/Failure of Buyer to Accept Bandwidth Units.  (i) Unless excused by Force Majeure or Buyer’s failure to perform, if Seller fails to make Bandwidth Unit(s) available to Buyer on and as of the start of any Month within the Term (a “Seller Damage Triggering Event”), for each consecutive Day that the Seller fails to provide such Bandwidth Units from and including the first Day of such Month (together, the “Seller Failed Days”), Seller shall pay Buyer, as liquidated damages, an amount for such Bandwidth Unit(s), calculated by Buyer equal to the product of (A)(I) the number of Seller Failed Days, divided by (2) thirty (30), and (B) the sum of (1), the Cover Price, if positive and (2) the Contract  Price, to the extent that the Buyer has paid the Contract Price.  Seller shall pay to Buyer the amount, if any, determined to be due under this clause (i) within three (3) Business Days after receipt of notice from Buyer under Section 3.3(c).
+(ii) Unless excused by Force Majeure or Seller’s failure to perform, if Buyer fails to accept any Bandwidth Unit(s) on and as of the start of any Month within the Term, Buyer shall pay Seller, as liquidated damages, the Contract Price applicable to such Bandwidth Units in accordance with Section 5.  An event giving rise to any payment obligation by Buyer under this Section 3.3(a)(ii) shall not constitute an "Event of Default" to the extent that such payment obligation is satisfied on a timely basis.
+(b) Failure to Provide QoS Bandwidth Units during a Month.  (i) In any Month of any Transaction, if Seller fails  (other than due to a failure of Buyer or Force Majeure) to provide a Bandwidth Unit to Buyer on a Segment at least equal to the QoS required in respect of such Bandwidth Unit (a “QoS Damage Triggering Event”), Buyer, as its sole and exclusive remedy (all other remedies being waived, except as otherwise provided in this Section 3.3 or Section 6), shall recover the amount set forth under the heading “BQoS Damages” in Annex A, as liquidated damages, with respect to the relevant type of BQoS Bandwidth Unit(s) or as agreed with respect to SQoS Bandwidth Units (in the event that one or more QoS Damage Triggering Events occur on the same Day and in respect of the same Day, only the single highest damage amount shall be recoverable to the exclusion of the lesser damage amount(s)).
+(ii) To the extent that credits in respect of damages under this Section 3.3(b) exceed the payments due to Seller, Seller shall pay to Buyer such excess amount, as liquidated damages, on the next following Payment Date, or, in the event there is no such Payment Date, the last Business Day of the Term applicable thereto.
+(iii) Seller expressly limits its liability to Buyer for any QoS Damage Triggering Event to the damages specified in this Section 3.3(b); provided, however, that in the event that (i) Seller fails to timely credit (or pay, as the case may be) any damage amount, and such failure is not remedied within three (3) Business Days after written notice thereof from Buyer, or (ii) in any Month, an Event of Default Triggering Event occurs (as set forth in Annex A or as agreed to with respect to SQoS Bandwidth Units, an “Event of Default Triggering Event”), such event shall constitute an “Event of Default” with respect to Seller under Section 6.1(f).
+(c) Buyer shall notify Seller of the occurrence of a QoS Damage Triggering Event or a Seller Damage Triggering Event, within two (2) Business Days after the occurrence of such event, which notice shall set forth the amount due in respect thereof pursuant to the applicable calculation described above.  Failure by Buyer to provide such notice within such time period shall result in a forfeiture of Buyer’s right to claim such damages.  An event giving rise to any payment obligation by Seller under this Section 3.3 shall not constitute an “Event of Default” to the extent that such payment obligation is satisfied on a timely basis.
+3.4.  Buyer’s Agreements.  Buyer shall not use any Bandwidth Unit, or permit any Bandwidth Unit to be used, for any illegal purpose or in any other unlawful manner.  Buyer’s knowing Transmission of any material (including, but not limited to, copyrighted material, materials judged by Seller to be threatening, obscene, profane, offensive, pornographic, defamatory or material protected by trade secrets) in violation of any federal, state or local law, order or regulation is prohibited.  Buyer shall make all arrangements with copyright holders, licensing organizations and other parties for necessary authorizations, clearances or consents with respect to Transmission content.  Buyer is responsible for and must provide all equipment, services and data necessary to accept and use any Bandwidth Unit(s).  Buyer maintains sole responsibility for the security and confidentiality of its data and other information Transmitted over any Bandwidth Unit.  Seller shall have no responsibility for the security or confidentiality of Buyer’s data or information, and Seller makes no representation, warranty or assurance as to information or its security or confidentiality.  Seller shall make no effort to validate Buyer’s data and/or information for content, correctness or usability.  Seller makes no representation, warranty or assurance that Buyer’s equipment and data will be compatible with any Bandwidth Unit being sold or with any connection or interconnection with the Pooling Points at each end of a Segment.  Use of any information obtained by way of Seller is at Buyer’s own risk, and Seller specifically disclaims any responsibility for the accuracy or quality of the information obtained through Seller.
+4. Bandwidth Scheduling and Operations.  Seller shall be solely responsible for the provision of all local distribution facilities, ports, interconnection facilities, network equipment, testing equipment and procedures, and the maintenance and repair of the foregoing, up to each relevant Demarcation Point, and for other facilities or actions necessary for it to sell and provide the Bandwidth Units being sold hereunder.  Buyer shall be solely responsible for the provision of all local distribution facilities, ports, interconnection facilities, network equipment, testing equipment and procedures, and the maintenance and repair of the foregoing, up to each relevant Demarcation Point, and for other facilities or actions necessary for it to purchase and accept the Bandwidth Units being purchased hereunder.  In addition, Buyer shall be responsible for any costs and/or expenses associated with its interconnection to Seller at the Demarcation Point within any particular Pooling Point.  Each Party shall conduct its operations and use Bandwidth Units in a manner that does not interrupt, impair or interfere with the operations of the other Party’s system.  Either Party may, however, request (in writing) the other Party’s consent to improve, upgrade, modify or add to a Pooling Point, a Demarcation Point, or a Segment  (any such improvement, upgrade, modification or addition, being hereinafter referred to as an “Upgrade”).  The requesting Party shall not be permitted to effect any Upgrade unless and until either (y) the other Party shall have consented in writing to such Upgrade, which consent shall not be unreasonably withheld or delayed, or (z) the other Party shall have failed to provide any written objection to such requested Upgrade within seven (7) days after delivery of the aforementioned written request.  Regularly scheduled and emergency maintenance and repair may be conducted with respect to any Pooling Point, a Demarcation Point, or a Segment (any such maintenance and repair, being hereinafter referred to as “Maintenance”) so long as Buyer is given notice of such Maintenance that is commercially reasonable under the circumstances.  Any permitted Upgrade or Maintenance (other than emergency Maintenance) shall occur between 8:00 p.m. and 6:00 a.m. (local time at the applicable Pooling Point), and no QoS failure shall be deemed to have occurred during any emergency Maintenance or to the extent that such Upgrade or Maintenance (other than emergency Maintenance) occurs during such hours.  Each Party is responsible for requesting the Pooling Point Administrator (or its relevant agents or sub-contractors) to provide the Demarcation Point at a particular Pooling Point.  The monitoring of the performance will be reported and logged by the Pooling Point Administrator (or its relevant agents or sub-contractors).  Absent manifest error, the Pooling Point Administrator’s (or its relevant agent’s or sub-contractor’s) decisions regarding scheduling and testing shall be conclusive as between the Parties.  The Parties agree to accept the Pooling Point Administrator’s (or its relevant agent’s or sub-contractor’s) declaration to the Parties of any event of Force Majeure with respect to the Pooling Point or related facilities.
+5. Payments/Settlements.
+5.1.  Payments.  On or about the first Business Day of each calendar month after the start of the Term, Seller shall provide a billing statement to Buyer setting forth the amount owed by Buyer in respect of (a) the Bandwidth Units to be sold during the next Month, and (b) the Bandwidth Units sold during any prior calendar month or Month, to the extent that any payment is due and owing by Buyer in respect of such Bandwidth Unit(s) [(other than Premium payments pursuant to Section 5.3)].  Unless Buyer provides a certificate of resale in respect of Bandwidth Units, the applicable billing statement shall include any Universal Service Fund payment made by Seller in respect thereof.  Buyer shall pay for all Bandwidth Units made available whether used or not.  All amounts payable hereunder are due on the Payment Date of the calendar month in which the billing statement is issued.  All payments hereunder shall be Transferred in immediately available funds to payee on or before the due date in respect thereof.  Notices and payments shall be sent and made in accordance with Section 12.3.  Interest on past due amounts shall accrue at the Default Rate.
+5.2  Netting and Setoff.  If the Parties owe each other any amount on the same Day, then the Parties may discharge their obligations to pay through netting.  In which case, the Party, if any, owing the greater amount may pay to the other Party the difference between the amounts owed.  Each Party reserves to itself all rights, setoffs, counterclaims, combination of accounts, liens and other remedies and defenses which such Party has or may be entitled to (whether by operation of law or otherwise).
+[5.3  Payment for Options.  Premium shall be paid byOption Buyer within two (2) Business Days of receipt of an invoice from Option Seller.  Upon exercise of an Option, Buyer shall pay the Strike Price to Seller in accordance with Section 5.1.]
+6. Events of Default and Remedies.
+6.1.  Events of Default.  An event of default (an “Event of Default”) with respect to a Party (the “Defaulting Party”) shall mean any of the following:
+(a) the failure of the Defaulting Party to pay any amount when due under this Agreement, if such failure is not remedied within three (3) Business Days after written notice thereof;
+(b) the failure of the Defaulting Party to comply with any of its obligations under this Agreement (other than defaults that are otherwise specifically set forth in this Section 6.1, the failure to provide or accept Bandwidth Unit(s) or failures that constitute QoS Damage Triggering Events, remedies for the latter two of which are provided in Section 3.3(a) and Section 3.3(b), respectively), and such failure is not excused by Force Majeure or cured within five (5) Business Days after written notice thereof to the Defaulting Party;
+(c) the Defaulting Party shall be subject to a Bankruptcy Proceeding;
+[(d) the failure of a Party’s Guarantor, if any, to execute its Guaranty, to perform any covenant in its Guaranty, the expiration, termination or cessation of such Guaranty, or the occurrence of a Bankruptcy Proceeding with respect to such Guarantor;]
+(e) any representation or warranty made by a Party hereunder shall prove to have been untrue in any material respect when made;
+(f) the occurrence, as to Seller, of an Event of Default Triggering Event;
+[(g) with respect to Company, at any time, [it] [its Guarantor] shall have defaulted on its indebtedness to third parties, resulting in [its] obligations [of its Guarantor] in excess of US$ ______________________ (US$ _________________) being accelerated or capable of being accelerated, or with respect to Counterparty, at any time, [it] [its Guarantor] shall have defaulted on its indebtedness to third parties, resulting in [its] obligations [of its Guarantor] in excess of US$ ______________________ (US$ ______________) being accelerated or capable of being accelerated;]
+[(h) the failure of the Posting Party to deliver Performance Assurance to the Beneficiary Party when due under this Agreement or to otherwise comply with Section 6.6, if such failure is not remedied within three (3) Business Days after written notice thereof;]
+[(i) the occurrence of a Material Adverse Change with respect to the Defaulting Party; provided, that such Material Adverse Change shall not be considered an Event of Default if the Defaulting Party establishes and maintains for so long as such Material Adverse Change is continuing, Performance Assurance in favor of the Non-Defaulting Party in form and amount acceptable to the Non-Defaulting Party.]
+Upon the occurrence and during the continuation of an Event of Default as to the Defaulting Party, the other party (“Non-Defaulting Party”) may, in its sole discretion,
+(i) accelerate and liquidate the Parties’ respective obligations under all Transactions outstanding under this Agreement by giving not more than 20 Days notice to the Defaulting Party declaring a date (“Early Termination Date”) (which shall be no earlier than the date of such notice) on which date such Transactions shall terminate;
+(ii) withhold any payments due to the Defaulting Party until such Event of Default is cured; and/or
+(iii) suspend performance of its obligations under this Agreement and any Transaction until such Event of Default is cured.
+Notwithstanding the immediately preceding sentence, if the Event of Default is one described in clause (a) or (f) above and the Non-Defaulting Party has elected to declare an Early Termination Date, the Non-Defaulting Party may, in its sole discretion, choose to terminate (A) all Transactions, or (B) only those Transactions (or part(s) thereof) which gave rise to such Event(s) of Default (in which latter case, as to all Transactions (or part(s) thereof) not then terminated, this Agreement and any related Confirmation(s) shall remain in effect without prejudice to the Non-Defaulting Party’s rights under this Section 6.1 to declare an Early Termination Date as to such remaining Transactions (or part(s) thereof) upon a subsequent Event of Default).
+If an Early Termination Date is declared under this Section 6.1, the Early Termination Date will occur on the designated date, whether or not the relevant Event(s) of Default is then continuing.  Any rights of a Non-Defaulting Party under this Section 6.1 shall be in addition to such Party’s other rights under this Agreement and at law, to the extent not waived hereunder.
+6.2.  Early Termination Payment.  (a) If an Early Termination Date is declared, the Non-Defaulting Party shall in good faith calculate its Gains, Losses and Costs, resulting from the terminated Transactions or part(s) thereof.  Such Gains, Losses and Costs with respect to all terminated Transactions (or part(s) thereof) shall be aggregated with all damages payable under Section 3.3(b) into a single net amount, and the Non-Defaulting Party shall notify the Defaulting Party of such net amount owed (such notice being the “Damage Notice”).  The Gains, Losses and Costs shall be determined by the Non-Defaulting Party by comparing the value of each terminated Transaction (or part(s) thereof, had it not been terminated) to the market value of an equivalent replacement transaction having a term equal to the remaining Term of each such terminated Transaction (or part(s) thereof).  The market value of an equivalent replacement transaction may be established either pursuant to a quote by a bona fide third party or by the cost of a replacement transaction which is reasonably expected to be available in the market in replacement of each terminated Transaction (or part(s) thereof).  It is, however, expressly agreed that a Party shall not be required to enter into a replacement transaction in order to determine the Early Termination Payment (as hereinafter defined)).  To ascertain the market prices of a replacement transaction, the Non-Defaulting Party may consider, among other valuations, any or all of the settlement prices of any Bandwidth futures contracts, quotations from leading dealers in Bandwidth capacity contracts and other bona fide third party offers, all adjusted for the length of the remaining Term and differences in provisioning and interconnections.  If the Non-Defaulting Party’s aggregate Losses and Costs and amounts due to it under Section 3.3(b), if any, exceed its aggregate Gains, the Defaulting Party shall, within five (5) Days of its receipt of the Damage Notice, pay the net amount owed to the Non-Defaulting Party as an early termination payment (“Early Termination Payment”).  Such Early Termination Payment shall be paid together with interest thereon (before as well as after judgement), from (and including) the relevant Early Termination Date to (but excluding) the date such amount is paid at the Default Rate, plus any other unpaid amounts (but, as to the terminated Transactions or part(s) thereof, excluding any unpaid amounts which are taken into account in the definition of “Losses”) owing by the Defaulting Party under this Agreement.  Such interest will be calculated on the basis of daily compounding and the actual number of days elapsed.  If the Non-Defaulting Party’s aggregate Gains exceed its aggregate Losses and Costs and amounts due to it under Section 3.3(b), if any, resulting from such early termination, the Non-Defaulting Party shall, after giving effect to any setoff rights, pay the net amount as an Early Termination Payment without interest to the Defaulting Party on or before the date twenty (20) Days after the Early Termination Date.  The Non-Defaulting Party shall determine its Gains, Losses and Costs as of the Early Termination Date, or, if that is not possible, at the earliest date thereafter that is reasonably possible.
+(b) If an Event of Default occurs and/or an Early Termination Date is designated and occurs, the Non-Defaulting Party may (at its election) set off any or all amounts which the Defaulting Party owes to the Non-Defaulting Party or its Affiliates (under this Agreement or otherwise) against any or all amounts which the Non-Defaulting Party owes to the Defaulting Party (whether under this Agreement or otherwise).  Notwithstanding any provision to the contrary contained in a Confirmation, the Non-Defaulting Party shall not be required to pay to the Defaulting Party any amount under this Agreement until the Non-Defaulting Party receives confirmation satisfactory to it in its reasonable discretion that (i) all amounts due and payable as of the Early Termination Date by the Defaulting Party under all Transactions with the Non-Defaulting Party or any of its Affiliates have been fully and finally paid, and (ii) all other obligations of any kind whatsoever of the Defaulting Party to make any payments to the Non-Defaulting Party or any of its Affiliates under this Agreement or otherwise have been fully and finally performed.
+(c) Any amount payable by one Party to the other under this Section 6.2 shall constitute liquidated damages.  The Parties acknowledge that such liquidated damages are a reasonable pre-estimate of loss and not a penalty.
+6.3.  Expenses.  The Defaulting Party shall, on demand, indemnify and hold harmless the Non-Defaulting Party for any and all Costs, incurred by the Non-Defaulting Party in connection with the enforcement and protection of its rights under this Agreement; provided, that no amount paid by the Defaulting Party shall be duplicative of any amount previously paid by the Defaulting Party to the Non-Defaulting Party.
+[6.4 Guaranty Agreement.  (a) In order to secure all payment obligations of Company to Counterparty under this Agreement, Company shall cause its Guarantor to execute and deliver to Counterparty a guaranty agreement in the amount of ____________ U.S. Dollars ($___________), which guaranty agreement shall be substantially in the form of Exhibit C-1 attached hereto.
+(b) In order to secure all payment obligations of Counterparty to Company under this Agreement, Counterparty shall cause its Guarantor to execute and deliver to Company a guaranty agreement in the amount of ____________ U.S. Dollars ($___________), which guaranty agreement shall be substantially in the form of Exhibit C-2 attached hereto.]
+[6.5  Performance Assurance Requirement/Termination Payment Threshold.  If at any time and from time-to-time during the term of this Agreement (and notwithstanding whether an Event of Default has occurred), the Early Termination Payment that would be owed to a Party in respect of all Transactions, if then terminated, exceeds a threshold of _______________________ U.S. Dollars ($ ___________), if owed to Counterparty and ____________________ U.S. Dollars ($ ____________), if owed to Company (the “Threshold Amount”), such Party (the “Beneficiary Party”), on any Business Day, may request the other Party (the “Posting Party”) to provide Performance Assurance in such form as the Beneficiary Party shall reasonably request.  Such Performance Assurance shall have a value equal to or in excess of the difference between (a) such Early Termination Payment, and (b) the Threshold Amount (rounding upwards for any fractional amount to the next nearest U.S. $___________, with respect to Counterparty, and U.S. $____________, with respect to Company), if positive.  In determining the value of any Performance Assurance, the Beneficiary Party may, in its sole discretion, discount the fair market value of any such Performance Assurance in order to reflect the actual proceeds that the Beneficiary Party could reasonably expect to receive upon liquidation of, or the exercise of its rights under and in respect of, such Performance Assurance.  Performance Assurance shall be delivered within two (2) Business Days after the date of such request by the Beneficiary Party.  On any Business Day (but no more frequently than weekly with respect to Letters of Credit and daily with respect to cash), the Posting Party, at its sole cost and expense, may request that Performance Assurance be returned or reduced to the extent of any reduction of the amount of the Early Termination Payment (calculated as set forth above in this Section) (rounding upwards for any fractional amount to the next nearest U.S. $____________, if owed to Counterparty, and U.S. $__________, if owed to Company).
+6.6.  Holding and Use of Performance Assurance.  (a) Care of Performance Assurance.  Without limiting the Beneficiary Party’s rights under Section 6.6(c), the Beneficiary Party will exercise reasonable care to assure the safe custody of all Performance Assurance to the extent required by applicable law, and in any event, the Beneficiary Party will be deemed to have exercised reasonable care if it exercises at least the same degree of care as it would exercise with respect to its own property.  Except as specified in the preceding sentence, the Beneficiary Party will have no duty with respect to Performance Assurance, including, without limitation, any duty to collect any dividends or other distributions, or enforce or preserve any rights pertaining thereto.
+
+(b)(i) General.  The Beneficiary Party will be entitled to hold Performance Assurance or to appoint an agent (a “Custodian”) to hold Performance Assurance for the Beneficiary Party.  Upon notice by the Beneficiary Party to the Posting Party of the appointment of a Custodian, the Posting Party’s obligations to make any Transfer will be discharged by making the Transfer to that Custodian.  The holding of Performance Assurance by a Custodian will be deemed to be the holding of that Performance Assurance for which the Custodian is acting.
+
+(ii) Eligibility to Hold Performance Assurance.  If the Company is the Beneficiary Party, Company and its Custodian will be entitled to hold Performance Assurance; provided that the following conditions applicable to it are satisfied:
+
+
+Company is not a Defaulting Party and [it] [its Guarantor] has a Credit Rating from S&P and the Credit Rating for [it] [its Guarantor] is “________” or higher by S&P.
+
+
+Performance Assurance may be held only in the following jurisdictions:  [Any jurisdiction within the United States].
+
+If the Counterparty is the Beneficiary Party, Counterparty and its Custodian will be entitled to hold Performance Assurance; provided that the following conditions applicable to it are satisfied:
+
+
+Counterparty is not a Defaulting Party and [it] [its Guarantor] has a Credit Rating from S&P and the Credit Rating for [it] [its Guarantor] is “___” or higher by S&P [or “____” or higher by Moody’s] [a Material Adverse Change has not occurred with respect to Counterparty].
+
+
+Performance Assurance may be held only in the following jurisdictions:  [Any jurisdiction in the United States].
+
+If a Party or its Custodian is not eligible to hold Performance Assurance pursuant to this Section, then it shall be considered an “Ineligible Party” (as defined in Section 6.6(c)) and Performance Assurance shall be maintained in accordance with Section 6.6(c).
+
+(iii) Failure to Satisfy Conditions.  If the Beneficiary Party or its Custodian fails to satisfy any conditions set forth in Section 6.6(b)(ii) for holding Performance Assurance, then upon a demand made by the Posting Party, the Beneficiary Party shall, not later than five (5) Business Days after such demand, Transfer or cause its Custodian to Transfer all Performance Assurance held by it to a Custodian that satisfies those conditions or to the Beneficiary Party if it satisfies those conditions.
+
+(iv) Liability.  The Beneficiary Party shall be liable for acts or omissions of its Custodian to the same extent that the Beneficiary Party would be liable hereunder for its own acts or omissions.
+
+(c) Use of Performance Assurance.  (i) Without limiting the rights and obligations of the Parties under this Agreement, if the Beneficiary Party is not a Defaulting Party and no Early Termination Date has occurred or been designated as a result of an Event of Default with respect to the Beneficiary Party, then the Beneficiary Party will, notwithstanding Section 9-207 of the New York Uniform Commercial Code, have the right to:
+
+
+sell, pledge, rehypothecate, assign, invest, use, commingle or otherwise dispose of, or otherwise use in its business any Performance Assurance it holds, free from any claim or right of any nature whatsoever of the Posting Party, including any equity or right of redemption by the Posting Party; and
+
+
+register any Performance Assurance in the name of the Beneficiary Party, its Custodian or a nominee of either.
+
+For purposes of the obligation to Transfer Performance Assurance pursuant to Section 6.5 and any rights or remedies authorized under this Agreement, the Beneficiary Party will be deemed to continue to hold all Performance Assurance and to receive dividends and other distributions made thereon, regardless of whether the Beneficiary Party has exercised any rights with respect to any Performance Assurance pursuant to (A) or (B) above.
+
+(ii) If a party is not eligible to hold Performance Assurance pursuant to Section 6.6(b) (such party shall be the “Ineligible Party” and the event that caused it to be ineligible to hold Performance Assurance shall be a “Credit Rating Event”), then:
+
+
+the provisions of Section 6.6(c)(i) will not apply with respect to the Ineligible Party as the Beneficiary
+Party; and
+
+(B) the Ineligible Party shall be required to deliver (or cause to be delivered) not later than the close of business on the second Business Day following such Credit Rating Event all Performance Assurance in its possession or held on its behalf to a Qualified Institution approved by the non-Ineligible Party (which approval shall not be unreasonably withheld) to a segregated, safekeeping or custody account (“Collateral Account”) within such Qualified Institution with the title of the Collateral Account indicating that the property contained therein is being held as Performance Assurance for the Beneficiary Party.  The Qualified Institution shall serve as Custodian with respect to the Performance Assurance in the Collateral Account, and shall hold such Performance Assurance in accordance with the terms of this Section 6.6 and for the security interest of the Ineligible Party and, subject to such security interest, for the ownership of the non-Ineligible Party.
+
+6.7.  Interest, Dividends and Other Amounts.  Unless otherwise specified by the Beneficiary Party, interest shall accrue on any Performance Assurance in the form of cash at the Federal Funds Effective Rate.  So long as no Event of Default with respect to the Posting Party has occurred and is continuing, and to the extent that an obligation to deliver Performance Assurance would not be created or increased, the Beneficiary Party shall Transfer to the Posting Party, any interest, dividends or other amounts paid with respect to the Performance Assurance on the last Business Day of the calendar month in which such interest, dividends or other amounts were received by the Beneficiary Party.  On or after the occurrence of an Event of Default with respect to the Posting Party, the Beneficiary Party shall retain any such interest, dividends or other amounts received by the Beneficiary Party in respect of the Performance Assurance until all obligations of the Posting Party under this Agreement have been satisfied.]
+7. Force Majeure.  In the event that either Party is rendered unable, wholly or in part, by an event of Force Majeure to carry out its obligations to provide or accept any Bandwidth Unit under a Transaction, such Party (the “Claiming Party”) shall give oral notice and full detail of such event of Force Majeure to the other Party as soon as practicable after the occurrence thereof (such notice to be confirmed in writing).  The obligations of the Parties with respect to such Bandwidth Unit(s) under such Transaction shall be suspended to the extent required by such event and during its continuance.  The Claiming Party shall make reasonable efforts to mitigate the effects of such event of Force Majeure with reasonable dispatch.  If an event of Force Majeure persists for a continuous period of thirty (30) Days after the date the Force Majeure is declared, the Party not claiming the Force Majeure shall have the option, upon three (3) Days notice, to terminate the affected Transaction(s) (or part(s) thereof) and the obligations of the Parties thereunder (other than payment obligations for prior performance thereunder).  Upon the occurrence of an event of Force Majeure, Bandwidth Units not scheduled during the applicable Term by reason of such event shall not be rescheduled except by mutual agreement of the Parties.  Force Majeure shall be limited to those events which are not within the reasonable control of the Party claiming suspension, and which are of such nature and scope as to prevent both the performance of obligations under the Transaction (or part(s) thereof) by the Party claiming suspension and similar performance at the same time by other similarly situated third parties involved in the market for Bandwidth (notwithstanding the exercise of due diligence by such Party or third parties to overcome or avoid such events).  The term Force Majeure shall include, without limitation, those events that meet the definition in the immediately preceding sentence, and that involve Acts of God, labor disputes, floods, earthquakes, natural disasters, wars, civil disturbances, sabotage, power failures, any law, order, regulation, ordinance or requirement of any governmental or legal authority, or a failure of a Pooling Point or related facilities within such Pooling Point.  The term Force Majeure shall not include (i) the loss of Buyer’s markets or Buyer’s inability to economically use or resell Bandwidth Units purchased hereunder, (ii) Seller’s ability to sell Bandwidth Units in the market at a more advantageous price, (iii) any mechanical or equipment failure (other than any such failure that would otherwise constitute an event of Force Majeure as described above), or (iv) any change in law or regulation after the Trade Date of the affected Transaction unless such change in law or regulation affects the market for Bandwidth generally by preventing performance by all similarly situated parties under similar transactions.  The Parties acknowledge and agree that the Pooling Point Administrator may declare an event of Force Majeure as to a Pooling Point and/or related facilities with such Pooling Point.
+8. Taxes.
+8.1.  Allocation of and Indemnity for Taxes.  Buyer is liable for and shall pay, cause to be paid (or reimburse Seller if Seller has paid) all Taxes applicable to any Transaction, including any Taxes imposed or collected by a taxing authority with jurisdiction over Buyer.  Buyer agrees to pay any such Taxes and to indemnify and hold Seller harmless from any Claims for such Taxes.
+8.2.  New Taxes.
+(a) Pass-Through Taxes.  If,
+(i) a New Tax occurs as to any Transaction, and
+(ii) Buyer would be responsible for such New Tax if it were a Tax under Section 8.1, and
+(iii) such New Tax is, due to and on the basis of laws, regulations and applicable contracts of Buyer in effect as of the effective date of the New Tax, of the type which Buyer can pass directly through to, or be reimbursed by, another Person other than Seller,
+Buyer shall pay or cause to be paid (or reimburse Seller if Seller has paid) all such New Taxes and Buyer shall indemnify, defend and hold harmless Seller from any Claims for such Taxes.
+(b) Non-Pass Through Taxes.  If,
+(i) any material New Tax occurs as to any Transaction, and
+(ii) Buyer would be responsible for such New Tax if it were a Tax under Section 8.1, and
+(iii) clause (a) above does not apply,
+Buyer shall be entitled to declare an Early Termination Date as to the affected Transaction(s) in accordance with the provisions of this Agreement, as if such event constituted an Event of Default and the Buyer, as the Non-Defaulting Party, were entitled to, and did choose to, terminate only the Transactions (or part(s) thereof) affected by such New Tax subject to subclauses (A) – (F) below; provided, that prior to and including the initial Agreement Period (as defined below) invoked under this Section 8.2, New Taxes shall be allocated as if they were Taxes as provided in Section 8.1:
+(A) Buyer must give the Seller at least 30 Days prior notice (“Agreement Period”) of its intent to declare an Early Termination Date pursuant to Section 6.2 (which notice shall be given no later than 90 Days after the later of the enactment or effective date of the relevant New Tax), and prior to the proposed Early Termination Date, Buyer and Seller shall attempt to reach a mutual agreement as to the sharing of the New Tax,
+(B) if a mutual sharing agreement is not reached, Seller shall have the right, but not the obligation, upon written notice to the Buyer within the Agreement Period, to pay the New Tax for any continuous period it so elects on a Month to Month basis, and in such case, Buyer shall not have the right during such continuous period to declare an Early Termination Date on the basis of the New Taxes,
+(C) should Seller at its election agree to pay the New Tax on a Month to Month basis, then upon 30 Days prior notice to Buyer of its election to cease payment of such New Tax, Buyer shall then be liable for the payment of the New Tax and the Parties shall again be subject to this Section 8.2 as if the New Tax had an effective date as of the date Seller ceased payment of such New Tax,
+(D) if a mutual sharing agreement is not reached and the Seller does not elect to pay the New Tax for any period of time within the Agreement Period, the Early Termination Date shall take effect as to the affected Transaction(s),
+(E) the Early Termination Date shall be effected as if such event constituted an Event of Default and the Buyer, as the Non-Defaulting Party, were entitled to, and did choose to, terminate only the Transactions (or part(s) thereof) affected by such New Tax; provided, both Seller and Buyer, pursuant to Section 6.2, shall calculate their respective Early Termination Payments resulting from the termination as if they each were a Non-Defaulting Party; provided further, if the calculation of the Early Termination Payment results in either Seller or Buyer having an aggregate Gain or aggregate Losses and Costs (after netting its Gains against its Losses and Costs), the Parties shall share equally such net Gain due, or be responsible to pay to the Party having the net Losses and Costs, one-half of the Early Termination Payment, and
+(F) such Early Termination Payment shall be payable as provided in Section 6.2.
+9. Limited Liability for Damages.  TO THE EXTENT THAT AN EXPRESS REMEDY OR MEASURE OF DAMAGES IS PROVIDED IN THIS AGREEMENT FOR ANY BREACH, SUCH EXPRESS REMEDY OR MEASURE OF DAMAGES SHALL BE THE SOLE AND EXCLUSIVE REMEDY OF A PARTY.  THE LIABLE PARTY’S LIABILITY SHALL BE LIMITED AS SET FORTH IN SUCH PROVISION AND ALL OTHER REMEDIES OR DAMAGES AT LAW OR IN EQUITY ARE WAIVED UNLESS OTHERWISE EXPRESSLY PROVIDED IN THIS AGREEMENT.  IF NO REMEDY OR MEASURE OF DAMAGES IS EXPRESSLY HEREIN PROVIDED, THE LIABLE PARTY’S LIABILITY SHALL BE LIMITED TO DIRECT, ACTUAL DAMAGES ONLY, SUCH DIRECT, ACTUAL DAMAGES SHALL BE THE SOLE AND EXCLUSIVE REMEDY HEREUNDER AND ALL OTHER REMEDIES OR DAMAGES AT LAW OR IN EQUITY ARE WAIVED.  NEITHER PARTY SHALL BE LIABLE FOR CONSEQUENTIAL, INCIDENTAL, PUNITIVE, EXEMPLARY OR INDIRECT DAMAGES, LOST PROFITS OR OTHER BUSINESS INTERRUPTION DAMAGES, IN TORT, CONTRACT, UNDER ANY INDEMNITY PROVISION OR OTHERWISE.  THE PARTIES ACKNOWLEDGE THE DUTY TO MITIGATE DAMAGES.
+10. Representations, Warranties and Covenants.  On the date of entering into this Agreement and on the date of entering into each Transaction,
+(a) each Party represents and warrants to the other Party that:
+(i) it is (A) a commercial participant (provider, commercial user or merchant dealing with Bandwidth) who, in connection with its activities, incurs risk, in addition to price risk, related to Bandwidth, has a demonstrable capacity or ability, directly or through separate bona fide contractual arrangements, to provide or accept Bandwidth Units under the terms of a Transaction and (B) is either (1) a corporation, partnership, proprietorship, organization, trust or other business entity with a net worth exceeding $1,000,000 or has total assets exceeding $5,000,000 or (2) an entity, the obligations of which under this Agreement are guaranteed or otherwise supported by a letter of credit or keepwell support, or other agreement by any such entity or by an entity referred to in subsection (B)(1) above,
+(ii) it is duly organized, validly existing and in good standing under the laws of the jurisdiction of its formation and is qualified to conduct its business,
+(iii) it has all authorizations, licenses and consents necessary to legally perform its obligations under this Agreement and each Transaction,
+(iv) the execution, delivery and performance of this Agreement and each Transaction are within its power, have been duly authorized by all necessary action and do not violate its governing documents or any law applicable to it,
+(v) this Agreement constitutes and each Transaction when entered into in accordance with this Agreement will constitute a legally valid and binding obligation enforceable against it in accordance with its terms, subject to any equitable defenses,
+[(vi) with respect to each Transaction involving the purchase or sale of an Option, it is entering into such Transaction for purposes related to its line of business;]
+(vii) there are no Bankruptcy Proceedings pending or being contemplated by it or to its knowledge, threatened against it,
+(viii) there are no legal proceedings that materially adversely affect its ability to perform under this Agreement or any Transaction;
+(ix) it has entered into this Master Agreement and each Transaction as principal (and not as agent, advisor or fiduciary) and with a full understanding of the material terms and risks of same, and is capable of assuming those risks; and
+(x) it has not received from the other Party any promise, advice or assurance as to the expected performance or result of this Agreement and any and all Transactions.
+Each Party covenants that it will cause the representations and warranties set forth in this Section 10(a) to be true and correct on the date hereof, on the date any Transaction is entered into and throughout the term of each Transaction.
+(b) If requested by a Party, the other Party shall deliver (i) within 120 Days following the end of each fiscal year, a copy of [its annual report] [and/or] [the annual report of its Guarantor] containing audited consolidated financial statements for such fiscal year certified by independent certified public accountants, and (ii) within 60 Days after the end of each of its first three fiscal quarters of each fiscal year, [its unaudited consolidated financial statements] [and/or] [unaudited consolidated financial statements of its Guarantor] for such fiscal quarter.  In all cases, such financial statements shall be for the most recent accounting period and shall be prepared in accordance with GAAP or such other principles then in effect and on a basis consistent with prior financial statements.  In the event that any requested financial statement is not available due to a delay in preparation or certification, such delay shall not be considered a default with respect to a Party so long as such Party diligently pursues the preparation, certification and delivery of such statements.
+11. Arbitration.  Any dispute relating to this Agreement shall be resolved by binding arbitration governed by the U.S. Federal Arbitration Act (“FAA”) and conducted in accordance with the American Arbitration Association (“AAA”) Commercial Arbitration Rules (“Rules”), which Rules are incorporated by reference into this Section.  The number of arbitrators shall be three, each Party having the right to appoint one arbitrator, who shall together appoint a third neutral arbitrator with at least five years professional experience in either the telecommunications backbone network industry or the commodity trading industry, within 30 Days after the appointment of the last party-designated arbitrator in accordance with the Rules.  The Parties expressly waive any right of appeal to any court.  Only damages allowed pursuant to this Agreement may be awarded and the arbitrators shall have no authority to award treble, exemplary or punitive damages of any kind under any circumstances regardless of whether such damages may be available at law for the relevant Transaction or under the FAA or AAA.  The arbitration shall be conducted in New York City, New York (or another location mutually acceptable to the Parties), and such arbitration and any related award shall be confidential and not disclosed, except to a Party’s Affiliates, accountants and counsel.
+12. Miscellaneous.
+12.1  Successors and Assigns; Assignment. Transactions shall be binding upon and inure to the benefit of, and may be performed by, the respective successors and assigns of the Parties, except that no assignment, pledge, or other transfer by either Party (the “Assigning Party”) shall operate to release the Assigning Party from any of its obligations under this Agreement unless:  (a) consent to such release is given in writing by the other Party, which consent shall not be unreasonably withheld or delayed; (b) such assignment, pledge or transfer (i) constitutes an assignment, pledge or transfer of all Transactions and this Agreement, (ii) is made to an Affiliate of the Assigning Party, (iii) will not cause such Affiliate to be a Defaulting Party at the time of such assignment, pledge or transfer, and (iv) if the obligations of the Assigning Party are supported by a Guaranty or Performance Assurance, such Guaranty or Performance Assurance continues to support such obligations after such assignment, pledge or transfer, or (v) if the obligations of the Assigning Party are not supported by a Guaranty or Performance Assurance, the Person to whom such Transactions and this Agreement are assigned is at least as creditworthy as the Assigning Party or (c) such assignment, pledge or transfer is incident to a merger, reorganization, consolidation or other transaction in which substantially all of the assets of the Assigning Party are transferred to another Person who assumes all of the obligations of the Assigning Party under this Agreement and such other Person’s creditworthiness is not materially weaker than that of the Assigning Party immediately prior to such assignment, pledge or transfer.
+12.2.  Warranties.  OTHER THAN AS EXPRESSLY PROVIDED IN SECTION 10 OR A CONFIRMATION, SELLER MAKES NO OTHER REPRESENTATION OR WARRANTY, WRITTEN OR ORAL, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, ANY REPRESENTATION OR WARRANTY THAT BANDWIDTH UNIT(S) SOLD WILL BE FIT FOR A PARTICULAR PURPOSE OR WILL BE MERCHANTABLE.
+12.3.  Notices.  All notices, communications, requests, statements or payments shall be made to the applicable address of each Party specified in Exhibit B hereto.  Unless expressly provided otherwise, all notices shall be in writing, properly addressed, postage pre-paid and delivered by hand, facsimile, overnight mail or courier.  Notice by facsimile or hand delivery shall be deemed to have been received by the close of the Business Day on which it was transmitted or hand delivered (unless transmitted or hand delivered after the close of the Business Day of the recipient, in which case, it shall be deemed received on the next Business Day).  Notice by overnight mail or courier shall be deemed to have been received one (1) Business Day after it was sent.  A Party may change its address by providing notice thereof in accordance with this Section.
+12.4.  Confidentiality.  Neither Party shall disclose the terms of any Transaction to a third party (other than the employees, lenders, counsel or accountants of the Party and its Affiliates or prospective purchasers, directly or indirectly, of a Party or prospective purchasers of all or substantially all of a Party’s assets or of any rights under this Agreement, provided such Persons shall have agreed to keep such terms confidential) except in order to comply with any applicable law, order, regulation or exchange rule.  Each Party shall notify the other Party (unless such notice is prohibited by law) of any proceeding of which it is aware which may result in disclosure of the terms of any Transaction (other than as permitted hereunder) so that the other Party may use reasonable efforts to prevent or limit the disclosure.  The provisions of this Master Agreement, other than the terms of any Transaction, are not subject to this confidentiality obligation.  The Parties shall be entitled to all remedies available at law or in equity (and the Parties acknowledge for these purposes that monetary damages may not provide an adequate remedy) to enforce, or seek relief in connection with this confidentiality obligation; provided that all monetary damages shall be limited in accordance with Section 9.
+12.5.  Governing Law.  THIS AGREEMENT AND EACH TRANSACTION (EXCEPT TO THE EXTENT OTHERWISE PROVIDED IN A CONFIRMATION) AND THE RIGHTS AND DUTIES OF THE PARTIES ARISING HEREFROM AND THEREFROM SHALL BE GOVERNED BY AND CONSTRUED, ENFORCED AND PERFORMED IN ACCORDANCE WITH THE LAWS OF THE STATE OF NEW YORK, WITHOUT GIVING EFFECT TO PRINCIPLES OF CONFLICTS OF LAWS.  IT IS AGREED THAT EACH TRANSACTION SHALL BE ENFORCEABLE AS A “QUALIFIED FINANCIAL CONTRACT” WITHIN THE MEANING OF NEW YORK GENERAL OBLIGATIONS LAW § 5-701(b).
+12.6.  Entire Agreement; Amendments; Joint Work Product.  This Master Agreement and any Annexes and Exhibits hereto are a part hereof, and each Transaction, including any Confirmation, the written text of any recorded telephonic communications or electronically exchanged communications forming a binding agreement in respect of a Transaction, constitute the entire agreement between the Parties relating to the subject matter contemplated by this Agreement, and supersede any prior or contemporaneous agreements or representations affecting the same subject matter.  Except for any matters which, in accordance with the express provisions of this Agreement, may be resolved by verbal agreement between the Parties, no amendment, modification or change to this Agreement or any Transaction shall be enforceable unless reduced to a writing and executed by the Party against whom such amendment, modification or change is sought to be enforced and unless specifically referencing this Agreement and the relevant Transaction.  This Agreement is the joint work product of the Parties and has been negotiated by the Parties and their respective counsel and shall be fairly interpreted in accordance with its terms and, in the event of any ambiguities, no inferences shall be drawn against either Party.
+12.7.  Counterparts; Severability.  Each Confirmation (if executed) may be executed in several counterparts, each of which is an original and all of which constitutes one and the same instrument.  Except as may otherwise be stated herein, any provision or Section hereof that is declared or rendered unlawful by any applicable court of law or regulatory agency, or deemed unlawful because of a statutory change, will not otherwise affect the lawful obligations that arise under this Agreement or a Transaction.  In the event any provision of this Agreement or a Transaction is declared unlawful, the remainder of this Agreement and each Transaction shall survive and remain in full force and effect and the Parties will promptly renegotiate to restore this Agreement including all Transactions, as near as possible to its original intent and economic effect.
+12.8.  Non-Waiver; No Partnership or Third Party Beneficiaries.  No waiver by any Party of any of its rights with respect to the other Party or with respect to this Agreement, any Transaction, or any matter or default arising in connection with this Agreement, shall be construed as a waiver of any other right, matter or default.  Any waiver shall be in writing signed by the waiving Party.  Neither Party shall be deemed to be the employee, agent, partner, joint venturer or contractor of any other Party under or in connection with this Agreement.  This Agreement and each Transaction is made and entered into for the sole benefit of the Parties, and their permitted successors and assigns, and no other Person shall be a direct or indirect legal beneficiary of, have any rights under or have any direct or indirect cause of action or claim in connection with this Agreement.
+12.9.  Nature of Rights.  All rights related to Bandwidth Units purchased and sold under this Agreement and all obligations incurred under this Agreement are purely contractual in nature.  Nothing contained in this Agreement shall have the effect of granting to Buyer any leasehold, ownership, proprietary or possessory rights in any physical telecommunications system or facility.  In the event of a dispute involving both Parties with a customer of one Party, both Parties shall assert the applicability of any limitations on liability to customers that may be contained in either Party’s applicable contracts or tariff(s).  Nothing in this Agreement shall be construed as the grant of a license, either express or implied, with respect to any patent, copyright, trademark, trade name, trade secret or any other proprietary or intellectual property now or hereafter owned, controlled or licensable by either Party.  Neither Party may use any patent, copyrightable materials, trademark, trade name, trade secret or other intellectual property right of the other Party except in accordance with the terms of a separate license agreement between the Parties granting such rights.
+12.10.  Survival.  The Parties’ obligations under Sections 6.3, 8, 9, 11, 12.4, 12.5, 12.11 and 12.12 of this Agreement shall survive the termination or expiration of this Agreement.
+12.11.  Indemnity.  (a) Each Party shall defend, indemnify and hold harmless the other against and from any and all Claims for physical property damage, personal injury or wrongful death to the extent that such Claims arise out of the negligence or willful misconduct of the respective indemnifying party or either of their respective employees, agents, or contractors in connection with the provision of Bandwidth Units or other performance hereunder.
+(b) With respect to third parties that use the Bandwidth Units provided by the Seller hereunder, Buyer shall defend, indemnify and hold harmless Seller against any Claims by such parties arising or resulting from any defect in or failure to provide the Bandwidth Units sold hereunder.
+(c) The indemnifying party agrees to defend the other Party against Claims and to pay all reasonable Legal Costs, settlement payments, and any damages awarded or resulting from such Claims.  The indemnified party shall promptly notify the indemnifying party in writing of such Claims.
+12.12.  Forward Contract.  This Agreement shall constitute a “forward contract,” and the Parties constitute “forward contract merchants,” under and in all Bankruptcy Proceedings and will be treated similarly under and in all Bankruptcy Proceedings (regardless of the jurisdiction of application or competence of such law), rulings, orders, directives or pronouncements, made pursuant thereto.
+IN WITNESS WHEREOF, the Parties hereto have made and executed this Master Agreement, signed by their respective duly authorized officers or individuals, as of the Effective Date.
+
+
+[COUNTERPARTY]
+[COMPANY]
+
+
+By:________________________________________
+By:________________________________________
+Name:_____________________________________
+Name:_____________________________________
+Title:______________________________________
+Title:______________________________________
+
+
+
+ANNEX A-1
+
+BANDWIDTH UNIT
+SYNCHRONOUS TRANSPORT SIGNAL
+DS-3
+STS-1
+
+The following benchmark quality of service standards (“BQoS”) are applicable to DS-3 Bandwidth Units:
+
+Not more than 5 Errored Seconds/Day.
+Not more than 10 Severely Errored Seconds/Day.
+Not more than 60 Unavailable Seconds/Month.
+
+“DS-3” means digital signal, level 3, which is a 44.736 Mbps digital line section passing between two system interface points, together with the interconnection interfaces pertaining thereto in accordance with American National Standards Institute (ANSI) T1.102-1993. 
+“Mbps” means million bits per second.
+
+
+QoS Damage Triggering Event
+BQoS Damages
+In any Day Errored Seconds exceed 5
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Day Severely Errored Seconds exceed 10
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds equal 61 up to 3,600
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds exceed 3,600
+1/720 of the product of (i) the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit, and (ii) (A) the total number of Unavailable Seconds in such Month, divided by (B) 3,600 (rounded up to the next whole number)
+
+
+Event of Default Triggering Event
+In any Month Errored Seconds exceed 40 on 10 or more Days
+In any Month Severely Errored Seconds exceed 40 on 10 or more Days
+In any Month Unavailable Seconds equal or exceed 604,800
+
+ANNEX A-2
+
+BANDWIDTH UNIT
+SYNCHRONOUS TRANSPORT SIGNAL
+OC-3
+STS-3
+
+The following benchmark quality of service standards (“BQoS”) are applicable to OC-3 Bandwidth Units:
+
+Not more than 5 Errored Seconds/Day.
+Not more than 10 Severely Errored Seconds/Day.
+Not more than 60 Unavailable Seconds/Month.
+
+“OC-N” means Synchronous Optical Network (“SONET”) Services provided in accordance with ANSI Standard T1.105.
+“OC-3” means a SONET channel equal to 155.520 Mbps and configured with 3 separate STS-1 signaling paths.
+“Mbps” means million bits per second.
+
+
+QoS Damage Triggering Event
+BQoS Damages
+In any Day Errored Seconds exceed 5
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Day Severely Errored Seconds exceed 10
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds equal 61 up to 3,600
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds exceed 3,600
+1/720 of the product of (i) the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit, and (ii) (A) the total number of Unavailable Seconds in such Month, divided by (B) 3,600 (rounded up to the next whole number)
+
+
+Event of Default Triggering Event
+In any Month Errored Seconds exceed 40 on 10 or more Days
+In any Month Severely Errored Seconds exceed 40 on 10 or more Days
+In any Month Unavailable Seconds equal or exceed 604,800
+
+
+ANNEX A-3
+
+BANDWIDTH UNIT
+SYNCHRONOUS TRANSPORT SIGNAL
+OC-3C
+STS-3C
+
+The following benchmark quality of service standards (“BQoS”) are applicable to OC-3C Bandwidth Units:
+
+Not more than 5 Errored Seconds/Day.
+Not more than 10 Severely Errored Seconds/Day.
+Not more than 60 Unavailable Seconds/Month.
+
+“OC-N” means Synchronous Optical Network (“SONET”) Services provided in accordance with ANSI Standard T1.105.
+“OC-3C” means a SONET channel equal to 155.520 Mbps and configured with 1 concatenated STS-3C signaling path.
+“Mbps” means million bits per second.
+
+
+QoS Damage Triggering Event
+BQoS Damages
+In any Day Errored Seconds exceed 5
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Day Severely Errored Seconds exceed 10
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds equal 61 up to 3,600
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds exceed 3,600
+1/720 of the product of (i) the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit, and (ii) (A) the total number of Unavailable Seconds in such Month, divided by (B) 3,600 (rounded up to the next whole number)
+
+
+Event of Default Triggering Event
+In any Month Errored Seconds exceed 40 on 10 or more Days
+In any Month Severely Errored Seconds exceed 40 on 10 or more Days
+In any Month Unavailable Seconds equal or exceed 604,800
+
+ANNEX A-4
+
+
+BANDWIDTH UNIT
+SYNCHRONOUS TRANSPORT SIGNAL
+OC-12
+STS-12
+
+The following benchmark quality of service standards (“BQoS”) are applicable to OC-12 Bandwidth Units:
+
+Not more than 5 Errored Seconds/Day.
+Not more than 10 Severely Errored Seconds/Day.
+Not more than 60 Unavailable Seconds/Month.
+
+“OC-N” means Synchronous Optical Network (“SONET”) Services provided in accordance with ANSI Standard T1.105.
+“OC-12” means a SONET channel equal to 622.08 Mbps and configured with any combination of STS-1 and/or STS-3C signaling paths.
+“Mbps” means million bits per second.
+
+
+QoS Damage Triggering Event
+BQoS Damages
+In any Day Errored Seconds exceed 5
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Day Severely Errored Seconds exceed 10
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds equal 61 up to 3,600
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds exceed 3,600
+1/720 of the product of (i) the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit, and (ii) (A) the total number of Unavailable Seconds in such Month, divided by (B) 3,600 (rounded up to the next whole number)
+
+
+Event of Default Triggering Event
+In any Month Errored Seconds exceed 40 on 10 or more Days
+In any Month Severely Errored Seconds exceed 40 on 10 or more Days
+In any Month Unavailable Seconds equal or exceed 604,800
+
+ANNEX A-5
+
+
+BANDWIDTH UNIT
+SYNCHRONOUS TRANSPORT SIGNAL
+OC-12C
+STS-12C
+
+The following benchmark quality of service standards (“BQoS”) are applicable to OC 12C Bandwidth Units:
+
+Not more than 5 Errored Seconds/Day.
+Not more than 10 Severely Errored Seconds/Day.
+Not more than 60 Unavailable Seconds/Month.
+
+“OC-N” means Synchronous Optical Network (“SONET”) Services provided in accordance with ANSI Standard T1.105.
+“OC-12C” means a SONET channel equal to 622.08 Mbps and configured with 1 STS-12C signaling path.
+“Mbps” means million bits per second.
+
+
+QoS Damage Triggering Event
+BQoS Damages
+In any Day Errored Seconds exceed 5
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Day Severely Errored Seconds exceed 10
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds equal 61 up to 3,600
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds exceed 3,600
+1/720 of the product of (i) the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit, and (ii) (A) the total number of Unavailable Seconds in such Month, divided by (B) 3,600 (rounded up to the next whole number)
+
+
+Event of Default Triggering Event
+In any Month Errored Seconds exceed 40 on 10 or more Days
+In any Month Severely Errored Seconds exceed 40 on 10 or more Days
+In any Month Unavailable Seconds equal or exceed 604,800
+
+
+ANNEX A-6
+
+BANDWIDTH UNIT
+SYNCHRONOUS TRANSPORT SIGNAL
+OC-48
+STS-48
+
+The following benchmark quality of service standards (“BQoS”) are applicable to OC-48 Bandwidth Units:
+
+Not more than 5 Errored Seconds/Day.
+Not more than 10 Severely Errored Seconds/Day.
+Not more than 60 Unavailable Seconds/Month.
+
+“OC-N” means Synchronous Optical Network (“SONET”) Services provided in accordance with ANSI Standard T1.105.
+“OC-48” means a SONET Channel equal to 2.488 Gbps and configured with any combination of STS-1, STS-3C and/or STS-12C signaling paths.
+“Gbps” means billion bits per second.
+
+
+QoS Damage Triggering Event
+BQoS Damages
+In any Day Errored Seconds exceed 5
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Day Severely Errored Seconds exceed 10
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds equal 61 up to 3,600
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds exceed 3,600
+1/720 of the product of (i) the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit, and (ii) (A) the total number of Unavailable Seconds in such Month, divided by (B) 3,600 (rounded up to the next whole number)
+
+
+Event of Default Triggering Event
+In any Month Errored Seconds exceed 40 on 10 or more Days
+In any Month Severely Errored Seconds exceed 40 on 10 or more Days
+In any Month Unavailable Seconds equal or exceed 604,800
+
+
+ANNEX A-7
+
+BANDWIDTH UNIT
+SYNCHRONOUS TRANSPORT SIGNAL
+OC-48C
+STS-48C
+
+The following benchmark quality of service standards (“BQoS”) are applicable to OC-48C Bandwidth Units:
+
+Not more than 5 Errored Seconds/Day.
+Not more than 10 Severely Errored Seconds/Day.
+Not more than 60 Unavailable Seconds/Month.
+
+“OC-N” means Synchronous Optical Network (“SONET”) Services provided in accordance with ANSI Standard T1.105.
+“OC-48C” means a SONET channel equal to 2.488 Gbps and configured with 1 STS-48C signaling path.
+“Gbps” means billion bits per second.
+
+
+QoS Damage Triggering Event
+BQoS Damages
+In any Day Errored Seconds exceed 5
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Day Severely Errored Seconds exceed 10
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds equal 61 up to 3,600
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds exceed 3,600
+1/720 of the product of (i) the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit, and (ii) (A) the total number of Unavailable Seconds in such Month, divided by (B) 3,600 (rounded up to the next whole number)
+
+
+Event of Default Triggering Event
+In any Month Errored Seconds exceed 40 on 10 or more Days
+In any Month Severely Errored Seconds exceed 40 on 10 or more Days
+In any Month Unavailable Seconds equal or exceed 604,800
+
+
+ANNEX A-8
+
+BANDWIDTH UNIT
+SYNCHRONOUS TRANSPORT SIGNAL
+OC-192
+[STS-192]
+
+The following benchmark quality of service standards (“BQoS”) are applicable to OC-192 Bandwidth Units:
+
+Not more than 5 Errored Seconds/Day.
+Not more than 10 Severely Errored Seconds/Day.
+Not more than 60 Unavailable Seconds/Month.
+
+“OC-N” means Synchronous Optical Network (“SONET”) Services provided in accordance with ANSI Standard T1.105.
+“OC-192” means a SONET channel equal to 9.953 Gbps and configured with any combination of STS-1, STS-3C, STS-12C and/or STS-48C signaling paths.
+“Gbps” means billion bits per second.
+
+
+QoS Damage Triggering Event
+BQoS Damages
+In any Day Errored Seconds exceed 5
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Day Severely Errored Seconds exceed 10
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds equal 61 up to 3,600
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds exceed 3,600
+1/720 of the product of (i) the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit, and (ii) (A) the total number of Unavailable Seconds in such Month, divided by (B) 3,600 (rounded up to the next whole number)
+
+
+Event of Default Triggering Event
+In any Month Errored Seconds exceed 40 on 10 or more Days
+In any Month Severely Errored Seconds exceed 40 on 10 or more Days
+In any Month Unavailable Seconds equal or exceed 604,800
+
+ANNEX A-9
+
+BANDWIDTH UNIT
+SYNCHRONOUS TRANSPORT SIGNAL
+OC-192C
+[STS-192C]
+
+The following benchmark quality of service standards (“BQoS”) are applicable to OC-192C Bandwidth Units:
+
+Not more than 5 Errored Seconds/Day.
+Not more than 10 Severely Errored Seconds/Day.
+Not more than 60 Unavailable Seconds/Month.
+
+“OC-N” means Synchronous Optical Network (“SONET”) Services provided in accordance with ANSI Standard T1.105.
+“OC-192C” means a SONET channel equal to 9.953 Gbps configured with 1STS-192C signaling path.
+“Gbps” means billion bits per second.
+
+
+QoS Damage Triggering Event
+BQoS Damages
+In any Day Errored Seconds exceed 5
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Day Severely Errored Seconds exceed 10
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds equal 61 up to 3,600
+1/720 of the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit
+In any Month Unavailable Seconds exceed 3,600
+1/720 of the product of (i) the sum of (A) the Cover Price of the affected Bandwidth Unit, and (B) the Contract Price of the affected Bandwidth Unit, and (ii) (A) the total number of Unavailable Seconds in such Month, divided by (B) 3,600 (rounded up to the next whole number)
+
+
+Event of Default Triggering Event
+In any Month Errored Seconds exceed 40 on 10 or more Days
+In any Month Severely Errored Seconds exceed 40 on 10 or more Days
+In any Month Unavailable Seconds equal or exceed 604,800
+
+
+Annex B
+Market Pooling Points
+
+
+City
+Address
+Reference Abbreviation
+New York
+New York Pooling Point
+111 8th Avenue
+Suite 1517
+New York, NY 10011
+NPA-NXX: 212-462
+CLLI: NYCMNY83H62
+
+New York, NY-NY PP
+Los Angeles
+Los Angeles Pooling Point
+530 W. 6th Street
+Suite 300
+Los Angeles, CA  90014
+NPA-NXX: 213-362
+CLLI: LSAJCAWZH04
+
+Los Angeles, CA-LA PP
+
+
+EXHIBIT A
+TO THE 
+MASTER BANDWIDTH PURCHASE AND
+SALE AGREEMENT 
+(FORM OF CONFIRMATION)
+Model Form of Confirmation
+(Bandwidth [Option to] Purchase and Sale)
+
+
+
+
+Date: __________________
+To: ________________________________
+
+Fax No. ______________
+[This Transaction is subject to (and this Confirmation is provided pursuant to and in accordance with) the Master Bandwidth Purchase and Sale Agreement dated _____________, (which, as it may be amended from time to time, is herein called the “Master Agreement”).  All terms used herein and not otherwise defined shall have the meanings set forth in the Master Agreement.  This Confirmation shall confirm the Transaction (“Transaction”) agreed to pursuant to [a telephone conversation] [an exchange of electronic communications between the Parties’ representatives] on the Trade Date (defined below) by and between _________________________ (“Company”) and _____________________ (“Counterparty”) (collectively, the “Parties”)].  [This confirmation (this “Confirmation”) evidences a complete and binding agreement between _________________________ (“Company”) and ___________________ (“Counterparty”) (collectively, the “Parties”) as to the terms of the transaction to which this Confirmation relates.  In addition, Company and Counterparty agree to use all reasonable efforts promptly to negotiate, execute and deliver an agreement in the form of the Master Bandwidth Purchase and Sale Agreement [attached hereto][previously delivered by Company to Counterparty] (the “Master Agreement”), with such modifications as Company and Counterparty will in good faith agree.  Upon execution by Company and Counterparty of such an agreement, this Confirmation will supplement, form a part of, and be subject to that agreement.  All provisions contained in or incorporated by reference in that agreement upon its execution will govern this Confirmation.  Until we execute and deliver that agreement, this Confirmation, together with all other documents referring to the Master Agreement confirming transactions (each a “Transaction”) entered into between Company and Counterparty (notwithstanding anything to the contrary in a Confirmation), shall supplement, form a part of, and be subject to an agreement in the form of the Master Agreement as if we had executed an agreement in such form on the Trade Date of the first such Transaction between Company and Counterparty.  In the event of any inconsistency between the provisions of that agreement and this Confirmation, this Confirmation will prevail for the purpose of this Transaction.]  The terms of the particular Transaction to which this Confirmation relates are as follows:
+
+TRANSACTION CONTRACT NUMBER: [__________]
+
+Trade Date: [mm/dd/yy]
+
+[General Terms for Option:]
+
+Option Style: [American][European]
+
+Option Type: [Put][Call]
+
+Option Seller: [Company][Counterparty]
+
+Option Buyer: [Company][Counterparty]
+
+Premium: [              ]
+
+Strike Price: [              ]
+
+Procedure for Exercise:
+
+Exercise Period: From and including [                     ] up to and including the Expiration Date between 8:00 a.m. and 5:00 p.m. (local time in Houston, Texas)
+
+Expiration Date: The [      ] (   ) calendar day after the Trade Date
+
+Notice of Exercise: An irrevocable notice given by the Option Buyer to Option Seller (which may be given orally, including by telephone, or in writing) of its election to enter into the Underlying Transaction
+
+Automatic Exercise: [Applicable] [Inapplicable]
+
+Written Confirmation of  [Applicable; provided, however, that failure to give such written notice shall in
+Notice of Exercise: no way affect or suspend the validity of the Notice of Exercise]
+
+Additional Provisions: [                                                                        ]
+
+Underlying Transaction: 
+
+Seller: [Company][Counterparty]
+
+Buyer: [Company][Counterparty]
+
+Term: [    ] Month[s]
+ Commencing [12:00:00 a.m. (midnight)] EST on [INSERT DATE] and
+ Terminating [11:59:59 p.m.] EST on [INSERT DATE] 
+
+Segment:  A Location :
+  Suite:
+  Floor:
+  City:
+  State:
+  Zip Code: 
+  NPA-NXX:
+
+          Z Location:
+     Suite:
+     Floor:
+     City:
+     State:
+     Zip Code:
+     NPA-NXX:
+
+Bandwidth Unit: [DS-3][OC-3][OC-3C][OC-12][OC-12C][OC-48][OC-48C][OC-192][OC-192C], made
+ available over the Term
+
+[DS-Os per 
+Bandwidth Unit: [     ]]
+
+Number of Bandwidth 
+Units:   [ ______ ]
+
+[Vertical & Horizontal (DS-0) 
+Miles for Segment: [     ]]
+
+Quoted Price:  US$_______________ (price per DS-0 mile per Month)
+
+Unit Price: US$ _____________ per Month (calculated as follows: Quoted Price x DS-0s per Bandwidth Unit x the number of Vertical & Horizontal (DS-0) Miles for Segment).
+
+Contract Price: Unit Price multiplied by the number of Bandwidth Units
+
+BQoS (Benchmark 
+Quality of Service): [BQoS  (as defined in Annex A-[  ] to [the Master Agreement][this Confirmation])]
+
+Scheduling: Promptly after the Trade Date, and in any event, at least [  ] Business Days prior to the commencement date of the Term, the Parties agree to exchange and provide to the Pooling Point Administrator, the Demarcation Point and any other information required by the Pooling Point Administrator (including all other operational data that may be required for the Pooling Point Administrator to schedule and test the Bandwidth Unit(s)).  Seller shall provide such Demarcation Point and other information to Buyer and the Pooling Point Administrator in advance of Buyer.  Buyer and Seller shall accept the scheduling decisions of the Pooling Point Administrator.
+
+Payment: Buyer to pay Seller the Contract Price on or before each Payment Date during the Term.
+
+Governing Law: New York.
+
+Conditions & General This Transaction (and Confirmation) constitutes part of and is subject to  the provisions of 
+Terms:   the Master Agreement.
+
+Additional Provisions: [add if applicable]
+
+
+Please confirm that the foregoing correctly reflects the agreement between Company and Counterparty as to this Transaction by returning an executed copy of this Confirmation by facsimile to Company at the Company’s fax number specified on Exhibit B for delivery of “Notices and Correspondence”.  If Counterparty does not return this Confirmation or otherwise object to the accuracy of this Confirmation by written notice to Company within three Days of receipt of this Confirmation, this Confirmation shall be deemed correct as given and shall constitute, conclusive and binding evidence of this Transaction, and the final expression of the terms of this Transaction.  This Confirmation supersedes any broker confirmation concerning this Transaction.
+Sincerely,
+
+[COMPANY]
+
+
+By:     
+Name:     
+Title:     
+CONFIRMED:
+[COUNTERPARTY NAME]
+
+
+By:     
+Name:     
+Title:     
+
+
+
+Technical Contacts:
+
+Company:     Counterparty:
+Full Name:     Full Name:
+Phone No.:     Phone No.:
+Fax No.:      Fax No.:
+Pager:      Pager:
+Cellular (Optional):     Cellular (Optional):
+Email Address:     Email Address:
+
+
+EXHIBIT B
+TO THE
+MASTER BANDWIDTH PURCHASE AND SALE AGREEMENT
+BY AND BETWEEN
+[COMPANY]
+AND
+[COUNTERPARTY]
+NOTICES AND PAYMENT
+
+
+COMPANY:
+
+NOTICES & CORRESPONDENCE:
+PAYMENTS:
+     
+     
+     
+for:      
+     
+ABA Routing No.:     
+Attn.:      
+Account No.:      
+FAX No.:    
+Confirmation:     
+
+
+
+
+
+
+
+TECHNICAL MATTERS:
+INVOICES AND ACCOUNTING MATTERS:
+On Site Contact Information:
+Full Name:
+     
+     
+Phone:
+     
+Fax:
+     
+Pager:
+Attn.:      
+Cellular (Optional):
+E-mail Address:
+
+Authorized Representative ID# for Bandwidth Tracking 
+System:
+Phone:       
+Technical Contact Information:
+
+Full Name:
+
+Phone:
+
+Fax:
+
+Pager:
+
+Cellular (Optional):
+
+E-mail Address:
+
+24 Hour Contact:
+
+
+or to such other address as Company shall from time to time designate by notice properly given under this Agreement.
+
+
+
+COUNTERPARTY:
+
+
+NOTICES & CORRESPONDENCE:
+PAYMENTS:
+     
+     
+     
+for:      
+     
+ABA Routing No.:     
+Attn.:      
+Account No.:      
+FAX No.:    
+Confirmation:     
+
+
+
+
+
+
+
+TECHNICAL MATTERS:
+INVOICES AND ACCOUNTING MATTERS:
+On Site Contact Information:
+Full Name:
+     
+     
+Phone:
+     
+Fax:
+     
+Pager:
+Attn.:      
+Cellular (Optional):
+E-mail Address:
+
+Authorized Representative ID# for Bandwidth Tracking 
+System:
+Phone:       
+Technical Contact Information:
+
+Full Name:
+
+Phone:
+
+Fax:
+
+Pager:
+
+Cellular (Optional):
+
+E-mail Address:
+
+24 Hour Contact:
+
+
+or to such other address as Counterparty shall from time to time designate by notice properly given under this Agreement.
+
+
+
+
+
+EXHIBIT C-1
+to the
+MASTER BANDWIDTH PURCHASE AND SALE AGREEMENT
+
+COMPANY GUARANTOR FORM OF GUARANTY AGREEMENT
+
+This Guaranty Agreement (this “Guaranty”), dated as of _________________, is made and entered into by ___________________, a _______________ corporation (“Guarantor”).
+W I T N E S S E T H:
+WHEREAS, _____________________ (the “Company”) will enter into a Master Bandwidth Purchase and Sale Agreement (the “Agreement”) effective as of the date of this Guaranty with _____________________________ (“Counterparty”) pursuant to which Company and Counterparty may enter into Transactions related to the purchase and sale of Bandwidth Units (as defined in the Agreement); and
+WHEREAS, Guarantor will directly or indirectly benefit from the Agreement.
+NOW THEREFORE, in consideration of Counterparty entering into the Agreement, Guarantor hereby covenants and agrees as follows:
+1. GUARANTY.  Subject to the provisions hereof, Guarantor hereby irrevocably and unconditionally guarantees the timely payment when due of the obligations of Company and any Affiliate (as defined in the Agreement) of Company or any other entity to whom Company shall assign, pledge or transfer such obligations pursuant to Section 12.1(2) or (3) and (4) of the Agreement (the “Obligations”) to Counterparty in accordance with the Agreement.  Upon an assignment, pledge or transfer of the Obligations by Company pursuant to Section 12.1(2) or (3) and (4) of the Agreement, all references herein to “Company” shall be deemed to be references to the Affiliate (as defined in the Agreement) of Company or the other entity to whom Company has so assigned, pledged or transferred the Obligations.  To the extent that Company shall fail to pay any Obligations, Guarantor shall promptly pay to Counterparty the amount due.  This Guaranty shall constitute a guaranty of payment and not of collection or performance.  The liability of Guarantor under the Guaranty shall be subject to the following:
+(a) Guarantor’s liability hereunder shall be and is specifically limited to payments expressly required to be made in accordance with the Agreement (even if such payments are deemed to be damages) and, except to the extent specifically provided in the Agreement, in no event shall Guarantor be subject hereunder to consequential, exemplary, equitable, loss of profits, punitive, tort, or any other damages, costs, or attorney’s fees.
+(b) The aggregate amount payable under this Guaranty shall not exceed _________ U.S. Dollars ($___________).
+2. DEMANDS AND NOTICE.  If Company fails or refuses to pay any Obligations, Counterparty shall notify Company in writing of the manner in which Company has failed to pay and demand that payment be made by Company.  If Company’s failure or refusal to pay continues for a period of fifteen (15) days after the date of Counterparty’s notice to Company, and Counterparty has elected to exercise its rights under this Guaranty, Counterparty shall make a demand upon Guarantor (hereinafter referred to as a “Payment Demand”).  A Payment Demand shall be in writing and shall reasonably and briefly specify in what manner and what amount Company has failed to pay and shall include an explanation of why such payment is due, with a specific statement that Counterparty is calling upon Guarantor to pay under this Guaranty.  A Payment Demand satisfying the foregoing requirements shall be deemed sufficient notice to Guarantor that it must pay the Obligations.  A single written Payment Demand shall be effective as to any specific default during the continuance of such default, until Company or Guarantor has cured such default, and additional written demands concerning such default shall not be required until such default is cured.
+3. REPRESENTATIONS AND WARRANTIES.  Guarantor represents and warrants that:
+(a) it is a corporation duly organized and validly existing under the laws of the State of _____________ and has the corporate power and authority to execute, deliver and carry out the terms and provisions of the Guaranty;
+(b) no authorization, approval, consent or order of, or registration or filing with, any court or other governmental body having jurisdiction over Guarantor is required on the part of Guarantor for the execution and delivery of this Guaranty; and
+(c) this Guaranty constitutes a valid and legally binding agreement of Guarantor, except as the enforceability of this Guaranty may be limited by the effect of any applicable bankruptcy, insolvency, reorganization, moratorium or similar laws affecting creditors’ rights generally and by general principles of equity.
+4. SETOFFS AND COUNTERCLAIMS.  Without limiting Guarantor’s own defenses and rights hereunder, Guarantor reserves to itself all rights, setoffs, counterclaims and other defenses to which Company or any other affiliate of Guarantor is or may be entitled to arising from or out of the Agreement or otherwise, except for defenses arising out of the bankruptcy, insolvency, dissolution or liquidation of Company.
+5. AMENDMENT OF GUARANTY.  No term or provision of this Guaranty shall be amended, modified, altered, waived or supplemented except by a writing signed by the parties hereto.
+6. WAIVERS.  Guarantor hereby waives (a) notice of acceptance of this Guaranty; (b) presentment and demand concerning the liabilities of Guarantor, except as expressly hereinabove set forth; (c) any right to require that any action or proceeding be brought against Company or any other person, and (d) except as expressly hereinabove set forth, any right to require that Counterparty seek enforcement of any performance against Company or any other person, prior to any action against Guarantor under the terms hereof.
+Except as to applicable statutes of limitation, no delay of Counterparty in the exercise of, or failure to exercise, any rights hereunder shall operate as a waiver of such rights, a waiver of any other rights or a release of Guarantor from any obligations hereunder.
+Guarantor consents to the renewal, compromise, extension, acceleration and any other changes in the time of payment of or other changes in the terms of the Obligations, or any part thereof and any changes or modifications to the terms of the Agreement.
+Guarantor may terminate this Guaranty by providing written notice of such termination to Counterparty and upon the effectiveness of such termination, Guarantor shall have no further liability hereunder, except as provided in the last sentence of this paragraph.  No such termination shall be effective until five (5) business days after receipt by Counterparty of such termination notice.  No such termination shall affect Guarantor’s liability with respect to any Transaction (as defined in the Agreement) entered into prior to the time the termination is effective, which Transaction shall remain guaranteed pursuant to the terms of this Guaranty.
+7. NOTICE.  Any Payment Demand, notice, request, instruction, correspondence or other document to be given hereunder by any party to another (herein collectively called “Notice”) shall be in writing and delivered personally or mailed by certified mail, postage prepaid and return receipt requested, or by  telecopier, as follows:
+
+To Counterparty:      
+     
+     
+Attn.:       
+Fax No.:       
+
+To Guarantor:      
+     
+     
+Attn.:       
+Fax No.:       
+
+Notice given by personal delivery or mail shall be effective upon actual receipt.  Notice given by telecopier shall be effective upon actual receipt if received during the recipient’s normal business hours, or at the beginning of the recipient’s next business day after receipt if not received during the recipient’s normal business hours.  All Notices by telecopier shall be confirmed promptly after transmission in writing by certified mail or personal delivery.  Any party may change any address to which Notice is to be given to it by giving notice of such change of address as provided above.
+8. MISCELLANEOUS.  THIS GUARANTY SHALL IN ALL RESPECTS BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAWS OF THE STATE OF TEXAS, WITHOUT REGARD TO PRINCIPLES OF CONFLICTS OF LAWS.  This Guaranty shall be binding upon Guarantor, its successors and assigns and inure to the benefit of and be enforceable by Counterparty, its successors and assigns.  The Guaranty embodies the entire agreement and understanding between Guarantor and Counterparty and supersedes all prior agreements and understandings relating to the subject matter hereof.  The headings in this Guaranty are for purposes of reference only, and shall not affect the meaning hereof.  This Guaranty may be executed in any number of counterparts, each of which shall be an original, but all of which together shall constitute one instrument.
+EXECUTED as of the day and year first above written.
+
+[GUARANTOR]
+
+
+By:    
+Name:    
+Title:    
+
+
+
+EXHIBIT C-2
+to the
+MASTER BANDWIDTH PURCHASE AND SALE AGREEMENT
+
+COUNTERPARTY GUARANTOR FORM OF GUARANTY AGREEMENT
+
+
+This Guaranty Agreement (this “Guaranty”), dated as of _________________, is made and entered into by __________________________, a ___________ corporation (“Guarantor”).
+W I T N E S S E T H:
+WHEREAS, _____________________________ (the “Company”) will enter into a Master Bandwidth Purchase and Sale Agreement (the “Agreement”) effective as of the date of this Guaranty with __________________________ (“Counterparty”) pursuant to which Company and Counterparty may enter into Transactions related to the purchase and sale of Bandwidth Units (as defined in the Agreement); and
+WHEREAS, Guarantor will directly or indirectly benefit from the Agreement.
+NOW THEREFORE, in consideration of Counterparty entering into the Agreement, Guarantor hereby covenants and agrees as follows:
+1. GUARANTY.  Subject to the provisions hereof, Guarantor hereby irrevocably and unconditionally guarantees the timely payment when due of the obligations of Company and any Affiliate (as defined in the Agreement) of Company or any other entity to whom Company shall assign, pledge or transfer such obligations pursuant to Section 12.1(2) or (3) and (4) of the Agreement (the “Obligations”) to Counterparty in accordance with the Agreement.  Upon an assignment, pledge or transfer of the Obligations by Company pursuant to Section 12.1(2) or (3) and (4) of the Agreement, all references herein to “Company” shall be deemed to be references to the Affiliate (as defined in the Agreement) of Company or the other entity to whom Company has so assigned, pledged or transferred the Obligations.  To the extent that Company shall fail to pay any Obligations, Guarantor shall promptly pay to Counterparty the amount due.  This Guaranty shall constitute a guaranty of payment and not of collection or performance.  The liability of Guarantor under the Guaranty shall be subject to the following:
+(a) Guarantor’s liability hereunder shall be and is specifically limited to payments expressly required to be made in accordance with the Agreement (even if such payments are deemed to be damages) and, except to the extent specifically provided in the Agreement, in no event shall Guarantor be subject hereunder to consequential, exemplary, equitable, loss of profits, punitive, tort, or any other damages, costs, or attorney’s fees.
+(b) The aggregate amount payable under this Guaranty shall not exceed __________ U.S. Dollars ($__________).
+2. DEMANDS AND NOTICE.  If Company fails or refuses to pay any Obligations, Counterparty shall notify Company in writing of the manner in which Company has failed to pay and demand that payment be made by Company.  If Company’s failure or refusal to pay continues for a period of fifteen (15) days after the date of Counterparty’s notice to Company, and Counterparty has elected to exercise its rights under this Guaranty, Counterparty shall make a demand upon Guarantor (hereinafter referred to as a “Payment Demand”).  A Payment Demand shall be in writing and shall reasonably and briefly specify in what manner and what amount Company has failed to pay and shall include an explanation of why such payment is due, with a specific statement that Counterparty is calling upon Guarantor to pay under this Guaranty.  A Payment Demand satisfying the foregoing requirements shall be deemed sufficient notice to Guarantor that it must pay the Obligations.  A single written Payment Demand shall be effective as to any specific default during the continuance of such default, until Company or Guarantor has cured such default, and additional written demands concerning such default shall not be required until such default is cured.
+3. REPRESENTATIONS AND WARRANTIES.  Guarantor represents and warrants that:
+(a) it is a corporation duly organized and validly existing under the laws of the State of ___________ and has the corporate power and authority to execute, deliver and carry out the terms and provisions of the Guaranty;
+(b) no authorization, approval, consent or order of, or registration or filing with, any court or other governmental body having jurisdiction over Guarantor is required on the part of Guarantor for the execution and delivery of this Guaranty; and
+(c) this Guaranty constitutes a valid and legally binding agreement of Guarantor, except as the enforceability of this Guaranty may be limited by the effect of any applicable bankruptcy, insolvency, reorganization, moratorium or similar laws affecting creditors’ rights generally and by general principles of equity.
+4. SETOFFS AND COUNTERCLAIMS.  Without limiting Guarantor’s own defenses and rights hereunder, Guarantor reserves to itself all rights, setoffs, counterclaims and other defenses to which Company or any other affiliate of Guarantor is or may be entitled to arising from or out of the Agreement or otherwise, except for defenses arising out of the bankruptcy, insolvency, dissolution or liquidation of Company.
+5. AMENDMENT OF GUARANTY.  No term or provision of this Guaranty shall be amended, modified, altered, waived, or supplemented except by a writing signed by the parties hereto.
+6. WAIVERS.  Guarantor hereby waives (a) notice of acceptance of this Guaranty; (b) presentment and demand concerning the liabilities of Guarantor, except as expressly hereinabove set forth; (c) any right to require that any action or proceeding be brought against Company or any other person, and (d) except as expressly hereinabove set forth, any right to require that Counterparty seek enforcement of any performance against Company or any other person, prior to any action against Guarantor under the terms hereof.
+Except as to applicable statutes of limitation, no delay of Counterparty in the exercise of, or failure to exercise, any rights hereunder shall operate as a waiver of such rights, a waiver of any other rights or a release of Guarantor from any obligations hereunder.
+Guarantor consents to the renewal, compromise, extension, acceleration and any other changes in the time of payment of or other changes in the terms of the Obligations, or any part thereof and any changes or modifications to the terms of the Agreement.
+Guarantor may terminate this Guaranty by providing written notice of such termination to Counterparty and upon the effectiveness of such termination, Guarantor shall have no further liability hereunder, except as provided in the last sentence of this paragraph.  No such termination shall be effective until five (5) business days after receipt by Counterparty of such termination notice.  No such termination shall affect Guarantor’s liability with respect to any Transaction (as defined in the Agreement) entered into prior to the time the termination is effective, which Transaction shall remain guaranteed pursuant to the terms of this Guaranty.
+7. NOTICE.  Any Payment Demand, notice, request, instruction, correspondence or other document to be given hereunder by any party to another (herein collectively called “Notice”) shall be in writing and delivered personally or mailed by certified mail, postage prepaid and return receipt requested, or by  telecopier, as follows:
+To Counterparty:      
+     
+     
+Attn.:       
+Fax No.:       
+
+To Guarantor:      
+     
+     
+Attn.:       
+Fax No.:       
+
+Notice given by personal delivery or mail shall be effective upon actual receipt.  Notice given by telecopier shall be effective upon actual receipt if received during the recipient’s normal business hours, or at the beginning of the recipient’s next business day after receipt if not received during the recipient’s normal business hours.  All Notices by telecopier shall be confirmed promptly after transmission in writing by certified mail or personal delivery.  Any party may change any address to which Notice is to be given to it by giving notice of such change of address as provided above.
+8. MISCELLANEOUS.  THIS GUARANTY SHALL IN ALL RESPECTS BE GOVERNED BY, AND CONSTRUED IN ACCORDANCE WITH, THE LAWS OF THE STATE OF TEXAS, WITHOUT REGARD TO PRINCIPLES OF CONFLICTS OF LAWS.  This Guaranty shall be binding upon Guarantor, its successors and assigns and inure to the benefit of and be enforceable by Counterparty, its successors and assigns.  The Guaranty embodies the entire agreement and understanding between Guarantor and Counterparty and supersedes all prior agreements and understandings relating to the subject matter hereof.  The headings in this Guaranty are for purposes of reference only, and shall not affect the meaning hereof.  This Guaranty may be executed in any number of counterparts, each of which shall be an original, but all of which together shall constitute one instrument.
+
+EXECUTED as of the day and year first above written.
+[GUARANTOR]
+
+
+By:    
+Name:    
+Title:    
+ 
+
+
+
+ Insert this provision if a Master Agreement is in place between Company and Counterparty.
+ Insert this provision if there is NO Master Agreement in place between Company and Counterparty.
+

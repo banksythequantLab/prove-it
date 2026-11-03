@@ -1,0 +1,142 @@
+Proprietary and Confidential
+Enron Transportation Services
+Risk Management Policy
+Draft
+
+Revised 12/01/2000
+
+
+
+Scope
+
+Enron Transportation Services (ETS) is authorized to enter into Derivative Transactions and manage these Transactions within certain authorized Portfolios, as defined in Appendix I hereto, in support of its business and provided that such transactions are consistent with this policy.
+
+All Transactions covered by this policy must also be conducted in compliance with all Enron Corp. policies, Federal Energy Regulatory Commission (“FERC”) regulations and policies as they exist from time to time and the applicable FERC Gas Tariffs of the regulated subsidiaries of ETS.
+
+
+Trading Portfolio
+
+ETS is authorized to enter into Derivative Transactions which create positions for ETS within the authorized limits, specified in Appendix I.  These positions shall be managed within the Trading Portfolio.  
+
+
+
+Limits
+
+The Trading Portfolio is subject to a combination of limits.  These limits include, Net Open Position, Maturity/Gap Risk, Potential Exposure limits (VAR) and loss limits, as appropriate for  the type of business activity under consideration.  
+
+Limits will be applied at the Commodity Group and Portfolio level, as appropriate.
+
+
+Net Open Position Limits at the Commodity Group level, as specified in Appendix I. 
+Maturity/Gap Risk Limits at the Commodity Group level, as specified in Appendix I.
+Potential Exposure Limits using stress-testing and scenario analysis, as directed by the Enron Corp. Chief Risk Officer, and limits based on VAR, calculated daily or as appropriate to the business activity under consideration at the Portfolio level and at the Commodity Group level.
+Regulated exchange limits as imposed by regulated exchanges on which ETS transacts.
+Loss Notification limits.  Daily and Cumulative Losses resulting from the Gas Commodity Trading Portfolio are subject to the reporting requirements as specified in Section IV.C. 
+
+ETS will formulate limits subordinate to approved limits, which will be monitored internally, and act as triggers for reference to and action by senior ETS Management.
+
+
+Limit Violation/Loss Notification Requirements
+
+Any violation of limits must be reported to the Enron Corp. Chief Risk Officer as set out below.  Such report should be made prior to entering into a transaction if there is sufficient reason to believe that a limit violation will occur.  Requirements for limit violation notifications, each accompanied by an explanation for all limit violations and a recommended course of action for Net Open Position, Maturity/Gap Risk and Value-at-Risk limit violations, will be as follows. 
+
+
+
+Net Open Position Limits; Maturity/Gap Risk Limits.  If the limit violation is equal to or in excess of five percent (5%) of the applicable limit. 
+
+
+Value-at-Risk (VAR) Limits.  If the aggregate VAR limit is exceeded or if the VAR for any Commodity Group is equal to or in excess of five percent (5%) of the applicable limit.
+
+
+Loss Notifications.  If at any time the aggregate Daily Loss or the Daily Loss in any Commodity Group or Portfolio is equal to or in excess of 50% of the respective VAR limit as approved, the ETS Control Officer shall promptly communicate the occurrence to the Enron Corp. Chief Risk Officer.  If at any time the aggregate Cumulative Loss in any Commodity Group or all Commodity Groups is equal to or in excess of 75% of the respective VAR limit as approved, the ETS Risk Control Officer shall promptly communicate the occurrence to the Enron Risk Control Officer. 
+
+V. Operations and Controls
+
+
+Segregation of Duties.  ETS shall keep segregated from individuals entering into transactions each of the following activities: recording and aggregation of transactions; preparation, issuance and verification of ETS or third-party documentation; reporting of commodity position information; review of the reasonableness of prices and models, periodic validation of prices from independent market sources; monitoring of limits; physical and/or financial settlement of transactions; reconciliation of accounts; and preparation of financial statements. 
+
+
+Daily Position Reporting.  ETS shall prepare, distribute and make available data constituting a (“Daily Position Report”) as may be required by the President or the Risk Control Officer of ETS, including the Net Open Position, profit or loss, potential exposure and any other parameters as may be required.  
+
+
+Stress and Scenario Testing.  On a monthly basis, or as markets dictate, ETS shall formulate and examine the effects of extreme changes in the market parameters relevant to exposures and positions.  Results of these tests will be made available to the Enron Corp. Chief Risk Officer, or his designee.
+
+
+Valuation.  On a monthly basis, or as markets dictate, ETS shall provide evidence of verification of all market parameters used in the calculation of risk metrics and profits and losses.  This should be made available to the Enron Corp. Chief Risk Officer, or his designee.
+
+
+Transaction Approvals.  Only those employees designated by the Enron Corp. Chief Risk Officer or his designee will be authorized to enter into Derivative Transactions on behalf of ETS.  All such transactions must be entered into in compliance with current or future policies, prevailing at the time transactions are contemplated, of the Credit Group, Market Risk Group, Legal Department, and other relevant groups, as determined by Enron Corp. Chief Risk Officer.   
+
+
+Brokerage Accounts.  Authorization to open or revise a brokerage account will be reviewed and approved by the Enron Corp. Chief Risk Officer or his designees.  The Enron Corp. Chief Risk Officer or his designees will also notify the brokers of the names of personnel authorized to trade futures, options or other contracts on regulated exchanges if the account has been designated for this purpose.
+
+
+Calculation of the Net Open Position by Commodity Group.  For purposes of monitoring the Net Open Position Limits, as specified in IIIA., all Positions within a Commodity Group shall be aggregated into a reference Benchmark Position assigned to each group.  Subject to approval by the Enron Corp. Chief Risk Officer, certain Positions within a Commodity Group may be authorized to have those Positions designated to a second Commodity Group for use as Cross-Commodity Hedges.  If Designated for this purpose, the relevant Position will be reported and monitored in the second Commodity Group for the purposes of limit monitoring.  Affiliate positions and any such other Transaction designated as a hedge of the Affiliate Transaction, shall be excluded from the Net Open Position calculation for purposes of limit monitoring.
+
+VI. Miscellaneous
+
+Employee Trading.  No employee may engage in the trading of any position for the benefit of any party other than an ETS company (whether for their own account or for the account of any third party) where such position relates to (i) any financial instrument, security, financial asset or liability which falls within such employee’s responsibility at an ETS company or (ii) any other commodity,  included in any Commodity Group.
+
+
+Definitions
+
+“Affiliate Position” shall mean the Position between ETS subsidiaries or any other Enron Company (“Affiliate Transactions”), and any such other Transaction designated as a hedge of any Affiliate Transaction, in accordance with the Affiliate Policy.
+
+“Benchmark Position” shall mean the Position within a Commodity Group into which all other Positions within the same Commodity Group can be converted using price volatility and correlation based conversion factors.  Such conversion factors shall be established and authorized by the Enron Corp. Chief Risk Officer, in conjunction with the President of Enron Corp.
+
+“Cross-Commodity Hedge” shall mean a collection of Positions having sufficient relationship and correlation (as approved by the Enron Corp. Board of Directors) that allow for aggregation into a Benchmark Position.
+
+
+“Cumulative Loss” shall mean a sum of Daily Losses for the last consecutive five days.  Upon occurrence of a Cumulative Loss Limit violation, Cumulative Loss calculation is reset and begins with the Daily Loss following the day on which the violation took place.
+
+“Daily Loss” shall mean the loss in value of any Commodity Group on a daily basis.  The Daily Loss will be calculated using the mark-to-market method on a net present value basis.
+
+“Derivative Transactions” are financial instruments or other contracts that have 
+
+One or more underlyings and one or more notional amounts (or payment provisions or both); 
+No initial net investment or a smaller net investment than required for contracts expected to have a similar response to market changes; and 
+Terms that require or permit 
+net settlement 
+net settlement by means outside the contract 
+Delivery of an asset that results in a position substantially the same as net settlement.
+Generally, non-trading companies define Derivative Transactions as futures, swaps, as options or any combination of these instruments or cash market instruments creating a Position. 
+
+“Maturity/Gap Risk” Represents the risk of non-parallel changes of forward commodity prices.  The Maturity/Gap position is defined as the maximum of the absolute value of the largest Net Open Position in any consecutive twelve (12) months.
+
+“Net Open Position” The (net) present valued, volumetric position of: (1) all NNG Non-Standard Transportation Service Agreements, and (2) all Risk Management Transactions intended to hedge the risk of financial loss associated with such Agreements.  (See Addendum A, “Financial Exposure Limitations.”) 
+
+“Position” shall mean, collectively, the risk components (including, but not limited to , price risk, basis risk, index risk, credit risk and liquidity risk) of all commodities approved for trading through this Policy.
+
+“Potential Exposure” shall mean, the potential change in value of a Position or Commodity Group resulting from changes in, but not limited to, market prices, interest rates, currency rates, counterparty credit condition, liquidity, funding and settlement risk.
+
+“Trading Portfolio” A list of commodity positions that exposes the entity to price risk that can be netted together by commodity type and by “Other Comprehensive Income” or “Current Net Income” effects.  
+
+“Value-At-Risk (VAR)” The potential dollar exposure related to the NNG Net Open Position for NNG calculated using the Enron Corp. adopted VAR methodology at the 95% confidence interval, using a 1-day time horizon.  (i.e., The potential maximum gain or loss which NNG could expect to occur in any one day as a result of its Net Open Position.)  Any recalibration or modification of the VAR methodology or parameters to take into account observed or anticipated changes in market factors or developments in VAR technologies must be approved by both the Enron Corp. Chief Risk Officer and the President of Enron Corp.  
+
+NOTE: Transportation and transportation contract information may be provided by ETS to Enron Corp. Risk Management, the Enron Corp. Chief Risk Officer and the President of Enron Corp. for purposes of the calculation and monitoring of Net Open Position, Maturity Gap Risk and VAR.  All transportation and transportation contract information provided by ETS shall be conspicuously labeled, “This information is provided only for the purpose of evaluation of Net Open Position, Maturity Gap Risk or VAR methodology.”  If there is any uncertainty as to whether the disclosure of particular information, or the proposed treatment of such information for purposes of the aforementioned calculation(s) complies with FERC’s Standards of Conduct for Interstate Pipelines with Marketing Affiliates (18 C.F.R. Part 161), such information and the treatment thereof should be reviewed and approved by NNG Legal and/or Regulatory personnel prior to its submittal to Enron Corp.
+
+
+
+Enron Transportation Services
+Appendix I
+Risk Management Policy
+Proprietary and Confidential
+
+
+Commodity Group
+Benchmark Position
+Net Open Position Limit
+Maturity/Gap Risk Limit
+VAR Limit
+
+
+TRADING PORTFOLIO
+
+North American Natural Gas
+NYMEX Henry Hub Equivalents
+0 Bcf
+0 Bcf (Rolling 12-month)
+$00 MM
+
+
+

@@ -1,0 +1,2108 @@
+A new fast and accurate method to calculate Value-at-Risk and other tail risk measures for a portfolio of derivative securities 
+
+   
+Rabi De and Tanya Tamarchenko
+Enron Corporation, Research Department
+
+Abstract 
+We present a highly efficient methodology for calculating Value-at-Risk (VAR) and other tail-risk measures for a portfolio of derivative securities. This new methodology, named “Reliability-VAR”, is motivated by the First- and Second-Order Reliability Method (FORM/SORM), a widely used technique to estimate failure probability in structural engineering.  The proposed method is fast and accurate for most real-life trading portfolios, especially when (i) the payoff is non-linear due to the presence of option instruments and/or (ii) some of the underlying price returns are fat-tailed (non-Gaussian).  
+
+Two basic operations lie at the heart of the Reliability-VAR framework: (i) estimate the probability distribution of portfolio loss when the underlying price returns, are normally distributed and (ii) transform a portfolio with fat-tailed (non-Gaussian) price returns into an equally risky portfolio with standard normal (Gaussian) risk factors.  
+
+The Reliability-VAR framework includes hybrid approaches that combine elements of FORM/SORM analysis with a number of other probability computation techniques, e.g., importance sampling, Monte-Carlo simulation, etc., so as to optimize speed and accuracy of computation for a large class of portfolios.  We present numerical examples that demonstrate the superior performance of Reliability VAR in comparison to other methods, presently used in the financial community.  
+
+Keywords: Value-at-Risk, VAR, Expected Tail Loss, Structural Reliability, FORM/SORM, Importance Sampling, Monte-Carlo Simulation
+
+1.  State of the art and beyond
+There are a number of different approaches for calculating VAR.  The simplest among them is the “variance-covariance” method, popularized by RiskMetrics. It is also the fastest. However, it does not work for portfolios with options.  It is also necessary to assume that the underlying price-returns (risk factors) are normally distributed. The most robust and flexible VAR calculation method is Monte-Carlo simulation.  We can apply it to a portfolio of any type of derivatives, as long as we have their pricing models.  Proper accounting of fat-tailed price returns, if present, is still a challenge, but not insurmountable, as we will see later.  The main drawback of using Monte-Carlo is that it takes an enormous number of simulations to accurately estimate low probability events, which are precisely the events we are interested in for assessing portfolio VAR and especially the expected tail loss.  Monte-Carlo simulation is like shooting randomly in all possible directions while trying to hit a very small target.  
+
+There have been attempts at extrapolating Monte-Carlo simulation results to the low probability (tail) region by fitting extreme value distributions to simulated data. By their very nature, the observations of extreme losses in a simulation are infrequent and hence the statistical uncertainty associated with the extrapolated tail is bound to be large.  As a result, the estimated expected tail loss, if not the VAR itself, will change significantly if the simulation is repeated.  
+
+Recently Duffie and Pan, 1999, suggested Analytical VAR, a semi-analytical approach, for calculation of VAR and expected tail loss for a portfolio represented by deltas and gammas of its derivative positions.  Analytical VAR is very fast but can only model non-Gaussian behavior arising out of discrete jumps in underlying price returns. Besides, delta-gamma representation of the payoff function may not be sufficient for capturing the tail risk when the gamma sensitivities of the portfolio are high.
+
+In this paper we describe Reliability-VAR, a new probability calculation framework that overcomes the limitations described above.  The main text describes important features of Reliability-VAR, followed by an intuitive explanation of the idea behind the method. First we develop the framework for treating portfolios for which the underlying price returns are normally distributed.  Subsequently we extend the framework to treat fat-tailed price returns.  We present numerical results comparing the performance of the new method with that of Monte-Carlo simulation and Analytical VAR.  We save the formal presentation of the theory as well as the discussion of more in-depth implementation issues for the appendix. 
+
+2.  Features of the new method
+The Reliability-VAR framework is applicable to portfolios with highly non-linear payoff.   Also, it admits a more general type of non-Gaussianity of price returns, specified by their fat-tailed (non-Gaussian) probability distributions.
+
+Other important features of “Reliability VAR” are as follows.
+
+The method is fast and accurate for both VAR and expected-tail-loss calculation.
+Elements of the method can be combined with Monte-Carlo and Analytical VAR. 
+Comparisons (theoretical and numerical experiments) of speed and accuracy show clear superiority of Reliability-VAR over commonly used methods. 
+One key feature of the new method is that it answers the following question:  among the many sets of underlying prices that can create portfolio loss of a certain size, which set has the highest probability of occurrence?  The computational effort is focused is focused around the vicinity of this critical price set.  If Monte-Carlo is compared to a random shooting, Reliability-VAR first identifies precisely where the target is and then shoots around it. 
+Reliability-VAR provides us with sensitivities of the loss probability to underlying risk factors.  These sensitivities, not available through any other method, may be useful for hedging and VAR management decisions
+Reliability-VAR provides a scheme to restate the original VAR problem with fat-tailed risk factors as an equivalent problem with independent standard normal (zero mean and unit standard deviation) risk factors.  This transformation extends the use of well-known probability computation techniques developed for normally distributed price returns to situations to portfolios with fat-tailed price returns.
+The accuracy and speed of Reliability-VAR do not deteriorate for low probability events. Numerical experiments show that the new method allows efficient computation of probabilities of the order of 10-5 (compared to a standard VAR probability threshold of 0.05, which requires a few thousand of Monte-Carlo simulations).  To achieve any reasonable accuracy for these low probability events with standard Monte-Carlo, we need millions of trials that may not only takes hours to run, but is not feasible in practice because of computer round off errors and unacceptable quality of pseudo random numbers generated by the computer.
+
+3.  An overview of Reliability-VAR
+We named the new method “Reliability VAR” because it traces its origin from structural reliability theory and in particular from the first- and second order reliability method.  In structural reliability applications, failure is said to occur when the safety margin (capacity minus demand) falls below zero.  Structural capacity and demand are expressed in terms of a number of strength and load variables, some of which are modeled as random.  Translated into the value-at-risk world these strength and load variables are analogous to the risk factors and the event of failure is analogous to portfolio loss exceeding a specified threshold.   
+
+3.1.  Limit-state (iso-loss) surface and the design point
+The two key concepts in the FORM/SORM framework are: (i) the limit-state surface and (ii) the design point.   Figure 1 below illustrates these concepts for the portfolio loss problem in a two dimensional space of standard normal variables.  
+
+In the structural reliability problem, many combinations of load and strength variables can cause the structure to fail.  The failure surface, also known as the limit-state surface, is defined by a limit-state equation: capacity – demand = 0.  Demand is equal to capacity for all points on the limit-state surface although their probabilities of occurrences are unequal.   The limit-state surface divides the space of load and strength variables into safe and failure regions.  The failure probability is the probability content of the failure region.   Design point is defined as the point on the limit-state surface that is most likely to occur.  
+
+
+Normal (0,1) 
+shocks driving Nat 
+gas return 
+ 
+ 
+Normal (0,1) 
+shocks driving 
+Crude Oil return
+ 
+ 
+Loss > $6MM
+ 
+ 
+Iso
+-
+Loss Line or limit
+-
+state surface 
+ 
+Const.
+ 
+Loss =  $6MM
+ 
+ 
+Loss < $6MM
+ 
+ 
+ 
+ 
+contours of 
+equal 
+probability 
+density
+ 
+ 
+ 
+Standard Normal Space
+ 
+(0,0)
+ 
+ 
+Design Point 
+ 
+ 
+
+
+Figure 1. A two dimensional illustration of limit-state surface and design point for a portfolio with short positions in crude oil and natural gas derivatives
+
+For the value-at-risk problem, the portfolio loss is expressed in terms of normally distributed risk factors.  Normally distributed price returns can readily be expressed in terms of independent standard normal variates. See Appendix I for details. Appendix IV describes a framework for relating non-Gaussian price returns to standard normal variates.  
+
+Many combinations of underlying price returns produce portfolio loss of a certain size, although their probabilities of occurrence are unequal. The limit-state surface (iso-loss line in Figure 1) is the collection of all risk factor combinations (proxy for underlying price returns) that produce losses equal to a certain amount ($6MM in Figure 1).  Among all such risk factor combinations that produce losses equal to a specified size, the design point has the highest probability of occurrence.  The loss probability is the probability content of the loss region, e.g., Loss > $6MM in Figure 1.
+
+In the Reliability-VAR approach we estimate the tail of the loss distribution by calculating probabilities of loss exceeding a series of high threshold values.  As a result, we are required to identify limit-state (iso-loss) surfaces and locate design points for a number of tail loss events.
+
+3.2.  Determination of Design Point in the standard normal space
+The standard normal probability density tapers off exponentially with the square of the distance of the point from the origin.  Therefore among all the points on the limit-state surface, the design point, which by definition has the highest probability of occurrence, is closest to the origin.  Therefore, the design point can be found by solving a constrained optimization problem:  minimize the distance of the iteration point from the origin while always keeping the point on the limit-state (iso-loss) surface.  Finding the design point does not require extensive calculations.  Appendix II describes the design-point search algorithm used in this work.  For most real-life portfolios the limit-state surface is reasonably smooth and the calculation requires revaluating the portfolio a few times for different values of the underlying risk factors.  In Reliability-VAR, we use the knowledge of the design point to focus computational efforts in the vicinity of the design point, which contributes most to the probability of loss.
+
+3.3.  Estimating the probability of loss 
+In general, the portfolio loss is a non-linear function of the risk factors due to the presence of options in the portfolio.  As we will see later, the presence of fat-tailed price returns also introduce non-linearity in the limit-state surface in the standard normal space, even if there are no options in the portfolio.  
+
+
+
+. 
+ 
+Figure 2. Linear and second
+-
+order approximation of the limit
+-
+state surface at the 
+ 
+    
+ 
+                
+ design point.
+ 
+Standard Normal Space
+ 
+First
+-
+order
+ 
+approx
+.
+ 
+Second 
+-
+order
+ 
+approx.
+ 
+design point
+ 
+(0,0)
+ 
+risk factor 1
+ 
+ risk factor 2
+ 
+Limit
+-
+state (Iso
+-
+loss) surface
+ 
+b
+ 
+ 
+
+
+For the standard normal space, closed form solutions for estimating the probability contents for simple sets, e.g., region bounded by linear hyper-planes, are readily available.  In FORM/SORM, we approximate the limit-state surface with simple surfaces, e.g., linear or quadratic surfaces, in order to take advantage of the available closed form probability solutions.  We further note that the normal probability density decays exponentially with the square of the distance from the origin. Hence, the approximation error is least if the limit-state surface is linearized or ‘quadratized’ at the design point, a point that contributes most to the loss probability.  In first-order reliability method (FORM), the limit-state surface in the standard normal space is linearized at the design point.  In second-order reliability method (SORM) a quadratic surface fitted at the design point.  Figure 2 below illustrates first- and second-order approximation of the limit-state surface in a two dimensional space.  
+
+
+3.3.1.  FORM 
+If the limit-state (iso-loss) surface is linear, the loss probability is given by a simple closed-form expression F(b), where b is the distance of the design point from the origin and F(.) is the standard normal cumulative distribution function. See Appendix III for a proof.  Therefore, FORM estimate for a portfolio with non-linear limit-state surface is only an approximation to the exact probability.  The quality of the FORM approximation depends on the curvatures of the limit-state surface at the design point.  In the numerical examples presented in Section 5, we find that the error of FORM approximation to be in the range of 2%-4% for non-exceedance levels in the range of 10-5 to10-1. The FORM approximation error decreases for lower probability levels because the limit-state surface becomes flatter, which reduces the error due to the linear approximation.  Even for complicated limit-state functions, it usually takes only a few iterations (5-50) for the algorithm in Appendix II to find the design-point.  Hence, a FORM calculation involves only a few reevaluations of the portfolio for different values of underlying risk factors and is not very sensitive to the number of risk factors.
+
+If non-linear effects are significant, we can improve the FORM results either by using SORM, or design-point importance sampling, as described below.
+
+3.3.2.  Curvature-fitted SORM 
+In SORM, the non-linear limit-state surface is approximated by a second-order surface fitted at the design point (see Figure 2).  The standard practice in SORM is to construct a parabolic surface by matching the curvatures of the limit-state surface at the design point (see Madsen, Krenk, and Lind, 1986).  The structural-reliability literature offers a number of so-called SORM corrections for estimating the probability content of a region bounded by the fitted parabolic surface.  We describe implementation of curvature-fitted SORM approach in more details in Appendix I.
+
+3.3.3.  Hybrid SORM:  Design-Point Analytical-VAR
+We can also calculate the loss probability true to second-order using the Analytical VAR method (see Duffie and Pan, 1999).  Recall that in Analytical VAR, the portfolio payoff is represented by its delta and gamma sensitivities.  In standard Analytical-VAR, the delta-gamma sensitivities are calculated for the present level of underlying prices. Since the neighborhood of the design point contributes the most to the loss probability, delta-gamma approximation error is minimized if the delta and gamma sensitivities are calculated at price levels corresponding to the design point. See Appendix I for implementation details.
+
+Analytical VAR is fast.  The improved accuracy of Design-Point Analytical VAR comes at the expense of additional computational effort in locating the design point, which is minimal.  However, recall that the coordinates of the design point change as the loss threshold changes.  If portfolio has high gamma, it becomes necessary to recalculate design-point deltas and gammas at each loss threshold of interest.
+
+FORM calculation is extremely fast irrespective of the number of risk factors.  However, the number of numerical calculations in Analytical VAR or curvature-fitted SORM grows as cube of the number of risk factors. This becomes quite an overhead when the number of risk factors is greater than about 100, especially since we have to repeat the calculation for various loss thresholds. Other SORM approaches, e.g., the point-fitted parabolic-surface approximation, are available that are less burdensome for problems with a large number of risk factors.  However we are yet to experiment with these alternative SORM approaches.  For a nonlinear portfolio with a large number of risk factors, we currently recommend using Design-Point Importance Sampling, which is described next.
+
+3.3.4.  Design-Point Importance Sampling
+In design-point importance sampling, we exploit the knowledge of the design point to increase the efficiency of Monte-Carlo Simulation.   The algorithm is described in Appendix I.  In standard (brute-force) Monte Carlo method very few of the simulated outcomes represent loss events, which results in a large variance of estimation for the calculated loss probability.  Importance sampling reduces the variance of estimation by carefully choosing the sampling density.  A “good” choice is to shift the mean of the sampling density function from the origin to the design point, whose neighborhood contributes the most to the loss probability.  The importance sampling procedure therefore requires finding the design point first and then simulating portfolio value changes using a sampling density that is focused around the design point.   
+
+
+Treatment of non-Gaussianity in Reliability-VAR
+Reliability-VAR includes a “probability-preserving” transformation for mapping a portfolio with fat-tailed (non-Gaussian) price returns into an equally risky portfolio with standard normal (Gaussian) risk factors.  The transformation framework is described in details in Appendix IV. A pictorial representation of the concept is given in Figure 2. The transformation scheme is very general and can be used, not only in Reliability-VAR, but also in conjunction with other probability calculation methods such as Monte-Carlo simulation.
+
+
+Normal (0,1) 
+shocks driving 
+Crude Oil return
+ 
+ 
+Standard Gaussian Space
+ 
+Normal (0,1) 
+shocks 
+driving Nat 
+gas return 
+ 
+ 
+(0,0)
+ 
+ 
+Crude Oil 
+return 
+ 
+ 
+Loss > $6MM
+ 
+ 
+ 
+Iso
+-
+loss line
+ 
+loss =  $6MM
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Nat gas 
+return 
+ 
+ 
+Joint prob. 
+density of 
+price returns
+ 
+ 
+Loss > $6MM
+ 
+ 
+ 
+Iso
+-
+loss line
+ 
+loss =  $6MM
+ 
+ 
+Joint prob. 
+density
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Non
+-
+Gaussian space
+ 
+
+ 
+Figure 2. Probability preserving transformation of the VAR problem from non-Gaussian to standard Gaussian space
+
+4.  Qualitative comparison of different methods
+The Table below shows best performing methods for different classes of portfolios. The various methods named in the table, e.g., FORM/SORM, Monte-Carlo simulation, importance sampling, Analytical VAR, etc., are described in the main text. 
+
+Table 1. Most efficient probability calculation method to achieve acceptable accuracy
+
+
+Case
+Portfolio characteristics
+Most efficient method
+Comments
+
+
+Number 
+of risk  factors
+Non-Gaussian 
+risk factors
+Non-linear 
+payoff function
+
+
+1
+
+ Any
+None
+None
+Variance-
+Covariance VAR
+equivalent to FORM
+RiskMetrics Approach
+2
+
+ <10
+None
+Yes
+Monte-Carlo Simulation 
+Essential for non-linear 
+payoff functions
+3
+
+ <10
+Yes
+Yes
+Monte-Carlo Simulation 
+Use the non-Gaussian to  
+Gaussian transformation in 
+Reliability-VAR for simulating 
+non-Gaussian risk factors
+4
+10 - 100
+Yes
+Yes
+FORM and/or 
+SORM 
+Could use Analytical VAR 
+when gammas are not significant
+5
+Large
+Yes
+Yes
+FORM or 
+Design-point Importance Sampling
+Hybrid methodology that couples FORM with importance sampling
+
+5.  Numerical results
+We present below numerical examples to demonstrate the performance of Reliability-VAR in comparison to other methods. We start with a portfolio of stocks and options and compare FORM, SORM with Monte-Carlo simulation results. We demonstrate the performance of design-point importance sampling for the same portfolio in the second example.  The third example demonstrates the use of SORM for a portfolio whose payoff function is very non-linear.   The last example shows the ability to model non-Gaussian risk factors in Reliability-VAR.
+
+5.1.   Example 1: Equity portfolio of 178 stocks and options
+For equity portfolio of 178 stocks and options we calculate the tail of the distribution for daily changes in the portfolio value using first- and second-order reliability methods, see Figure 3. The portfolio consists mostly of stock positions, but it also includes European and American options. 
+
+Figure 3 shows FORM and SORM solutions as well as Monte-Carlo results with 5,000 and 50,000 simulations. Finding the first design point and calculating the corresponding FORM probability without the curvature correction hardly takes any computational effort. Although the SORM solution on the plot overlaps the FORM solution, SORM results in this case imply a correction in the range of 3.8%-1.5% to the FORM results. Monte-Carlo simulations with a sample size of 5,000 produce a wiggly distribution function, while with 50,000 samples we achieve decent accuracy for lower probability levels.
+
+5.2.   Example 2: Importance sampling based on the knowledge of design points.
+Figure 4 compares the results of brute-force Monte-Carlo simulations with that of importance sampling for the same portfolio. We first determined the design point corresponding to a loss probability equal to 10%.  For importance sampling we simulated standard multi-normal vectors with the mean at the design point. The tail of the loss distribution is calculated for 500 and 5000 simulations. The number of simulations required to calculate the tail of the distribution is a few orders of magnitude less for design-point importance sampling when compared to the standard brute-force Monte-Carlo technique. 
+
+
+5.3.   Example 3: A portfolio of stocks and options with high gamma
+Since we are interested in evaluating the performance of a new technique, we tested the new methodology against a portfolio with a highly non-linear limit-state surface, where the delta-gamma representation is clearly inadequate.   Such is the case for a portfolio with hedged instruments.  Hence VAR results based on linear approximation of the failure surface (e.g., using FORM) as well as results based on delta-gamma representation of the payoff function (e.g., using Analytic VAR, SORM or Monte Carlo) are expected to be quite different from that obtained from a large number of Monte Carlo simulation of portfolio returns with full options revaluation for each set of simulated price. 
+
+In this example we consider a portfolio consisting of 30 options and 30 stocks, paired to hedge each other. We assume lognormal distributions for the set of 60 underlying stock prices. The correlations between the stocks are assumed to be of the form:
+
+j
+i
+ij
+-
++
+=
+02
+.
+0
+1
+1
+r
+
+ 
+The options are assumed to be at-the-money American and European options, expiring in 5 days. The volatilities range from 20% to 110%.  For each stock and option pair, the number of stock shares is chosen to approximately hedge the corresponding option position. The portfolio contains 1000 shares of options on stocks number 1, 3, 5, …, 59 and 550 shares of stocks number 2, 4, 6, …, 60.   Such a portfolio has positions with very high gammas. 
+
+Figure 5 shows the tail of the loss distribution for this portfolio calculated by three different methods: brute-force Monte-Carlo simulation, Analytical VAR and FORM/SORM (Reliability VAR).  In this example, the accurate calculation with FORM/SORM method requires finding two closest design points and using SORM approximations at the design points. Reliability VAR matches the simulation results very well in spite of the SORM approximation, presumably because the SORM approximation is carried out at the design point, whose neighborhood contributes the most to the loss probability
+
+As expected, the Analytical VAR results, which are based on delta-gamma representation of the portfolio positions at the initial price, are very different from full-revaluation Monte-Carlo and FORM/SORM results.  
+
+Monte-Carlo requires many simulations to accurately estimate the tail of the distribution.  In this example we used 100,000 simulations and the results are in a good agreement for percentiles p greater than 0.08%. For p < 0.08% the accuracy of Monte-Carlo method is not sufficient. The time expenditures are 20 sec. for Analytical VAR, 35 sec for Reliability VAR and 55 sec for Monte-Carlo on a Pentium III, 850 MHz, desktop computer. 
+
+5.4.   Example 4: Matching four moments of marginal distributions and correlations across underlying stocks with “fat-tailed” return distribution.
+In this experiment, we consider again a portfolio of the same 30 stock-option pairs described in the preceding section.  We further assume that all the marginal distributions of stock log-returns have equal skewness coefficients of 0 and equal kurtosis coefficients of 4, i.e., the distributions are “fat tailed”.  Following the approach outlined in Appendix IV and Section 3, we transform the probability estimation problem to the standard Gaussian space.  Figure 6 shows the tail of the distribution of daily portfolio value changes, calculated using Reliability VAR (SORM) and Monte-Carlo with 100,000 simulations. For Monte-Carlo simulations, we used the same transformation used in Reliability VAR to simulate log-returns with prescribed marginal moments and pair-wise correlations. In Figure 6, we also present distribution results for Gaussian log-returns having the same means, standard deviations, and pair-wise correlations between them as the non-Gaussian variables. As expected for lower non-exceedance thresholds the two distributions diverge. The computational expense for the fat-tailed risk factor case is not any higher than that for the portfolio with Gaussian risk factors.
+
+
+6. Conclusion
+We propose “Reliability VAR” – an efficient method of estimating tail probabilities of portfolio returns.   The framework is based on first- and second order structural reliability methods.  This new method of calculating VAR is not restricted to representation of positions in a portfolio as delta-gamma sensitivities to the underlying prices. We also show that the proposed framework works well in the presence of price returns with so-called “fat tails”.
+
+We compare the speed and accuracy of the new method to standard techniques of calculating VAR and show that the new method is superior to existing methods.   High accuracy and significantly reduced computational burden makes Reliability VAR very attractive for calculating Value-at-Risk and additional tail risk measures such as the Expected Tail Loss.  Besides, knowledge of the design-point and sensitivity vectors, obtained as byproducts of Reliability-VAR calculations, may prove valuable for hedging and VAR management at the portfolio level.  
+
+
+7. Acknowledgement
+We are grateful to Vince Kaminski for support and review of this work.  We are also grateful to Darrel Duffie, Vasant Shanbhogue, and Rakesh Bharati for helpful comments and editorial suggestions.
+
+
+
+
+Testing "Reliability VAR" method
+Enron's portfolio: 178 stocks and options
+0.00001
+0.0001
+0.001
+0.01
+0.1
+-8,500,000
+-7,500,000
+-6,500,000
+-5,500,000
+-4,500,000
+-3,500,000
+-2,500,000
+Simulation VAR, 50000 sim
+"Relaibility" VAR (SORM)
+Simulation VAR, 5000 sim
+"Reliability" VAR (FORM)
+
+
+Figure 3. Performance of  “Reliability” VAR in estimating the tail of portfolio return distribution   
+
+
+
+
+"Reliability VAR" method with importance sampling
+Enron's portfolio: 178 stocks and options
+0.000001
+0.00001
+0.0001
+0.001
+0.01
+0.1
+-1.E+07
+-1.E+07
+-9.E+06
+-8.E+06
+-7.E+06
+-6.E+06
+-5.E+06
+-4.E+06
+-3.E+06
+Simulation VAR, 50000 sim
+Simulation VAR, 5000 sim
+Importance sampling, 5000 sim
+Importance sampling, 500 sim
+
+ 
+
+
+Figure 4. Comparative efficiency of design-point importance sampling and ordinary Monte-Carlo (brute-force) simulation 
+
+ 
+
+Testing different VAR caclulation methods:
+30 stocks, 30 options expiring in 5 days, imperfect hedge
+0.00001
+0.0001
+0.001
+0.01
+0.1
+-85000
+-75000
+-65000
+-55000
+-45000
+-35000
+-25000
+Analytical VAR
+Simulation VAR, 100000 sim
+Reliability VAR
+
+
+
+Figure 5.   Comparison of different methods of calculating tail risk of a portfolio of hedged instruments with a highly nonlinear payoff function; Reliability VAR result is based on multiple design point and SORM approximation; Analytical VAR is based on delta-gamma approximation at the initial price level
+
+
+
+
+Reliability VAR for "fat-tailed" risk factors:
+matching four moments for marginal distributions and 
+correlations across underlying stocks
+30 stocks, 30 options expiring in 5 days
+0.00001
+0.0001
+0.001
+0.01
+0.1
+-80,000
+-70,000
+-60,000
+-50,000
+-40,000
+-30,000
+-20,000
+-10,000
+Simulation VAR, 100000 sim
+Reliability VAR
+Normal distribution
+
+
+Figure 6. Use of Reliability VAR in the presence of  “fat-tailed” price returns (kurtosis coefficient of all log-returns equal to 4).
+
+
+Input: Portfolio (position volumes, type
+of derivatives, underlying commodity
+and /or financial instruments)
+I
+nput: Market Data of underlying commodity and/or
+financial instruments (price, volatility, correlation)
+Probability Model:  Develop marginal probability
+distribution of  price returns and correlation between
+price returns
+Valuation Model: Change in value of
+portfolio given a set of price returns for
+the underlying instruments
+Select a loss threshold;
+Formulate Limit-State Function:
+Portfolio Loss - threshold
+Develop a probability preserving transformation
+between correlated price returns  and standard
+Gaussian variates;  Use Hermite-model-based
+correlation mapping if price returns are fat-tailed.
+Map  the Limit-State Function to a standard Gaussian Space
+Design Point(s):   Locate the point on the limit-state surface closest  to the
+origin in the standard Gaussian space;  also locate multiple design points
+(local minima), if appropriate
+Calculate probability of loss exceeding the chosen  threshold using, FORM,
+SORM, and/or importance sampling around Design Point(s).  If appropriate,
+add probability contribution from multiple design points using series system
+methodology.
+Obtain lower tail of the cumulative probability distribution of portfolio value change  by repeating the
+calculation for a series of loss thresholds.  Read off VAR, given a confidence level.  Calculate
+expected loss by integrating the tail of the distribution, if desired.
+Figure 7.  Overview of VAR Calculation in Reliability-VAR framework
+
+
+References
+
+DER KEREGHIAN and LIU, P.-L.: “ Structural Reliability under Incomplete Probability Information”, J. Eng. Mech., Vol. 112, No.1,1986, pp. 85-104.
+
+DER KEREGHIAN, A. and DAKESSIAN, T.:  “Multiple Design Points in First and Second-Order Reliability”, Structural Safety, Vol. 20 (1998), pp. 37-49
+
+DUFFIE, D. and PAN, J.: “Analytical Value-At-Risk with Jumps and Credit Risk”, Working Paper, draft dated, November 29, 1999.
+
+MADSEN, H. O., KRENK S., and LIND N.C.:  “Methods of Structural Safety”, Prentice Hall, Inc., USA, 1986 
+
+WINTERSTEIN, S.R., DE, R.S., and BJERAGER, P.:  Correlated Non-Gaussian Models in Offshore Structural Reliability”, Presented at the Fifth International Conference on 
+Structural Safety and Reliability, ASCE, San Francisco, 1989 
+
+WINTERSTEIN, S.R.: Moment-Based Hermite Models of Random Vibrations, Report No. 219, Series R, Department of Structural Engineering, Technical University of Denmark, Lyngby, Denmark, 1987.
+
+
+APPENDIX I
+Detailed formulation of Reliability-VAR for Gaussian risk factors
+
+The VAR problem requires expressing the portfolio value change, dP, over the next period as a function of random price returns of the underlying instruments over the same time horizon.  VAR is the portfolio loss level that is exceeded only with a small probability level.  Noting that negative portfolio value change imply loss, we seek n, the portfolio value change (negative) corresponding to a specified small probability of non-exceedance q such that:
+
+q
+v
+d
+P
+=
+<
+P
+}
+{
+
+          (I.1)
+Note that q = 1 - p, where p is referred to as the VAR confidence level, e.g., 95% or 99% VAR.   In the proposed framework, instead of finding n directly for a specified probability q, we solve the inverse problem, i.e., we calculate the probability q for a chosen loss threshold n. We repeat the calculation of q using FORM/SORM for a range of different n values covering the desired range of the lower tail of dP distribution.   
+
+To illustrate the implementation of Reliability-VAR, let us consider a portfolio of stocks and options on stocks. Assume that mi is the quantity (number) of the ith derivative position on stock i, Si is the random price underlying stock i at time t, ci (Si) is the value of the ith derivative position as a function of the underlying stock price Si, P0 is the initial value of the portfolio, and n is the total number of different derivative positions in the portfolio.  For notational simplicity we assume without any loss of generality that each derivative position is on a distinct underlying stock.  The term derivative position used here includes long and short positions on a stock.  
+We are interested in the probability distribution of the portfolio value change, dP, over a short time horizon t:
+
+0
+1
+)
+(
+P
+-
+=
+P
+å
+=
+n
+i
+i
+i
+i
+S
+c
+m
+d
+
+        (I.2)
+
+The main steps in Reliability-VAR framework can be enumerated as follows:
+
+Express the portfolio loss as a function of standard Gaussian variates
+Formulate the limit-state function for a chosen loss threshold
+
+Locate the design point
+Estimate loss probability using FORM
+Optional Step: Estimate loss probability using SORM, if required
+Optional Step: Estimate loss probability using design-point based importance sampling, if required
+Optional Step: Add loss probability contribution from Multiple design points, if they exist
+Develop the tail distribution of portfolio loss and hence the VAR  
+Please note that the Steps 5, 6, and 7 are optional depending on the problem characteristics, i.e., linearity of the u-space limit-state surface, number of risk factors, shape of the limit-state surface, etc.  A detailed flowchart of the process is shown in Figure 2.
+
+
+I.1.  Representing portfolio loss as a function of standard Gaussian variates
+Let us assume that the n underlying stock prices are log-normally distributed. The joint probability model parameters of the underlying prices are specified by the n-dimensional drift vector m = [m1, m2, ….mn]T and an n-by-n covariance matrix C of the corresponding log-returns, which are normally distributed.  In this work, we factorize the covariance matrix C using the “Jacobi transformation” to obtain an n-by-k (where k < n) matrix J such that 
+T
+J
+J
+C
+×
+=
+
+.  Note that k is less than n if some of the price returns are perfectly correlated in which case we take advantage of the correlation to reduce the dimension of the problem from n to k. The random stock price Si at time t can then be expressed as a function of the starting price Si0 at time zero and a set of standard Gaussian risk factors, U1, U2,…,Uk, as follows:
+
+å
+=
++
+=
+=
+k
+m
+m
+im
+i
+i
+i
+U
+J
+e
+S
+S
+i
+i
+1
+0
+where
+,
+x
+t
+x
+t
+m
+
+      (I.3)
+Equations (I.2) and (I.3) together express the portfolio loss, dP, as a function of k standard Gaussian variables, which are the transformed risk factors for the portfolio. For the case of lognormal prices, the above scheme of representing portfolio value-change as a function of standard Gaussian variates is well documented in the literature.  
+
+I.2.  Limit-state function in Reliability-VAR
+We are interested in estimating q, the probability of dP not exceeding a chosen loss threshold v, as described by Equation (I.1).   Let us consider the level surface defined by dP - v = 0 in Rk, where k is the number of Gaussian risk factors.  The equation dP - v = 0, which equates the portfolio value change to a specified loss threshold v, is the limit-state equation for the Reliability-VAR problem and can be generically denoted as:  G(u1, u2,…,uk) = 0, or more generally as G(u1, u2,…,uk;  v) = 0.  
+
+The loss probability q can be obtained by integrating fU(.), the joint probability density function of standard Gaussian variates, U1, U2, …, Uk, over the loss region, denoted by dP  < n:
+
+
+ò
+ò
+<
+<
+P
+=
+=
+0
+)
+(
+2
+1
+2
+1
+,...,
+,
+)
+(
+...
+)
+,...,
+,
+(
+2
+1
+u
+U
+u
+u
+G
+v
+d
+k
+k
+U
+U
+U
+d
+du
+du
+du
+u
+u
+u
+q
+k
+f
+f
+
+  (I.4)
+
+I.3.  “Design Point” in Reliability-VAR problem
+The design point u* is a point on the transformed limit-state surface, G(u) = 0,  that is the closest to the origin.  See Figure 1.1 below for an illustration of limit-state surface and design point in a two-dimensional Gaussian space in which the limit-state surface reduces to a line.  The shape of the limit-state surface (curve in two dimensional space), in general, can be linear or non-linear and may span one or more quadrant of the u-space. The design point is located by solving a constrained optimization problem:  minimize |u|, subject to G(u) = 0.  The design-point search algorithm used in this work is described in Appendix II.  
+In Reliability-VAR, the design-point coordinates (u*) represent the most-likely-to-occur states of the risk factors that cause the portfolio loss to be equal to the selected threshold v.  The direction cosines of the vector u*, connecting the origin to the design point, represent sensitivities of the portfolio loss probability with respect to underlying risk factors.  Neither Monte-Carlo, nor numerical integration techniques yield these important pieces of information often sought by risk managers to facilitate portfolio hedging and VAR management.  
+
+
+. 
+ 
+0
+)
+(
+=
+u
+G
+0
+)
+(
+<
+u
+G
+0
+)
+(
+>
+u
+G
+*
+u
+=
+b
+Figure 
+I.
+1. Illustration of  FORM/SORM concepts in two
+-
+dimensional Gaussian 
+ 
+               
+space: limit
+-
+state surface, design point, linear and second
+-
+order 
+ 
+               
+approximation of the limit
+-
+state surface at the design point.
+ 
+Standard 
+Gaussian 
+Space
+ 
+2
+u
+1
+u
+First
+-
+order
+ 
+approx
+.
+ 
+Second 
+-
+order
+ 
+approx.
+ 
+u
+* (design point)
+ 
+(0,0)
+ 
+failure set
+ 
+safe set
+ 
+limit
+-
+state surface
+ 
+
+
+I.4.  First-Order Reliability Method (FORM)
+If the limit-state function G(U) is a linear function of k independent Gaussian risk factors U1, U2,… , Uk, it can be shown (see Appendix III) that the loss probability q in Equation (I.4) reduces to a simple expression:
+
+)
+(
+b
+-
+F
+=
+f
+P
+
+,          (I.5)
+where b is the distance of the “design point” from the origin and F(.) is the standard Gaussian cumulative distribution function.  In general, the limit-state function G(.) is a non-linear function of the risk factors U, in which case the expression F(-b) is only an approximation to the exact probability and is referred to as the first-order reliability method (FORM) approximation.  In effect, FORM entails approximating the limit-state surface by a linear hyper-plane, which is tangential to the limit-state surface at the design point.  The non-linear effects, if significant, are handled through use of SORM or design-point importance sampling, as described in subsequent sections.
+
+I.5.  Second-Order Reliability Method (SORM) 
+In this section we describe the implementation of both curvature-fitted SORM and Design-Point Analytical VAR introduced in Section 3 of the main text.
+
+Curvature-fitted SORM.  The standard practice in SORM is to construct a parabolic surface by matching the curvatures of the limit-state surface at the design point (see Madsen, Krenk, and Lind, 1986).  The curvature-fitted version of SORM implemented in this work proceed as follows:
+
+Calculate the Matrix M of second derivatives 
+*
+2
+)
+(
+u
+u
+u
+=
+¶
+¶
+¶
+j
+i
+u
+u
+G
+
+ at the design point. 
+Rotate the k-dimensional u-space coordinate system to obtain a new co-ordinate system such that one of its axes (say the kth) coincides with the vectors u* and a (see Figure I.1).  The rotation is achieved through a linear transformation of the form:
+U
+R
+U
+=
+¢
+
+, where R is an orthogonal matrix with a as its last row.   We use the Gramm-Schmidt orthogonalization scheme to find the remaining rows of the Matrix R.    In the rotated coordinate system the fitted paraboloid is of the form:  
+
+u
+A
+u
+¢
+¢
++
+=
+¢
+T
+k
+u
+2
+1
+b
+
+, where 
+)
+1
+(
+)
+1
+(
+1
+1
+1
+]
+[
+and
+}
+,.....
+,
+{
+-
+-
+-
+=
+¢
+¢
+¢
+=
+¢
+k
+x
+k
+ij
+T
+k
+a
+u
+u
+u
+A
+u
+
+
+
+The elements of Matrix A are obtained from the second-derivatives matrix M in the new co-ordinate system: 
+
+1
+k
+ 
+2,.......,
+ 
+1,
+j
+i,
+G
+a
+ij
+T
+ij
+-
+=
+Ñ
+=
+where
+*)
+(
+)
+(
+u
+R
+M
+R
+
+ 
+
+Factorize (e.g., using Jacobi decomposition) the transformed matrix A. Eigenvalues of the transformed matrix A are the main curvatures of the limit-state surface at the design point. 
+The SORM estimate of the loss probability used in this work is based on a 1983 formula by Tvedt (see pp 67, Madsen, Krenk, and Lind, 1986) that utilizes the main curvatures of the fitted parabolic surface calculated in Step 4 above.  The formula is rather cumbersome and the reader is referred directly to the textbook cited.  Other SORM correction formulas, more recent and elegant, are also available in the structural reliability literature.  
+
+
+Design-Point Analytical VAR.  If the non-linear limit-state surface is sufficiently smooth, we can approximate it with a quadratic function at the design point.  We use the first three terms of Taylor series to obtain a quadratic approximation of the limit-state surface at the design point u*:
+
+0
+)
+)(
+(
+)
+(
+2
+1
+)
+(
+)
+(
+*)
+(
+*
+*
+*
+,
+1
+,
+1
+2
+1
+*
+*
+=
+-
+-
+¶
+¶
+¶
++
+-
+¶
+¶
++
+=
+=
+=
+=
+=
+=
+=
+å
+å
+j
+j
+l
+l
+u
+u
+k
+j
+k
+l
+j
+l
+j
+l
+k
+l
+l
+l
+u
+u
+l
+u
+u
+u
+u
+u
+u
+u
+G
+u
+u
+u
+u
+G
+u
+G
+
+    (I.6)
+The calculation of first and second partial derivatives of G(u) in Equation (I.6) can either be obtained analytically or numerically.  The calculation of first derivatives is described in details in Appendix II.  The second derivatives, used in Equation (I.6), can also be calculated similarly.  The portfolio loss expressed as above can be used in Analytical VAR calculations.
+
+
+I.6.  Design-Point Importance Sampling in Reliability-VAR
+In importance sampling, we exploit the knowledge of the design point to increase the efficiency of Monte-Carlo Simulation.   The probability integral in Equation (I.4) can be written as follows in terms of y(u), a new sampling density function, and I(u), an indicator function, which is 1 if dP < 0 and 0 otherwise:   
+
+ò
+ò
+ò
+ú
+û
+ù
+ê
+ë
+é
+=
+=
+=
+<
+k
+R
+U
+v
+G
+du
+u
+u
+u
+u
+I
+d
+I
+d
+q
+)
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+(
+y
+y
+f
+f
+f
+u
+u
+u
+u
+u
+U
+u
+U
+
+  (I.7)
+and the loss probability is estimated from:
+
+å
+=
+=
+N
+j
+j
+j
+j
+I
+N
+q
+1
+)
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+(
+1
+ˆ
+u
+u
+u
+U
+y
+f
+
+,        (I.8)
+where u(j)’s are N independent samples drawn using the sampling density y (u).
+
+The importance sampling procedure therefore requires finding the design point first and then simulating portfolio value changes using a sampling density that is focused around the design point.   
+
+I.7.  Multiple design points
+In majority of real-life portfolios we expect to find a single design point that affects the loss probability calculations. This implies that either there is only a single design point, or even if multiple design points exist, one of them is much closer to the origin compared to the others. It is however possible to construct artificial examples of limit-state equations having multiple design points (local minima) located at roughly comparable distances away from the origin in the standard space. 
+To locate multiple design points, if they exist, we use an algorithm described in Der Kiureghian and Dakessian, 1998.  This algorithm is based on adding “bulges” to the G-function at the previously identified design points. This forces the search algorithm to look outside the vicinity of the design points that has been already identified.  
+
+The probability contribution from multiple design points can be taken into account by computing the union of failure events as is common in series-system reliability analysis (see Madsen, Krenk, and Lind, 1986).  Alternatively, one can use design-point importance sampling with a sampling density y (u) equal to a weighted sum of the sampling density functions corresponding to the most important design points.  
+
+I.8.  Calculation of tail of the loss distribution and estimation of VAR
+We repeat the processes described in Steps I.2 through I.7 to estimate loss probabilities for a range of loss thresholds so as to develop the distribution tail in the desired low probability range.   The portfolio VAR corresponding to the specified confidence level is obtained from the probability distribution tail per Equation (I.1).  The expected tail loss is obtained by numerically integrating the tail of the portfolio value-change distribution below the VAR level.
+
+APPENDIX II
+Search algorithm for finding the design
+ point in the standard Gaussian space
+
+We use a simple iterative procedure described in Der Kiureghian and Dakessian, 1998, to calculate the coordinates of the “design point”.  It is based on the fact that at the “design point” u*, the gradient of the function G(u*) is collinear with vector u* (see Figure II.1).   In its simplest form, the algorithm finds a sequence of vectors u(m), each one calculated as follows:
+
+)
+(
+)
+(
+)
+(
+)
+(
+)
+.
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+1
+(
+m
+m
+m
+m
+m
+m
+m
+m
+m
+G
+G
+G
+G
+u
+u
+α
+α
+u
+u
+α
+u
+u
+Ñ
+Ñ
+-
+=
+ú
+ú
+û
+ù
+ê
+ê
+ë
+é
+Ñ
++
+=
++
+
+      (II.1)
+In equation II.1,
+)
+(
+)
+(
+m
+u
+G
+Ñ
+
+is the gradient vector of the limit-state function G(.) evaluated at the mth iteration point u(m) and 
+)
+(
+)
+(
+m
+G
+u
+Ñ
+
+ is the norm of the gradient vector.  Hence, a(m) is the unit vector in the direction of the gradient to the limit-state surface at  u(m).
+
+
+
+. 
+ 
+0
+)
+(
+=
+u
+G
+0
+)
+(
+<
+u
+G
+0
+)
+(
+>
+u
+G
+*
+u
+=
+b
+*)
+(
+*)
+(
+u
+u
+α
+G
+G
+Ñ
+Ñ
+-
+=
+Figure I.1 Design point and gradient vector in two dimensional space
+ 
+Standard 
+Gaussian 
+Space
+ 
+2
+u
+1
+u
+Tangent
+ 
+α
+u
+b
+=
+*
+design point (
+u
+*)
+ 
+
+
+
+We start with an initial point u(1), e.g., the origin, find a new iteration point u(2), and using the recursion formula above repeat the process until convergence is achieved.  For the Reliability-VAR problem, Equations (I.2) and (I.3) in Appendix I are used to evaluate the function G for a given u. The gradient of G is calculated using the following equations, also derived from Equations (I.2) and (I.3):
+
+il
+i
+l
+i
+l
+i
+n
+i
+i
+i
+i
+i
+l
+J
+S
+u
+S
+u
+S
+dS
+S
+dc
+m
+u
+G
+t
+=
+¶
+¶
+¶
+¶
+=
+¶
+¶
+å
+=
+,
+)
+(
+1
+
+        (II.2)
+Thus calculation of the gradient of G(.) involves ‘delta’s for the derivative instruments in the portfolio. Deltas are normally available from option pricing models used in valuing derivative securities. Deltas are either calculated analytically, e.g., for European options, or numerically, e.g., for models based on binomial trees, finite-difference methods, etc. Numerically deltas are calculated by calling the pricing model twice with slightly different stock price values.
+  
+APPENDIX III
+FORM probability estimation for a linear portfolio 
+loss function in the standard Gaussian space
+
+Let us express the linear portfolio loss function, G(U), in terms of k standard Gaussian variates, U1, U2, ……., Uk, as follows:
+
+å
+=
++
+=
+k
+i
+i
+i
+U
+b
+b
+G
+1
+0
+)
+(
+U
+
+        (III.1)
+Note that all Ui ‘s have zero means and unit standard deviations and are uncorrelated to each other. It then follows that, G(U) is Gaussian  with mean, mG = b0 and standard deviation   
+å
+=
+=
+k
+i
+i
+G
+b
+1
+2
+s
+
+
+
+
+The loss probability is given by:
+Probability
+÷
+÷
+÷
+÷
+÷
+ø
+ö
+ç
+ç
+ç
+ç
+ç
+è
+æ
+-
+F
+=
+÷
+÷
+ø
+ö
+ç
+ç
+è
+æ
+-
+F
+=
+<
+å
+=
+2
+1
+0
+0
+]
+0
+)
+(
+[
+i
+k
+i
+G
+G
+b
+b
+G
+s
+m
+U
+
+,      (III.2)
+where F(.) is the cumulative standard Gaussian distribution function.   
+
+Analytic geometry results indicate that the direction cosines of a vector perpendicular to the linear hyper-plane defined by Equation (III.1) and pointing in the direction of decreasing G(U), are given by 
+
+å
+=
+-
+=
+k
+i
+i
+i
+i
+b
+b
+1
+2
+a
+
+ , where i = 1,2,…k       (III.3)
+The distance b of the hyper-plane from the origin is given by 
+
+
+å
+=
+=
+k
+i
+i
+b
+b
+1
+2
+0
+b
+
+ and the “design point”, the point on the linear hyper-plane closest to the origin is the foot of the normal vector a, whose coordinates are given by u* = b a (see Figure II.1 in Appendix II).  
+
+It then follows that the loss probability given by Equation (III.2) reduces to F (-b).   
+
+
+Appendix IV
+Treatment of Non-Gaussian price returns in Reliability-VAR
+
+To use the Reliability-VAR approach it is necessary to transform the random variables representing original price returns, X, into a set of standard Gaussian variates, U.  As long as the payoff function can be expressed in terms of normally distributed price returns, which in general may be correlated, mapping of the failure surface to a standard Gaussian space requires only a simple transformation - a translation (to remove mean), scaling (to normalize standard deviation), and rotation (to remove correlation).
+
+If the price returns are fat-tailed, their complete probabilistic description requires specification of a joint non-Gaussian distribution.  In practice, a joint distribution function of all price returns is seldom available.  In this work, we assume that we know the marginal (univariate) probability distributions of price log-returns and pair-wise linear correlations between them. The marginal distributions are specified either by their known cumulative distribution functions or by their first few marginal moments capturing non-Gaussian effects, if any.
+
+IV.1.  Scalar transformation to the standard Gaussian Space
+The transformation to the standard Gaussian space proceeds in two steps.  The first step involves relating each of the price returns, Xi, in general non-Gaussian, to a zero-mean unit standard-deviation Gaussian variable, Ui, through a scalar (univariate) transformation. In effect, we seek a set of functional transformations of the form xi = Ti(ui) that relates each Xi to Ui, its Gaussian counterpart.
+
+As described in Appendix V, the transformation is simple if the cumulative distribution function of Xi is known.  Appendix V also provides an approximate scalar transformation that relates Xi to Ui, when only the first four marginal moments, mean, standard deviation, skewness coefficient, and kurtosis coefficient of Xi are known instead of its full cumulative distribution function.  The next step in the transformation process is to map the linear correlation from the original x-space to the u-space
+
+IV.2.  Correlation Mapping from x- to u-space
+The scalar transformations described in the previous section map the price returns, Xi’s to a set of correlated Gaussian variates Ui’s.  Let rx be the correlation coefficient between the pair Xi and Xj and let the corresponding Gaussian variates be Ui and Uj, such that:  xk = Tk(uk), where k = i, j.  The “equivalent Gaussian correlation” ru (correlation between Ui and Uj) that produces the desired correlation, rx, between the corresponding non-Gaussian random price returns, Xi and Xj, can be estimated in closed form using the Hermite expansion method described below.  These estimates are found to agree well (see Winterstein, De, and Bjerager, 1989) with exact results for ru, calculation of which require iterative use of double integration over the joint Gaussian density (Der Kiureghian and Liu, 1986).   
+
+Following the approach presented in Winterstein, De, and Bjerager, 1989, we decompose the transformations xi=Ti(ui) and xj=Tj(uj) by a series of orthogonal bases associated with Hermite polynomials:
+
+å
+å
+¥
+=
+¥
+=
+=
+=
+=
+=
+0
+0
+!
+)
+(
+)
+(
+,
+!
+)
+(
+)
+(
+n
+j
+n
+jn
+j
+j
+j
+n
+i
+n
+in
+i
+i
+i
+n
+u
+H
+t
+u
+T
+x
+n
+u
+H
+t
+u
+T
+x
+
+        (IV.1)
+in which the coefficients tkn for k = i, j, … are given by:
+
+ò
+¥
+¥
+-
+=
+=
+k
+k
+k
+n
+k
+k
+k
+n
+k
+k
+kn
+du
+u
+u
+H
+u
+T
+n
+n
+U
+H
+U
+T
+E
+t
+)
+(
+)
+(
+)
+(
+!
+1
+]
+!
+)
+(
+)
+(
+[
+f
+
+   (IV.2)
+In these notations, E(Xi) = ti0 and E(Xj) = tj0. Coefficients tin and tjn in Equation (IV.2) are scalar products of the transformation function and the corresponding Hermite polynomial with weight f, where f(.)is a one-dimensional Gaussian probability density function.
+
+The binormal probability density can be expressed in terms of Hermite polynomials as follows (Winterstein 1987):
+
+å
+¥
+=
+=
+0
+2
+)
+(
+)
+(
+!
+)
+(
+)
+(
+)
+,
+,
+(
+n
+j
+n
+i
+n
+n
+u
+j
+i
+u
+j
+i
+u
+H
+u
+H
+n
+u
+u
+u
+u
+r
+f
+f
+r
+f
+
+     (IV.3)
+where f(.) is the standard Gaussian density function.  It can readily be shown that the Hermite polynomials, Hn(U) for n = 1,2,3, ….have mean = 0 and variance = n! and are uncorrelated (i.e., orthogonal) to each other.  Hence  
+!
+)
+(
+n
+U
+H
+n
+
+ has unit variance.
+
+The covariance of Xi and Xj can then be expressed as follows:
+
+jn
+in
+n
+n
+u
+jn
+in
+n
+n
+u
+j
+i
+j
+j
+j
+n
+j
+j
+i
+i
+i
+n
+i
+i
+n
+n
+u
+j
+i
+j
+i
+n
+j
+n
+i
+n
+n
+u
+j
+i
+j
+j
+i
+i
+j
+i
+j
+i
+u
+j
+i
+j
+j
+i
+i
+j
+i
+j
+i
+j
+i
+t
+t
+t
+n
+t
+n
+n
+t
+t
+du
+u
+u
+H
+u
+T
+du
+u
+u
+H
+u
+T
+n
+t
+t
+du
+du
+u
+H
+u
+H
+n
+u
+u
+u
+T
+u
+T
+t
+t
+du
+du
+u
+u
+u
+T
+u
+T
+X
+E
+X
+E
+X
+X
+E
+X
+X
+COV
+å
+å
+ò
+ò
+å
+å
+ò
+ò
+ò
+ò
+¥
+=
+¥
+=
+¥
+¥
+-
+¥
+¥
+-
+¥
+=
+¥
+=
+¥
+¥
+-
+¥
+¥
+-
+¥
+¥
+-
+¥
+¥
+-
+=
+=
+-
+=
+-
+=
+-
+=
+-
+=
+1
+1
+0
+0
+0
+0
+0
+0
+0
+0
+2
+!
+!
+!
+)
+(
+)
+(
+)
+(
+)
+(
+)
+(
+)
+(
+!
+)
+(
+)
+(
+!
+)
+(
+)
+(
+)
+(
+)
+(
+)
+,
+,
+(
+)
+(
+)
+(
+]
+[
+]
+[
+]
+[
+]
+[
+r
+r
+f
+f
+r
+r
+f
+f
+r
+f
+
+
+
+Hence, the mapping relationship between the correlation in x- and u-space can be derived as follows:
+
+
+n
+u
+n
+x
+x
+jn
+in
+x
+x
+j
+i
+x
+x
+j
+i
+j
+i
+j
+i
+t
+t
+X
+X
+COV
+r
+s
+s
+s
+s
+r
+å
+¥
+=
+=
+=
+1
+]
+[
+
+ ,      (IV.4)
+where sxi and sxj are standard deviations of Xi and Xj respectively. We can solve the last non-linear equation numerically. Usually a satisfactory estimate of ru can be obtained by truncating the series at n = 3 and inverting the resulting cubic equation.  
+
+A covariance matrix for n correlated Gaussian risk factors, U1, U2, …., Un, can be assembled from pair-wise correlation coefficients, calculated using Equation (IV.4).    Following the linear algebraic procedure described in Section 2.2.1, we factorize the covariance matrix and derive a linear transformation for mapping the correlated Gaussian risk factors into standard Gaussian risk factors, which are uncorrelated.   Thus it becomes possible to use FORM/SORM when one or more risk factors have non-Gaussian distributions. 
+
+The transformation to the standard-Gaussian space discussed above can also be used in conjunction with Monte Carlo Simulation and Analytical VAR methodology.   
+
+
+
+APPENDIX V
+Scalar Transformation from x- to u-space
+
+If the cumulative distribution function Fx (.) of a random variable X is known, the transformation from x-space to u-space can be written directly as:
+
+x = T(u) = Fx-1[F(u)],         (V.1)  
+where F(.) is cumulative Gaussian distribution function.
+
+Alternatively, if only the first four marginal moments of X of a leptokurtic (a4 > 3) are given, we seek a functional transformations x = T(u) such that the four moments are preserved. Let us denote the variable mean by mx, standard deviation by sx, skewness coefficient by a3x, and kurtosis coefficient by a4x.  A complete description of the treatment described in this appendix, including a transformation for variables with a4 < 3, is given in Winterstein, De, and Bjerager, 1989. 
+
+The transformation can be written in terms of orthogonal Hermite polynomial bases 
+T
+T
+u
+u
+u
+u
+u
+H
+u
+H
+u
+H
+u
+H
+u
+]
+),........
+3
+(
+),
+1
+(
+,
+,
+1
+[
+),.....]
+(
+),
+(
+),
+(
+),
+(
+[
+)
+(
+3
+2
+3
+2
+1
+0
+-
+-
+=
+=
+H
+
+ and the first four moments of the leptokurtic (a4 > 3) distribution as:
+
+
+[
+]
+)
+3
+(
+)
+1
+(
+)
+(
+3
+4
+2
+3
+u
+u
+c
+u
+c
+u
+u
+T
+x
+x
+x
+x
+x
+x
+-
++
+-
++
++
+=
+=
+s
+k
+m
+
+ ,    (V.2)
+
+where 
+2
+4
+2
+3
+4
+3
+3
+4
+4
+6
+2
+1
+,
+)
+6
+1
+(
+6
+,
+36
+2
+14
+6
+x
+x
+x
+x
+x
+x
+x
+x
+c
+c
+and
+c
+c
+c
++
++
+=
++
+=
+ú
+ú
+û
+ù
+ê
+ê
+ë
+é
+-
+-
+=
+k
+a
+a
+
+
+
+
+
+
+
+
+
+
+
+
+
+ VAR is the portfolio loss amount that is exceeded with a specified small probability level.
+ Loss exceeding a specified high threshold level
+ Average loss given that VAR is exceeded.
+
+ Essential for calculation of expected tail loss
+ A plane in a multi-dimensional surface
+
+  Revision date:  10/11/01
+
+
+
+
+
+
+
+

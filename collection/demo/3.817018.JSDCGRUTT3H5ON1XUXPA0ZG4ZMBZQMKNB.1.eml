@@ -1,0 +1,230 @@
+
+buy/sell	Delivery Point	Term	p/op	Quantity	MWh's	Price	
+ees	sells	ene	np	q3 02	p	25	30,800 	295	
+ees	sells	ene	np	n	p	25	10,000 	336.5	
+ees	sells	ene	np	u	p	25	9,600 	224	
+ees	sells	ene	np	m	p	25	10,400 	295	
+ees	sells	ene	np	m	p	3	1,248 	295	
+ees	sells	ene	sp	m	p	12	4,992 	280	
+ees	buys	ene	pv	m	p	10	4,160 	305	
+ees	buys	ene	pv	m	op	3	912 	105	
+72,112	
+List to send file to	
+Kenneth Lee	
+Jeffrey Jackson	
+Neil Bresnan	
+Jubran Whalan	
+Chris Leonard	
+Yi Yan	
+Daniel Kang	
+Darin Schmidt	
+buy/sell	Delivery Point	Term	p/op	Quantity	MWh's	Price	
+ees	sells	ene	np	q4	op	25	24,425	118	
+ees	sells	ene	np	oct	op	25	7,825	124	
+ees	sells	ene	np	nov	op	3	960	111	
+ees	sells	ene	np	q2 02	op	25	23,775	44	
+56,985	
+List to send file to	
+Kenneth Lee	
+Jeffrey Jackson	
+Neil Bresnan	
+Jubran Whalan	
+Chris Leonard	
+Yi Yan	
+Daniel Kang	
+Darin Schmidt	
+buy/sell	Delivery Point	Term	p/op	Quantity	MWh's	Price	
+ees	sells	ene	np	q1 03	off	65	61,880	33	
+ees	sells	ene	np	q2 03	off	15	14,280	31	
+ees	sells	ene	np	q3 03	off	20	19,520	52.5	
+95,680	
+List to send file to	
+Kenneth Lee	
+Jeffrey Jackson	
+Neil Bresnan	
+Jubran Whalan	
+Chris Leonard	
+Yi Yan	
+Daniel Kang	
+Daren Schmidt	
+buy/sell	Delivery Point	Term	p/op	Quantity	MWh's	Price	check out	
+ees	sells	ene	np	q4	off peak	25	24,245	127	x	
+ees	sells	ene	np	q3 02	peak	25	30,800	148	x	
+ees	sells	ene	np	q4 02	peak	50	61,600	52	x	
+ees	sells	ene	np	q1 03	peak	50	60,800	46.75	x	
+ees	sells	ene	np	q2 02	peak	25	30,800	75	x	
+ees	sells	ene	sp	q4 02	peak	25	30,800	51	x	
+ees	sells	ene	np	sep	peak	25	9,600	245	x	
+ees	sells	ene	np	jun	off peak	8	2,432	180	x	
+ees	sells	ene	sp	jun	off peak	5	1,520	115	x	
+ees	sells	ene	pv	jun	off peak	3	912	110	x	
+ees	sells	ene	sp	aug	off peak	17	5,304	135	x	
+ees	sells	ene	np	jul	off peak	1	314	180	x	
+ees	sells	ene	np	sep	off peak	4	1,344	150	x	
+ees	sells	ene	pv	oct	off peak	5	1,565	95	x	
+ees	sells	ene	pv	nov	off peak	5	1,600	75	x	
+ees	sells	ene	pv	dec	off peak	4	1,376	75	x	
+ees	sells	ene	sp	oct	off peak	44	13,722	80	x	
+ees	sells	ene	sp	nov	off peak	36	11,520	80	x	
+ees	sells	ene	sp	dec	off peak	27	9,288	80	x	
+ees	sells	ene	pv	oct	peak	3	1,296	160	x	
+ees	sells	ene	pv	nov	peak	3	1,200	125	x	
+ees	sells	ene	pv	f 02	peak	8	3,328	98	x	
+ees	sells	ene	pv	g 02	peak	9	3,456	92	x	
+ees	sells	ene	pv	h 02	peak	10	4,160	92	x	
+ees	sells	ene	pv	j 02	peak	8	3,328	85	x	
+ees	sells	ene	pv	k 02	peak	9	3,744	85	x	
+ees	sells	ene	pv	m 02	peak	5	2,000	102	x	
+ees	sells	ene	pv	n 02	peak	5	2,075	108	x	
+ees	sells	ene	pv	q 02	peak	5	2,160	175	x	
+ees	sells	ene	pv	u 02	peak	6	2,304	115	x	
+ees	sells	ene	pv	q4 02	peak	8	9,856	48	x	
+ees	sells	ene	pv	f 03	peak	8	3,328	35	x	
+ees	sells	ene	pv	g 03	peak	9	3,456	34	x	
+ees	sells	ene	pv	h 03	peak	10	4,160	34	x	
+ees	sells	ene	pv	j 03	peak	8	3,328	40	x	
+ees	sells	ene	pv	k 03	peak	9	3,744	40	x	
+ees	sells	ene	pv	m 03	peak	5	2,000	45	x	
+ees	sells	ene	pv	n 03	peak	5	2,080	85	x	
+ees	sells	ene	pv	q 03	peak	5	2,080	145	x	
+ees	sells	ene	pv	u 03	peak	6	2,400	55	x	
+ees	sells	ene	pv	q4 03	peak	7	8,624	34	x	
+ees	sells	ene	pv	f 02	off peak	7	2,296	50	x	
+ees	sells	ene	pv	g 02	off peak	8	2,304	50	x	
+ees	sells	ene	pv	h 02	off peak	9	2,952	50	x	
+ees	sells	ene	pv	j 02	off peak	7	2,121	40	x	
+ees	sells	ene	pv	k 02	off peak	8	2,624	40	x	
+ees	sells	ene	pv	m 02	off peak	4	1,280	55	x	
+ees	sells	ene	pv	n 02	off peak	4	1,312	70	x	
+ees	sells	ene	pv	q 02	off peak	4	1,248	90	x	
+ees	sells	ene	pv	u 02	off peak	5	1,680	65	x	
+ees	sells	ene	pv	v 02	off peak	8	2,504	55	x	
+ees	sells	ene	pv	x 02	off peak	7	2,240	35	x	
+ees	sells	ene	pv	z 02	off peak	7	2,408	35	x	
+398,618	
+List to send file to	
+Kenneth Lee	
+Jeffrey Jackson	
+Neil Bresnan	
+Jubran Whalan	
+Chris Leonard	
+Yi Yan	
+Daniel Kang	
+buy/sell	Delivery Point	Term	peak/off peak	Quantity	MWh's	Price	
+ees	sells	ene	pv	N-01	off peak	7	145	
+ees	sells	ene	pv	Q-01	off peak	7	155	
+ees	sells	ene	pv	U-01	off peak	8	140	
+ees	sells	ene	sp	N-01	off peak	3	140	
+ees	sells	ene	sp	Q-01	off peak	25	150	
+ees	sells	ene	sp	U-01	off peak	11	135	
+ees	sells	ene	np	V-01	peak	5	159	
+ees	sells	ene	np	X-01	peak	5	133	
+ees	sells	ene	np	Cal-03	peak	25	50	
+List to send file to	
+Kenneth Lee	
+Jeffrey Jackson	
+Neil Bresnan	
+Jubran Whalan	
+Chris Leonard	
+Yi Yan	
+Daniel Kang	
+buy/sell	Delivery Point	Term	peak/off peak	Quantity	MWh's	Price	
+ees	sells	ene	np	Q3-01	off peak	75	74,400	146	
+ees	sells	ene	pv	m-01	peak	10	4,160	310	
+ees	sells	ene	sp	N-01	peak	12	4,800	300	
+ees	sells	ene	pv	N-01	peak	3	1,200	355	
+ees	sells	ene	pv	Q-01	peak	28	12,096	400	
+ees	sells	ene	sp	Q-01	off peak	25	7,800	140	
+ees	sells	ene	np	Q-01	off peak	25	7,800	160	
+ees	sells	ene	pv	Q4-01	peak	7	8,624	135	
+ees	sells	ene	pv	U-01	peak	3	1,152	220	
+ees	sells	ene	sp	U-01	peak	45	17,280	200	
+139,312	
+List to send file to	
+Kenneth Lee	
+Jeffrey Jackson	
+Neil Bresnan	
+Jubran Whalan	
+Chris Leonard	
+Yi Yan	
+Daniel Kang	
+buy/sell	Delivery Point	Term	peak/off peak	Quantity	MWh's	Price	
+ees	sells	ene	np	q3	peak	25	30,400	270	x	
+ees	sells	ene	np	july	peak	50	20,000	302	x	
+ees	sells	ene	pv	aug.	peak	25	10,800	420	x	
+ees	sells	ene	np	q4	peak	75	92,400	146	x	
+ees	sells	ene	np	q4-02	peak	50	61,600	50.5	x	
+ees	sells	ene	sp	sep	off peak	50	16,800	106	x	
+ees	sells	ene	sp	aug.	peak	50	21,600	323	x	
+ees	sells	ene	sp	july	off peak	55	18,920	120	x	
+ees	sells	ene	np	oct	off peak	3	939	140	
+ees	sells	ene	np	sep	off peak	17	5,712	130	
+ees	sells	ene	np	aug.	off peak	4	1,248	160	
+ees	sells	ene	np	q1-02	off peak	25	23,600	82	
+ees	sells	ene	np	q2-02	off peak	10	9,500	46	
+ees	sells	ene	np	q3-02	off peak	10	9,760	72	
+ees	sells	ene	np	q4-02	off peak	35	34,195	34	
+357,474	
+List to send file to	
+Kenneth Lee	
+Jeffrey Jackson	
+Neil Bresnan	
+Jubran Whalan	
+Chris Leonard	
+Yi Yan	
+Daniel Kang	
+16-May	
+Del. Point	Term	p/op	Price	Notes	
+np	cal 02	op	bought different volumes for each q where the curve was marked. Curve marked at 58, where I was hit earlier in the day.	
+np	q3	p	sold early at 270. Market festered in wide range and ended day 260 @285	
+np	n	p	sold at average of eol sales for this product	
+pv	q	p	sold on eol	
+np	q4	p	sold at average of eol sales for this product	
+np	q4 02	p	sold at average of eol sales for this product	
+sp	u	op	sold at average of eol sales for this product	
+sp	n	op	no trades for this product on eol. Sold at the offer price of eol market.	
+np	q	op	no trades for this product on eol. Sold at the offer price of eol market.	
+np	u	op	no trades for this product on eol. Sold at the offer price of eol market.	
+np	v	op	no trades or market for this product. Sold at offer of where the shape of the q was for this month.	
+17-May	
+Del. Point	Term	p/op	Price	Notes	
+np	Q3-01	off peak	146	Got lifted in the market at 146, was 130 at 150 on the follow.	
+pv	m-01	peak	310	This was being worked on EOL, the market was coming off so we sold a piece at 310, the market traded down to the 300 level, but late in the day rallied	
+sp	N-01	peak	300	This was being worked on EOL, 295 at 305.	
+pv	N-01	peak	355	This was being worked on EOL, it opened 340 at 350, then traded up to 355, we sold some for EES, it came off about 10, but late rally took it up to 370 level.	
+pv	Q-01	peak	400	This was being worked on EOL, it was 400 at 405, things were being hit.	
+sp	Q-01	off peak	140	Sold a piece at market, it was on EOL 130 at 140, got lifted at my offer but not online (direct)	
+np	Q-01	off peak	160	Sold a piece at market, it was lifted on EOL at 160.	
+pv	Q4-01	peak	135	The market was 132 at 137 on EOL all day, enron bought their 7mw's at the mid	
+pv	U-01	peak	220	It was on EOL 215 at 225, took their 3mw's at the mid-220	
+sp	U-01	peak	200	It was being work on the PV/SP spread which traded 20, and was 15 at 25 going out, got done at 200.	
+18-May	
+Del. Point	Term	p/op	Price	Notes	
+pv	N-01	off peak	145	sold on eol, the market moved up after the sale.	
+pv	Q-01	off peak	155	sold on eol, the market moved up after the sale.	
+pv	U-01	off peak	140	sold on eol, the market moved up after the sale.	
+sp	N-01	off peak	137	the spread to sp from palo is $8 with palo being the premium	
+sp	Q-01	off peak	143	the spread to sp from palo is $12 with palo being the premium	
+sp	U-01	off peak	132	the spread to sp from palo is $8 with palo being the premium	
+np	V-01	peak	159	Sold 5mw's at the day before mark which was mid market, but the market moved up after the sale	
+np	X-01	peak	133	Sold 5mw's at the day before mark which was mid market, but the market moved up after the sale	
+np	Cal-03	peak	50	Got lifted in the broker market	
+21-May	
+Del. Point	Term	p/op	Price	Notes	
+np	q4	off peak	127	sold on eol	
+np	q3 02	peak	148	sold on eol	
+np	q4 02	peak	52	sold at average of eol sales for this product	
+np	q4 02	peak	46.75	no market on eol. Sold at average price of sales in broker market	
+np	q2 02	peak	75	eol 71 @ 77 all day, no trades. This trade done in broker market	
+sp	q4 02	peak	51	sold on eol	
+np	sep	peak	245	no market on eol. Sold in broker market	
+pv	01 - 03	both	scraps cleaned up for approximately $3 below the curves	
+22-May	
+Del. Point	Term	p/op	Price	Notes	
+np	q1 -q3 03	op	misc	hit at 36 for cal 03 np LL in broker market. I bought the q's at where I thought the shape was.	
+23-May	
+Del. Point	Term	p/op	Price	Notes	
+np	q4	op	118	eol market 111 @ 121 all day, no trades on eol. Transaction occurred in broker market.	
+np	v	op	124	no trades or market for this product. Sold at offer of where the shape of the q was for this month.	
+np	x	op	111	no trades or market for this product. Sold at offer of where the shape of the q was for this month.	
+np	q2 02	op	44	sold on eol	

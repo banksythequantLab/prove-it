@@ -1,0 +1,131 @@
+Notes:	All rows are sorted first by Request Date, then by Due Date, then by Status.	
+Some numbers on Due Dates, # Personnel, and # Man-Hrs a purely estimates, and subject to change.	
+Request Date	Due Date	Task Name	Status	Date Complete	Priority
+(1 Low-5 High)	Requested By	Description	# Power Team Personnel	# Power Team Man-Hrs	Personnel Selected	Power Team Task Lead	Notes	
+8/21/2001	12/1/2001	Power Contract Baseline/Bandwidth Project	10%	-	5	Murray O'Neil
+Chris Stokley	Develop a db to capture power contract baseline and bandwidth information.  Round-up contracts to ensure population of active deals.  Develop a calc engine on top of the engine to determine the underage and overage of actual usage data with respect to an established bandwidth.	5	-	Annie Leung
+Others	Brett Miller	We are still in the process of defining requirements and re-working the database.  Within a few days, we will begin a full exercise of capturing data.  After sufficient progress there, we will code the calc engine pieces to identify consumption with respect to contractually established bandwidths.  There are 5 personnel dedicated to this effort at the current time; they are working to organize contracts and highlight information for more efficient processing as we begin in full on Monday, 10/08/2001.	
+8/21/2001	12/1/2001	Power Contract Validation/Reconciliation Project	25%	-	5	Kristin Albrecht
+Steven Fisher	Develop a db to capture power contract key fields.  Round-up contracts to ensure population of active deals.  Develop a db to house actual usage data from billing and deal mgmt data, and reconcile the existence of records within each.	25	-	Annie Leung
+Erin Swider
+Stacia Fontenot
+Chris Abundis
+Chris Ashorn
+Brian Bratten
+Others	Joshua Galvan	We began this process in full on Monday, 10/01/2001.  We arrived at about 2300 deal numbers and about 600 contracts fully validated.  This work includes the rework required by the modification of the Validation db requested on 10/02/2001.  We will continue with full Validation in the coming week, with the expectation that our results on hit rate here will guide further Reconciliation and Contract Round-Up activities.	
+9/4/2001	10/31/2001	Power Contract Round-Up	50%	-	4	Power Team	Round-up all physical Power Contracts.  Make copies for GK group if necessary, coordinating their team members' time for such task.  Obtain inventory lists of the contracts delivered from each department (CSC, Legal, CAD, GK, Origination).	5	-	Erin Swider
+Stacia Fontenot
+Chris Abundis
+Chris Ashorn
+Brian Bratten
+Enron Others	Joshua Galvan	A Thursday Status Meeting with GK noted the following statuses for Contract Round-Up:  Legal Dep't - Complete; GK (Paper) - Complete; GK (Documentum) - Status Pending; CSC (Pennzoil) - Complete; CSC (Dublin) - Not Started; Origination - Not Started.  The GK Dep't will continue to deliver the Power Team new business paper contracts on a daily basis.  The Power Team will deliver to GK Dep't a weekly list of fully validated contracts for appropriate upload to LiveLink.	
+9/19/2001	9/21/2001	Contract-to-RPS Check	100%	9/26/2001	3	Steven Fisher	Make a quick review of the on-hand paper contracts to determine their existence in the RPS data extract.  Document the statistics and determine an appropriate stratification of the contracts for initial project activities.	5	80	Erin Swider
+Stacia Fontenot
+Chris Abundis
+Chris Ashorn
+Brian Bratten	Joshua Galvan	After completing this activity, we found an approximate 80% hit rate of paper contracts to RPS records.  This number has assisted in the estimation of expected paper contracts to be rounded up.	
+9/24/2001	10/10/2001	RPS-to-CSC Database Development	75%	-	3	Power Team	Determine the final requirements for the RPS-to-CSC Reconciliation Access db and implement these.  Requires finalizing the data requirements for billing/utility information, as well as the source of such.	3	16	Annie Leung
+Shawn Smith
+Chris Stokley
+Steven Fisher	Joshua Galvan	Considering the results of several meetings this week, we are still determining the most useful source of billing/utility information for this reconciliation db.  As of today, it would seem as though the Project Ranger data will serve to complement the RPS data, although this is subject to change.  We are assuming that a common unique identifier on both sides will not be determined, and so the reconciliation process will have to be executed manually.  A process and dedicated team members have not been identified for handling exceptions as of yet.	
+9/25/2001	10/5/2001	Project Ranger Data Extracts	50%	-	4	Power Team	Obtain a Project Ranger data extract containing the account profile and actual volume information for power deals.	1	4	Vivian Hart	Joshua Galvan	We have obtained an initial extract and done some preliminary analysis of its contents.  We have determined that the data will be useful for our reconciliation efforts, but this will required the incorporation of a unique identifier for each record from the appropriate parent system.  We have chosen this route, instead of inventing the numbering sequence ourselves, in the case that we need this system-dependent values in the future.	
+9/26/2001	10/5/2001	Batch Re-Run Process Definition	50%	-	4	Steven Fisher	Select a deal to trace through the batch module processing stages of deal capture and booking.  Determine the way in which Rates, Load Shapes, and 12x12s are captured in the batches or RPS; what information feeds the batches (e.g., Transaction Economics), what documentation stays with the paper contracts.  Determine the final process by which deals requiring batch re-run are executed and handed back off to the Power Team.	2	8	Dickson Koo
+Joshua Galvan
+Brett Miller
+Steven Fisher	Joshua Galvan	Dickson Koo's time has not been secured for this walkthrough.  Our walkthrough of the batches and transaction economics will help immensely in understanding the contents, type, and limitations on reliability of RPS data.	
+9/26/2001	10/10/2001	Contract Type Profiling	25%	-	3	Steven Fisher
+Chris Stokley	Determine the types of contracts in use for each year since the inception of the business at Enron.  Profile the pricing commentary.	4	16	Erin Swider
+Annie Leung
+Paige Grumulatis	Brett Miller	We have held several meetings with Enron personnel who have been involved with different stages of the Power contract evolution.  This has led to only a high-level understanding of the fact that contracts have changed a lot over the years, with only minimal standardization in a lot of cases.  Early next week, we anticipate taking a sampling of paper contracts to determine the standard form based on chronology.	
+9/26/2001	10/12/2001	Contract Round-Up Matrix	0%	-	5	Steven Fisher
+Pat Weatherspoon	Develop a matrix detailing the number of contracts located in each target department (CSC, Legal, CAD, GK, Origination).  Firm up the expected estimate of paper contracts population.	2	16	Joshua Galvan
+Brett Miller
+Steven Fisher	Joshua Galvan	The delivery of this matrix will depend heavily on a more firm estimate of the expected population of paper contracts.  This determination will be made from the pools of CSC-, GK-, Legal-, and Originator-delivered paper contracts as compared to RPS and billing/utility data.	
+9/26/2001	10/15/2001	Power Team & Team Everest Project Coordination	0%	-	3	Power Team	Discuss the direction of Power Team and Team Everest to determine coordination of projects.  Obtain sign-off from Team Everest on Power Team's db design and data model for ease of data conversion.	2	16	Joshua Galvan
+Brett Miller
+Todd Busby
+Steven Fisher
+Chris Stokley	Joshua Galvan	Given the lack of progress on some of the other projects where Everest depends, we cannot give a hard status as to the level of coordination of their work with the Power Team's.  As we continue to meet to discuss project dependencies, better status can be given here.	
+9/28/2001	10/5/2001	Final RPS Data Extract Format	75%	-	5	Power Team	Meet with IT to determine the final form of the RPS Data Extract, including the particular fields to capture and their formatting.  Determine the process whereby this extraction person and process are preserved for weekly exercises.	2	4	Joshua Galvan
+Steven Fisher
+Chris Stokley
+Charles Alvarez
+Brett Miller	Joshua Galvan	We met with Charles Alvarez on Thursday, 10/04/2001, to discuss some further requirements of this extract.  These included the following fields:  Portfolio Name (Delivered), Physical/Financial Flag (Delivered), Utility Acct # (Pending), Enron Acct # (Pending), Price Region ID (Delivered), and Site Name (Delivered).  We also confirmed the automated weekly process for creating this extract.  Each Friday, the Power Team will receive the results of the constructed query from Steven Fisher, then perform some preliminary checks as to the contents of the extract compared to the previous week's.  Finally, the data is uploaded to the Validation, Baseline/Bandwidth, and Reconciliation databases for continued work the next week.	
+10/1/2001	10/31/2001	Unwind Process Definition	0%	-	3	Steven Fisher	Define and test the process of unwinding deals discovered during the contract Validation/Reconciliation exercises.  Determine appropriate reporting and approval structures for tracking the information unwound in each deal.	2	16	Paige Grumulatis
+Annie Leung
+Brett Miller
+Chris Stokley	Brett Miller	Only preliminary discussions have been held surrounding this topic.  As an estimate, in about a month's time, we will begin the follow-up process for contracts or deals that were not handled during the activities involving the Access dbs.  This follow-up will involve researching the decisions and steps involved with structuring the deals in question, so as to flesh out a resolution process (e.g., book to RPS, remove from CSC, etc.).	
+10/2/2001	10/5/2001	Baseline/Bandwidth Database Re-Development	50%	-	5	Chris Stokley	Determine the final requirements for the Baseline/Bandwidth data capture and analysis db and implement these changes.  Hold appropriate discussions with SMEs and obtain sign-off before and after implementation from Project Leaders.	2	32	Annie Leung	Joshua Galvan	We continue to have meetings with Enron personnel closely involved with the determination and usage of baseline/bandwidth information.  We think that we have determined the majority of the requirements for developing the database, and have implemented most of these.  As we begin in full on Monday, 10/08/2001, with the capture of this data, we will keep note of the hit rates for certain of the fields, ensuring that we can standardize the as many key value lists as possible.	
+10/3/2001	10/5/2001	Validation Database Re-Development	100%	10/3/2001	5	Steven Fisher	Re-develop the Power Contract Validation db so that full site information can be captured, in order to facilitate the RPS-to-CSC visual reconciliation procedures.	2	8	Joshua Galvan
+Brett Miller
+Steven Fisher	Joshua Galvan	Due to the nature of the billing/utility data at CSC and Project Ranger, and due to the requirements of other dependent Enron projects, it has been necessary to re-develop the Validation tool.  The changes center on the extent of site information captured.  We were forced to re-work all of the fully validated contracts so far, and this should be finished by Monday, 10/08/2001.	
+10/4/2001	10/8/2001	Baseline/Bandwidth Process Flow	10%	-	4	Chris Stokley	Develop an illustrated and narrated process flow of the Baseline/Bandwidth project activities.  This should include a decision tree for differing scenarios, especially those related to the type of information encountered in the contracts and supporting documentation.	1	8	Brett Miller
+Shawn Smith	Brett Miller	This document has not been started.  Work to begin on Monday, 10/08/2001.	
+10/4/2001	10/8/2001	RPS-to-Ranger Check	100%	10/5/2001	5	Steven Fisher
+Chris Stokley
+Glenn Dickson	Select a set of Contract-to-RPS-validated contracts, and verify the existence of the deals in the initial Project Ranger data extract.  The results will frame any re-definition of the query that generates the Project Ranger data extract, as well as determine the expected success of the RPS-to-Project Ranger or RPS-to-CSC reconciliation efforts.	2	8	Shawn Smith	Brett Miller	A sample of 120 contracts (308 deal numbers) was chosen for this process.  We determined that about 55% (169) of the related counterparty names were matched between the data sets; 9% (27) of the counterparty names were not matched; and 36% (112) were indeterminate.  This suggests that the Project Ranger data is somewhat reliable and that we should focus on bettering the hit rate.  We held a meeting with Vivian Hart to discuss this, and a modification of the Project Ranger extract is in progress.  This extract will now include the Enron Account # and the Utility Account #, if available.	Notes:	All rows are sorted first by Request Date, then by Due Date, then by Status.	
+Some numbers on Due Dates, # Personnel, and # Man-Hrs a purely estimates, and subject to change.	
+Request Date	Due Date	Task Name	Status	Date Complete	Priority
+(1 Low-5 High)	Requested By	Description	# Power Team Personnel	# Power Team Man-Hrs	Personnel Selected	Power Team Task Lead	Notes	
+8/21/2001	12/1/2001	Power Contract Baseline/Bandwidth Project	10%	-	5	Murray O'Neil
+Chris Stokley	Develop a db to capture power contract baseline and bandwidth information.  Round-up contracts to ensure population of active deals.  Develop a calc engine on top of the engine to determine the underage and overage of actual usage data with respect to an established bandwidth.	5	-	Annie Leung
+Others	Brett Miller	We are still in the process of defining requirements and re-working the database.  Within a few days, we will begin a full exercise of capturing data.  After sufficient progress there, we will code the calc engine pieces to identify consumption with respect to contractually established bandwidths.  There are 5 personnel dedicated to this effort at the current time; they are working to organize contracts and highlight information for more efficient processing as we begin in full on Monday, 10/08/2001.	
+8/21/2001	12/1/2001	Power Contract Validation/Reconciliation Project	25%	-	5	Kristin Albrecht
+Steven Fisher	Develop a db to capture power contract key fields.  Round-up contracts to ensure population of active deals.  Develop a db to house actual usage data from billing and deal mgmt data, and reconcile the existence of records within each.	25	-	Annie Leung
+Erin Swider
+Stacia Fontenot
+Chris Abundis
+Chris Ashorn
+Brian Bratten
+Others	Joshua Galvan	We began this process in full on Monday, 10/01/2001.  We arrived at about 2300 deal numbers and about 600 contracts fully validated.  This work includes the rework required by the modification of the Validation db requested on 10/02/2001.  We will continue with full Validation in the coming week, with the expectation that our results on hit rate here will guide further Reconciliation and Contract Round-Up activities.	
+9/4/2001	10/31/2001	Power Contract Round-Up	50%	-	4	Power Team	Round-up all physical Power Contracts.  Make copies for GK group if necessary, coordinating their team members' time for such task.  Obtain inventory lists of the contracts delivered from each department (CSC, Legal, CAD, GK, Origination).	5	-	Erin Swider
+Stacia Fontenot
+Chris Abundis
+Chris Ashorn
+Brian Bratten
+Enron Others	Joshua Galvan	Last week's statuses for Contract Round-Up remain the same:  Legal Dep't - Complete; GK (Paper) - Complete; GK (Documentum) - Status Pending; CSC (Pennzoil) - Complete; CSC (Dublin) - Not Started; Origination - Not Started.  The GK Dep't will continue to deliver the Power Team new business paper contracts on a daily basis.  The Power Team will deliver to GK Dep't a weekly list of fully validated contracts for appropriate upload to LiveLink.  Next week, we are planning visits to the CSC and CAD offices in Dublin, OH, as well as the origination offices (Long Beach, CA; Edison, NJ; Chicago, IL, San Francisco, CA).  Our focus will the a full seek and copy of all contracts at each of these sites.	
+9/19/2001	9/21/2001	Contract-to-RPS Check	100%	9/26/2001	3	Steven Fisher	Make a quick review of the on-hand paper contracts to determine their existence in the RPS data extract.  Document the statistics and determine an appropriate stratification of the contracts for initial project activities.	5	80	Erin Swider
+Stacia Fontenot
+Chris Abundis
+Chris Ashorn
+Brian Bratten	Joshua Galvan	After completing this activity, we found an approximate 80% hit rate of paper contracts to RPS records.  This number has assisted in the estimation of expected paper contracts to be rounded up.	
+9/24/2001	10/10/2001	RPS-to-CSC Database Development	95%	-	3	Power Team	Determine the final requirements for the RPS-to-CSC Reconciliation Access db and implement these.  Requires finalizing the data requirements for billing/utility information, as well as the source of such.	3	16	Annie Leung
+Shawn Smith
+Chris Stokley
+Steven Fisher	Joshua Galvan	We have identified the most appropriate data sources for this initiative, and are in the process of extracting such data from the parent CSC systems (LodeStar, STAT, and HP).  Our db is nearly fully developed, pending any changes in the initial two days of work here next Monday and Tuesday.  The process of reconciliing RPS data to CSC data will involve a dedicated team, whose count will be determined based on the throughput rate noted on Monday and Tuesday.	
+9/25/2001	10/5/2001	Project Ranger Data Extracts	75%	-	4	Power Team	Obtain a Project Ranger data extract containing the account profile and actual volume information for power deals.	1	4	Vivian Hart	Joshua Galvan	Given our reliance on CSC parent system-specific data, we are not currently considering the use of Project Ranger data for our reconciliation efforts.  However, we continue to work with Project Ranger representatives to gather the appropriate information as it becomes available.  These personnel continue to serve in an influential capacity of defining our data requirements.	
+9/26/2001	10/5/2001	Batch Re-Run Process Definition	50%	-	4	Steven Fisher	Select a deal to trace through the batch module processing stages of deal capture and booking.  Determine the way in which Rates, Load Shapes, and 12x12s are captured in the batches or RPS; what information feeds the batches (e.g., Transaction Economics), what documentation stays with the paper contracts.  Determine the final process by which deals requiring batch re-run are executed and handed back off to the Power Team.	2	8	Dickson Koo
+Joshua Galvan
+Brett Miller
+Steven Fisher	Joshua Galvan	Dickson Koo's time has not been secured for this walkthrough.  Our walkthrough of the batches and transaction economics will help immensely in understanding the contents, type, and limitations on reliability of RPS data.	
+9/26/2001	10/10/2001	Contract Type Profiling	25%	-	3	Steven Fisher
+Chris Stokley	Determine the types of contracts in use for each year since the inception of the business at Enron.  Profile the pricing commentary.	4	16	Erin Swider
+Annie Leung
+Paige Grumulatis	Brett Miller	We have held several meetings with Enron personnel who have been involved with different stages of the Power contract evolution.  This has led to only a high-level understanding of the fact that contracts have changed a lot over the years, with only minimal standardization in a lot of cases.  Early next week, we anticipate taking a sampling of paper contracts to determine the standard form based on chronology.	
+9/26/2001	10/12/2001	Contract Round-Up Matrix	0%	-	5	Steven Fisher
+Pat Weatherspoon	Develop a matrix detailing the number of contracts located in each target department (CSC, Legal, CAD, GK, Origination).  Firm up the expected estimate of paper contracts population.	2	16	Joshua Galvan
+Brett Miller
+Steven Fisher	Joshua Galvan	The delivery of this matrix will depend heavily on a more firm estimate of the expected population of paper contracts.  This determination will be made from the pools of CSC-, GK-, Legal-, and Originator-delivered paper contracts as compared to RPS and billing/utility data.	
+9/26/2001	10/15/2001	Power Team & Team Everest Project Coordination	0%	-	3	Power Team	Discuss the direction of Power Team and Team Everest to determine coordination of projects.  Obtain sign-off from Team Everest on Power Team's db design and data model for ease of data conversion.	2	16	Joshua Galvan
+Brett Miller
+Todd Busby
+Steven Fisher
+Chris Stokley	Joshua Galvan	We have held several meetings with representatives from Project Everest this week.  Our progress continues in a positive direction, especially as it relates to definition surrounding the capture of data in the validation exercises.  We have covered nearly all of the fields in the current database version, and anticipate finishing this activity with Everest representatives by holding discussions surrounding pricing and pass through costs.  These changes continue to impact the database design, although not in a drastic manner.  Nonetheless, our time commitments to ongoing db changes continue.	
+9/28/2001	10/5/2001	Final RPS Data Extract Format	100%	10/10/2001	5	Power Team	Meet with IT to determine the final form of the RPS Data Extract, including the particular fields to capture and their formatting.  Determine the process whereby this extraction person and process are preserved for weekly exercises.	2	4	Joshua Galvan
+Steven Fisher
+Chris Stokley
+Charles Alvarez
+Brett Miller	Joshua Galvan	We have finalized the format of the RPS extract data, in coordination with the needs of the Baseline/Bandwidth, Reconciliation, and Validation projects, as well as the needs of the other Enron initiatives.	
+10/1/2001	10/31/2001	Unwind Process Definition	0%	-	3	Steven Fisher	Define and test the process of unwinding deals discovered during the contract Validation/Reconciliation exercises.  Determine appropriate reporting and approval structures for tracking the information unwound in each deal.	2	16	Paige Grumulatis
+Annie Leung
+Brett Miller
+Chris Stokley	Brett Miller	Only preliminary discussions have been held surrounding this topic.  As an estimate, in about a month's time, we will begin the follow-up process for contracts or deals that were not handled during the activities involving the Access dbs.  This follow-up will involve researching the decisions and steps involved with structuring the deals in question, so as to flesh out a resolution process (e.g., book to RPS, remove from CSC, etc.).	
+10/2/2001	10/5/2001	Baseline/Bandwidth Database Re-Development	90%	-	5	Chris Stokley	Determine the final requirements for the Baseline/Bandwidth data capture and analysis db and implement these changes.  Hold appropriate discussions with SMEs and obtain sign-off before and after implementation from Project Leaders.	2	32	Annie Leung	Joshua Galvan	Database functionality is set and we have started capturing baseline/band information from the contracts.  However, there may be changes needed as we get more clarification on the contract langugage.  The Database is developed based on CA contracts.  We have tried to capture all possible contract language types.  Establishing a minimum set of requirements here is essential to completing  this task.	
+10/3/2001	10/5/2001	Validation Database Re-Development	100%	10/3/2001	5	Steven Fisher	Re-develop the Power Contract Validation db so that full site information can be captured, in order to facilitate the RPS-to-CSC visual reconciliation procedures.	2	8	Joshua Galvan
+Brett Miller
+Steven Fisher	Joshua Galvan	We have finished reworking the Validated contracts due to the changes in the db last week.  Minimal changes have evolved this week, and all have been implemented.  None have caused considerable rework of validated contracts.  	
+10/4/2001	10/8/2001	Baseline/Bandwidth Process Flow	75%	-	4	Chris Stokley	Develop an illustrated and narrated process flow of the Baseline/Bandwidth project activities.  This should include a decision tree for differing scenarios, especially those related to the type of information encountered in the contracts and supporting documentation.	1	8	Brett Miller
+Shawn Smith	Brett Miller	Process Flow will be completed as we have the Baseline Contract language defined by Enron perrsonnel.  Once defined, we will know the process of how we should capture baseline information based on the contract language.	
+10/4/2001	10/8/2001	RPS-to-Ranger Check	100%	10/5/2001	5	Steven Fisher
+Chris Stokley
+Glenn Dickson	Select a set of Contract-to-RPS-validated contracts, and verify the existence of the deals in the initial Project Ranger data extract.  The results will frame any re-definition of the query that generates the Project Ranger data extract, as well as determine the expected success of the RPS-to-Project Ranger or RPS-to-CSC reconciliation efforts.	2	8	Shawn Smith	Brett Miller	A sample of 120 contracts (308 deal numbers) was chosen for this process.  We determined that about 55% (169) of the related counterparty names were matched between the data sets; 9% (27) of the counterparty names were not matched; and 36% (112) were indeterminate.  This suggests that the Project Ranger data is somewhat reliable and that we should focus on bettering the hit rate.  We held a meeting with Vivian Hart to discuss this, and a modification of the Project Ranger extract is in progress.  This extract will now include the Enron Account # and the Utility Account #, if available.	

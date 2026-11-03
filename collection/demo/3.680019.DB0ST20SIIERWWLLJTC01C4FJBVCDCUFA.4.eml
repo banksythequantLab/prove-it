@@ -1,0 +1,1865 @@
+
+
+
+Designation of screen pages under which the parameters are described
+
+
+Page
+monitor screen page title:
+Page
+monitor screen page title:
+Page
+monitor screen page title:
+
+
+
+
+
+
+1
+Rotational Speeds 1
+11
+Azimuth
+21
+Passwords
+2
+Rotational Speeds 2
+12
+Blade Angle
+22
+Enable Errors
+3
+Rotational Speeds 3
+13
+Temperatures
+23
+System Parameters 1
+4
+Power
+14
+Temperature Control
+24
+Status Displays
+5
+Torque
+15
+Voltage Control
+25
+Pitch Status 
+6
+Wind 1
+16
+Rot. Speed Control
+26
+System Parameters 2
+7
+Wind 2
+17
+Blade Angle Part load
+27
+Low-noise Operation 
+8
+Timeout Periods
+18
+Mains Parameters 1
+28
+Reserved
+9
+Hydraulics
+19
+Production Data
+29
+CAN / CCU Diagnosis
+10
+Gearbox / Heating
+20
+Mains Parameters 2
+30
+Scope function
+
+
+
+
+
+.
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Rotational Speeds 1
+Functional Description
+Rel.
+FM
+1.1
+generator overspeed
+maximum generator speed before the error GENERATOR OVERSPEED appears
+14
+1.2
+generator overspeed period
+delay period for the GENERATOR OVERSPEED error
+14
+1.3
+rotor overspeed
+maximum rotor speed before the error ROTOR OVERSPEED appears
+15
+1.4
+rotor overspeed period
+delay period for the ROTOR OVERSPEED error
+15
+1.5
+ratio generator/rotor
+ratio generator / rotor speed, gearbox ratio
+-
+1.6
+Max. permissible deviation gen./rot.
+maximum allowable deviation in the ratio of generator / rotor
+57
+129
+1.7
+Gen./rot. deviation time
+time for the maximum deviation in the ratio of gen./rotor
+57
+129
+1.8
+Min. speed, tower resonance
+lower limit of the tower resonance range for generator speed
+110
+1.9
+Max. speed, tower resonance
+upper limit of the tower resonance range for generator speed
+110
+1.10
+Time, speed, tower resonance
+max. time for generator speed in the tower resonance range
+110
+1.11
+min. gen. speed sensor monitoring
+lowest gen. speed for monitoring: rotational speed sensor, deviation gen./rotor
+
+1.12
+reserved
+
+
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Rotational Speeds 2
+Functional Description
+2.1
+start spinning speed
+temporally averaged spinning generator speed with fixed blade angle (P12.2) at which the turbine starts up to load operation.
+2.2
+storm spinning speed
+spinning generator speed with fixed blade angle (P12.2) at which the turbine cannot start up to load operation if exceeded (too much wind)
+2.3
+spinning averaging period
+the time in which the spinning speed is averaged
+2.4
+minimum spinning time
+the minimum time in which the turbine remains in spinning mode
+2.5
+start speed fast ramp
+generator speed at which a large ramp gradient (P2.7) is accelerated when starting up
+2.6
+start speed slow ramp
+generator speed at which a low ramp gradient (P2.8) is continued when starting up
+2.7
+fast ramp gradient
+ramp gradient, with which acceleration is between P2.5 and P2.6  when starting up 
+2.8
+slow ramp gradient
+ramp gradient, with which acceleration is under P2.5 and over P2.6  when starting up
+2.9
+Max. speed deviation
+max. generator speed deviation (setpoint - current value), at which start up is interrupted (without an error message)
+2.10
+min. gen. speed for rotor braking
+Generator speed, below which the rotor disk brake is applied with normal operating braking
+2.11
+min. gen. speed for hard braking
+Generator speed, above which the hard disk brake is applied during a fast braking procedure (6a)
+2.12
+Factor minimum idling time
+Starting up delayed after 3 short gride connections (t_connect < 15 min) (Saving life time of synch. switch)
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Rotational Speeds 3
+Functional Description
+3.1
+Setpoint speed, partial load 1
+Generator speed setpoint in lower part load operation
+3.2
+Setpoint speed, partial load 2
+Generator speed setpoint in upper part load operation
+3.3
+Setpoint speed, full load
+Generator speed setpoint in full-load operation
+3.4
+min. load generator speed
+minimum generator speed in load operation (cut-out speed)
+3.5
+max. load generator speed
+maximum generator speed in load operation
+3.6
+gen.speed switchover part load
+switching generator speed from lower partial load range into higher speed range, it must lie between P3.1 and P3.2 (67m tower) and P1.8 (80/85m tower) 
+3.7
+gen.speed switchover upper part load
+switching generator speed into upper partial load range, it must lie between P1.9 and P3.2,
+only valid for 80/85m tower, for which the resonance frequency lies in the load operation speed range (P1.8 > P3.4)
+3.8
+Cut-in speed
+Generator speed at which the frequency converter can be switched in
+3.9
+rotor pulses per rev.
+number of pulses from ind. proximity switch per rotor revolution 
+3.10
+generator pulses per rev.
+number of pulses from ind. proximity switch per generator revolution
+3.11
+rotor speed scaling
+specification of the speed at which the frequency analog converter voltage = 10V
+(no longer required)
+3.12
+generator speed scaling
+Generator speed scale corresponds to 20mA as an analog signal coming from the frequency converter
+
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Power
+Functional Description
+Rel.
+FM
+4.1
+rated power
+generator rated power
+-
+4.2
+Gen. peak power
+max. allowable generator power
+23
+4.3
+Time gen. peak power
+period of max. allowable generator power
+23
+4.4
+Max. power demand
+max. power demand, reached at latest above rated wind and not exceeded
+-
+4.5
+delay lock line cut-in
+delay time in wind park in switching in to the grid, to avoid two turbines going onto the grid simultaneously, should be set differently for each turbine in wind park 
+-
+4.6
+reserved
+
+
+4.7
+minimum power
+Cut-out condition for power with falling wind speed
+-
+4.8
+minimum power period
+Cut-out power averaging time
+-
+4.9
+gen. cut-out power
+undershooting power during braking procedure instantaneously disconnects generator from grid 
+-
+4.10
+max. motor power
+highest allowable motor power before the error MAX. MOTORIC triggered
+19
+4.11
+power signal offset
+power display set to zero at  0 kW
+-
+4.12
+Cos Phi, set point
+Setpoint for cos phi to the frequency converter, only valid for deactivated voltage control (P15.1=0), for gen. power < P4.15,
+valid range : -0.9..-1 inductive, 0.9..1 : capacitive
+-
+4.13
+Cos Phi, power-dependent
+Setpoint for power factor (cos phi) at high power, for gen. power > P4.14, 
+valid range : -0.9..-1 inductive, 0.9..1 : capacitive
+-
+4.14
+Power factor control ON
+Power for reactive power control = ON with power factor=P4.13
+-
+4.15
+Power factor control OFF
+Power for reactive power control = OFF with power factor=P4.13
+-
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Torque
+Functional Description
+5.1
+rated torque
+rated generator torque, reference parameter for the torque displays to visualize and assign to frequency converter
+5.2
+max. torque gradient
+max. change of torque during controlling
+5.3
+Max. torque demand
+upper limit for speed controller output torque demand 
+5.4
+Min. torque demand
+lower limit for speed controller output torque demand
+5.5
+torque switch. -> upper part load
+switching torque from lower to upper part load range, only valid for soft tower, for which the resonance frequency is in power operation speed range (P1.8 > P3.4). The value is calculated automaticaly by the PLC, no manual setting is necessary!
+5.6
+torque switch-> low. part. load
+switching torque from upper to lower part load range, only valid for soft tower, for which the resonance stimulation frequency is in power operation speed range (P1.8 > P3.4) ). The value is calculated automaticaly by the PLC, no manual setting is necessary!
+5.7
+torque switching period
+averaging time for switching between lower and upper part load, only valid for 80m tower
+5.8
+corr. fact. torque char. curve
+correction factor for the aerodynamic characteristic curve  
+Tdemand = f * k / T * N² in variable speed range. (f = P5.8, T : abs. temp.)
+To be set individually depending on blade characteristics, site height...
+5.9
+max. torque N>TR.-> N<TR.
+maximum torque demand scanning through tower resonance range
+5.10
+torque scaling
+maximum torque demand and current value to/from converter, corresponds to 20mA as an analog signal
+5.11
+power curve deact.
+deactivation of calculation of the power curve, if P5.11 > 0, to be set
+e.g. while power limit tests
+5.12
+corr. fact. power/torque
+correction factor to adapt the max. power demand P4.4. 
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Wind 1
+Functional Description
+Rel. 
+FM
+6.1
+Yaw start wind
+minimum wind speed, at which automatic wind direction tracking takes place
+-
+6.2
+Start wind averaging time
+averaging period for the lower wind speed limit, at which an automatic  wind direction tracking is initiated
+-
+6.3
+restart wind after storm
+wind speed for restart after storm shutdown
+-
+6.4
+restart after storm period
+averaging period for restart after storm shutdown
+-
+6.5
+storm shutdown
+if the wind speed average (t=P6.6) is greater than the parameter value, a storm shutdown follows
+7
+6.6
+storm shutdown period
+averaging period, over which the wind speed is averaged for storm shutdown
+7
+6.7
+storm gusts
+if the wind speed average (t=P6.8) is greater than the parameter value, a storm shutdown follows
+7
+6.8
+storm gusts period
+averaging period for storm gust shutdown
+7
+6.9
+anemometer monit. P<wind
+parameter to monitor the anemometer. If the generator power > P6.9 and wind speed < 4 m/s, the ANEMOMETER ERROR is triggered
+54
+6.10
+anemometer monitoring delay
+averaging period, over which the power and wind speed is averaged for triggering the ANEMOMETER fault message
+54
+6.11
+Reserved
+
+
+6.12
+Manual On Heater Windmeas.
+With P6.12 = 1 the heaters for the wind measurement devices is switched on permanently 
+-
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Wind 2
+Functional Description
+Rel.
+FM
+7.1
+anemometer offset
+anemometer calibration option, this parameter is added to internal measured variable
+-
+7.2
+anemometer multiplier
+Anemometer calibration option. The internal measured variable is multiplied with this parameter
+-
+7.3
+anemometer divisor
+Anemometer calibration option. The internal measured variable is divided by this parameter
+-
+7.4
+Switchover wind, acceleration alarm 2
+Double parameter wind speed for drive train monitoring
+From V1x023: e.g. P7.4= 10,5 m/s
+Lower alarm level drive train monitor valid up to 10m/s
+Upper alarm level drive train monitor valid from (10 + 5 =) 15 m/s
+Between: alarm level is a linear function of the 10sec average of wind speed
+176
+7.5
+max. wind deviation 1 sec
+Max. deviation between wind direction and nacelle position 
+(1 sec averaged)
+180
+7.6
+max. wind deviation 10 sec
+Max. deviation between wind direction and nacelle position 
+(10 sec averaged)
+180
+7.7
+tower acc. alarm 1
+max. tower acceleration threshold value
+177
+7.8
+tower acc. alarm delay 1
+tower acceleration monitoring delay time
+177
+7.9
+tower acc. Alarm 2
+Double parameter threshold for max. drive train oscilation
+from V1x023: e.g. P7.9 = 604
+lower alarm level drive train monitor = 600
+upper alarm level drive train monitor = 600+400 = 1000
+(see P7.4)
+176
+7.10
+tower acc. alarm delay 2
+Drive train acceleration monitoring delay time
+176
+7.11
+tower acc. test level
+threshold value for activation of tower resonance frequency measurement and monitoring vibration sensor during fault shutdown
+
+41
+7.12
+vibration control
+vibration control monitoring PCH 
+bit0: analog channel 1  available
+bit1: dig. alarm channel 1 available 
+bit2: analog channel 2 available
+bit3: dig. alarm channel 2 available 
+Bit4: error signal deactivated
+Bit5: test signal deactivated
+Bit6: activating man. Test (attention : leads to swiching-off the WEC)
+bit15: Activating drive train monitor by speed variance (bit2=0! -> PCH not used for drive train monitor)
+41
+176
+177
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Timeout Times
+Functional Description
+Rel.
+FM
+8.1
+starting delay
+release for automatic restart only given after this period
+87
+8.2
+cut-in delay time
+time delay, for which the blade angle must be greater than 4° (or 2° for P3.8 > 1200 rpm), before the generator is switched in
+-
+8.3
+Max. idle time
+maximum time in idling for cut-in, shutdown in spinning operation follows if exceeded
+-
+8.4
+generator filter period
+delay period for generator filter soiling warning
+109
+8.5
+pitch brake period
+max. rotor blade turning period to feathered pitch pos. for battery shutdown (brake procedures 5-6)
+130
+131
+132
+8.6
+secondary braking period
+max. braking time for brake procedures 6-7 with application of the disk brake
+27
+8.7
+Max. shutdown time
+max. braking period for brake procedure 2 with blade adjustment
+24
+8.8
+Battery charging time
+waiting period to recharge batteries after battery voltage fault (212-214) or braking time fault after battery shutdown (130-132)
+133
+8.9
+min. pitch diff. in 3s while batt.switching-off
+Min. angle range, which the blades should turn while battery switching-off from second to fifth second
+130
+131
+132
+8.10
+Time betw. soft and hard braking
+Time period between the triggering of valves for soft and hard braking while engaging disk brake after manual stop or remote stop (only if bit 7 is set of P26.3
+-
+8.11
+brush wear delay
+Delay period between generator brush wear signal and turbine shut down
+153
+8.12
+reserved
+
+
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Hydraulics
+Functional Description
+Rel.
+FM
+9.1
+brake cooling period
+Cooling time for the brakes, when braked through an error or manually. A restart is only allowable after this period.
+-
+9.2
+filter period delay
+reaction period, after which the turbine is braked after detection of HYDRAULIC FILTER SOILING error, not used
+-
+9.3
+hydraulic oil level period
+reaction time to loss of hydraulic oil level indicator input signal, not used  
+-
+9.4
+min. pumping time interval
+assigned minimum allowed interval time between two pumping activities of hydraulic motor 
+46
+9.5
+max. pumping time
+assigned maximum allowed pumping time for hydraulic motor
+45
+9.6
+Suppression, brake not free 
+period in which the error BRAKE NOT RELEASED is evaluated after the brake is released
+34
+9.7
+delay in release
+period after which the brake valve is driven following de-airing valve after releasing the brake (not used)
+-
+9.8
+hydraulic 1 / 2 contact
+1: system pressure control with inbuilt hysteresis ( EDS 500 )
+2: system pressure control with 2 pressure switches (not used)
+-
+9.9
+brake not released period
+if, after the secondary brake activation, the correct “brake released” acknowledgement does not appear within the parameterized period, the error BRAKE NOT RELEASED appears
+34
+9.10
+reserved
+
+
+9.11
+reserved
+
+
+9.12
+reserved
+
+
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Gearbox / Heating
+Functional Description
+
+10.1
+gearbox oil pressure period
+reaction time to the loss of the gearbox oil pressure input signal
+52
+10.2
+gearbox oil level period
+reaction time to the loss of the gearbox oil level input signal
+51
+10.3
+Release heater  (0/1)
+0: blocks gearbox oil heating
+1: release for gearbox oil heating
+-
+10.4
+Activation temp., gearbox oil heat.
+gearbox oil heating cut-in temperature Tgearb. < Theat on
+-
+10.5
+Deactivation temp., gearbox oil heat.
+gearbox oil heating cut-out temperature Tgearb. > Theat off
+-
+10.6
+gearbox filter period
+delay period disturbance gearbox filter soiling
+71
+89
+10.7
+nacelle heating cut-in delay
+cut-in delay in nacelle heating (not used)
+--
+10.8
+oil monitoring cut-in delay
+cut-in delay for the monitoring of gearbox oil pressure after activating of oil pump
+52
+10.9
+oil cooler cut-in temp.
+oil cooler cut-in temperature Tgearb. > Tcooler on
+-
+10.10
+oil cooler cut-out temp.
+oil cooler cut-out temperature Tgearb. < Tcooler off
+-
+10.11
+reserved
+
+
+10.12
+reserved
+
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Azimuth
+Functional Description
+Rel. FM
+
+11.1
+Timer yaw right, left
+period, after which, the wind direction tracking is activated after a constant orientation signal from the wind vane
+-
+11.2
+Counter yaw right, left
+period, after which, the wind direction tracking is activated after an avaraging orientation signal from the wind vane
+-
+11.3
+base tracking period
+period, in which wind direction tracking is continued after identification of the first change in center signal from the wind vane 
+-
+11.4
+azimuth direction
+nacelle head cable orientation 
+-
+11.5
+nacelle revs. to stop
+cable unwind release for idling / spinning mode and exceeding the number of nacelle revolutions
+20
+21
+11.6
+nacelle revs. to unwinding
+number of nacelle revolutions, for which the cable unwinding is started, independent of the wind speed, except extrem storm
+20
+21
+11.7
+nacelle revs. to end position
+maximum number of nacelle revolutions before the AZIMUTH END error is triggered
+22
+11.8
+
+tooth counter off-period
+off-period after counting up a tooth of the head to avoid multiple counting
+-
+11.9
+tooth to tooth timeout
+if the parameter period passes with no pulse counted from the two azimuth head sensors with the azimuth motor driven, the error TIMEOUT AZIMUTH COUNTER is triggered
+31
+11.10.
+teeth per head
+number of teeth on the azimuth bearing gear tooth head 
+-
+11.11
+Offset to north
+cable orientation angular offset to the northern direction
+-
+11.12
+reserved
+
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Blade Angle
+Functional Description
+Rel.
+FM
+12.1
+feathered pitch position
+blade angle in feathered pitch position (stationary)
+-
+12.2
+Spinning blade angle
+blade angle spinning (free running)
+-
+12.3
+max. control pitch rate
+maximum blade angle speed in controlling operation
+-
+12.4
+pitch rate during disturbance
+blade angle speed during disturbance
+-
+12.5
+Pitch rate during manual operation
+blade angle speed in manual pitch operation
+-
+12.6
+Min. blade angle demand
+minimum demand blade angle during start-up. Should be set on a value closed to P17.5. P12.6<<P17.5 can cause going on/off-grid too often when there is weak wind.
+-
+12.7
+Max. blade angle deviation
+max blade angle deviation (demand – current), a 6x value is allowable during braking
+145
+12.8
+Max. time for blade angle deviation
+max. blade angle deviation period
+145
+12.9
+max. blade asymmetry
+max. blade asymmetry, monitoring the deviation of the blade angle values among themselves
+144
+12.10
+max. blade asymmetry period
+max. blade asymmetry period
+144
+12.11
+max. blade angle in load op.
+max. blade angle in load operation, if exceeded with the delay P6.8 a storm shutdown is triggered
+7
+12.12
+axle disturbance period
+delay period, after which the ‘axle disturbance’ fault message is triggered
+121
+149
+150
+12.13
+PLC port communication pitch (3,4)
+Setting COM3 or COM4 as communication port of the PLC (Slave) to the pitch controller. Changing of setting is valid only after a reboot of the PLC
+-
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Temperatures
+Functional Description
+Rel.
+FM
+
+13.1
+Winding 1 overtemperature
+maximum allowable generator windings temperature 1, automatic restart below P13.1 - 15°C
+99
+13.2
+Winding 2 overtemperature
+maximum allowable generator windings temperature 2, automatic restart below P13.2 - 15°C
+100
+13.3
+Reserve
+
+
+13.4
+Generator bearing A overtemperature
+maximum allowable temperature of generator bearing A, automatic restart below P13.4 - 15°C
+75
+13.5
+Generator bearing B overtemperature
+maximum allowable temperature of generator bearing B, automatic restart below P13.5 - 15°C
+76
+13.6
+Generator cooling air overtemperature
+maximum allowable generator air cooling temperature, automatic restart below P13.6 - 15°C
+97
+13.7
+Gearbox oil min. temperature
+if the gearbox temperature falls below P13.7, the turbine is stopped, automatic restart above P13.7 + 5°C
+84
+13.8
+Gearbox oil overtemperature
+maximum allowable gearbox oil temperature, automatic restart below P13.8 - 15°C
+77
+13.9
+Gearbox bearing A overtemperature
+maximum allowable gearbox bearing temperature A, automatic restart below P13.9 - 15°C
+98
+13.10
+Outside min. temperature
+minimum allowable outside temperature, automatic restart above P13.10 + 5°C 
+78
+13.11
+Restart temperature
+describes how often an automatic restart is allowed after shutdown due to high temperature
+88
+13.12
+Shaft bearing overtemperature
+maximum allowable shaft bearing temperature, automatic restart below P13.12 - 15°C
+81
+13.13
+Gearbox bearing B overtemperature
+maximum allowable gearbox bearing temperature B, automatic restart below P13.13 - 15°C
+76
+13.14
+container low temp.
+Minimum allowable container temperature, automatic restart above  P13.14 + 5°C (only offshore)
+190
+13.15
+container high temp.
+maximum allowable container temperature, automatic restart below P13.15 -15°C (only offshore)
+190
+13.16
+converter cooling system temp.
+maximum allowable converter cooling system temperature, automatic restart below P13.16 -15°C (only offshore)
+197
+13.17
+Overtemp. transformer warning
+Temperature of medium voltage transformer (windings) triggering a warning, automatic reset below P13.17 -15°C (only active if P26.3 Bit5=1)
+174
+13.18
+Overtemp. transformer
+Maximum allowable temperature of medium voltage transformer (windings), automatic restart below P13.18 -15°C (only active if P26.3 Bit5=1)
+175
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Temperature Control
+Functional Description
+14.1
+gen. cooling on temp.
+cooling air target temperature or switch-on temperature for generator fan
+14.2
+fan temp. control amplif.
+temperature control amplification on activation (not used)
+14.3
+T-int. temp. controller, fan
+temperature control integration time constant on activation (not used)
+14.4
+gen. winding on temp.
+generator fan cut-in temperature
+14.5
+Temperature control activation
+0: temp. control deactivation
+14.6
+gen. cooling off temp. 
+Cut-out cooling air temperature for generator fan 
+14.7
+gen. windings off temp.
+Cut-out windings temperature for generator fan 
+14.8
+gen. vert. fan on temp.
+generator windings temperature, at which the vertical fan cuts-in
+14.9
+gen. vert. fan off temp.
+generator windings temperature, at which the vertical fan cuts-out
+14.10
+vert. fan on power
+power, with which the vertical fan cuts-in, after exceeding
+14.11
+vert. fan off power
+power, with which the vertical fan is cuts-out, after deceeding 
+14.12
+reserved
+
+14.13
+Min. operation temp. gearbox bypass filtration
+Minimum temp. for gearbox bypass filtrat.pump, switching-on at oil temp. > P14.13, switching-off at oil temp. < P14.13 - 5°C (only active if P26.3 Bit2=1)
+14.14
+Max. operation temp. gearbox bypass filtration
+maximum temp. for gearbox auxil. filtrat.pump, switching-on at oil temp. < P14.14, switching-off at oil temp. < P14.14 - 5°C (only active if P26.3 Bit2=1)
+14.15
+switching on temp. heating CCU cool.system
+switching-on temp. heating converter cooling system (only offshore)
+14.16
+Diff. Switching off temp.heating CCU cool.system
+diff. switching-off temp. heating converter cooling system during heating after restart (only offshore)
+14.17
+switching on temp. fan 1
+switching-on temp.fan 1 converter cooling system (only offshore)
+14.18
+switching on temp. fan 2
+switching-on temp.fan 2 converter cooling system (only offshore)
+14.19
+switching on temp. pump 2/ valves 1,2
+switching-on temp. pump 2 / valve 1,2 converter cooling system (only offshore)
+
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Voltage Control
+Functional Description
+15.1
+phi control activation
+1 : activation of voltage control with assigned cos-phi as regulated variable
+15.2
+power control activation
+1 : activation of voltage control with power limit as regulated variable
+15.3
+phi voltage target value
+voltage target value with regulation of assigned cos-phi as regulated variable
+15.4
+power voltage target value
+voltage target value for regulation with power limit as regulated variable
+15.5
+min. power angle
+minimum power angle for voltage regulation with power limit with cos-phi as regulated variable
+15.6
+max. power angle
+maximum power angle for voltage regulation with power limit with cos-phi as regulated variable
+15.7
+phi controller amplif.
+voltage controller amplification with assigned cos-phi as regulated variable
+15.8
+phi int. time controller
+voltage controller integration time with assigned cos-phi as regulated variable
+15.9
+power controller adjust.
+controller amplification with power limit as regulated variable
+15.10
+power int. time controller
+controller integration time with power limit as regulated variable
+15.11
+reserved
+
+15.12
+reserved
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Rotational Speed Control
+Functional Description
+16.1
+Amplif. controller no-load operation
+speed controller amplification during run-up, blade angle as output
+16.2
+T-int. controller no-load operation
+speed controller integration time during run-up
+16.3
+Amplif. controller full load
+speed controller amplification in full-load operation, blade angle as output
+16.4
+T-int. controller full load
+speed controller integration time in full-load operation
+16.5
+Amplif. controller, low partial load
+speed controller amplification in lower partial-load range, torque as output
+16.6
+T-int. controller, low partial load
+speed controller integration time in lower partial-load range, torque as output
+16.7
+Amplif. controller, upper partial load
+speed controller integration time in upper partial-load range, torque as output
+16.8
+T-int. controller, upper partial load
+speed controller integration time in upper partial-load range, torque as output
+16.9
+Amplif. damping, drive train vibration
+drive train vibration damping amplification, if parameter = 0 damper is deactivated
+16.10
+Damped frequency, drive train
+drive train damping frequency 
+16.11
+rel. degree of damping 
+relative degree of drive train damping
+16.12
+damping delay
+damping delay of drive train damping
+16.13
+PID pitch P-amplif. 
+HTurm>=100 m Or EW1.5sl
+16.14
+PID pitch T-integ.
+HTurm>=100 m Or EW1.5sl
+16.15
+PID pitch T-diff. PI
+HTurm>=100 m Or EW1.5sl
+16.16
+PID pitch P2-amplif.. *1e6
+HTurm>=100 m Or EW1.5sl
+16.17
+PID pitch T2-int. 
+HTurm>=100 m or EW1.5sl
+16.18
+dn/dt limit for adap.2
+HTurm>=100 m or EW1.5sl
+16.19
+reserved
+
+16.20
+Max. pitch rate Crossterm during run up
+HTurm>=100 m or EW1.5sl
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Blade Angle Partial-Load
+Functional Description
+17.1
+power P1
+power limit transition blade angle  P17.5 / P17.6
+17.2
+power P2
+power limit transition blade angle  P17.6 / P17.7
+17.3
+power P3
+power limit transition blade angle  P17.7 / P17.8
+17.4
+power P4
+power limit transition blade angle  P17.8 / P17.9
+17.5
+blade angle P<P1
+blade angle at power < P17.1
+17.6
+blade angle P>P1
+blade angle at power > P17.1
+17.7
+blade angle P>P2
+blade angle at power > P17.2
+17.8
+blade angle P>P3
+blade angle at power > P17.3
+17.9
+blade angle P>P4
+blade angle at power > P17.4
+17.10
+blade offset ang. at rated power
+for “peak shavers” turbines having a 100m hub height :
+in the partial-load range P > P17.4, the minimum blade angle is set, indep. of power,  according to a linear characteristic curve f(max (Pact , P_10sec-average value)), such that at P=P17.4,  angle = P17.9 and at P=P4.1 (rated power), angle = P17.9 + P17.10
+17.11
+reserved
+
+17.12
+Averaging time, blade adj. partial load 
+minimum period in s, in which the blade angle remains constant in partial-load 
+17.13
+Devisor pitch amplification devisor at Teta_B
+HTurm>=100 m or EW1.5sl 
+17.14
+teta_A offset pitch adap.1
+HTurm>=100 m or EW1.5sl
+17.15
+teta_B offset pitch adap.2
+HTurm>=100 m or EW1.5sl
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Mains Variables 1
+Functional Description
+18.1
+line frequency
+line base frequency (not used)
+18.2
+ratio U-converter
+voltage converter ratio (not used)
+18.3
+ratio I-converter
+current converter ratio (not used)
+18.4
+KU-monitoring limit value
+KU-monitoring limit value (not used)
+18.5
+Max. voltage deviation between phases
+maximum voltage deviation between the 3 phases
+18.6
+reserved
+
+18.7
+reserved
+
+18.8
+net. data analog (0) serial (1)
+switching, how the mains data are measured : (not used)
+0 : analog from Multi-MU via PS416-AIN,
+1 : serial from mains monitor NÜ1 via SucoNet.
+18.9
+offset voltage
+voltage offset for signal measurement
+18.10
+reserved
+
+18.11
+reserved
+
+18.12
+meas. system man. trigger
+Activates dig. and analog output signals to measuring system (optional)
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Production Data
+Functional Description
+19.1
+production
+set value for production 
+19.2
+reserve
+
+19.3
+consumption
+set value for consumption
+19.4
+reserve
+
+19.5
+operating period
+set value for operating hours (turbine on line)
+19.6
+turbine ok
+set value for turbine OK period (ready for operating)
+19.7
+downtime
+set value for downtime
+19.8
+turbine ok, until last month
+set value for turbine OK period until last month
+19.9
+downtime until last month
+set value for downtime until last month
+19.10
+maintenance period
+set value for maintenance period
+19.11
+repair period
+set value for repair period
+19.12
+maintenance period until last month
+set value for maintenance period until last month
+19.13
+repair period until last month
+set value for repair period until last month
+19.14
+operating period until last month
+set value for operating period until last month
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Mains Data
+
+Functional Description
+Rel.
+FM
+20.1
+overvoltage
+max. line voltage
+8
+20.2
+undervoltage
+min. line voltage
+9
+20.3
+overfrequency
+not used
+-
+20.4
+underfrequency
+not used
+-
+20.5
+current asymmetry
+Asymmetry monitoring of phase currents
+13
+20.6
+phase angle
+not used
+-
+20.7
+overvoltage reaction
+overvoltage reaction
+8
+20.8
+undervoltage reaction
+undervoltage reaction
+9
+20.9
+overfrequency reaction
+not used
+-
+20.10
+undefrequency reaction
+not used
+-
+20.11
+multi meas. transd. scaling volt. 
+Max. voltage value of the effective power measuring sensor
+-
+20.12
+multi meas. transd. scaling curr.
+Max. current value of the effective power measuring sensor 
+-
+20.13
+TimeDelay Ground fault control
+Ground fault LowVoltageMainDistribution
+207
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Passwords
+
+Functional Description
+21.1
+
+
+21.2
+
+
+21.3
+
+
+21.4
+
+
+21.5
+
+
+21.6
+
+
+21.7
+
+
+21.8
+reserved
+
+21.9
+reserved
+
+21.10
+reserved
+
+21.11
+reserved
+
+21.12
+reserved
+
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Enable Errors
+
+Functional Description
+22.1
+enable errors 16 -1
+activation and deactivation of errors. 0 = active / 1 not active
+22.2
+enable errors 32 - 17
+activation and deactivation of errors. 0 = active / 1 not active
+22.3
+enable errors 48 - 33
+activation and deactivation of errors. 0 = active / 1 not active
+22.4
+enable errors 64- 49
+activation and deactivation of errors. 0 = active / 1 not active
+22.5
+enable errors 80 - 65
+activation and deactivation of errors. 0 = active / 1 not active
+22.6
+enable errors 96 - 81
+activation and deactivation of errors. 0 = active / 1 not active
+22.7
+enable errors 112 - 97
+activation and deactivation of errors. 0 = active / 1 not active
+22.8
+enable errors 128 - 113
+activation and deactivation of errors. 0 = active / 1 not active
+22.9
+enable errors 144 - 129
+activation and deactivation of errors. 0 = active / 1 not active
+22.10
+enable errors 160 - 145
+activation and deactivation of errors. 0 = active / 1 not active
+22.11
+enable errors 176 - 161
+activation and deactivation of errors. 0 = active / 1 not active
+22.12
+enable errors 192 - 177
+activation and deactivation of errors. 0 = active / 1 not active
+22.13
+enable errors 208- 193
+activation and deactivation of errors. 0 = active / 1 not active
+22.14
+enable errors 224- 209
+activation and deactivation of errors. 0 = active / 1 not active
+
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+System Parameters
+
+Functional Description
+23.1
+WGT type
+entry of the WGT type: 
+1522 : series-EW1.5 /s 
+1523 : EW1.5sl
+1543 : EW1.5o
+1552 : series-EW1.5 /s with CAN
+1553 : EW1.5sl with CAN
+23.2
+ID number 1
+the low word of the ID number is requested while establishing the connection between the PC on site and remote monitoring, to control the remote monitoring access options (not used for VisuPro)
+23.3
+ID number 2
+the high word of the ID number is requested while establishing the connection between the PC on site and remote monitoring, to control the remote monitoring access options (not used for VisuPro)
+23.4
+WGT number
+last four digits of the commission number
+5 digits of commissions number (one 0 less after 15...)
+23.5
+number of computer restarts
+number, as the PC booted on account of PLC – PC communication errors
+23.6
+modem test (0/1)
+activation of a control call
+23.7
+deactiv. reset end position 
+0 : activation, 1 : deactivation, automatically drive pitch from its end position with STOP/RESET
+23.8
+software variant
+0 : EW1.5s, Bit 2 = 1 for EW1.5sl or/and 100m towers
+23.9
+reserved
+
+23.10
+reserved
+
+23.11
+reserved
+
+23.12
+reserved
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Status Display
+
+Functional Description
+Rel.
+FM
+24.1
+version number
+PLC program version
+-
+24.2
+secondary braking test
+time in hours until the next brake test
+38
+24.3
+announce sec. braking test
+a 1 shows, that the brake test time interval has expired and should be carried out when a power of 500 kW occurs
+38
+24.4
+battery test
+time in hours until the next battery test
+135
+24.5
+announce battery test
+a 1 shows, that the battery test time interval has expired and should be carried out when there is a wind under 3.5 m/s
+135
+24.6
+pitch test
+time in hours until the next blade angle test
+-
+24.7
+
+
+
+24.8
+status contol system master
+
+diagnosis of PLC at main switch cabinet, each module is represented with one digit, 1=o.k., 2=fault 24V-supply., 9=module faulty, 0=slot standard free,
+ modules beginning with FastBus-master from left
+62
+201
+202
+24.9
+status contol system slave
+
+diagnosis of PLC at  top switch cabinet, each module is represented with one digit, 1=o.k., 2=fault 24V-supply., 9=module faulty, 0=slot standard free,
+ modules beginning with FastBus-slave from left
+62
+201
+202
+24.10
+
+
+
+24.11
+
+
+
+24.12
+
+
+
+
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Pitch Status
+
+Functional Description
+25.1
+dig. inputs axle 1  
+bit 0 : fan motor protection, bit 1 : PTC resistor trigger device 130°C, 
+bit 2 : PTC resistor trigger device 150°C, bit 3 : end switch 90°,
+bit 4 . end switch 0°, bit 5 : battery monitoring, bit 7: pitch service switch 
+25.2
+dig. inputs axle 2
+as P25.1, except bit 7 : battery charge switch relay
+25.3
+dig. inputs axle 3
+as P25.1, except bit 7 : no significance
+25.4
+axle 1 status
+bit 0 : manual drive, bit 1 : drive to parking position, 
+bit 2 : reference search run, bit 3 : reference reached, bit 4 : current  = demand, bit 5 : current pos. < min. position, bit 6 : current pos. > max. position, bit 7 : error
+25.5
+axle 2 status
+as P25.4
+25.6
+axle 3 status
+as P25.4
+25.7
+unit status
+bit 0 : reset, bit 1 : stop, bit 2 : start, bit 3 : param. error, Program invalid, bit 4 : end of set, bit 5 : end of block, bit 6 : end of program, bit 7 : error
+25.8
+reserved
+
+25.9
+dig. inputs axle 1 pitch fault
+‘frozen’ inputs since last pitch fault, def. see P25.1
+25.10
+dig. inputs axle 2 pitch fault
+‘frozen’ inputs since last pitch fault, def. see P25.2
+25.11
+dig. inputs axle 3 pitch fault
+‘frozen’ inputs since last pitch fault, def. see P25.3
+25.12
+reserved
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+System Parameters 2
+
+Functional Description
+Rel.
+FM
+26.1
+number of synch. switch on
+number of times the synchronous switch has been activated (line connections)
+
+26.2
+power switch type 
+
+0 : NZM 12 (Moeller)
+1:  M16N1 (Merlin Gerin) or IZM 32 (Moeller) or 3RV (Siemens)
+
+26.3
+Selection of components
+Bit0=1 : for TZ1.5cal –  turbine to activate the cooling water pump, monitoring cooling water pressure, modified fan control
+from V1x024:
+Bit1=1: disk brake with 2 valves for hard braking
+Bit2=1: activate gearbox bypass filtration
+From V1xx25:
+Bit3=1: activate watercooling freq. Converter
+Bit4=1: NRG anemometer / wind vane
+From V1x025 (without CAN), V1x427 (with CAN):
+Bit5=1: activate temperature control for medium voltage trans-former with PT100
+From V1x026:
+Bit6=1: obstruction light
+Bit7=1: modified brake procedure
+
+26.4
+I/O config. activation CAN-Bus
+Bit 0 = 1: Alstom freq. Converter with CAN
+Bit 1 = 1: SEG freq. Converter with CAN
+Bit 8 = 1: MFR13 with CAN
+208
+
+209
+26.5
+rot. speed/pitch monitor. delay
+50ms - average speed rises with falling blade angle -> FM170 delays for a time P26.5 in ms
+170
+26.6
+Max. pitch timeout count
+Max. number of pitch controller timeouts
+119
+26.7
+reserved
+
+
+26.8
+reserved
+
+
+26.9
+reserved
+
+
+26.10
+braking type on grid loss
+P26.10 = 0 : braking proc. 6a  (immediate application of rotor brake), 
+P26.10 = 1 : braking proc. 5  (brake first applied in the feathered pitch position)
+
+26.11
+shutdown with brakes 
+
+
+0 : brake application if n < P2.10 for braking procedures. 2-5, assuming no spinning is permitted in feathered pitch position
+1 : immed. brake application in case of battery shutdown (braking procedures 5-6)
+2 : immed. brake application in case of fault shutdown (braking procedures 3-6)
+-
+26.12
+Release parameter
+Release for changing other important parameters (remains for 10 minutes)
+-
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Low-Noise Operation
+
+Functional Description
+Rel.
+FM
+27.1
+set point rotor speed low-noise op.
+rotor speed setpoint for low-noise operation, replaces P3.3 for normal operation. If P27.1 = 0 low-noise operation is deactivated (in 0.1 rpm)
+173
+27.2
+max. power in low-noise op.
+maximum power setpoint for low-noise operation, replaces P4.4 for normal operation if P4.4 > P27.2.
+If P27.2 = 0 and P27.1 in the allowable range, the max. power is calculated based on a linear characteristic curve depending on P27.1
+.-
+27.3
+blade angle offset in low-noise op.
+blade angle offset for low-noise operation in upper partial load operation, P17.8 and 17.9 are added. (in 0.1 °)
+-
+27.4
+direction 1 min.
+lower limit of 1st angular range of low-noise wind direction (nacelle previously oriented to the northern direction with P11.11)
+-
+27.5
+direction 1 max.
+upper limit of 1st angular range of low-noise wind direction (nacelle previously oriented to the northern direction with P11.11)
+-
+27.6
+direction 2 min.
+lower limit of 2nd angular range of low-noise wind direction (nacelle previously oriented to the northern direction with P11.11)
+-
+27.7
+direction 2 max.
+upper limit of 2nd angular range of low-noise wind direction (nacelle previously oriented to the northern direction with P11.11)
+-
+27.8
+directional hysteresis
+hysteresis angle to switch low-noise operation on and off at the angular range limits
+-
+27.9
+P max wind direction
+power level of 10s-avarage for wind direction dependent switching-off of the WEC (P27.1 = 0 and P27.4 < P27.5)
+215
+27.10
+v max wind direction 
+wind speed level of 4min-avarage for wind direction dependent switching-off of the WEC (P27.1 = 0 and P27.4 < P27.5)
+215
+27.11
+v reset wind direction
+wind speed level of 4min-avarage for end of wind direction dependent switching-off of the WEC (undershooting)
+-
+27.12
+reserved
+
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Reserved
+
+Functional Description
+28.1
+reserved
+
+28.2
+reserved
+
+28.3
+reserved
+
+28.4
+reserved
+
+28.5
+reserved
+
+28.6
+reserved
+
+28.7
+reserved
+
+28.8
+reserved
+
+28.9
+reserved
+
+28.10
+reserved
+
+28.11
+reserved
+
+28.12
+reserved
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+CAN / CCU diagnosis
+
+Functional Description
+
+Bit definition dependent on CCU type, see extra description
+29.1
+Status 1 (freq. Conv.)
+Freq. Converter status word 1 (only Bachmann-M1 with CAN)
+29.2
+Status 2 (freq. Conv.)
+Freq. Converter status word 2 (only Bachmann-M1 with CAN)
+29.3
+Error 1 (freq. Conv.)
+Freq. Converter error word 1 (only Bachmann-M1 with CAN)
+29.4
+Error 2 (freq. Conv.)
+Freq. Converter error word 2 (only Bachmann-M1 with CAN)
+29.5
+Error 3 (freq. Conv.)
+Freq. Converter error word 3 (only Bachmann-M1 with CAN)
+29.6
+Error 4 (freq. Conv.)
+Freq. Converter error word 4 (only Bachmann-M1 with CAN)
+29.7
+Error 5 (freq. Conv.)
+Freq. Converter error word 5 (only Bachmann-M1 with CAN)
+29.8
+P grid (freq. Conv.)
+Active power to grid, measured by freq. Converter (only Bachmann-M1 with CAN)
+29.9
+Q grid (freq. Conv.)
+Reactive power to grid, measured by freq. Converter (only Bachmann-M1 with CAN)
+29.10
+U grid (freq. Conv.)
+Grid voltage, measured by freq. Converter (only Bachmann-M1 with CAN)
+29.11
+I grid (freq. Conv.)
+Grid current (1 phase), measured by freq. Converter (only Bachmann-M1 with CAN)
+29.12
+Reserved
+
+
+
+
+Screen /
+Parameter
+Number
+Parameter Designation
+Scope function
+
+Functional Description
+30.1
+Scope channel 1
+Selection of analog signal number for Scope Ch.1 by indentifier according to “scope channel list”  (from V. 1x125)
+30.2
+Scope channel 2
+Selection of analog signal number for Scope Ch.1 by indentifier according to “scope channel list” (from V. 1x125)
+30.3
+Scope channel 3
+Selection of analog signal number for Scope Ch.1 by indentifier according to “scope channel list” (from V. 1x125)
+30.4
+Scope channel 4
+Selection of analog signal number for Scope Ch.1 by indentifier according to “scope channel list” (from V. 1x125)
+30.5
+Time resolution
+Time resolution for scope function in ms.
+Max. measuring time is calculated by: 600 meas.points * time resolution
+(from V. 1x125)
+30.6
+Pre trigger time
+Pre trigger time for scope function in ms. (from V. 1x125)
+30.7
+Scope control
+Bit0 = 1 / 0 : Start/Stop
+Bit1 = 1: automatic upload of the measurement data after triggering. Upload to VisuPro second analog data (Scope Ch1..4) 
+Bit2 = 1: manual upload of the measurement data after triggering. Upload to VisuPro second analog data (Scope Ch1..4) 
+(Bit 2 will be reseted after the upload)
+(In the time between uploads the current second values of the analog signals selected with P30.1-4 will be transmitted to VisuPro)
+(from V. 1x125)
+30.8
+Trigger condition
+No. of error message triggering the scope measurement (from V. 1x125)
+30.9
+Reserved
+
+30.10
+reserved
+
+30.11
+reserved
+
+30.12
+reserved
+
+
+
+
+

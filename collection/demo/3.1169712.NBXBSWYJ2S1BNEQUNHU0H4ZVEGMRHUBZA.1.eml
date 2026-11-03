@@ -1,0 +1,191 @@
+
+Attendance: Charles Yeung-Chairman-Enron, Doug Hils-Vice Chairman-Cinergy, Gordon Scott- NERC, Jerry Hagge-Nebraska Public Power District, Richard Knight-Duke Power, Fred Kunkel-Wabash Valley Power Association, Julie Palin-Exelon, Bob Stegmeier-Aquila Energy, Tim Carlton- Aquila, Kalim Tippitt-Reliant Energy, Pierre Paquet-TransEnergie, John Pope- Southern, Stephen Whitley-ISO New England, Andy Rodriquez-TISWG Chair- Enron, Jason Cox-Dynergy, Don Lacen-WSCC ISAS-PNM (also a proxy for Mirek Horenovsky- Colorado Springs Utilities, and Jim McIntosh-WSCC–CAISO), Bob Cummings- NERC, Gene Byrars- Southern.
+
+Item 1.  
+October 30-31, 2001 NERC IS’s Agenda: http://www.nerc.com/~filez/is.html "is-1001a.pdf"
+
+Minutes from last August 22-24, 2001Omaha, Nebraska meeting approved.
+
+Charles Yeung reported on the NERC Board Actions in Support of Integrated Electricity Markets and Regional Transmission Organizations:
+
+
+The Board voted to take all necessary steps to become the single organization in North America to develop both reliability standards and wholesale electric business practice standards. NERC expects that developing business practice and reliability standards in the same organization will assure that the interrelated standards support both well-functioning competitive bulk power markets and a reliable and secure interconnected grid for all of North America. NERC has already reached out to the Gas Industry Standards Board to explore how our two organizations could work together. 
+The Board adopted a new standards development process that is fair, open, balanced, and inclusive. The Board authorized NERC to seek accreditation of that process by the American National Standards Institute and equivalent organizations in Canada. Based on preliminary consultations with ANSI staff as the process was being developed, NERC believes that our process meets or exceeds all ANSI requirements. 
+The Board approved a new weighted, sector-voting model for approving standards. As an interim measure, the Board immediately added two representatives of independent system operators or regional transmission organizations to each of its three standing committees.  In addition, until the sector voting model is fully implemented, the Board directed that its Market Interface Committee vote on all Operating Policies and Planning Standards and report those results to the Board, including consideration of any minority positions.
+The Board adopted a policy of having the security coordinator function performed wholly independently of the wholesale and retail merchant functions. NERC fully supports the position on security coordinator independence that the Commission announced in Order 2000.  Approximately one-half of NERC’s security coordinators are now independent from market participants.
+
+
+Item 2.
+
+Doug Hils provided an overview of the Scheduling Agent Waiver, Background Document, Financial Waiver, Chairman’s letter, as to the concepts contained in the waiver:
+ 
+RTO Control Area Participant’s (Alliance RTO, GridSouth RTO, Midwest ISO, and Southwest Power Pool) waiver requests: 
+
+
+Scheduling Agent waiver request
+
+The SCHEDULING AGENT would be the single point of contact for all external, non-participating CONTROL AREAS or other SCHEDULING AGENTS with respect to scheduling INTERCHANGE into, out of, or through the RTO. Intra-RTO transactions would be handled with the SCHEDULING AGENT AREA. This reduces the number of entities with which a given Control Area must coordinate, and should improve the management of INTERCHANGE TRANSACTIONS and INTERCHANGE SCHEDULES acting as the single point of contact between each participating CONTROL AREA similar to an ADJACENT CONTROL.
+
+The proposal simplifies the transaction tagging process for market participants in that there is no longer a need to designate a specific control area contract path within/through the RTO where there may, in fact, be several parallel contract paths possible. The specific scheduling processes implemented between participating Control Areas within the RTO are internalized and transparent to the market, but will not violate any reliability criteria.  The applicants request approval of this Waiver to implement a proposed RTO Scheduling Process to meet the RTO obligations under Order 2000, simplify transaction information requirements for market participants, reduce the number of parties with which Control Area operators must communicate, and provide a common means to tag transactions within and between RTOs.
+
+The following specific sections of NERC Policy 1 Version 1a – Generation Control and Performance and
+Policy 3 Version 4 – Interchange are affected by the RTO Scheduling Process proposed in this Waiver request:
+
+· 1F – Inadvertent Interchange Standard
+
+The applicants request a waiver of the above policy requirement that the Control Areas must agree to the NET INTERCHANGE SCHEDULE by the end of the next business day. Under the proposed Scheduling Method, a Control Area’s designated Scheduling Agent may assume the responsibility for agreeing to NET INTERCHANGE SCHEDULE values with Adjacent Control Areas or other Scheduling Agents.  The Control Areas will continue to calculate INADVERTENT INTERCHANGE based on transactions sourcing and sinking in the Control Area.
+· 1G 1.1 – Control Surveys (AIE Survey)
+
+The applicants seek a waiver of this section of the Policy 1 to allow the RTO Scheduling Agent to submit the AIE survey for Control Areas under its footprint in a form similar to that proposed under Policy 1F.  Additionally, if a set of Control Areas within the scope of the RTO Scheduling Agent financially settles inadvertent, they will report both the unadjusted and adjusted quantities on the AIE survey.
+· 3 – Interchange
+
+The applicants are requesting a Waiver to allow their designated RTO Scheduling Agent to be listed as an INTERMEDIARY CONTROL AREA in the scheduling path for all INTERCHANGE TRANSACTIONS involving the RTO or any of its Control Areas. The Scheduling Agent will fulfill all the requirements under Policy 3 of a Sending, Receiving, and Adjacent Control Area on the scheduling path in those INTERCHANGE TRANSACTIONS.
+· 3A 4 – Interchange Transaction Implementation (Assessment)
+
+The applicants intend to allow the RTO Scheduling Agent to assess proper connectivity on the Scheduling Path.
+· 3A 6 – Interchange Transaction Implementation (Implementation)
+
+The applicants clarify that for pass through transactions, the RTO Scheduling Agent assumes the role and responsibilities of the INTERMEDIARY CONTROL AREA, and the individual RTO’s Control Areas do not appear in the Scheduling Path on the tag. The RTO’s Control Areas do not intend to incorporate these transactions into a schedule in their EMS.
+· 3B 4 – Interchange Schedule Implementation (Confirmation)
+
+The obligation with respect to confirmation and implementation of INTERCHANGE SCHEDULES under Policy 3B 4 shall be satisfied by the confirmation of all schedules with the Scheduling Agent. The Scheduling Agent assumes the role and responsibilities that would otherwise be considered that of an INTERMEDIARY CONTROL AREA with respect to all transactions and schedules involving the RTO or its Control Areas.
+
+
+Scheduling Concepts
+
+
+The RTO will act as the transmission provider (TP) and Scheduling Agent.
+The RTO will confirm schedules with external Control Areas/RTOs. 
+The RTO will confirm schedules with Control Areas within the footprint if that Control Area is either the source or the sink for the schedule. 
+Dynamic schedules will be tagged with estimated values; actual values will be provided after the fact from the Control Areas to the RTO.
+Emergency and reserve sharing schedules will be created by Control Areas and communicated to the RTO within agreed upon times.
+The RTO and its Control Areas will be able to manage intra-hour schedules.
+It will be necessary to get RTO neighbors to agree to schedule with the RTO as opposed to direct scheduling with the Control Area.
+
+
+Inadvertent Interchange waiver:
+
+The proposed RTO Scheduling approach has implications for the calculation and reporting of INADVERTENT INTERCHANGE.  Specifically, this waiver proposes an approach that: 
+
+
+The individual Control Areas no longer “schedule” all INTERCHANGE TRANSACTIONS; 
+Introduces the concept of a “Scheduling Error” attributable to the RTO;
+Retains current Inadvertent Interchange “granularity”.  
+
+The proposed scheduling model also introduces the concept of a RTO “scheduling error”. This concept was developed to align cause and consequence for the portion of INADVERTENT INTERCHANGE typically caused by miscommunication of INTERCHANGE TRANSACTION information. With the RTO being introduced as a participant in the scheduling process, it was considered important to be able to recognize when the RTO introduced an error into the process versus when a Control Area introduced an error. A Control Area error would be captured in the INADVERTENT INTERCHANGE balance for that Control Area; a RTO error would be captured in the RTO “scheduling error” balance. RTO scheduling error will be captured and appropriately included in a Control Area's inadvertent account within the RTO's footprint.  By capturing these errors separately, responsibility for clearing these errors can be assigned appropriately.  Conceptually, the total INADVERTENT INTERCHANGE for the RTO footprint would equal the sum of the INADVERTENT INTERCHANGE balances for each Control Area. Control Areas under this model will still be responsible for frequency control and the consequential INADVERTENT INTERCHANGE implications.
+
+Problem Statement
+The proposed Scheduling model does not fit the current model of calculating and reporting Inadvertent Interchange for several reasons:
+
+
+The Control Areas will no longer “account” for ALL schedules.  Also, the RTO Control Areas will be considered as adjacent with each other and with the Control Areas bordering the RTO.  Consequently, the RTO Control Areas will be prevented from being able to “check out” schedule totals.  
+The Control Areas will retain tie line meters and the responsibility for checking out meter readings and resolving discrepancies.
+The introduction of “scheduling error”, which is not attributable to a Control Area.
+Some granularity to the Control Area INADVERTENT INTERCHANGE reporting is lost.
+
+
+Proposed Solution
+The following concepts are being proposed to address the differences between the RTO Scheduling model and the current NERC processes for calculating and reporting Inadvertent Interchange:
+
+
+The RTO Control Areas would continue to check out and resolve tie line meter errors.
+These meter readings would be forwarded to the RTO.
+Control Areas in the RTO footprint will checkout schedules with the RTO.
+The RTO will check out schedule totals with both external Control Areas and internal Control Areas.
+The RTO will be responsible for the reporting of AIE schedule survey information on behalf of the Control Areas.
+The RTO and the Control Areas in the RTO footprint will negotiate to “internalize” any RTO “scheduling error”.   This “scheduling error” will be internalized for the hour in which it was created.
+The RTO Control Areas will calculate their INADVERTENT INTERCHANGE based on their tie line meters, their source/sink schedules, and any “internalization” of RTO “scheduling error”.  Settlement of INADVERTENT INTERCHANGE will only occur within NERC approved processes for payback.
+The RTO will determine its “Inadvertent Interchange” based on the Control Area tie line meters and all RTO schedules.
+The RTO will report INADVERTENT INTERCHANGE for its footprint based on #6 above.  These numbers will be used to “match” in the Interconnection Inadvertent Interchange reconciliation process.  
+The RTO Control Areas will post for information purposes only their respective Inadvertent Interchange to preserve granularity.  The sum of these numbers should equal the Inadvertent Interchange as reported by RTO.  By reporting these individual numbers, granularity to the Control Area (as the Frequency Control Provider) level is not lost. 
+Control Areas will be responsible for coordinating and scheduling Inadvertent Payback to the Interconnection.
+
+ Financial Inadvertent Settlement 
+Under the financial settlement process, the RTO will determine what amount of Inadvertent Interchange that can be financially settled between the Control Areas within the RTO while assuring that the net Inadvertent Interchange for the combined Control Areas under the RTO will not change. 
+
+Motion made: The Interchange Subcommittee agreed to the Scheduling Agent Waiver, Financial Settlement of Inadvertent Waiver, the Contexture document (background material), and the Chairman’s recommendation letter.  The Interchange Subcommittee recommends approval of the waivers by the Operating Committee.  The motion was approved by voice vote.
+
+
+
+
+Item 3.  E-Tag Version 1.7
+
+The proposed  E-Tag 1.7 Schedule: The Transaction Information Systems Working Group (TISWG) and the OASIS Standards Collaborative  have prepared the following revised implementation schedule. This schedule has not been approved by the Interchange Subcommittee or Operating Committee and is subject to change.
+
+2001
+October 2 Testing Session - Key TISWG/OSC people available via conference call
+October 3–4 Training Session - Phoenix
+October 8 Registry is ready for population
+October 9 Test Session - Key TISWG/OSC people on site to monitor testing
+October 10–11 Training Session - Atlanta
+October 16 Test Session - Key TISWG/OSC people on site to monitor testing
+October 17 Schema/spec issues to be posted to TISWG/OSC list server for discussion
+during the October 24 conference call by close of business
+October 22 Registry data is populated/verified
+October 23–31 Contact those participants that have not gone through the registry process.
+October 24 TISWG/OSC conference call
+November 1 Vendors are to have E-Tag 1.7 compliant system
+November 1 System-wide IT shakedown testing of tagging systems
+November 6 System-wide IT shakedown testing of tagging systems
+November 6–7 TISWG/OSC meeting -Orlando
+November 8 System-wide IT shakedown testing of tagging systems
+November 13 E-Tag 1.7 vendor delivery date
+November 13 IDC and Test IDC ready
+December 4–5 TISWG/OSC meeting - San Antonio
+December 11 Readiness Status Report - Where are you now?
+2002
+January 10 Readiness Status Report - Where are you now?
+January 10 System-wide IT shakedown testing of tagging systems
+January 15–16 TISWG/OSC meeting -Las Vegas
+January 23 Industry is ready for the transition to E-Tag 1.7
+January 23 System-wide IT shakedown testing of tagging systems
+February 5 System-wide IT shakedown testing of tagging systems
+February 12 Training Session - two four-hour sessions - Houston at the Airport
+February 13 TISWG/OSC meeting - Houston at the Airport
+February 14 Dress Rehearsal -- 1–5 p.m.
+February 19 Training Session - two four-hour sessions ¾ Portland, Oregon
+February 21 Dress Rehearsal 2
+February 26 Training Session - two four-hour sessions - Tampa
+February 28 Dress Rehearsal 3
+March 6 Implementation of E-Tag 1.7
+
+
+Note: DC Tie Operator must register as a Control Area in the NERC registry.
+
+
+
+
+Motion made:  If a tag’s STOP time (hour and date) is earlier than current, then the Tag cannot be acted on (This applies to extension of a Tag, also this is validation rule and it will not affect the implementation date of 1.7).  Motion passed.
+
+Motion made:  There will not be any policy or specification changes that will affect the current implementation date of 1.7.  Motion passed.
+
+
+Motion made:  The IS recommends to the OC that the NERC Project process be revised.  We encourage the OC to bring this suggestion to the Board or other appropriate entity. Motion passed.
+
+NERC staff should not make software project decisions independently.  NERC staff should not develop software, unless doing so through the RFP process described in (2). 
+NERC should develop a flexible RFP Process.  In order to facilitate flexibility, the process should allow for three levels of RFP (short-term small scope … 
+(NERC should be out of the software business).  
+
+Motion made:  The next version of the NERC Registry should utilize the proposed revised NERC Process Project process to move forward with its immediate development.  The Chair of the IS write a letter to the OC, Bob Cummings, and Dave Nevius stressing the importance of the NERC Registry; moving forward.  Motion passed.
+
+Motion made:  Policy and spec changes that affect the current E-tag version 1.7 implementation schedule shall be suspended if they delay the implementation schedule and be incorporated in later revisions of the spec...  Motion passed.
+
+Don Lacen provided an update on tagging in the WSCC.  The WSCC E-Tag audits are proactively moving forward (the WSCC staff is also working determining the type of data that is available for auditing). The Interchange Subcommittee would like to know if there is any help the group can provide to the WSCC.
+ Action Item:  Don Lacen will contact Bill Dintleman and/or Bob Comish on the auditing progress and report on the status of the WSCC Tag audits next IS meeting in Phoenix
+
+Note: the TIS Cache project has been postponed indefinitely
+
+
+
+Item 4. Appendix 3A3, “Electronic Tagging Service Performance
+Requirements and Failure Procedures”
+The Interchange Subcommittee arranged a conference call with Dave Cook (who is NERC’s attorney) to gain some insight on the ramifications requiring venders and members compliance. The IS will send the MIC and OC the Appendix (with a few changes recommended by Dave Cook). 
+The Interchange Subcommittee will go through the compliance process to draft a template and this template will define the appropriate person.
+
+The Interchange Subcommittee will ask for approval of Appendix 3A3 by email ballot
+
+Item 6. Scheduling Capability - a. Timing Requirements and Timing Procedures
+b. E-Tagging Efficiency
+
+The IDC will be able to send out the Adjust message.  This is a step in speeding up the process and eliminating phone calls.  The Interchange Subcommittee was to develop a schedule for eliminating phone calls in the process.  E-tag version 1.7 should eliminate some phone calls.  The Interchange Subcommittee should work with the SSC to identify these calls’ and develop this schedule.
+

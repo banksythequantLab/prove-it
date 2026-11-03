@@ -1,0 +1,290 @@
+1
+
+
+An “Ideal”Interim Market Model
+
+Frontier Economics, Inc.
+
+Strictly Private and Confidential
+
+www.frontier-economics.com
+
+
+
+Boston   London   Melbourne
+
+2
+RTO design objectives
+The initial paper identified five key objectives for RTO design:
+Robust and liquid forwards markets
+Robust and liquid spot markets
+Resistant to generator market power
+Provide information on parameters that will affect supply, demand and delivery costs
+Minimize role for system operators and regulators to avoid distortionary interventions
+
+3
+What conditions hold in an ideal market?
+Many buyers and sellers - no concentration
+No interactions between trades - no external costs such as loop flows
+Low or no transactions costs - participants can interact cheaply and instantaneously
+Perfect information on future supply and demand - all information is reflected in market prices
+Full forwards markets exist - all risks can be hedged efficiently
+No sunk costs - production has no fixed cost components
+
+
+
+
+
+4
+Constraints on electricity markets depart from the ideal economic assumptions
+Congestion - limited transfer capability on lines creates external costs
+Coordination and transaction costs - large number of transaction necessary in a short period of time
+Losses - marginal losses are higher than average losses
+“Non-convexities” - such as start costs and ramp rates
+Public good aspects of reliability - all users receive the same level of reliability on an unswitched network
+Imperfect information - traders have considerable uncertainty about key parameters such as the state of the network
+Market power - for transmission as well as generation if open access and release rules are inadequate
+
+
+
+
+
+5
+Power markets functions are designed around these constraints
+Forward
+No “sunk” costs or decisions yet
+Commitment
+Check whether generation and load plans are consistent with constraints
+Procure capacity if not consistent
+Dispatch
+Meet real-time load variation
+Operate units consistent with actual transmission constraints
+Settlement
+What happened and who pays?
+
+
+-1 to 0 hours
++ hours
+-24 to -12 hours
+< -24 hours
+
+6
+Commitment is the key issue in RTO design
+Generation schedule must meet locational transmission constraints (e.g. some plants in NYC and not all in Buffalo)
+Must also meet temporal constraints such as ramp rates and minimum on and off times for units
+Commitment
+process
+Day ahead 
+prices by location
+Day ahead
+schedules by location
+Market price and
+quantity offers
+Transmission constraints
+(thermal and voltage)
+Dynamic constraints
+(ramp rates, on/off times)
+
+7
+Commitment mechanisms for managing day ahead congestion
+Optimizing
+software
+Nodal DA prices
+Nodal DA schedules
+Bids
+Max A-B = 300
+Max A-C = 500
+Constraints
+Examples: PJM, NYISO
+A
+B
+C
+D
+Examples: Flow-based RTO proposals
+Centralized bid-based commitment
+Purely decentralized rights trading
+
+8
+Flow rights allow decentralized trading that respects interactions on the grid
+Individual flow rights created and auctioned
+PTDF matrix published by grid operator defines portfolio of rights required to complete a scheduled transaction (e.g. from A to C)
+This portfolio of flow rights is equivalent to a single point-to-point right (e.g. an FTR or a traditional “physical” right)
+A
+B
+C
+D
+A-B
+A-C
+B-C
+B-D
+D-C
+A-B
+A-C
+B-C
+B-D
+D-C
+A-D
+Transactions
+Rights Required
+
+9
+Problem: the number of flow rights required may be impractically large
+On large systems, the number of possible flow rights required to adequately represent the system may be very large
+For example, the unit commitment process in PJM considers hundreds of potential constraints in the day ahead market
+If a very large number of rights are required this could:
+raise transactions costs and hence lower forward liquidity
+reduce the number of participants willing to trade
+The real problem with current flow-based RTO designs is that there is little real knowledge of how many rights must be traded
+If the “commercial” flowgate model does not match operational realities then RMR-type gaming will increase need for RTO interventions
+
+10
+Why not just have financial trading and FTRs in power markets?
+Possible flows across constraints are a function not only of the network but also of gen. schedules
+For example, prices in a constrained region will depend on whether a large plant in that region will run
+Pure financial trading provides less information to market - no “open interest” on a deliverable contract
+FTRs and swaps act as a weaker mechanism for price discovery - FTR markets have been highly illiquid in practice
+If the counterflow plant in the constrained area is not scheduled the effective constrained flow is reduced and LMPs will be affected
+Constrained flow
+
+11
+Pros and cons of the two commitment mechanisms
+Centralized bid-based commitment
+Decentralized rights trading
+Large role for RTO/ISO in market
+Forward price discovery may be weak
+Uniform price auctions manipulable
+Little information - “black box”
+Low transactions costs
+Reach feasible schedule quickly
+Handle large numbers of constraints
+FERC acceptability
+High transactions costs
+Will flow rights markets be liquid?
+Practicality untested in real systems
+Unrealistic PTDF assumptions?
+Minimal role for RTO/ISO
+Opportunities for trading transmission
+True forward price certainty
+Consistent with longer-term vision
+
+12
+Trading portfolios of transmission rights through an exchange
+Hub
+Feasible 
+transactions
+Trader A
+Trader B
+Feasible 
+transactions
+Flow from Trader B > Hub
+Flow from Trader A > Hub
+Line flow constraints
+Rights to and from various locations can’t be traded on a one-to-one basis, as impacts on congested lines are different (e.g. PTDF elements are different)
+Could be traded through an exchange, if done on an unequal quantity basis
+
+13
+Transmission exchange could lower costs of trading numerous transmission rights
+MW of rights offered from Trader A node to hub “converted” to MW of rights from Trader B node to hub - true “point-to-point” rights
+Exchange made at ratio of PTDF elements for the transactions (2:1 in example above) - insures that all binding constraints are still met
+Exchange need only network parameters and line loadings from system operator - does not need to optimize all bids, etc.
+Transmission
+portfolio
+exchange
+Trader A
+Trader B
+Trader A offers to sell100 MW of his rights
+Trader B receives offer to buy 50 MW of her rights
+Trader A receives offer to buy 150 MW of his rights
+Trader B offers to sell 75 MW of her rights
+
+14
+Choosing a preferred market structure
+If system can be adequately represented by a reasonable number of flow rights this is the preferred solution for forward trading and day ahead commitment
+Minimizes role of system operator in day ahead and forward markets
+Allows for price certainty and continuous price discovery
+Avoids need for uniform price auctions and hence reduces scope for market manipulation
+Maximizes information flow to the market
+Transactions costs can be minimized through transmission exchanges
+
+If the number of rights required is just too large then will need to fall back on a more centralized model
+Simplified PJM-type structure with energy-only bids, no uplift and purely financial trading
+Should support improved information release but it is unlikely to occur
+
+15
+Overview of the ideal interim market structure
+Trading in deliverable energy to and from one or more hubs
+Traders submit proposed schedules and portfolios of transmission rights to SO for verification that proposed transactions are feasible
+SO continuously updates info on quantities scheduled and projected flows
+Energy trading at hub(s) can operate as a continuous bid-ask market
+No need for a centralized day ahead commitment optimization - final stage of forward trading in deliverable energy and ancillary services
+
+
+Time
+-
+Bid-ask prices 
+Energy hub
+Generator
+Generator
+Generator
+Load
+Load
+Load
+Energy hub
+Generator
+Load
+Load
+Load
+
+16
+Moving from day ahead to real-time market
+G
+L
+Energy schedule for hours 6-18
+Trans flow right 1
+Trans flow right 2
+Trans flow right 3
+Trans. rights portfolio
+0
+6
+12
+18
+24
+Megawatts
+System operator’s accepted schedules
+G
+L
+Real-time LMP
+auction
+Inc/dec bids
+Real-time LMPs
+for settlement
+Day ahead 
+and forward
+Real-time
+New schedule
+Existing schedules
+
+17
+Forward trading can operate with minimal
+RTO involvement
+System operator will publish and update network data (e.g. expected PTDF and limits) and volumes scheduled (energy and transmission) on a continuous basis
+Traders wanting price certainty can acquire flow rights and submit physical schedules to SO that ensure priority - “firm power”
+Financial trading is always possible against energy hub prices or real-time LMPs - financial swaps are outside any RTO control
+Trading in transmission rights can be conducted independently or through a commercial bid-ask portfolio exchange - an “EnronOnline” for transmission
+
+
+
+
+18
+Conclusions on an ideal model for RTOs
+Need to recognize tradeoffs in selecting an RTO model
+decentralized flow rights models best fit Enron’s strategic objectives for an ‘ideal’ market design in day ahead and forwards trading
+centralized models are much simpler if the number of constraints is unreasonably high - and may actually improve liquidity in these circumstances
+Enron will need to assess system characteristics and the number of likely transmission constraints in developing RTO positions
+In real-time there is little scope for avoiding LMP-type markets for dispatch and clearing imbalances
+
+
+
+
+
+

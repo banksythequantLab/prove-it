@@ -1,0 +1,5448 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Management Report
+
+February 18, 2000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONTENTS
+
+1 EXECUTIVE SUMMARY 3
+2 DAILY TRANSACTIONS 6
+3 WEBSITE STATISTICS 7
+4 COUNTERPARTIES TRANSACTING VIA ENRONONLINE FOR THE FIRST TIME 7
+5 APPENDICES 8
+5.1. SUMMARY OF ONLINE TRADING 8
+5.2. TABLE OF COMPARISON TO ALTRADE AND NGX 10
+5.3. FAILED TRANSACTION REPORT 11
+5.4. EXTERNAL PARTIES LOGGED ON TODAY 12
+
+
+
+
+
+
+
+Executive Summary
+
+The report shows the highlights of the Transaction and User information of the EnronOnline service as well information on web-site traffic.
+
+The Gross Notional Values below DO NOT reflect a REVENUE number.  They are the combined gross values of buys and sells.
+
+The most active customer today has been Southern Company Energy Marketing with 54 trades. 
+
+
+External Trading   
+  
+ Total  18-Feb-00  To Date 
+  
+ Number of Transactions   699   30,388 
+ Gross Notional Value $   192,913,064   9,749,624,065 
+  
+ Revenue from Physical flows to date ($)    333,580,641 
+  
+ Number of New Counterparties transacting today    3 
+ Number of Counterparties having transacted to date    218 
+  
+ N.A. Gas   
+  
+ Number of Transactions   548   25,291 
+ Volume of Transactions (mmbtu's)   118,238,922   4,990,417,332 
+ Gross Notional Value $   144,868,312   7,933,246,895 
+  
+ UK Gas   
+  
+ Number of Transactions   33   1,591 
+ Volume of Transactions (mmbtu's)   5,512,500   191,724,000 
+ Gross Notional Value $   10,771,621   380,502,130 
+  
+ Belgium Gas   
+  
+ Number of Transactions   -     71 
+ Volume of Transactions (mmbtu's)   -     14,640,000 
+ Gross Notional Value $   -     28,545,005 
+  
+ U.S. Power   
+  
+ Number of Transactions   81   2,502 
+ Volume of Transactions (MWh's)   671,319   19,401,547 
+ Gross Notional Value $   26,165,741   676,711,097 
+  
+ UK Power   
+  
+ Number of Transactions   4   129 
+ Volume of Transactions (MWh's)   58,800   5,464,024 
+ Gross Notional Value $   2,048,033   214,586,916 
+  
+ Swiss Power   
+  
+ Number of Transactions   -     20 
+ Volume of Transactions (MWh's)   -     35,653 
+ Gross Notional Value $   -     807,843 
+  
+ German Power   
+  
+ Number of Transactions   5   105 
+ Volume of Transactions (MWh's)   48,938   921,769 
+ Gross Notional Value $   941,189   17,426,556 
+  
+ Spanish Power   
+  
+ Number of Transactions   -     2 
+ Volume of Transactions (MWh's)   -     4,805,154 
+ Gross Notional Value $   -     262,080 
+  
+ Norwegian Power   
+  
+ Number of Transactions   7   77 
+ Volume of Transactions (MWh's)   138,768   1,415,304 
+ Gross Notional Value $   2,092,633   20,873,241 
+  
+ Crude & Products   
+  
+ Number of Transactions   5   224 
+ Volume of Transactions (BBl's)   232,000   24,950,697 
+ Gross Notional Value $   521,715   351,858,681 
+  
+ Petchems   
+  
+ Number of Transactions   -     33 
+ Volume of Transactions    -     288,000 
+ Gross Notional Value $   -     30,272,900 
+  
+ LPG   
+  
+ Number of Transactions   14   125 
+ Volume of Transactions (BBl's)   144,000   1,408,000 
+ Gross Notional Value $   5,158,000   48,445,000 
+  
+ U.S. Coal   
+  
+ Number of Transactions   -     73 
+ Volume of Transactions (st)   -     2,033,325 
+ Gross Notional Value $   -     25,548,683 
+  
+ U.S. Pulp & Paper   
+  
+ Number of Transactions   -     4 
+ Volume of Transactions (st)   -     2,550 
+ Gross Notional Value $   -     1,500,750 
+  
+ Emmissions   
+  
+ Number of Transactions   1   58 
+ Volume of Transactions   2,500   145,000 
+ Gross Notional Value $   345,000   18,982,650 
+  
+ U.S. Weather   
+  
+ Number of Transactions   1   83 
+ Volume of Transactions    1   88 
+ Gross Notional Value $   820   53,639 
+  
+ UK Weather   
+  
+ Number of Transactions   -     6 
+ Volume of Transactions    -     6 
+ Gross Notional Value $   -     1,688 
+  
+  
+ Number of Users Logging onto EnronOnline:   
+ External Users with Execution rights    798 
+ External Users with No Execution Rights    93 
+
+  
+ Internal Trading   
+ 18-Feb-00  To Date 
+ Gas   
+  
+ Number of Transactions   47   1,963 
+ Volume of Transactions (mmbtu's)   25,021,919   776,982,725 
+ Gross Notional Value $   45,908,000   1,285,300,657 
+  
+ Power   
+  
+ Number of Transactions   -     32 
+ Volume of Transactions (MWh's)   -     440,440 
+ Gross Notional Value $   -     15,479,584 
+  
+ Coal   
+  
+ Number of Transactions   -     -   
+ Volume of Transactions (st)   -     -   
+ Gross Notional Value $   -     -   
+  
+ Emmissions   
+  
+ Number of Transactions   -     -   
+ Volume of Transactions (st)   -     -   
+ Gross Notional Value $   -     -   
+  
+ Total   
+  
+ Number of Transactions   47   1,995 
+ Gross Notional Value $   45,908,000   1,300,780,241 
+
+ 
+
+
+
+
+ 
+
+
+Competitor System Comparatives
+
+In comparison to alternative electronic screen based systems, NGX, total transactions for the day were 255 and Altrade were 374.
+
+
+
+
+Daily Transactions
+By Commodity
+The daily transactions that have occurred on the web-site are shown below in the pie chart.
+
+293
+181
+81
+67
+32
+19
+7
+5
+4
+US Gas Physical
+US Gas Financial
+US Power
+CAN Gas Physical
+UK Gas
+US Crude
+CAN Gas Financial
+German Power
+Norwegian Power
+UK Power
+UK Gas Financial
+US Weather
+Belgium Gas
+Products
+Spanish Power
+Swedish Power
+
+
+
+ By Customer
+The Daily Transactions by Customer are shown in the bar chart below.
+
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+60
+Southern Company Energy Marketing, L.P.
+Cook Inlet Energy Supply Limited Partnership
+Reliant Energy Services, Inc.
+Coral Energy, L.P.
+Aquila Energy Marketing Corporation
+Duke Energy Trading and Marketing, L.L.C.
+TXU Energy Trading Company
+PG&E Energy Trading-Gas Corporation
+El Paso Merchant Energy - Gas, L.P.
+Texaco Natural Gas Inc.
+KN Marketing, L.P.
+Sempra Energy Trading Corp.
+Cinergy Services, Inc.
+Mieco, Inc.
+TXU Europe Energy Trading Ltd.
+Koch Energy Trading, Inc.
+U.S. Gas Transportation, Inc.
+Tenaska Marketing Ventures
+Dynegy Marketing and Trade
+Aquila Risk Management Corporation
+
+
+
+
+
+Website Statistics
+
+
+798
+62
+93
+44
+Execution External
+Execution Internal
+Guest External
+Guest Internal
+
+
+
+Counterparties transacting via EnronOnline for the first time
+
+
+
+New Jersey Natural Gas Company
+Clinton Energy Management Services, Inc.
+PSEG Energy Technologies Inc.
+
+
+
+
+
+
+
+
+
+
+
+Appendices 5.1 Summary of Online Trading
+
+
+18-Feb-2000
+
+
+External Customers
+
+
+Total
+
+
+
+Trades
+MMBtu
+Notional
+Trades
+MMBtu
+Notional
+Canadian Gas
+
+
+
+
+
+
+Financial Swaps
+              7 
+        4,402,844 
+      13,841,722 
+              8 
+           4,549,763 
+      13,841,722 
+Physical Trades
+             67 
+      12,465,403 
+      33,753,900 
+             67 
+         12,465,403 
+      33,753,900 
+US Gas
+
+
+
+
+
+
+Basis Trades
+             82 
+      63,645,000 
+
+             87 
+         71,290,000 
+
+Financial Swaps
+             99 
+      28,710,000 
+      76,415,238 
+           140 
+         45,940,000 
+    122,323,238 
+Physical Trades
+           293 
+        9,015,676 
+      20,857,452 
+           293 
+           9,015,676 
+      20,857,452 
+TOTAL
+           548 
+    118,238,922 
+    144,868,312 
+           595 
+       143,260,842 
+    190,776,312 
+
+
+
+
+
+
+
+
+ Trades 
+ MMBtu 
+ Notional 
+ Trades 
+ MMBtu 
+ Notional 
+UK Gas
+
+
+
+
+
+
+Financial Swaps
+              1 
+          230,000 
+           498,907 
+              1 
+             230,000 
+           498,907 
+Physical Trades
+             32 
+        5,282,500 
+      10,272,715 
+             32 
+           5,282,500 
+      10,272,715 
+TOTAL
+             33 
+        5,512,500 
+      10,771,621 
+             33 
+           5,512,500 
+      10,771,621 
+
+
+
+
+
+
+
+
+Trades
+MMBtu
+Notional
+Trades
+MMBtu
+Notional
+Belgium Gas
+             -   
+                   -   
+                   -   
+             -   
+                      -   
+                   -   
+
+
+
+
+
+
+
+
+Trades
+MWh
+Notional
+Trades
+MWh
+Notional
+UK Power
+              4 
+            58,800 
+        2,048,033 
+              4 
+               58,800 
+        2,048,033 
+
+
+
+
+
+
+
+
+Trades
+MWh
+Notional
+Trades
+MWh
+Notional
+US Power
+
+
+
+
+
+
+East Power
+             41 
+          541,725 
+      21,438,029 
+             41 
+             541,725 
+      21,438,029 
+West Power
+             40 
+          129,594 
+        4,727,712 
+             40 
+             129,594 
+        4,727,712 
+TOTAL
+             81 
+          671,319 
+      26,165,741 
+             81 
+             671,319 
+      26,165,741 
+
+
+
+
+
+
+
+
+Trades
+MWh
+Notional
+Trades
+MWh
+Notional
+European Power
+
+
+
+
+
+
+Swiss Power
+             -   
+                   -   
+                   -   
+             -   
+                      -   
+                   -   
+German Power
+              5 
+            48,938 
+           941,189 
+              5 
+               48,938 
+           941,189 
+Spanish Power
+             -   
+                   -   
+                   -   
+             -   
+                      -   
+                   -   
+Norwegian Power
+              7 
+          138,768 
+        2,092,633 
+              7 
+             138,768 
+        2,092,633 
+TOTAL
+             12 
+          187,706 
+        3,033,822 
+             12 
+             187,706 
+        3,033,822 
+
+
+
+
+
+
+
+
+Trades
+Volume
+Notional
+Trades
+Volume
+Notional
+Global Liquids
+
+
+
+
+
+
+Crude & Products
+              5 
+          232,000 
+           521,715 
+              5 
+             232,000 
+           521,715 
+Petchems
+             -   
+                   -   
+                   -   
+             -   
+                      -   
+                   -   
+LPG
+             14 
+          144,000 
+        5,158,000 
+             14 
+             144,000 
+        5,158,000 
+
+
+
+
+
+
+
+
+Trades
+Volume
+Notional
+Trades
+Volume
+Notional
+Other
+
+
+
+
+
+
+US Coal
+             -   
+                   -   
+                   -   
+             -   
+                      -   
+                   -   
+US Pulp & Paper
+             -   
+                   -   
+                   -   
+             -   
+                      -   
+                   -   
+US Weather
+              1 
+                    1 
+                 820 
+              1 
+                       1 
+                 820 
+UK Weather
+             -   
+                   -   
+                   -   
+             -   
+                      -   
+                   -   
+Emmissions
+              1 
+              2,500 
+           345,000 
+              1 
+                 2,500 
+           345,000 
+
+
+
+
+Post Launch
+
+
+External Customers
+
+
+Total
+
+
+
+Trades
+MMBtu
+Notional
+Trades
+MMBtu
+Notional
+Canadian Gas
+
+
+
+
+
+
+Financial Swaps
+           687 
+    420,828,342 
+  1,158,538,104 
+           776 
+    433,272,892 
+  1,189,570,978 
+Physical Trades
+        5,689 
+    595,013,299 
+  1,704,218,320 
+        5,722 
+    599,784,578 
+  1,714,663,809 
+US Gas
+
+
+
+
+
+
+Basis Trades
+        2,813 
+ 2,036,510,000 
+                   -   
+        3,133 
+ 2,328,540,000 
+                   -   
+Financial Swaps
+        7,004 
+ 1,920,917,500 
+  4,874,906,563 
+        8,610 
+ 2,425,347,500 
+  6,193,516,713 
+Physical Trades
+        9,786 
+    185,265,991 
+    420,122,159 
+        9,799 
+    185,445,991 
+    420,600,309 
+TOTAL
+      25,979 
+ 5,158,535,132 
+  8,157,785,146 
+      28,040 
+ 5,972,390,961 
+  9,518,351,808 
+
+
+
+
+
+
+
+
+ Trades 
+ MMBtu 
+ Notional 
+ Trades 
+ MMBtu 
+ Notional 
+UK Gas
+
+
+
+
+
+
+Financial Swaps
+           100 
+      23,720,000 
+      43,853,354 
+           100 
+      23,720,000 
+      43,853,354 
+Physical Trades
+        1,577 
+    183,129,000 
+    368,598,132 
+        1,577 
+    183,129,000 
+    368,598,132 
+TOTAL
+        1,677 
+    206,849,000 
+    412,451,486 
+        1,677 
+    206,849,000 
+    412,451,486 
+
+
+
+
+
+
+
+
+Trades
+MMBtu
+Notional
+Trades
+MMBtu
+Notional
+Belgium Gas
+             71 
+      14,640,000 
+      28,545,005 
+             71 
+      14,640,000 
+      28,545,005 
+
+
+
+
+
+
+
+
+ Trades 
+ MWh 
+ Notional 
+ Trades 
+ MWh 
+ Notional 
+UK Power
+           130 
+        5,477,464 
+    215,051,172 
+           130 
+        5,477,464 
+    215,051,172 
+
+
+
+
+
+
+
+
+Trades
+MWh
+Notional
+Trades
+MWh
+Notional
+US Power
+
+
+
+
+
+
+East Power
+        1,325 
+      11,556,231 
+    405,353,364 
+        1,331 
+      11,627,090 
+    406,902,309 
+West Power
+        1,290 
+        8,636,963 
+    303,336,225 
+        1,316 
+        9,006,544 
+    317,266,864 
+TOTAL
+        2,615 
+      20,193,194 
+    708,689,589 
+        2,647 
+      20,633,634 
+    724,169,173 
+
+
+
+
+
+
+
+
+Trades
+MWh
+Notional
+Trades
+MWh
+Notional
+European Power
+
+
+
+
+
+
+Swiss Power
+             21 
+            35,742 
+           809,367 
+             21 
+            35,742 
+           809,367 
+German Power
+           111 
+          977,176 
+      18,541,451 
+           111 
+          977,176 
+      18,541,451 
+Spanish Power
+              3 
+        9,605,154 
+           408,703 
+              3 
+        9,605,154 
+           408,703 
+Norwegian Power
+             79 
+        1,452,264 
+      21,314,481 
+             79 
+        1,452,264 
+      21,314,481 
+TOTAL
+           214 
+      12,070,337 
+      41,074,003 
+           214 
+      12,070,337 
+      41,074,003 
+
+
+
+
+
+
+
+
+ Trades 
+ Volume 
+ Notional 
+ Trades 
+ Volume 
+ Notional 
+Global Liquids
+
+
+
+
+
+
+Crude & Products
+           227 
+      25,224,697 
+    352,370,641 
+           227 
+      25,224,697 
+    352,370,641 
+Petchems
+             33 
+          288,000 
+      30,272,900 
+             33 
+          184,750 
+      30,272,900 
+LPG
+           136 
+        1,560,000 
+      53,718,000 
+           136 
+        1,560,000 
+      53,718,000 
+
+
+
+
+
+
+
+
+Trades
+Volume
+Notional
+Trades
+Volume
+Notional
+Other
+
+
+
+
+
+
+US Coal
+             73 
+        2,033,325 
+      25,548,683 
+             73 
+        2,033,325 
+      25,548,683 
+US Pulp & Paper
+              4 
+              2,550 
+        1,500,750 
+              4 
+              2,550 
+        1,500,750 
+US Weather
+             87 
+                  92 
+            57,425 
+             87 
+                  92 
+            57,425 
+UK Weather
+              6 
+                    6 
+              1,688 
+              6 
+                    6 
+              1,688 
+Emmissions
+             58 
+          145,000 
+      18,982,650 
+             58 
+          145,000 
+      18,982,650 
+
+
+Table of Comparison to ALTRADE and NGX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Transactions
+
+Volume (GJ)
+
+
+EOL
+NGX
+EOL
+NGX
+CAN Gas Phy      NIT             18Feb00     CAD/GJ
+3
+48
+42,000
+354,000
+CAN Gas Phy      NIT             19-29Feb00  CAD/GJ
+1
+4
+55,000
+27,500
+CAN Gas Phy      NIT             Mar00       CAD/GJ
+10
+9
+1,550,000
+1,705,000
+
+Transactions
+
+Volume (GJ)
+
+
+EOL
+NGX
+EOL
+NGX
+US Gas Phy       ANR SW Pool     19-22Feb00  USD/MM
+9
+3
+205,200
+78,000
+US Gas Phy       Col. Onshore    19-22Feb00  USD/MM
+1
+6
+20,000
+200,000
+US Gas Phy       EPNG-Keystone   19-22Feb00  USD/MM
+25
+1
+500,000
+8,000
+US Gas Phy       FGT Z-2         19-22Feb00  USD/MM
+3
+1
+120,000
+20,000
+US Gas Phy       HeHub           19-22Feb00  USD/MM
+16
+66
+496,000
+2,563,000
+US Gas Phy       NGPL TxOkGCPool 19-22Feb00  USD/MM
+11
+6
+217,760
+105,000
+US Gas Phy       NGPL-LA Pool    19-22Feb00  USD/MM
+8
+9
+319,200
+194,000
+US Gas Phy       NGPL-Midcon     19-22Feb00  USD/MM
+27
+12
+988,488
+258,000
+US Gas Phy       NGPL-NICOR      19-22Feb00  USD/MM
+22
+15
+570,000
+363,000
+US Gas Phy       NNG-Demarc      19-22Feb00  USD/MM
+36
+14
+1,319,624
+393,000
+US Gas Phy       PEPL Pool       19-22Feb00  USD/MM
+26
+8
+922,464
+215,000
+US Gas Phy       PG&E CtyGte     19-22Feb00  USD/MM
+10
+2
+192,000
+60,000
+US Gas Phy       TCO Pool        19-22Feb00  USD/MM
+11
+9
+372,000
+180,000
+US Gas Phy       Tetco ELA       19-22Feb00  USD/MM
+2
+13
+26,000
+267,000
+US Gas Phy       Tetco M3        19-22Feb00  USD/MM
+3
+6
+50,000
+124,000
+US Gas Phy       Tetco WLA       19-22Feb00  USD/MM
+1
+2
+20,000
+19,000
+US Gas Phy       TGT Z-SL        19-22Feb00  USD/MM
+5
+9
+72,000
+218,000
+US Gas Phy       Transco Z6 NY   19-22Feb00  USD/MM
+2
+6
+40,000
+76,000
+US Gas Phy Index GD/D - HeHub    19-22Feb00  USD/MM
+1
+17
+40,000
+1,998,000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.3. Failed Transaction Report
+
+Customer
+Number of Failed Transactions
+
+
+Sempra Energy Trading Corp.
+19
+Merrill Lynch Capital Services, Inc.
+9
+Coral Energy, L.P.
+8
+Aquila Energy Marketing Corporation
+7
+Cook Inlet Energy Supply Limited Partnership
+7
+Tenaska Marketing Ventures
+7
+Equitable Energy L.L.C.
+6
+Elf Gas and Power Limited
+5
+American Electric Power Service Corporation
+4
+BP Amoco Corporation
+4
+Mieco, Inc.
+4
+Amoco Energy Trading Corporation
+3
+Aquila Canada Corp.
+3
+Bank of Montreal
+3
+Dynegy Marketing and Trade
+3
+Tractebel Energy Marketing, Inc.
+3
+Avista Energy, Inc.
+2
+Bank of America, National Association
+2
+Duke Energy Marketing Limited Partnership
+2
+Duke Energy Trading and Marketing, L.L.C.
+2
+Koch Energy Trading, Inc.
+2
+Nicor Enerchange, LLC
+2
+Reliant Energy Services, Inc.
+2
+Southern Company Energy Marketing, L.P.
+2
+Texla Energy Management Inc.
+2
+TXU Europe Energy Trading Ltd.
+2
+AEP Energy Services, Inc.
+1
+Anadarko Energy Services Company
+1
+Cinergy Services, Inc.
+1
+CMS Marketing, Services and Trading Company
+1
+Coral Energy Resources, a division of Coral Energy Canada Inc.
+1
+Cross Timbers Energy Services, Inc.
+1
+Delmarva Power & Light Company
+1
+Edison Mission Energy
+1
+El Paso Merchant Energy - Gas, L.P.
+1
+El Paso Merchant Energy, L.P.
+1
+Engage Energy Canada L.P.
+1
+Enserco Energy, Inc.
+1
+Entergy Trading and Marketing Limited
+1
+J. Aron & Company
+1
+Koch Metals as Agent and on behalf of Koch Hydrocarbons  Co.
+1
+Merchant Energy Group of the Americas, Inc.
+1
+Midlands Sales Limited
+1
+Occidental Energy Marketing, Inc.
+1
+ONEOK Gas Marketing Company
+1
+Pan-Alberta Gas Ltd.
+1
+PG&E Energy Trading-Gas Corporation
+1
+TXU Energy Trading Company
+1
+Williams Energy Marketing & Trading Company
+1
+
+138
+
+
+
+
+External Parties Logged on Today
+
+
+AEC Marketing
+billhogue
+AEC Storage and Hub Services
+daberleeo
+AEP Energy Services, Inc.
+joefoley
+ANR Pipeline Company
+macmillan
+Accord Energy Ltd.
+andygard
+Adams Resources Marketing, Ltd.
+CHRISTRADE
+Agrium Inc.
+Chris Tworek
+Allegheny Energy Supply Company, LLC
+hemantjain
+Alliance Gas Limited
+LAWRIE123
+Alliant Energy Corporation
+a0823900
+AltaGas Services Inc.
+Gerry Malin
+American Central Energy, L.L.C.
+DISCOCHRIS
+American Electric Power Service Corporation
+tombarry
+American Municipal Power-Ohio Inc.
+John Tignor
+Amoco Canada Petroleum Company
+bpazmsr11
+Amoco Energy Trading Corporation
+LONGERLL
+Anadarko Energy Services Company
+ADM36335
+Anderson Exploration
+Henry H. Assen
+Aquila Canada Corp.
+Donald Albon
+Aquila Energy Marketing Corporation
+JOHNBOYLE
+Aquila Risk Management Corporation
+TIMSMALL
+Archer Daniels Midland Company, Inc.
+Bill Matuscak
+Arizona Public Service Company
+Tom  Carlson
+Ashland Specialty Chemicals Company
+Ronald Sekinger
+Astra Power, LLC
+J. Parks Wesson
+Aurora Natural Gas, LLC
+RYANLEAVY
+Avista Corporation
+rscholten
+BC Gas Utility Ltd.
+James Wong
+BG International Limited
+KAMTBKAM
+BP Amoco Corporation
+giordano
+Baltimore Gas and Electric Company
+Robert Juskus
+Bank of America, National Association
+natricher
+Bank of Montreal
+Dora Sung
+Bankers Trust Company
+sorkin00
+Barrett Resources Corporation
+Matthew Miller
+Beau Canada Exploration Ltd.
+Ron Vogel
+Berkley Petroleum Corp.
+cmcla217
+Birka Energi AB
+Arne Nilsson
+Bonneville Power Administration
+YLINNBPA
+Bridgeline Gas Marketing LLC
+gschocklin
+British Columbia Power Exchange Corporation
+Phil Kern
+Burlington Resources Canada Energy Ltd.
+stinkypaw
+CLECO Corporation
+Timothy Ross
+CMS Continental Natural Gas, Inc.
+Scott Longmore
+CMS Marketing, Services and Trading Company
+Lee Lewis
+CXY Energy Marketing
+Jeff Nawolsky
+Calpine Power Services Company
+GORBERG1
+Canadian Imperial Bank of Commerce
+walshmike
+Canwest Gas Supply Inc.
+Marc Mareau
+Cargill-Alliant, LLC
+Brian Grant
+Cibola Energy Services Corporation
+terrybrown
+Cima Energy, LLC
+FJMORENO
+Cinergy Marketing & Trading, LLC
+Bart  Glover
+Cinergy Services, Inc.
+Thomas Kopp
+Citibank, N.A.
+Gavin Kosviner
+Citizens Power Sales
+SCWILSON
+City Of Riverside
+RDELGADO
+City of Tallahassee
+Roger McDonald
+Clinton Energy Management Services, Inc.
+MIHARRIS
+CoEnergy Trading Company
+FEDEWA12
+Coast Energy Canada, Inc.
+Larry Desmeules
+Conoco (UK) Limited
+cmc12345
+Conoco Inc.
+terryl00
+Cook Inlet Energy Supply Limited Partnership
+CANADANW1
+Coral Energy Resources
+Brent Hofman
+Coral Energy, L.P.
+steyskal
+Coral Power, L.L.C.
+gturrent1
+Cross Timbers Energy Services, Inc.
+stephen1
+Crossalta Gas Storage & Services Ltd.
+Kimberly J. Hranac
+DTE Coal Services Inc
+George Rumsey, Jr.
+Delmarva Power & Light Company
+steven11
+Direct Energy Marketing Limited
+DONNKORB
+Dow Chemical Canada Inc.
+ROB McNEIL
+Duke Energy Marketing Limited Partnership
+Mike Kennedy
+Duke Energy Merchants LLC
+David Krauskopf
+Duke Energy Trading and Marketing, L.L.C.
+jimclarken
+Dynegy Canada Inc.
+SUPERUKE
+Dynegy Marketing and Trade
+WOOTEN01
+Dynegy Power Marketing, Inc.
+jlindberg
+Dynegy UK Limited
+Paul Garske
+EOG Resources, Inc.
+Marc Eschenburg
+EOTT Energy Operating Limited Partnership
+clarkkmc
+Edison Mission Energy
+ctran123
+El Paso Merchant Energy - Gas, L.P.
+epmegWSP
+El Paso Merchant Energy, L.P.
+PowerBCK
+Electrabel SA
+GED156EBL
+Elf Gas and Power Limited
+DOUGLASL
+Elisa A/S
+peter2000
+Elsam, I/S
+allantoft
+Encal Energy Ltd.
+Mike Culbert
+Encina Gas Marketing Company LLC
+Thomas K. Odenwelder
+Engage Energy Canada L.P.
+woodeast
+Engage Energy US, L.P.
+Forrest Wylie
+Enron Energy Services, Inc.
+TLAMBERT
+Enserco Energy, Inc.
+wwarburton
+Entergy Power Marketing Corp.
+D. Scot Marshall
+Entergy Trading and Marketing Limited
+rupestanna
+Equitable Energy L.L.C.
+Brian Shafranek
+Equiva Trading Company
+mdsmith1
+Ferrell International Limited
+Nick Teasdale
+FirstEnergy Corp.
+Deron Upton
+Florida Power & Light Company
+wheeler1
+Fortum Power and Heat Oy
+fortum13
+Gas Alberta Inc.
+romandos
+Gaz du Sud Ouest
+HERY Jean-Francois
+Georgia Gulf Corporation
+Chad Landry
+Great Bay Power Corporation
+WCRodgers
+Guest Customer-Canada
+Nova Scotia Power Inc.
+Guest Customer-Canada
+TransCanada Power
+Guest Customer-Canada
+ATCO Gas Services Ltd.
+Guest Customer-Canada
+Enbridge/Consumers Gas Company Ltd
+Guest Customer-Canada
+Newport Petroleum Corporation
+Guest Customer-Canada
+The Toronto-Dominion Bank
+Guest Customer-Canada
+Chevron Canada Resources
+Guest Customer-Canada
+Enbridge/Consumers Gas Company Ltd
+Guest Customer-France
+Societe Generale S.A Martin Jones
+Guest Customer-Germany
+Entega GmbH Herr Fischer
+Guest Customer-Germany
+EWE Aktiengesellschaft Joerg Budde
+Guest Customer-Germany
+WingasGmbH Dietrich Hoffman
+Guest Customer-Germany
+Bayernwerk AG Lars Elliesen
+Guest Customer-Germany
+Flogas Ireland Ltd. John Leahy
+Guest Customer-Germany
+Bord Gais Eireann
+Guest Customer-Germany
+Wingas GmbH Thomas Hasselbarth
+Guest Customer-Netherlands
+Energie Noord West Paul Dijkstra
+Guest Customer-Sweden
+AB SCA Finans Henrik Olsson
+Guest Customer-UK
+Julie Arnold
+Guest Customer-UK
+BP Gas Marketing Limited Harry Meyer
+Guest Customer-UK
+Centrica plc Clare Barrows
+Guest Customer-UK
+Ruhrgas Frank Siebert
+Guest Customer-UK
+Terra Nitrogen (UK) Limited Jim Robertson
+Guest Customer-USA
+TRANSPORTATION Storage Inc.
+Guest Customer-USA
+Sunoco R&M Inc. Scott Allison reactivated 1
+Guest Customer-USA
+Marathon Oil  Don Buhle
+Guest Customer-USA
+Petrocom Kelly Freilich
+Guest Customer-USA
+Pacific Gas & Electric Bob Caracristi
+Guest Customer-USA
+PetroSource Partners Robert Fuller
+Guest Customer-USA
+Pacific  Gas James A. Derrico
+Guest Customer-USA
+Southern California James Hemmerly
+Guest Customer-USA
+TransCanada .
+Guest Customer-USA
+Upstream-Energy Brad Petrick
+Guest Customer-USA
+Caravan Oil & Gas Ltd. Cliff Vornbrock
+Guest Customer-USA
+Union Gas Frank Reis
+Guest Customer-USA
+Koch Hydrocarbon Co. Austin Clark
+Guest Customer-USA
+National Fuel Marketing Virginia Ryan
+Guest Customer-USA
+Engage Energy Becky Kinder
+Guest Customer-USA
+Aces Power Marketing Tim Bond
+Guest Customer-USA
+PacifiCorp Jim Portouw
+Guest Customer-USA
+Energy USA TPC Gregory Nadeau
+Guest Customer-USA
+Skygen Energy LLC Donna Greif
+Guest Customer-USA
+Inoic Energy Inc. Jim Saunders
+Guest Customer-USA
+Enserco Energy Inc . David Myers
+Guest Customer-USA
+Highland Energy Co.  Leslie Vandagriff
+Guest Customer-USA
+Murex NA LTD Frank Galioto
+Guest Customer-USA
+Toro Asset Management .
+Guest Customer-USA
+Pacific Gas & Electric Laura Scott
+Guest Customer-USA
+Engage Energy Luke Mickum
+Guest Customer-USA
+New Centuries Energy Todd Hegwer
+Guest Customer-USA
+Retex Tom Williams
+Guest Customer-USA
+Madison Gas & Electric Co.
+Guest Customer-USA
+Unocal Energy Trading, Inc.
+Guest Customer-USA
+Northern Illinois Gas Company
+Guest Customer-USA
+NESI Energy Marketing LLC
+Guest Customer-USA
+Midland Cogeneration Venture Ltd Partnership
+Guest Customer-USA
+South Mississippi Electric Power Association
+Guest Customer-USA
+Pacific Gas & Electric Company
+Guest Customer-USA
+Keyspan Energy Services, Inc.
+Guest Customer-USA
+Burlington Resources Trading Inc.
+Guest Customer-USA
+Elf Exploration Inc.
+Guest Customer-USA
+Engage Energy US, L.P.
+Guest Customer-USA
+Eugene Water & Electric Board
+Guest Customer-USA
+ENTERPRISE PRODUCTS COMPANY
+Guest Customer-USA
+Marathon Oil Company
+Guest Customer-USA
+Engage Energy US, L.P.
+Guest Customer-USA
+Wisconsin Public Power Inc. Phil Hansen
+Guest Customer-USA
+Pacific Gas & Electric Company
+Guest Customer-USA
+Worldwide Energy Corporation
+Guest Customer-USA
+Columbia Gas Of Ohio, Inc.
+Guest Customer-USA
+Columbia Gas Of Ohio, Inc.
+Guest Customer-USA
+PaineWebber Inc.
+Guest Customer-USA
+Cargill-Alliant, LLC Bret Jones
+Guest Customer-USA
+Copano Field Services/Copano Bay, L.P.
+Guest Customer-USA
+Otter Tail Power Company
+Gulf Midstream Services Partnership
+GB071892
+HS Resources, Inc.
+Robert Kincaid
+Hamburgische Electricitats-Werke AG
+Rainer Ehrig
+Helmerich & Payne Energy Services, Inc.
+Gerald McLaughlin
+Hess Energy Trading Company LLC
+Stephen Semlitz
+Husky Oil Limited
+ron12345
+IGI Resources, Inc.
+RANDYIGI
+ISH Energy Ltd.
+Glenna Beierle
+Idacorp Energy Solutions, L.P.
+ADM48147
+Idaho Power Company
+DAVEFOLGER
+Independent Energy UK Limited
+Phil Blunt
+Indiana Municipal Power Agency
+Larry Brown
+Infinite Energy, Inc.
+Richard Blaser
+Interchem 2000 Limited
+Klaus Gunther-Blombach
+Interkraft Trading ASA
+Hans Hansen
+International Paper Company
+abramowitz
+Inventory Management
+Stratton
+Ionic Energy Inc.
+Jim Saunders
+J. Aron & Company
+rimbeyty
+J. M. Huber Corporation
+BRIANSTONE
+KN Marketing, L.P.
+KURTWOOD
+KN Trading Inc.
+SKAERKEN
+Kaztex Energy Management Inc.
+MARKMOYER
+Kimball Energy Corporation
+Scott Smokoski
+Koch Carbon Inc
+Matthew Paul
+Koch Energy Trading, Inc.
+WITTENBD5
+Koch Metals as Agent and on behalf of Koch Hydrocarbons  Co.
+Michael Orr
+Koch Midstream Services Company
+curtisday
+Koch Petroleum Group, L.P.
+harrisot
+Kouvolan Seudun Sahko
+Kyosti Jaaskelainen
+Landmark Chemicals S.A.
+Wolfgang Baumgaertel
+Los Angeles Dept. of Water & Power
+scmasuda
+Louis Dreyfus Energy Ltd.
+WARDCLIVE
+McMurry Oil Company
+Brian Day
+Merchant Energy Group of the Americas, Inc.
+MEGATRAVIS
+Merrill Lynch Capital Services, Inc.
+psvmlcom
+Methanex Corporation
+jefftyson
+MidAmerican Energy Company
+RUPERTOM
+Midlands Sales Limited
+DAVETHOM
+Mieco, Inc.
+harryhay
+Minnesota Power, Inc.
+Ronald Bole
+Morgan Stanley Capital Group Inc.
+sjamison
+NGTS LLC
+Scott Hopkins
+NUI Energy Brokers, Inc.
+Brian Rose
+Neste Gas Limited
+mahulraval
+New Jersey Natural Gas Company
+Dean Tierney
+NewEnergy, Inc.
+mmcgrail1
+Niagara Mohawk Energy Marketing, Inc.
+Raymond  Danchak
+Nicor Enerchange, LLC
+Christopher Wronkiewicz
+Norsk Hydro ASA
+HENRIKNESS
+Norsk Hydro Produksjon AS
+CARSTEN1
+North Country Energy
+Tricia  Andreachuk
+Northern California Power Agency
+Kevin McMahan
+Northern Indiana Public Service Company
+williamson
+Northrock Resources Ltd.
+William Wong
+Norweb Gas Ltd
+ME181781
+Norweb plc
+Neil Stainton
+OGE Energy Resources, Inc.
+Rankin Schurman
+ONEOK Gas Marketing Company
+PATRICKMCD
+Occidental Energy Marketing, Inc.
+bigbrian
+PCS Nitrogen Fertilizer, L.P.
+AUDREAHILL
+PG&E Energy Trading, Canada Corporation
+Dave Guebert
+PG&E Energy Trading-Gas Corporation
+william3
+PP&L, Inc.
+NUMBERTWO
+PSEG Energy Technologies Inc.
+Vincent Tennariello
+PacifiCorp Power Marketing, Inc.
+Mark Fischer
+Pan-Alberta Gas Ltd.
+west1045
+PanCanadian Energy Services Inc.
+Jim McCord
+Paramount Resources Ltd.
+Laura  Gallant
+Paribas
+Brian Logler
+Peabody COALTRADE, Inc.
+pct121354
+Petro-Canada Oil and Gas
+johnmiller
+Petrobank Energy and Resources Ltd.
+PBANKBHALL
+Phibro Inc.
+Patrick M. Leeber
+Phillips Petroleum Company
+Kenneth Baker
+Phoenix Dominion Energy, LLC
+Joseph Vanzant, Jr.
+Preem Petroleum AB
+Leif Nilsson
+Premstar Energy Canada Ltd
+Mike Kilby
+PrimeWest Energy Inc.
+Minh Tran
+Prior Energy Corporation
+mecprior
+ProLiance Energy, LLC
+JOHNSTURM
+Producers Marketing Ltd
+Morgan Grant
+Progas Enterprises Limited
+Vince Z. Landry
+Public Service Company Of Colorado
+Gayleen Barrett
+Public Service Company Of New Mexico
+MVREELAND
+Public Service Electric and Gas Company
+mhancock
+Public Utility District No.1 of Benton County, Washington
+RE Gregg
+Puget Sound Energy, Inc.
+SPELLMAN
+Questar Energy Trading Company
+kvarmstr
+RWE Energie AG
+kevalger
+Reliant Energy Services Canada Ltd.
+Shahid Malik
+Reliant Energy Services, Inc.
+ttoerner
+Richardson Products II, Ltd.
+Scott Walker
+Royal Bank of Canada, The
+Simon Carling
+SK Global America, Inc.
+Jonathon  Ellisor
+Sabine Hub Services Company
+dmc51872
+San Diego Gas & Electric Company
+gnelms11
+Scottish Power (UK) plc.
+THOMPSONA
+Scottish and Southern Energy Plc
+trading1
+Sempra Energy Europe Limited
+HEILPERN
+Sempra Energy Trading Corp.
+ANDREWKNUS
+Shiningbank Energy Ltd.
+Bruce Gibson
+Sierra Pacific Power Company
+LoreLei Reid
+Sogn og Fjordane Energiverk AS
+Johan Stoyva
+Southern Company Energy Marketing, L.P.
+wmw00001
+Southern Indiana Gas & Electric Company
+Mark Head
+Southwest Gas Corporation
+manderson
+Southwestern Energy Services Company
+Debbie Branch
+Sprague Energy Corp.
+Richard Dale
+Statoil Energy Trading, Inc.
+cwhitlock1
+Strategic Energy Ltd
+JER123065
+Stream Capital Inc.
+Thomas Ware
+Suncor Energy Inc.
+G.R. Nadeau
+Sydkraft Energy Trading AB
+Anders Johansson
+TXU Energy Trading Canada Limited
+CRAIGPEN
+TXU Energy Trading Company
+txuetcbb
+TXU Europe Energy Trading Ltd.
+TXUEETGP
+Tenaska Marketing Canada, a division of TMV Corp.
+Alex Douglas
+Tenaska Marketing Ventures
+TMVCRV01
+Tenaska Power Services Co.
+Bill Horton
+Texaco Inc.
+ADEMARTINO
+Texaco Natural Gas Inc.
+Daniel W. McCairns
+Texex Energy Partners Ltd.
+W. Keith Maxwell
+Texla Energy Management Inc.
+Mark Wilshusen
+The City of Azusa
+Bob  Tang
+Torch-CoEnergy L.L.C.
+Janet Coy
+Total Gas Marketing Limited
+THOMEARL
+Tractebel Energy Marketing, Inc.
+EHENDRICK
+Trammochem AG
+Paul Brunner
+Trammochem, a Division of Transammonia Inc.
+Gary Koebbe
+TransAlta Energy Marketing Corp.
+Sterling Koch
+TransCanada Energy Financial Products Limited
+RICHIE00
+TransCanada Energy Ltd.
+Marvin Mah
+TransCanada Gas Services
+OCONNOR1
+Tricon Energy Ltd.
+Gerry Alfaya
+Tristar Gas Marketing Company
+Randy Tamplen
+Twister Gas Services, LLC
+Terry Brownrigg
+U.S. Gas Transportation, Inc.
+Cindy Bishop
+Ulster Petroleums  Ltd.
+Craig Huggard
+Unocal Canada Limited
+Richard MacDonald
+Utilicorp United Inc.
+Robert White
+Virginia Electric and Power Company
+Alan  Meekins
+Virginia Power Energy Marketing, Inc.
+Chuck Gabler
+Vitol S.A. Inc.
+vitoljdq
+Voest-Alpine Intertrading U.S.A. Inc.
+Jorge Werlang
+WPS Energy Services, Inc.
+TRAVERSE99
+Westcoast Energy Inc.
+Jim Morison
+Western Gas Resources, Inc.
+CSTANLEY
+Western Petroleum Company
+TEAMCHUCK
+Williams Energy Marketing & Trading Company
+Frank Field
+Wisconsin Gas Company
+RBartlow99
+e prime, inc.
+David Fuller
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

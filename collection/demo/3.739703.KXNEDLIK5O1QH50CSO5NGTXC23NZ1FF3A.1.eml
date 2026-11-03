@@ -1,0 +1,67 @@
+HPL Transition
+Property Plant & Equipment and Construction Work-In-Process
+Protocol
+
+
+Segregation of Property Plant & Equipment (PP&E) and Construction Work-In-Process (CWIP)
+
+As of the last day of the month prior to the  “Closing Date” all PP&E  and CWIP assets associated with Houston Pipeline will be segregated into one of two categories:
+
+
+Assets that will be owned by HPL after the Closing Date (the “Purchased Facilities”), and
+
+2. Assets that will be transferred to Bam Lease Co (the "Leased Facilities").  
+
+
+
+The segregation of PP&E and CWIP will be based on location numbers of the PP&E and CWIP assets.  These location numbers will be consistent with the information on the "Non-Houston Locations" provided in the data room, and on the "Houston Locations" provided in Exhibit B of the Sublease Agreement.  
+
+Leased Facilities
+
+Enron will transfer the PP&E and CWIP balances for the Leased Facilities from HPL (Co #12 in Enron’s SAP system) to Bam Lease Co. (Co #1409 in Enron’s SAP system) on the Closing Date (in the Closing Date’s accounting month) based on the book values of these Leased Facilities as of the last day of the month’s accounting close immediately preceding the Closing Date. These balances will be recorded in Enron’s SAP system.  Enron will account for this lease as an operating lease.
+AEP will assess their accounting of the lease as either a capital or an operating lease.  Enron will provide all data elements from the Asset Master Data Fields for the leased facilities with the exception of asset values for PP&E.  [See attached list of data element fields from the Asset Master Data Records for PP&E and CWIP].
+
+Purchased Facilities
+
+Enron will retire the balances of PP&E and CWIP for the Purchased Facilities on the Closing Date (in the Closing Date’s accounting month) based on the book values of these Purchased Facilities as of the last day of the month’s accounting close immediately preceding the Closing Date. These retirements will be recorded in Enron’s SAP system (HPL Co. #12) or (HPLR Co #78).
+Enron will provide all data elements from the Asset Master Data Fields for the purchased facilities.  [See attached list of data element fields from the Asset Master Data Records for PP&E and CWIP].  AEP will assign a cost basis to the Purchased Facilities based upon assessed fair values and an allocation of AEP’s purchase price and will capitalize the assets in their Power Plant system as HPL or HPLR Assets
+
+Meter Acquisition Company Assets  
+
+Enron will unwind the “Project Rock” Financing, payoff the notes payable and retire the balances of PP&E and CWIP in Meter Acquisition Company LP (MAC) for the MAC Purchased Facilities prior to the Closing Date (in the accounting close immediately preceding the Closing Date’s accounting month) based on the book values of these MAC Facilities as of the last day of the month’s accounting close immediately preceding the Closing Date. These retirements will be recorded in Enron’s SAP system (Co. #939).
+The MAC assets will then be acquired by HPL (Co #12 in SAP’s system) or Bam Lease Co. (Co #1409 in SAP’s system) in the month immediately preceding the month of the Closing Date.  The MAC Assets will be segregated into one of two categories:
+
+
+Assets that will be owned by HPL after the Closing Date (the “Purchased Facilities”), and
+
+
+Assets that will be transferred to Bam Lease Co (the "Leased Facilities").  
+
+
+The segregation of MAC PP&E and CWIP will be based on location numbers of the PP&E and CWIP assets.  These location numbers will be consistent with the information on the "Non-Houston Locations" provided in the data room, and on the "Houston Locations" provided in Exhibit B of the Sublease Agreement.  The MAC PP&E and CWIP will be added to the balance sheets of either HPL or Bam Lease Co. in accordance with this segregation 
+The value of the MAC assets added to HPL and to Bam Lease Co. will be based on the values of the buyout of these assets out of the trust (with new original cost and accumulated depreciation amounts).
+
+MidTexas
+
+Enron will unwind the “MidTexas” Financing, payoff the existing Trust, and replace the Financing with an Enron Note in the month immediately preceding Closing Date.  HPL’s 50% investment in MidTexas will be reacquired.  The investment balance will be recorded by HPL (Co#12 in SAP system) based on the loan payoff amount.  
+Enron will retire the balances of PP&E and CWIP for the MidTexas Facilities on the Closing Date (in the Closing Date’s accounting month) based on the book values of the MidTexas Facilities as of the last day of the month’s accounting close immediately preceding the Closing Date. These retirements will be recorded in Enron’s SAP system (Co. #739).
+Enron will provide all data elements from the Asset Master Data Fields for the MidTexas facilities.  [See attached list of data element fields from the Asset Master Data Records for PP&E and CWIP].  AEP will assign a cost basis to the MidTexas Investment based upon assessed fair values and an allocation of AEP’s purchase price.  AEP will capitalize the assets in their Power Plant system as  MidTexas Assets.
+
+Looper
+
+Enron will unwind the “Looper” Financing, payoff the existing Trust, and replace the Financing with an Enron Note in the month immediately preceding Closing Date.  Enron will retire the balances of PP&E and CWIP in Middle Looper LLC (Looper) prior to the Closing Date (in the accounting close immediately preceding the Closing Date’s accounting month) based on the book values of these Looper Facilities as of the last day of the month’s accounting close immediately preceding the Closing Date. These retirements will be recorded in Enron’s SAP system (Co. #930).
+Bam Lease Co (Co#1409) will acquire the assets.  The PP&E additions will be recorded based on the loan payoff amount.  
+
+
+Retained or Excluded Assets
+
+Enron will transfer the PP&E balances for any Retained or Excluded Assets from HPL (Co #12 in Enron’s SAP system) to TerraCo (Co #1500 in Enron’s SAP system) and/or to LOA Inc. (Co #0058 in Enron’s SAP system) prior to Closing Date whenever applicable legal documentation is completed.  The transfer amounts will be based on the book values of the Retained or Excluded Assets as of the last day of the month’s accounting close immediately preceding the transfer date. These balances will be recorded in Enron’s SAP system.  
+
+CWIP
+
+Enron will be responsible for all valid invoices for costs charged to CWIP (for both Houston and Non-Houston Locations) until the last day of the month before the Closing Date.  AEP will be responsible for all valid invoices for costs charged to CWIP (for both Houston and Non-Houston Locations) from the Closing Date.
+All outstanding CWIP for Houston Locations will be transferred to Bam Lease Co. the last day of the month prior to the Closing Date and Bam Lease Co will incur no further costs. All additional costs in respect of the CWIP for Houston Locations will be recorded by and for the account of HPL.
+All outstanding CWIP for Non-Houston Locations will remain as HPL CWIP on and after the Closing Date.
+Enron’s standard business practices will be used for receiving, validating, approving and recording costs against CWIP through Closing Date.  Specifically, CWIP costs through the last day of the month’s accounting close immediately preceding the Closing Date will include costs for invoices received and recorded to A/P, labor distribution charges paid, overhead charges allocated, and AFUDC charges booked.
+All Work Order folders, Project-to-Date reports, and Work-Order-Trial Balances will be provided to AEP after the Closing Date for all outstanding Work Orders (including Houston and Non-Houston) as of the last day of the month’s accounting close immediately preceding the Closing Date.  The sum of these Outstanding Work Orders will agree to the Outstanding CWIP balance in the SAP General Ledger and Project Systems  for Co#12 as of the last day of the month’s accounting close immediately preceding the Closing Date.  The balances will be segregated between the Non-Houston Work Order balances to remain in HPL after the Closing Date and the Houston Work Order balances that will be transferred to Bam Lease Co in the Closing Date accounting month.
+

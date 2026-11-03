@@ -1,0 +1,885 @@
+Gas Trading Vision II
+Inception
+
+
+Inception Document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+On behalf of
+Enron Net Works, LLC
+
+
+
+
+
+Document Classification:
+Draft 
+Version:
+1.00
+Point of contact:
+Zhiyong Wei
+Prepared by: GTV Project    Team
+Zhiyong Wei
+Karima Husain
+Jeremy Wong
+Francis Lim
+Bill Fortney
+Mike Swaim
+Nayan Dattani
+Date:
+March 16, 2001
+
+
+
+
+
+
+
+Sign off
+
+
+The signatories agree with the definitions, processes and recommendations stated in this document and agree for the first
+ phase to begin based on this document.
+
+
+
+
+ Business Sponsors Name Louise Kitchen
+
+
+_______________________   Date ______________
+
+  Name Colleen Sullivan
+
+
+_______________________   Date ______________
+
+Name Geoff Storey
+
+
+_______________________   Date ______________
+
+
+
+ IT Sponsors  Name Philippe Bibi
+
+
+_______________________   Date ______________
+
+
+  Name Beth Perlman
+
+
+_______________________   Date ______________
+
+  
+  Name Steve Stock
+
+
+_______________________   Date ______________
+
+
+  Name Jim Ogg (DBA group)
+
+
+_______________________   Date ______________
+
+
+
+Contents
+
+1 MANAGEMENT SUMMARY 4
+2 PROJECT STATUS 5
+2.1      ADDITIONAL COMMENTS 9
+3 PROJECT TIMELINE 10
+3.1 ESTIMATED SCHEDULE FOR PHASE I  10
+
+
+
+
+
+
+Management summary
+The purpose of this document is to present a revised set of requirements and timelines for the Gas Trading Vision project.  The purpose of the Gas Trading Vision project is to develop additional systems functionality and modify existing business processes to provide the natural gas businesses of Enron North America (US & Canada) with a consolidated position screen/report and enhanced position reporting tools for each of the various gas business units.
+
+
+PROJECT STATUS
+
+The first meeting of the new Gas Trading Vision team was held on March 7, 2001.  The attendees were Colleen Sullivan, Geoff Storey, Steve Stock, Zhiyong Wei, and Karima Husain.  The new team reviewed status of the project to date and set the priorities.  The second meeting of the new GTV team was held on March 13, 2001, with Jeff Gossett and Russ Severson as the additional attendees.  The list of issues is listed below in the order of their priorities; the project dependencies and timeline are provided on page 10 of this document.
+
+
+Issue 1:  Incorporate physical deal positions in TDS
+
+
+Pull Sitara deal information into TDS and display in proper format.
+
+This issue is assigned a very high priority in Phase 1 of this project.  The requirements from the traders are that a certain display format should be provided to them, which will enable them to view the cash desk positions, based on groupings and risk types.  The sample user interface screen required by the traders is illustrated below:
+
+POSITIONS
+HEHUB GROUP
+(GDP-HEHUB, IF-HEHUB/IM, SABINE/IM)
+Fixed Price
+NX
+FOM Index
+FP
+NX1
+NX2
+NX3
+IF-HEHUB
+IF-HEHUB
+IF-TRZ/Z3
+Total
+Total
+Total
+Fin
+Phys
+Total
+Phys
+Phys
+Phys
+Total
+Fin
+Phys
+Phys
+Mar-01
+94.5
+94.5
+21
+49
+-28
+10.5
+7
+0
+3.5
+63
+-24.5
+90
+87.5
+Apr-01
+45
+169
+45
+60
+-15
+64
+65
+15
+-16
+60
+-60
+120
+120
+May-01
+50
+0
+0
+50
+50
+Jun-01
+0
+0
+0
+0
+Jul-01
+50
+0
+0
+50
+50
+Aug-01
+50
+0
+0
+50
+50
+Sep-01
+0
+0
+0
+0
+Oct-01
+50
+0
+0
+50
+50
+Nov-01
+50
+0
+0
+50
+50
+Dec-01
+50
+0
+0
+50
+50
+Jan-02
+0
+0
+0
+0
+Feb-02
+0
+0
+0
+0
+Mar-02
+0
+0
+0
+0
+Apr-02
+0
+0
+0
+0
+May-02
+0
+0
+0
+0
+Jun-02
+0
+0
+0
+0
+Jul-02
+0
+0
+0
+0
+Aug-02
+0
+0
+0
+0
+Sep-02
+0
+0
+0
+0
+Oct-02
+0
+0
+0
+0
+Nov-02
+0
+0
+0
+0
+CURVE SHIFT
+HEHUB GROUP
+(GDP-HEHUB, IF-HEHUB/IM, SABINE/IM)
+Fixed Price
+NX
+FOM Index
+NX1
+NX2
+NX3
+IF-HEHUB
+IF-HEHUB
+IF-TRZ/Z3
+Total
+Total
+Fin
+Phys
+Total
+Phys
+Phys
+Phys
+Total
+Fin
+Phys
+Phys
+Mar-01
+94,500
+$ 
+ 
+21,000
+$ 
+ 
+49,000
+$   
+ 
+(28,000)
+$
+ 
+10,500
+$      
+ 
+7,000
+$
+ 
+-
+$      
+ 
+3,500
+$  
+ 
+63,000
+$   
+ 
+(24,500)
+$ 
+ 
+90,000
+$   
+ 
+87,500
+$ 
+ 
+Apr-01
+75,000
+$ 
+ 
+45,000
+$ 
+ 
+60,000
+$   
+ 
+(15,000)
+$
+ 
+-
+$           
+ 
+-
+$    
+ 
+-
+$      
+ 
+-
+$      
+ 
+30,000
+$   
+ 
+(30,000)
+$ 
+ 
+60,000
+$   
+ 
+60,000
+$ 
+ 
+May-01
+-
+$       
+ 
+-
+$       
+ 
+-
+$           
+ 
+-
+$         
+ 
+-
+$        
+ 
+-
+$         
+ 
+-
+$       
+ 
+Jun-01
+-
+$       
+ 
+-
+$       
+ 
+-
+$           
+ 
+-
+$         
+ 
+Jul-01
+-
+$       
+ 
+-
+$       
+ 
+-
+$           
+ 
+-
+$         
+ 
+Aug-01
+-
+$       
+ 
+-
+$       
+ 
+-
+$           
+ 
+-
+$         
+ 
+Sep-01
+Curve Shift Detail
+Date
+Current Price
+Prior Price
+Difference
+Prioir Day Delta
+P&L
+25-Mar
+5.1
+5
+0.1
+300,000
+  
+ 
+30,000
+$    
+ 
+26-Mar
+Apr-01
+Curve Shift Detail for Float for Float
+Date
+Current Mid
+Prior Mid
+Diff
+Current Price
+Prior Price
+Diff
+Prior Delta
+Apr-01
+5.1
+5
+0.1
+5.05
+5
+0.05
+300,000
+  
+ 
+May-01
+create a grouping where one picks b/w GD and Phy 
+curves
+this could be any FOM index, if one 
+sold hehub gas @ transco/z3
+risk types
+this total adds FP before 
+NX settle, FP+NX after 
+settle, and FP+NX+FOM 
+once fixed price curve is set 
+for GDP and IM curves
+fixed prices upl $0.1for both apr 
+nymex and cash
+Curve Shift Details for current and 
+prompt FP looks like term curve 
+shift detail
+Index PL: M curves up 
+$0.1, P curve up $0.1, 
+basis down $0.05
+
+
+The column labeled “FP Total” adds the Fixed Price before NX settle, Fixed Price + NX after settle, and Fixed Price + NX + FOM, once the fixed price curve is set for GDP and IM curves.  The three risk types, Fixed Price, NX, and FOM Index will be broken down by their specified pub codes, and the relevant physical and financial pieces will be broken into their details as well.  The farthest left column for the time periods will be daily for the current month; once the daily curves are set, the outer months will be displayed with daily details.
+
+As the example illustrates above, two separate tabs will be provided:  one for “Positions” and another one for “Curve Shift.”  The user will also be provided with drill-down capabilities for both the “Positions” and “Curve Shift” tabs.
+
+Please see the attached timeline for detailed breakdown of the IT development.
+
+
+Issue 2:  Single point of deal entry for term deals
+
+This issue will be handled in two phases.  Phase I will cover about 90% of the deals, and the more complex transactions will be covered in Phase II.  The development of Phase I will be completed by middle of April 2001.
+
+The Phase I of single deal entry will allow users to enter simple types of physical deals at the time of deal creation.  It does not provide any editing functionality; i.e. once the deals are saved to the system, any subsequent changes will need to be done through both TAGG and Sitara.
+
+The TDS client application will need to add two columns:  Sitara-Portfolio_ID and Gas Location.  Both will be incorporated via pull-down lists.  TDS client will access Sitara server to get those two pull-down lists.  The two pull-down lists will reflect changes to the lists real-time.  For accessing Sitara server, communication between TDS client and Sitara server needs to be established.  Data validation and speedy data entry features need to be done for the two new columns.
+
+The following is the list of deal types that will not be captured in the Phase I of single point of deal entry:
+
+
+Deals with multiple locations, each of which has different cost of gas because TAGG does not capture location information.  For example, a 10-location deal will result in 1 Sitara deal with 10 CPR tickets and 10 TAGG legs, with each TAGG leg capturing the risk between contract price and mid for that location.
+Structured deals which have different volume for different months and whose different risk components will be managed by different desks.
+Tiered pricing structured deals that require one Sitara ticket and more than one TAGG ticket.  For example, 15,000 deal volume broken down to 5,000 at fixed price, 5,000 at NYMEX-0.10 and 5,000 at the index.
+Physical options because TDS deal capture does not handle physical options.
+Trigger deals that allow setting prices before index settles.  The basic trigger deal can be captured; however, entry problem arises if price trigger is managed in a different book, or if different volume is triggered or untriggered, than the original deal volume.
+Physical index deals with the index that is different from the mid for the location.  Such deals need to be broken down into an index, a long basis and a short basis in TAGG.
+Percentage index deals that require two legs in TAGG.  One leg is index flat and the other is fixed price deal with zero fixed price and zero basis and reduced quantity.  For example, a 90% index deal with a quantity of 5,000 can be broken down into one leg of index flat and the other leg of zero fixed price and zero basis and a quantity of 5,000*0.1 = 500.
+Floating basis deals:  deals can be entered with a price and physical premium component where the basis will default to the actual basis settle.  These deals are sometimes entered as trigger deals with a floating basis.  The deal looks like a straight index deal; however, the price can be triggered and the basis will default to actual.
+
+
+Issue 3:  Gas Daily deals
+
+
+Change Gas Daily outer month index positions to show IDX rather than IM.  Change to correctly value Gas Daily index deals in TDS using differential curve for outer months.
+
+The following example illustrates the Gas Daily issue:
+
+Current process: For a fixed price (FP) deal, the existing system knows to pull the FP number.  For an indexed deal, the system knows that if FP = 0, it must pull the First of Month (FOM) price, which is equal to Price + Basis + FP Adjustment (Index Adjustment):
+
+
+FP (Fixed Price)
+FP Adjustment
+FOM
+GD
+$0.00
+$0.01
+IF-HeHub
+GDP-HeHub
+
+For purposes of Valuation, mid is Price + Basis + GDP-Curve for pre-NX1; for post-NX1, mid is a fixed price, which is manually entered into Excel by the risk book administrators, and is equal to 
+Price + Basis (+ FP Adj maybe).  The curves, therefore, are illustrated as follows:
+
+
+March 1, 2001
+$5.25
+March 2, 2001
+$5.25
+March 3, 2001
+$5.25
+Thru March 31, 2001
+$5.25
+April 2001
+$0.01
+May 2001
+$0.01
+
+
+
+$0.01
+
+$0.01
+
+$0.01
+
+$0.01
+2014
+$0.01
+
+As shown above, from March 1, 2001 to March 31, 2001, the risk book administrators manually enter $5.25, and the deal values change based on changes in this number.  For April 2001 and beyond, the deal value changes only if change is made to GDP curve.
+
+The existing issues are that the traders do not have direct access to GDP curves, and they must call their book administrator to have these changed.  Because this risk is assigned as “M,” the system views index deals as fixed price, and assigns a much higher risk than necessary.
+
+
+
+
+The requirements from the Gas group are as follows:
+
+
+Deal Price:  the Deal Price will always be calculated as Price + Basis + Fixed Price Adjustment (Index Adjustment) of actual deal, until FOM index is posted.
+New Mid Curve Derivation:  set up new Pub Code, i.e. GDP-HeHub, with risk of “I” instead of “M” (and also keep the “M” one as well).  For valuation, the system must first look for GDP-HeHub “M” – if a price is there, then use “M” curve; if “M” curve is not there, then use the mid curve based upon the formula:  P+B+GDI (the new Gas Daily Index Curve).
+Position Reporting:  Gas Daily Index deals should show up both in Term Positions as GD Index and Cash Positions as FOM Index.
+Direct access to traders for GDP curves:  the traders will update them along with all other curves; this will provide control to traders, plus they know that once they set a fixed price under the GDP-HeHub “M” column, it turns to Fixed Price risk.
+
+The proposed solution from the IT group is to create another calculation in ERMS, labeled “GDI” (Gas Daily Index) to segregate the risks.  The ERMS PortCalc will also need to be modified to accommodate this new calculation.  
+
+Please see the attached timeline for detailed breakdown of the IT development.
+
+
+Issue 4:  Live feeds for Gas Daily/intra-month curves
+
+
+Develop live feed capability for intra-month curves just like we have for basis, etc.
+Once this capability is complete, traders will have to set new curves.  We expect the curves to be set as follows:  The Henry Hub intra-month curve will be tied to the NYMEX feed.  Most (if not all) other curves will be tied to the Henry Hub intra-month curve in some way.  Traders will have to set differentials.
+
+Developing the live feed capability for intra-month curves is feasible, and the development timeline from the IT group is 3 weeks (see project timeline).  
+
+
+Issue 5:  Saving different views in TDS.
+
+The traders need the TDS system to provide them with the flexibility to allow for personalized views of various data.  The IT group’s estimated development timeline for this particular issue will be approximately 3 weeks.
+
+
+Issue 6:  Customizing time periods in TDS
+
+
+Instead of pre-set summer/winter time periods, traders want flexibility to set time blocks.  
+
+This issue is not a very high priority at this moment; however, the estimated development time from IT group is approximately 1 week, after the completion of development for Issue #5.  Please see the attached timeline for detailed breakdown of the IT development.
+
+
+
+Issue 7:  Ability to roll up separate books into a consolidated position.
+
+The ability to roll up separate books into a consolidated position is currently available in the TDS system.  A sample screen shot is as follows:
+
+
+
+
+
+
+This issue has been addressed in two phases:  in phase 1, the roll-up capability has been provided with predefined desks.  The ad hoc capabilities for desk roll-ups will be addressed in phase 2.  The IT development timeline for this issue will be provided in due course.
+
+
+Additional Comments
+
+During the meetings held to discuss the issues and requirements, an issue was raised related to the new deals and changed deals from Sitara.  Physical index deals would all show up as changed deals anytime the index price changes; however, the traders wanted this to show up as curve shift, not as changed deals.
+
+The IT development team has concluded that the Sitara system will not emit the changed deal messages to the TDS client whenever the index price changes; hence, no changes are required to the existing system functionality at this moment.
+
+
+Project Timeline
+
+Estimated Schedule for Phase I
+
+
+
+Please note that the following project timeline is for the IT development only.  The user acceptance testing has not been incorporated in this timeline.
+
+
+
+
+ID
+Task Name
+Duration
+Start
+Finish
+1
+Incorporate physical deal positions in TDS
+40 days
+Mon 3/5/01
+Fri 4/27/01
+2
+Changes to CPR reader process
+3 days
+Wed 3/21/01
+Fri 3/23/01
+3
+Unit testing
+2 days
+Mon 3/26/01
+Tue 3/27/01
+4
+Changes for view aggregation
+4 wks
+Mon 3/5/01
+Fri 3/30/01
+5
+Unit testing
+2 days
+Mon 4/2/01
+Tue 4/3/01
+6
+Changes for position manager
+4.2 wks
+Wed 3/21/01
+Wed 4/18/01
+7
+Unit testing
+2 days
+Thu 4/19/01
+Fri 4/20/01
+8
+Integration testing
+1 wk
+Mon 4/23/01
+Fri 4/27/01
+9
+Single point of deal entry for term deals
+30 days
+Mon 3/12/01
+Fri 4/20/01
+10
+Establish communication between TDS client &  Sitara server
+3 wks
+Mon 3/12/01
+Fri 3/30/01
+11
+Unit testing
+2 days
+Mon 4/2/01
+Tue 4/3/01
+12
+Adding additional columns, validations, etc.
+7 days
+Wed 4/4/01
+Thu 4/12/01
+13
+Unit testing
+3 days
+Fri 4/13/01
+Tue 4/17/01
+14
+Integration testing
+3 days
+Wed 4/18/01
+Fri 4/20/01
+15
+Gas Daily deals
+25 days
+Wed 3/21/01
+Tue 4/24/01
+16
+Changes to TDS deal evaluation
+3.6 wks
+Wed 3/21/01
+Fri 4/13/01
+17
+Unit testing
+2 days
+Mon 4/16/01
+Tue 4/17/01
+18
+Create GDI Calc in ERMS
+3.6 wks
+Wed 3/21/01
+Fri 4/13/01
+19
+Unit testing
+2 days
+Mon 4/16/01
+Tue 4/17/01
+20
+Integration testing
+1 wk
+Wed 4/18/01
+Tue 4/24/01
+21
+Live feeds for Gas Daily/intra-month curves
+18 days
+Wed 3/21/01
+Fri 4/13/01
+22
+Development of live feeds
+3 wks
+Wed 3/21/01
+Tue 4/10/01
+23
+Testing
+3 days
+Wed 4/11/01
+Fri 4/13/01
+24
+Display physical deal positions in TDS
+0 days
+Fri 4/27/01
+Fri 4/27/01
+25
+26
+Saving different views in TDS
+13 days
+Thu 4/19/01
+Mon 5/7/01
+27
+Modifications to TDS
+2 wks
+Thu 4/19/01
+Wed 5/2/01
+28
+Testing
+3 days
+Thu 5/3/01
+Mon 5/7/01
+29
+Customizing time periods in TDS
+8 days
+Tue 5/8/01
+Thu 5/17/01
+30
+Modifications to TDS
+1 wk
+Tue 5/8/01
+Mon 5/14/01
+31
+Testing
+3 days
+Tue 5/15/01
+Thu 5/17/01
+32
+Ability to roll up separate books into a consolidated position
+1 day
+Wed 3/21/01
+Wed 3/21/01
+33
+Roll-up capability with predefined desks
+1 day
+Wed 3/21/01
+Wed 3/21/01
+34
+Ad hoc desk roll up capability (to be determined in phase 2)
+0 days
+Wed 3/21/01
+Wed 3/21/01
+Mike Swaim
+Mike Swaim
+Bill Fortney
+Bill Fortney
+Nayan Dattani
+Nayan Dattani
+Mike Swaim,Bill Fortney,Nayan Dattani
+Zhuoming Lou
+Zhuoming Lou
+Narasim Kasaru
+Narasim Kasaru
+Zhuoming Lou,Narasim Kasaru
+Mike Swaim
+Mike Swaim
+Jeremy Wong
+Jeremy Wong
+Mike Swaim,Jeremy Wong
+Francis Lim
+Francis Lim
+4/27
+Nayan Dattani
+Nayan Dattani
+Nayan Dattani
+Nayan Dattani
+3/4
+3/11
+3/18
+3/25
+4/1
+4/8
+4/15
+4/22
+4/29
+5/6
+5/13
+5/20
+5/27
+6/3
+6/10
+March
+April
+May
+June
+
+
+
+  
+
+
+

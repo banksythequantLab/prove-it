@@ -1,0 +1,650 @@
+Reference No.:  ________
+
+
+
+
+
+
+
+
+
+
+
+
+MASTER POWER PURCHASE/SALE AGREEMENT
+
+
+
+between
+
+
+
+ENRON CANADA CORP.
+
+
+
+and
+
+
+
+________________
+
+
+
+
+
+Dated:  ______________
+
+
+MASTER POWER PURCHASE/SALE AGREEMENT
+TABLE OF CONTENTS
+COVER SHEET 1
+ARTICLE ONE: GENERAL DEFINITIONS 1
+ARTICLE TWO: SCOPE OF AGREEMENT AND TRANSACTION PROCEDURES 7
+2.1  Scope of Agreement 7
+2.2  Transaction Procedure 7
+2.3  Confirmation Letter Procedure 7
+2.4  Electronic Taping 8
+ARTICLE THREE:  REPRESENTATIONS AND WARRANTIES 8
+3.1  Representations 8
+3.2  Warranty 9
+ARTICLE FOUR:  OBLIGATIONS AND DELIVERIES 9
+4.1  Seller's and Buyer's Obligations 9
+4.2  Transmission and Scheduling 9
+4.3  Force Majeure 9
+ARTICLE FIVE:  REMEDIES FOR FAILURE TO DELIVER/RECEIVE 10
+5.1  Seller Failure 10
+5.2  Buyer Failure 10
+ARTICLE SIX:  EVENTS OF DEFAULT; REMEDIES 10
+6.1  Events of Default 10
+6.2  Declaration of an Early Termination Date and Calculation of Termination Payment 13
+6.3  Net Out of Settlement Amounts 14
+6.4  Notice of Payment of Termination Payment 14
+6.5  Disputes With Respect to Termination Payment 14
+6.6  Closeout Setoffs 15
+6.7  Suspension of Performance 15
+6.8  Other Events 15
+ARTICLE SEVEN:  PAYMENT AND NETTING 16
+7.1  Invoice Date and Charges 16
+7.2  Payment Date 16
+7.3  Late Payment 17
+7.4  Disputes and Adjustments of Invoices 17
+7.5  Netting 17
+7.6  Payment Obligation Absent Netting 17
+7.7  Security 18
+7.8  Transaction Netting 18
+ARTICLE EIGHT:  LIMITATIONS 18
+8.1  Limitation of Remedies, Liability and Damages 18
+ARTICLE NINE:  CREDIT AND COLLATERAL REQUIREMENTS 19
+9.1  Party A Credit Protection 19
+9.2  Party B Credit Protection 20
+9.3  Grant of Security Interest/Remedies 21
+ARTICLE TEN:  GOVERNMENTAL CHARGES 21
+10.1  Cooperation 21
+10.2  Governmental Charges 21
+10.3  GST 21
+10.4  New Taxes 22
+ARTICLE ELEVEN:  MISCELLANEOUS 23
+11.1  Term of Master Agreement 23
+11.2  Title and Risk of Loss and Indemnity 23
+11.3  Transfer or Assignment 23
+11.4  Applicable Law 23
+11.5  Notices 23
+11.6  Indemnification Procedures 24
+11.7  Non-Waiver 24
+11.8  Merged Document 24
+11.9  Exclusion of Third Party Rights 25
+11.10  Severability 25
+11.11  Headings and Exhibits 25
+11.12  General 25
+11.13  Audit 25
+11.14  Eligible Financial Contract 25
+11.15  Confidentiality 26
+11.16  Currency Conversions 26
+11.17  Further Assurances 26
+SCHEDULE A:  PRODUCTS AND RELATED DEFINITIONS 27
+SCHEDULE B:  CONFIRMATION LETTER 28
+SCHEDULE C: PARTY A GUARANTEE 30
+SCHEDULE D: PARTY B GUARANTEE 34
+
+
+
+
+
+MASTER POWER PURCHASE/SALE AGREEMENT
+COVER SHEET
+This Master Power Purchase/Sale Agreement (the "Master Agreement") is made effective as of the ____ day of _______________________, 2000 (the "Effective Date").  The Parties to this Master Agreement are the following:
+
+Name: Enron Canada Corp. ("Enron Canada" or "Party A")
+
+Name: __________________ ("Counterparty" or "Party B")
+
+
+
+NOTICES TO ENRON CANADA:
+
+NOTICES TO COUNTERPARTY:
+Enron Canada Corp.
+
+
+Suite 3500, Canterra Tower
+
+
+400 - 3rd Avenue S.W. 
+
+Calgary, Alberta
+Calgary, Alberta  T2P 4H2
+
+
+Attn:  Corporate Secretary
+
+Attn:
+Facsimile No. (403) 974-6707
+
+Facsimile No.
+
+
+
+PAYMENTS TO ENRON CANADA:
+
+PAYMENTS TO COUNTERPARTY:
+If by Wire Transfer, to:
+
+If by Wire Transfer, to:
+The Toronto-Dominion Bank
+
+
+Commercial Banking Centre
+
+
+2 Calgary Place, 340 - 5th Avenue S.W.
+
+
+Calgary, Alberta  T2P 4H2
+
+Calgary, Alberta
+Bank #004 Branch #80609
+
+Bank #                Branch #
+Account No. 0805 0465537
+
+Account No.
+Telephone:  (403) 292-1100
+
+Telephone:  
+Rapifax:  (403) 292-1217
+
+Rapifax:  
+
+
+
+BILLING AND ACCOUNTING MATTERS
+
+BILLING AND ACCOUNTING MATTERS
+TO ENRON CANADA:
+
+TO COUNTERPARTY:
+Enron Canada Corp.
+
+
+Suite 3500, Canterra Tower
+
+
+400 - 3rd Avenue S.W.
+
+Calgary, Alberta
+Calgary, Alberta  T2P 4H2
+
+
+Attn: Manager, Accounting
+
+Attn:
+Facsimile No. (403) 974-6795
+
+Facsimile No.
+
+
+
+SCHEDULING BY ENRON CANADA:
+
+SCHEDULING BY COUNTERPARTY:
+Attn:  Operations Coordinator
+
+Attn:
+Facsimile No. (403) 974-6706
+
+Facsimile No.
+
+
+
+
+WHEREAS, Counterparty and Enron Canada may from time to time enter into power purchase and sale transactions; and
+WHEREAS, the Parties desire to set forth certain terms and conditions applicable to any future power purchase and sale transactions;
+NOW, THEREFORE, in consideration of the premises and mutual covenants contained herein, Counterparty and Enron Canada mutually agree as follows:
+
+
+GENERAL DEFINITIONS
+“Acceleration of Obligations” means an action taken by a holder, under any agreement in which is created an obligation with respect to borrowed money, declaring such obligation due prior to its expressed maturity.
+"Affiliate" means, with respect to any Person, any other Person (other than an individual) that, directly or indirectly, through one or more intermediaries, controls, or is controlled by, or is under common control with, such Person.  For the purposes of this definition, "control" means the direct or indirect beneficial ownership of more than fifty (50%) percent of the outstanding capital stock or other equity interests having ordinary voting rights.
+"Agreement" means this Master Agreement, including the Cover Sheet, all exhibits hereto, together with any designated Performance Assurance, collateral, credit support or margin agreement or similar arrangement between the Parties with respect hereto and any and all Transactions made and entered into from time to time under and pursuant to this Master Agreement, all as amended, restated, supplemented or otherwise modified by written agreement between the Parties from time to time.
+ “Bankruptcy and Insolvency Act” means the Bankruptcy and Insolvency Act (Canada), R.S.C. 1985, c. B-3, as amended, restated, replaced, re-enacted or otherwise modified from time to time.
+"Business Day" means any day, other than a Saturday, Sunday, or a statutory holiday in Calgary, Alberta or Toronto, Ontario. A Business Day shall open at 8:00 a.m. and close at 5:30 p.m. local time for the relevant Party’s principal place of business.  The relevant Party, in each instance unless otherwise specified, shall be the Party to whom the notice, payment or delivery is being sent and by whom the notice or payment or delivery is to be received.
+"Buyer" means the Party to a Transaction that is obligated to purchase and receive, or cause to be received, the Product during the Period of Delivery, as agreed upon by the Parties in a Transaction. 
+“CCAA” means the Companies’ Creditors Arrangement Act (Canada), R.S.C. 1985, c. C-36, as amended, restated, replaced, re-enacted or otherwise modified from time to time.
+"Claiming Party" has the meaning set forth in Section 4.3.
+"Claims" means all third party claims, damages or actions, threatened or filed and, whether groundless, false, fraudulent or otherwise, that directly or indirectly relate to the subject matter of an indemnity, and the resulting losses, damages, expenses, counsel fees and court costs, whether incurred by settlement or otherwise, and whether such claims or actions are threatened or filed prior to or after the termination of the Agreement. 
+"Confirmation Letter" means a written notice substantially in the form set forth in Schedule B confirming the specific terms of a Transaction, as further described in Section 2.3.
+"Contract Price" means the price agreed to be paid by Buyer to Seller for the purchase of the Product (including as to currency) for any Transaction.   
+"Costs" means, with respect to the Non-Defaulting Party, brokerage fees, commissions and other similar costs and expenses reasonably incurred by such Party either in terminating any arrangement hereunder pursuant to which it has hedged its obligations or entering into new arrangements which replace a Terminated Transaction; and all reasonable legal fees and expenses incurred by the Non-Defaulting Party in connection with enforcing its rights under the Agreement.
+"Credit Rating" means, with respect to any entity, the rating then assigned to such entity’s unsecured, senior long-term debt obligations (not supported by third party credit enhancements) or if such entity does not have a rating for its senior unsecured long-term debt, then the rating then assigned to such entity as an issues rating by S&P, Moody’s or any other rating agency agreed by the Parties.
+"Cross Default Amount" means, with respect to Party A, a cross default by Party A’s Guarantor in the amount of US$100,000,000 or more, and, with respect to Party B, a cross default by [Party B/Party B’s Guarantor] in the amount of [US] $__________________ or more.
+"Defaulting Party" has the meaning set forth in Section 6.1.
+"Delivery Point" means the point at which the Product will be delivered and received for a Transaction, which may include, without limitation, delivery and receipt at a Registered Wholesale Meter, an Interval Meter or any other available Delivery Point, all as agreed upon by the Parties in a Transaction.
+"Dollars" (and the symbol “$”) means, unless otherwise specified, dollars in the lawful currency of Canada.
+"Early Termination Date" has the meaning set forth in Section 6.2.
+"Effective Date" has the meaning set forth on the Cover Sheet.
+"Equitable Defenses" means any bankruptcy, insolvency, reorganization and other laws affecting creditors’ rights generally, and with regard to equitable remedies, the discretion of the court before which proceedings to obtain such remedies may be pending.
+"Event of Default" has the meaning set forth in Section 6.1.
+"Force Majeure" means only interruptions or curtailments of firm service at the Delivery Point(s) by Seller’s Transmission Provider or Buyer’s Transmission Provider, regardless of whether Seller’s Transmission Provider or Buyer’s Transmission Provider is declaring any event of force majeure.  The applicability of Force Majeure to the Transaction is governed by the terms of the Products and Related Definitions contained in Schedule A. 
+"Funded Debt" means liabilities, debts and obligations not coming due or maturing within one year.
+"GAAP" means generally accepted accounting principles in Canada (or the United States of America, if the applicable Person is a resident of such country).
+"Gains" means, with respect to any Party, an amount equal to the present value, discounted using the Present Value Discount Rate, of the economic benefit to it (exclusive of Costs), if any, resulting from the termination of such Party’s obligations with respect to a Terminated Transaction. 
+“Governing Jurisdiction” means the Province of [Alberta/Ontario].
+“Governmental Authority” means a court, ministry, minister, official, government, government department, government authority, government agency, regulatory authority, regulatory agency, administrative tribunal, body that establishes or administers laws, or body having authority over this Agreement created pursuant to a law.
+"GST" means the Goods and Services Tax imposed pursuant to the Excise Tax Act (Canada), as amended from time to time. 
+“Guarantee Amount” means, with respect to Party B’s guarantee [U.S.] $______________, and with respect to Party A’s guarantee, [U.S.] $_______________.
+"Guarantor" means, with respect to Party A, Enron Corp., and, with respect to Party B, ___________________. 
+"Interest Rate" means, for any date, the per annum rate of interest identified by The Toronto-Dominion Bank from time to time as the prime lending rate charged to its most creditworthy customers for commercial loans in Calgary, Alberta or Toronto, Ontario, or if no such rate is identified, an index or report selected by Counterparty in good faith as representative of the prime or base rate quoted by another Schedule I chartered bank in Canada, plus, in any case, two (2%) percent; provided, however, that the Interest Rate shall never exceed the maximum rate permitted by applicable law. 
+"Interval Meter" means ·. 
+"Letter of Credit" means an irrevocable letter of credit governed by the Uniform Customs and Practice for Documentary Credits, 1993 Revision, International Chamber of Commerce No. 500 which is issued or confirmed by a Schedule I chartered bank in Canada with a Credit Rating of at least “A-” from S&P or “A3” from Moody’s, in a form acceptable to the Party in whose favour the Letter of Credit is issued, and having regard to the amount and tenor of the obligations being collateralized and which is conditional for drawing only on presentation of the Letter of Credit, a sight draft with respect thereto and a statement from an authorized officer of the benefiting Party that the benefiting Party is entitled to draw under the Letter of Credit pursuant to this Agreement.  Costs of a Letter of Credit shall be borne by the applicant for such Letter of Credit. 
+"Losses" means, with respect to any Party, an amount equal to the present value, discounted using the Present Value Discount Rate, of the economic loss to it (exclusive of Costs), if any, resulting from termination of its obligations with respect to a Terminated Transaction.  
+"Master Agreement" has the meaning set forth on the Cover Sheet. 
+"Material Adverse Change" means (a) with respect to Enron Canada, Enron Canada’s Guarantor shall have a Credit Rating issued by S&P below BBB-; or (b) with respect to Counterparty, [Counterparty/Counterparty's Guarantor] shall have any of the following:
+(i) Funded Debt at any one time which exceeds 100% of Net Worth; or
+(ii) Net Worth below [U.S.] $______ million.
+
+"Moody’s" means Moody’s Investor Services, Inc. or its successor. 
+"Net Worth" means total assets (exclusive of intangible assets and amounts attributable to notes receivable), minus total liabilities, each as would be reflected on a balance sheet prepared in accordance with GAAP.
+“New Taxes” means with respect to any Transaction, (a) any Taxes enacted and effective after the time upon which the Transaction becomes effective, including, without limitation, that portion of any Taxes or New Taxes that constitutes an increase over that which was in effect prior to such time, or (b) any law, order, rule or regulation, or interpretation thereof, enacted and effective after the time upon which the Transaction becomes effective, resulting in the application of any Taxes to a new or different class of parties. 
+"Non-Defaulting Party" has the meaning set forth in Section 6.1.
+"Offsetting Transactions" mean any two or more outstanding Transactions, having the same or overlapping Period of Delivery, Delivery Point and payment date, where, under one or more of such Transactions, one Party is the Seller, and under the other such Transaction(s), the same Party is the Buyer.
+"Party A Collateral Threshold" means [US] $___________________; provided, however, that Party A’s Collateral Threshold shall be zero if an Event of Default or Potential Event of Default with respect to Party A has occurred and is continuing.
+"Party B Collateral Threshold" means [US] $___________________; provided, however, that Party B’s Collateral Threshold shall be zero if an Event of Default or Potential Event of Default with respect to Party B has occurred and is continuing.
+"Party A Rounding Amount" means [US] $___________________.
+"Party B Rounding Amount" means [US] $___________________.
+"Performance Assurance" means collateral in the form of (a) Letter(s) of Credit, or (b) other security or credit support satisfactory to the Requesting Party in its sole discretion. 
+"Period of Delivery" means the period of time measured from the date deliveries of the Product are to commence under a Transaction to the date deliveries of the Product are to terminate, as agreed upon by the Parties in a Transaction.
+“Person” includes an individual, corporation, trust, association, company, partnership, limited partnership, limited liability company, joint venture, any government or governmental agency or authority, or any other legal entity howsoever constituted.
+"Potential Event of Default" means an event that, with notice or passage of time or both, would constitute an Event of Default.
+“Present Value Discount Rate” means with respect to any Transaction, (a) if the time remaining in the Period of Delivery is one year or less, the yield of Canadian Government Treasury Bills with a term closest to the time remaining in the Period of Delivery, and (b) if the time remaining in the Period of Delivery is greater than one year, the yield of Government of Canada Bonds with a term closest to the time remaining in the Period of Delivery.
+"Product" means electric capacity, energy or other product(s) related thereto as agreed upon by the Parties in a Transaction by reference to a Product listed in Schedule A hereto or as otherwise agreed upon by the Parties in a Transaction.
+"Quantity" means that quantity of the Product that Seller agrees to make available or sell and deliver, or cause to be delivered, to Buyer, and that Buyer agrees to purchase and receive, or cause to be received, from Seller, as agreed upon by the Parties in a Transaction.
+“Registered Wholesale Meter” means a meter or metering installation properly registered with the applicable Governmental Authority.
+"Replacement Price" means (a) the price at which Buyer, acting reasonably, purchases at the Delivery Point a replacement for any Product specified in a Transaction but not delivered by Seller, plus (i) costs reasonably incurred by Buyer in purchasing such substitute Product and (ii) additional transmission charges, if any, reasonably incurred by Buyer, or (b) absent a purchase, the market price at the Delivery Point for such Quantity of Product not delivered as determined by Buyer acting reasonably; provided, however, in no event shall such price include any penalties, ratcheted demand or similar charges, nor shall Buyer be required to utilize or change its utilization of its owned or controlled assets, including contractual assets, or market positions to minimize Seller’s liability.  For the purposes of this definition, Buyer shall be considered to have purchased replacement Product to the extent Buyer shall have entered into one or more arrangements acting reasonably whereby Buyer repurchases its obligation to sell and deliver the Product to another Person at the Delivery Point.
+"S&P" means the Standard & Poor’s Rating Group (a division of McGraw-Hill, Inc.) or its successor.  
+"Sales Price" means (a) the price at which Seller, acting reasonably, resells any Product not received by Buyer, deducting from such proceeds any (i) costs reasonably incurred by Seller in reselling such Product and (ii) additional transmission charges, if any, reasonably incurred by Seller in delivering such Product to the third party purchasers, or (b) absent a sale, assuming a sale could have been made by Seller acting reasonably, the market price at the Delivery Point for such Product not received as determined by Seller acting reasonably; provided, however, in no event shall such price include any penalties, ratcheted demand or similar charges, nor shall Seller be required to utilize or change its utilization of its owned or controlled assets, including contractual assets, or market positions to minimize Buyer’s liability.  For purposes of this definition, Seller shall be considered to have resold such Product to the extent Seller shall have entered into one or more arrangements acting reasonably whereby Seller repurchases its obligation to purchase and receive the Product from another Person at the Delivery Point.
+"Schedule", “Scheduled” or "Scheduling" means all acts necessary, including the submission of all direct sales, bilateral physical dispatch and other transactional and delivery receipt information, by any of Seller, Buyer and/or their designated representatives, including each Party’s Transmission Providers, if applicable, to properly notify, request and/or confirm to each other, any Governmental Authority or any other necessary Person, in accordance with, and within the time frames prescribed by, any applicable laws, rules or regulations, the Quantity and type of Product to be delivered hourly on any given day or days during the Period of Delivery at a specified Delivery Point so as to ensure delivery of such Product in accordance with the terms of a Transaction. 
+"Seller" means the Party to a Transaction that is obligated to sell and deliver, or cause to be delivered, the Product, as agreed upon by the Parties in a Transaction.
+“Set-off” means any set-off, offset, combination of accounts, right of set-off, offset, combination of accounts, retention or withholding, or similar right or requirement, to which the payer of an amount is entitled or subject (whether arising under the Agreement, another contract, applicable law, equity or otherwise) that is exercised by, or imposed on, such payer.
+"Settlement Amount" means, with respect to a Terminated Transaction, (a) the amount owing to the Non-Defaulting Party from the Defaulting Party where the Non-Defaulting Party’s Losses and Costs arising from the liquidation of such Terminated Transaction pursuant to Section 6.2 hereof exceed its Gains with respect thereto or (b) the amount owing to the Defaulting Party from the Non-Defaulting Party where the Non-Defaulting Party’s Gains arising from the liquidation of such Terminated Transaction pursuant to Section 6.2 hereof exceed its Losses and Costs with respect thereto. 
+"Taxes" means any and all ad valorem, property, occupation, severance, generation, first use, conservation, Btu or energy, transmission, utility, gross receipts, privilege, sales, use, consumption, excise, lease, transaction, and other taxes or, governmental charges, licenses, fees, permits and assessments, or increases therein, other than GST and taxes based on excess profits, net income or net worth.
+"Terminated Transaction" has the meaning set forth in Section 6.2.
+"Termination Payment" has the meaning set forth in Section 6.3.
+"Transaction" means a particular transaction agreed to by the Parties relating to the sale and purchase of a Product pursuant to this Master Agreement.
+"Transmission Provider" means any entity or entities transmitting or transporting the Product on behalf of Seller or Buyer to or from the Delivery Point in a particular Transaction.
+“Winding-up and Restructuring Act” means the Winding-up and Restructuring Act (Canada), R.S.C. 1985, c. W-11, as amended, restated, replaced, re-enacted or otherwise modified from time to time.
+SCOPE OF AGREEMENT AND TRANSACTION PROCEDURES
+Scope of Agreement.  Counterparty and Enron Canada may enter into Transactions for the sale and delivery and purchase and receipt of a Product at the Delivery Point(s). Each Transaction may be documented by a Confirmation Letter.  Each Confirmation Letter shall constitute an integral part of this Master Agreement and any discrepancy between this Master Agreement and a Confirmation Letter shall be resolved in favor of the Confirmation Letter.  All Transactions outstanding at any time shall collectively be deemed to be part of this Master Agreement and shall collectively be referred to as “the Agreement” or “this Agreement”, as defined in Section 1.3.
+Transaction Procedure.  When, from time to time, Counterparty and Enron Canada agree verbally or by electronic means upon all terms of a Transaction including, but not limited to, determination of Buyer and Seller, Product, Contract Price, Quantity, Delivery Point, Period of Delivery, Scheduling, amount and type of security to be delivered, and timing for delivery thereof, such Transaction shall be legally binding and enforceable, regardless of whether or not such Transaction has been documented by a Confirmation Letter or otherwise reduced to written form or signed by the Parties.  Each Party agrees not to contest or assert any defense to the validity or enforceability of any Transaction entered into in accordance with this Master Agreement: (a) based on any law requiring agreements to be in writing or to be signed by the parties, or (b) based on any lack of authority of the Party, or any lack of authority of any employee of the Party, to enter into a Transaction.
+Confirmation Letter Procedure.  Party A may confirm a Transaction by sending a Confirmation Letter to Party B.  In such instances, after the Parties have verbally agreed to all terms of a Transaction, Party A may send to Party B by facsimile or other mutually acceptable means a Confirmation Letter documenting the agreed Transaction.  Party B will verify the accuracy of the terms of such Transaction detailed therein and promptly execute and return the Confirmation Letter by facsimile or other mutually acceptable means.  If, in Party B’s opinion, the Confirmation Letter inaccurately states the terms of the Transaction, Party B shall, within three (3) Business Days of receiving such Confirmation Letter, so inform Party A, and thereafter the Parties shall in good faith resolve the discrepancy.  If Party B provides no notice of inaccuracy within such three (3) Business Days, the Confirmation Letter shall be deemed to accurately state the terms of the Transaction.  Failure by Party A to send a Confirmation Letter or any objection to a Confirmation Letter by Party B shall not invalidate any Transaction agreed to by the Parties. 
+Electronic Taping.  Each Party consents to the electronic taping or recording by the other Party of all conversations, instructions or agreements, including Transactions hereunder, and each Party agrees that any such tape or recording will constitute documentary evidence as to any such conversations, instructions or agreements in tangible form.  Counterparty and Enron Canada agree not to assert any legal defense as to the validity or enforceability of any conversations, verbal instructions or agreements evidenced by any such tape or recording, including any assertion that such instructions or agreements are not in writing or signed by a Party or both Parties.  Notwithstanding the foregoing, neither Party shall be liable for any failure to tape or record, or to retain the tapes or recordings of any such conversations, instructions or agreements.  No failure to record or tape any conversation, instruction or agreement or to retain any tape or recording shall have any effect on the enforceability of any Transaction. 
+REPRESENTATIONS AND WARRANTIES
+Representations.  As a material inducement to entering into this Agreement, including each Transaction, each Party, with respect to itself, hereby represents and warrants to the other Party, continuing throughout the term of this Agreement and on the date that each Transaction is entered into, as follows: (a) there are no suits, proceedings, judgments or orders by or before any court or any governmental authority that materially adversely affect either its ability to perform the Agreement or the rights of the other Party under the Agreement; (b) it is duly organized and validly existing, and it has the legal right, power, authority and qualifications, and has obtained all necessary consents and regulatory authorizations, for it to conduct its business, to execute and deliver the Agreement and to perform its obligations hereunder and under each Transaction; (c) (i) each Transaction shall constitute a “commodity contract” or an “OTC derivative” or such other similar term as defined pursuant to the securities legislation in force in Alberta or British Columbia or pursuant to the securities legislation of any other jurisdictions having application to the Transaction, and (ii) it is a “Qualified Party” within the meaning of paragraph 9.1 of Alberta Securities Commission Order Doc.#394043 and paragraph 1.1 of the British Columbia Securities Commission Blanket Order BOR#91-501, in either case, as amended, restated, replaced or re-enacted from time to time, and pursuant to any equivalent order or other enactment made pursuant to the securities laws of Alberta, British Columbia or any other jurisdictions having application to the Transaction; (d) the making and performance of the Agreement are within its powers, have been duly authorized by all necessary action and do not and will not violate any provision of law or any rule, regulation, order, writ, judgment, decree or other determination presently in effect applicable to it or any provision of its governing documents; (e) the Agreement constitutes a legal, valid, and binding act and obligation of it, enforceable against it, in accordance with its terms, subject to Equitable Defenses; (f) there are no bankruptcy, insolvency, reorganization, receivership or other arrangement proceedings pending or being contemplated by it or, to its knowledge, threatened against it; (g) no Event of Default or Potential Event of Default with respect to it has occurred and is continuing and no such event or circumstance would occur as a result of its entering into or performing its obligations under the Agreement; (h) it is acting for its own account, has made its own independent decision to enter into the Agreement and as to whether the Agreement is appropriate or proper for it based upon its own judgment, is not relying upon the advice or recommendations of the other Party in so doing, and is capable of assessing the merits of and understanding, and understands and accepts, the terms, conditions and risks of the Agreement; (i) it has entered into the Agreement in connection with the conduct of its business and it has the capacity or ability to make or take delivery of all Products referred to in the Transaction to which it is a Party; and (j) the material economic terms of each Transaction are subject to individual negotiation by the Parties.
+Warranty.  Seller warrants that it shall at the time of delivery have good title to and the full right and authority to sell the Quantity of the Product to be delivered by Seller to Buyer hereunder, and Seller warrants that such Quantity of Product is free and clear of all liens, security interests, claims and encumbrances or any interest therein or thereto by any Person arising at any time by, through or under Seller.
+OBLIGATIONS AND DELIVERIES
+Seller’s and Buyer’s Obligations.  With respect to each Transaction, Seller shall sell and deliver, or cause to be delivered, and Buyer shall purchase and receive, or cause to be received, the Quantity of the Product at the Delivery Point, and Buyer shall pay Seller the Contract Price.  Seller shall be responsible for any costs or charges imposed on or associated with the Product or its delivery up to the Delivery Point, including, without limitation, all transmission costs and charges, competition transition charges, control area services charges, inadvertent energy flows and transmission losses, loss charges, fees and uplift charges.  Buyer shall be responsible for any costs or charges imposed on or associated with the Product or its receipt at and from the Delivery Point, including, without limitation, all transmission costs and charges, competition transition charges, control area services charges, inadvertent energy flows and transmission losses, loss charges, fees and uplift charges.  
+Transmission and Scheduling.  Seller shall arrange and be responsible for transmission service to the Delivery Point and shall Schedule or arrange for Scheduling services with its Transmission Providers, as specified by the Parties in a Transaction, or in the absence thereof, in accordance with the practice of the Transmission Providers, to deliver the Product to the Delivery Point.  Buyer shall arrange and be responsible for transmission service at and from the Delivery Point and shall Schedule or arrange for Scheduling services with its Transmission Providers to receive the Product at the Delivery Point.
+Force Majeure.  To the extent either Party is prevented by Force Majeure from carrying out, in whole or part, its obligations under a Transaction and provided such Party (the “Claiming Party”) gives notice and full particulars of such Force Majeure to the other Party as soon as practicable after its occurrence, then the obligations of the Claiming Party and all corresponding obligations of the other Party, other than with respect to the obligations due or becoming due under the Agreement with respect to performance occurring prior to such Force Majeure, shall be excused, but only to the extent they are affected by such Force Majeure, from the inception and throughout the period of continuance of any such Force Majeure, but, in any event, only for a period not exceeding 60 days, in the aggregate, for all events of Force Majeure declared by the Claiming Party during any period of 365 days immediately preceding, and including, the date of determination, whereafter the Parties shall be obligated to perform notwithstanding any Force Majeure.  Any such Force Majeure shall, so far as possible, be remedied with all due diligence and reasonable dispatch.  If Force Majeure results only in a partial curtailment of Seller’s ability to deliver or cause to be delivered to the Delivery Point all or any part of the Quantity of Product under any Transaction, or Buyer’s ability to receive or cause to be received at the Delivery Point, all or any part of the Quantity of Product under any Transaction, Seller shall nonetheless continue to be obligated to deliver and sell to Buyer, and Buyer shall nonetheless continue to be obligated to receive and purchase from Seller, that amount of the Quantity of Product which has not been curtailed as a result of Force Majeure and the provisions of the Agreement shall continue to apply thereto.
+REMEDIES FOR FAILURE TO DELIVER/RECEIVE
+Seller Failure.  If Seller fails to Schedule and/or deliver or cause to be delivered all or any part of the Quantity of Product pursuant to a Transaction, and such failure is not excused (a) by Force Majeure, (b) under the terms of the Product or (c) by Buyer’s failure to perform, then Seller shall pay Buyer, within three (3) Business Days of receipt of an invoice from Buyer setting forth such amount, as liquidated damages and not as a penalty, an amount for such deficiency equal to the positive difference, if any, obtained by subtracting the Contract Price from the Replacement Price.  The invoice for such amount shall include a written statement explaining in reasonable detail the calculation of such amount.
+Buyer Failure.  If Buyer fails to Schedule and/or receive or cause to be received all or part of the Quantity of Product pursuant to a Transaction and such failure is not excused (a) by Force Majeure, (b) under the terms of the Product or (c) by Seller’s failure to perform, then Buyer shall pay Seller, within three (3) Business Days of receipt of an invoice from Seller setting forth such amount, as liquidated damages and not as a penalty, an amount for such deficiency equal to the positive difference, if any, obtained by subtracting the Sales Price from the Contract Price.  The invoice for such amount shall include a written statement explaining in reasonable detail the calculation of such amount.
+EVENTS OF DEFAULT; REMEDIES
+Events of Default.  An "Event of Default" shall mean, with respect to a Party (a "Defaulting Party"), the occurrence of any of the following:
+
+the failure by the Defaulting Party to make, when due, any payment required under the Agreement if such failure is not remedied within five (5) Business Days after written notice of such failure is given to the Defaulting Party by the other Party (the “Non-Defaulting Party”), provided such payment is not the subject of a good faith dispute as described in Section 7.4; or
+any representation or warranty made by the Defaulting Party in the Agreement shall prove to have been false or misleading in any material respect when made or when deemed made or repeated; or
+the failure by the Defaulting Party to perform any covenant or obligation set forth in the Agreement (other than the events that are otherwise specifically covered in this Section 6.1 as a separate Event of Default) and such failure is not excused by Force Majeure or remedied within five (5) Business Days after written notice thereof to the Defaulting Party; or
+unless excused by Force Majeure, in the case of Seller as the Defaulting Party, notwithstanding, and without limitation to Buyer’s rights and remedies for a Seller’s failure pursuant to Section 5.1, Seller’s failure to deliver, or cause to be delivered, pursuant to any single Transaction all or any part of the Quantity of Product for [· hours], in aggregate, in any 30-day period immediately preceding, and including, the date of determination; or, for any period of [· consecutive hours]; or, on [· occasions] in any 365-day period immediately preceding, and including, the date of determination; 
+unless excused by Force Majeure, in the case of Buyer as the Defaulting Party, notwithstanding, and without limitation to Seller’s rights and remedies for a Buyer’s failure pursuant to Section 5.2, Buyer’s failure to receive, or cause to be received, pursuant to any single Transaction all or any part of the Quantity of Product for [· hours], in aggregate, in any 30-day period immediately preceding, and including, the date of determination; or, for any period of [· consecutive hours]; or, on [· occasions] in any 365-day period immediately preceding, and including, the date of determination; 
+the occurrence of any of the following events:
+
+the Defaulting Party or its Guarantor (if applicable) shall make an assignment or any general arrangement for the benefit of, or protection from, creditors;
+the Defaulting Party or its Guarantor (if applicable) shall file a petition, obtain any ruling, order, directive or pronouncement, or otherwise commence, authorize, or acquiesce in the commencement of a proceeding or action under any bankruptcy, insolvency, creditor protection or similar law (regardless of the jurisdiction of application or competence of such law), including, but not limited to, the Bankruptcy and Insolvency Act, the CCAA or the Winding-up and Restructuring Act, or shall permit any material portion of its assets to be made subject to any seizure or realization;
+the Defaulting Party or its Guarantor (if applicable) shall have any such petition filed, any such ruling, order, directive or pronouncement obtained, or any such proceeding commenced against it, or have any material portion of its assets made subject to any seizure or realization, and such petition, ruling, order, directive, pronouncement, proceeding, seizure or realization remains undismissed for thirty (30) days;
+the Defaulting Party or its Guarantor (if applicable) shall otherwise become bankrupt or insolvent (however evidenced);
+the Defaulting Party or its Guarantor (if applicable) shall be unable to pay its debts as they fall due; or
+pursuant to any bankruptcy, insolvency or similar law (regardless of the jurisdiction of application or competence of such law), including, but not limited to, the Bankruptcy and Insolvency Act, the CCAA or the Winding-up and Restructuring Act, affecting the Defaulting Party or its Guarantor (if applicable), or any ruling, order, directive or pronouncement made pursuant thereto (regardless of the jurisdiction of application or competence of such law), the Agreement or any Transaction under the Agreement shall be terminated or deemed to be terminated; or
+the occurrence of a Material Adverse Change with respect to the Defaulting Party; provided such Material Adverse Change shall not be considered an Event of Default if the Defaulting Party immediately (and in any event within two (2) Business Days after written notice from the Non-Defaulting Party) establishes and maintains, throughout the term of the Agreement, Performance Assurance in favour of the Non-Defaulting Party in an amount equal to the greater of (i) the Non-Defaulting Party’s Termination Payment or (ii) if the Non-Defaulting Party is the Seller, all amounts Seller is entitled to receive during the sixty (60) day period immediately preceding the date of the occurrence of the Material Adverse Change; further provided that the amount of such Performance Assurance shall be adjusted weekly to equal amounts owing at that time (in each case, rounding upwards for any fractional amount by the Party A Rounding Amount or Party B Rounding Amount, as applicable); or
+the Defaulting Party fails to establish, maintain, extend or increase Performance Assurance when required pursuant to the Agreement; or
+the Defaulting Party consolidates or amalgamates with, or merges with or into, or transfers all or substantially all of its assets to, another entity and, at the time of such consolidation, amalgamation, merger or transfer, the resulting, surviving or transferee entity fails to assume all the obligations of the Defaulting Party under the Agreement to which it or its predecessor was a party by operation of law or pursuant to an agreement reasonably satisfactory to the Non-Defaulting Party; or
+the Defaulting Party or its Guarantor (if applicable) shall have defaulted with respect to its indebtedness to third Persons, resulting in an Acceleration of Obligations of the Defaulting Party or its Guarantor (if applicable) in excess of the applicable Cross Default Amount; or
+with respect to the Defaulting Party’s Guarantor (if applicable), in addition to the Events of Default described above relating to such Guarantor:
+
+if any representation or warranty made by such Guarantor in connection with the Agreement shall prove to have been false or misleading in any material respect when made or when deemed made or repeated;
+the failure of such Guarantor to make any payment required or to perform any other covenant or obligation in any guarantee made in connection with the Agreement; 
+any guarantee made in connection with the Agreement shall, other than as expressly permitted therein, expire, be terminated, or in any way cease to guarantee the obligations of such Party as the Defaulting Party under the Agreement or any Transaction; or
+such Guarantor shall repudiate, disaffirm, disclaim, or reject, in whole or in part, or challenge the validity of, any guarantee made in connection with the Agreement. 
+Declaration of an Early Termination Date and Calculation of Termination Payment.  If an Event of Default with respect to a Defaulting Party shall have occurred and be continuing at any time during the term of the Agreement, the Non-Defaulting Party shall have the right to, and may, in its sole discretion (a) designate a day, no earlier than the day such notice is effective and no later than twenty (20) days after such notice is effective, as an early termination date ("Early Termination Date") to liquidate and terminate any or all Transactions (each referred to as a "Terminated Transaction") between the Parties as selected by it, (b) withhold any payments due to the Defaulting Party under the Agreement and such Terminated Transactions and (c) suspend performance under such Terminated Transactions.  If, pursuant to this Section 6.2, the Non-Defaulting Party elects to terminate any or all Transactions under the Agreement, the Non-Defaulting Party shall in good faith calculate its resulting Gains, Losses and Costs resulting from the termination of the Terminated Transactions.  Notwithstanding the generality of the foregoing, the Gains and Losses for each Terminated Transaction shall be determined by calculating the amount that would be incurred or realized to replace or to provide the economic equivalent of the remaining payments or deliveries in respect of that Terminated Transaction.  The Non-Defaulting Party (or its agent) may determine its Gains and Losses by reference to information either available to it internally or supplied by one or more third parties including, without limitation, quotations (either firm or indicative) of relevant rates, prices, yields, yield curves, volatilities, spreads or other relevant market data in the relevant markets.  Third parties supplying such information may include, without limitation, dealers in the relevant markets, end-users of the relevant Product and other sources of market information. 
+The Non-Defaulting Party (or its agent) may take into account, or may require third Persons supplying such information to take into account, the current creditworthiness and documentation and credit policies of the Non-Defaulting Party, the size of the Terminated Transactions, market liquidity and other factors relevant under then prevailing circumstances.  However, for certainty, the Non-Defaulting Party shall not be required to enter into any replacement transaction in order to determine or be entitled to the Termination Payment.
+
+Net Out of Settlement Amounts.  The Non-Defaulting Party shall aggregate all Settlement Amounts with respect to all Terminated Transactions into a single net amount by netting out (a) all Settlement Amounts that are due to the Defaulting Party, plus, at the option of the Non-Defaulting Party, exercisable in its sole and arbitrary discretion, any Performance Assurance or form of collateral or security then available to the Non-Defaulting Party pursuant to Section 6.1(g), Article Nine or the amount guaranteed by the Defaulting Party’s Guarantor (if applicable), plus any or all other amounts due to the Defaulting Party under the Agreement and not yet paid against (b) all Settlement Amounts that are due to the Non-Defaulting Party, plus any or all other amounts due to the Non-Defaulting Party under the Agreement and not yet paid, so that all such amounts shall be netted out to a single liquidated amount (the "Termination Payment") payable by one Party to the other.  The Termination Payment shall be due to or due from the Non-Defaulting Party, as appropriate.
+Notwithstanding any provision to the contrary contained in the Agreement, the Non-Defaulting Party shall not be required to pay to the Defaulting Party any amount under this Article Six until all other obligations of any kind whatsoever of the Defaulting Party to make any payments to the Non-Defaulting Party or any of its Affiliates under the Agreement or otherwise which are due and payable as of the Early Termination Date hereof have been fully and finally performed.
+
+Notice of Payment of Termination Payment.  As soon as practicable after a liquidation, notice shall be given by the Non-Defaulting Party to the Defaulting Party of the amount of the Termination Payment and whether the Termination Payment is due to or due from the Non-Defaulting Party.  The notice shall include a written statement explaining in reasonable detail the calculation of such amount.  The Termination Payment shall be made, as liquidated damages and not as a penalty, by the Party that owes it within two (2) Business Days after such notice is effective.
+Disputes With Respect to Termination Payment.  If the Defaulting Party disputes the Non-Defaulting Party’s calculation of the Termination Payment, in whole or in part, the Defaulting Party shall, within two (2) Business Days of receipt of the Non-Defaulting Party’s calculation of the Termination Payment, provide to the Non-Defaulting Party a detailed written explanation of the basis for such dispute; provided, however, that if the Termination Payment is due from the Defaulting Party, the Defaulting Party shall, prior to or concurrently with, and within the time frame required for, providing such notice of dispute, provide Performance Assurance to the Non-Defaulting Party in an amount equal to the entire amount of the Termination Payment as calculated by the Non-Defaulting Party and such notice of dispute shall not be effective for any purpose unless and until such Performance Assurance is provided.  If Performance Assurance is required to be provided by the Defaulting Party pursuant to this Section 6.5 and either the notice of dispute or the Performance Assurance (or both) are not provided within two (2) Business Days of receipt of the Non-Defaulting Party’s calculation of the Termination Payment as required herein, the Non-Defaulting Party’s calculation shall conclusively be and be deemed to conclusively be correct for all purposes.
+Closeout Setoffs.  After calculation of a Termination Payment in accordance with Section 6.3, if the Defaulting Party would be owed the Termination Payment, the Non-Defaulting Party shall be entitled, at its option and in its sole and arbitrary discretion, to Set-off against such Termination Payment any amounts due and owing by the Defaulting Party or any of its Affiliates to the Non-Defaulting Party or any of its Affiliates under any other agreements, obligations, instruments or undertakings between the Defaulting Party or any of its Affiliates and the Non-Defaulting Party or any of its Affiliates.  The remedy provided for in this Section 6.6 shall be without prejudice and in addition to, and each Party hereby reserves to itself any and all rights of, Set-off, combination of accounts, lien or other right to which any Party is at any time otherwise entitled (whether under the Agreement, by operation of law, equity, contract or otherwise). 
+Suspension of Performance.  Notwithstanding any other provision of this Master Agreement, if (a) an Event of Default or (b) a Potential Event of Default shall have occurred and be continuing, the Non-Defaulting Party, upon written notice to the Defaulting Party, shall have the right (y) to suspend performance under any or all Transactions; provided, however, in no event shall any such suspension continue for longer than ten (10) Business Days with respect to any single Transaction unless an Early Termination Date shall have been declared and notice thereof pursuant to Section 6.2 given, and (z) to the extent an Event of Default shall have occurred and be continuing, to exercise any remedy available at law, in equity, by contract or otherwise. 
+Other Events.  In the event Buyer is regulated by a federal or Provincial regulatory body, and such body shall disallow all or any portion of any costs incurred or yet to be incurred by Buyer under any provision of the Agreement, such action shall not operate to excuse Buyer from performance of any obligation nor shall such action give rise to any right of Buyer to any refund or retroactive adjustment of the Contract Price.  Notwithstanding the foregoing, if a Party's activities under any Transaction become subject to regulation of any kind whatsoever, except for New Taxes, to a greater or different extent than that existing at the time such Transaction becomes effective (the “Affected Transaction”), and such regulation either (a) renders the Affected Transaction illegal or incapable of being performed, or (b) materially adversely affects the business of such Party, with respect to its financial position or otherwise, then either Party, in the case of (a) above, or any such Party whose business is materially adversely affected in the case of (b) above, may elect, by written notice to the other Party, to terminate the Affected Transaction(s) only, effective as of the first day of the second month immediately following the giving of such notice.  If the Affected Transaction(s) are terminated pursuant to this Section 6.8, then the Party who receives the notice of early termination of the Affected Transaction(s) (the “Calculating Party”) shall calculate its Termination Payment for the Affected Transaction(s) only, in accordance with Section 6.3, as if the Calculating Party were a Non-Defaulting Party.  The Calculating Party shall, subject to the provision of Section 6.5 applying mutatis mutandis to the Calculating Party as if it were the Notifying Party, and to the other Party as if it were the Defaulting Party, give the other Party written notice of the amount of the Termination Payment, stating in reasonable detail how the amount was calculated (the “Calculating Party’s Notice”), and (a) if the Calculating Party is considered to have incurred a net Gain on the termination of the Affected Transaction(s), the Calculating Party shall pay one-half of such net Gain to the other Party; or (b) if the Calculating Party is considered to have incurred a net Loss (the “Calculating Party’s Deemed Loss”), the other Party shall pay to the Calculating Party an amount equal to one-half of the Calculating Party’s Deemed Loss.  Payment shall be made within ten (10) days of the date that the Calculating Party’s Notice is received by the other Party.  The intent of this Section 6.8 is to leave neither Party with an unfair burden as a result of adverse regulatory changes.
+PAYMENT AND NETTING
+Invoice Date and Charges.  
+(a) By the twentieth day of each month following the month in which any Product was delivered (the “Delivery Month”) under a Transaction, Seller shall send or fax to Buyer a statement setting forth the Quantity which was delivered under each Transaction for the applicable Delivery Month, the Contract Price, the amount of GST, and the total amount due.  Billing and payment will be based on actual delivered Quantities.  If actual Quantities are not available by the billing date, billing and payment will be prepared based upon the scheduled contract Quantities and, in that case, differences between scheduled Quantities and actual Quantities delivered and received in the applicable Delivery Month will be corrected or settled in cash, Product or by netting, as the Parties may agree.
+(b) If for any Delivery Month, the Contract Price calculation results in an amount that is less than zero (the absolute value of that amount being the “Seller’s Amount”), Seller shall, nevertheless, deliver the Product as provided under the applicable Transaction, provided that the Contract Price payable by Buyer for the Product delivered in such Delivery Month shall be zero, and Seller shall pay Buyer an amount equal to the Seller’s Amount, multiplied by the Quantity, multiplied by the number of days in the applicable Delivery Month (the “Seller’s Payment”); provided, however, “Seller’s Amount” shall not be payable with respect to any Product that was not delivered or not received due to Force Majeure or not received due to a Buyer’s failure described in Section 5.2.  Buyer shall invoice Seller for the Seller’s Payment, plus GST, on or before the twentieth day of the calendar Month following such Delivery Month.
+
+Payment Date.  Buyer shall pay, or if sub-section 7.1(b) applies, Seller shall pay, the amount due in sufficient time to ensure that the payee receives such amount on or before the Payment Date (defined below).  “Payment Date” means the twenty-fifth day of the month in which the statement was received, provided that if the twenty-fifth day is a Saturday or Canadian statutory holiday, other than a Monday, then payment shall be made on the immediately preceding Business Day; if the twenty-fifth day is a Sunday or a Canadian statutory holiday falling on a Monday, then payment shall be made on the immediately following Business Day.  If presentation of the written statement is delayed after the twentieth day of the month, the Payment Date shall be delayed for a like period unless the payor is primarily responsible for such delay.  Payment shall be made in immediately available funds by wire transfer, or by cheque, to the payee’s account or address designated on the Cover Sheet.
+Late Payment.  Any amounts not paid by the due date will be deemed delinquent and will accrue interest at the Interest Rate, both before and after judgment, such interest to be calculated from and including the due date to but excluding the date the delinquent amount, including interest, is paid in full.
+Disputes and Adjustments of Invoices.  A Party may, in good faith, dispute the correctness of any invoice or any adjustment to an invoice rendered under this Agreement or adjust any invoice for any arithmetic or computational error within ten (10) Business Days of the date the invoice or adjustment to an invoice was rendered.  In the event an invoice or portion thereof, or any other claim or adjustment arising hereunder, is disputed, payment of the undisputed portion of the invoice shall be required to be made when due, with notice of the objection given to the other Party.  Any billing dispute or billing adjustment shall be in writing and shall state the basis for the dispute or adjustment.  Payment of the disputed amount shall not be required until the dispute is resolved; provided, however, that the disputing Party shall, prior to or concurrently with, and within the time frame for, providing notice of dispute, provide Performance Assurance to the billing Party in an amount equal to the entire amount of the disputed amount and such notice of dispute shall not be effective for any purpose unless and until such Performance Assurance is provided.  Upon resolution of the dispute, any required payment shall be made within two (2) Business Days of such resolution along with interest accrued at the Interest Rate from and including the due date to but excluding the date paid.  Inadvertent overpayments shall be returned upon request or deducted by the Party receiving such overpayment from subsequent payments, with interest accrued at the Interest Rate from and including the date of such overpayment to but excluding the date repaid or deducted by the Party receiving such overpayment.  Any dispute with respect to an invoice is waived unless the billing Party is both notified and provided with Performance Assurance in accordance with this Section 7.4 within ten (10) Business Days after the invoice is rendered or any specific adjustment to the invoice is made.  If an invoice is not rendered within twelve (12) months after the close of the month during which performance of a Transaction occurred, the right to payment for such performance is waived.
+Netting.  The Parties hereby agree that they shall discharge mutual debts and payment obligations due and owing to each other on the same date pursuant to all Transactions through netting, in which case all amounts owed by each Party to the other Party for the purchase and sale of Products during any billing period under this Master Agreement, including any related liquidated damages calculated pursuant to Article Five (unless one of the Parties elects to accelerate payment of such amounts as permitted by Article Five), interest, and payments or credits, shall be netted so that only the excess amount remaining due shall be paid by the Party who owes it.  
+Payment Obligation Absent Netting.  If no mutual debts or payment obligations exist and only one Party owes a debt or obligation to the other during any billing period, including, but not limited to, any related liquidated damage amounts calculated pursuant to Article Five, interest, and payments or credits, that Party shall pay such sum in full when due. 
+Security.  Except pursuant to Section 6.3, all amounts netted pursuant to Section 7.5 shall not take into account or include any Performance Assurance or any other form of collateral security then available to a Party pursuant to Section 6.1(g), Article Nine or the amount guaranteed by a Party’s Guarantor (if applicable) which may be in effect to secure a Party’s performance under the Agreement.
+Transaction Netting.  If the Parties enter into one or more Transactions, which in conjunction with one or more other outstanding Transactions, constitute Offsetting Transactions, then the Parties may agree that all such Offsetting Transactions may be netted into a single Transaction under which:
+
+the Party obligated to deliver the greater amount of Product will deliver the difference between the total amount it is obligated to deliver and the total amount to be delivered to it under the Offsetting Transactions, and
+the Party owing the greater aggregate payment will pay the net difference owed between the Parties.
+Each single Transaction resulting under this Section 7.8 shall be deemed part of the single, indivisible contractual arrangement between the Parties, and once such resulting Transaction occurs, outstanding obligations under the Offsetting Transactions which are satisfied by such offset shall terminate.
+
+LIMITATIONS
+Limitation of Remedies, Liability and Damages.  Except as set forth herein, there is no warranty of merchantability or fitness for a particular purpose, and any and all implied warranties are disclaimed.  The parties confirm that the express remedies and measures of damages provided in the Agreement satisfy the essential purposes hereof.  For breach of any provision of the Agreement for which an express remedy or measure of damages is provided (including, without limitation, pursuant to Sections 5.1, 5.2, 6.2, 6.3, 6.5, 6.6, and 6.8, Article Ten or Section 11.15), the obligor’s liability shall be limited as set forth in such provision, as the sole and exclusive remedy, and all other remedies or damages at law or in equity are waived.  If no remedy or measure of damages is expressly provided, the obligor’s liability shall be limited to direct actual damages only, as the sole and exclusive remedy, and all other remedies or damages at law or in equity are waived.  Unless expressly provided in the Agreement, neither Party shall be liable for consequential, indirect, incidental, exemplary or punitive damages, in tort, equity, contract or otherwise.  To the extent any payment is required pursuant to Sections 5.1, 5.2, 6.2, 6.3, 6.5, 6.6, and 6.8, Article Ten or Section 11.15, the Parties acknowledge that the damages are difficult or impossible to determine and that such payment constitutes liquidated damages as a reasonable estimate of the amount of damages.
+
+
+
+CREDIT AND COLLATERAL REQUIREMENTS
+Party A Credit Protection.  
+
+Financial Information.  If requested by Party A, Party B shall deliver (i) within one hundred twenty (120) days following the end of each fiscal year of Party B or its Guarantor (if applicable), a copy of the annual report of Party B or its Guarantor (if applicable) containing audited consolidated financial statements for such fiscal year certified by independent chartered or certified public accountants and (ii) within sixty (60) days after the end of each of the first three fiscal quarters of each fiscal year, a copy of quarterly report of Party B or its Guarantor (if applicable) containing unaudited consolidated financial statements for such fiscal quarter.  In all cases the statements shall be for the most recent accounting period and shall be prepared in accordance with GAAP. 
+Credit Assurances.  If Party A has reasonable grounds to believe that Party B’s creditworthiness or performance under this Agreement has become unsatisfactory, Party A will provide Party B with written notice requesting Performance Assurance in an amount determined by Party A in a commercially reasonable manner.  Upon receipt of such notice, Party B shall have three (3) Business Days to remedy the situation by providing such Performance Assurance to Party A.  In the event that Party B fails to provide such Performance Assurance within three (3) Business Days of receipt of notice, then an Event of Default under Article Six will be deemed to have occurred and Party A will be entitled to the remedies set forth in Article Six of this Master Agreement.
+Collateral Threshold.  If at any time and from time to time during the term of the Agreement (and notwithstanding whether an Event of Default has occurred), the Termination Payment that would be owed to Party A (as determined by Party A in a commercially reasonable manner) exceeds the Party B Collateral Threshold, then Party A, on any Business Day, may request that Party B provide Performance Assurance in an amount equal to the amount by which the Termination Payment exceeds the Party B Collateral Threshold (rounding upwards for any fractional amount to the next Party B Rounding Amount) ("Party B Performance Assurance"), less any Party B Performance Assurance already posted with Party A.  Such Party B Performance Assurance shall be delivered to Party A within three (3) Business Days of the date of such request.  On any Business Day (but no more frequently than weekly with respect to Letters of Credit) either Party may request that such Party B Performance Assurance be adjusted correspondingly to the amount of such excess Termination Payment outstanding at that time (rounding upwards for any fractional amount to the next Party B Rounding Amount).  In the event that Party B fails to provide Party B Performance Assurance pursuant to the terms of this Article Nine within three (3) Business Days, then an Event of Default under Article Six shall be deemed to have occurred and Party A will be entitled to the remedies set forth in Article Six of this Master Agreement. 
+For purposes of this Section 9.1(c), the calculation of the Termination Payment shall be calculated pursuant to Section 6.3 by Party A as if all outstanding Transactions had been liquidated, and in addition thereto, shall include all amounts owed but not yet paid by Party B to Party A, whether or not such amounts are due, for performance already provided pursuant to any and all Transactions.
+
+Guarantee.  If requested by Party A and in order to secure all payment obligations of Party B to Party A hereunder, Party B shall deliver to Party A, prior to or concurrently with the execution and delivery of this Master Agreement, a guarantee by Party B’s Guarantor in an amount not less than Party B’s Guarantee Amount and in the form attached hereto as Schedule D.
+Party B Credit Protection.  
+
+Financial Information.  If requested by Party B, Party A shall deliver (i) within one hundred and twenty (120) days following the end of each fiscal year of Party A’s Guarantor, a copy of the annual report of Party A’s Guarantor containing audited consolidated financial statements for such fiscal year certified by independent certified public accountants and (ii) within sixty (60) days after the end of each of the first three fiscal quarters of each fiscal year of Party A’s Guarantor, a copy of the quarterly report of Party A’s Guarantor containing unaudited consolidated financial statements for such fiscal quarter.  In all cases the statements shall be for the most recent accounting period and shall be prepared in accordance with GAAP.  
+Credit Assurances.  If Party B has reasonable grounds to believe that Party A’s creditworthiness or performance under the Agreement has become unsatisfactory, Party B will provide Party A with written notice requesting Performance Assurance in an amount determined by Party B in a commercially reasonable manner.  Upon receipt of such notice, Party A shall have three (3) Business Days to remedy the situation by providing such Performance Assurance to Party B.  In the event that Party A fails to provide such Performance Assurance within three (3) Business Days of receipt of notice, then an Event of Default under Article Six will be deemed to have occurred and Party B will be entitled to the remedies set forth in Article Six of this Master Agreement.
+Collateral Threshold.  If at any time and from time to time during the term of the Agreement (and notwithstanding whether an Event of Default has occurred), the Termination Payment that would be owed to Party B (as determined by Party B in a commercially reasonable manner) exceeds the Party A Collateral Threshold, then Party B, on any Business Day, may request that Party A provide Performance Assurance in an amount equal to the amount by which the Termination Payment exceeds the Party A Collateral Threshold (rounding upwards for any fractional amount to the next Party A Rounding Amount) ("Party A Performance Assurance"), less any Party A Performance Assurance already posted with Party B.  Such Party A Performance Assurance shall be delivered to Party B within three (3) Business Days of the date of such request.  On any Business Day (but no more frequently than weekly with respect to Letters of Credit), either Party may request that such Party A Performance Assurance be adjusted correspondingly to the amount of such excess Termination Payment outstanding at that time (rounding upwards for any fractional amount to the next Party A Rounding Amount).  In the event that Party A fails to provide Party A Performance Assurance pursuant to the terms of this Article Nine within three (3) Business Days, then an Event of Default under Article Six shall be deemed to have occurred and Party B will be entitled to the remedies set forth in Article Six of this Master Agreement. 
+For purposes of this Section 9.2(c), the calculation of the Termination Payment shall be calculated pursuant to Section 6.3 by Party B as if all outstanding Transactions had been liquidated, and in addition thereto, shall include all amounts owed but not yet paid by Party A to Party B, whether or not such amounts are due, for performance already provided pursuant to any and all Transactions.
+
+Guarantee. If requested by Party B and in order to secure all payment obligations of Party A to Party B hereunder, Party A shall deliver to Party B, prior to or concurrently with the execution and delivery of this Master Agreement, a guarantee by Party A’s Guarantor in an amount not less than Party A’s Guarantee Amount and in the form attached hereto as Schedule C.
+Grant of Security Interest/Remedies.  To secure its obligations under this Agreement and to the extent either or both Parties deliver Performance Assurance hereunder, each Party (a "Pledgor") hereby grants to the other Party (the "Secured Party") a present and continuing security interest in, and lien on (and right of Set-off against), and assignment of, all money, accounts, amounts payable, cash and cash equivalent collateral, and any and all proceeds resulting therefrom or the liquidation thereof, whether now or hereafter held by, on behalf of, or for the benefit of, such Secured Party, and each Party agrees to take such action as the other Party reasonably requires in order to perfect the Secured Party’s first-priority security interest in, and lien on (and right of setoff against), such collateral and any and all proceeds resulting therefrom or from the liquidation thereof.  
+GOVERNMENTAL CHARGES
+Cooperation.  Upon request, a Party shall provide a certificate of exemption or other evidence of exemption from any Tax and each Party agrees to act reasonably to cooperate with the other Party in obtaining any exemption and minimizing Taxes.
+Governmental Charges.  Seller shall pay, or cause to be paid or reimburse Buyer if Buyer has paid, all Taxes on or with respect to the Product or a Transaction arising prior to the Delivery Point and Seller shall indemnify, defend and hold Buyer harmless for any Claims for such Taxes.  Buyer shall pay, or cause to be paid or reimburse Seller if Seller has paid, all Taxes on or with respect to the Product or a Transaction at and from the Delivery Point (other than ad valorem, franchise or income taxes which are related to the sale of the Product and are, therefore, the responsibility of the Seller) and Buyer shall indemnify, defend and hold Seller harmless for any Claims for such Taxes.  In the event Seller is required by law or regulation to remit or pay Taxes which are Buyer’s responsibility hereunder, Buyer shall promptly reimburse Seller for such Taxes.  If Buyer is required by law or regulation to remit or pay Taxes which are Seller’s responsibility hereunder, Buyer may deduct the amount of any such Taxes from the sums due to Seller under Article 7 of this Agreement.  Nothing shall obligate or cause a Party to pay or be liable to pay any Taxes for which it is exempt under law.
+GST.  The Contract Price to be paid hereunder does not include any GST payable by Buyer in respect of Product delivered hereunder.  If any GST is payable in connection with Product purchased hereunder, such GST shall be paid by Buyer to Seller, as agent for the Crown, and Seller shall remit such GST as required by law.  If any GST is payable in connection with payments to be made either under this Agreement or in connection with a breach hereof, the Party obligated to make the payment shall also pay the GST to the Party entitled to receive the payment, and the recipient shall remit such GST to the Crown.
+New Taxes.  
+ (a) If (i) a New Tax is imposed on the purchase and sale of Product under any Transaction (the “New Tax Transaction”) and (ii) Buyer or Seller would be responsible for such New Tax if it were a Tax under Section 10.2 and (iii) such New Tax is, due to and on the basis of laws, regulations and applicable contracts of Buyer in effect as of the effective date of the New Tax, one which Buyer can pass directly through to, or be reimbursed by, another Person or entity in the chain of Product supply, such Buyer shall pay or cause to be paid, or reimburse Seller if Seller has paid, all such New Taxes and Buyer shall indemnify, defend and hold harmless Seller from any Claims for such New Taxes; provided, if Buyer does not identify its contracts for long-term fixed sourcing in the ordinary course of its business and cannot identify applicable contracts, this Paragraph (a) shall not apply.   
+ (b)  If (i) a New Tax is imposed on the purchase and sale of Product under any Transaction(s), and (ii) either Buyer or Seller would be responsible for such New Tax if it were a Tax under Section 10.2 and (iii) Paragraph (a) does not apply, such responsible Buyer or Seller (the “Taxed Party”) shall bear such taxes prior to and throughout the initial Agreement Period (defined below) as if the New Tax were Taxes as provided in Section 10.2.  The Taxed Party may elect, upon thirty (30) days’ written notice (the “Agreement Period”) to the other Party (the “non-Taxed Party”), to terminate the New Tax Transaction(s) only; provided, however, such notice shall be given no later than ninety (90) days after the later of the enactment of or the effective date of the relevant New Tax.  After the Taxed Party has provided such notice, Buyer and Seller shall attempt to reach a mutual agreement as to the sharing of the New Tax.  If a mutual sharing agreement is not reached, the non-Taxed Party shall have the right, but not the obligation, upon written notice to the Taxed Party within the Agreement Period, to pay the New Tax for any continuous period it so elects on a month to month basis, and in such case the New Tax Transaction(s) shall not terminate, and the Taxed Party’s notice to elect to terminate the New Tax Transaction(s) shall be deemed to have been withdrawn, and the Taxed Party shall not have the right during such continuous period to again elect to terminate the New Tax Transaction(s) on the basis of that New Tax.  If the non-Taxed Party agrees to pay the New Tax on a month to month basis, then upon thirty (30) days’ prior written notice to the Taxed Party of its election to cease payment of such New Tax, the Taxed Party shall then be liable for the payment of the New Tax after such notice period and the Parties shall again be subject to this Section 10.4(b) as if the New Tax had an effective date as of the date the non-Taxed Party ceases payment of such New Tax.  If a mutual sharing agreement is not reached and the non-Taxed Party does not elect within the Agreement Period to pay the New Tax for any period of time after the Agreement Period, the Taxed Party may terminate the New Tax Transaction(s) only, at the end of the Agreement Period, by giving at least thirty (30) days’ written notice thereof to the non-Taxed Party.  The non-Taxed Party shall calculate the Termination Payment for the terminated New Tax Transactions in accordance with Section 6.3, as if the non-Taxed Party were a Non-Defaulting Party.  The non-Taxed Party shall give the Taxed Party written notice of the amount of the Termination Payment, stating in reasonable detail how the amount was calculated (the “Non-Taxed Party’s Notice”), and (a) if the non-Taxed Party is considered to have incurred a gain on the termination of the New Tax Transaction(s), the non-Taxed Party shall pay one-half of such gain to the Taxed Party; or (b) if the non-Taxed Party is considered to have incurred a loss (the “Non-Taxed Party’s Deemed Loss”), the Taxed Party shall pay to the non-Taxed Party an amount equal to one-half of the Non-Taxed Party’s Deemed Loss.  Payment shall be made within ten (10) days of the Taxed Party’s receipt of the Non-Taxed Party’s Notice.  The intent of this Section 10.4 is to leave neither Party with an unfair burden as a result of New Taxes.
+
+MISCELLANEOUS
+Term of Master Agreement.  The term of this Master Agreement shall commence on the Effective Date and shall remain in effect until terminated by either Party upon thirty (30) days’ prior written notice to the other Party; provided, however, that such termination shall not affect or excuse the performance of either Party under any provision of this Master Agreement that by its terms survives any such termination and, provided further, that this Master Agreement and any other documents executed and delivered hereunder shall remain in effect with respect to the Transaction(s) entered into prior to the effective date of such termination until both Parties have fulfilled all of their obligations with respect to such Transaction(s), or such Transaction(s) that have been terminated under Section 6.2 of the Agreement.
+Title and Risk of Loss and Indemnity.  As between the Parties, (a) Seller shall be deemed to be in exclusive control and possession of the Product deliverable hereunder and responsible for any injury or damage caused thereby prior to the time it is delivered to Buyer, and (b) upon delivery of such Product to Buyer at the Delivery Point, Buyer shall be deemed to be in exclusive control and possession thereof and responsible for any injury or damage caused thereby.  Title to the Product delivered hereunder shall pass from Seller to Buyer at the applicable Delivery Point.  Seller and Buyer each assume full responsibility and liability for and shall indemnify and hold harmless the other Party from all liability and expense on account of any and all Claims, including injury to and death of Persons, arising from any act or incident occurring when title to the Product is vested in the indemnifying Party.
+Transfer or Assignment.  Neither Party shall transfer or assign the Agreement or its rights thereunder without the prior written approval of the other Party, which approval may be withheld or given entirely at the option of such Party; provided, however, either Party may (a) transfer, sell, pledge, encumber or assign the Agreement or the accounts, revenues or proceeds hereof in connection with any financing or other financial arrangements, (b) transfer or assign the Agreement or its interest hereunder to any of its Affiliates, or (c) transfer or assign the Agreement to any Person or entity succeeding to all or substantially all of the assets of such Party, all without the prior written approval of the other Party, but no such assignment will relieve the assigning Party of its obligations hereunder.  Any Party’s transfer or assignment or purported transfer or assignment in violation of this Section 11.3 shall be void.
+Applicable Law.  The Agreement shall be governed by and construed, enforced, and performed in accordance with the laws in force in the Governing Jurisdiction, without regard to principles of conflicts of law, and each Party hereby submits to the non-exclusive jurisdiction of the courts of the Governing Jurisdiction.
+Notices.  All notices, requests, statements, payments or communications made pursuant to the Agreement shall be made as specified in the Cover Sheet.  Notices (other than scheduling requests) shall, unless otherwise specified herein, be in writing and may be delivered by hand delivery, mail, overnight courier service or facsimile.  Notice sent by facsimile during normal business hours shall be deemed to have been received by the close of the Business Day on which it was transmitted or, if sent after normal business hours, at the commencement of the next Business Day, or such earlier time as is confirmed by the receiving Party.  Notice delivered by direct or overnight courier shall be deemed to have been received on the Business Day after it was sent or such earlier time as is confirmed by the receiving Party.  Notice delivered by mail shall be deemed to have been received at the end of the fourth Business Day after the date of mailing by prepaid registered mail, except that when there is a strike affecting delivery of mail, all notices shall be delivered by courier or by facsimile.
+Indemnification Procedures.  With respect to each indemnification included in the Agreement, the following provisions shall be applicable.  The indemnified Party shall promptly notify the indemnifying Party in writing of any Claim and the indemnifying Party shall have the right to assume the investigation and defense thereof, including the employment of counsel, and shall be obligated to pay the related counsel fees; provided, the indemnified Party shall have the right to employ separate counsel and participate in the defense of any Claim; however, the fees of such counsel shall be paid by the indemnified Party unless the employment of such counsel has been consented to in writing by the indemnifying Party or the indemnifying Party has failed to assume the defense and employ counsel in a timely manner; provided further, if the named parties to any Claim include both Parties, and the indemnified Party shall have been advised by counsel that there may be a legal defense available to it which is different from those available to the indemnifying Party, the indemnified Party may elect to employ separate counsel at the expense of the indemnifying Party, in which case the indemnifying Party shall pay all fees of such counsel and shall not have the right to assume the defense of the Claim on behalf of the indemnified Party.  The Parties shall use reasonable efforts to cooperate in the defense of any Claim.  The indemnifying Party shall not be liable for any settlement of a Claim without its express written consent thereto.  The indemnified Party shall reimburse the indemnifying Party for payments made or costs incurred in respect of an indemnity with the proceeds of any judgment, insurance, bond, surety or other recovery made with respect to an event covered by the indemnity.
+Non-Waiver.  No waiver by either Party hereto of any one or more defaults by the other in the performance of any provisions of the Agreement shall be construed as a waiver of any other default whether of a like kind or of a different nature.  Except as otherwise expressly stated herein, failure of a Party to complain of any act or to declare the other Party in default, or to elect to terminate the Agreement or any Transaction, regardless of how long such failure continues, shall not constitute a waiver thereof until the applicable statute of limitations period has expired.
+Merged Document.  The Agreement, including all exhibits hereto, any Performance Assurance, designated collateral, credit support or margin agreement or similar arrangement between the Parties with respect hereto and any and all Transactions, constitute the entire agreement between the Parties.  There are no prior or contemporaneous agreements or representations (oral or written) affecting the subject matter hereof other than those herein expressed.  
+Exclusion of Third Party Rights.  The provisions of the Agreement shall not impart rights enforceable by any Person, firm or organization not either a Party to the Agreement or a successor or permitted assignee of a Party.
+Severability.  Except as otherwise stated herein, if any provision, Article or Section of the Agreement is declared or rendered unlawful by a court of law or Governmental Authority with jurisdiction over the Parties or deemed unlawful because of a statutory change, the remaining lawful obligations that arise under the Agreement shall be unaffected and, to the extent necessary, the Parties shall use reasonable efforts to amend or restate the Agreement, in order to give effect to the original intention of the Parties.
+Headings and Exhibits.  The headings used for the Articles and Sections herein are for convenience and reference purposes only and shall in no way affect the meaning or interpretation of the provisions of this Master Agreement.  All exhibits referenced in the Agreement are hereby incorporated for all purposes.
+General.  The Agreement shall be considered for all purposes as prepared through the joint efforts of the Parties and shall not be construed against one Party or the other as a result of the preparation, substitution, submission or other event of negotiation, drafting or execution hereof.  Except to the extent herein provided for, no amendment or modification to this Master Agreement shall be enforceable unless reduced to writing and executed by both Parties.  Each Party agrees that, if it seeks to amend any applicable wholesale power sales tariff during the term of the Agreement, such amendment will not in any way affect outstanding Transactions under this Master Agreement without the prior written consent of the other Party.  Each Party further agrees that it will not assert, or defend itself, on the basis that any applicable tariff is inconsistent with the Agreement.  The term "including" when used in the Agreement shall be by way of example only and shall not be considered in any way to be in limitation.  The Agreement shall be binding on each Party’s successors and permitted assigns.
+Audit.  Each Party (and its representatives) shall have the right, at its sole cost and expense, upon reasonable notice and at reasonable times, to examine the books and records of the other Party to the extent reasonably necessary to verify the accuracy of any billing statement, payment demand, charge, payment or computation made under any Transaction or pursuant to this Master Agreement during the immediately preceding twenty-four (24) months.  If requested, a Party shall provide to the other Party statements evidencing the Quantity delivered at the Delivery Point.  Subject expressly to Section 7.4, if any such examination reveals any inaccuracy in any statement, the necessary adjustments in such statement and the payments thereof will be made promptly and shall bear interest calculated at the Interest Rate from the date the overpayment or underpayment was made until paid; provided, however, that no adjustment for any statement or payment will be made unless objection to the accuracy thereof was made prior to the lapse of twenty-four (24) months from the rendition thereof, and thereafter any objection shall be deemed waived.  For each Transaction, the Parties shall retain all relevant records for twenty-four (24) months following any billing month.
+Eligible Financial Contract.  This Agreement, including all Transactions under this Agreement and any Performance Assurance and any guarantee thereof by Customer’s Guarantor or Enron Canada’s Guarantor, as applicable, each and together constitute an “eligible financial contract” under and in all proceedings related to the Bankruptcy and Insolvency Act, the CCAA or the Winding-up and Restructuring Act and will be treated similarly under and in all proceedings related to any bankruptcy, insolvency or similar law (regardless of the jurisdiction of application or competence of such law) or any ruling, order, directive or pronouncement made pursuant thereto.  
+Confidentiality.  Each Party shall not disclose the terms of any Transaction to a third party (other than the Party’s and its Affiliates’ employees, lenders, counsel, accountants, advisors or prospective purchasers of any rights under any Transactions who have agreed to keep such terms confidential) except in order to comply with any applicable law, order, regulation or any exchange, control area or independent system operator rule or in connection with any court or regulatory proceeding or to effectuate transmission of a Product hereunder; provided each Party shall notify the other Party of any proceeding of which it is aware which may result in disclosure and use reasonable efforts to prevent or limit the disclosure.  The provisions of this Master Agreement other than the terms of any Transaction are not subject to this confidentiality obligation.  The Parties shall be entitled to all remedies available at law or in equity to enforce, or seek relief in connection with, this confidentiality obligation; provided, all monetary damages shall be limited in accordance with Section 8.1.
+Currency Conversions.  If, on any date of determination, it is necessary to convert a dollar amount referred to in this Agreement to or from the currency of Canada, to or from the currency of the United States, such currency conversion shall be affected using the “noon spot rate” for currency exchange as quoted by the Bank of Canada in Ottawa, Ontario, at or near 12:00 noon, EPT, on such date of determination.
+Further Assurances.  Each of the Parties shall, from time to time and at all times during the term of the Agreement, on reasonable written request to do so, do all such further acts and execute and deliver or cause to be done, executed or delivered all such further acts, deeds, documents, assurances and things as may be reasonably required in order to fully perform and to more effectively implement and carry out the terms of the Agreement.
+IN WITNESS WHEREOF, the Parties have caused this Master Agreement to be duly executed as of the date first above written.
+ENRON CANADA CORP.  Party B Name
+By:   By:  
+Name: P. Robson Milnthorp  Name:  
+Title: President & CEO  Title:  
+
+
+SCHEDULE A  
+PRODUCTS AND RELATED DEFINITIONS
+"Firm (LD)" means, with respect to a Transaction, that either Party shall be relieved of its obligations to sell and deliver or purchase and receive without liability only to the extent that, and for the period during which, such performance is prevented by Force Majeure in accordance with the provisions of Section 4.3.  In the absence of Force Majeure or upon expiry thereof in accordance with Section 4.3, the Party to which performance is owed shall be entitled to receive from the Party which failed to deliver/receive an amount determined pursuant to Article Five.
+"Non-Firm" means, with respect to a Transaction, that delivery or receipt of the Product may be interrupted for any reason or for no reason, without liability on the part of either Party.
+“Scheduled Firm” means, with respect to a Transaction, that the Product subject to the Transaction is intended to be supplied from a generation asset or assets specified in the Transaction.  Seller’s failure to deliver under a “Scheduled Firm” Transaction shall be excused:  (a) if such failure is solely the result of the failure of Seller to schedule the dispatch of the applicable generation asset, or (b) by Buyer’s failure to perform.  In any such events, Seller shall not be liable to Buyer for any damages, including any amounts determined pursuant to Article 5.  [For use with Alberta PPA]
+"Unit Firm" means, with respect to a Transaction, that the Product subject to the Transaction is intended to be supplied from a generation asset or assets specified in the Transaction.  Seller’s failure to deliver all or a portion of the Quantity under a "Unit Firm" Transaction shall be excused:  (a) if the specified generation asset(s) are made unavailable to prevent system separation during an emergency, provided Seller has exercised all prudent operating alternatives prior to the interruption or curtailment, or (b) by an event or circumstance that affects the specified generation asset(s) so as to prevent Seller from performing its obligations, which event or circumstance was not anticipated as of the date the Transaction was agreed to, and which is not within the reasonable control of, or the result of the negligence of, the Seller, or (c) by the unavailability of transmission capacity necessary for the delivery of scheduled energy, or (d) by Buyer’s failure to perform.  In any of such events, Seller shall not be liable to Buyer for any damages, including any amounts determined pursuant to Article Five.
+
+
+SCHEDULE B 
+MASTER POWER PURCHASE AND SALE AGREEMENT
+CONFIRMATION LETTER
+This Confirmation Letter shall confirm the Transaction agreed to on ___________, ___ between Enron Canada Corp. ("Party A") and _____________________ ("Party B") regarding the sale/purchase of the Product under the terms and conditions as follows:
+Seller:   
+Buyer:   
+Conditions Precedent (if any):   
+Product:  
+: Firm
+: Non-Firm             
+: Scheduled Firm 
+(Specify Unit(s):   )
+: Unit Firm
+(Specify Unit(s):   )
+: Other   
+Quantity:   
+Delivery Point:   
+Contract Price:  
+ Energy Price:   
+ Other Charges:   
+Period of Delivery:   
+Special Conditions:   
+Other:  
+  Locational Marginal Pricing:   
+  Registered Wholesale Meter Delivery Point:   
+  Interval Meter Delivery Point:   
+  Business Day Applicable Jurisdiction:   
+  Others:   
+Scheduling:   
+Confirmation Letter
+Page 2
+
+
+This Confirmation Letter is being provided pursuant to and in accordance with the Master Power Purchase and Sale Agreement dated ______________ (the "Master Agreement") between Party A and Party B, and constitutes part of and is subject to the terms and provisions of such Master Agreement.  Terms used but not defined herein shall have the meanings ascribed to them in the Master Agreement.
+Please confirm that the terms stated herein accurately reflect the agreement between you and Enron Canada by returning an executed copy of this Confirmation Letter by facsimile to Enron Canada.  We would appreciate it if you would send your fax back to us within one hour after you receive this Confirmation Letter.  Thank you for your timely cooperation.
+ENRON CANADA CORP.  [Party B]
+
+Name:    Name:   
+Title:    Title:   
+Phone No:    Phone No:   
+Fax:    Fax:   
+
+SCHEDULE C 
+PARTY A GUARANTEE
+
+CONFIDENTIAL GUARANTEE AGREEMENT
+
+This Guarantee Agreement (this “Guarantee”), dated as of _________, ______, is made and entered into between Enron Corp., an Oregon corporation (“Guarantor”), and ___________, a _________ corporation (“Contract Party”).
+WHEREAS, (a) Contract Party and Enron Canada Corp. (“Obligor”), a wholly owned indirect subsidiary of Guarantor, are contemplating entering into a Master Firm Power Purchase/Sale Agreement of even date herewith and herein incorporated for all purposes (said Agreement, as the same may be from time to time extended, amended and supplemented, particularly including, without limitation, all Transactions thereunder, the “Power Contract”), (b) Guarantor will directly or indirectly benefit from the Power Contract and (c) as a condition precedent to the execution of the Power Contract, Contract Party has required that Guarantor unconditionally guarantee to Contract Party all payment obligations of Obligor under the Power Contract.
+NOW THEREFORE, to induce Contract Party to enter into the Power Contract, Guarantor agrees as follows:
+
+1. PAYMENT GUARANTEE.  Guarantor absolutely, irrevocably and unconditionally guarantees to Contract Party all payment obligations of Obligor set forth in the Power Contract and interest thereon accrued as provided in the Power Contract (the “Obligations”); provided, the applicable rate of interest shall never exceed the maximum lawful rate permitted by law.  This Guarantee of payment is a continuing guarantee effective during the term of the Power Contract and until complete performance by Obligor of its obligations under the Power Contract and payment in full of all Obligations.  No notice of the Obligations or any Transaction need be given in any form to Guarantor at any time and Guarantor waives any such notice and the right to consent to the Obligations or any Transaction.  Guarantor waives any right to require as a condition to its obligations hereunder that (a) collateral be applied to the Obligations, (b) presentment or demand be made upon Obligor or (c) action be brought against Obligor or any other person or entity except Guarantor, should Contract Party seek to enforce the obligations of Guarantor.  Specifically, without limitation, Guarantor waives any right to require, substantively or procedurally, that (a) a judgment previously be rendered against Obligor or any other person or entity except Guarantor, (b) Obligor or any other person or entity be joined in any action against Guarantor or (c) an action separate from one against Guarantor be brought against Obligor or any other person or entity.  The obligations of Guarantor are several from those of Obligor or any other person or entity, including, without limitation, any other surety for Obligor, and are primary payment obligations concerning which Guarantor is the principal obligor.  To the extent Obligor shall fail to timely make payment of any Obligations, Guarantor shall satisfy its obligations hereunder regardless of whether Contract Party or any other person or entity shall have taken any steps to enforce its rights against Obligor or any other person or entity except Guarantor.  The obligations of Guarantor hereunder shall in no way be affected or impaired by reason, and Guarantor waives its right to prior notice, of the happening from time to time of any of the following:  (a) extensions (whether or not material) of the time for payment of all or any portion of the Obligations, (b) the modification or amendment in any manner (whether or not material) of the Power Contract or the Obligations, (c) except for applicable statutes of limitations, any failure, delay or lack of diligence on the part of Contract Party, or any other person or entity to enforce, assert or exercise any right, privilege, power or remedy conferred on Contract Party or any person or entity in the Power Contract or at law, or any action on the part of Contract Party or such other person or entity granting indulgence or extension of any kind, (d) the settlement or compromise of any Obligations, (e) the status, composition, structure or name of Obligor change, including, without limitation, by reason of merger, dissolution, consolidation or reorganization, (f) except for releases or waivers resulting from the rights or defenses of Obligor that Guarantor has reserved in Section 3, the release or waiver, by operation of law or otherwise, of the performance or observance by Obligor of any express or implied covenant, term or condition in the Power Contract, (g) the release or waiver, by operation of law or otherwise, of the performance or observance by any co-guarantor, surety, endorser or other obligor of any express or implied covenant, term or condition to be performed or observed by it under the Power Contract or related document and (h) the failure to acquire, perfect or maintain perfection of any lien on, or security interest in, any collateral provided by Obligor to Contract Party or the release of any such collateral or the release, modification or waiver of, or failure to enforce, any pledge, security device, guarantee, surety or other indemnity agreement in respect of such collateral.  Notwithstanding the foregoing, the liability of Guarantor hereunder shall be limited to direct, actual damages and, unless expressly provided in the Power Contract, Guarantor shall not be liable for consequential, incidental, punitive, exemplary or indirect damages, in tort, contract or otherwise, or any penalties or charges assessed by any person or entity for the unauthorized receipt of energy.  Upon 30 days’ written notice and with the prior written consent of Contract Party, which consent shall not be unreasonably withheld, this Guarantee may be replaced by (a) a guarantee in identical form made by a guarantor of equal or better creditworthiness, including Credit Ratings by nationally recognized credit rating agencies, taking into consideration all relevant information concerning corporate structure, all relevant financial information, both current and projected, and all effects on the enforceability of the replacement guarantee, or (b) a letter of credit in favor of Contract Party in the amount of the Maximum Limit (below defined), issued by a bank and in a form, each of which shall be reasonably satisfactory to Contract Party, taking into consideration all effects on the enforceability of the replacement letter of credit; provided, this Guarantee shall continue to apply to all Transactions in effect at the time this Guarantee is replaced until all such Transactions are completed and the replacement guarantee or letter of credit shall apply to only those Transactions formed after its execution and delivery.
+
+2. MAXIMUM LIMIT.  The amount covered by this Guarantee for all Obligations in respect of the aggregate of all Transactions under the Power Contract that ever shall be required to be paid by Guarantor shall not exceed [U.S.] $_________ million (the “Maximum Limit”); provided, this Guarantee shall cover and Guarantor shall pay, in addition to the Maximum Limit, all reasonable expenses, including, without limitation, legal fees, court costs and similar costs, of Contract Party in the event of judgment, settlement or other enforcement against Guarantor.  The Maximum Limit shall not be affected by the number or type of outstanding Transactions or the holding or application of any collateral by Contract Party.
+
+3. DEFENSES.  Other than as expressly waived in this Guarantee, Guarantor retains its own defenses and rights hereunder.  Guarantor waives all rights, setoffs, counterclaims and other defenses of Obligor relating to the Obligations, including, without limitation, all rights, setoffs, counterclaims and other defenses arising out of the bankruptcy, insolvency, dissolution or liquidation of Obligor.
+
+4. DEFAULT.  If Obligor fails or refuses to pay timely any Obligations, Contract Party may at its option exercise any or all of its rights, powers and remedies afforded hereunder and under all documents, if any, securing this Guarantee and may declare the unpaid amounts of all Obligations then owing under the Power Contract to be immediately due and payable, and thereupon such amounts shall be immediately due and payable without presentation and demand for payment, protest, notice of protest or dishonor, notice of default, notice of intent to accelerate or notice of acceleration to Guarantor or any other person or entity, all of which Guarantor hereby waives.
+
+5. REPRESENTATIONS AND WARRANTIES.  Guarantor represents and warrants that:  (a) it is a corporation duly organized and validly existing under the laws of the State or Province of its incorporation and has the power and authority to execute, deliver and carry out the terms and provisions of this Guarantee, (b) no authorization, approval, consent or order of, or registration or filing with, any court or other governmental body having jurisdiction over Guarantor is required on the part of Guarantor for the execution and delivery of this Guarantee and (c) assuming due authorization, execution and delivery hereof by Contract Party, this Guarantee constitutes a legal, valid and binding agreement of Guarantor enforceable in accordance with its terms, except as the enforceability thereof may be limited by the effect of any applicable bankruptcy, insolvency, reorganization, moratorium or similar laws affecting creditors' rights generally and by general principles of equity.
+
+6. FINANCIAL INFORMATION.  At the written request of Contract Party, Guarantor shall provide Contract Party with the financial information described in Section 9.2(a) of the Power Contract in accordance therewith.
+
+7. NOTICE.  All notices and communications made pursuant to this Guarantee shall be in writing and delivered personally or mailed by certified mail, postage prepaid and return receipt requested, or sent by facsimile, as follows:
+
+To Guarantor:
+
+Enron Corp.
+1400 Smith Street
+Houston, Texas  77251
+Attention:  Vice President, Finance and Treasurer
+Facsimile:  (713) 853-3920
+
+To Contract Party:
+
+    
+    
+    
+Attention:     
+Facsimile:     
+
+Notice given by personal delivery or mail shall be effective upon actual receipt.  Notice given by facsimile shall be effective upon actual receipt if received during recipient's normal business hours or at the beginning or recipient's next business day after receipt if not received during recipient's normal business hours.  Any party may change its address to which notice is to be given hereunder by providing notice of same in accordance with this Section 7.
+
+8. LAW, WAIVERS, MISCELLANEOUS.  This Guarantee shall in all respects be governed by, and construed in accordance with, the laws of the State of Texas, without regard to principles of conflicts of laws.  Guarantor waives all rights to require marshaling of assets and liabilities, sale in inverse order of alienation, notice of disposition of collateral and notice of acceptance of this Guarantee.  No term or provision of this Guarantee shall be amended, modified, altered, waived, supplemented or terminated except in a writing signed by the parties hereto.  All capitalized terms used in this Guarantee and not herein defined shall have the meanings attributed to them in the Power Contract.  This Guarantee shall be binding upon and inure to the benefit of and be enforceable by the respective successors and assigns of Guarantor and Contract Party.  This Guarantee embodies the entire agreement and understanding between Guarantor and Contract Party and supersedes all prior agreements and understandings relating to the subject matter hereof.  The headings in this Guarantee are for purposes of reference only, and shall not affect the meaning hereof.  This Guarantee may be executed in any number of counterparts, each of which shall be an original, but all of which together shall constitute one document.
+
+ IN WITNESS WHEREOF, the parties hereto have caused this Guarantee to be executed as of the day and year first above written.
+
+
+ENRON CORP.
+
+[PARTY B’S NAME]
+
+
+
+By:
+
+By:
+Title:
+
+Title:
+
+
+SCHEDULE D 
+PARTY B GUARANTEE
+
+CONFIDENTIAL GUARANTEE AGREEMENT
+
+This Guarantee Agreement (this “Guarantee”), dated as of __________, ______, is made and entered into between ________________, a _________ corporation (“Guarantor”), and Enron Canada Corp., an Alberta corporation (“Contract Party”).
+WHEREAS, (a) Contract Party and __________________ (“Obligor”), a wholly owned subsidiary of Guarantor, are contemplating entering into a Master Firm Power Purchase/Sale Agreement of even date herewith and herein incorporated for all purposes (said Agreement, as the same may be from time to time extended, amended and supplemented, particularly including, without limitation, all Transactions thereunder, the “Power Contract”), (b) Guarantor will directly or indirectly benefit from the Power Contract and (c) as a condition precedent to the execution of the Power Contract, Contract Party has required that Guarantor unconditionally guarantee to Contract Party all payment obligations of Obligor under the Power Contract.
+NOW THEREFORE, to induce Contract Party to enter into the Power Contract, Guarantor agrees as follows:
+1. PAYMENT GUARANTEE.  Guarantor absolutely, irrevocably and unconditionally guarantees to Contract Party all payment obligations of Obligor set forth in the Power Contract and interest thereon accrued as provided in the Power Contract (the “Obligations”); provided, the applicable rate of interest shall never exceed the maximum lawful rate permitted by law.  This Guarantee of payment is a continuing guarantee effective during the term of the Power Contract and until complete performance by Obligor of its obligations under the Power Contract and payment in full of all Obligations.  No notice of the Obligations or any Transaction need be given in any form to Guarantor at any time and Guarantor waives any such notice and the right to consent to the Obligations or any Transaction.  Guarantor waives any right to require as a condition to its obligations hereunder that (a) collateral be applied to the Obligations, (b) presentment or demand be made upon Obligor or (c) action be brought against Obligor or any other person or entity except Guarantor, should Contract Party seek to enforce the obligations of Guarantor.  Specifically, without limitation, Guarantor waives any right to require, substantively or procedurally, that (a) a judgment previously be rendered against Obligor or any other person or entity except Guarantor, (b) Obligor or any other person or entity be joined in any action against Guarantor or (c) an action separate from one against Guarantor be brought against Obligor or any other person or entity.  The obligations of Guarantor are several from those of Obligor or any other person or entity, including, without limitation, any other surety for Obligor, and are primary payment obligations concerning which Guarantor is the principal obligor.  To the extent Obligor shall fail to timely make payment of any Obligations, Guarantor shall satisfy its obligations hereunder regardless of whether Contract Party or any other person or entity shall have taken any steps to enforce its rights against Obligor or any other person or entity except Guarantor.  The obligations of Guarantor hereunder shall in no way be affected or impaired by reason, and Guarantor waives its right to prior notice, of the happening from time to time of any of the following:  (a) extensions (whether or not material) of the time for payment of all or any portion of the Obligations, (b) the modification or amendment in any manner (whether or not material) of the Power Contract or the Obligations, (c) except for applicable statutes of limitations, any failure, delay or lack of diligence on the part of Contract Party, or any other person or entity to enforce, assert or exercise any right, privilege, power or remedy conferred on Contract Party or any person or entity in the Power Contract or at law, or any action on the part of Contract Party or such other person or entity granting indulgence or extension of any kind, (d) the settlement or compromise of any Obligations, (e) the status, composition, structure or name of Obligor change, including, without limitation, by reason of merger, dissolution, consolidation or reorganization, (f) except for releases or waivers resulting from the rights or defenses of Obligor that Guarantor has reserved in Section 3, the release or waiver, by operation of law or otherwise, of the performance or observance by Obligor of any express or implied covenant, term or condition in the Power Contract, (g) the release or waiver, by operation of law or otherwise, of the performance or observance by any co-guarantor, surety, endorser or other obligor of any express or implied covenant, term or condition to be performed or observed by it under the Power Contract or related document and (h) the failure to acquire, perfect or maintain perfection of any lien on, or security interest in, any collateral provided by Obligor to Contract Party or the release of any such collateral or the release, modification or waiver of, or failure to enforce, any pledge, security device, guarantee, surety or other indemnity agreement in respect of such collateral.  Notwithstanding the foregoing, the liability of Guarantor hereunder shall be limited to direct, actual damages and, unless expressly provided in the Power Contract, Guarantor shall not be liable for consequential, incidental, punitive, exemplary or indirect damages, in tort, contract or otherwise, or any penalties or charges assessed by any person or entity for the unauthorized receipt of energy.  Upon 30 days’ written notice and with the prior written consent of Contract Party, which consent shall not be unreasonably withheld, this Guarantee may be replaced by (a) a guarantee in identical form made by a guarantor of equal or better creditworthiness, including Credit Ratings by nationally recognized credit rating agencies, taking into consideration all relevant information concerning corporate structure, all relevant financial information, both current and projected, and all effects on the enforceability of the replacement guarantee, or (b) a letter of credit in favor of Contract Party in the amount of the Maximum Limit (below defined), issued by a bank and in a form, each of which shall be reasonably satisfactory to Contract Party, taking into consideration all effects on the enforceability of the replacement letter of credit; provided, this Guarantee shall continue to apply to all Transactions in effect at the time this Guarantee is replaced until all such Transactions are completed and the replacement guarantee or letter of credit shall apply to only those Transactions formed after its execution and delivery.
+
+2. MAXIMUM LIMIT.  The amount covered by this Guarantee for all Obligations in respect of the aggregate of all Transactions under the Power Contract that ever shall be required to be paid by Guarantor shall not exceed [U.S.] $___ million (the “Maximum Limit”); provided, this Guarantee shall cover and Guarantor shall pay, in addition to the Maximum Limit, all reasonable expenses, including, without limitation, legal fees, court costs and similar costs, of Contract Party in the event of judgment, settlement or other enforcement against Guarantor.  The Maximum Limit shall not be affected by the number or type of outstanding Transactions or the holding or application of any collateral by Contract Party.
+
+3. DEFENSES.  Other than as expressly waived in this Guarantee, Guarantor retains its own defenses and rights hereunder.  Guarantor waives all rights, setoffs, counterclaims and other defenses of Obligor relating to the Obligations, including, without limitation, all rights, setoffs, counterclaims and other defenses arising out of the bankruptcy, insolvency, dissolution or liquidation of Obligor.
+
+4. DEFAULT.  If Obligor fails or refuses to pay timely any Obligations, Contract Party may at its option exercise any or all of its rights, powers and remedies afforded hereunder and under all documents, if any, securing this Guarantee and may declare the unpaid amounts of all Obligations then owing under the Power Contract to be immediately due and payable, and thereupon such amounts shall be immediately due and payable without presentation and demand for payment, protest, notice of protest or dishonor, notice of default, notice of intent to accelerate or notice of acceleration to Guarantor or any other person or entity, all of which Guarantor hereby waives.
+
+5. REPRESENTATIONS AND WARRANTIES.  Guarantor represents and warrants that:  (a) it is a corporation duly organized and validly existing under the laws of the State or Province of its incorporation and has the power and authority to execute, deliver and carry out the terms and provisions of this Guarantee, (b) no authorization, approval, consent or order of, or registration or filing with, any court or other governmental body having jurisdiction over Guarantor is required on the part of Guarantor for the execution and delivery of this Guarantee and (c) assuming due authorization, execution and delivery hereof by Contract Party, this Guarantee constitutes a legal, valid and binding agreement of Guarantor enforceable in accordance with its terms, except as the enforceability thereof may be limited by the effect of any applicable bankruptcy, insolvency, reorganization, moratorium or similar laws affecting creditors' rights generally and by general principles of equity.
+
+6. FINANCIAL INFORMATION.  At the written request of Contract Party, Guarantor shall provide Contract Party with the financial information described in Section 9.1(a) of the Power Contract in accordance therewith.
+
+7. NOTICE.  All notices and communications made pursuant to this Guarantee shall be in writing and delivered personally or mailed by certified mail, postage prepaid and return receipt requested, or sent by facsimile, as follows:
+
+To Guarantor:
+
+     
+     
+     
+Attention:   
+Facsimile:   
+
+
+To Contract Party:
+
+Enron Canada Corp.
+3500, 400 - 3rd Avenue S.W.
+Calgary, Alberta   T2P 4H2
+Attention:  Corporate Secretary
+Facsimile:  (403) 974-6707
+
+Notice given by personal delivery or mail shall be effective upon actual receipt.  Notice given by facsimile shall be effective upon actual receipt if received during recipient's normal business hours or at the beginning or recipient's next business day after receipt if not received during recipient's normal business hours.  Any party may change its address to which notice is to be given hereunder by providing notice of same in accordance with this Section 7.
+
+8. LAW, WAIVERS, MISCELLANEOUS.  This Guarantee shall in all respects be governed by, and construed in accordance with, the laws of the Province of Alberta, without regard to principles of conflicts of laws.  Guarantor waives all rights to require marshaling of assets and liabilities, sale in inverse order of alienation, notice of disposition of collateral and notice of acceptance of this Guarantee.  No term or provision of this Guarantee shall be amended, modified, altered, waived, supplemented or terminated except in a writing signed by the parties hereto.  All capitalized terms used in this Guarantee and not herein defined shall have the meanings attributed to them in the Power Contract.  This Guarantee shall be binding upon and inure to the benefit of and be enforceable by the respective successors and assigns of Guarantor and Contract Party.  This Guarantee embodies the entire agreement and understanding between Guarantor and Contract Party and supersedes all prior agreements and understandings relating to the subject matter hereof.  The headings in this Guarantee are for purposes of reference only, and shall not affect the meaning hereof.  This Guarantee may be executed in any number of counterparts, each of which shall be an original, but all of which together shall constitute one document.
+
+ IN WITNESS WHEREOF, the parties hereto have caused this Guarantee to be executed as of the day and year first above written.
+
+
+[PARTY B’S GUARANTOR]
+
+ENRON CANADA CORP.
+
+
+
+By:
+
+By:
+Title:
+
+Title:
+
+
+
+RIDER A
+(CHOOSE ONE BASED ON CREDIT MEMO)
+
+
+1. “Material Adverse Change” means (a) with respect to Counterparty, Counterparty’s Guarantor shall have long-term debt unsupported by third party credit enhancement that is rated by S&P below BBB-; or (b) with respect to Enron Canada, Enron Canada’s Guarantor shall have long-term debt unsupported by third party credit enhancement that is rated by S&P below BBB-.
+
+or
+
+2. “Material Adverse Change” means (a) with respect to Enron Canada, Enron Canada’s Guarantor shall have long-term debt unsupported by third party credit enhancement that is rated by S&P below BBB-; or (b) with respect to Counterparty, Counterparty’s Guarantor shall have any of the following:
+
+(i) Funded Debt at any one time which exceeds 100% of Stockholders' Equity [Net Worth]; or
+(ii) Stockholders' Equity [Net Worth] below $________;
+(iii) Current Ratio less than _____ to 1.0;
+(iv) Cash Flow Ratio less than _______ to 1.0; or
+(v) The ratio of EBITDA to Interest Charges is less than _____ to 1.0.
+or
+
+
+“Material Adverse Change” means (a) with respect to Counterparty, in the reasonable opinion of Enron Canada, Counterparty’s Guarantor shall have a material change in its creditworthiness, financial condition or ongoing business that may adversely affect Counterparty 's Guarantor’s ability to perform under any guarantee given under the Agreement; or (b) with respect to Enron Canada, Enron Canada’s Guarantor shall have long-term debt unsupported by third party credit enhancement that is rated by S&P below BBB-.
+
+
+“Material Adverse Change” means (a) with respect to Counterparty, Counterparty’s Guarantor shall have long-term debt unsupported by third party credit enhancement that is rated by S&P below BBB- or Counterparty ceases to be owned or otherwise controlled by ·; “owned or otherwise controlled by” meaning the direct ownership of 50.8% of the outstanding capital stock or other equity interests of Counterparty having ordinary voting power; or (b) with respect to Enron Canada, Enron Canada’s Guarantor shall have long-term debt unsupported by third party credit enhancement that is rated by S&P below BBB-.
+
+IF SELECTION IS NO. 2, ADD THE FOLLOWING TO TERMS TO DEFINITIONS SECTION:
+
+ “Cash Flow” means for any preceding twelve (12) month period the sum (without duplication) of Net Income plus depreciation, amortization and other non-cash charges, to the extent deducted in determining net income, all as determined in accordance with GAAP.
+
+ “Cash Flow Ratio” means the ratio of (a) Cash Flow to (b) the sum of current maturities of long term debt, determined in accordance with GAAP, plus all Interest Charges.
+
+ “Current Ratio” means the ratio of current assets, exclusive of intangible assets and notes receivable, and current liabilities, each determined in accordance with GAAP.
+
+ “EBITDA” shall mean, with respect to Counterparty’s Guarantor for any period, the Net Income for such period increased by the sum of: (a) all income taxes paid or accrued pursuant to GAAP for such period; (b) all Interest Charges paid or accrued in accordance with GAAP for such period; (c) depreciation and depletion expensed for such period in accordance with GAAP; (d) amortization expensed for such period in accordance with GAAP; and (e) any other non-cash charges reported for such period.
+
+ “Funded Debt” means liabilities, debts and obligations not coming due or maturing within one year.
+
+ “Interest Charges” means for any period all interest deducted in determining Net Income for such period, as determined in accordance with GAAP.
+
+ “Net Income” shall mean for any period the net income (or loss) for such period, determined in accordance with GAAP, as reported on Counterparty’s Guarantor’s audited annual financial statements and on Counterparty’s Guarantor’s unaudited quarterly financial statements.
+
+ “Net Worth” means total assets (exclusive of intangible assets and amounts attributable to notes receivable), minus total liabilities, each as would be reflected on a balance sheet prepared in accordance with GAAP.
+
+ “Stockholders' Equity” means, at any time, all amounts which would, in conformity with GAAP, be included under consolidated common stock and other stockholders' equity (including, without limitation, amounts for non-redeemable preferred stock, common stock, capital surplus and retained earnings and other stockholders' equity, so long as not subject to any mandatory redemption.)
+
+IF MATRIX IS REQUIRED FOR COLLATERAL THRESHOLD, USE DEFINED TERM “THRESHOLD AMOUNT” IN ARTICLE 9 AND ADD THE FOLLOWING DEFINITION:  
+
+ “Threshold Amount” means (a) in respect of Counterparty (for the purposes of paragraph 9.1(c)), (i) U.S.$· if Counterparty’s Guarantor’s Debt Rating is below BB-, (ii) U.S.$·, if Counterparty’s Guarantor’s Debt Rating is BB or BB+, or (iii) U.S.$·, if Counterparty’s Guarantor’s Debt Rating is BBB- or above, and (b) in respect of Enron Canada (for the purposes of paragraph 9.2(c)), (i) U.S.$·, if Enron Canada’s Guarantor’s Debt Rating is below BB-, (ii) U.S.$· if Enron Canada’s Guarantor’s Debt Rating is BB or BB+, or (iii) U.S.$·, if Enron Canada’s Guarantor’s Debt Rating is BB- or above.
+
+
+
+
+
+ 
+I:\Legal\Precedent\Power\Enron Canada Master6 2000.doc
+
+
+
+
+
+

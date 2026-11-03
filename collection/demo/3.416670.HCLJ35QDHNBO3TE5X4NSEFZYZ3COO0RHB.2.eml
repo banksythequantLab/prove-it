@@ -1,0 +1,470 @@
+
+ASSUMPTIONS	 	#REF!	 	 	#REF!	
+WARNING:  BALANCE SHEET IS NOT BALANCED	 	
+#REF!	#REF!	
+                                                                                       	 	
+Power Line Data	2000	Taxes	Amount	 	Project and Enron Economics ($000)	Disc Rate	IRR	NPV	
+Capacity	500	MW	Project Company Tax Position	ASSUME EXEMPT	Project Costs ($000)	2000	
+Availability	100%	AL Corporate Net Income Tax 	5.00%	  Major Mechanical & Elec. Equip.	$3,300 	PROJECT	10.00%	44.24%	$7,863 	
+Heat Rate	HHV	12,500	Btu/kWh	Gross Receipts Tax	0.00%	  Electrical Equip.	$0 	Target IRR	10.00%	
+Dispatch 	100%	  Import Duties 	$0 	
+Line Loss (Cross-Sound Cable Only)	3.00%	US Taxes	   TOTAL POWER PLANT EQUIPMENT, DUTIES & VAT	$3,300 	Enron 	10.00%	44.24%	$7,863 	
+   Enron's Tax Position	  Operations Mobilization	$0 	TOTAL PARTNERS	$7,863 	
+Project Operations	   State Corporate Tax	5.00%	   TOTAL CONSTRUCTION COSTS	$0 	
+   Start of Construction	1-Dec	2000	   Federal Income Tax	35.00%	  Transmission Line	$0 	Plus:  Withholding Tax on Dividends	#REF!	
+   Term of Construction (Mos)	6	  Construction Costs	$8,800 	Less:  Development Fees	#REF!	
+   Start of Operations - Month / Year	6	2001	Depreciation Assumptions	Basis ($000)	Life (Yrs)	Method	  Transmission Mobilization	$0 	Less:  Tax Cost/(Benefit) on (1)s above	#REF!	
+   Term of Contract (Yrs)	n/a	   TOTAL TRANSMISSION LINE COSTS	$8,800 	Sub-total Partner Level Adjustments	#REF!	
+   Type of Contract	n/a	Tax:	Asset  	13,000	20	MACRS	  Mainline Pipe - 20"	$0 	
+44.24%				  Lateral Pipe	$0 	RECONCILED PROJECT NPV	#REF!	
+Pricing	2000	Escalation	Book:	Asset  	13,000	28.5	S/L	  Pipeline Mobilization	$0 	Unlocated Difference	#REF!	
+Margin to SOCO/FL	hardcoded	   TOTAL PIPELINE COSTS	$0 	
+Lower transmission costs	hardcoded	US GAAP:	Asset  	13,000	28.5	S/L	  IDC (Interest During Construction)	$0 	
+Decrease transmission losses	hardcoded	  Withholding Tax on IDC	$0 	Financing	
+Capacity Payments:	Project Ownership 	% of Equity	% of Cash Flow	Equity $s	  Financing Costs	$0 	   Debt/Equity Structure	(pari-passu, equity last, etc.)		
+Fixed Capacity 	$0.01 	 /kW-Mon	2.00%	Enron	100.00%	100.00%	$13,000 	  Misc Lenders' Expenses	$0 	
+   (includes ROE, Taxes, Debt Service, Fixed O&M)	   Total	100.00%	100.00%	$13,000 	  Bank Environmental Consultant	$0 	   Debt	0.00%	$0 	
+Energy (Variable) Payments:	 	  Bank Independent Engineer	$0 	   Equity	100.00%	$13,000 	
+Variable O&M	$0.0000 	 /kWh	2.00%	  Completion Bond	$0 	   Total Investment	100.00%	$13,000 	
+Misc	$0.0000 	 /kWh	2.00%	  Overheads	$0 	
+Other	$0.0000 	 /kWh	2.00%	  Insurance -Builders Risk (30 BP on Total Cost)  and delay of operation (.25 of 1st yr DS)	 	$0 	Interest Rate	0.00%	
+All-in-Cost	Cents/kWh	  Permits & Licenses	 	$0 	
+  Legal Fees 	 	$0 	
+Conn.  Line Data 	2000	   TOTAL THIRD PARTY DEVMT/FINANCING COSTS	$0 	Revenue Analysis	
+Capacity	  500 	kv	  Development Fees	3.00%	Year 2001	Year 2002	Year 2003	 	 	
+Availability	100%	  Development Costs	 	$0 	Forward Curve ($/MWh)	120	93	80	
+Historical Dispatch	  Financial Advisor	0.00%	$0 	Peaker Days	20	20	20	
+  Profit	 	$0 	Peaker Hours	16	16	16	
+Operating Expenses ($000)	CPI Rate: 	2.00%	  Commission & Startup (Operator)	 	 	$0 	SOCO premium over TVA ($ in 10 x 3)	0.02	0.015	0.01	
+   TOTAL ENRON COSTS	$0 	Decrease TVA Transmission Cost (in 000's)	3,300	3,300	3,300	
+Fixed:	2000	Escalation	  Vendor Reps	 	$0 	Decrease Transmission Losses to TVA (in 000's)	600	500	400	
+Miscellaneous O&M	$48 	2.00%	  Owner's Engineer Services	 	$0 	
+Miscellaneous G&A	$0 	2.00%	   TOTAL TURNKEY OTHER COSTS	$0 	
+Maintenance Reserve	$0 	2.00%	  Working Capital	 	$0 	Cost Analysis	
+Plant Insurance	$0 	2.00%	Spare Parts	$0 	$0 	Month 	% of Total Cost	 	
+Payroll	$0 	2.00%	Other Costs	$900 	Aug-00	3.10%	
+Spare Parts 	$0 	2.00%	   TOTAL OTHER COSTS	$900 	Sep-00	20.50%	
+Water & Chemicals	$0 	2.00%	  Contingency - Material & Labor ?		$0 	Oct-00	0%	
+Plant Operations (O&M Fee)	$0 	2.00%	 	  Contingency -Distribution Service to New Sub?	$0 	Nov-00	6.30%	
+Transmission Capacity Pmt.	$0 	2.00%	  Contingency -	$0 	Dec-00	70%	
+Pipeline Operations	$0 	2.00%	   TOTAL CONTINGENCY	$0 	Jan-01	0%	
+Other	$0 	2.00%	   TOTAL PROJECT COSTS	$13,000 	
+Property Tax	$0 	2.00%	
+Total Fixed O&M	$48 	2.00%	   TOTAL PROJECT COSTS ($/kw)	$26.00 	
+Variable:	$0 	2.00%	
+Power Cost	$0 	2.00%	
+Maintenance Reserve	$0 	2.00%	
+Maintenance Excluding (Major Maint)	$0 	2.00%	
+Other	$0 	2.00%	
+Interest on Maintenance Reserve Account	4.00%	
+:pss9~qlbcaqqrsROI~g	
+:pss10~qlbcaqqrsNDC~g	
+:pss11~qlbcaqqrsFIN~g	
+2	
+3	
+4	
+5	
+6	
+7	
+8	CONVERGE
+PRINT ALL
+cwatts:
+Breakout of development cost as per Mitch Robinson's instructions. Includes E&C costs, ROW, switchyard and towers.
+cwatts:
+fixed capacity payment confirmed by Mitch Robinson.
+
+cwatts:
+confirmed data with Mitch Robinson
+cwatts:
+This needs to be verified by the development group.  No official legal contract exists.
+cwatts:
+Includes breakers, transformers and lines.  Consistent depreciation rates apply to all (see Patrick Maloy's email 8-31-00)
+cwatts:
+transformers and lines.  Consistent depreciation rates apply to all (see Patrick Maloy's email 8-31-00)
+cwatts:
+transformers and lines.  Consistent depreciation rates apply to all (see Patrick Maloy's email 8-31-00)
+cwatts:
+see Patrick Malloy's voice mail 8-31-00.
+cwatts:
+Patrick Malloy states that the depreciable life for book and GAAP purposes will exceed MACRS (8-31-00).  Jody Pierce states  that convention is to depreciate the assets over the remaining life of the plant with a 10% salvage value.
+cwatts:
+Patrick Malloy states that the depreciable life for book and GAAP purposes will exceed MACRS (8-31-00).  Jody Pierce states  that convention is to depreciate the assets over the remaining life of the plant with a 10% salvage value.
+
+cwatts:
+Breakout of development cost as per Mitch Robinson's instructions.  Includes all breaker costs.
+cwatts:
+As per Mitch Robinson, peak firing capacity is 500MW.
+cwatts:
+Breakout of development cost as per Mitch Robinson's instructions. Inlcudes all option costs (breakers and land)
+CASH FLOW - PROJECT	
+0	
+Current Year	1	2	3	
+Calendar Year	2001	2002	2003	Totals	
+Months of Operation	12	12	12	
+Capacity (MW) - Gross	500	500	500	
+Units Produced (MWhr)	160,000	160,000	160,000	
+(in 000's)	
+REVENUES:	
+SOCO premium over TVA	3,200 	2,400 	1,600 	
+Lower Transmission Costs	3,300	3,300	3,300	
+Lower Transmission Losses	600	500	400	
+   Total Benefits	7,100	6,200	5,300	
+Interest Income	0 	0 	0 	
+         TOTAL REVENUES (+int inc.)	7,100 	6,200 	5,300 	18,600 	
+EXPENSES:	
+Operation and Maintenance:	
+Fixed O&M:	
+Miscellaneous O&M	49 	50 	51 	150 	
+Miscellaneous G&A	0 	0 	0 	0 	
+Maintenance Reserve	0 	0 	0 	0 	
+Plant Insurance	0 	0 	0 	0 	
+Payroll	0 	0 	0 	0 	
+Spare Parts 	0 	0 	0 	0 	
+Water & Chemicals	0 	0 	0 	0 	
+Plant Operations (O&M Fee)	0 	0 	0 	0 	
+Transmission Capacity Pmt.	0 	0 	0 	0 	
+Pipeline Operations	0 	0 	0 	0 	
+Other	0 	0 	0 	0 	
+Property Tax	0 	0 	0 	0 	
+Total Fixed O&M	49 	50 	51 	150 	
+Variable O&M:	
+Maintenance Reserve	0 	0 	0 	0 	
+Maintenance Excluding (Major Maint)	0 	0 	0 	0 	
+Other	0 	0 	0 	0 	
+Total Variable O&M	0 	0 	0 	0 	
+     Total Operations & Maintenance	49 	50 	51 	150 	
+          TOTAL EXPENSES	49 	50 	51 	150 	
+Project Earnings Before Depr, Int & Taxes (EBDIT)	=D27-D56	7,051 	6,150 	5,249 	18,450 	
+   Less:  Book Depreciation Expense	456 	456 	456 	1,368 	WARNING:  CHECK DEPRECIATION	
+Earnings Before Int & Taxes (EBIT)	6,595 	5,694 	4,793 	17,082 	
+   Less:  Interest Expense (before W/H Tax)	0 	0 	0 	0 	
+Earnings Before Taxes (EBT)	6,595 	5,694 	4,793 	17,082 	
+  Less:  Book Provision for Income Taxes	2,625 	2,085 	1,753 	6,463 	
+PROJECT BOOK INCOME	9,220 	7,779 	6,546 	23,545 	
+Plus:  Book Depreciation	456 	456 	456 	1,368 	
+Plus:  Spare Parts	0 	0 	0 	0 	
+Plus:  Liquidation Proceeds	(Working Capital)	0 	0 	0 	0 	
+Plus:  Book Provision for Income Taxes	(2,625)	(2,085)	(1,753)	(6,463)	
+Less:  Major Maintenance Margin	0 	0 	0 	0 	
+Major Maintenance Margin Adjustment	0 	0 	0 	0 	
+Less:  Cash Taxes	2,625 	2,085 	1,753 	6,463 	CHECK:  TOTAL CASH TAXES DOES NOT MATCH TOTAL CASH TAXES CALCD	
+Less:  Principal Payments	0 	0 	0 	0 	
+NET A-T CASH FLOW DISTRIBUTED	9,676 	8,235 	7,002 	24,913 	
+Pre-Tax Debt Coverage	(EBDIT/(Debt Serv+W/H Tax))	0.00	0.00	0.00	
+After-Tax Debt Coverage	((EBDIT-Taxes)/(Debt Serv+W/H Tax))	0.00	0.00	0.00	Todd Neugebauer:
+Both Coverage ratios add back maintenance expense because there is a reserve for it.
+cwatts:
+As per Mitch Robinson, peak firing capacity is 500MW.
+cwatts:
+As per Mitch Robinson, peak firing capacity is 500MW.
+cwatts:
+As per Mitch Robinson, peak firing capacity is 500MW.
+cwatts:
+This escalated O&M figure reflects a higher fixed O&M of $48K in the initial pertial year.
+RETURNS	
+0	
+Current Year 	0	1	2	3	
+Calendar Year	2000	2001	2002	2003	Totals	
+PROJECT RETURNS	
+Equity Injection	(13,000)	0 	0 	0 	(13,000)	 	
+Net A-T Cash Flow	0 	9,676 	8,235 	7,002 	24,913 	 	
+Total Cash Flow	(13,000)	9,676 	8,235 	7,002 	11,913 	
+20 Year Running NPV	(13,000)	(4,203)	2,602 	7,863 	(6,738)	
+20 Year Running IRR	#NUM!	-25.57%	25.08%	44.24%	
+Discount Rate	10.0%	
+Project NPV                       	7,863 	
+Project IRR	44.24%	
+Discounted Payback Year	1 	0 	1 	0 	1 	
+ENRON RETURNS	
+100.00%	Equity Injection	(13,000)	0 	0 	0 	(13,000)	
+100.00%	Net A-T Cash Flow	0 	9,676 	8,235 	7,002 	24,913 	
+Total Cash Flow	(13,000)	9,676 	8,235 	7,002 	11,913 	
+20 Year Running NPV	(13,000)	(4,203)	2,602 	7,863 	(6,738)	
+20 Year Running IRR	#NUM!	-25.57%	25.08%	44.24%	
+Discount Rate	10.0%	
+Enron NPV                        	7,863 	
+Enron IRR	44.24%	
+Discounted Payback Year	1 	0 	1 	0 	1 	DRAWDOWN SCHEDULE	
+0	
+Total Cost Excluding IDC	$13,000 	
+PROJECT COSTS	
+Monthly	Monthly	Cumulative	
+Description	% of	Cost	Cost	
+Month	of Activity	Total Cost	($ 000's)	($ 000's)	
+1	Aug-00	Circuit breaker option	3.1%	$403 	$403 	
+2	Sep-00	Towers, breakers, land options	20.5%	$2,665 	$3,068 	
+3	Oct-00	n/a	0.0%	$0 	$3,068 	
+4	Nov-00	Circuit breaker purchase	6.3%	$819 	$3,887 	
+5	Dec-00	Breakers, ROW, E&C, switchyard	70.0%	$9,100 	$12,987 	
+6	Jan-01	Construction	0.0%	$0 	$12,987 	
+7	Feb-01	Construction	0.0%	$0 	$12,987 	
+8	Mar-01	Construction	0.0%	$0 	$12,987 	
+9	Apr-01	Construction	0.0%	$0 	$12,987 	
+10	May-01	Construction	0.0%	$0 	$12,987 	
+11	Jun-01	Operations	0.0%	$0 	$12,987 	
+12	Jul-01	Operations	0.0%	$0 	$12,987 	
+13	Aug-01	Operations	0.0%	$0 	$12,987 	
+14	Sep-01	Operations	0.0%	$0 	$12,987 	
+15	Oct-01	Operations	0.0%	$0 	$12,987 	
+16	Nov-01	Operations	0.0%	$0 	$12,987 	
+17	Dec-01	Operations	0.0%	$0 	$12,987 	
+18	Jan-02	Operations	0.0%	$0 	$12,987 	
+19	Feb-02	Operations	0.0%	$0 	$12,987 	
+20	Mar-02	Operations	0.0%	$0 	$12,987 	
+21	Apr-02	Operations	0.0%	$0 	$12,987 	
+22	May-02	Operations	0.0%	$0 	$12,987 	
+23	Jun-02	Operations	0.0%	$0 	$12,987 	
+24	Jul-02	Operations	0.0%	$0 	$12,987 	
+25	Aug-02	Operations	0.0%	$0 	$12,987 	
+26	Sep-02	Operations	0.0%	$0 	$12,987 	
+27	Oct-02	Operations	0.0%	$0 	$12,987 	
+28	Nov-02	Operations	0.0%	$0 	$12,987 	
+29	Dec-02	Operations	0.0%	$0 	$12,987 	
+30	Jan-03	Operations	0.0%	$0 	$12,987 	
+31	Feb-03	Operations	0.0%	$0 	$12,987 	
+32	Mar-03	Operations	0.0%	$0 	$12,987 	
+33	Apr-03	Operations	0.0%	$0 	$12,987 	
+34	May-03	Operations	0.0%	$0 	$12,987 	
+35	Jun-03	Operations	0.0%	$0 	$12,987 	
+36	Jul-03	Operations	0.0%	$0 	$12,987 	
+37	Aug-03	Operations	0.0%	$0 	$12,987 	
+38	Sep-03	Operations	0.0%	$0 	$12,987 	
+39	Oct-03	Operations	0.0%	$0 	$12,987 	
+40	Nov-03	Operations	0.0%	$0 	$12,987 	
+41	Dec-03	Operations	0.0%	$0 	$12,987 	
+42	Jan-04	0.0%	$0 	$12,987 	
+43	Feb-04	0.0%	$0 	$12,987 	
+44	Mar-04	0.0%	$0 	$12,987 	
+45	Apr-04	0.0%	$0 	$12,987 	
+46	May-04	0.0%	$0 	$12,987 	
+47	Jun-04	0.0%	$0 	$12,987 	
+48	Jul-04	0.0%	$0 	$12,987 	
+49	Aug-04	0.0%	$0 	$12,987 	
+50	Sep-04	0.0%	$0 	$12,987 	
+51	Oct-04	0.0%	$0 	$12,987 	
+52	Nov-04	0.0%	$0 	$12,987 	
+53	Dec-04	0.0%	$0 	$12,987 	
+54	Jan-05	0.0%	$0 	$12,987 	
+55	Feb-05	0.0%	$0 	$12,987 	
+56	Mar-05	0.0%	$0 	$12,987 	
+57	Apr-05	0.0%	$0 	$12,987 	
+58	May-05	0.0%	$0 	$12,987 	
+59	Jun-05	0.0%	$0 	$12,987 	
+60	Jul-05	0.0%	$0 	$12,987 	
+ 	
+TOTAL	99.9%	$12,987 	
+1	2	3	4	5	6	7	INTEREST DURING CONSTRUCTION	
+0	
+Current Month	1	2	3	4	5	6	
+Calendar Month	Aug-00	Sep-00	Oct-00	Nov-00	Dec-00	Jan-01	TOTAL	1	
+2	
+3	
+(excl IDC)	Total	4	
+Project Cost	13,000 	13,000 	5	
+Interest Rate	0.00%	6	
+Debt/Equity Structure	7	
+ 	8	
+9	
+Construction Balance	10	
+Beginning Construction Balance	0 	403 	3,068 	3,068 	3,887 	12,987 	11	
+Construction Drawdown	403 	2,665 	0 	819 	9,100 	0 	12,987 	12	
+Ending Construction Balance	403 	3,068 	3,068 	3,887 	12,987 	12,987 	13	
+  Cumulative % complete (excl IDC & Prepayment)	3.10%	23.60%	23.60%	29.90%	99.90%	99.90%	14	
+  All-In Cumulative % Complete (excl Prepayment)	3.10%	23.60%	23.60%	29.90%	99.90%	99.90%	15	
+16	
+Debt Balance	17	
+Beginning Debt Balance	0 	0 	0 	0 	0 	0 	18	
+Plus:  Debt Proceeds	0 	0 	0 	0 	0 	0 	0 	19	
+Ending Balance Debt Only	0 	0 	0 	0 	0 	0 	20	
+21	
+Interest During Construction -- Monthly	0 	0 	0 	0 	0 	0 	0 	22	
+23	
+Equity Balance	24	
+Beginning Equity Balance	0 	403 	3,068 	3,068 	3,887 	12,987 	25	
+Plus:  Equity Proceeds	403 	2,665 	0 	819 	9,100 	0 	12,987 	26	
+Ending Equity Balance	403 	3,068 	3,068 	3,887 	12,987 	12,987 	27	
+Total Interest During Construction	0 	FINANCING	
+0	
+Current Year	1	2	3	
+Calendar Year	2001	2002	2003	Totals  	
+Months of Operation	12	12	12	
+DEBT SERVICE	
+   Interest	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+   Principal	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+         Total Debt Service	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+PRINCIPAL	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+REPAYMENT	Amount	#REF!	Amount	#REF!	Amount	#REF!	Amount	#REF!	Amount	#REF!	Amount	#REF!	
+Term 	#REF!	Years	Term 	#REF!	Years	Term 	#REF!	Years	Term 	#REF!	Years	Term 	#REF!	Years	Term 	#REF!	Years	
+Interest Rate	#REF!	Interest Rate	#REF!	Interest Rate	#REF!	Interest Rate	#REF!	Interest Rate	#REF!	Interest Rate	#REF!	
+Grace Period:	#REF!	Payments	Grace Period:	#REF!	Payments	Grace Period:	#REF!	Payments	Grace Period:	#REF!	Payments	Grace Period:	#REF!	Payments	Grace Period:	#REF!	Payments	
+#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	Total	Total	
+Year	Period	Begin Bal	Interest	Principal	End Bal	Begin Bal	Interest	Principal	End Bal	Begin Bal	Interest	Principal	End Bal	Begin Bal	Interest	Principal	End Bal	Begin Bal	Interest	Principal	End Bal	Begin Bal	Interest	Principal	End Bal	Interest	Principal	
+2001	0	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2001	1	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2002	2	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2002	3	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2003	4	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2003	5	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2004	6	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2004	7	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2005	8	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2005	9	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2006	10	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2006	11	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2007	12	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2007	13	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2008	14	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2008	15	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2009	16	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2009	17	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2010	18	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2010	19	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2011	20	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2011	21	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2012	22	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2012	23	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2013	24	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2013	25	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2014	26	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2014	27	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2015	28	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2015	29	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2016	30	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2016	31	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2017	32	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2017	33	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2018	34	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2018	35	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2019	36	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2019	37	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2020	38	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+2020	39	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	
+TOTALS	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	#REF!	CASH TAXES, COMMITMENT FEE	
+0	
+Current Year	1	2	3	
+Calendar Year	2001	2002	2003	Totals  	
+Months of Operation	12	12	12	
+CASH TAXES	
+  EBDIT	7,051 	6,150 	5,249 	18,450 	
+  Less:  Tax Depreciation	(488)	(938)	(867)	(2,293)	
+  Less:  Interest Expense (before W/H Tax)	0 	0 	0 	0 	
+  Taxable Income	6,564 	5,212 	4,382 	16,157 	
+  Tax Rate	40.00%	40.00%	40.00%	
+TOTAL CASH TAXES PAID	2,625	2,085	1,753	6,463	DEPRECIATION CALCULATIONS	
+0	
+Tax	Book	US GAAP	
+Total Project Cost	13,000 	13,000 	13,000 	
+Less:  Other Costs	(900)	(900)	(900)	MACRS Schedule	
+Less:  Working Capital	0 	0 	0 	3.750%	7.219%	6.667%	
+Total Depreciable Basis	12,100 	12,100 	12,100 	3.750%	7.219%	6.667%	
+Current Year	1	2	3	
+Calendar Year	2001	2002	2003	Totals  	
+Months of Operation	12	12	12	
+Tax Depreciation:	Original	
+Current Tax Depreciation:	Basis  	
+Asset 1 	13,000 	488 	938 	867 	2,293 	
+Total Current Tax Depreciation	 	13,000 	488 	938 	867 	2,293 	
+Accumulated Tax Depreciation	 	488 	1,426 	2,293 	
+ 	
+Beginning Tax Basis	0 	12,513 	11,574 	
+Plus:  New Additions	13,000 	0 	0 	13,000 	
+Less: Current Depreciation	(488)	(938)	(867)	(2,293)	
+Ending Tax Basis	 	12,513 	11,574 	10,707 	
+Book Depreciation:	
+Current Book Depreciation:	
+Asset 1 	13,000 	456 	456 	456 	1,368 	
+Total Current Book Depreciation	13,000 	456 	456 	456 	1,368 	
+Accumulated Book Depreciation	456 	912 	1,368 	
+Beginning Book Basis	0 	12,544 	12,088 	
+Plus:  New Additions	13,000 	0 	0 	13,000 	
+Less: Current Depreciation	(456)	(456)	(456)	(1,368)	
+Ending Book Basis	 	12,544 	12,088 	11,632 	
+US GAAP Depreciation:	
+Current Book Depreciation:	
+Asset 1 	13,000 	456 	456 	456 	1,368 	
+Total Current Book Depreciation	13,000 	456 	456 	456 	1,368 	
+Accumulated Book Depreciation	456 	912 	1,368 	
+Beginning Book Basis	0 	12,544 	12,088 	
+Plus:  New Additions	13,000 	0 	0 	13,000 	
+Less: Current Depreciation	(456)	(456)	(456)	(1,368)	
+Ending Book Basis	 	12,544 	12,088 	11,632 	cwatts:
+Depreciation schedule as per Patrick Malloy's email 8-31-00
+BALANCE SHEET	
+0	
+Opening	1	2	3	
+($ in 000s)	Balance	2001	2002	2003	Totals	
+Assets:	
+Cash and cash equivalents	0 	0 	0 	0 	0 	
+Maintenance Reserve	0 	0 	0 	0 	
+Accounts Receivable	0 	0 	0 	0 	0 	
+Inventory	0 	0 	0 	0 	0 	
+Construction in progress	0 	0 	0 	0 	0 	
+Property, plant and equipment	 	
+Cost	0 	13,000 	13,000 	13,000 	39,000 	
+Accumulated depreciation	0 	456 	912 	1,368 	2,737 	
+Property, plant, and equipment, net	0 	12,544 	12,088 	11,632 	36,263 	
+Land	0 	0 	0 	0 	0 	
+ 	0 	
+Total Assets	0 	12,544 	12,088 	11,632 	36,263 	
+ 	
+Liabilities:	 	
+Accounts Payable	0 	0 	0 	0 	0 	
+Interest Payable	0 	0 	0 	0 	0 	
+Income taxes payable	0 	0 	0 	0 	0 	
+Long-term debt	0 	0 	0 	0 	0 	
+Other liabilities	0 	0 	0 	0 	0 	
+Total liabilities	0 	0 	0 	0 	0 	
+ 	
+Stockholders' equity:	 	
+Capital Stock	0 	13,000 	13,000 	13,000 	39,000 	
+Dividends	0 	(9,676)	(17,911)	(24,913)	(52,501)	
+Retained earnings	0 	3,957 	7,373 	10,249 	21,579 	
+Total stockholders' equity	0 	7,280 	2,462 	(1,664)	8,079 	
+ 	
+Total liabilities and stockholders' equity	0 	7,280 	2,462 	(1,664)	8,079 	
+ 	
+Balance Check:	0 	5,263 	9,626 	13,296 	28,185 	
+INCOME STATEMENT	
+1	2	3	
+($ in 000's)	2001	2002	2003	Totals	
+Sales/Revenues (includes int. inc.)	7,100 	6,200 	5,300 	18,600 	
+ 	
+Fixed O&M	49 	50 	51 	150 	
+Variable O&M	0 	0 	0 	0 	
+Depreciation	456 	456 	456 	1,368 	
+Interest expense	0 	0 	0 	0 	
+Total expenses	505 	506 	507 	3,037 	
+ 	
+Income before income taxes	 	6,595 	5,694 	4,793 	17,082 	
+Provision for income taxes (natl & state)	 	2,638 	2,278 	1,917 	6,833 	
+ 	0 	
+Net income	 	3,957 	3,416 	2,876 	10,249 	
+STATEMENT OF CASH FLOWS	
+1	2	3	
+($ in 000's)	2001	2002	2003	Totals	
+Cash flows from operating activities:	
+Cash received from customers	7,100 	6,200 	5,300 	18,600 	
+Cash paid to suppliers and employees	(49)	(50)	(51)	(150)	
+Spare Parts	0 	0 	0 	0 	
+Major Maintenance Reserve	0 	0 	0 	
+Interest paid	0 	0 	0 	0 	
+Income taxes paid	2,625 	2,085 	1,753 	6,463 	
+Net cash provided by operating activities	9,676 	8,235 	7,002 	24,913 	
+Cash flows from financing activities:	
+Principal payments under long-term debt obligations	0 	0 	0 	0 	
+Proceeds from issuance of long-term debt	0 	0 	0 	0 	
+Proceeds from refinancing of long-term debt	0 	0 	0 	0 	
+Loans to Shareholders - Trapped Cash	0 	0 	0 	0 	
+Loans to Shareholders - Legal Reserve	0 	0 	0 	0 	
+Interest Income - Loans to Shareholders	0 	0 	0 	0 	
+Increase/(Decrease) in Labor Liability	0 	0 	0 	0 	
+Capital contributions	13,000 	0 	0 	13,000 	
+Construction in progress	(13,000)	0 	0 	(13,000)	
+Dividends paid	(9,676)	(8,235)	(7,002)	(24,913)	
+Net cash provided by financing activities	(9,676)	(8,235)	(7,002)	(24,913)	
+ 	
+Net increase in cash and cash equivalents	0 	0 	0 	0 	
+ 	
+Cash and cash equivalents at beginning of year	0 	0 	0 	0 	
+ 	
+Cash and cash equivalents at end of year	0 	0 	0 	0 	

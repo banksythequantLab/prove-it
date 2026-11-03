@@ -1,0 +1,179 @@
+UBS Warburg Energy
+East Desk Power
+
+IT Update
+
+February 5th, 2002
+
+
+System Transition Activities
+
+Physical Application Split
+
+
+DB, App, Web Servers
+File Servers
+Executables
+Source Code
+
+Network Login ID’s
+
+
+New ID’s Created Tuesday Night.
+UBS vs. Dual 
+All IT Staff Have Dual Until Sunday
+Corry Bentley, Pat Hanse, Jason Choate, Lisa Burnett – Dual Until Sunday
+Default File Server Drive Mappings
+
+File Server Content
+
+
+Legal Process.
+Original Copy for Integration Testing
+User Controlled Copy’s
+
+Business Data Content
+
+
+Deal Data (Peers/Legs/Term Strips/Schedule Strips):
+
+
+Not Copied to UBS.
+Final Trucation on Thursday Night.
+
+
+Global Data:
+
+
+Counterparties, Contracts , Brokers, Desks, Traders, Portfolios, Locations
+User Scrubbed Directly in Global / EnPower Snapshots Refreshed
+
+
+Fundamentals Data:
+
+
+All Data (Load History, Weather History, Satellite Weather Maps, Plant Output History, Load Forecasts, MCP’s, etc...) extracted from Public Sites for use in Power Analytics Copied to UBS.
+
+
+ISO/Pool Data:
+
+
+All Data (Settlements and Market Clearing Prices) Available from Market Control Entities Copied to UBS.
+
+
+Curve Data:  
+
+
+All Price, Volatility, and Correlation Curves Maintained by Power Trading Copied to UBS Production Monday Night.
+All Curve History Copied.
+No Curve Changes Today in UBS.
+
+
+PortCalc Results Data:  
+
+
+Not Copied to UBS.
+
+
+Broker Fee Data:
+
+
+Not Copied to UBS.
+
+
+Application Testing
+
+Unit and Integration
+User Acceptance (Corry Bentley, Andrea Dahlke, Melissa Murphy)
+Business Simulation on Thursday
+
+Software Licenses
+
+Inventory
+Priority 1 Licenses
+
+Application Inventory, Coverage, and Business Owners
+
+IT Organizational Structure
+
+
+Power IT Staff
+Leadership Team
+IT Integration Teams
+Day 0 – 3 Oversight
+
+
+IT Focus – Q1 Primary Activities
+
+
+Production Support and Consultation - All
+Application Portfolio Inventory and Coverage – Nat
+On-Call Definition and Rotations - Luu
+Trade Analyst (Fletch) – Luu
+CPM – Smith
+CAISO VMS Inventory – Poston
+CAISO VMS R1 – Poston
+SC Requirements on Day 1
+CAISO VMS R2 – Poston
+Day 46 Requirements
+ERCOT ESCA MOS Replacement – Chen
+Connectivity, Extract, Parse, Store
+PMI, Settlements, Invoices
+ERCOT FSP – Poston
+PJM, NEPOOL, NEISO Tactical Inventory and Assimilation – Docwra
+ERCOT VMS – Poston
+Risk Report Enhancement / DPR Automation / J9 Changes – Zheng
+Databeaken Cubes / Add ERCOT, PJM, NYISO, NEPOOL RT MCP’s - Chen
+New Power Trading Systems LaunchPad – Symms & Ballinger
+UBS Warburg Energy Branding – Ballinger
+Development Operations Transition Preparation – Allen
+Inventory and Correct Trading/Fundi App ‘Enron’ References – Allen
+Inventory and Correct Risk App ‘Enron’ References – Allen
+Company Name Hard Coding in Printable Documents – Govindasamy
+UBS ‘Infinity’ (Cash Flow Hedge App) Extract - Luu
+
+
+Q1 Secondary Activities
+
+
+CAISO VMS R3 – Poston
+Service Deal Requirements
+Reuters Liquid Products Feed – Coordination with ERMS - Symms
+Curve Manager Phase II – Balasundaram
+PMI Harvesting Conversion from PERL to .Net – Allen
+Allegheny Power Circuit Shutdown - Chen
+Verisign Digital Certificate for Active X Controls – Symms
+Security Process Definition and Improvement - Luu
+
+
+Ongoing Activities (As Time Permits)
+
+
+Universal Data Access – Logical Architecture Design – Ballinger
+Ontario IMO Readiness – Poston
+Exchange Traded Power Futures Integration - Lee
+Distributed FSP – Davis
+Deal Object Improvements and Distribution – Burleigh
+Change Curve Imports to Use Oracle vs. Excel Sheets – Allen
+IIR Outage DB Integration – Symms
+Tool Upgrades (DOA, Tibco, Delphi, Oracle Client, C Compiler) – Govindasamy
+Risk Reporting Enhancements – Lee
+PCS/PID Consistency (EnPower vs. Excel)
+MKM Detail Options (PostId vs. Desk)
+True-Up Liquidation (Curves vs. Pub Prices)
+PostId Compare (Eliminate Oracle Reports Tool) 
+Final Post Automation (XLS and ASCII File Creation) – Lee
+Historical Adhoc Table 30 Day History – Lee
+Portcalc Results Automation (Oracle vs. UNIX File System) – Lee
+C Debugger Limitations – Lee
+SourceSafe CleanUp - Luu 
+Consolidated Reference Servers – Smith
+
+Miscellaneous
+
+
+Communication Between IT and Business Owners
+Status / Metrics Reporting
+Workload Prioritization
+Expectations Management
+

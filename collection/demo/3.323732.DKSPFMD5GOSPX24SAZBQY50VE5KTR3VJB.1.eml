@@ -1,0 +1,307 @@
+TESTING HEDGE EFFECTIVENESS FOR FAS 133: 
+THE VOLATILITY REDUCTION MEASURE
+
+Andrew Kalotay and Leslie Abreo
+Andrew Kalotay Associates, Inc*.
+
+Forthcoming in the 
+Journal of Applied Corporate Finance
+
+
+
+
+
+
+
+
+Corporations routinely employ derivative products, such as interest rate swaps, to hedge business risk. For example, a financial institution with floating rate assets might synthetically convert its fixed coupon bond obligation into a floating rate obligation by entering into an appropriate interest rate swap.
+
+But corporations can also use derivative products for speculation, with unpredictable and possibly disastrous consequences, as in the Procter & Gamble fiasco.  The problem for shareholders is that this kind of exposure typically gets buried in footnotes to the corporation’s financial statements even if it has the potential (realized in the case of P&G) to have a material effect on reported earnings.
+  
+In an attempt to make a corporation’s exposure to its derivative positions more transparent, the Financial Accounting Standards Board (FASB) has issued Statement 133 (with subsequent amendments).  This statement requires full disclosure of the derivative products employed by the corporation.  In addition, all derivatives must be marked to the market and the changes in their market value reported in the income statement.  FAS 133 has been in effect since June 16, 2000.
+
+Recognizing that marking derivatives to market introduces volatility to earnings (anathema to Wall Street’s equity analysts), FAS 133 allows the corporation to mark the hedged liabilities or assets to market as well. However, in order to qualify for this favorable treatment, first the hedge must be shown to be highly effective. This article focuses on testing for hedge effectiveness.  While FAS 133 distinguishes between fair value and cash flow hedges, we confine our discussion to fair value hedges for brevity.
+
+OUTLINE
+
+After providing an overview of hedge effectiveness testing, we review and critique the FASB guidelines from both a conceptual and a technical perspective.  While the spirit of the guidelines is commendable, we find the recommended tests to be flawed.  In some cases they pass hedges that should fail, and in others they fail hedges even though such a conclusion is unwarranted.
+
+The main part of the article is the description and illustration of an alternative test, which is based on the volatility reduction measure (VRM).  We show this VRM-based test to be fully compliant with the spirit of FASB’s recommendations, while not suffering from their shortfalls.  We demonstrate the use of VRM for both prospective and retrospective testing, and then discuss how these measures should be combined into a single hedge effectiveness score.
+
+While the VRM approach is applicable to any hedge, the illustrations in this article are taken from the realm of fixed income, such as the hedge of a fixed-coupon bond with a fixed-to-floating interest rate swap.  Because of this, we devote a section to the complexities of implementing hedge effectiveness testing for fixed income instruments.  These complexities include the proper treatment of accrued interest and accounting for aging.  With regard to prospective testing we suggest a method for simulating future yield curves and discuss the number of simulations required for statistically significant results.
+
+Finally, we explore the relationship of VRM to the rapidly growing field of corporate risk management, in which the key measure is Value at Risk (VaR). We show that VRM provides a common analytical framework for accounting and risk management, and that it has direct applicability to optimizing hedges.
+
+HEDGE EFFECTIVENESS TESTING
+
+Having laid down the pre-requisite that a hedge must be shown to be highly effective, FASB has provided only broad guidelines as to how to actually test for effectiveness.  Before reviewing these guidelines, it might be helpful to discuss the rationale for hedging from an economic, rather than an accounting, perspective.
+
+The basic motivation for hedging is to eliminate unpredictability due to market changes.  In the real world of imperfect hedges, practitioners tend to be concerned only with deviations that are significant from a business perspective.  The notion of a significant change could be specified by internal corporate guidelines. 
+
+The effectiveness of a hedge becomes relevant only in the event there is a significant change in the value of the hedged item. In principle, a hedge is effective if the price movements of the hedged item and the hedging derivative roughly offset each other, so the net change of the package (hedged item + derivative) is negligible relative to the change solely of the hedged item. If the changes are significant the effectiveness of the hedge is irrelevant.  We shall return to this observation below when we discuss the “80/125” rule suggested by the FASB.
+ 
+A well-designed test should pass a hedge that is truly effective, and fail one that is not. At first blush, a relatively lenient test would seem desirable to a corporation, so that most derivative positions qualify for hedge accounting treatment.  But passing the test is only the initial step: the proof of the pudding is in the reported earnings.  A test with a low power of discrimination, one that is easy to pass, can result in significant volatility in earnings.
+
+A related problem may arise even for hedges that automatically qualify for the short-cut method described below, and therefore are not subject to testing.  We will discuss why some of these qualifying hedges would actually fail a rigorously designed testing procedure. While the short-cut method eliminates earnings volatility, these hedges may not eliminate business risk.
+ 
+FASB Guidelines
+
+According to the FASB, a properly designed effectiveness test should take into account both the historical performance (retrospective test) and the anticipated future performance (prospective test) of the hedge.  With respect to historical performance, the FASB has suggested two approaches, which are discussed below.  The FASB has not explicitly recommended methods for prospective testing, nor has it indicated how the results of retrospective and prospective tests should be combined.  We will address each of these issues below.
+
+The idea of combining historical performance with expected future performance has important practical ramifications.  Consider a corporation that enters into a long-term, say 10-year, hedge.  It is conceivable that six months into the hedge a retrospective test will fail, due to some idiosyncrasy of the market.  At the same time, prospective testing for the remaining 9½ years may establish that the hedge is effective.  By properly combining the results, one is likely to conclude that the hedge is effective, in spite of its poor historical performance.
+
+Continuing with the example, the same hedge may fail a prospective test with two years to go, even though it has performed well over the previous eight years.  By including credit for previous good behavior, the effectiveness of the hedge may be justified.
+
+According to our experience, most corporations perform only a retrospective test.  However, as discussed above, this could severely understate the actual effectiveness of a hedge.  In our opinion, for both theoretical and practical reasons, a well-designed test should be based on the combination of prospective and retrospective test results.
+
+Let us examine the FASB’s suggested approaches to retrospective testing.  One is the so-called “80/125 Rule”.  A hedge is deemed effective if the ratio of the change in value of the derivative to that of the hedged item is between 80% and 125%.
+
+An unintended and unfortunate consequence of the 80/125 Rule is that during periods of market stability virtually any hedge is likely to fail, even though the resulting price movements are insignificant from a business perspective.  Consider, for example, a $100 million bond hedged with an interest rate swap. A $10,000 change in the value of the bond and a $4,000 opposite change in the value of the swap results in a ratio 0.4.  Hence, under the 80/125 Rule, the hedge will be deemed ineffective even though the net change of $6,000 is a miniscule 0.006% of the face amount.
+ 
+We will remedy this weakness of the 80/125 Rule by two means.  First, we make it more robust by extending it backwards to incorporate all historical data, and not only the latest observations. In addition, for the reasons given above, we combine the result with that of the prospective test.
+
+The second approach suggested by the FASB is based on the correlation of the changes in value of the hedged item and that of the derivative. Roughly speaking, a hedge is deemed effective if the R-squared of the regression line explaining the data is sufficiently high, say 80%.
+
+But a high R-squared alone is not a reliable indicator of effectiveness. In addition, the changes in value should be roughly offsetting, i.e. the slope of the regression line should be close to 1, a consideration not explicitly referred to in FAS 133. A related issue not addressed is the intercept of the regression line. Should the intercept be constrained to 0 or should the “best fit” regression determine it?  Constraints on the regression process lower the R-squared, increasing the likelihood that the hedge will fail the effectiveness test.
+
+As indicated, the FASB has provided only broad guidelines to effectiveness testing. Accountants, as examiners of the results, not implementers of tests, are naturally loath to pronounce a priori what would be an acceptable test. Clients are instead often directed to management consultants. Meanwhile, a proliferation of software packages claiming “FAS 133 compliance” fail to address hedge effectiveness testing in any satisfactory manner.  In the absence of definitive guidance, corporations are expected to devise, apply and defend their own tests. In that vein, we propose the following approach.  
+
+The Volatility Reduction Measure (VRM)
+
+Traders and portfolio managers, whose compensation is affected by the actual performance of hedges, judge the effectiveness of a hedge in terms of volatility reduction.  The volatility of the item being hedged in the absence of a hedge is the obvious point of reference against which this reduction should be measured.  Recall that the FASB guidelines focus on pair-wise (date-by-date) comparison of changes in value, without explicit reference to overall volatility with and without the hedge.  The VRM method described below captures the significance of hedging to practitioners while retaining the basic intent of FASB.
+
+The following example of a retrospective test conveys the essence of the VRM approach.  A fixed coupon bond is being hedged with a LIBOR swap.  The changes in value of each have been recorded for five quarters. Additionally, in each quarter we add the changes in the bond and the swap to arrive at a change in value of the package (bond + swap).  As shown in Table 1, the standard deviation (volatility) of the changes in value of the bond alone is $1.921MM; that of the package is $0.332MM.  The addition of the swap has reduced the volatility to 17.26%  (0.332MM/1.192MM) of what it originally was, that is, a volatility reduction of 82.74% has been achieved. 
+
+
+Table 1:Volatility Reduction Measure (Retrospective Test)
+Changes in Value Shown in $millions
+
+Quarter
+Change in Value
+
+
+Swap
+Bond
+Package (Bond + Swap)
+1
+(1.0)
+1.1
+0.1
+2
+(0.8)
+1.0
+0.2
+3
+(1.6)
+2.0
+0.4
+4
+2.5 
+(2.8)
+(0.3)
+5
+2.6 
+(2.1)
+0.5
+
+Standard Deviation
+1.921
+0.332
+
+Ratio of Standard Deviations 17.26%
+Volatility Reduction Measure 82.74%
+
+The same idea is applied to a prospective test in Figure 1.  The frequency distribution of 2,000 quarterly changes (simulated in the manner described below) in value of a $100 million 8% 10-year corporate bond  is overlaid with analogous information for the combination of the bond and an 8.25% LIBOR-based 9.5-year swap of like notional amount. The graph corroborates a volatility reduction from $5.602 million to $0.625 million.
+
+More formally, the volatility reduction measure is defined as:
+
+VRM  = 1 – stdev (hedge package) / stdev (item being hedged)
+
+According to the example in Figure 1, the prospective volatility of the hedged item is expected to be reduced by 88.84% (1 – 0.625MM / 5.602MM).
+
+Prospective and retrospective results for a given hedge can be combined into a single measure by properly weighting the inputs into the VRM formula.  In this way, the entire behavior of the hedge is encapsulated in a single result.
+
+The VRM approach is similar to the idea of variance reduction introduced by Ederington in 1979 for assessing hedging performance.  More recently, Kawaller and Koch mention  variance reduction as a possible effectiveness test for FAS 133. A useful survey of effectiveness tests and their statistical significance is provided by Finnerty and Grant.
+
+As implied by the name, Ederington’s method measures volatility reduction from a ratio of variances.  Our preference for using standard deviations (incidentally, units that are meaningful to management) is motivated by our desire to be in accord with the 80/125 rule.  A VRM result of 80% is equivalent to variance reduction of 96%, which can be misleading if one is focused on an 80% threshold.   Or, to put it differently, a variance reduction of 80% is equivalent to a VRM of 55%.  Clearly, in the spirit of the 80/125 rule, this last case has failed.
+
+A clearer way of confirming that the dimensionality of VRM is in line with the intent of the 80/125 Rule is to observe what happens when VRM is applied to a single set of changes in value.  If the changes in value of the bond, swap, and package are Di, Dd, and Dp respectively, then VRM (assuming standard deviation is calculated using the idealized mean of zero) is calculated as follows:
+
+VRM = 1 - ((Di + Dd) ¸ Di) = 1 - (1 - (Dd ¸ Di)) = Dd ¸ Di = 80/125 Result
+
+VRM has the added advantage of a common analytical framework with Value at Risk (VaR), which is a widely used risk measure representing dollar exposure.  VaR reporting is mandatory for financial institutions and is impending for other corporations.  VaR computations, like VRM, use standard deviation based formulas applied to historical or simulated changes in value of the corporation’s positions.
+
+CONSIDERATIONS FOR FIXED INCOME SECURITIES
+
+Determining the inputs into the VRM process is a challenge in itself when it comes to fixed income securities because their values must be derived from appropriate yield curves.  In retrospective tests, the yield curves prevailing at the end of every quarter that the hedge has been in existence is a reasonable starting point.  But before calculating the changes in value of a bond, one must recognize that a component of the change is attributable to the aging of the bond; its price approaches par as it matures regardless of interest rates.
+
+This problem comes out in striking relief when a bond with an above-market coupon is hedged with an at-market interest rate swap.  Clearly, the swap has an initial and terminal value of zero.  In other words, the cumulative changes in value add up to zero over its lifetime. The bond, however, has a starting value of, say 114 (% of face) and an ending value at maturity of 100.  This hedge is going to appear highly ineffective unless the aging component of the change in value of the bond is isolated away from the analysis.  
+
+The theoretically rigorous way to accomplish this is to calculate the change in value at the end of the current quarter relative to what this value was projected to be (using forward curves) three months earlier.
+ 
+A second element of contention is the treatment of accrued interest.  In fair value hedges of fixed coupon bonds with fixed for floating swaps, the difference in accrued interest can be a significant component of the value of the swap.  However, accrued interest is already being passed to earnings as interest expense.  Since the FASB’s intent is to expose volatility that was previously hidden, our view is that accrued interest should be excluded from valuation and testing for FAS 133 purposes.
+
+We should recognize that hedges of bonds with interest rate swaps can be imperfect for a couple of reasons even if all the payment dates line up well.  One source of potential trouble is the difference between the bond coupon and the effective fixed rate on the swap, which causes a duration mismatch.  A second problem occurs in the terminal coupon payment period.  By that time, the swap’s floating rate is fixed, causing the bond and the swap to move in the same direction with changes in interest rates.  Thus even hedges that qualify for the short-cut method arguably fail for one or both of these reasons.  
+
+Simulation of Yield Curves
+
+The simulation of interest rates for prospective testing is an area that also deserves some attention.  Given the limited availability of data, one must be careful to avoid the autocorrelation effects of using historical rate information.
+
+Our recommended solution to this problem is as follows:
+
+
+From the available set of historical yield curves, calculate daily term-by-term changes in rates as “vectors” of ratios.  For example, from Day 1 to Day 2, the 6-month rate has moved from 5.5% to 5.7%, …, the 10-year rate has moved from 5.8% to 5.9%, … , and the 30-year rate has moved from 5.3% to 5.4%.  Express this change as:
+ 
+[5.7/5.5, … , 5.9/5.8, … , 5.4/5.3] 
+
+Repeat this process for consecutive days until the available historical yield curves are exhausted.  Note that each ratio vector represents a daily yield curve transformation, i.e., it describes how each point on the yield curve (6 months out to 30 years) changed on a given day.
+
+Randomly select 62 of these ratio vectors and multiply them term-by-term to produce one quarterly yield curve transformation vector (a quarter is assumed to contain around 62 trading days).
+
+Repeat the previous step until an adequate number of quarterly yield curve transformations are obtained.  We believe 200 to be a sufficient number to avoid sample size inadequacy.
+
+Multiply each of the quarterly yield curve transformations by the curve prevailing on the date of the test to produce the Monte Carlo set of curves for prospective valuation.
+
+
+OPTIMAL HEDGE RATIO AND VRM
+
+As mentioned earlier, the R-squared test without reference to slope is not meaningful.  Since R-squared (same as correlation squared in an unconstrained bivariate regression) is independent of scale, the size of the derivative does not affect it. There is, however, only one size that actually maximizes VRM. 
+
+Consider a hedged item and a derivative with known standard deviations and correlation.  The standard deviation of the hedge package (item + derivative) is minimized, and therefore VRM is maximized when the derivative position is scaled so that:
+
+sd = -rid .si          (Equation 1)
+
+where si, sd, and rid are the standard deviations of the hedged item and the derivative, and their correlation, respectively.
+
+The maximum volatility reduction is given by:
+
+Max VRM = 1 - (1 - rid2)1/2     (Equation 2)
+
+
+As an illustration, say a $100 million bond issue is hedged with a $100 million swap.  Based on six data points (for simplicity), we see in Table 2 that the standard deviation of the changes in value of the swap is $7.782 million; that of the bond is $8.934 million and the correlation between them is -97.886%. Figure 3 demonstrates how changing the size of the swap affects the performance of the hedge.  The maximum volatility reduction is achieved when the notional amount of the swap is $112.4 million (-rid .si / sd = 0.97886 ´ 8.934 / 7.782 = 1.124 from Equation 1 above).  This maximum is 79.545% (consistent with Equation 2 above).
+
+This method of optimizing the hedge ratio is useful when originating a hedge.  However, when attempting to qualify an existing hedge for hedge accounting treatment, the size of the swap is given and must be marked to market in full.  On the other hand, it is possible to claim that only a certain percent of the bond’s face amount is being hedged.  Similar techniques can be employed to determine the size of the bond position that maximizes VRM.  This could make the difference between the hedge passing and failing.
+
+
+ 
+
+Table 2: Changes in Value of $100 million Swap and $100 million Bond 
+(in $ millions)
+
+Dd (Swap)
+Di (Bond)
+5.0
+(6.0)
+2.0
+(2.2)
+(8.0)
+7.0
+9.0
+(8.0)
+11.0
+(15.0)
+(6.0)
+8.0
+sd (Swap): 7.782
+sI (Bond): 8.934
+
+rid = -97.886%
+
+
+IN CLOSING
+
+While the foregoing discussion and examples are in the realm of fixed income, the VRM test can be applied to hedges in general, be they currency or commodity related.  The VRM test can also be directly applied to portfolio-based hedging (i.e., a portfolio of assets or liabilities being hedged with a portfolio of derivatives), even though inexplicably FASB does not accord favorable treatment to such at present.
+
+The VRM approach is superior in its simplicity. It is rigorous, defensible and reasonable.  Standard deviation is the accepted measure of volatility. When expressed in dollar terms, standard deviation reflects actual business risk, and unlike arcane statistics such as R-squared, it is familiar to higher management.  Last but not least, the VRM method is consistent with Value-at-Risk (VaR), a widely used measure in risk management.
+
+
+*Andrew Kalotay Associates is a New-York based firm specializing in risk management and capital markets advisory.  Dr. Kalotay is a member of the Fixed Income Analysts’ Society Hall of Fame.
+
+
+
+
+
+
+
+
+Figure 1: Volatility Reduction Measure (Prospective Test)
+$100MM 10-Year 8% Bond Hedged with 9.5-Year LIBOR Swap Receiving 8.25%
+Distribution of 2000 Quarterly Changes in Value Based on Rates from 12/95 to 12/00
+0
+100
+200
+300
+400
+500
+600
+-18.7
+-16.6
+-14.5
+-12.3
+-10.2
+-8.1
+-5.9
+-3.8
+-1.7
+0.5
+2.6
+4.7
+6.9
+9.0
+11.1
+13.3
+15.4
+17.5
+19.7
+21.8
+23.9
+Change in Value ($ millions)
+Frequency
+Bond
+Bond + Swap
+Std Dev of Bond + Swap  $0.625MM
+Std Dev of Bond               $5.602MM
+
+Ratio                                  11.16%    
+
+Volatility Reduction           88.84%                        
+
+
+
+Figure 2: Volatility Reduction of $100MM Bond Issue
+Volatility Minimized and VRM Maximized When Swap Size is $112.4MM
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+0
+50
+100
+150
+200
+Notional Amount of Swap ($ millions)
+Standard Deviation ($ millions)
+Stddev (Bond + Swap)
+Stddev (Bond)
+
+
+
+ The authors acknowledge helpful comments from Lisa Filomia and Jay Glacey of Ernst & Young with regard to combining retrospective and prospective tests.
+ In an unconstrained bivariate regression, R-squared is the square of the correlation between the two variables.
+ The Volatility Reduction Measure (patent pending) for hedge effectiveness testing was invented by Andrew Kalotay Associates, Inc. It has been implemented at a leading telecommunications company and has been accepted by a Big-5 accounting firm.
+ Under amended FAS 133 rules, the hedger is allowed to claim a hedge against changes in value of the bond attributable to changes in benchmark rates (in this case, LIBOR).
+ Louis H. Ederington, “The Hedging Performance of the New Futures Markets,” Journal of Finance 34 (March 1979): 157-170.
+ Ira G. Kawaller and Paul D. Koch, “Meeting the ‘Highly Effective Expectation’ Criterion for Hedge Accounting,” Journal of Derivatives 7 (Summer 2000): 79-87.
+
+ John D. Finnerty and Dwight Grant, “How to Test Hedge Effectiveness Under FAS 133” Working Paper (PricewaterhouseCoopers, LLP).
+ The effective fixed rate on a swap that pays say 8% and receives LIBOR + 65 basis points is 7.35% if the spread of 65 basis points is netted out on both sides of the swap.
+ To maximize VRM, find the weight of the derivative that minimizes the standard deviation of the hedge package (sp), given the standard deviations of the hedged item and the derivative and the correlation between them (si, sd, and rid respectively).  Solve by differentiating sp = (si2 + 2rid + sd2)1/2 with respect to sd and setting the result equal to 0.
+ Substitute sd = -rid .si  in the VRM formula (1 - (si2 + 2rid + sd2)1/2 / si). 
+

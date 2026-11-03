@@ -1,0 +1,35 @@
+Date: Sun, 6 Jan 2002 20:36:57 -0800 (PST)
+Subject: Start Date: 1/6/02; HourAhead hour: 23;
+From: Schedule Crawlerpete.davis@enron.com@ENRON <IMCEANOTES-Schedule+20Crawler+3Cpete+2Edavis+40enron+2Ecom+3E+40ENRON@ENRON.com>
+To: Davis  Pete <Pete.Davis@ENRON.com>
+Cc: Meyers  Albert <Bert.Meyers@ENRON.com>, Williams III  Bill <Bill.Williams.III@ENRON.com>, Dean
+	  Craig <Craig.Dean@ENRON.com>, Solberg  Geir <Geir.Solberg@ENRON.com>, Anderson
+	  John <John.Anderson@ENRON.com>, Guzman  Mark <Mark.Guzman@ENRON.com>, Mier
+	  Michael <Michael.Mier@ENRON.com>, Davis  Pete <Pete.Davis@ENRON.com>, Slinger
+	  Ryan <Ryan.Slinger@ENRON.com>
+X-SDOC: 90142
+X-ZLID: zl-edrm-enron-v2-solberg-g-739.eml
+
+
+
+Start Date: 1/6/02; HourAhead hour: 23;  No ancillary schedules awarded.  Variances detected.
+Variances detected in Load schedule.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final Schedules\2002010623.txt
+
+---- Load Schedule ----
+$$$ Variance found in table tblLoads.
+     Details: (Hour: 23 / Preferred: 443.74 / Final: 443.71)
+  TRANS_TYPE: FINAL
+  LOAD_ID: SCE1
+  MKT_TYPE: 2
+  TRANS_DATE: 1/6/02
+  SC_ID: ENRJ
+
+
+
+***********
+EDRM Enron Email Data Set has been produced in EML, PST and NSF format by ZL Technologies, Inc. This Data Set is licensed under a Creative Commons Attribution 3.0 United States License <http://creativecommons.org/licenses/by/3.0/us/> . To provide attribution, please cite to "ZL Technologies, Inc. (http://www.zlti.com)."
+***********

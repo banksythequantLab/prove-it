@@ -1,0 +1,53 @@
+Date	Buy/Sell	Del Pt	Deal #	Hrs	Total MWH	Rate	Problem	Kysa's Response	
+6/4	Sell	SP-15	630577.1	HE 9-21	26	$55.00 	These deals in Enpower do not reflect 6/4 rt sheet.	
+6/4	Sell	SP-15	630608.1	HE 8-22	111	$55.00 	"	
+6/4	Sell	SP-15	630608.1	HE 23	6	$23.00 	"	
+6/4	Sell	SP-15	630653.1	HE 9	4	$60.00 	"	
+6/5	Sell	SP-15	632019.1	On Peak	16	$112.00 	This deal is on the daily sheet, but not in Carp report	this is a purchase not a sale	
+6/6	Buy	NP-15	633319.1	Off Peak	32	$37.36 	Per the daily sheet, this deal should be in SP-15	changes have been made to $24.17	
+6/6	Sell	NP-15	633322.1	On Peak	480	$47.36 	Per the daily sheet, this deal should be priced at $82.75 in Enpower	changes have been made to $82.75	
+6/7	Sell	NP-15	635326.1	On Peak	592	$128.28 	Per the daily sheet, this deal should be priced at $64.14 in Enpower	this deal is priced at $64.14	
+6/8	Sell	NP-15	637763.1	On Peak	208	$50.53 	Per the daily sheet, this deal should be priced at $45.66 in Enpower	changes have been made to $45.66	
+6/8	Sell	SP-15	638168.1	HE 8-10	20	$60.00 	Per the rt sheet, these hours should be priced at $55 in Enpower	
+6/9	Sell	NP-15	637763.1	On Peak	208	$50.53 	Per the daily sheet, this deal should be priced at $45.66 in Enpower	deal in sheet twice, problem already fixed	
+6/10	Sell	NP-15	639539.1	On Peak	160	$45 	Per the daily sheet, this deal should be priced at $44.20 in Enpower	changes have been made to $44.20	
+6/11	Sell	NP-15	640031.1	On Peak	560	$64.91 	There are no prices in the daily sheet.  Please revise daily sheet with correct prices and send to EES.	price in EnPower is correct, prices have been added to Daily EES sheet for 6/11/2001	
+6/12	Sell	NP-15	642176.1	On Peak	624	$0 	Per the daily sheet, this deal should be priced at $58.46 in Enpower	price of $58.46 has been added to EnPower	
+6/12	EES needs real time sheet	
+6/13	Sell	NP-15	643953.1	On Peak	640	$62.49 	Per the daily sheet, this deal should be priced at $62.23 in Enpower	price changed to $62.23	
+6/13	Sell	SP-15	646852.1	HE 23	6	$40.00 	Per the rt sheet, this hour should be priced at $35 in Enpower	
+6/13	Buy	SP-15	643972.1	Off Peak	6	$23.63 	Per the daily sheet, this deal should be priced at $27.63 in Enpower	daily sheet price has been corrected to $26.63	
+6/13	Buy	SP-15	643972.1	Off Peak	18	$26.63 	Per the daily sheet, this deal should be priced at $27.63 in Enpower	this deal is correct in EnPower and now reflects new prices in Daily sheet	
+6/14	Buy	SP-15	646167.1	Off Peak	64	$25.60 	Per the daily sheet, this deal should be priced at $26.60 in Enpower	price changed to $26.60 	
+6/14	Sell	NP-15	646055.1	On Peak	528	$61.99 	Per the daily sheet, this deal should be priced at $61.15 in Enpower	changed have been made to $61.15	
+6/14	EES needs real time sheet	
+6/15	Sell	NP-15	648244.1	On Peak	480	$38.66 	Per the daily sheet, this deal should be priced at $48.66 in Enpower	
+6/16	Buy	SP-15	650480.1	On Peak	192	$45.00 	What is this deal?  It's not on rt sheet or daily sheet	
+6/17	Sell	NP-15	650264.1	On Peak	400	$55.00 	Per the daily sheet, this deal should be priced at $48.27 in Enpower	
+6/18	Buy	SP-15	650255.1	Off Peak	96	$28.78 	What is this deal?  It's not on rt sheet or daily sheet	
+6/18	Buy	SP-15	650637.1	133	Various	These deals in Enpower do not reflect 6/18 rt sheet.	
+6/18	Buy	SP-15	652576.1	HE 22	21	$65.00 	"	
+Buy	NP-15	632023.1	On Peak	48	$295 	Deal is in Enpower 6/6-6/30, Mon-Sat; should be 6/1-6/30, Mon-Sat	
+Buy	SP-15	632023.2	On Peak	192	$280 	Deal is in Enpower 6/6-6/30, Mon-Sat; should be 6/1-6/30, Mon-Sat	
+6/4 - 6/14	Sell	Nepool	552680.1	24	720	Nepool Index 	Index rate needs to be updated in Enpower	Kate Symes:
+Please see "View Actuals" and attached Real Time sheet for 6/4 - rows highlighted in red show this deal - 2 mw HE 8 through 21
+Kate Symes:
+See above comment - deal highlighted in green
+Kate Symes:
+See above comment - deal highlighted in green
+Kate Symes:
+See above comment - deal highlighted in blue
+Kate Symes:
+Prices changed to $60 in Real Time sheet - correct in Enpower
+Kate Symes:
+Sheet for 6/12 sent to Ainsley Gaddis
+Kate Symes:
+Sheet for 6/14 sent to Ainsley Gaddis
+Kate Symes:
+Price changed to $40 in Real Time sheet - correct in Enpower
+Kate Symes:
+Deal added to Real Time sheet for 6/16
+Kate Symes:
+Deal is shown in Real Time sheet for 6/18 - see rows highlighted in red
+Kate Symes:
+Deal is in Real Time sheet for 6/18 - highlighted in blue - price changed in sheet to $65 - correct in Enpower

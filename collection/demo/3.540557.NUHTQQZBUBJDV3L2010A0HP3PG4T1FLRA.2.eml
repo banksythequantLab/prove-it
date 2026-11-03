@@ -1,0 +1,50 @@
+Supply Package I.D.	Begin Date	End Date	Point	Max DQ (MMBtu/d)	Min DQ (MMBtu/d)	Monthly Min (%)	Publication/Index	Price Provision	Premium/ (Discount)	Special Terms or Comments	
+PSCo's DJ System	
+Firm Baseload	
+FB-1A	Nov-01	Oct-02	mutually agreeable	  5,000 	  5,000 	100%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.230 	
+FB-1B	Nov-01	Mar-02	mutually agreeable	  5,000 	  5,000 	100%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.280 	
+FB-1F	Dec-01	Feb-02	mutually agreeable	  5,000 	  5,000 	100%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.300 	
+Firm Variable	
+FV-1A	Nov-01	Oct-02	mutually agreeable	  10,000 	  5,000 	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.235 	
+FV-1B	Nov-01	Mar-02	mutually agreeable	  10,000 	  5,000 	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.285 	
+FV-1D	Oct-01	Apr-02	mutually agreeable	  10,000 	  5,000 	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.250 	
+FV-1F	Dec-01	Feb-02	mutually agreeable	  10,000 	  5,000 	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.300 	
+Firm Swing - Daily Calls at Gas Daily	
+FS-1A	Nov-01	Oct-02	mutually agreeable	  10,000 	  - 0 	0%	Gas Daily, PSCo Citygate Daily Index Price	Midpoint	 $ 0.020 	Premium is paid as an upfront demand charge on the Max DQ	
+FS-1E	Nov-01	Feb-02	mutually agreeable	  10,000 	  - 0 	0%	Gas Daily, PSCo Citygate Daily Index Price	Midpoint	 $ 0.040 	Premium is paid as an upfront demand charge on the Max DQ	
+FS-3F	Dec-01	Feb-02	mutually agreeable	  10,000 	  - 0 	0%	Gas Daily, PSCo Citygate Daily Index Price	Midpoint	 $ 0.050 	Premium is paid as an upfront demand charge on the Max DQ	
+Firm Swing - Daily Calls at FOM Index	
+FS-1A	Nov-01	Oct-02	mutually agreeable	  10,000 	  - 0 	0%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.490 	Premium is paid as an upfront demand charge on the Max DQ	
+FS-1E	Nov-01	Feb-02	mutually agreeable	  10,000 	  - 0 	0%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.710 	Premium is paid as an upfront demand charge on the Max DQ	
+FS-3F	Dec-01	Feb-02	mutually agreeable	  10,000 	  - 0 	0%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.790 	Premium is paid as an upfront demand charge on the Max DQ	
+Firm Swing - 5 Day Calls at FOM Index	
+FS-3F	Dec-01	Feb-02	mutually agreeable	  10,000 	  - 0 	0%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.160 	Exercise is limited to 5 days over the term.  Premium is paid as an upfront demand charge on the Max DQ	
+Firm Swing - 10 Day Calls at FOM Index	
+FS-3F	Dec-01	Feb-02	mutually agreeable	  10,000 	  - 0 	0%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.210 	Exercise is limited to 10 days over the term.  Premium is paid as an upfront demand charge on the Max DQ	
+PSCo at Chalk Bluffs	
+Firm Baseload	
+FB-2B	Nov-01	Mar-01	WIC	  10,000 	  10,000 	100%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.140 	
+FB-2F	Dec-01	Feb-02	WIC	  10,000 	  10,000 	100%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.150 	
+Firm Variable	
+FV-2B	Nov-01	Mar-01	WIC	  15,000 	  5,000 	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.150 	
+FV-2D	Oct-01	Apr-02	WIC	  15,000 	  5,000 	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.145 	
+FV-2F	Dec-01	Feb-02	WIC	  15,000 	  5,000 	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.160 	
+Firm Swing - Daily Calls at Gas Daily	
+FS-2E	Nov-01	Feb-02	WIC	  10,000 	  - 0 	0%	Gas Daily, Cheyenne Hub Daily Index Price	Midpoint	 $ 0.010 	Premium is paid as an upfront demand charge on the Max DQ	
+FS-2F	Dec-01	Feb-02	WIC	  10,000 	  - 0 	0%	Gas Daily, Cheyenne Hub Daily Index Price	Midpoint	 $ 0.010 	Premium is paid as an upfront demand charge on the Max DQ	
+Firm Swing - Daily Calls at FOM Index	
+FS-2E	Nov-01	Feb-02	WIC	  10,000 	  - 0 	0%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.530 	Premium is paid as an upfront demand charge on the Max DQ	
+FS-2F	Dec-01	Feb-02	WIC	  10,000 	  - 0 	0%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.580 	Premium is paid as an upfront demand charge on the Max DQ	
+Firm Swing - 5 Day Calls at FOM Index	
+FS-2F	Dec-01	Feb-02	WIC	  10,000 	  - 0 	0%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.120 	Exercise is limited to 5 days over the term.  Premium is paid as an upfront demand charge on the Max DQ	
+Firm Swing - 10 Day Calls at FOM Index	
+FS-2F	Dec-01	Feb-02	WIC	  10,000 	  - 0 	0%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.160 	Exercise is limited to 10 days over the term.  Premium is paid as an upfront demand charge on the Max DQ	
+East Denver	
+Firm Swing - Daily Calls at Gas Daily	
+FS-5F	Dec-01	Feb-02	PSCo Citygate	  10,000 	  - 0 	0%	Gas Daily, PSCo Citygate Daily Index Price	Midpoint	 $ 0.060 	
+Firm Swing - Daily Calls at FOM Index	
+FS-5F	Dec-01	Feb-02	PSCo Citygate	  10,000 	  - 0 	0%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.810 	Premium is paid as an upfront demand charge on the Max DQ	
+Firm Swing - 5 Day Calls at FOM Index	
+FS-5F	Dec-01	Feb-02	PSCo Citygate	  10,000 	  - 0 	0%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.170 	Exercise is limited to 5 days over the term.  Premium is paid as an upfront demand charge on the Max DQ	
+Firm Swing - 10 Day Calls at FOM Index	
+FS-5F	Dec-01	Feb-02	PSCo Citygate	  10,000 	  - 0 	0%	Inside FERC, CIG/Rocky Mountain Index Price	First of Month	 $ 0.220 	Exercise is limited to 10 days over the term.  Premium is paid as an upfront demand charge on the Max DQ	

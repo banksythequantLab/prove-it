@@ -1,0 +1,2438 @@
+Day-Ahead Lunch-Time Electricity Demand Forecasting
+
+ 
+Applications to Electricity and Weather Derivatives
+
+
+
+
+
+SLOAN THESIS PROJECT
+
+
+
+
+
+
+
+
+
+
+
+
+
+Submitted to: London Business School 
+Submitted by: Iris Marie Mack, Ph.D.
+Thesis Advisor: James Taylor, Ph.D.
+Date:  July 30, 1999
+
+
+
+Table of Contents
+EXECUTIVE SUMMARY 3
+INTRODUCTION 4
+PART I.  ELECTRICITY AND WEATHER DERIVATIVES 5
+Monopolistic Electric Utility Markets 5
+Special Characteristics of the Electricity Market 5
+Radical Restructuring of the Electric Utilities Industry 5
+Derivatives Products on Electricity 7
+Volatility of Electricity Prices 8
+Obstacles in Pricing Electricity Derivatives 8
+Weather Forecasting and Trading 9
+Derivatives Products on Weather 9
+Table I.  Examples of Weather Derivatives [Turrin, 1999] 11
+Applications of Weather Derivatives to Mainstream Industries 12
+Link between Electricity and Weather Derivatives 13
+Relationship between Electricity and Weather Derivatives and Demand 13
+Weather-Demand Relationships 14
+Part I Summary 15
+PART II.  ELECTRICITY DEMAND FORECASTING MODELS 16
+EVIEWS: ECONOMETRIC VIEWS 16
+Forecast Errors 16
+Forecast Evaluation 17
+DATA PREPARATION 17
+SUMMARY OF VARIABLES 20
+Table II.  Summary of Independent Variables 20
+AN OVERVIEW OF FORECASTING METHODS USED IN OUR SIX MODELS 21
+Uni-variate Time Series (Box-Jenkins) Analysis 21
+Multivariate Linear Regression Analysis 22
+Combined Forecasts Models 23
+STATISTICAL RESULTS AND COMPARATIVE EVALUATION OF OUR FORECASTS MODELS 24
+Table III. Model Descriptions 24
+Model I: NGC’s Benchmark 25
+Model II:  Multivariate Linear Regression Models with Stepwise Variable Selections 27
+Model III:  Multivariate Linear Regression Models Similar to NGC’s Model 29
+Model IV: Regression Model Similar to NGC’s Model: No Illumination Effect. 31
+Model V: Mixed Model:  ARMA and Multivariate Linear Regression 33
+Model VI:  Combined Forecasts Models 38
+Comparative Evaluation of our Six Forecasts Models 40
+Table IV. Model Comparative Evaluation 40
+Part II Summary 40
+CONCLUSION 41
+APPENDICES 42
+EXAMPLES OF WEATHER DERIVATIVES [TURRIN, 1999] 43
+Figure IA.  Example of a Weather Option 43
+Figure IB.  Example of a Weather Linked Loan 44
+Figure IC.  Example of a Weather Linked Bond 45
+Figure ID.  Example of a Weather Linked Swap 46
+Figure IE.  Example of Weather Insurance 47
+FIGURE II.  EFFECT OF WEATHER RISK ON SUPPLY AND DEMAND [MORDECAI, 1998] 48
+REFERENCES 49
+Executive Summary
+ 
+
+
+
+In my Sloan thesis project I present an application of advanced forecasting methods to day-ahead lunch-time electricity demand forecasting.  Day-ahead half-hourly electricity demand forecasts are required for scheduling and for calculating the daily electricity pool price. This thesis has two key sections:  
+
+ Part I.  Electricity and Weather Derivatives
+
+ Part II.  Electricity and Demand Forecasting Models.
+
+
+Part I of my thesis contains discussions on electricity and weather derivatives.  The stage is set via a literature review of the electric utility markets; a discussion of derivatives products on electricity and weather; a summary of applications of these energy derivatives to mainstream industry; and a discussion of the link between electricity and weather derivatives and demand. 
+
+
+In Part II of my thesis I utilize 1996 and 1997 British Summer Time observations (BST96 and BST97) to design and comparatively study six electricity demand forecasting models. The following types of forecasting methods are used in our analysis: univariate time series (Box-Jenkins) analysis; multi-variate linear regression analysis; and (simple average and regression) combined forecasts methods. Our forecasting models were applied to NGC’s historical data for 1998 British Summer Time (BST98) lunchtime observations. 
+
+
+A summary of Part I is that understanding electricity demand is essential when structuring and trading electricity and weather derivatives. Also, a summary of the findings in the comparative study in Part II is that a simple average combined forecast model (that is, a simple average combination of NGC’s benchmark model and one of our mixed multivariate linear regression models) could be constructed to “beat” NGC’s benchmark.  More specifically, this simple average combined model yields better statistics (higher R2 statistics, higher adjusted R2 statistics, a lower mean absolute error, and a higher Durbin-Watson statistic) than NGC’s benchmark model. 
+
+
+
+Introduction
+
+
+
+The goal of my Sloan thesis project is to present the application of advanced forecasting methods to day-ahead lunch-time electricity demand forecasting.  Day-ahead half-hourly electricity demand forecasts are required for scheduling and for calculating the daily electricity pool price [Taylor and Majithia, 1999]. 
+
+
+In England and Wales the demand forecasts of the National Grid Company (NGC), which is responsible for transmission of electricity, are a crucial input to operational planning where the generation output is scheduled to meet customer demand [Majithia, 1997].  In addition, since the restructuring of the industry in 1990, and the introduction of the daily electricity “power pool”, NGC's demand forecasts have been used to set the price of electricity in the pool.  
+
+
+Electric utilities regulators, generators and suppliers perceive the NGC’s demand predictions as a major influence on the business dynamics of the industry [Littlechild, 1996].  With the anticipation of a new industry structure, accurate short-term electricity demand forecasting will also be required by utilities who will need to predict customers’ demand, and by those wishing to trade electricity on the financial markets.  
+
+
+My thesis is organized as follows:
+
+
+The first half is devoted to a discussion of the motivation for my interest in electricity demand forecasting models: understanding electricity demand is essential when trading electricity and weather derivatives. 
+
+
+In the latter half of my thesis I utilize 1996 and 1997 British Summer Time observations (BST96 and BST97) to design and comparatively study six electricity demand forecasting models.  These six forecasting models were applied to NGC’s historical data for 1998 British Summer Time (BST98) lunchtime observations. I was able to construct a simple average combined forecast model which “beats” NGC’s benchmark.
+
+Part I.  Electricity and Weather Derivatives
+
+ The subsections of the first half of my thesis contain discussions on how understanding electricity demand is essential when structuring and trading electricity and weather derivatives.  The stage is set via a discussion of derivatives products on electricity and weather, and the link between electricity and weather derivatives and demand.  
+
+
+Monopolistic Electric Utility Markets
+
+Electric utilities were once the sacred cows of the investment world.  Protected by government regulations, they could do as they pleased - passing on all cost increases to customers and ensuring that profits were robust. Each utility was essentially its own little monopoly.  Now utilities are feeling the icy winds of competition. 
+
+Many electric utility markets in the U. K. and the U. S. are undergoing dramatic shifts from protected monopolies to cost-based competition [Maguire Oil, 1997]. For example, deregulation of the U. S. electric utility industry is modelled on the recent liberalization of the natural gas and telecommunications sectors. The creation of a new competitive utility market is creating regional trading markets. Financial risk management and derivatives products hold promise for the electric utility industry [Lacey, 1996], [Fusaro, 1996]. 
+
+
+Special Characteristics of the Electricity Market
+
+The nature of electricity does present some problems you won't find in other commodity markets - storage limitations, for instance. Electricity is, to say the least, difficult to store. Hence there is a lack of “inventories.”  Batteries can only hold so much of a charge. Not surprisingly, excess capacity often goes to waste. Until a breakthrough is made in storage technology, traders in the burgeoning electricity commodities market will not be able to store enough of the commodity to match expectations for greater demand. Also, because electricity cannot be stored, while natural gas can, electric utilities will not develop into risk managers in the same fashion. 
+
+The electric utility market has other special features, such as: an instantaneous market, physical characteristics which limit opportunities for arbitrage, a constrained transportation network, reliability issues, and high price volatility.  It is reported that electricity prices are twice as volatile as gas prices [Eydeland, 1998].  I will elaborate on the high price volatility of electricity in a latter subsection.
+
+
+Radical Restructuring of the Electric Utilities Industry 
+
+The U. S. electric utility industry reached an important milestone on March 29, 1996 [Kalb, 1997].  It was on this day that the New York Mercantile Exchange (NYMEX) began trading energy futures contracts. The advent of futures trading heralds a more fundamental change in the electricity business. For traders and brokers the most immediate consequence of the NYMEX contracts is a number of new hedging and arbitrage strategies. 
+
+"Electric utilities are facing price risk for the first time," says John Woodley, a commodities trader at Morgan Stanley Dean Witter.  "It is a radically different mindset from the cost-based pricing they are used to." Peter Fusaro, president of Global Change Associates, an energy consulting company, puts the problem more succinctly. Utilities will have to start thinking of electrons as money, he says.  Coping means facing the daunting task of learning about the power of financial derivatives while also building new marketing and distribution skills. Electric utilities that don't master the paradigm shift could find themselves take-over targets. 
+
+Unlike gas futures, introduction of western U.S. electricity futures contracts occurred early in the deregulation process. The over-the-counter (OTC) derivatives market may dominate the market because of its ability to customize deals. The commodities markets for electricity are still centered on the physical trade of power rather than the utilization of financial products. Currently, few utilities can use paper instruments due to regulatory barriers for investor owned utilities.  However some electric utilities are trading paper power and there are forecasts of future jumps in activity [Maguire Oil, 1997].
+
+The growth of electricity futures mirrors that of the Exchange's other energy futures contracts. Each of the principal energy futures traded on NYMEX - heating oil, gasoline, crude oil and natural gas - was introduced shortly after the U.S. government price controls and other regulations were removed from the underlying products. Each contract has also evolved into a pricing benchmark for U.S. and international energy markets. Also each energy industry cash market, and subsequent futures contract, has benefited from those that came before it.
+
+Now it is electricity's turn. The unbundling of the power markets that will occur under the U. S. Federal Energy Regulatory Commission's notice of proposed rule will create several new market sectors.  Each will likely develop its own characteristics of supply, demand, competition and pricing. But utility managers should not view the futures market as one more obstacle to be overcome as the industry restructures. Rather, they should see it as a means to help deal with these changes. The Exchange is not intruding into the electricity market. Instead, it will offer a safe and orderly forum that will allow participants to offset market risk.
+
+A few utilities are in the forefront of radical restructuring - selling long-term contracts and options on their capacity and adding the risk management structures needed for future success. These companies have decided on a two-pronged approach that combines tight internal financial management and an aggressive stance in marketing and distribution, which in some cases involves entering markets where they have no generation assets. 
+
+Of course it isn't just the multi-billion dollar electric utility industry that is facing change. All power marketers have been forced to confront the future. Some gas companies, for instance, have seized the opportunities presented by competition and have applauded the advances in risk management and derivatives development. And the electric utility industry is five times the size of the natural gas market. In fact, Enron has grown from a small, sleepy gas provider to a dominant force in the gas industry by relying on its marketing skills and ability to manage the physical and financial risk of its substantial positions. It has already begun to leverage this knowledge in the electric utility industry, where it has become one of the major forces in the market.
+
+Deregulation will bring volatility to an industry known for its stability. But it will also make customers very happy.  They can expect rate freezes, or even decreases, for several years to come.  Industrial customers stand to reap even greater benefits. Volume alone will make them prime targets of competing suppliers.
+
+Derivatives Products on Electricity 
+
+The early work of Dr. Kenneth Arrow suggested that markets become more complete as contingent claim securities are added to the economy [Arrow, 1971].  In a more complete economy investors would have the choice of reducing uncertainty and obtaining a desirable outcome regardless of the state of the world. Thus, in a world of more complete markets, financial markets participants would create more derivatives on the factors that influence future states of the world. This might include changes in the price of a stock, interest rates, inflation, electricity price, electricity demand, temperature, or a catastrophe. The proliferation of derivatives securities in the last two decades has produced more complete markets. 
+
+ The work of the 1997 Economics Nobel Prize winners Dr. Robert Merton and Dr. Myron Scholes along with the late Dr. Fischer Black has facilitated financial engineering product innovation and the efficient yet practical management of risk. The original Black Scholes (BS) pricing model was designed for European style options on stock that paid no dividends.  Since that time the model has been modified and expanded to price many other derivatives – including electricity and weather derivatives [Chance, 1999], [RISK, 1997], [Hodges, 1997].
+
+D'Agostino of Cinergy says: "We have clients asking us to write put options on electricity. In the event that we have one of those contracts put to us we can always cut back on our own production. In this case the ownership of the production assets is a big advantage. It allows us to do deals that other marketers without such assets could not do without accepting substantial downside risk." The ownership of power generation allows for many types of deals that under other circumstances would be considered too risky.
+
+Sue Becht, risk manager at Duke Power in North Carolina, explains the competitive advantage electric utilities have over new entrants: "We own the physical assets so we can hedge our exposure relatively easily.  In fact we have trading operations only because we have products to lay off, not the other way around. Additionally, this is something we have been doing for years on a voluntary basis. In the past an electric utility that needed power would call and if we had excess capacity we would sell it to them. This has given us a tremendous knowledge base. We know everything about everyone: generation capability, peak needs, etc.  All that is changed now is that we are selling contractual options on our excess power to those who we know will need it.”
+
+It is predicted that the electricity options market will explode once overall liquidity develops.  In the future, there will likely be liquid markets for electricity derivatives; long-term "paper" contracts; OTC and exchange-traded products; basic swaps and options as well as complex products; corporate risk management and price speculation by intermediaries; and linkages of electricity, weather, financial and commodity derivatives.
+
+Volatility of Electricity Prices
+
+An OTC market for electricity is taking off as traders experiment with balancing real-time supply and demand. Like natural gas in the early days, electricity forward prices have enormous volatilities - ranging from 80 percent to 240 percent, depending on the market. This is quite a contrast to the volatility of the now-mature natural gas product, which ranges between 25 and 30 percent.
+
+      Volatilities are likely to drop in response to improved liquidity in the coming years. Another expected improvement: better analytics. Electricity is coming on-line as a trading product just as a new generation of “quants” and software companies are ramping up to create more sophisticated analytic tools. Indeed, some traders from interest rate markets have already migrated to commodities, bringing with them an appetite for sophisticated systems. A pressing need exists for solutions dealing with analytical and practical issues.
+
+Price volatility has historically inhibited the expansion of utilities, which for the most part have proven a bit shy of entering into markets where they have no generating capacity. The financial risks inherent with promising delivery in a market where the electric utility has no control of the physical supply is not something that many utilities wish to undertake. 
+
+The lack of pricing transparency also makes the electricity market a difficult place to apply traditional financial risk management techniques. The first and probably the most important problem is the lack of a forward pricing curve for each region. Some of this can be attributed to the short existence of the wholesale markets. Without a long series of historical data, it has been difficult to build such a reliable forward curve.
+                   
+      Just exactly how the electric utility markets will change in the future is still a matter of debate. It is predicted that futures contracts will lead to an explosion of derivatives products in the electricity markets. It is believed that the volatilities eventually will fall to mirror those of natural gas, hovering around 30 to 40 percent on an annualized basis. 
+                   
+D'Agostino at Cinergy thinks that electricity volatility will never be as low as that of natural gas. "Because electricity is an instantaneous product there will always be hourly volatility.  Intraday volatility," he adds, "will always be high, and though annual volatility may eventually drop towards that of natural gas, it will be a long time in coming and may always be a bit higher."
+
+
+
+Obstacles in Pricing Electricity Derivatives
+
+          Some consumers appear to be greatly interested in customized energy products, especially those with embedded derivatives. One of the obstacles financial engineers face when pricing electricity derivatives is the lack of historical data on electricity prices. The starting point for establishing consistent electricity derivatives pricing models is understanding the underlying electricity price behavior, which can only be obtained through analysis of actual market prices. Right now, no such database for electricity exists, at least none of sufficient size to be useful. The lack of data makes pricing electricity derivatives somewhat challenging. This may affect market liquidity, at least in the short term.
+
+In addition, some local electric utility customers may be spooked when they hear the word "derivatives."  Providers need to carefully explain they are actually talking about bulk purchases of electricity, not some demon financial instrument. When discussing options, they need to make it clear that they are referring to a sort of insurance policy. If the providers say "put options," some of its customers might start running for cover.
+
+ Notwithstanding these hurdles, the long-term outlook for a free market in derivatives-based electricity is excellent. The force of history and economic logic is on its side. Simply put, once buyers get a taste of choice and flexible electricity pricing, there will be no going back.
+
+
+
+Weather Forecasting and Trading
+
+ Forecasting the weather and then trading on the knowledge has become a business employing a growing number of people [Turner, 1998].  Over the past few years the U. S. commodities conglomerates have started to employ their own weather forecasters.  These financial institutions (such as Enron Capital and Salomon Smith Barney) think that having a shrewd idea of what is going to happen to the weather allows them to trade energy and other commodities more successfully.
+
+ These weather forecasters produce research reports for energy and other commodity traders.  Their reports contain temperature predictions, probable hurricane forecasts and other weather data that will affect supply and demand of commodities.
+
+
+
+Derivatives Products on Weather 
+
+The basic equation in the energy business is:
+
+(Price of Energy) * (Volume of energy demanded) = 
+      (Producer’s revenue or a consumer’s cost)
+
+The primary driver of demand is weather.  The volatility of weather makes weather derivatives very useful.  Price hedging is essential and so is volumetric hedging.
+
+Weather derivatives are not the same as other financial derivatives.  There is no underlying traded instrument on which weather derivatives are based. They are based on physical data – usually temperature levels – which affect the volume of energy consumed.  Whereas electricity and foreign exchange derivatives, for example, have their counterparts in the spot markets, nobody trades weather itself.
+
+ Hence, unlike other derivatives, weather derivatives are not used to hedge the price of the underlying, as the weather itself can not be priced.  They are used, rather, as a proxy to hedge against other risks affected by the weather, such as the risk that electricity prices will go up.   These derivatives are also used in hedging against low or high energy demand – a volume rather than a price hedge. 
+
+Weather derivatives are the first financial tools available to risk managers to stabilize earnings volatility caused by the unpredictability of weather.  These financially settled products are structured as temperature swaps and options and are used to hedge volume-related risks caused by extreme weather conditions.  While traditional weather damage insurance has been available to businesses for years, protection in the form of a derivative designed specifically for non-catastrophic weather conditions has only recently become available.  When used together with traditional price hedges, properly structured weather derivatives reduce cash flow volatility, lowering financing costs and stabilizing revenues. 
+
+Pricing models for weather derivatives are still closely guarded by each provider.  However, they all combine standard option pricing models with some type of actuarial prediction of weather conditions.  The theory behind weather hedges is fairly straightforward: It is a way to “protect” businesses from excessive costs or depressed demand due to unfavorable weather conditions.  Utilities, ski resorts, film studios, retailers, energy distributors, agricultural firms and even insurance companies can limit their exposure and protect their bottom line by the deft use of weather derivatives products [Clemmons, 1998].
+
+Although the market for plain vanilla weather derivatives is still thinly traded, derivatives providers are already trying to market variations on a theme.  Enron, for example, is trying to sell weather derivatives based on the number of hours of sunshine per day, or the degree of rainfall and snowfall.  The company is even thinking about marketing contracts with humidity as an underlying variable. However, deals with underlyings other than temperature are far and few between [Locke, 1998].
+
+Fortunately for the marketplace, everyone has a different perception of the weather.  Conditions that hurt some businesses actually may help others.  This enables traders to create weather derivatives that work on behalf of both types of parties.  For example, a summer of hot dry weather in Louisiana may hurt farmers and increase manufacturing, air conditioning and water bills.  Simultaneously, golf courses, water parks and theme parks are enjoying record attendance.
+
+The weather derivatives markets have arrived and are here to stay.  Now businesses can guard against the excessive costs and depressed demand that temperamental weather patterns can produce.  This means that weather is no longer going to be relegated to the world of small talk.  It has become big business.
+
+Weather protection can be structured into many different types of financial engineering products to meet specific needs of the client.  The ideal instruments to mitigate weather risks are seasonal degree-day swaps, options, collars, and maximum or minimum temperature options.  I briefly summarize these weather protection products in the following table and present related schematic diagrams of these products in the Appendix.
+
+Table I.  Examples of Weather Derivatives [Turrin, 1999]
+
+
+
+
+Type of Weather Protection
+
+
+Characteristics of Weather Protection
+
+Weather Options
+
+
+Provide building block upon which other securities can be structured.
+Defined by their (1) strike price – the point at which a weather index (rain, snow, heat or cold) exceeds a specified value and the options begin to pay and by (2) its payoff – the amount an options pay after reaching the strike price per unit of weather index.
+
+
+Weather Linked Loan
+
+
+Loan repayments can be extended or reduced to suit needs of a client adversely impacted by weather.
+Allows client to purchase a familiar financial product.
+Several loans can be issued with weather protection specific to individual product lines.
+Accounting treatment is well established.
+There exist potential for interest deduction on tax.
+
+
+Weather Linked Bond
+
+
+An asset, which can be purchased, whose value is dependent on specified weather events.
+Client purchases a bond, which can be added to its investment portfolio.
+Procedures for investment relatively simple and straightforward.
+Bond can be structured to redeem with set weather events or can be structured to give enhanced yield at final maturity.
+
+
+Weather Linked Swap
+
+
+Sophisticated clients can change existing debt into weather responsive debt.
+Does not require client to take on further debt but to change the nature of existing debt.
+Requires client who has some familiarity with swap marketplace.
+Best suited for clients already engaged in interest rate swaps.
+
+
+Weather Insurance
+
+
+Offers the best known means of purchasing risk protection.
+Has extremely high transaction costs
+Broker acts as an intermediary.
+Deductibility of premium and accounting treatment is well established.
+
+
+
+
+Applications of Weather Derivatives to Mainstream Industries
+
+Some industries affected by weather derivatives are as follows [Rawal, 1999]:
+
+Food/Drink Producers and Distributors
+A soda pop distributor in the Midwest United States realises that there may be a shortfall in revenues during the summer of 1999 due to an abnormally cool summer.  She estimates the cost of each “degree day”* to her business would be around $25,000.  She can enter into a contract that would pay her out $25,000 for each cooling degree-day below a pre-defined reference level that would represent the risk tolerance limit she is willing to bear on the temperature exposure.
+
+*Note:  Degree days are calculated on the basis of the absolute difference between a reference temperature of 65oF (18oC) and the actual average temperature.  In the summertime, the demand for energy increases with every degree-day above 65oF, as customers crank up the air conditioning.  In the wintertime, the demand increases for every degree-day lower than 65oF as customers rush for the thermostat.  A day with an average temperature of 45oF, for example, will contribute 20-degree days total.
+
+Sports/Entertainment Complexes
+FA Carling Premiership champions Arsenal have started to look more carefully at the bottom line lately in terms of income earned over the course of a football season.  It has become apparent to senior management that some damaging results have been inflicted by Mother Nature this year in terms of reduced ticket admissions at Highbury due to excessively cold temperatures.  It is estimated that if the temperature falls below 0 degrees, the total loss to the stadium operator amounts to £20,000.  Arsenal can purchase a contract that pays out this same amount for each game in which the temperature falls below zero over the course of a season.
+
+Clothing Manufacturers/Retailers
+Marks & Spencer has stocked up on its inventory of warm clothing in anticipation of brisk sales during the upcoming winter season.  Unfortunately, the winter turns out to be relatively mild and losses associated with the inventory amount to a significant hit to the net income for the quarter.  As a result, Marks & Spencer decides to hedge the exposure by entering into a 5 year contract that pays out £10,000 for each heating degree day below a pre-defined reference level and an annual premium to be paid by Marks & Spencer.
+
+Wineries
+A wine producer in France is concerned about the effect of weather on his crop and the subsequent hit to earnings for 1999.  His technical assistant has advised him that he is most exposed to a lethal combination of extremely warm and dry weather that could destroy the crop fields.  As a result, he is looking for protection against the temperature exceeding a certain specified level and precipitation that falls short of a given measure.  For each day that both conditions are met, he would receive a defined payout. 
+
+Some issues these potential weather derivatives users must consider before making a purchase is to understand the financial motivation for buying weather protection; evaluate the types of products or structures his/her company is comfortable buying, and to examine potential solutions by talking with market participants.
+
+
+
+Link between Electricity and Weather Derivatives
+
+ A headline in the New York Times on July 15, 1998 read:  “Deregulation fosters turmoil in power market”  [Eydeland, 1998].  The summer of 1998 was the first extremely hot summer since deregulation became effective in the U.S.  American power marketers suffered heavy losses during this summer because the unusually hot weather and generation shortages forced them to buy power at exorbitant rates. Richard Bernero, a vice president in the insurance products group at Bankers Trust, says that in this situation to get a perfect hedge companies may have to take on both price coverage through electricity derivatives for example, and volume coverage through weather derivatives.  “It is fair to say that a weather hedge would only have dampened a portion of the effects of the price spikes,” he says [Locke, 1998].  
+
+However, he adds that such a weather hedge would only be effective if the contract is for a short period of time – a week, for instance - when the effects of one extreme day would not be averaged out.  Many temperature hedges cover periods of three or six months, so a large price spike on one particular day during the summer period of high price spikes would not be covered.
+
+
+
+Relationship between Electricity and Weather Derivatives and Demand
+
+Options on power are one of the fastest-growing products on the market. A typical structure would have one utility that is worried about meeting demand for power in August. That utility would buy what is referred to as a 5/16 call option, which allows them to call five days of power for sixteen hours a day. This power can usually be called on a day-before basis on any business day of the month. So for a 22-day work month the utility would theoretically purchase 22 daily call options and pay accordingly. An independent marketer would hedge this type of deal with a back-to-back contract or by going forward in the market and buying the power for August. On the other hand, a firm that owns the excess capacity would sell the option against the plant that has the capacity to spare and hedge with the physical product itself.
+
+Industry sources estimate that more than 80 percent of all businesses are materially exposed to weather risk. Weather risk has an economic impact in three ways [Mordecai, 1998]:
+
+The variability of a company’s revenue.  The weather affects both the price and volume of energy sold.
+The variability of costs.  Note, for example, the impact of hurricane Earl on oil futures.  By forcing drilling wells in the southern U. S. to close in order to avoid damage, it constrained supply and pushed prices up.
+Negative shocks to the asset values and liabilities on its balance sheet (financial asset market values and/or total return, capacity inventory, receivables or payables)
+
+Without a weather derivatives market, equity holders in a company are subject to the adverse effects of these risks and are therefore charged an equity premium.  In addition, with no liquid traded market for weather volatility, there would be no transparent pricing for products sensitive to weather risk and the equity premium charged for weather risk might either be too expensive or too cheap. 
+
+Weather risk can negatively impact and lead to shocks in revenue from its effect on production and transmission capacity or inventory levels resulting in excess supply or demand (elasticities).  Financial derivatives contracts hedge only the price risk component of revenue or cost structure of firms.  As such, they do not provide protection against volume risk, or their impact on the market value of an asset.  By offsetting shocks to (elasticities of) supply and demand, weather derivatives can help bridge the gap between price variation and the margin between revenue and costs.  
+
+Weather derivatives have been structured to match the terms and payout distribution of various pricing schedules and forward or swing option supply contracts.  Swing option contracts allow the buyer to vary the amount of a commodity that he buys.  This flexibility permits an entity to cover the non-linear effects of demand or supply shocks resulting in capacity or storage constraints linked to weather risk, and to deliver more effectively on contracts or pricing schedules with both fixed and variable components.
+
+
+
+Weather-Demand Relationships
+
+ Consumer demand for electricity from the National Grid System exhibits large daily and seasonal variations.  A ratio of approximately 4:1 exists between winter peak demand and a summer night demand.  As far back as the 1930s weather was identified as a major source of short term variation in electricity demand in the United Kingdom [Baker, 1985].     
+
+ The following four derived weather parameters have been identified to model the weather induced electricity demand variation [Baker, 1985]:
+
+
+Average Temperature, TOr
+For each weather station this is the average of the 4 spot hourly temperature observations up to time r, 
+        3
+  TOr =         .25 å Tr-n 
+                                       n=0 
+
+There is an inverse relationship between the temperature and the demand; that is, the higher the temperature, the lower the demand.  However, the relationship is slightly non-linear as the square of the temperature is also useful, giving a quadratic relationship which has a steeper slope at very low temperatures [Ramanathan, 1997].
+
+
+
+
+Effective Temperature, TEr
+ This is an exponentially smoothed form of TO for time r:  
+  TEr = aTOr + (1-a)TEr-24
+
+
+where 
+
+TEr-24 = the effective temperature at time r on the previous day,
+a = .5 = the smoothing coefficient.
+
+This form of the effective temperature function implies a time lag in the response of heating appliances within buildings to changes in external temperature.  This is consistent with the physical heat transfer processes involved.
+
+
+Cooling Power of the Wind, CPr
+ This is an empirical combination of temperature and windspeed, Wr:
+
+   éWr1/2(18.3 -TOr)  for TOr < 18.3oC
+  CPr = ê
+ë0   for TOr ³ 18.3oC
+
+This formula has been proven to adequately deal with draught-induced load variation without the additional information of wind direction.
+
+
+Effective Illumination of the Sky, EIr
+ The Meteorological Services of the United Kingdom do not make routine measurements of forecasts of daylight illumination.  In order to formulate a predictive model of electrical lighting load, relationships between observable meteorological parameters, such as visibility, cloud cover, and precipitation, have had to be established.  These relationships take the following form:
+
+EIr = MIr - IDr 
+
+where
+ EIr = Effective Illumination of the sky at time r
+  MIr = Maximum Illumination of the sky (under conditions of perfect visibility and no clouds) 
+IDr = Illumination Deficit, which is a function of visibility, number, and types of cloud layers and amount and type of precipitation
+ 
+Note:  In Figure II in the Appendix a diagram is presented of the effect of weather risk on supply and demand.
+
+
+
+Part I Summary
+
+ In summary, I have devoted the first part of my thesis to a discussion of my motivation for studying electricity demand forecasting models: my interest in the electricity and weather derivatives markets.  I have discussed how measures of electricity demand forecasts are useful for structuring and trading these types of energy derivatives.  Now I will devote the latter half of my thesis to a discussion of the construction and implementation of six methods for electricity demand forecasting.
+
+Part II.  Electricity Demand Forecasting Models
+
+Now I will utilise the BST96 and BST97 observations from the NGC database to investigate the construction of six lunch time day-ahead electricity demand forecasts models for BST98.  The following types of forecasting methods are used in our analysis: univariate time series (Box-Jenkins) analysis; multi-variate linear regression analysis; and (simple average and regression) combined forecasts methods. 
+
+In the following subsections of this second half of my thesis I will discuss the following: Eviews – a computer software which provides regression and forecasting tools on Windows computers; the preparation of our data for the design of our forecasts models; a summary of our dependent and exogenous variables; our six proposed forecasting models for electricity demand; and a comparative evaluation of these forecasting models.
+
+Eviews: Econometric Views 
+
+ Eviews provides regression and forecasting tools on Windows computers [Eviews, 1994].  With Eviews I developed statistical relationships from the NGC data and then utilized these relationships to forecast future values of electricity demand.  The basic data object within Eviews is the time series.  Each series has a name, and one may request operations on all the observations simply by mentioning the name of the series.  Eviews provides convenient visual ways to enter time series from the keyboard or from disk files, to create new series from existing ones, to display and print series, and to carry out statistical analysis of the relationships between series.
+
+ 
+Forecast Errors
+
+ The forecasts in Eviews are made with error.  With a properly specified equation there are two sources of forecast errors:
+
+
+The first error arises because the residuals in the equation are unknown for the forecast period.  The best one can do is to set these residuals equal to their expected value of zero.  In reality, residuals only average out to zero and residual uncertainty is usually the largest source of forecast error.  The equation standard error of the estimate (“S.E. of regression” in the output) shows the standard deviation of the residuals - a measure of the random variation of the residuals.   This value can be used to construct prediction limits for new observations.
+
+
+The second source of forecast error is coefficient uncertainty.  The estimated coefficients of the equation deviate from the true coefficient of the equation in a random fashion.  The standard error of the coefficient, given in the regression output, is a measure of the precision with which the estimated coefficients measure the true coefficients.  Since the estimated coefficients are multiplied by the exogenous variables in the computation of forecasts, the more the exogenous variables deviate from their mean values, the greater the forecast uncertainty.  
+
+Forecast Evaluation
+
+ If one checks the Forecast evaluation in the Eviews forecast dialog box, and there are actual data for the forecasted variable for the forecast period, one will get a table of the following statistical results evaluating the forecast:
+
+
+Root mean squared forecast error
+Mean absolute forecast error (average value of the residuals)
+Mean absolute percent forecast error
+Theil inequality coefficient and its decomposition.
+
+In [Ramanathan, 1997] the criterion used by Puget Power to compare forecasts is the mean absolute percentage error (MAPE).  All of our forecasts models will be compared to NGC’s benchmark – using this popular evaluation measure.  Thus I will attempt to construct electricity demand forecasts models with the best (lowest) MAE.
+
+
+
+Data Preparation
+
+There are approximately 450 observations in the BST96, BST97 and BST98 databases (150 observations each).  A time series graph of these data points is as follows:
+
+
+
+24000
+28000
+32000
+36000
+40000
+44000
+50
+100
+150
+200
+250
+300
+350
+400
+450
+DEM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Following NGC’s strategy, the following 22 “special” days were deleted from our BST96 and BST97 data sets for the design of our forecasts models.   These are peculiar/unusual days and their inclusion would not be helpful in building a model for standard days.
+
+
+
+
+BST96
+
+
+
+BST97
+
+
+Date
+
+Holiday
+
+Date
+
+Holiday
+
+05-Apr-96
+Good Friday
+31-Mar-97
+Easter bank holiday Monday
+08-Apr-96
+Easter bank holiday Monday
+01-Apr-97
+Day following Easter bank holiday Monday
+09-Apr-96
+Day following Easter bank holiday Monday
+05-May-97
+Bank holiday Monday
+06-May-96
+Bank holiday Monday
+23-May-97
+Not sure why
+27-May-96
+Bank holiday Monday
+26-May-97
+Bank holiday Monday
+28-May-96
+Half-term school holiday
+27-May-97
+Half-term school holiday
+29-May-96
+Half-term school holiday
+28-May-97
+Half-term school holiday
+30-May-96
+Half-term school holiday
+29-May-97
+Half-term school holiday
+31-May-96
+Half-term school holiday
+30-May-97
+Half-term school holiday
+26-Aug-96
+Bank holiday Monday
+25-Aug-97
+Bank holiday Monday
+27-Aug-96
+Day following bank holiday Monday
+26-Aug-97
+Day following bank holiday Monday
+
+
+
+
+ To be a valid forecasting comparison, our forecasting models will only use the observations in the BST98 database for evaluation.  The following 11“special” days were deleted from our BST98 dataset:
+
+
+
+
+BST98
+
+
+
+Date
+
+Holiday
+
+10-Apr-98
+Good Friday
+13-Apr-98
+Easter bank holiday Monday
+14-Apr-98
+Day following Easter bank holiday Monday
+04-May-98
+Bank holiday Monday
+25-May-98
+Bank holiday Monday
+26-May-98
+Half-term school holiday
+27-May-98
+Half-term school holiday
+28-May-98
+Half-term school holiday
+29-May-98
+Half-term school holiday
+31-Aug-98
+Bank holiday Monday
+01-Sep-98
+Day following bank holiday Monday
+
+
+
+
+
+It was observed that there were 4 missing weather observations in BST98. More specifically, there were no weather forecasts for the following dates: 
+
+15 April 1998
+17 April 1998
+5 May 1998
+21 July 1998.  
+
+
+Hence, this meant 4 more data observations had to be eliminated from BST98.  Therefore, I ended up with 278 observations from BST96 and BST97 to be utilized for model estimation, and 135 observations from BST98 to be used for evaluation. 
+
+
+A time series plot of these 413 observations is as follows:
+
+
+
+32000
+34000
+36000
+38000
+40000
+42000
+50
+100
+150
+200
+250
+300
+350
+400
+DEM
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Summary of Variables
+
+ The dependent variable in our forecasting models is “dem”, the total electricity demand (in Megawatts) for England and Wales. Each year’s demand may be modelled in two segments determined by the clock time regime applied in the United Kingdom: Greenwich Mean Time (GMT - late October through to late March) and British Summer Time (BST - remainder of the year).  Two modelling segments are required because demand is different from summer to winter.  
+
+In the table below I summarize the independent variables in our forecasting models. 
+
+
+Table II.  Summary of Independent Variables
+
+
+
+Independent Variable
+
+
+Variable Description
+FCST
+Day-ahead forecasts by NGC.  NGC obtains weather forecasts for approximately five discrete times during the day (9:00, 12 noon, 15:00, 17:00, 19:00).  The NGC forecast is a benchmark, which I must try to beat.  These forecasts were given, so I did not need to reconstruct them.  
+
+r
+“Time” variable used to model underlying trend in demand over the BST.  This variable is numbered so as to include weekends.
+
+BST97
+
+A “dummy” variable, which indicates whether the data is from BST97 or not.
+TE9, TE12
+
+Actual recorded weather variables.
+FTE9, FTE12
+
+Day-ahead forecasts provided to NGC by the Met Office.  Many days are missing.  Highly confidential data.
+
+mon, tues, wed, thurs, fri
+A “dummy” variable, which indicates the day of the week for each observation. Days of the week are grouped into sets with common characteristics for analysis.  Weekdays exhibit similarities conditioned by the social timetable associated with the 5-day work cycle.  Both Saturdays and Sundays have unique load characteristics, which require each to be separately analyzed.
+
+W1, W2, W3
+
+A “dummy” variable, which indicates whether observations correspond to a day in one of the 3 “wakes” weeks (including industry holidays). 
+
+CP9, CP12
+
+Cooling power of the wind
+EI9, EI12
+
+Effective illumination of the sky
+
+
+
+It is important to note that throughout my analysis, our forecast model estimations are performed based on actual weather variables, whilst our evaluations for BST98 use day-ahead forecasts for their weather variables.
+
+An Overview of Forecasting Methods used in our six Models 
+
+Now I will discuss the types of forecasting methods utilized to construct our six forecasting models for electricity demand: 
+
+univariate time series (Box-Jenkins) analysis
+multi-variate linear regression analysis
+(simple average and regression) combined forecasts methods. 
+
+
+Uni-variate Time Series (Box-Jenkins) Analysis 
+
+The uni-variate time series (Box-Jenkins) analysis is used to construct a well-specified linear model of the dependent variable – electricity demand - which captures the time dependency of this variable.  The Box-Jenkins approach involves careful examination of a series in order to identify underlying data generating processes.  The particular type of Box-Jenkins model I use is the class of Autoregressive Integrated Moving Average  - ARIMA(p,d,q).  
+
+Essentially I begin with an ARMA(p,q) model of the form:
+
+Ddemt =  c + f1 Ddemt-1 + f2 Ddemt-2 + … + fp Ddemt-p  
+     + et  + q1 et-1 + q2 et-2 + … + qq et-q       (1)
+
+Equation (1) means that 
+
+
+Ddemt  follows an autoregressive process of order p - i.e., it depends linearly on p past values 
+Ddemt  follows a moving average process of order q - i.e., it depends linearly on q past values of stochastic terms with zero mean, fixed variance and no autocorrelation.
+To take advantage of an autocorrelation structure, Box-Jenkins relies on a series being stationary (that is, constant mean, constant variance; autocorrelation depends only on lag).  Normally, in this phase I would check the independent variables for stationarity.  If they were not stationary, then I would perform the appropriate transformations to ensure stationarity.  The most common and simplest technique for transforming a nonstationary variable into a stationary variable is differencing.  
+
+If a variable must be differenced d times in order to achieve stationarity, it is integrated of order d.  If a variable that has been differenced d times follows an ARMA(p,q) process, the convention is to say that the variable follows an ARIMA(p,d,q) process. In the design of our demand forecasting models I will carefully monitor the residuals to ensure stationarity.
+
+
+
+Multivariate Linear Regression Analysis
+
+
+
+I utilise stepwise multivariate linear regression analysis to identify the predictive power of the exogenous variables listed in Table II.  This analysis allows me to build a demand forecasting model of the form
+
+
+Ddemt =  a + g1x1 + … + gmxm      (2)
+
+
+where xj (j = 1, …, m) are the m most significant exogenous variables.
+
+
+
+ Equation (2) is essentially NGC’s approach, but they use large amounts of judgmental adjustment.
+
+
+
+
+In my forecast analysis I will develop two multivariate linear regression models.  
+
+
+
+The first model will be similar to NGC’s benchmark model. More specifically, I start out with the same variables as in NGC’s benchmark model.  Obviously in this case I will not have the “benefit” of their judgmental element. I simply just apply Eviews to the parameters and exogenous variables utilized in NGC’s model to see if I can do better.  
+
+
+
+Our second regression model is developed without the illumination effect variables. Why eliminate these variables?  One good reason is that they are relatively difficult to forecast.  Hence they probably introduce “large” errors into our electricity demand forecasts.  Therefore I will rerun the previously discussed multivariate linear regression model without the illumination effect variables.
+
+
+
+
+
+
+Combined Forecasts Models 
+
+
+ The current initial impetus for combining forecasts methods is usually ascribed to Granger [Reid, 1968].  Some thirty years ago his group was the first to focus upon the combining forecasting context and took as a motivating premise the desire to utilize all available evidence in making forecasts.  In forecasting jargon, this implied using (and combining) several models, not just selecting one to the exclusion of the others [Bunn, 1989].
+
+
+ The principle of combining forecasts was met with come scepticism in its early presentations [Jenkins, 1974].  The common argument was that “if there were scope to improve a model by combining it with another, then that model had not been properly specified in the first place.”  For the most part, advocates of combining models accepted this argument to a certain extent, whilst simultaneously pointing out the lack of comprehensiveness of an individual modeling approach and the difficulties of unique model specification and identification in practice [Bunn, 1989].
+
+
+ The “radical” theoretical perspectives of advocates of combining forecasts were eventually backed up with strong statistical results.  More specifically, with a performance-based objective of minimizing forecast error variance, combining separate forecasts with either independent or correlated errors was shown to be optimal, and never worse in theory than selecting the best individual model.  In addition, the large-scale empirical studies which followed, generally vindicated the robustness in practice of combining  [Winkler, 1983].
+
+
+There are various types of combining forecast models: 
+
+
+optimal combing methods [Bates, 1969]
+regression combining methods [Granger, 1984] 
+simple average combining methods.  
+
+
+The optimal combining method is equivalent to regression with no constant term and the weights restricted to sum to one.  The regression method is particularly useful if the forecasts are biased, although multicollinearity can be a problem.  However, bias is unlikely to be an issue for NGC’s forecasts because they have carefully monitored their day-ahead predictions [Taylor and Majithia, 1999].  We will construct two of these combined models: simple average and regression.  More will be said about these combining methods in latter sections.
+
+
+
+Statistical Results and Comparative Evaluation of our Forecasts Models
+
+Table III. Model Descriptions 
+
+
+
+Model
+
+
+Model Description
+
+Model I.
+NGC’s Benchmark
+
+
+These are the actual forecasts that were used at the time by NGC. In day-ahead forecasting, NGC deletes all non-weather components and uses a “judgmental” factor for the non-weather components. Their regression models are thus effectively used to establish the weather component of demand.
+
+
+Model II.
+Multivariate Linear Regression Models with Stepwise Variable Selections
+
+
+Here, I initially construct a multivariate linear regression model with all of the exogenous variables.  I then proceed with a stepwise variable selection (elimination) process to find a “good” demand electricity forecasting model.
+
+
+Model III.
+Multivariate Linear Regression Models similar to NGC’s Model
+
+
+
+Here, I essentially rerun the NGC model without the benefit of their judgmental adjustments.
+
+Model IV.
+Regression Model similar to NGC’s Model: No Illumination Effect
+
+
+
+Here, I run the NGC model without the illumination effect variables, that is, the exogenous variables ei9 and ei12.
+
+Model V.
+Mixed Model:  ARMA and Multivariate Linear Regression
+
+
+
+This mixed model is essentially the multivariate linear regression approach with AR and MA terms included
+
+Model VI.
+Combined Forecasts
+
+
+
+Here I construct (simple average and regression) combined forecasts  methods.
+
+Model I: NGC’s Benchmark 
+
+
+The parameters and statistical results of the NGC day-ahead lunch time electricity demand forecast models are as follows:
+
+
+
+
+
+
+Parameters in NGC’s forecast model
+
+
+Parameters Value
+
+Standard Errors
+
+T Statistics
+Constant
+46,284.1
+695.49
+66.5489
+W1
+-575.903
+129.245
+-4.45589
+W2
+-2,370.05
+125.234
+-18.925
+W3
+-1,980.1
+130.759
+-15.143
+TE12
+-1,332.04
+156.063
+-8.5353
+TE122
+65.5313
+11.5825
+5.65781
+TE123
+-0.91813
+0.268553
+-3.41879
+Fri
+-253.757
+45.4488
+-5.58337
+EI9 + (E12/2)
+-15.5225
+0.9544
+-16.2641
+CP12
+28.8556
+5.75563
+5.01346
+BST97
+767.113
+44.8941
+17.0872
+r
+74.3496
+12.666
+5.87001
+r2
+-1.22675
+0.213861
+-5.73621
+r3
+0.007084
+0.00136448
+5.19134
+r4
+-0.0000132001
+0.00000291719
+-4.52492
+
+
+
+
+ NGC’s output illustrates the results of fitting a multiple linear regression model to describe the relationship between electricity demand and the 14 exogenous variables.  
+
+
+
+The equation of NGC’s fitted model is
+
+
+Demand = 46,284.1 – 575.903*w1 – 2,370.05*w2 – 1,980.1*w3 – 1,332.04*te12 + 65.5313*te122 – 0.91813*te123 – 253.757*fri – 15.5225*(ei9 + ei12/2) + 28.8556*cp12 + 767.113*BST97+ 74.3496*r – 1.22675*r2 + 0.007084*r3 – 0.0000132001*r4
+
+
+The statistical diagnostics for NGC’s benchmark model are as follows:
+
+
+
+R2 statistic
+
+93.2348%
+Adjusted R2 statistic
+        (adjusted for degrees of freedom)
+
+ 
+92. 8746%
+Durbin-Watson (DW) statistic
+
+0.995819 
+
+
+
+
+The R2 statistic indicates that the model as fitted explains approximately 93% of the variability of Demand.  The Adjusted R2 statistic, which is more suitable for comparing models with different numbers of independent variables, is approximately 93%.  The Durbin-Watson (DW) statistic tests the residuals to determine if there is any significant correlation based on the order in which they occur in NGC’s data file.  
+
+If the DW statistics is less than 2, there is evidence of positive serial correlation in the residuals.  Since the DW is about 1 for NGC’s benchmark demand forecast model, there is indeed some indication of serial correlation.
+
+
+This regression model forms the basis of NGC’s forecasts but judgmental adjustment plays a major role.  Evaluation of the resultant forecasts which were actually used in BST98 gave an MAE of 369 MW.  This is the benchmark that I will try to beat.
+
+Model II:  Multivariate Linear Regression Models with Stepwise Variable Selections 
+
+
+Now I will discuss Model II – as described in Table III.  I decided to construct multivariate linear regression models by proceeding with a stepwise variable selection (elimination) process.  With this type of variable selection process, I began with a model that contained all of the candidate exogenous variables and eliminated them one at a time. 
+
+At each step I excluded the variable with the lowest t-statistic - checking at each stage for the influence of the removed exogenous variables on the significance of the other remaining exogenous variables.  An improvement in the statistical significance of the remaining variables after excluding a variable clearly indicates the correctness of the decision. 
+
+
+After several iterations, we arrive at the following statistical results:
+
+
+
+
+Dependent Variable: DEM
+Method: Least Squares
+Date: 07/27/99   Time: 10:22
+Sample: 1 278
+Included observations: 278
+
+Variable
+Coefficient
+Std. Error
+t-Statistic
+Prob.  
+C
+45681.66
+777.1316
+58.78241
+0.0000
+R
+54.37824
+14.06327
+3.866686
+0.0001
+R^2
+-1.050743
+0.256491
+-4.096607
+0.0001
+R^3
+0.006551
+0.001761
+3.719050
+0.0002
+R^4
+-1.27E-05
+4.03E-06
+-3.158814
+0.0018
+FRI
+-274.5722
+79.95191
+-3.434216
+0.0007
+W1
+-668.4896
+187.8433
+-3.558763
+0.0004
+W2
+-2325.472
+182.4960
+-12.74259
+0.0000
+W3
+-1934.761
+181.2708
+-10.67332
+0.0000
+TE12
+-838.6325
+79.95671
+-10.48858
+0.0000
+TE12^2
+26.89916
+2.277605
+11.81028
+0.0000
+CP12
+17.85191
+7.997822
+2.232096
+0.0264
+EI9
+-13.26693
+3.235654
+-4.100231
+0.0001
+EI12
+-10.23943
+3.428790
+-2.986310
+0.0031
+
+R-squared
+0.857462
+    Mean dependent var
+36570.67
+Adjusted R-squared
+0.850443
+    S.D. dependent var
+1375.483
+S.E. of regression
+531.9351
+    Akaike info criterion
+15.43997
+Sum squared resid
+74700106
+    Schwarz criterion
+15.62265
+Log likelihood
+-2132.155
+    F-statistic
+122.1643
+Durbin-Watson stat
+0.491406
+    Prob(F-statistic)
+0.000000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+30000
+32000
+34000
+36000
+38000
+40000
+42000
+280
+300
+320
+340
+360
+380
+400
+DEMF
+± 2 S.E.
+Forecast: DEMF
+Actual: DEM
+Sample: 279 413
+Include observations: 135
+Root Mean Squared Error 
+1188.036
+Mean Absolute Error     
+1076.307
+Mean Abs. Percent Error 
+2.867002
+Theil Inequality Coefficient 
+0.016089
+      Bias Proportion      
+0.812216
+      Variance Proportion 
+0.000674
+      Covariance Proportion 
+0.187110
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hence, after several iterations, I arrived at the following equation for Model II:
+
+
+Demand = 45,681.66 – 668.4896*w1 – 2,3325.472*w2 – 1,934.761*w3 – 838.6325*te12 + 26.89916*te122 – 274.5722*fri – 13.26693*ei9 – 10.23943*ei12 + 17.85191*cp12 + 54.37824*r – 1.050743*r2 + 0.006551*r3 – 1.27E-05*r4
+
+
+
+Note that because it is difficult to know how to forecast the variable BST97, I eliminated it with the hope of building a better regression model.  
+
+
+The R2 statistic explains approximately 86% (less than NGC’s R2 of ~93%) of the variability of Demand.  The Adjusted R2 statistic is approximately 85% (less than NGC’s adjusted R2 of  ~93%).  The mean absolute error (MAE) for BST98 is given to the right of the plot on the previous page. It is approximately 1,076 (much greater than NGC’s MAE of ~369).  The Durbin-Watson statistic is approximately .5 (less than NGC’s value of  ~1) – indicating some serial correlation. 
+
+
+
+
+Model III:  Multivariate Linear Regression Models Similar to NGC’s Model 
+
+
+ As described in Table III, I will now try to reproduce NGC’s electricity demand forecast model and statistical results.  
+
+The statistical results and forecast model arrived at are as follows:
+
+
+
+
+
+Dependent Variable: DEM
+Method: Least Squares
+Date: 07/27/99   Time: 11:59
+Sample: 1 278
+Included observations: 278
+
+Variable
+Coefficient
+Std. Error
+t-Statistic
+Prob.  
+C
+46683.55
+722.8692
+64.58091
+0.0000
+W1
+-591.4533
+131.1567
+-4.509517
+0.0000
+W2
+-2344.077
+127.1734
+-18.43213
+0.0000
+W3
+-1933.337
+126.7011
+-15.25904
+0.0000
+TE12
+-1313.212
+155.2781
+-8.457167
+0.0000
+TE12^2
+62.37769
+11.44596
+5.449754
+0.0000
+TE12^3
+-0.835086
+0.263203
+-3.172784
+0.0017
+FRI
+-287.2385
+55.85889
+-5.142217
+0.0000
+EI9+(EI12/2)
+-14.94050
+0.954952
+-15.64528
+0.0000
+CP12
+26.56315
+5.809428
+4.572421
+0.0000
+BST97
+753.6213
+45.50050
+16.56292
+0.0000
+R
+63.30777
+10.01570
+6.320853
+0.0000
+R^2
+-1.158705
+0.187859
+-6.167950
+0.0000
+R^3
+0.007190
+0.001295
+5.554214
+0.0000
+R^4
+-1.42E-05
+2.94E-06
+-4.833247
+0.0000
+
+R-squared
+0.930790
+    Mean dependent var
+36570.67
+Adjusted R-squared
+0.927105
+    S.D. dependent var
+1375.483
+S.E. of regression
+371.3667
+    Akaike info criterion
+14.72470
+Sum squared resid
+36271171
+    Schwarz criterion
+14.92044
+Log likelihood
+-2031.734
+    F-statistic
+252.6433
+Durbin-Watson stat
+1.049270
+    Prob(F-statistic)
+0.000000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+30000
+32000
+34000
+36000
+38000
+40000
+42000
+280
+300
+320
+340
+360
+380
+400
+DEMF
+± 2 S.E.
+Forecast: DEMF
+Actual: DEM
+Sample: 279 413
+Include observations: 135
+Root Mean Squared Error 
+1517.686
+Mean Absolute Error     
+1423.020
+Mean Abs. Percent Error 
+3.792340
+Theil Inequality Coefficient 
+0.020651
+      Bias Proportion      
+0.874150
+      Variance Proportion 
+0.000620
+      Covariance Proportion 
+0.125230
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We arrive at the following equation for Model III:
+
+
+Demand = 46,683.55 – 591.4533*w1 – 2,344.077*w2 – 1,933.337*w3 – 1,313.212*te12 + 62.37769*te122 – 0.835086*te123 – 287.2385*fri – 14.9405*(ei9 + ei12/2) + 26.56315*cp12 + 753.6213*BST97 + 63.30777*r – 1.158705*r2 + 0.00719*r3 – 1.42E-05*r4
+
+
+The R2 statistic explains approximately 93% (about the same as NGC’s R2 of ~93%) of the variability of Demand).  The Adjusted R2 statistic is 93% (about the same as NGC’s adjusted R2 of  ~93%). The mean absolute error (MAE) of approximately 1,423 is much greater than NGC’s MAE of ~369.  This indicates the sizeable and beneficial impact of NGC’s judgmental adjustments.  Also, the Durbin-Watson statistic is approximately 1 (similar to NGC’s value of  ~1) – indicating that there does indeed exist some serial correlation.
+
+
+
+Model IV: Regression Model Similar to NGC’s Model: No Illumination Effect.
+
+
+As described in Table III, I will now reproduce NGC’s model without the illumination effects, that is, with the variable (ei9 + ei12/2).  Why, because I am curious to know what the impact is on forecast performance of deleting the illumination variables - which are themselves extremely difficult to forecast.  
+
+
+Also, after the elimination of the dummy variable BST97 and after several iterations, I arrived at the following forecast model and statistical results: 
+
+
+
+
+
+
+Dependent Variable: DEM
+Method: Least Squares
+Date: 07/27/99   Time: 12:40
+Sample: 1 278
+Included observations: 278
+
+Variable
+Coefficient
+Std. Error
+t-Statistic
+Prob.  
+C
+41306.22
+776.0770
+53.22438
+0.0000
+W1
+-800.1887
+225.7065
+-3.545263
+0.0005
+W2
+-2309.456
+216.7078
+-10.65701
+0.0000
+W3
+-1932.665
+218.6253
+-8.840080
+0.0000
+TE12
+-658.2789
+91.70135
+-7.178508
+0.0000
+TE12^2
+20.91461
+2.574170
+8.124797
+0.0000
+FRI
+-238.4339
+97.19058
+-2.453261
+0.0148
+CP12
+32.33422
+9.429535
+3.429037
+0.0007
+R
+4.442484
+7.878081
+0.563904
+0.5733
+R^2
+-0.187371
+0.080665
+-2.322815
+0.0209
+R^3
+0.000969
+0.000254
+3.810236
+0.0002
+
+R-squared
+0.786360
+    Mean dependent var
+36570.67
+Adjusted R-squared
+0.778358
+    S.D. dependent var
+1375.483
+S.E. of regression
+647.5618
+    Akaike info criterion
+15.82307
+Sum squared resid
+1.12E+08
+    Schwarz criterion
+15.96661
+Log likelihood
+-2188.407
+    F-statistic
+98.27632
+Durbin-Watson stat
+0.714922
+    Prob(F-statistic)
+0.000000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+30000
+32000
+34000
+36000
+38000
+40000
+42000
+280
+300
+320
+340
+360
+380
+400
+DEMF
+± 2 S.E.
+Forecast: DEMF
+Actual: DEM
+Sample: 279 413
+Include observations: 135
+Root Mean Squared Error 
+1127.695
+Mean Absolute Error     
+963.9245
+Mean Abs. Percent Error 
+2.553052
+Theil Inequality Coefficient 
+0.015249
+      Bias Proportion      
+0.712682
+      Variance Proportion 
+0.018784
+      Covariance Proportion 
+0.268533
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+After several iterations, I arrived at the following equation for Model IV:
+
+
+Demand = 41,306.22 – 800.1887*w1 – 2,309.456*w2 – 1,932.665*w3 – 658.2789*te12 + 20.91461*te122 – 238.4339*fri + 32.33422*cp12 + 4.442484*r – 0.187371*r2 + 0.000969*r3
+
+
+
+The R2 statistic explains approximately 79% (less than NGC’s R2 of ~93%) of the variability of Demand.  The Adjusted R2 statistic is approximately 78% (less than NGC’s adjusted R2 of  ~93%).  The mean absolute error (MAE) of approximately 964 is again much greater than NGC’s MAE of ~369.  However, interestingly, deletion of the illumination variables has led to an improved forecasting over Model III.   
+
+
+Also, the Durbin-Watson statistic is approximately .7 (less than NGC’s value of  ~1).  Hence, indicating more serial correlation in Model IV than in NGC’s benchmark model.
+
+
+
+Model V: Mixed Model:  ARMA and Multivariate Linear Regression
+
+
+Model V is better motivated by noting that Models III and IV look good with respect to their t-values, but very bad with regards to their respective Durbin-Watson statistics.  This serial correlation can sometimes be overcome by including autoregressive (AR) and moving averages (MA) terms in the regression model.  The AR and MA terms model the time series structure in the residuals.  I also try a lagged demand term (dem(-1)) as an extreme univariate approach.
+
+
+
+I arrived at the following mixed forecast model and statistical results: 
+
+
+
+
+
+Dependent Variable: DEM
+Method: Least Squares
+Date: 07/27/99   Time: 15:28
+Sample(adjusted): 3 278
+Included observations: 276 after adjusting endpoints
+Convergence achieved after 13 iterations
+Backcast: 2
+
+Variable
+Coefficient
+Std. Error
+t-Statistic
+Prob.  
+C
+43413.96
+1780.254
+24.38639
+0.0000
+R
+94.42374
+24.70302
+3.822356
+0.0002
+R^2
+-1.950474
+0.485972
+-4.013552
+0.0001
+R^3
+0.013105
+0.003464
+3.783331
+0.0002
+R^4
+-2.79E-05
+8.06E-06
+-3.463449
+0.0006
+W1
+-628.1612
+169.2706
+-3.710989
+0.0003
+W2
+-1900.587
+193.0340
+-9.845866
+0.0000
+W3
+-1437.131
+170.6114
+-8.423414
+0.0000
+TE12
+-1367.295
+196.4198
+-6.961089
+0.0000
+TE12^2
+69.16714
+13.92306
+4.967810
+0.0000
+TE12^3
+-0.995976
+0.312003
+-3.192197
+0.0016
+FRI
+-291.2858
+40.40189
+-7.209706
+0.0000
+CP12
+22.61427
+4.686288
+4.825627
+0.0000
+DEM(-1)
+0.100312
+0.035628
+2.815556
+0.0052
+EI9
+-12.07560
+1.766712
+-6.835069
+0.0000
+EI12
+-10.38741
+1.894417
+-5.483171
+0.0000
+AR(1)
+0.952965
+0.023393
+40.73727
+0.0000
+MA(1)
+-0.572092
+0.068023
+-8.410309
+0.0000
+
+R-squared
+0.947523
+    Mean dependent var
+36544.24
+Adjusted R-squared
+0.944065
+    S.D. dependent var
+1344.603
+S.E. of regression
+318.0054
+    Akaike info criterion
+14.42501
+Sum squared resid
+26090875
+    Schwarz criterion
+14.66112
+Log likelihood
+-1972.651
+    F-statistic
+274.0266
+Durbin-Watson stat
+1.977086
+    Prob(F-statistic)
+0.000000
+
+Inverted AR Roots
+       .95
+Inverted MA Roots
+       .57
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+32000
+34000
+36000
+38000
+40000
+42000
+44000
+280
+300
+320
+340
+360
+380
+400
+DEMF
+± 2 S.E.
+Forecast: DEMF
+Actual: DEM
+Sample: 279 413
+Include observations: 135
+Root Mean Squared Error 
+545.1335
+Mean Absolute Error     
+389.9508
+Mean Abs. Percent Error 
+1.031764
+Theil Inequality Coefficient 
+0.007289
+      Bias Proportion      
+0.048732
+      Variance Proportion 
+0.003857
+      Covariance Proportion 
+0.947412
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I arrived at the following equation for Model V:
+
+
+Demand = 43,413.96 – 628.1612*w1 – 1,900.587*w2 – 1,437.131*w3 – 1,367.295*te12 + 69.16714*te122 – 0.995976*te123 – 291.2858*fri + 22.61427*cp12 + 0.100312*dem(-1) + 94.42374*r – 1.950474*r2 + 0.013105*r3 – 2.79E-05*r4 – 12.0756*ei9 – 10.38741*ei12 + 0.952965*ar(1) – 0.572092*ma(1)
+
+
+The R2 statistic explains approximately 95% (greater than NGC’s R2 of ~93%) of the variability of Demand.  The Adjusted R2 statistic is approximately 94% (greater than NGC’s adjusted R2 of  ~93%).  The mean absolute error (MAE) of approximately 390 is just slightly greater than NGC’s MAE of ~369. Also, the DW statistic is approximately 2 (greater than NGC’s value of  ~1).  Hence, I have removed the serial correlation in the residuals.  
+
+
+
+
+
+
+
+
+ 
+At this point, I tried a mixed forecasting model without the weather variables, that is:
+
+
+Dependent Variable: DEM
+Method: Least Squares
+Date: 07/27/99   Time: 15:58
+Sample(adjusted): 2 278
+Included observations: 277 after adjusting endpoints
+Convergence achieved after 9 iterations
+Backcast: 0 1
+
+Variable
+Coefficient
+Std. Error
+t-Statistic
+Prob.  
+C
+36647.69
+382.6923
+95.76282
+0.0000
+W2
+-1732.877
+328.5114
+-5.274937
+0.0000
+W3
+-1590.707
+328.2950
+-4.845358
+0.0000
+FRI
+-199.3867
+70.64961
+-2.822191
+0.0051
+AR(1)
+0.952900
+0.020871
+45.65703
+0.0000
+MA(1)
+-0.340221
+0.064516
+-5.273462
+0.0000
+MA(2)
+-0.172519
+0.063386
+-2.721721
+0.0069
+
+R-squared
+0.802795
+    Mean dependent var
+36556.77
+Adjusted R-squared
+0.798412
+    S.D. dependent var
+1358.250
+S.E. of regression
+609.8343
+    Akaike info criterion
+15.68920
+Sum squared resid
+1.00E+08
+    Schwarz criterion
+15.78078
+Log likelihood
+-2165.954
+    F-statistic
+183.1885
+Durbin-Watson stat
+1.960578
+    Prob(F-statistic)
+0.000000
+
+Inverted AR Roots
+       .95
+
+Inverted MA Roots
+       .62
+      -.28
+
+
+32000
+34000
+36000
+38000
+40000
+42000
+280
+300
+320
+340
+360
+380
+400
+DEMF
+± 2 S.E.
+Forecast: DEMF
+Actual: DEM
+Sample: 279 413
+Include observations: 135
+Root Mean Squared Error 
+611.3569
+Mean Absolute Error     
+457.5055
+Mean Abs. Percent Error 
+1.213255
+Theil Inequality Coefficient 
+0.008172
+      Bias Proportion      
+0.024894
+      Variance Proportion 
+0.082608
+      Covariance Proportion 
+0.892498
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The R2 statistic explains approximately 80% (less than NGC’s R2 of ~93%) of the variability of Demand.  The Adjusted R2 statistic is approximately 80% (less than NGC’s adjusted R2 of  ~93%).  The mean absolute error (MAE) of approximately 458 indicates that the removal of the weather terms does not yield a better mixed forecast model.
+
+
+Now, suppose I try a mixed model similar to NGC’s - however using AR and MA terms instead of the “clumsy” trend terms r, r2, r3 and r4.   Hence, I obtained the following statistical and forecast results:
+
+
+
+Dependent Variable: DEM
+Method: Least Squares
+Date: 07/27/99   Time: 16:45
+Sample(adjusted): 2 278
+Included observations: 277 after adjusting endpoints
+Convergence achieved after 9 iterations
+Backcast: 1
+
+Variable
+Coefficient
+Std. Error
+t-Statistic
+Prob.  
+C
+47289.71
+1005.081
+47.05062
+0.0000
+W1
+-691.2687
+191.8064
+-3.603992
+0.0004
+W2
+-2020.704
+212.8835
+-9.492062
+0.0000
+W3
+-1513.097
+188.8613
+-8.011684
+0.0000
+FRI
+-277.8444
+39.94598
+-6.955504
+0.0000
+TE12
+-1191.707
+193.4130
+-6.161465
+0.0000
+TE12^2
+55.14672
+13.79758
+3.996839
+0.0001
+TE12^3
+-0.675404
+0.311328
+-2.169427
+0.0309
+CP12
+20.18176
+4.650816
+4.339403
+0.0000
+EI9
+-12.79372
+1.749336
+-7.313472
+0.0000
+EI12
+-9.957720
+1.910772
+-5.211359
+0.0000
+AR(1)
+0.955695
+0.020931
+45.66007
+0.0000
+MA(1)
+-0.447159
+0.063719
+-7.017715
+0.0000
+
+R-squared
+0.942322
+    Mean dependent var
+36556.77
+Adjusted R-squared
+0.939700
+    S.D. dependent var
+1358.250
+S.E. of regression
+333.5314
+    Akaike info criterion
+14.50315
+Sum squared resid
+29368208
+    Schwarz criterion
+14.67323
+Log likelihood
+-1995.686
+    F-statistic
+359.4293
+Durbin-Watson stat
+1.963320
+    Prob(F-statistic)
+0.000000
+
+Inverted AR Roots
+       .96
+Inverted MA Roots
+       .45
+
+
+
+32000
+34000
+36000
+38000
+40000
+42000
+280
+300
+320
+340
+360
+380
+400
+DEMF
+± 2 S.E.
+Forecast: DEMF
+Actual: DEM
+Sample: 279 413
+Include observations: 135
+Root Mean Squared Error 
+513.8549
+Mean Absolute Error     
+375.5737
+Mean Abs. Percent Error 
+0.995863
+Theil Inequality Coefficient 
+0.006869
+      Bias Proportion      
+0.034540
+      Variance Proportion 
+0.024712
+      Covariance Proportion 
+0.940748
+
+
+
+
+
+I also arrived at the following mixed forecast model:
+
+
+Demand = 47,289.71 – 691.2687*w1 – 2,020.704*w2 – 1,513.097*w3 – 1,191.707*te12 + 55.14672*te122 – 0.675404*te123 – 277.8444*fri + 20.18176*cp12 - 12.79372*ei9 – 9.95772*ei12 + 0.955695*ar(1) – 0.447159*ma(1)
+
+
+
+The R2 statistic explains approximately 94% (greater than NGC’s R2 of ~93%) of the variability of Demand.  The Adjusted R2 statistic is approximately 94% (greater than NGC’s adjusted R2 of  ~93%).  The mean absolute error (MAE) of approximately 376 is very close to NGC’s MAE of ~369.  Also, the Durbin-Watson statistic is approximately 2 (greater than NGC’s value of  ~1) – hence indicating practically no serial correlation.  
+
+
+This mixed model yields better results than our previous two mixed models.  Therefore, this mixed model will be utilized in the next subsection to construct two combined forecasts models – Model VI.
+
+Model VI:  Combined Forecasts Models 
+
+
+Finally, as described in Table III, I will now construct two combined forecast methods of the following forms:
+
+
+1. Simple average combined forecasts model: This model is constructed by taking a simple average of NGC’s forecasts model and our last mixed model (Model V).
+
+
+FAVG.COMB. =  .5*(FNGC + FMIXED)
+
+
+
+
+2. Regression combined forecast model: This model is constructed by utilizing regression analysis to find the combined forecast
+
+
+   FREG.COMB. = a0 + a1*FNGC + a2*FMIXED
+
+
+
+where
+
+  a0 = -890
+
+  a1 =  0.20
+
+  a2 =  0.83
+
+FNGC = NGC’s benchmark forecasts for 1998 
+
+FMIXED = our last  mixed model (Model V) forecast for 1998
+
+The BST98 forecasts results for these two combination models are as follows:
+
+
+
+32000
+34000
+36000
+38000
+40000
+42000
+280
+300
+320
+340
+360
+380
+400
+DEMF
+± 2 S.E.
+Forecast: DEMF
+Actual: DEM
+Sample: 279 413
+Include observations: 135
+Root Mean Squared Error 
+461.6252
+Mean Absolute Error     
+354.0984
+Mean Abs. Percent Error 
+0.939305
+Theil Inequality Coefficient 
+0.006171
+      Bias Proportion      
+0.051764
+      Variance Proportion 
+0.013466
+      Covariance Proportion 
+0.934770
+
+Simple Average Combining:
+
+
+Regression Combining:
+
+
+32000
+34000
+36000
+38000
+40000
+42000
+280
+300
+320
+340
+360
+380
+400
+DEMF
+± 2 S.E.
+Forecast: DEMF
+Actual: DEM
+Sample: 279 413
+Include observations: 135
+Root Mean Squared Error 
+481.8127
+Mean Absolute Error     
+361.1404
+Mean Abs. Percent Error 
+0.958107
+Theil Inequality Coefficient 
+0.006436
+      Bias Proportion      
+0.009031
+      Variance Proportion 
+0.006899
+      Covariance Proportion 
+0.984070
+
+
+
+
+ The MAE’s of both combinations (~354MW and ~361MW, respectively) are slight improvements over NGC’s MAE of 369MW.
+
+
+
+
+
+Comparative Evaluation of our Six Forecasts Models 
+
+
+Table IV. Model Comparative Evaluation 
+
+
+
+Model Description
+
+
+Mean Absolute Error
+(MAE)
+
+
+Model I.
+NGC’s Benchmark
+
+
+~369
+
+
+Model II.
+Multivariate Linear Regression Models with Stepwise Variable Selections 
+
+
+~1076
+
+Model III.
+Multivariate Linear Regression Models similar to NGC’s Model
+
+
+~1423
+
+Model IV.
+Regression Model similar to NGC’s Model: No Illumination Effect
+
+
+~964
+
+Model V.
+Mixed Model:  ARMA and Multivariate Linear Regression
+
+
+~376
+
+Model VI.
+Combined (Simple Average) Forecasts
+
+
+~354
+
+
+Part II Summary
+In summary, I have devoted the second part of my thesis to how I used the Eviews computer software to construct six forecast models for electricity demand.  I performed a comparative study of these forecasting models.  It was shown that a simple average combined forecasts method beat NGC’s benchmark.
+
+Conclusion
+
+In summary, in the first half of my thesis I discussed how electricity demand is essential when trading electricity and weather derivatives.  The link was made between electricity and weather derivatives and between electricity demand.  More specifically, I discussed how measures of electricity demand forecasts are useful for structuring and trading these types of energy derivatives. 
+
+In the latter half of my thesis I utilized 1996 and 1997 British Summer Time observations (BST96 and BST97) to design and comparatively study six electricity demand forecasting models. The following types of forecasting methods were used in our analysis: univariate time series (Box-Jenkins) analysis; multi-variate linear regression analysis; and (simple average and regression) combined forecasts methods. 
+
+Our forecasting models were applied to NGC’s historical data for 1998 British Summer Time (BST98) lunchtime observations. A portion of my thesis was devoted to a discussion of the construction of six forecasting models for electricity demand; and a comparative evaluation of these forecasting models.  I was able to construct a simple average combined forecast model which “beat” NGC’s benchmark.
+
+In closing, other forecasting options I may wish to explore in the future are multivariate Neural Networks (NN’s) analysis to try to capture any non-linear dependencies, which may still be significant. The six forecasting models discussed in my thesis are used to assist us in identifying linear relationships between the dependent variable and explanatory parameters.  NN’s may allow me to capture complex non-linear relationships between the variables and parameters [Refenes, 1997], [Refenes, 1998]. Via utilizing NN in statistical experimentation, I may be able to determine whether indeed non-linear relationships actually exist in the variables.  
+
+
+Appendices
+
+
+Examples of Weather Derivatives [Turrin, 1999]
+
+Figure IA.  Example of a Weather Option
+
+
+Figure IB.  Example of a Weather Linked Loan
+
+
+Figure IC.  Example of a Weather Linked Bond
+
+
+Figure ID.  Example of a Weather Linked Swap
+
+
+Figure IE.  Example of Weather Insurance
+
+ 
+
+Figure II.  Effect of Weather Risk on Supply and Demand [Mordecai, 1998]
+
+ Insert figure on p. 25 of [Mordecai, 1998]
+
+
+
+
+
+
+
+
+
+ 
+References
+
+
+
+Arrow, K., “The Role of Securities in the Optimal Allocation of Risk Bearing,” Essays in the Theory of Risk-Bearing, Markahm Publishing Company, Chicago, 1971.
+
+Baker, A., “Load Forecasting for Scheduling Generation on a Large Interconnected System,” Comparative Models for Electrical Load Forecasting, Edited by D. Bunn and E. Farmer, John Wiley & Sons Ltd., 1985.
+
+Bates, J. and C. Granger, “The combination of forecasts.” Operations Research Quarterly 20: 451-468, 1969.
+
+Bunn, D., “Forecasting with more than one model,” Journal of Forecasting, vol. 8, pp. 161-166, 1989.
+
+Chance, D., “Recent Developments in Derivatives Securities,” Journal of Portfolio Management, 1999.
+
+Clemmons, L., “Weather Hedges Shield Companies from Inclement Sales” Weather Risk Special, Risk, p. 6, October 1998.
+
+Eviews User’s Guide, Econometric Views for Windows and Macintosh, Version 2.0, QMS Quantitative Micro Software, 1994.
+
+Eydeland, A. and H. Geman, “Pricing Power Derivatives,” RISK, p. 71, October 1998.
+
+Fusaro, P., “New Risk Paradigms for Electric Power,” Derivatives Strategy, December/January 1996.
+
+Granger, C. and R. Ramanathan, “Improved methods of combining forecasts.” Journal of Forecasting 3: 197-204, 1984.
+
+Hodges, S., “Catastrophe Bonds:  Your New Port in a Storm,” Property Casualty Insurance, November/December 1997.
+
+Jenkins, G., “Discussion of a paper by Newbold and Granger,” J. Roy. Statist. Soc. A, 137, pp. 148-50, 1974.
+
+Kalb, C.,  “The Morning After: NYMEX electricity futures have started trading. Finally. So what’s next?” Derivatives Strategy, May 1997 
+
+
+
+
+
+
+
+Lacey, J., “Electric Utilities Retool for the Future,” Derivatives Strategy, May 1997.
+
+Littlefield, S.,  “Operational Research and Regulation: Theory and Practice,” Journal of the Operational Research Society 47, pp. 601-611.
+
+Locke, J., “A Cure for power price spikes?” Weather Risk Special, Risk, p. 4, October 1998.
+
+Maguire Oil and Gas Institute, “Managing Risk in Energy Markets,” Energy Policy Symposium, 1997.
+
+Majithia, S., L. Kiernan, and J. Hannan, “Intelligent Systems for Demand Forecasting,” In: Warwick, K. (ed.), Artificial Intelligence Techniques in Power Systems 1997.  Institute of Electrical Engineers: London, pp. 259-279.
+
+Mordecai, D., “A Tool for all Trades,” Weather Risk Special, Risk, p. 25, October 1998.
+
+Pindyck, R. and D. Rubinfield, Econometric Models and Economic Forecasts, 4th Edition, 1986.
+
+Ramanathan, R., R. Engle, C. Granger, F. Vahid-Araghi and C. Brace, “Short-run forecasts of electricity loads and peaks,” International Journal of Forecasting, 13 (1997), pp. 161-174. 
+
+Rawal, M., “Applications of Weather Derivatives to Mainstream Industries,”  Weather Derivatives Conference Proceedings, London, January 1999.
+
+Refenes, P., A. (editor) Neural Networks and the Capital Markets John Wiley and Sons 1995
+
+Refenes, P., A. Burgess and Y. Bentz, “Neural Networks in Financial Engineering:  A Study in Methodology,” IEEE Transactions on Neural Networks, vol. 8, no. 6, November 1997. 
+
+Refenes, P., and A. Zapranis, “Neural Model Identification, Variable Selection and Model Adequacy,” Journal of Forecasting, 1998.
+
+Refenes, P., N. Burgess and Y. Bentz, “Neural Network in Financial Engineering: A Study in Methodology,” IEEE Transactions on Neural Networks, Vol. 8, No. 6, November 1997.
+
+
+
+
+
+
+
+
+
+Reid, D., “Combining three estimates of GNP,” Economica, p. 356, 1968.
+
+RISK Magazine, “Earth, wind and fire: new derivative markets,” page 38, December 1997.
+
+ Roll, R., “A Simple Implicit Measure of the Effective Bid-ask Spread,” Journal of Finance, vol. 39, pp. 1127-1139, 1984.
+
+ Stock, H. and M. Watson, “A Comparison of Linear and Non-linear Univariate Models for Forecasting Macroeconomic Time Series,” National Bureau of Economic Research, Working Paper 6607, June 1998. 
+
+Taylor, J. and S. Majithia, “Using Combined Forecasts with Changing Weights for Electricity Demand Profiling,” Submitted to Journal of Operational Research Society, 1999.
+
+Turner, D., “Outlook good for weathermen,” Weather Risk Special, Risk, p. 3, October 1998.
+
+Turrin, R., “Weather Risk Management: Sources, Structures and Development of the European Markets,”  Weather Derivatives Conference Proceedings, London, January 1999.
+
+Winkler, R. and S. Makridakis, “The combination of forecasts,” J. Roy. Statist. Soc. A, 146, pp. 150-57, 1983.
+
+
+
+
+
+
+Page  
+
+Iris Mack, Ph.D.      Sloan 1999
+
+

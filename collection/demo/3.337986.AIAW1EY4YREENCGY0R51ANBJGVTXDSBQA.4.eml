@@ -1,0 +1,236 @@
+*
+
+1
+Options Pricing:
+Numerical Methods
+Presented by
+
+Vince Kaminski
+Enron Research Group
+
+
+Houston, Texas
+
+28 September, 2000
+
+
+We will cover this section pretty quickly. Please feel free to stop me if anything is not clear.
+
+Option Pricing:  Numerical  Methods
+
+2
+Option Pricing: Numerical Methods
+Outline
+Binomial Trees
+Option Pricing Procedure
+Construction of Binomial Trees
+Pros and Cons of using Trees
+Simulation Methods
+Pricing Approach for Simulation
+Simulating Commodity Prices
+Some of the important items we will cover
+
+Option Pricing:  Numerical  Methods
+
+3
+Advantages and Disadvantages
+of Analytical Methods
+Closed-form analytical solutions are available for many plain vanilla and exotic plans
+Very fast results when an analytical solution is available
+Accurate under the given assumptions
+Closed-form solutions not available or available only under restrictive assumptions for many types of derivatives.
+Example: American-style options. Sometimes more difficult and takes longer time to program than simulation.
+Why do firms hedge?
+
+Option Pricing:  Numerical  Methods
+
+4
+Numerical Methods
+Binomial Trees
+  Replace the continuous GBM process for a   price movement by a discrete set of values in  a tree
+
+  Each node of the tree has  a time index, a    value for price and an associated probability
+
+  A very useful tool in pricing derivatives that  cannot be priced with other techniques
+
+ 
+Going back to our Oil and Chemical company,
+they can enter into a contract for mutual benefit.
+WTI - Crude Oil
+
+Option Pricing:  Numerical  Methods
+
+5
+Option Pricing Procedure
+Using Binomial Trees
+  Construct a tree of prices for the underlying
+
+  Compute the option cash flows associated with  leaf nodes of the tree
+  Step back in the tree by one time period and   compute the expected or average cash flows    associated with the tree nodes.  Use the risk-free  interest rate for discounting.
+  Repeat the previous step moving back in time   until the root of the tree is reached
+  Value computed at the root node is the value of  the option
+
+Option Pricing:  Numerical  Methods
+
+6
+Construction of Binomial Trees
+Divide life of the option into many time intervals
+In each interval, price moves from its current value P
+up to Pu with a probability p
+down to Pd with a probability 1 - p
+The smaller the interval length, the greater the accuracy of the results
+Pu
+Pd
+P
+- Use ET contracts for hedging OTC trades.
+- Manage at the portfolio level
+
+Option Pricing:  Numerical  Methods
+
+7
+Binomial Trees
+(Continued)
+A Binomial Tree of Gas Prices
+p, u, d set to give correct mean volatility 
+Example:  Gas Prices
+p = 0.6
+u = 1.1
+d = 1/u
+
+
+
+0.6
+0.4
+2.00
+2.2
+1.82
+2.42
+2.00
+1.65
+1. Identical product
+ Identical timing &
+ Identical volumes
+boring hedge, ha!!
+
+
+
+Option Pricing:  Numerical  Methods
+
+8
+Determination of Tree Parameters
+The parameters p, u, and d are chosen to give the correct mean and variance for the price changes during the small time interval t.
+Mean:  In the risk-neutral world, a futures contract is expected to remain the same in price while a stock is expected to grow at the risk-free interest rate r.  Thus,starting with a price P at time 0, the average price after t is Pa, where a = 1 for a futures contract and a = exp(rt) for a stock.  Hence,
+ Pa = pPu + (1 -p)Pd
+ a = pu + (1 - p)d 
+Variance:  Variance of price after t is P22 t.  Thus
+P22t  =  E(Pt2) - [E(Pt)]2=  [p(Pu)2 +                                    (1 -p)(Pd)2] - [Pa]2
+2t  =  pu2 + (1 -p)d2  - a2
+
+Option Pricing:  Numerical  Methods
+
+9
+Determination of Parameters
+(Continued)
+Combining the mean and variance results with the condition
+                          
+             u   =                   
+   gives us
+             u   =  exp(t)
+             d  =  exp(-t)
+             p  =                   
+
+   where a = 1 for a futures contract and a = er t  for a stock
+
+Example:  Prompt natural Gas Futures  = 35%, t = (1/365) year
+             u  =  exp(0.35 * (1/365)) = 1.0185
+             d  =            =  0.98185
+             p  =            =  0.495
+1
+u
+—
+1
+d
+—
+a - d
+u - d
+——
+1 - d
+u - d
+——
+
+Option Pricing:  Numerical  Methods
+
+10
+Pros and Cons of the
+Binomial Tree Approach
+Can price American-style as well as European-    style derivatives
+
+
+Relatively fast for one or two underlying       instruments
+
+Difficult to apply when the payoffs depend on the    past history
+
+Can be time consuming when three or more      variables are involved
+
+
+Intuition: A forward or futures contract is fundamentally related to simply holding the underlying asset until delivery.
+
+Option Pricing:  Numerical  Methods
+
+11
+Monte-Carlo Simulation Methods
+General Approach
+Simulate the price of the underlying instrument 
+
+Calculate the payoff at horizon (for a European Option)
+
+Discount the payoff to the present time
+
+Repeat this process n times, storing the results (P1,     P2,…..,  Pn)
+
+
+Calculate the average payoff.  This is the estimate of the  option price.
+
+
+
+Option Pricing:  Numerical  Methods
+
+12
+Simulation of Prices
+Standard assumption: price P follows a     Geometric Brownian Motion
+dP  = mPdt + sPdz
+dz = e (dt)0.5
+m = expected return (drift)
+s = annualized volatility
+Implications: prices are to be generated using
+P(t+Dt) =P(t) * exp[(m - s2/2) Dt + seDt)]
+e is a drawing from the standard normal    distribution
+m is zero for futures and forwards and a risk  free rate r for stocks not paying dividends
+
+Option Pricing:  Numerical  Methods
+
+13
+Simulation of Prices for Multiple Commodities
+ Need to simulate prices P1 an P2 for two       commodities 1 and 2
+
+ Compute volatilities s1 and s2 and the       coefficient of correlation r between price returns
+
+Generate samples (e1, e2) from a standard bivariate   normal distribution with correlation r
+
+Generate sample  prices from Pi(t+Dt) =Pi(t) * exp[(mi -  si2/2)Dt + sieiDt)]
+
+Option Pricing:  Numerical  Methods
+
+14
+Generating Correlated 
+Normal Samples (e1, e2)
+ r = correlation coefficient between      commodities 1 and 2 
+
+Draw independent samples c1 and c2 from a   (univariate) standard normal distribution
+
+Compute
+e1   =     c1
+c1   = rc1 + c1(1 - r1)0.5                       
+
+
+

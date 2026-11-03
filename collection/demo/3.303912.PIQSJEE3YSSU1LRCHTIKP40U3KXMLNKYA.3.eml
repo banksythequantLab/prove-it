@@ -1,0 +1,452 @@
+UNITED STATES OF AMERICA
+BEFORE THE
+FEDERAL ENERGY REGULATORY COMMISSION
+
+
+
+
+
+SAN DIEGO GAS & ELECTRIC COMPANY  |    
+       |
+   COMPLAINANT,  |
+  v.     | DOCKET NO. EL00-95-009
+       |
+SELLERS OF ENERGY AND ANCILLARY SERVICES |
+   INTO MARKETS OPERATED BY THE CALIFORNIA |
+   INDEPENDENT SYSTEM OPERATOR AND THE |
+   CALIFORNIA POWER EXCHANGE   |
+       |
+   RESPONDENTS.  |
+       |
+INVESTIGATION OF PRACTICES OF THE CALIFORNIA |
+   INDEPENDENT SYSTEM OPERATOR AND THE | DOCKET NO. EL00-98-007
+   CALIFORNIA POWER EXCHANGE   |
+
+
+
+
+CALIFORNIA POWER EXCHANGE
+CORPORATION’S COMPLIANCE FILING AND
+REQUEST FOR EXPEDITED COMMISSION GUIDANCE
+
+
+ The California Power Exchange Corporation (“CalPX”) submits this filing in compliance with the January 29, 2001 order in these proceedings, 94 FERC ¶ 61,085.  In that order, the Commission stated (at 5-6):  “For these reasons, we direct the PX to recalculate the wholesale rates to incorporate the $150/MWh breakpoint and to pay as-bid above that level.  We direct the PX to file a compliance report within 30 days of the date of this order reflecting bills computed in accordance with the December 15 Order.”
+ As CalPX has repeatedly explained to the Commission, implementation of the $150 breakpoint was and is impossible in the time frame required by the Commission.  On a going-forward basis, CalPX suspended the operation of its Day-Ahead and Day-of Markets for this reason.  For reasons fully discussed in this filing, recalculation of the January invoices with complete accuracy based on implementation of the $150 breakpoint is also impossible.  However, there are several alternative methodologies that may provide an acceptable approximation of the end result intended by the Commission.  Therefore in this filing CalPX discusses the issues involved in recalculating bills for January 2001and various alternative methodologies for implementing the recalculation.  CalPX then seeks the Commission’s guidance on these issues and specifically asks the Commission to issue an order directing CalPX how to implement the recalculation of the January billing.  
+ CalPX requests that FERC expedite its response to this pleading.  Because the breakpoint issue is unresolved and CalPX does not wish to send out incorrect invoices, it has delayed their dispatch.  These invoices would have under normal circumstances been sent out the second week of February.  Further delay in resolving the breakpoint issue could result in more uncertainty in the California markets.  Both buyers and sellers are anxious to determine the financial impact of any refund, to reduce their uncertainty, and to settle accounts as soon as possible.  Therefore, CalPX asks that FERC expedite its answer to this pleading and provide specific guidance in resolving the issues discussed herein.  Once the Commission issues its order, CalPX will promptly send out the recalculated January invoices pursuant to the Commission’s direction.
+
+INTRODUCTION
+
+ On November 1, 2000, the Federal Energy Regulatory Commission issued an order outlining proposed remedies for the California power crisis.  Subsequently, the Commission issued an order on December 15, 2000, which prescribed final remedies for the California wholesale markets.
+A feature of the December 15 order was the implementation of a breakpoint of $150 to all CalPX markets and all markets of the California Independent System Operator Corporation (“CAISO”).  This breakpoint would not stop sellers from bidding prices above $150, but would prevent those bids from setting market-clearing prices.  Sellers offering energy at prices above the breakpoint would be paid “as-bid” for the portions of their bid above the breakpoint.  Buyers would pay an uplift charge based on their pro-rata allocation of the total amount paid as-bid. 
+CalPX, in its responses to the Commission’s rulings, explained its inability to comply with the breakpoint implementation timeline, and outlined some of the technical difficulties necessitating a delay.  Subsequently, CalPX filed a request for rehearing and a request for a technical conference.  While these requests were pending, the Commission issued the January 29 Order, which directed CalPX to immediately implement retroactive pay-as-bid pricing for all markets as of January 1, 2001.
+In response to the January 29 Order, CalPX submits this compliance filing and request, specifically seeking guidance from the Commission on acceptable retroactive recalculation methodologies.  
+Implementing a retroactive breakpoint involves resolving four primary considerations:  (1) how to approximate how sellers are paid; (2) how to distribute any resulting refunds to buyers; (3) how to handle overscheduling; and (4) calculation of the settlement of CalPX Trading Services (“CTS”) block forwards markets.   CalPX believes that a calculation can be performed to retroactively approximate pay-as-bid pricing for hours in which its Unconstrained Market Clearing Price (“UMCP”) was used for settlement purposes.  However, in those hours in which the CAISO determined inter-zonal congestion existed, such a calculation is impossible.  Moreover, implementation of the breakpoint has an impact on the treatment of overscheduling and the settlement of CalPX block forwards markets.  Since the particular way these issues are handled has an impact on the financial position of CalPX participants, CalPX seeks the Commission’s guidance on all these issues.
+CalPX does not run congestion management markets; these are the exclusive responsibility of the CAISO.  Additionally, CalPX is not the sole participant in congestion management; it is instead one of over 60 Scheduling Coordinators (“SCs”) eligible to participate.  Any one of these SCs can and does submit congestion management (adjustment) bids, which set the price for inter-zonal transmission, to the CAISO.  CalPX has a passive role in this process, acting as an order router, accepting adjustment bids from its participants and forwarding them to the CAISO.  Once the CAISO has completed congestion management, it publishes final schedules and Congestion Zone Reference Charges (usage charges) to CalPX.  CalPX publishes final schedules to its participants, and takes usage charges, final schedules and adjustment bids to determine CalPX zonal prices (Zonal Market Clearing Prices or ZMCP), which are then used for settlement.  Usage charges are the CAISO’s reflection of the cost to transmit energy between zones and are paid to the transmission owners – usually the IOUs.  In congested hours, CalPX UMCP is not used for settlement purposes.  
+It is possible to develop methods of calculation that loosely approximate pay-as-bid pricing in hours with inter-zonal congestion, but any such method inevitably involves judgmental decisions, which potentially greatly affect the impact of any recalculation.  Consequently, it is inappropriate for it to implement one method rather than another without specific guidance from the Commission.  CalPX thus requires specific guidance from the Commission as to which congestion method is acceptable to the Commission for purposes of recalculating the January invoices.
+
+CALCULATION PROCEDURE FOR UNCONGESTED HOURS
+
+Retroactive implementation of a breakpoint in unconstrained CalPX markets is difficult but achievable.  To understand how such calculations could be completed, it is necessary to understand how CalPX energy bids are structured and how they are used to calculate CalPX Unconstrained Market Clearing Prices (UMCPs).
+Participants bid into CalPX Day-Ahead energy market by submitting Portfolio bids.  Portfolios represent customers’ aggregate supply and demand, and are thus not tied to specific units or geographical areas.  Each portfolio bid consists of up to sixteen price-quantity pairs, which are linked to form a piece-wise linear curve.  Once all bids are received, CalPX aggregates the bids to create market-wide supply and demand curves.  The intersection of the two curves determines an hour’s UMCP and Unconstrained Market Clearing Quantity (UMCQ).
+For CalPX to pay sellers as-bid, it would have to determine how much of the UMCQ was explicitly offered at prices above the breakpoint.  The following diagram is illustrative:
+
+
+
+0
+25
+150
+3800
+5532
+7358
+MWh
+$/MWh
+Price
+500
+2600
+2500
+Portfolio Award
+Original UMCP
+Pay-as-bid
+Amount
+Breakpoint
+
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 1: Calculation of Pay-as-bid pricing of a CalPX supply bid
+
+In Figure 1, the segmented line represents an individual portfolio bid with line points representing specific price / quantity pairs.  The horizontal dotted line represents the breakpoint of $150 and the vertical line represents the specific portfolio award.  To calculate the amount paid as bid to the seller in this example it would be necessary to calculate the area bounded by the bid curve, the breakpoint and the portfolio award.
+It is possible to do this retroactively, but that would involve developing additional software.  It would be prohibitively difficult to calculate these results manually as the amount of calculations would be significant.  For example, historically, in a typical hour there are 100 supply bids.  Each bid typically has 8 price-quantity pairs.  Thus if we were to calculate approximate pay-as-bid pricing for uncongested hours, we would be dealing with in excess of 200,000 data points.
+However, software can be developed to perform such calculations, and with a combination of manual and automated labor, CalPX can recalculate payments for the uncongested hours to approximate pay-as-bid pricing.  The term “approximate” is used because no method can account for the inevitable changes in bidding behavior that would have resulted had CalPX been able to implement the breakpoint according to the Commission’s schedule.
+To summarize, the calculation of the payments to suppliers in the Day-Ahead markets when there is no congestion would work as follows.  If the UMCP is below $150, payments to suppliers happen in the usual way.  If the UMCP is above $150, suppliers are paid $150 times the quantity awarded in CalPX Day-Ahead auction plus the amount equal to the area bounded by their bid curve, their portfolio award and the $150 breakpoint. 
+Calculation of pay-as-bid pricing for the Hour-Ahead (Day-Of) markets is very similar to the process developed for Day-Ahead.  However, there are some unique characteristics of the Hour-Ahead market, which the Commission should be aware of.
+Hour-Ahead energy bids are submitted by resource, not by portfolio as is the case in Day-Ahead.  This in and of itself does not change the calculation method, but it is worth mentioning, as it will require additional software programming and data recovery.  The characteristic of the Hour-Ahead market that does have a material impact on calculations is that Hour-Ahead bids are incremental of Day-Ahead final schedules.  This means that if a participant bought 100 MWh in the Day-Ahead market, but wanted to sell that energy back into the Hour-Ahead, they would bid to buy negative 100 MWh on the exact resource with which they purchased in the Day-Ahead.
+This means that a portion of bids submitted on demand resources in the Hour-Ahead markets are, in fact, offers to sell.  As such, CalPX would propose to pay these offers as bid, unless directed otherwise by the Commission. Likewise, decremental supply offers for the Hour-Ahead markets are, in fact, offers to buy and if awarded quantity in the Hour-Ahead market would receive a pro rata share of the refund.  
+To summarize, the calculation of the payments to suppliers in the Day-Of markets when there is no congestion would work as follows.  If the UMCP is below $150, payments to suppliers (including decremental demand) happen in the usual way.  If the UMCP is above $150, suppliers (including decremental demand) are paid $150 times the quantity awarded in CalPX Day-Ahead auction plus amount equal to the area bounded by their bid curve, their Day-Of resource award and the $150 breakpoint. 
+CalPX also conducts a post-market allocation process, called Post Close Quantity Match (“PCQM”), where buyers and sellers offer to match additional quantities at the UMCP.  Because both buyers are expressly offering to transact for energy at specific, agreed-upon prices, which are known in advance, this process pays sellers as-bid, and as such does not require recalculation to conform with the Commission’s orders.
+
+DIFFICULTIES IN CALCULATING CONGESTED HOURS
+In hours in which inter-zonal congestion exists, CalPX UMCP is not used to settle transactions.  Instead CalPX customers pay and are paid zonal prices (“ZMCP”).  CalPX calculates zonal prices from participants’ adjustment bids, final schedules and usage charges.  Final schedules and usage charges are calculated by the CAISO and made available to CalPX and other SCs for scheduling and settlement purposes.  To understand the complexities of attempting to implement pay-as-bid pricing to these inputs, it is first necessary to review CalPX’s role in congestion management.
+There are fundamental differences between the inputs and results of CalPX energy auctions and the ISO’s congestion management process, which complicate efforts to calculate pay-as-bid prices.  For example, CalPX energy bids are submitted using portfolios, which are not tied to specific units or geographical areas, while the CAISO’s congestion management process relies on adjustment bids, which are submitted for unit-specific resources.  Since there is no correlation between portfolios and resources it is impossible to tell which resource schedule derived from which portfolio award.  Indeed, it is as possible that one resource schedule derived from several portfolio awards, as one portfolio schedule was used to create multiple resource schedules.
+To additionally complicate matters, congestion management inevitably results in the modification of schedules, and the additional transfer of revenues.  Thus, it is very likely that a seller who sold 100 MWh into CalPX energy auction ended up selling a different amount after congestion management.  If this were the case it is almost inevitable that the final transaction occurred at a price different from the UMCP.
+Furthering the complexity, congestion management (adjustment) bids are dramatically different from CalPX energy bids.  They have no correlation with CalPX energy bids and have dramatically different validations.  Adjustment bids are voluntary: it is possible to be affected by the CAISO’s congestion management without having submitted any bids for congestion.  When adjustment bid price-quantity (P, Q) pairs are linked, they form step curves, rather than piece-wise linear curves.  Bids can only include up to eleven Price-Quantity pairs, unlike CalPX energy bids, which can include up to sixteen.  The combination of these factors resulted in situations in which sellers could not completely replicate their original energy bid in their adjustment bids.
+Furthermore, all SCs, not just CalPX, submit adjustment bids to the CAISO.  The CAISO uses all bids to resolve congestion and calculate congestion zone reference prices, which are marginal rather than paid as bid.  Frequently, SCs other than CalPX have submitted schedules that resulted in a need for congestion management, and SCs other than CalPX have set the marginal price for congestion management.  In these situations CalPX has nonetheless had its schedules and prices modified by the CAISO.  Indeed, the only connection between the UMCP and zonal prices is that the UMCP is used as a reference price for submitting adjustment bids.  Thus, an unintended effect of the Commission’s January 29 Order was to direct CalPX to recalculate prices for a marginal-priced market that CalPX does not run and in which it regularly does not set the price.
+The next section describes potential options for approximating pay-as-bid pricing in hours in which inter-zonal congestion existed.  All of these methods involve determinations that are judgmental.  Each judgmental decision substantially affects the amount of money that is re-allocated and to whom.  It is inappropriate for CalPX to select the specific method to be undertaken.  Thus CalPX provides the Commission with several options, outlines the strengths and weaknesses of each and asks for the Commission to order implementation of the method acceptable to it.
+
+ALTERNATIVE METHODS FOR CALCULATING REFUND FOR CONGESTED HOURS
+
+The complexities and ambiguities of applying FERC order to congested hours have been discussed in the section above.  Because of these issues, there are a number of potential approximations that could be used to calculate refund amounts for congested hours.  Each approximation method could have a different impact on one participant or another.  That is, some participants might be better off under a particular approximation method than a different approximation method.  CalPX asks that FERC provide guidance on these issues and specify an acceptable method for CalPX to implement.
+The CalPX lays out three potential alternative approximation methods for the Commission to consider.  Each method has its own advantages and drawbacks.  Method I involves implementing the breakpoint methodology for uncongested hours only, using the technique described above.  Since the price paid to sellers in congested hours is approximately 15% less than the price paid to sellers in uncongested hours there is already a price reduction in the congested hours.  Moreover, this method avoids potential controversy over which approximation method to apply to congested hours and avoids having CalPX recalculate prices for markets that CalPX did not run and in which CalPX was only one of many participants.  Method II again applies the breakpoint methodology for uncongested hours, but for congested hours it calculates the refund based on adjustment bids. Sellers who submitted adjustment bids would be paid according to their bid and the mechanism specified by the Commission.  Since adjustment bids are voluntary, not all sellers submitted adjustment bids.  In this case, sellers would receive $150/MWh when the zonal price under the usual mechanism would have been above $150/MWh. Method III is close to Method II.  The main difference is that sellers who did not submit adjustment bids are paid the Unconstrained Market Clearing Price (UMCP) minus $125 when the Zonal Market Clearing Price (ZMCP) price under the usual mechanism would have been greater than $150, and the UMCP-$125 is greater than $150 but smaller than the ZMCP.  Otherwise, sellers without adjustment bids would be paid according to the mechanism in Method II.  The reasoning behind this is that under the CAISO rules, sellers could not submit adjustment bids more than $125 below the UMCP.  As a result, sellers were unable to reflect the full range of their willingness to sell and so, perhaps, did not submit an adjustment bid at all.  
+In addition to the three methods just outlined and explained in more detail below, there are other possible mechanisms that could be implemented, but each method arguably has some obvious defects.  For example, the refund calculation could be done for uncongested hours.  Then, the percentage of supplier revenues refunded for the uncongested hours could be applied to congested hours.  While relatively easy to calculate and appealing in its simplicity, this method would most likely result in some suppliers getting paid less than they bid.  Another method would be a variant on Methods II and III above.  Instead of using a fixed number such as $150/MWh or the UMCP-$125 as the rate to pay sellers without adjustment bids, however, the method could use some portion of the original bid in CalPX market.  There are a number of difficulties with this method.  First, bids in CalPX markets are based on “portfolios” rather than physical resources.  A single portfolio could correspond to multiple physical resources or parts of different resources.  For the CAISO congestion market, however, bids are based on physical resources.  As a result, it is not possible to match resources without adjustment bids to a given bid in CalPX market.  Second, if the aggregate participant bid curve in CalPX market was used, since there is not a correspondence between resources and portfolios, one would have to develop an allocation scheme of the aggregate bid curve to resources without adjustment bids.  Since one cannot know which adjustment bids correspond to which part of CalPX market bid curve, one would have to use the highest part of the aggregate bid curve for those resources without adjustment bids.  This could very likely result in sellers getting paid more than they bid and, perhaps, result in a refund from buyers to sellers in some instances.  Third, some resources that have adjustment bids associated with them do not have adjustment bids associated with the complete scheduled range of the resource.  As a result, for the part of the scheduled range of the resource that is not covered by an adjustment bid, some part of the aggregate bid curve must be used.  Since supply curves must be upward sloping, the method must choose a portion of the aggregate participant supply curve that is below the portion of the participant aggregate supply curve that is below the start of the aggregate bid curve.  It is not clear that this is possible to do since adjustment bids are completely independent of CalPX bids.  For these reasons, methods involving these concepts are not detailed below.
+The rest of this section explains Methods I, II and III in more detail.
+Method I:  Apply Refund Method to Unconstrained Hours Only
+The application of the refund method to uncongested hours has been described above.  There are a number of reasons why the Commission might want to limit the refund to uncongested hours only.  First, uncongested hours form a substantial portion of the hours in the January CalPX Day-Ahead market: approximately 30%.  By requiring refunds for the uncongested hours alone, the Commission would make substantial steps toward reaching its goal.  Second, since the price paid to sellers in congested hours is about 15% less than the price paid to sellers in uncongested hours in CalPX Day-Ahead market there is already a price reduction in the congested hours.  This amount combined with the refund from uncongested hours could give a substantial refund to buyers.  Third, in order to calculate a refund for congested hours, a method to allocate the refund taking into account overscheduling must be chosen. In January 2001, some participants overscheduled by submitting an initial preferred scheduled amount that was greater than the quantity awarded in CalPX auction.  The reason for overscheduling was that, according to the December 15 order, the IOUs were no longer allowed to sell into CalPX.  As a result, the IOUs started to match their own generation with some portion of their load.  This amount was scheduled through CalPX by adding these matched amounts to the quantity awarded in the initial CalPX auction.  Because quantity awards in CalPX Day-Ahead Market are based on portfolios and not on physical resources, it is impossible to tell which physical resources are overscheduled and which are part of the quantity awarded in CalPX auction.  While there are a number of ways to pick which resources are overscheduled, just as with the approximation method for refund, each method has implications for the size of refund for all the participants.  Moreover, since the participants had, at times, adjustment bids when they had overscheduled resources, and these resources therefore participated in setting the zonal market clearing price, it is arguable that overscheduled resources should be included in the refund mechanism.  The fourth reason to limit the refund to uncongested hours is that each of the approximation methods for calculating the refund due from each supplier for congested hours will possibly engender controversy.  As a result, refund relief to buyers could be seriously delayed.  Fifth, including congested hours greatly complicates the calculation of the Block Forwards Market settlement.  This is discussed in detail below.  One of the main issues is how to attribute BFM positions to specific resources.  Sixth, and finally, applying the breakpoint to congested hours calls into question how the refund should be distributed to buyers.  For uncongested hours the market is not divided by transmission constraints and so the refunds are, according to FERC order, to be divided pro-rata amongst all load regardless of zone.  In the case of congested hours, some sort of zonal division of the refunds might be considered.  This issue is discussed in detail below.  The point here is that it is yet another decision that must be made if congested hours are included in the refund.
+Method II:  Use Adjustment Bids with $150 Payment to Resources without Adjustment Bids
+
+Under this method, a refund is calculated for all hours.  The already-described methodology is applied to uncongested hours.  For congested hours, there are two cases.  In the first case, the zonal price is at or below $150/MWh.  In this case, the refund for that hour and resources in that zone is zero.  In the second case, the zonal price is above $150/MWh.  In this case, refunds must be calculated.  For the congestion management process, participants can submit adjustment bids for each resource they schedule.  Adjustment bids represent a participant’s willingness to generate at a resource depending on the price level.  The CAISO uses these bids to determine usage charges between zones and adjust schedules to avoid congestion.  Because these adjustment bids represent a participant’s willingness to modify a generation resource schedule at different price levels, it is arguably appropriate to use them as proxies for supply bids.  Resources then would be paid according to their bids as described in the January 29 Order.
+Because adjustment bids are voluntary, there may not always be an adjustment bid for a resource.  In this case, this suggests that the resource in question is willing to accept any price for the energy it produces per its Initial Preferred Schedule (IPS).  Indeed, because zonal prices can be negative, a resource without an adjustment bid can end up paying for the right to produce.  Because such resources without adjustment bids are price takers per the current rules of the market, it is arguably appropriate to pay them $150/MWh when the zonal price is above $150/MWh.  Moreover, in the normal working of the market, such resources subject themselves to the risk of getting much less than $150/MWh.  Even though much of the time zonal prices are below those of the unconstrained market, suppliers often do not submit adjustment bids even though there is a large chance they will be paid less than they had bid in the unconstrained market.
+There is a final case to consider.  Some resources have adjustment bids, but the adjustment bids do not cover the whole range of the schedule of the resource.  To understand this, it is necessary to bear in mind that an adjustment bid is a series of price-quantity pairs.  Pairs in the series are ordered by the quantities.  Quantities can never decrease, so the quantity in the next pair must be at least as great as the quantity in the previous pair.  For supply adjustment bids, prices must not decrease from one pair to another.  The quantity in the first price-quantity pair of the adjustment bid can be any number greater than zero or less than or equal to the IPS of the resource.  In other words, participants do not have to indicate the price at which they are willing to produce for the whole range of their resource.  For instance, based on portfolio awards from CalPX auction, a resource might be scheduled to produce 100 MWh.  The adjustment bid associated with that resource might indicate that it would produce between 50 and 100 MWh at a price of $175/MWh, and over 100 MWh and up to 200 MWh at a price of $250/MWh.  For the amounts between 0 and 50 MWh, the adjustment bid does not give an indication of the price at which the resource is willing to produce.  In this case, the resource is indicating that it is willing to accept any price if its output is reduced to a level between 0 and 50 MWh.  In other words, the resource is a price taker for amounts between 0 and 50 MWh.  Therefore, following the logic for resources that do not submit any adjustment bids, the resource in the example should receive $150/MWh for that portion of its final scheduled quantity between 0 and 50 MWh.  In general, if a resource has an adjustment bid that does not cover its complete final scheduled range, then on the lower portion of the scheduled range that is not covered by the adjustment bid, it is treated as a price taker and receives $150/MWh when the zonal price is above $150/MWh.
+To summarize, there are three possible scenarios:
+
+A resource has an adjustment bid that covers the full final scheduled range of the resource.
+
+
+A resource has no adjustment bid.
+
+
+A resource has an adjustment bid but it does not cover the full final scheduled range of the resource.
+
+In the case of a resource with an adjustment bid that covers the full final scheduled range of the resource, then the adjustment bid is used to calculate the payment to the supplier.  The terminology, “an adjustment bid that covers the full final scheduled range of the resource,” means the following:  The adjustment bid expressly offers to supply an amount of energy from zero to a quantity that is equal to or greater than the resource’s final schedule.
+The payment to a resource with an adjustment bid that covers the full final scheduled range of the resource when the ZMCP is above $150/MWh is calculated as follows.
+
+The portion of the resource’s bid curve below $150/MWh is paid  $150/MWh.
+
+
+The portion of the resource’s bid curve above $150/MWh is paid as bid.  That is, it is paid $150/MWh times the number of MWh of accepted bids above $150 plus amount equal to the area bounded by its bid curve, its final schedule and the $150 breakpoint.
+
+Resources with no adjustment bid curve are paid $150/MWh when the zonal price is above $150/MWh.  
+For resources with an adjustment bid, but the adjustment bid does not cover the full final scheduled range of the resource, a modified adjustment bid is constructed.  The resource is then paid by the same method as a resource with an adjustment bid that does cover the full final scheduled range of the resource, but using the modified adjustment bid instead of the original bid.  The modified adjustment bid is determined as follows: 
+
+If p1 and q1 are the first price-quantity pair in the adjustment bid curve, and q1 > 0, then a new price-quantity pair, (p0, q0) is inserted and becomes the first price quantity pair, where p0 equals zero and q0 equals zero.
+
+
+If pf and qf are the last price-quantity pair in the adjustment bid curve, and qf is smaller than the scheduled quantity, then a new price-quantity pair is added to the end of the adjustment bid curve with the price of the new pair equal to the price of the previous pair and the quantity of the new pair equal to the final schedule amount for the resource.
+
+Method III:  Use Adjustment Bids with UMCP - $125 Payment to Resources with no Adjustment Bids
+
+This method is similar to Method II. The main difference is that when the ZMCP is greater than $150/MWh, and UMCP-125 is greater than $150 but less than the ZMCP, then resources that did not submit adjustment bids are paid the UMCP minus $125.  Otherwise, resources without adjustment bids would be paid according to the mechanism in Method II.  The reasoning behind this is that the CAISO imposed a hard cap of $250/MWh on its congestion markets.  As a result, participants are limited to a $250 bandwidth around the UMCP in their adjustment bids.  That is, the lowest price that can be bid is UMCP-$125 and the highest price that can be bid is UMCP+$125.  As a result, sellers are unable to reflect the full range of their willingness to sell and so, perhaps, did not submit an adjustment bid at all.  For example, suppose the UMCP was $400 and a seller had a variable cost of $200.  Under the rules in place, the seller was unable to submit an adjustment bid at $200 reflecting its willingness to produce at a price of $200.  Instead, the seller was faced with a choice of offering to reduce its preferred schedule at a minimum price of $275/MWh, which was well above its variable costs, or not submitting an adjustment bid.  If the seller had submitted an adjustment bid of $275/MWh, it might have been adjusted down by CAISO before other suppliers that did not submit adjustment bids.  The resulting zonal price could end up well above its variable costs, yet the resource would not have generated.  On the other hand, if the resource had not submitted an adjustment bid, it is possible that the zonal price could have fallen below its variable costs.  Thus, it is possible it could have lost money.  Faced with a situation like this, a supplier might assess the probabilities of one outcome versus another and submit or not submit an adjustment bid based on its expected return.  
+A possible objection to this methodology is that it might result in inequitable treatment of resources.  Consider two resources in the same zone.  The first submits an adjustment bid at UMCP-$125 for its whole final scheduled range, while the second resource submits no adjustment bid at all.  CAISO might adjust the first resource down to only one MWh to relieve congestion.  If setting the production of the first resource at one MWh is sufficient to relieve congestion, then the second resource would keep its Initial Preferred Schedule and get paid at least UMCP-$125 under the rules for zonal prices.  A potential inequity arises since the second resource did not get adjusted since it submitted no adjustment bid and did not help relieve congestion, yet it gets paid as much as the first resource that was only allowed to produce one MWh to relieve congestion.
+Figure 2 illustrates how resources without adjustment bids are paid.  Just as in Method II, they are paid the ZMCP when it is below $150.  When the ZMCP is above $150, the payment depends on the situation.  First, when the UMCP is below $275, then since UMCP-125 is below $150, the resource without an adjustment bid is paid $150.  Second, sandwiched between the two $150 areas in the figure, is the area in which UMCP minus 125 is greater than $150 but less than the ZMCP.  In this case, resources without adjustment bids are paid UMCP minus $125/MWh.  Third, and finally, when the UMCP-$125 is greater than the ZMCP, resources without adjustment bids are paid $150.  In this last case, if resources without adjustment bids were paid UMCP minus 125, then there would be a refund from buyers to sellers, the opposite of the Commission’s apparent intention in issuing the January 29 Order.
+As before, a refund is calculated for all hours.  The already described methodology is applied to uncongested hours.  For congested hours, with one exception, the methodology is the same as Method II described above.  The exception is when the UMCP is greater than $275/MWh and the ZMCP is greater than the UMCP minus 125.  The rest of this section describes only the situation when this exception is encountered, and only for resources without an adjustment bid that covers their final scheduled range.  Resources with adjustment bids that cover their final scheduled range are to be paid according to Method II.
+There are two cases left to be covered when the exception occurs:
+
+Resources with no adjustment bids.
+
+
+Resources with adjustment bids that do not cover the final scheduled range of the resource.
+
+Case 1:  Resources with no adjustment bids are paid UMCP minus 125 per MWh when the UMCP is greater than $275 per MWh and the ZMCP is greater than the UMCP minus 125.  
+Case 2:  When the exception occurs, a resource with an adjustment bid that does not cover the final scheduled range of the resource is paid UMCP-125 for the beginning portion of its final scheduled range that is not covered by the adjustment bid.  If the final scheduled range goes beyond the adjustment bid, then the resource is paid the highest price in its adjustment bid for that upper, uncovered portion of its final scheduled range.  In other words, the procedure is just like that of Method II other than UMCP-125 is used as a proxy for its adjustment bid rather than $150.
+In detail, when the UMCP is greater than $275 per MWh and the ZMCP is greater than the UMCP minus 125, a modified adjustment bid is constructed.  The resource is then paid by the same method as a resource with an adjustment bid that does cover the full final scheduled range of the resource, but using the modified adjustment bid instead of the original bid.  The modified adjustment bid is determined as follows: 
+
+If p1 and q1 are the first price-quantity pair in the adjustment bid curve, and q1 > 0, then a new price-quantity pair, (p0, q0) is inserted and becomes the first price quantity pair, where p0 equals UMCP minus 125 and q0 equals zero.
+
+
+If pf and qf are the last price-quantity pair in the adjustment bid curve, and qf is smaller than the scheduled quantity, then a new price-quantity pair is added to the end of the adjustment bid curve with the price of the new pair equal to the price of the previous pair and the quantity of the new pair equal to the final schedule amount for the resource.
+
+
+0
+50
+100
+150
+200
+250
+300
+350
+400
+450
+500
+550
+600
+650
+0
+50
+100
+150
+200
+250
+300
+350
+400
+450
+500
+ZMCP
+UMCP
+ZMCP
+$150
+$150
+UMCP-$125
+
+Figure 2: Payments to Sellers without Adjustment Bids under Method III
+
+
+
+ALTERNATIVE METHODS FOR DISTRIBUTING REFUNDS
+
+The previous section described alternative methods for calculating payments to suppliers.  Once a method for determining payments to suppliers is determined, there must be a method for distributing the refund to buyers.  That is, there needs to be a method to distribute the difference between payments to suppliers under the pre-January 1 CalPX tariff and using some breakpoint approximation.  When there is no congestion, the method to use is relatively straightforward.  The total refund amount for an hour would be distributed to buyers on a pro rata share basis irrespective of zone.  The allocation would be done separately for the Day-Ahead and Day-Of markets.  When there is congestion, however, there are a number of choices.  First, the allocation of the refund could be done on a pro rata share basis irrespective of zone.  Second, the allocation of the refund could be done on a zonal basis.
+One way to distribute the refund on a zonal basis would be to give load in a zone that has generation its pro rata share of what was generated in that zone.  For example, suppose load in a zone was 1000 and generation in the zone was 2000. Then load would receive half the refund from the generation in the zone.  When load in a zone exceeded the generation in the zone, load in the zone would be allocated on a pro rata basis the refund from the generation in the zone.  Load exceeding the amount of generation in the zone would receive its pro rata share of supplier refunds from zones in which generation exceeded load.  
+The steps for this zonal distribution of refunds would be:
+
+For each zone in which generation exceeds load, load in that zone receives its pro rata share of the zonal supplier refunds.  That is, load in the zone receives the total of zonal supplier refunds in the zone times the zonal load divided by the zonal generation.  The load’s pro rata share of zonal supplier refunds would be distributed to each buyer on a pro rata basis depending on their load in the zone in question.  The “excess zonal supplier refund” is equal to the total of zonal supplier refunds in the zone times the quantity, one minus the zonal load divided by the zonal generation. 
+For each zone in which load exceeds generation, the zonal supplier refunds are distributed to the load in the zone on a pro rata basis.  Zonal excess load is calculated as the difference between the load and generation in a zone.  A buyer’s share of the zonal excess load is equal to their zonal pro rata share of load in the zone in question.
+The sum of the excess supplier refunds across all zones where generation exceeds load is then distributed to the all the zonal excess load irrespective of zone.
+The first method for distributing refunds, to all load on a pro rata basis irrespective of zone, is clearly the simplest.  Zonal methodologies, such as the one above, however, might be argued to more equitably allocate refunds.  Since the method chosen has implications for the distribution of the refund amongst buyers it is inappropriate for the CalPX to choose a specific method. Thus CalPX seeks the Commission’s guidance as to the method of distribution and requests that the Commission specify in an order which method CalPX should use.
+
+ALTERNATIVE METHODS FOR HANDLING
+    OVERSCHEDULING
+
+Once the Commission specifies the method for calculating refunds and the method for distributing the refunds, an important, but technical, issue remains, that of overscheduling.  As briefly described in section IV, some participants overscheduled by submitting an Initial Preferred Scheduled amount that was greater than the quantity awarded in CalPX auction.  The reason for doing this was that according to the December 15 Order the IOUs were no longer allowed to sell into CalPX.  As a result, the IOUs started to match their own generation with some portion of their load.  This amount was scheduled through CalPX by adding these matched amounts to the quantity awarded in the initial CalPX auction.  Because quantity awards in CalPX Day-Ahead Market are based on portfolios and not on physical resources, it is impossible to tell which physical resources are overscheduled and which were part of the quantity awarded in CalPX auction.  When there is no congestion, overscheduling is not a problem, since the refund calculation can work from the Portfolio bids and quantity awards in the PX auctions.  This is another reason, perhaps, to limit the refund to uncongested hours.
+If the refund is to be applied to congested hours, some sort of approximation scheme must be used to account for overscheduling.  CalPX describes two possible methods for handling overscheduling.  These two methods are by no means the only way of treating overscheduling, nor does CalPX endorse one over another.  The two methods are presented to give the Commission some possible solutions and to illustrate the complexity of the issue.  However, because any method for treating overscheduling has differential financial implications for its participants, CalPX requests that the Commission provide guidance on this issue and asks the Commission to specify the acceptable method for treating overscheduling.
+Method One:  Treat Overschedules the Same as Other Schedules
+The first method for treating overschedules is the simplest.  It does not differentiate between overscheduled amounts and amounts that were awarded in CalPX auction.  Since some participants had, at times, adjustment bids when they also overscheduled, they played a part in setting the zonal market clearing price.  As a result, it is arguable that participants who overscheduled resources should be treated no differently from those who did not.  In this method when there is congestion, the adjustment bids would be used to calculate the refund from all the generation in that the overscheduling participant scheduled.  Similarly, all load in the overscheduling participant’s schedule would receive a refund based on the method specified by the Commission.  
+Method Two:  Match Generation with Load for Overscheduling Participants
+Since the Commission’s apparent intent in ordering the IOUs not to sell into CalPX forward and spot markets was for them to directly match their load with generation, an alternative mechanism for handling overscheduling might be considered.  Generally, such a method would be to match overscheduled participants’ generation with load until their generation is completely matched, leaving some load that would be eligible to receive some of the supplier refunds.  Under this method the matched generation would still be paid the zonal price, and the matched load would still pay the zonal price.  Because generation and load are matched, a participant only ends up paying the usage charges.  The remaining difficulty is choosing which load to match with the generation.  If the refunds are distributed irrespective of zone when there is congestion, the problem is moot since any solution has no effect on the distribution of refunds.  However, if refunds are distributed on a zonal basis, then the location of the unmatched load could affect the results for all participants.  A simple mechanism for determining which load to match would be to match all of a participant’s load in a zone with the participant’s generation in the zone first.  Next, all remaining zonal loads would be ordered from smallest to greatest.  Starting with the smallest zonal load, it would be matched with the remaining generation.  Any generation left over from matching with the smallest zonal load would be matched with the second smallest zonal load.  This process would be repeated until all generation had been matched with load.
+
+SETTLEMENT OF BLOCK FORWARDS CONTRACTS IN
+UNCONGESTED HOURS
+
+An additional complication in determining the proper adjustments to buyers and sellers is the reallocation of funds required to account for participants’ CTS Market positions.  The CTS Block Forwards Market is CalPX’s longer-term forward energy market.  In this pay-as-bid market, buyers and sellers agree on specific forward energy prices to hedge against spot market volatility.  Most energy transacted for in the CTS Market goes to delivery in CalPX Day-Ahead market.  CTS energy delivered in the Day-Ahead Market is settled as a contract for differences off the monthly weighted-average of the Day-Ahead zonal prices.  That is, once buyers and sellers agree to forward energy prices, they deliver their energy in the Day-Ahead Market.  Since all Day-Ahead transactions settle off Day-Ahead zonal prices, CTS buyers and sellers true-up their Day-Ahead settlements to account for their CTS commitments.  For example, if CTS buyers and sellers transacted for January NP15 energy at a price of $65 and the weighted average NP15 zonal price was $100, CTS sellers would receive $100 per MWh from CalPX and owe CTS $35, while CTS buyers would pay CalPX $100 and receive a $35 refund from CTS.  
+This method of settlement adds significant complexity to the implementation of a retroactive breakpoint, as a fundamental concept of a contract for differences is a single market-clearing price from which to adjust buyers’ and sellers’ settlements.  Implementing CTS settlements within the retroactive calculation of pay-as-bid pricing involves resolving three primary considerations:  (1) determining the total additional amount to be refunded by each CTS seller; (2) determining the total additional amount to be refunded to each CTS buyer; and (3) resolving any potential imbalance between the two amounts.
+Determining the amount of additional revenue to be returned by CTS sellers is less difficult in uncongested hours.  The term “additional revenue” is used is because this calculation, by nature, must be run separately from the pay-as-bid computations.  An implication of these separate calculations is that an overlap exists between the portion of the revenues that would be normally refunded during the CTS settlement and that which is refunded to load to during the pay-as-bid allocation.  Figure 3 illustrates this point:
+
+
+
+
+
+
+
+CTS
+Refund
+Price ($)
+Quantity (MWh)
+UMCQ
+CTS Q
+Breakpoint
+CTS Price
+UMCP
+CalPX
+Supply Curve
+CalPX
+Demand Curve
+Soft Cap Refund
+Potential
+CTS
+Refund
+
+
+Figure 3: Calculation of Additional CTS Refund
+
+The preceding diagram depicts the intersection of aggregate CalPX supply and demand energy bid curves.  The intersection of the two curves determines the UMCP and UMCQ for an individual hour.  The rectangle bounded by the “UMCP” line, the “CTS price” line and the “CTS Q” line represents the amount that would be refunded from sellers to buyers in an hour with a single, market-clearing price.  However, in hours in which the soft breakpoint applies, sellers refund buyers the amount represented in the “Soft Cap Refund” trapezoid.  The overlap is shaded.
+This calculation becomes more complex in situations where sellers sell more energy into CalPX Day-Ahead auction than their CTS obligations require them to.  In this situation, both the rectangle and the “Potential CTS Refund” trapezoid depict potential seller refunds, meaning that CalPX must determine which portion of a participant’s aggregate supply curve applies to its CTS energy and which applies to energy intended solely for the spot market.
+It is impossible for CalPX to definitely determine which portion of participants’ aggregate bid curves was intended to apply to spot market sales and which was to apply to CTS commitments.  This is because of the nature of portfolios, which are aggregate representations of participants’ willingness to sell.  Portfolios are not tied to specific resources or long-term commitments.  It is possible for a participant to bid the same CTS commitment on a different portfolio for each hour of each day.
+Thus, in situations where participants’ auction results exceed their CTS commitments, judgmental decisions are required to determine which portions of their curves should represent their CTS commitments.  It might be argued that sellers offered their least expensive energy in the CTS market and their more expensive supply in the spot market.   This is because the dramatically lower CTS prices provided significant incentive for sellers to bid their CTS positions into the market at low prices (to ensure that their CTS quantity cleared the Day-Ahead auction – thus avoiding non-delivery penalties).  Thus, a reasonable refund method would be to allocate the CTS commitment to the least expensive portions of CTS seller’s Day-Ahead energy bid curves.  This method ensures that sellers are not paid less than they bid, but as it does not allocate the largest possible refund to buyers it may not be universally popular.  
+It is possible to allocate a larger amount to buyers, that is, to allocate the most expensive portions of sellers’ bid curves to CTS commitments.  While this option maximizes buyers’ refunds, it would not guarantee that sellers were paid as bid and might thus be argued to be confiscatory.  Furthermore, this option, perhaps unrealistically, assumes that sellers ignored significant financial incentives to bid their CTS positions at the lowest costs possible.  
+A third option would be to allocate the refund to the middle portions of sellers’ bid curves.  As this option benefits neither sellers nor buyers to the maximum amount possible some may consider it a neutral option.  However, this option again ignores the sellers’ financial incentives that were outlined in the previous paragraph and cannot guarantee that sellers are to be paid their bid prices.  This option is thus arguably, potentially confiscatory.  CalPX will adopt the methodology that the Commission determines is acceptable.
+Determining the correct refund allocation to load appears to be simpler.  All Day-Ahead demand within a zone pays a single price, which is determined by taking the breakpoint of $150 and adding the result of whichever uplift methodology the Commission orders CalPX to implement.  Once demand’s price has been determined, CalPX would subtract the CTS price for each buyer to determine the individual refund amount owed.  These general principles remain consistent whether applied to constrained or unconstrained hours.
+However, depending on the sequence of calculations, it is possible that the refund amount owed to an individual CTS buyer exceeds the amount of funds available from sellers.  This is because the retroactive breakpoint implementation allocates a portion of what would normally be refunded to only CTS buyers, to all CalPX buyers.  Figure 3 illustrates this point.
+In Figure 3, the total amount paid by load (based upon the UMCP) is shown by the rectangle bounded by the UMCP and UMCQ lines.  The breakpoint refund amount is represented by the “Soft Cap Refund” trapezoid, while the “CTS Refund” rectangle and the “Potential CTS Refund” trapezoid represent the expected CTS refund.  As can be seen from the diagram, the “CTS Refund” rectangle and the “Soft Cap Refund” trapezoid overlap.  The impact of this overlap is that, in certain circumstances, money that should have been refunded to CTS buyers exclusively is instead refunded pro rata to all demand.  
+For example, consider a situation in which a CTS buyer in NP15 purchased 500 MWh of January contracts.  If the average Day-Ahead zonal price for NP15 in January exceeded the $150 breakpoint, sellers’ revenues in excess of the breakpoint would be refunded to all buyers in the pay-as-bid reallocation.  This means that a CTS buyer who should have received, for example, a $10 per MWh refund may only receive an $8 per MWh refund.  
+The financial impact of this complication is not as great as it may first appear.  This is because the primary purchasers of the January CTS positions were the California Investor Owned Utilities (IOUs), who were also the primary buyers in January’s Day-Ahead markets.  Since the amount of energy transacted for in CTS was relatively small, under 1,000 MWh per hour, for peak hours, in each zone, the majority of the funds transferred from IOU buyers in CTS would go to IOU buyers in the Day-Ahead.
+A preferable solution may be to calculate CTS settlement before implementing the retroactive pay-as-bid calculation.  Since this solution involves calculating CTS settlements based upon existing CalPX prices, no additional procedures or software would need to be developed.  This would instead involve a technical change to whatever pay-as-bid methodology were adopted as the energy accounted for in the CTS settlement would be removed from any pay-as-bid calculations.
+An implication of calculating the pay-as-bid methodology after calculating CTS settlements is that a portion of the refund would be otherwise paid to other Day-Ahead buyers would be paid to CTS buyers.  This transfer is arguably justified.  This is because the sole purpose of this modification is to ensure that CTS buyers pay no more than they originally contracted for.  As CalPX buyers had, by definition, agreed to pay January CalPX marginal prices, limiting the amount of their refunds to ensure that buyers who explicitly contracted for lower-priced energy pay no more than they originally contracted for might be appropriate.
+
+SETTLEMENT OF BLOCK FORWARDS CONTRACTS IN
+CONGESTED HOURS
+
+In congested hours the calculations are more complicated, and depend on the Commission’s adoption of a specific pay-as-bid methodology.  The simplest solution would result from the Commission ordering that no recalculation of congested hours was required.  As has been mentioned previously, this solution might be adopted, as January buyers benefited significantly from congestion management, paying sellers approximately 15% less than in uncongested hours.  This does not take into account the additional savings from BFM contracts that buyers entered into.  If the Commission were to order CalPX to adopt this solution, no change from current CTS settlement would be required, as the existing marginal zonal pricing would be retained.  
+Likewise, if the Commission orders that CTS settlements be performed before pay-as-bid implementation, the existing CTS settlements calculations would be retained.  The affect on the pay-as-bid calculations would be to remove the settled quantities from the pay-as-bid allocation.  This option is the most beneficial to CTS buyers.  On the other hand, it is not clear how to account for BFM positions with respect to resource bids that reside in different zones.  For instance, a seller might have delivered a 100 MW block forward position into NP15 by bidding resources in NW1 and SP15.  It is not clear which resource or combination of resources should be used to take into account the BFM position and not be subject to further refund due to the breakpoint.  Should the cheapest 100 MW of scheduled energy be exempt regardless of zone?  Should the first 100 MW of scheduled energy with zonal price closest to the delivery zone (NP15) be used?  Or should one zone rather than another be chosen on some other basis?  One methodology might be to take the schedules into the delivery zone first, and if those are not sufficient start with the next zone with the highest schedule and so on until the BFM position is satisfied.  If the Commission chooses to implement the breakpoint methodology for congested hours, CalPX requests specific guidance on this issue.
+If, however, the Commission ordered one of the potential pay-as-bid approximations for congested hours, development of a solution would be more complex.   Many of the issues are similar to those in unconstrained hours (such as dealing with sellers who sold more than their CTS commitments) but require unique solutions.
+While the specific technical resolutions may be different in congested hours, the general approaches are similar enough not to require additional description.  Furthermore, the questions to the Commission remain the same: should CalPX settle CTS contracts before or after determining pay-as-bid pricing? How should refunds be allocated to buyers?  In situations where sellers offer more energy than required by their CTS commitments, what portions of sellers’ bid curves should represent their CTS energy and what portions should represent their spot market sales?  These questions must be answered, and CalPX seeks the Commission’s guidance in determining an acceptable methodology for preparing the January invoices.
+
+CONCLUSION
+
+This filing discusses implementation issues for FERC-ordered breakpoint methodology.  Because the different possible ways to implement the breakpoint have different implications for how much each participant receives or pays, CalPX requests guidance from FERC on how to implement the breakpoint.  There are four main issues:  (1) how to approximate how sellers are paid; (2) how to distribute any resulting refunds to buyers; (3) how to handle overscheduling; and (4) calculation of the settlement of CTS block forwards markets.  Different methods of approaching these issues have been discussed above.  CalPX specifically requests that the Commission determine an acceptable methodology with regard to each issue and then order CalPX to implement the acceptable methodologies in preparing January invoices.
+In addition, CalPX requests that FERC expedite its response to this pleading.  CalPX has responded to the January 29 Order in the shortest possible time required to develop potential solutions to the problem of determining appropriate retroactive pay-as-bid methodologies.  Now that those potential methodologies have been determined, CalPX is anxious to implement the Commission’s preferred solutions as soon as possible.  Furthermore, because the breakpoint issue is unresolved and CalPX wishes to conform to the Commission’s orders, it has delayed the dispatch of January invoices.  
+These invoices would have under normal circumstances been sent out the second week of February.  Both buyers and sellers are anxious to determine the financial impact of any refund, to reduce uncertainty, and to settle accounts as soon as possible. Additionally, as more time passes, the ability of the CalPX to implement the breakpoint decreases.   Therefore, CalPX asks that FERC expedite its answer to this pleading and provide specific guidance in resolving the issues outlined herein.  
+
+
+
+
+
+
+
+Of Counsel:
+
+Lisa G. Urick, Esquire
+California Power Exchange
+Corporation
+200 South Los Robles Avenue
+Suite 400
+Pasadena, CA  91101-2482
+Phone:  (626) 537-3100
+Facsimile:  (626) 537-3159
+E-mail:  lgurick@calpx.com
+Respectfully submitted,
+
+BRUDER, GENTILE & MARCOUX, L.L.P.
+
+
+
+By: ______________________________
+ Carmen L. Gentile
+ David E. Goroff
+ James H. McGrew
+
+1100 New York Avenue, N.W.
+Suite 510 East
+Washington, D.C.  20005
+
+Attorneys for California Power Exchange Corporation
+
+
+February 26, 2001
+
+
+M:\WDOX\CLIENTS\146calpx\BLF0090.DOC
+
+
+UNITED STATES OF AMERICA
+FEDERAL ENERGY REGULATORY COMMISSION
+
+
+SAN DIEGO GAS & ELECTRIC COMPANY  |    
+       |
+   COMPLAINANT,  |
+  v.     | DOCKET NO. EL00-95-009
+       |
+SELLERS OF ENERGY AND ANCILLARY SERVICES |
+   INTO MARKETS OPERATED BY THE CALIFORNIA |
+   INDEPENDENT SYSTEM OPERATOR AND THE |
+   CALIFORNIA POWER EXCHANGE   |
+       |
+   RESPONDENTS.  |
+       |
+INVESTIGATION OF PRACTICES OF THE CALIFORNIA |
+   INDEPENDENT SYSTEM OPERATOR AND THE | DOCKET NO. EL00-98-007
+   CALIFORNIA POWER EXCHANGE   |
+
+
+NOTICE OF COMPLIANCE FILING
+
+Take notice that on February 26, 2001, California Power Exchange Corporation made a filing to comply with the Commission’s January 29, 2001 order in this proceeding, 94 FERC ¶ 61,085.
+
+  Any person desiring to be heard or to protest said filing should file a motion to intervene or protest with the Federal Energy Regulatory Commission, 888 First Street, N.E., Washington, D.C. 20426, in accordance with Rules 211 and 214 of the Commission’s Rules of Practice and Procedure (18 C.F.R. § 385.211 and 385.214).  All such motions or protests should be filed in accordance with § 35.8 of the Commission’s regulations.  Protests will be considered by the Commission in determining the appropriate action to be taken but will not serve to make the protestants parties to the proceeding.  Any person wishing to become a party must file a motion to intervene.  Copies of this filing are on file with the Commission and are available for public inspection in the Public Reference Room.  This filing may also be viewed on the Internet at http://www.FERC.fed.us./online/rims.htm (call 202/208-2222 for assistance).
+
+
+David P. Boergers
+Secretary
+
+
+
+
+
+CERTIFICATE OF SERVICE
+
+ I hereby certify that I have this day served the foregoing document upon each person designated on the official service list compiled by the Secretary in this proceeding.
+ Dated at Washington, D.C. this 26th day of February, 2001.
+
+
+       
+
+        James H. McGrew
+
+
+
+
+
+
+
+
+
+Bruder, Gentile & Marcoux, L.L.P.
+1100 New York Avenue, N.W.
+Suite 510 East
+Washington, D.C. 20005-3934
+Telephone:  202/783-1350
+Facsimile:  202/737-9117
+E-Mail:  jhmcgrew@brudergentile.com
+ 
+
+
+
+
+   San Diego Gas & Electric Co., 93 FERC ¶ 61,121 (2000), reh’g pending. 
+
+  San Diego Gas & Electric Co., 93 FERC ¶ 61,294 (2000), reh’g pending.
+
+  The CalPX understanding is that the Commission order means that the breakpoint should apply to all delivery hours in January.  For example, even though the Day-Ahead auction for delivery on January 1, 2001, took place on December 31, 2000, the breakpoint should be applied to January 1, 2001.
+
+   Overscheduling occurs when a participant schedules quantities greater than the quantity it was awarded in the PX market.
+
+  Participants can submit as many Portfolios as they desire.  Hence, their aggregate supply bids can consist of as many price-quantity pairs as they desire.
+  Please refer to Figure 1 for a graphic representation.
+  This same method applies to congested hours and adjustment bids.  Thus, for Hour-Ahead adjustment bids, decremental demand is an offer to sell, while decremental supply is an offer to buy.  As such, decremental demand would be treated as offers to sell and subject to pay-as-bid for offers above $150.  Decremental supply would be treated as demand and be eligible for a pro rata share of the refunds.
+
+  Since sometimes Final Schedules (FS) will differ in small ways from Initial Preferred Schedules (i.e., 0.01 MWhs), the quantity awarded in the auction before running PCQM will be used to calculate refund amounts for uncongested hours.
+  Adjustment bids are bids submitted by buyers and sellers indicating their willingness to buy or sell at a given price.  They are submitted to the CAISO for the purposes of congestion management.  The CalPX role in adjustment bids is simply that of an order routing service.
+
+  The case of resources that submit an adjustment bid for a portion of the final scheduled range  (that is, the amount of the Final Schedule of the resource) is discussed below.
+
+  The Unconstrained Market Clearing Price was the price derived for energy in the Day-Ahead Market (or Day-Of Market) before the CAISO congestion management process took place.
+
+  The case of resources that submit an adjustment bid for a portion of the final scheduled range (that is, the amount of the Final Schedule of the resource) is discussed below.
+  The aggregate participant bid curve would be the curve that represents the willingness of a participant to sell at a given price across all the portfolios that it had offered.
+
+  This includes generation resources, intertie imports and SC transfers (sales) into CalPX.
+
+  Explanations of why this may not, in fact, be the case are presented below.
+
+  The IPS for a resource is the amount that the resource is scheduled before congestion management.  In general, the sum of the Portfolio quantity awards equals the sum of the resource IPS.
+
+  These rules are not the complete rules for adjustment bids, but lay out the relevant facts for this discussion.
+
+  One way this can happen is that if there is congestion and there are not enough adjustment bids for CAISO to resolve congestion based on the adjustment bids alone.  As a result, CAISO might impose a pro rata decrease of scheduled output on supply resources in a zone.
+
+
+  Since the first resource is the marginal resource in the zone, the zonal price must be at least as great as its adjustment bid.
+
+  It could be argued that sellers should be paid the ZMCP in this case because the ZMCP is still less than any possible adjustment bid.  If the Commission directs that method three be implemented, CalPX requests specific guidance on this issue.
+
+
+  Load generally exceeds generation for overscheduling participants.  If there are cases in which generation exceeded load for overscheduling participants, one way to handle this would be to simply follow the matching scheme discussed below.  The end result would be to have generation left over rather than load.  Any generators that were only partially matched might then be paid according to the highest portion of their adjustment bid curves, or the lowest, depending on what method the Commission specifies. 
+
+  The CalPX Trading Services (CTS) Block Forward Market (BFM) is CalPX’s pay-as-bid market for long-term forward contracts.
+
+  Approximately 90% of CTS transactions are delivered through the Day-Ahead Market.
+
+  NP15, or North of Path 15, is one of the two major internal zones in the California zonal congestion model.  All CTS transactions for January took place in either NP15 or SP15 (South of Path 15).
+
+
+  Unconstrained Market Clearing Price
+
+  Unconstrained Market Clearing Quantity
+
+  CTS forward prices have never exceeded the Commission’s breakpoint.  January CTS prices for NP15 averaged $77, while January SP15 prices averaged $62.  This is significantly lower than CalPX DA average of $319.
+
+
+
+  It is assumed that if the method of calculating the “refund due to BFM first” is adopted, it is presumed that buyers of BFM are then removed from further refunds due to the breakpoint.  If this is not correct, CalPX seeks specific guidance from the Commission on this issue.
+
+  Hours ending 7 –22, Monday through Saturday.
+  It is important to note that in constrained hours adjustment bids are used to determine zonal prices.  As has been previously mentioned, the ISO’s market rules prohibiting adjustment bid submittal in certain circumstances means that bids were not allowed in situations where sellers might have been otherwise willing to do so.  Thus relying on adjustment bids for determining pay-as-bid pricing is unlikely to result in accurate settlement.
+
+

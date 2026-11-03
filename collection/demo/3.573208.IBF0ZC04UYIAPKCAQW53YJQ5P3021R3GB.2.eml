@@ -1,0 +1,105 @@
+
+
+ANNEX A
+To the First Amendment to ISDA Master Agreement dated as of October __, 2001
+
+
+General Provisions Relating to Financial Commodity Transactions:
+
+For financial Commodity Transactions confirmed through the ConfirmLogic Module, the following additional terms and conditions shall be deemed to be included within the Commodity Information:
+
+1.  Payment Dates:  For power Commodity Transactions with a term of less than one month, payments shall be due on or by the fifth (5th) Business Day following the last day of the month that includes the Calculation Period.  For power Commodity Transactions with a term of one month or greater, payments shall be due on or by the fifth (5th) Business Day following the date on which the Floating Price is determinable. For gas Commodity Transactions, payments shall be due on or by the fifth (5th) Business Day following the date on which the Floating Price is determinable.
+
+2.  Rounding:  The following rounding conventions shall apply for the purpose of calculating the Floating Price(s) with respect to applicable Commodity Transactions.  Floating Price(s) relating to Commodities quoted (i) MMBtus shall be rounded to four places, and (ii) Megawatts shall be rounded to three places.  If the number after the final number is five or greater, then the final number shall be increased by one, and if the number after the final number is less than five then the final number shall remain unchanged.
+
+3.  Calculation Period(s):  For Commodity Transactions with a Term of more than one calendar month the Calculation Period shall be each calendar month during the Term.  If the Term of the Commodity Transaction is less than one calendar month, or consists of two partial calendar months, the Calculation Period shall be the Term of the Commodity Transaction.
+
+4.  Premium Payment Date:  With respect to Swaptions the Premium shall be paid within two (2) Business Days from the Trade Date of the Commodity Transaction.
+
+5.  Fixed Price Payer Payment Date(s):  With respect to Caps and Floors, payment of the Fixed Amount (premium) shall be paid within two (2) Business Days from the Trade Date of the Commodity Transaction.
+
+6.  Floating Price Payer Payment Date(s):  For power Caps and Floors with a term of less than one month, payments shall be due on or by the fifth (5th) Business Day following the last day of the month that includes the Calculation Period.  For power Commodity Transactions with a term of one month or greater, payments shall be due on or by the fifth (5th) Business Day following the date on which the Floating Price is determinable.  For gas Caps and Floors, payments shall be due on or by the fifth (5th) Business Day following the date on which the Floating Price is determinable.
+
+[7.  Exercise Period:  For Swaptions the period between the Trade Date and ___ number of Business Days prior to the Effective Date.]
+
+8.  Exercise Procedures:  Unless the parties specify otherwise, Automatic Exercise will not apply to cause an Underlying Transaction to become effective.  
+
+[9.  Written Confirmation:  Unless the parties specify otherwise, Written Confirmation for Swaptions will be Applicable.]
+
+[10.  Cash Settlement Terms:  Unless the parties specify otherwise, Cash Settlement shall not be Applicable for Swaptions.]
+
+[11.  Contact Information:
+Contact Information for exercise of Swaptions:
+
+With Respect to Enron:
+East: Enron:  1-800-684-1336 
+West: Enron:  1-877-367-6601
+
+
+With Respect to Counterparty:
+
+
+Contact Information for exercise of financial gas option, if required, or swaptions:
+
+With Respect to Enron:
+
+
+With Respect to Counterparty:]
+
+
+12.  Additional Definitions:  
+
+“Business Day” shall have the meaning set forth for such term in the Master Agreement.
+
+“Buyer” shall mean with respect to a Swaption the party specified as the “Buyer” in the Deal Detail, provided, however that if the Swaption is listed as a Put Swaption then the Buyer shall be the Floating Price Payer in the Underlying Transaction and if the Swaption is listed as a Call Swaption then the Buyer shall be the Fixed Price Payer in the Underlying Transaction.
+
+“Call Option” as specified in the Deal Detail shall mean a “Cap”.
+
+“Cap Price” shall mean with respect to a Cap the amount specified in the “Fixed/Strike Price” field.
+
+“Commodity” shall mean Electricity/MWh if a power Commodity Transaction and MMBtu if a gas Commodity Transaction.
+
+“Commodity Unit” shall mean MWh (Megawatt hours) if power Commodity Transaction and MMBtu if a natural gas Commodity Transaction.
+
+“Effective Date” shall mean the first date specified in the “Term” field.
+
+“Fixed Price” shall mean (i) with respect to a Swap or Underlying Transaction the amount specified in the “Fixed/Strike Price” field and (ii) with respect to a Cap or Floor the amount specified in the “Premium Amount” field.
+
+“Fixed Price Payer” shall mean with respect to a Swap, Cap or Floor the party specified in the “Buyer” Field.
+
+“Floating Price Payer” shall mean with respect to a Swap, Cap or Floor the party specified in the “Seller” field.
+
+“Floating Price” shall mean with respect to a Swap or Underlying Transaction the Specified Price for the specified Pricing Dates.  The Floating Price shall also include any Fixed Price that is specified by an index abbreviation in the “Fixed/Strike Price” field and such Fixed Price shall be calculated as if it were a second Floating Price and the Fixed Price Payer is the second Floating Price Payer.
+
+“Floor Price” shall mean with respect to a Floor the amount specified in the “Fixed/Strike Price” field.
+
+“NERC Holiday” shall mean any day that is not a NERC Business Day.
+
+“NERC Business Day” shall have the meaning set forth for such term in the underlying Master Agreement between Enron and the counterparty that governs the Commodity Transaction.  In the absence thereof, “NERC Business Day” shall mean any day, except a Saturday, Sunday or holiday as defined by the North American Electric Reliability Council or any successor organization thereto, from 8:00 a.m. to 5:00 p.m. local time for the relevant Party’s principal place of business.  The relevant Party, in each instance unless otherwise specified, shall be the Party from whom the notice, payment or delivery is being sent and by whom the notice or payment or delivery is to be received.
+
+“Notional Quantity per Calculation Period” shall mean the amount set forth in the “Volume” field for the relevant trade as specified in the Commodity Information if such amount is specified as an amount for the entire Calculation Period (for instance, MMBtu per month and the Calculation Periods are monthly) and if the Volume is for an amount of the Commodity for a period less than the Calculation Period then such Volume will be multiplied by the number of such periods in such Calculation Period (for instance, hours in the Calculation Period if the Volume is given in MWhs or number days in the Calculation Period if the Volume is given in MMBtu per day etc.)
+
+“Option Style” shall mean for Swaptions the type of option specified in the “Option Style” field of the Deal Detail.  Option Style shall not be relevant for Caps and Floors.
+
+“Option Type” shall mean the type of option listed in the “Type” field, provided, however, that a Call Option shall be deemed to be a Cap and a Put Option shall be deemed to be a Floor.
+
+“Premium” shall mean with respect to Swaptions the amount per Unit listed in the “Premium Amount” field of the Deal Detail.
+
+“Pricing Date(s)” shall be for such hours and days during the Calculation period specified in the “Hours/Days” field or if not specified then all hours and/or all days during the Term.
+
+“Put Option” as specified in the Deal Detail shall mean a “Floor”.
+
+“Seller” shall mean with respect to a Swaption the party specified as the Seller in the Deal Detail, provided, however that if the Swaption is listed as a Put Swaption then the Seller shall be the Fixed Price Payer in the Underlying Transaction and if the Swaption is listed as a Call Swaption then the Buyer shall be the Floating Price Payer in the Underlying Transaction.
+
+“Specified Price” shall mean the index specified in the “Floating Price” field, as further defined in Exhibit A for power Transactions and Exhibit B for gas Transactions, each attached hereto and made a part hereof. 
+
+“Strike Price per Unit” for options shall be the amount per Unit listed in the “Fixed/Strike Price” field.
+
+“Termination Date” shall mean the second date specified in the “Term” field.
+
+“Total Premium” shall mean with respect to Swaptions (i) the amount specified in the “Premium Amount” field, if specified per Unit, multiplied by the amount set forth in the Total Volume field or (ii) the amount specified in the Premium Amount field if not specified per Unit.
+
+“Trade Date” shall be the date specified in the “Trade Date” field.
+
+“Unit” shall mean the same as “Commodity Unit”.
+

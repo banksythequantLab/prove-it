@@ -1,0 +1,51 @@
+ 	
+From:	Risk Management -Controls	Department:	Risk Management	
+(Mailbox= Risk Analytics)	
+Subject:	New Book Request # _____________________  (Risk Analytics Use)	Date:	June 10, 2010	
+System:	ERMS	
+Requestor:  Brian Gillis	
+COUNTERPARTY	BOOK PURPOSE	TAGG	BOOK INFORMATION	
+Type Of Transactions	Book Mapping	
+Short Name	Long Name	Internal	External	Both	Code	Region	P	B	Idx	GD	PHY	Y	Commodity/UOM/Curr	Trader Name	MTM or ACCRUAL 	Reason For Book	Date Needed 	
+FB-Canada1	Canadian Financial Book 1	X	AA	1	X	X	X	NGGJ/GJ/CAD	Chris Lambie	MTM	new company	1/14/2002	Cdn logic	
+FB-Canada2	Canadian Financial Book 2	X	AA	2	X	X	X	NGGJ/GJ/CAD	Chris Dorland	MTM	new company	1/14/2002	Cdn logic	
+FB-Canada3	Canadian Financial Book 3	X	AA	3	X	X	X	NGGJ/GJ/CAD	Mike Cowan	MTM	new company	1/14/2002	Cdn logic	
+FB-Canada4	Canadian Financial Book 4	X	AA	4	X	X	X	NGGJ/GJ/CAD	Chad Clark	MTM	new company	1/14/2002	Cdn logic	
+FB-Canada5	Canadian Financial Book 5	X	AA	5	X	X	X	NGGJ/GJ/CAD	Lon Draper	MTM	new company	1/14/2002	Cdn logic	
+GDB-Canada1	Canadian Gas Daily Book 1	X	CC	1	X	X	NG/MMBTU/USD	Chris Lambie	MTM	new company	1/14/2002	Cdn logic	
+GDB-Canada2	Canadian Gas Daily Book 2	X	CC	2	X	X	NG/MMBTU/USD	Chris Dorland	MTM	new company	1/14/2002	Cdn logic	
+GDB-Canada3	Canadian Gas Daily Book 3	X	CC	3	X	X	NG/MMBTU/USD	Mike Cowan	MTM	new company	1/14/2002	Cdn logic	
+GDB-Canada4	Canadian Gas Daily Book 4	X	CC	4	X	X	NG/MMBTU/USD	Chad Clark	MTM	new company	1/14/2002	Cdn logic	
+GDB-Canada5	Canadian Gas Daily Book 5	X	CC	5	X	X	NG/MMBTU/USD	Lon Draper	MTM	new company	1/14/2002	Cdn logic	
+FB-USCOUNTER	Cdn Book for Deals with US Counterparties	X	EE	1	X	X	NGGJ/GJ/CAD	Chris Lambie	MTM	new company	1/14/2002	Cdn logic	
+FB-CDNCOUNTER	US Book for Deals with Cdn Counterparties	X	FF	1	X	X	NG/MMBTU/USD	John Arnold	MTM	new company	1/14/2002	US logic	
+IB-AB-Canada	Canadian Alberta Intramonth Book	X	GG	AB	X	NGGJ/GJ/CAD	Mike Cowan	MTM	new company	1/14/2002	Cdn logic	
+IB-BC-Canada	Canadian BC Intramonth Book	X	GG	BC	X	NGGJ/GJ/CAD	Chad Clark	MTM	new company	1/14/2002	Cdn logic	
+(Note 1) Please ensure access to both production and stage to enter deals, calculate books and set the official flag.	
+*A unique portfolio/book code will be assigned to your book unless you request a specific portfolio/book code.	
+BOOK CANNOT BE SET UP IF THERE IS ANY MISSING INFORMATION.	
+Risk Analytics Use Only:	
+***Please provide login names for book administrators.***	RisktRAC Check List	Added (Y/N)	Processors ID	
+Created in RisktRAC	
+IT SECURITY	Book	Hierarchy	
+Access List	Administrator*	Sent to GCP	
+Canadian Gas Desk	bgillis	Created in TAGG/ERMS	
+Canadian Power Desk	Cross-Commodity DBA	
+cdawes	
+dhanslip	Real Portfolio Name:	
+HIERARCHY:	EXCEPTIONS	Added (Y/N)	Processors ID	
+ALL:	AGG-CREDIT	London Books	
+AGG-PROD-DPR-BU	Accrual/Index/Joint Venture	
+AGG-PROD-DPR-CM	Accrual/Index/Joint Venture	
+DISCOUNTING USD	En-Power	
+IF:	Index	
+AGG-INDEX	
+GDI	
+AGG-GD-INDEX	
+IF:	Gas	
+AGG-GAS III & IV	
+IF:	Power:	
+AGG-PWR IV & V	
+COMMENTS:	
+New Hierarchy:	AGG-TEST-BU	
+AGG-TEST-CM	

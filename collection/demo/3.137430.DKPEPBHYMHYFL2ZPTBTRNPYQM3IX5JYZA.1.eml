@@ -1,0 +1,16 @@
+
+Brazos VPP Limited	
+Settlement under the gas ENFOLIO Contract	
+Gas or GD	
+Brazos	
+ENA	VPP Limited	
+Index (IF)	
+Deliveries = Schedule Q	ENA pays: Sch. Q * Index (IF)	
+Deliveries < Schedule Q	ENA pays: Delv. Q * Index (IF)	
+Plus	
+GD > Index	Brazos pays: (Sch. Q - Delv. Q) * (GD - Index)	
+or	
+Index > GD	ENA pays: (Sch. Q - Delv. Q) * (Index - GD)	
+Deliveries > Schedule Q	ENA pays: Sch. Q * Index (IF) 	
+Plus	
+ENA pays: (Delv. Q - Sch. Q) * GD	

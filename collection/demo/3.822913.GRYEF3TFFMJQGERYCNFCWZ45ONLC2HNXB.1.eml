@@ -1,0 +1,167 @@
+STACK MANAGER ACCESS 	Read	
+US GAS	Execute	
+None	
+Name	Position	Tenor  (1-120 Months)	US Gas Daily FIN OPT (Floating Strike) (1970)	US Gas Fin BasisSwap (1091)	US Gas Fin Opt Call (1921)	US Gas Fin Opt Put (1920)	US Gas Fin Spread (1977)	US Gas Fin Swap (1089)	US Gas Phy Fwd Firm <or= 1Mo (1117)	US Gas Phy Fwd Firm <or= 1Mo (Internal Only) (2200)	US Gas Phy Fwd Firm <or= 1Mo (Restricted) (1578)	US Gas Phy Fwd Secondary Firm (2085)	US Gas Phy Index Firm 10-day Flexible <or= 1Mo (1659)	US Gas Phy Index Firm 10-day Flexible >1Mo<1Yr (1899)	US Gas Phy Index Firm 3-day Flexible <or= 1Mo (1662)	US Gas Phy Index Firm 3-day Flexible >1Mo<1Yr (1902)	US Gas Phy Index Firm 5-day Flexible <or= 1Mo (1660)	US Gas Phy Index Firm 5-day Flexible >1Mo<1Yr (1901)	US Gas Phy Index Firm <or= 1Mo (1123)	US Gas Phy Index Firm <or= 1Mo (Restricted) (1839)	US Gas Phy Index Firm >1Mo<1Yr (1125)	US Gas Phy Index Firm >1Mo<1Yr (Restricted) (1883)	US Gas Phy Index Firm >1Yr (1126)	US Gas Phy Index Firm Swing 10-day <or= 1Mo (1836)	US Gas Phy Index Firm Swing 3-day <or= 1Mo (1838)	US Gas Phy Index Firm Swing 5-day <or= 1Mo (1837)	US Gas Phy Index Secondary Firm <or= 1Mo (2136)	US Gas Phy Index Secondary Firm >1Mo<1Yr (2137)	US Gas Phy Park Fwd Firm >1Mo<1Yr (1635)	US Gas Phy Wdrw Fwd Firm >1Mo<1Yr (1636)	
+Jim Schwieger	Texas Gas	120	Read	Execute	Read	Read	Read	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+TomMartin	Texas Gas	120	Read	Execute	Read	Read	Read	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Eric Bass	Texas Gas	120	Read	Execute	Read	Read	Read	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Joe Parks	Texas Gas	1	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+Mike Olsen	Texas Gas	1	None	Read	None	None	None	Read	Execute	Execute	Execute	Execute	None	None	None	None	None	None	Execute	Execute	None	None	None	Execute	Execute	Execute	Execute	None	None	None	
+Daren Farmer	Texas Gas	12	None	Read	None	None	None	Read	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Charlie Weldon	Texas Gas	24	Read	Execute	Read	Read	Read	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Dave Baumbach	Texas Gas	1	None	Read	None	None	None	Read	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+John Arnold	Financial Gas	
+Dutch Quigley	Financial Gas	
+Andy Zipper	Financial Gas	
+Mike Maggi	Financial Gas	
+John Griffith	Financial Gas	
+Larry May	Financial Gas	
+Wes Dempsey	Central Gas	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+Cora Pendergrass	Central Gas	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+Virawan Yawapongsiri	Central Gas	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+Martin Cuilla	Central Gas	Read	Execute	Read	Read	Read	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Geof Storey	Central Gas	Read	Execute	Read	Read	Read	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Jim Simpson	Central Gas	Read	Execute	Read	Read	Read	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Kevin Ruscitti	Central Gas	Read	Execute	Read	Read	Read	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Hunter Shively	Central Gas	Read	Execute	Read	Read	Read	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Andy Lewis	Central Gas	Read	Execute	Read	Read	Read	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Jason Williams	Central Gas	Read	Execute	Read	Read	Read	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Chris Germany	East Gas	
+Judy Townsend	East Gas	
+Victoria Versen	East Gas	
+Chuck Ames	East Gas	
+John Hodge	East Gas	
+Scott Neal	East Gas	
+Andy Ring	East Gas	
+Brad McKay	East Gas	
+Jon McKay	East Gas	
+Sandra Brawner	East Gas	
+Pete Keavey	East Gas	
+Phillip Allen	West Gas	
+Mike Grigsby	West Gas	
+Matt Smith	West Gas	
+Keith Holst	West Gas	
+Matt Lenhart	West Gas	
+Jason Wolfe	West Gas	
+Tori Kuykendall	West Gas	
+Randy Gay	West Gas	
+Jane Tholt	West Gas	
+Susan Scott	West Gas	
+Jay Reitmeyer	West Gas	
+Frank Ermis	West Gas	
+Steve South	West Gas	
+Mog Heu	West Gas	For example:
+Mary Roberts
+Roberts, Mary
+For example:
+Assistant Manager
+Accountant
+WEBSITE ACCESS	Read	
+US GAS	Execute	
+None	
+Name	Position	Book Name Website Log In  OR READ ONLY WEBSITE	Tenor  (1-120 Months)	US Gas Daily FIN OPT (Floating Strike) (1970)	US Gas Fin BasisSwap (1091)	US Gas Fin Opt Call (1921)	US Gas Fin Opt Put (1920)	US Gas Fin Spread (1977)	US Gas Fin Swap (1089)	US Gas Phy Fwd Firm <or= 1Mo (1117)	US Gas Phy Fwd Firm <or= 1Mo (Internal Only) (2200)	US Gas Phy Fwd Firm <or= 1Mo (Restricted) (1578)	US Gas Phy Fwd Secondary Firm (2085)	US Gas Phy Index Firm 10-day Flexible <or= 1Mo (1659)	US Gas Phy Index Firm 10-day Flexible >1Mo<1Yr (1899)	US Gas Phy Index Firm 3-day Flexible <or= 1Mo (1662)	US Gas Phy Index Firm 3-day Flexible >1Mo<1Yr (1902)	US Gas Phy Index Firm 5-day Flexible <or= 1Mo (1660)	US Gas Phy Index Firm 5-day Flexible >1Mo<1Yr (1901)	US Gas Phy Index Firm <or= 1Mo (1123)	US Gas Phy Index Firm <or= 1Mo (Restricted) (1839)	US Gas Phy Index Firm >1Mo<1Yr (1125)	US Gas Phy Index Firm >1Mo<1Yr (Restricted) (1883)	US Gas Phy Index Firm >1Yr (1126)	US Gas Phy Index Firm Swing 10-day <or= 1Mo (1836)	US Gas Phy Index Firm Swing 3-day <or= 1Mo (1838)	US Gas Phy Index Firm Swing 5-day <or= 1Mo (1837)	US Gas Phy Index Secondary Firm <or= 1Mo (2136)	US Gas Phy Index Secondary Firm >1Mo<1Yr (2137)	US Gas Phy Park Fwd Firm >1Mo<1Yr (1635)	US Gas Phy Wdrw Fwd Firm >1Mo<1Yr (1636)	
+Jim Schwieger	Texas Gas	120	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+TomMartin	Texas Gas	120	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Eric Bass	Texas Gas	120	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Joe Parks	Texas Gas	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+Mike Olsen	Texas Gas	Read Only	1	None	Read	None	None	None	Read	Read	Read	Read	Read	Read	Read	Read	Read	Read	Read	Read	Read	Read	Read	Read	Read	Read	Read	Read	Read	Read	Read	
+Daren Farmer	Texas Gas	12	Read	Execute	Read	Read	Read	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Charlie Weldon	Texas Gas	24	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Dave Baumbach	Texas Gas	
+John Arnold	Financial Gas	
+Dutch Quigley	Financial Gas	
+Andy Zipper	Financial Gas	
+Mike Maggi	Financial Gas	
+John Griffith	Financial Gas	
+Larry May	Financial Gas	
+Wes Dempsey	Central Gas	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+Cora Pendergrass	Central Gas	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+Virawan Yawapongsiri	Central Gas	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	None	
+Martin Cuilla	Central Gas	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Geof Storey	Central Gas	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Jim Simpson	Central Gas	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Kevin Ruscitti	Central Gas	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Hunter Shively	Central Gas	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Andy Lewis	Central Gas	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Jason Williams	Central Gas	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	Execute	
+Chris Germany	East Gas	
+Judy Townsend	East Gas	
+Victoria Versen	East Gas	
+Chuck Ames	East Gas	
+John Hodge	East Gas	
+Scott Neal	East Gas	
+Andy Ring	East Gas	
+Brad McKay	East Gas	
+Jon McKay	East Gas	
+Sandra Brawner	East Gas	
+Pete Keavey	East Gas	
+Phillip Allen	West Gas	
+Mike Grigsby	West Gas	
+Matt Smith	West Gas	
+Keith Holst	West Gas	
+Matt Lenhart	West Gas	
+Jason Wolfe	West Gas	
+Tori Kuykendall	West Gas	
+Randy Gay	West Gas	
+Jane Tholt	West Gas	
+Susan Scott	West Gas	
+Jay Reitmeyer	West Gas	
+Frank Ermis	West Gas	
+Steve South	West Gas	
+Mog Heu	West Gas	
+J.D. Buss	Texas Origination	Read Only	
+Mark Knippa	Texas Origination	Read Only	
+Gary Bryan	Texas Origination	Read Only	
+Troy Denetsosie	Texas Origination	Read Only	
+Brian Redmond	Texas Origination	Read Only	
+Morris Larubbio	Texas Origination	Read Only	
+Sylvia Pollan	Central Origination	None	
+Patrick Tucker	Central Origination	None	
+Bryant Frihart	Central Origination	Read Only	
+Patrice Thurston	Central Origination	Read Only	
+Darron Giron	Central Origination	None	
+Laura Luce	Central Origination	Read Only	
+Russell Murrell	Central Origination	Read Only	
+Craig Taylor	East Origination	
+Scott Goodell	East Origination	
+Robin Barbe	East Origination	
+Frank Vickers	East Origination	
+David Jones	East Origination	
+Jared Kaiser	East Origination	
+Scott Loving	East Origination	
+Ruth Concannon	East Origination	
+Barry Tycholiz	West Origination	
+Phil Polsky	West Origination	
+Kim Ward	West Origination	
+Stephanie Miller	West Origination	
+Nelson Ferries	Middle Marketing	
+George Gilbert	Middle Marketing	
+Fred Lagrasta	Middle Marketing	
+Charlie Otto	Middle Marketing	
+Agustin Perez	Middle Marketing	
+Sheetal Patel	Middle Marketing	
+Elena Chilkina	Middle Marketing	
+Jennifer Shipos	Middle Marketing	
+Craig Breslau	Middle Marketing	
+Troy Black	Middle Marketing	
+Mark Smith	Middle Marketing	For example:
+Mary Roberts
+Roberts, Mary
+For example:
+Assistant Manager
+Accountant
+
+These lists could change before the new company opens for business.	
+Execute for all gas products, read only for power and access to stack manager:	
+Hunter Shively	
+Geof Storey	
+Kevin Ruscitti	
+Martin Cuilla	
+Andy Lewis	
+Jason Williams	
+Jim Simpson	
+Read only for all gas and power products:	
+Laura Luce	
+Patrice Thurston	
+Bryant Frihart	
+Russell Murrell	

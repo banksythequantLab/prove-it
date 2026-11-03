@@ -1,0 +1,2437 @@
+ATTACHMENT 1 
+STANDARD GENERATOR INTERCONNECTION PROCEDURES 
+2 
+GENERATOR INTERCONNECTION PROCEDURES 
+PREPARED BY THE 
+INTERCONNECTION PROCEDURES DRAFTING COMMITTEE 
+JANUARY 11, 2002 
+PREFACE TO THE GENERATOR INTERCONNECTION PROCEDURES 
+These pro forma Interconnection Procedures have been negotiated and 
+developed by a drafting committee comprised of representatives of the following 
+stakeholder groups: Transmission Owners, Generators, Small Generators, Regional 
+Transmission Organizations, Independent System Operators, Transmission Dependent 
+Utilities and State Commissions (hereinafter referred to as the “Interconnection 
+Procedures Drafting Committee”). Unless otherwise indicated, the proposed language 
+of these Interconnection Procedures has been agreed to by the Interconnection 
+Procedures Drafting Committee. Where the Interconnection Procedures Drafting 
+Committee could not reach agreement, the Interconnection Procedures reflect the 
+differing positions of such stakeholders, i.e., Transmission Owner Position (“T O 
+Position”), Generator Position (“Gen Position”), Small Generator Position (“Small Gen 
+Position”), Regional Transmission Organization/Independent System Operator Position 
+(“RTO/ISO Position”), Transmission Dependent Utility Position (“T DU Position”), or 
+State Commission Position. 
+It is important to note that several positions expressed within the provisions of 
+these Interconnection Procedures are highly interdependent as to timing and scope of 
+studies and as to obligations and responsibilities of the parties. We would ask that the 
+Commission carefully consider such interdependencies in resolving these positions. 
+i 
+TABLE OF CONTENTS 
+1.   
+Definitions.............................................................................................................1 
+1.1  Affected System:........................................................................................1 
+1.2  Affected System Operator: ......................................................................... 1 
+1.3  Base Case:................................................................................................. 2 
+1.4  Business Days: .......................................................................................... 2 
+1.5  Commercial Operation Date: ...................................................................... 2 
+1.6  Commission: ..............................................................................................2 
+1.7  
+Facility:.......................................................................................................2 
+1.8  Generator: .................................................................................................. 2 
+1.9  Generator Interconnection Facilities:..........................................................2 
+1.10 In-Service Date: ......................................................................................... 2 
+1.11 Interconnection and Operating Agreement:................................................2 
+1.12 Interconnection Facilities Study:.................................................................3 
+1.13 Interconnection Facilities Study Agreement: ..............................................3 
+1.14 Interconnection Feasibility Study:............................................................... 3 
+1.15 Interconnection Feasibility Study Agreement: ............................................3 
+1.16 Interconnection Request: ...........................................................................3 
+1.17 Interconnection Study(ies):.........................................................................3 
+1.18 Interconnection Study Agreement(s):.........................................................3 
+1.19 Interconnection System Impact Study:.......................................................4 
+1.20 Interconnection System Impact Study Agreement: .................................... 4 
+1.21 Network Upgrades: ....................................................................................4 
+1.22 Material Modification: ................................................................................. 4 
+1.23 Optional Study:........................................................................................... 4 
+1.24 Point of Interconnection:.............................................................................4 
+1.25 Reasonable Efforts:....................................................................................4 
+1.26 RTO/ISO: ...................................................................................................5 
+1.27 Site Control: ............................................................................................... 5 
+1.28 Small Generators: ...................................................................................... 5 
+1.29 Tariff: .......................................................................................................... 5 
+1.30 Transmission Owner: ................................................................................. 5 
+1.31 Transmission Provider Interconnection Facilities: ......................................5 
+1.32 Transmission Provider:...............................................................................6 
+1.33 Transmission System:................................................................................6 
+2.   Scope and Application. ......................................................................................... 6 
+2.1  Application of Interconnection Procedures.................................................6 
+2.2  Comparability. ............................................................................................ 6 
+2.3  Base Case Data. ........................................................................................6 
+2.4  Interconnection Service..............................................................................7 
+2.5  No Applicability to Transmission Service.................................................... 9 
+3.   Interconnection Requests.....................................................................................9 
+3.1  Identification of Types of Interconnection Services. ................................... 9 
+ii 
+3.2  General. ..................................................................................................... 9 
+3.3  Valid Interconnection Request. ................................................................ 10 
+3.4  OASIS Posting. ........................................................................................ 13 
+3.5  Coordination with Affected Systems.........................................................14 
+3.6  Withdrawal. ..............................................................................................15 
+4.   Queue Position. .................................................................................................. 16 
+4.1  General. ................................................................................................... 16 
+4.2  Clustering.................................................................................................16 
+4.3  Transferability of Queue Position. ............................................................17 
+4.4  Modifications. ........................................................................................... 17 
+5.   Procedures for Interconnection Requests Submitted Prior to Effective Date of 
+Interconnection Procedures. ............................................................................... 20 
+5.1  Queue Position for Pending Requests. ....................................................20 
+5.2  New Transmission Provider. .................................................................... 21 
+6.   Interconnection Feasibility Study ........................................................................ 22 
+6.1  Interconnection Feasibility Study Agreement. ..........................................22 
+6.2  Scope of Interconnection Feasibility Study............................................... 23 
+6.3  Interconnection Feasibility Study Procedures. ......................................... 24 
+6.4  Re-Study. ................................................................................................. 25 
+7.   Interconnection System Impact Study.................................................................25 
+7.1  Interconnection System Impact Study Agreement. .................................. 25 
+7.2  Execution of Interconnection System Impact Study Agreement............... 26 
+7.3  Scope of Interconnection System Impact Study. ...................................... 27 
+7.4  Interconnection System Impact Study Procedures...................................28 
+7.5  Meeting with Transmission Provider. .......................................................29 
+7.6  Re-Study. ................................................................................................. 29 
+8.   Interconnection Facilities Study. ......................................................................... 30 
+8.1  Interconnection Facilities Study Agreement. ............................................30 
+8.2  Scope of Interconnection Facilities Study................................................. 31 
+8.3  Interconnection Facilities Study Procedures. ........................................... 31 
+8.4  Meeting with Transmission Provider. .......................................................33 
+8.5  Re-Study. ................................................................................................. 33 
+9.   Interim Agreements.............................................................................................33 
+9.1  Interim Engineering & Procurement (“E&P”) Agreement..........................33 
+9.2  Other Interim Agreements Upon Mutual Agreement. ............................... 34 
+9.3  Minimum Terms and Conditions of Interim Agreements. .........................35 
+10.  Optional Study. ................................................................................................... 35 
+10.1 Optional Study Agreement. ...................................................................... 35 
+10.2 Scope of Optional Study...........................................................................36 
+10.3 Optional Study Procedures. ..................................................................... 37 
+iii 
+11.  Interconnection and Operating Agreement. ........................................................37 
+11.1 Tender. ..................................................................................................... 37 
+11.2 Negotiation...............................................................................................38 
+11.3 Execution and Filing. ................................................................................ 39 
+11.4 Commencement of Interconnection Activities. .........................................40 
+12.  Construction of Transmission Provider Interconnection Facilities and Network 
+Upgrades............................................................................................................40 
+12.1 Schedule..................................................................................................40 
+12.2 Permits.....................................................................................................40 
+12.3 Construction Sequencing.........................................................................41 
+13.  Miscellaneous.....................................................................................................43 
+13.1 Confidentiality...........................................................................................43 
+13.2 Delegation of Responsibility. .................................................................... 45 
+13.3 Obligation for Study Costs........................................................................ 46 
+13.4 Third Parties Conducting Studies............................................................. 46 
+13.5 Performance Liquidated Damages...........................................................47 
+13.6 Disputes...................................................................................................48 
+14.  Small Generator Interconnection Requests. ....................................................... 49 
+14.1 Applicability..............................................................................................49 
+14.2 Modified Interconnection Procedure.........................................................50 
+14.3 Coordination with Local Facilities. ............................................................ 51 
+14.4 Queue. ..................................................................................................... 51 
+14.5 Interconnection Studies for Permanent Network and Energy Resource 
+Additions. .................................................................................................52 
+14.6 Interconnection Studies for Small Packaged and Micro Generators. .......55 
+APPENDICES 
+APPENDIX 1  INTERCONNECTION REQUEST 
+APPENDIX 2  INTERCONNECTION FEASIBILITY STUDY AGREEMENT 
+APPENDIX 3  INTERCONNECTION SYSTEM IMPACT STUDY AGREEMENT 
+APPENDIX 4  INTERCONNECTION FACILITIES STUDY AGREEMENT 
+APPENDIX 5  OPTIONAL STUDY AGREEMENT 
+APPENDIX 6  SMALL GENERATOR EXPEDITED INTERCONNECTION STUDIES 
+APPENDIX 7  INTERCONNECTION AND OPERATING AGREEMENT 
+1 
+GENERATOR INTERCONNECTION PROCEDURES1 
+TO THE EXTENT THAT ANY PROVISION OF THESE INTERCONNECTION PROCEDURES 
+IS INCONSISTENT WITH ANY TARIFF OR PROCEDURE APPROVED BY THE 
+COMMISSION, THE PROVISIONS OF SUCH TARIFF OR PROCEDURE SHALL GOVERN 
+UNLESS AND UNTIL MODIFIED BY THE COMMISSION. 
+1.   Definitions. 
+When used in these Generator Interconnection Procedures (“Interconnection 
+Procedures”) with initial capitalization, the terms specified below shall have the 
+meanings indicated. Terms used in these Interconnection Procedures with initial 
+capitalization but not defined in this Section 1 shall have the meanings specified 
+in the Transmission Provider Tariff or the Interconnection and Operating 
+Agreement. In the event that there is an inconsistency between the definitions in 
+the Interconnection and Operating Agreement and the definitions in these 
+Interconnection Procedures, for the purposes of these Interconnection 
+Procedures, the definitions herein shall control. 
+1.1  Affected System: shall mean a system other than that of Transmission 
+Provider that may be affected by the proposed interconnection to the 
+Transmission System. 
+1.2  Affected System Operator: shall mean the entity that operates the 
+Affected System. 
+1 
+Best practice may vary based on reasonable state and regional differences. Thus, it is intended that 
+Transmission Providers be permitted to adopt these procedures with variations to accommodate state 
+and regional differences. 
+Gen and Small Gen Position: However, the Transmission Provider will have the burden of 
+demonstrating that any such variation is necessary and represents a best practice in view of such state 
+and regional differences. 
+TO and RTO/ISO Position: These procedures do not attempt to imply that substantially 
+comparable interconnection procedures and agreements, which have been previously filed by an 
+RTO/ISO and approved by the Commission, are unacceptable. 
+2 
+1.3  Base Case: shall be as defined in Section 2.3 of these Interconnection 
+Procedures. 
+1.4  Business Days: shall mean any day on which the Federal Reserve Bank 
+of New York is open. 
+1.5  Commercial Operation Date: shall mean the date on which the Facility 
+commences commercial operations. 
+1.6  Commission: shall mean the Federal Energy Regulatory Commission or 
+its successor. 
+1.7  Facility: shall mean Generator's electric generating facility identified in the 
+Interconnection Request, but shall not include the Generator 
+Interconnection Facilities. 
+1.8  Generator: shall mean the entity submitting an Interconnection Request. 
+1.9  Generator Interconnection Facilities: shall mean all facilities and 
+equipment between the Facility and the Point of Interconnection, including 
+any modification, additions or upgrades to such facilities and equipment 
+that are necessary to physically and electrically interconnect the Facility to 
+the Transmission System. 
+1.10 In-Service Date: shall mean the date upon which the Generator 
+reasonably expects it will be ready to begin use of the Transmission 
+Provider Interconnection Facilities to obtain back feed power and upon 
+which it reasonably expects to begin doing so. 
+1.11 Interconnection and Operating Agreement: shall mean an agreement 
+in the form of the Interconnection and Operating Agreement included in 
+Appendix 7. 
+3 
+1.12 Interconnection Facilities Study: shall mean a study of the facilities 
+necessary to accommodate the Interconnection Request the scope of 
+which is described in Section 8.2 of these Interconnection Procedures. 
+1.13 Interconnection Facilities Study Agreement: shall mean the Agreement 
+described in Section 8.1 of these Interconnection Procedures. 
+1.14 Interconnection Feasibility Study: shall mean a study to evaluate the 
+feasibility of the Generator’s interconnection to the Transmission System, 
+the scope of which is described in Section 6.2 of these Interconnection 
+Procedures. 
+1.15 Interconnection Feasibility Study Agreement: shall mean the 
+Agreement described in Section 6.1 of these Interconnection Procedures. 
+1.16 Interconnection Request: shall mean a request, in the form of Appendix 
+1, in accordance with the Tariff, to interconnect a new Facility, or to 
+increase the capacity or make a Material Modification to the operating 
+characteristics of an existing Facility that is interconnected with the 
+Transmission System. 
+1.17 Interconnection Study(ies): shall mean any and all of the following 
+studies: the Interconnection Feasibility Study, the Interconnection System 
+Impact Study and the Interconnection Facilities Study described in these 
+Interconnection Procedures. 
+1.18 Interconnection Study Agreement(s): shall mean any and all of the 
+following agreements: the Interconnection Feasibility Study Agreement, 
+the Interconnection System Impact Study Agreement and the 
+Interconnection Facilities Study Agreement described in these 
+Interconnection Procedures. 
+4 
+1.19 Interconnection System Impact Study: shall mean a study of the impact 
+of the Interconnection Request, the scope of which is described in Section 
+7.3 of these Interconnection Procedures. 
+1.20 Interconnection System Impact Study Agreement: shall mean the 
+Agreement described in Section 7.1 of these Interconnection Procedures. 
+1.21 Network Upgrades: shall mean the additions, modifications, and 
+upgrades to the Transmission System required to accommodate the 
+interconnection of the Facility to the Transmission System per the 
+applicable Interconnection Request, including upgrades necessary to 
+remove overloads and voltage criteria violations and upgrades necessary 
+to remedy short-circuit and/or stability problems resulting from the 
+connection of the Facility to the Transmission System. 
+1.22 Material Modification: shall have the meaning set forth in Section 4.4 of 
+these Interconnection Procedures. 
+1.23 Optional Study: shall mean a study in addition to the Interconnection 
+Studies as described in Section 10 of these Interconnection Procedures. 
+1.24 Point of Interconnection: shall mean the physical point or points and 
+voltage level(s) at which the Generator Interconnection Facilities 
+interconnect(s) with the Transmission System. 
+1.25 Reasonable Efforts: shall mean, with respect to an action required to be 
+attempted or taken by an entity pursuant to these Interconnection 
+Procedures, efforts that are timely and consistent with Good Utility 
+Practice and are otherwise substantially equivalent to those such entity 
+would use to protect its own interests or those of any other Generator. 
+5 
+1.26 RTO/ISO: shall mean any Regional Transmission Organization or 
+Independent System Operator to which a Transmission Owner has 
+transferred operational control of its transmission facilities, or any portion 
+thereof. 
+1.27 Site Control: shall mean documentation reasonably demonstrating: (i) 
+ownership of, a leasehold interest in, or a right to develop a site for the 
+purpose of constructing a Facility; (ii) an option to purchase or acquire a 
+leasehold site for such purpose; or (iii) an exclusivity or other business 
+relationship between Generator and the entity having the right to sell, 
+lease or grant Generator the right to possess or occupy a site for such 
+purpose. 
+1.28 Small Generators: shall mean those Generators described in Section 14 
+of these Interconnection Procedures. 
+1.29 Tariff: shall mean the Transmission Provider’s tariff(s) under which open 
+access transmission and interconnection service are offered, as filed with 
+the Commission, and as amended or supplemented from time to time, or 
+any successor tariff(s). 
+1.30 Transmission Owner: shall mean the entity that owns, leases or 
+otherwise has a possessory interest in the portion of the Transmission 
+System at the Point of Interconnection, regardless of whether such entity 
+has transferred operational control of such transmission facilities to an 
+RTO/ISO and shall be required to comply with these Interconnection 
+Procedures. 
+1.31 Transmission Provider Interconnection Facilities: shall mean all 
+facilities and equipment owned and/or controlled and operated by the 
+6 
+Transmission Provider on the Transmission Provider’s side of the Point of 
+Interconnection necessary to accommodate the Interconnection Request. 
+1.32 Transmission Provider: shall mean the entity that operates the 
+Transmission System and is obligated under the Tariff to offer 
+Interconnection Service to a Generator seeking interconnection. 
+1.33 Transmission System: shall mean the facilities, including any additions, 
+modifications or upgrades made to such facilities, owned, controlled or 
+operated by the Transmission Provider that are used for electric 
+transmission service in interstate commerce under a filed Tariff to which 
+the Generator is requesting interconnection. 
+2.   Scope and Application. 
+2.1  Application of Interconnection Procedures. Sections 2 through 13 
+apply to any Interconnection Request. Section 14 establishes the 
+modified procedures for interconnecting Small Generators’ Facilities. 
+2.2  Comparability. The Transmission Provider shall receive, process and 
+analyze all Interconnection Requests in a timely manner as set forth in 
+these Interconnection Procedures. The Transmission Provider will use the 
+same Reasonable Efforts in processing and analyzing Interconnection 
+Requests from all Generators, whether the generating facilities are owned 
+by Transmission Provider, its subsidiaries or affiliates or others. 
+2.3  Base Case Data. Transmission Provider shall provide 
+Gen Position: base power flow, short circuit and stability 
+databases 
+TO Position: base power flow databases 
+
+8 
+interconnection services specified therein as the minimal 
+acceptable types of interconnection services and will submit their 
+specific comments thereto within their respective filings. 
+TO and RTO/ISO Position: A well-defined list of products and 
+services is critical to the interconnection process. TOs and 
+RTO/ISOs believe that there may not be a single best or only set of 
+services to achieve standardization of generator interconnection 
+activities, and that the Document needs to be further refined in 
+order to accommodate regional differences such as geography, 
+market design and reliability practices. These parties believe that 
+the Commission should consider the Document in light of the entire 
+consensus building process to date along with any comments filed 
+in writing. 
+TDU Position: TDUs do not accept the Document as a consensus 
+document. Nonetheless, the premise behind it has merit. 
+A national model for interconnections should recognize regional as 
+well as evolutionary market development differences in mandating 
+interconnection service. The following definitions, applied in 
+accordance with the procedures of this document, could address 
+multiple products and regional differences. 
+Network Resource Interconnection Service allows a 
+generator to connect its Facility to the Transmission 
+Provider’s Transmission System and integrate the 
+Facility to satisfy Transmission System reliability, 
+stability and operability standards in a manner 
+comparable to that in which the Transmission 
+Provider integrates generating facilities to serve 
+native load customers. This level of interconnection 
+service will allow a generator to fully participate in the 
+applicable market. 
+9 
+Optional Interconnection Service allows a generator 
+to connect its Facility to the Transmission Provider’s 
+Transmission System and be eligible to deliver 
+market-based products. This may involve single or 
+multiple interconnection services which are sufficient 
+to allow interconnection and broad market 
+participation, subject to market-based mechanisms. 
+The specific characteristics and requirements for such 
+service will be market-driven and directly related to 
+the specific market region.] 
+2.5  No Applicability to Transmission Service. 
+TO Position: Nothing in these Interconnection Procedures shall 
+constitute a request for transmission service or confer upon a 
+Generator any right to receive transmission service. 
+Gen Position: Nothing in these Interconnection Procedures shall 
+constitute a transmission service request. 
+3.   Interconnection Requests. 
+3.1  Identification of Types of Interconnection Services. At the time the 
+Interconnection Request is submitted, Generator must identify the types of 
+interconnection services requested; provided, however, any Generator 
+requesting network or similar type of interconnection service as specified 
+by the Commission may also request that it be concurrently studied as an 
+Energy Resource, up to the point when 
+Gen Position: an Interconnection Facility Study Agreement is 
+executed. 
+TO Position: a System Impact Study Agreement is executed 
+and returned to the Transmission Provider. 
+3.2  General.  A Generator shall submit to the Transmission Provider an 
+Interconnection Request in the form of Appendix 1 to these 
+Interconnection Procedures and a refundable deposit of $10,000. The 
+10 
+Transmission Provider shall apply the deposit toward the cost of an 
+Interconnection Feasibility Study. The Generator shall submit a separate 
+Interconnection Request for each site and may submit multiple 
+Interconnection Requests for a single site. 
+At Generator’s option, Transmission Provider and Generator will identify 
+alternative points of interconnection and configurations at the initial 
+scoping meeting to evaluate in this process and attempt to eliminate 
+alternatives in a reasonable fashion given resources and information 
+available. Generator will select the definitive Point(s) of Interconnection 
+no later than the execution of the Interconnection Feasibility Study 
+Agreement. 
+3.3  Valid Interconnection Request. 
+3.3.1 Initiating an Interconnection Request. To initiate an 
+Interconnection Request, Generator must submit all of the 
+following: (i) a $10,000 deposit, (ii) a completed application in the 
+form of Appendix 1, and (iii) demonstration of Site Control or a 
+posting of an additional deposit of $10,000. Such deposits shall be 
+applied toward any Interconnection Studies pursuant to the 
+Interconnection Request. If Generator demonstrates Site Control 
+within the cure period specified in Section 3.3.4 after submitting its 
+Interconnection Request, the deposit(s) shall be refundable; 
+otherwise, such deposit(s) become non-refundable. The expected 
+In-Service Date of the new Facility or increase in capacity of the 
+existing Facility shall be no more than the process window for the 
+regional expansion planning period not to exceed seven years from 
+11 
+the date the Interconnection Request is received by the 
+Transmission Provider, unless the Interconnection Customer 
+demonstrates that engineering, permitting and construction of the 
+new Facility or increase in capacity of the Facility will take longer 
+than the regional expansion planning period. In no event shall the 
+In-Service Date exceed ten years from the date the Interconnection 
+Request is received by the Transmission Provider. 
+3.3.2 Acknowledgement of Interconnection Request. Transmission 
+Provider shall acknowledge receipt of the Interconnection Request 
+within five (5) Business Days of receipt of the request and attach a 
+copy of the received Interconnection Request to the 
+acknowledgement. 
+3.3.3 Deficiencies in Interconnection Request. An Interconnection 
+Request will not be considered to be a valid request until all of the 
+above items have been received by the Transmission Provider. If 
+an Interconnection Request fails to meet the requirements set forth 
+in this Section, the Transmission Provider shall notify the Generator 
+within five (5) Business Days of receipt of the initial Interconnection 
+Request of the reasons for such failure and that the Interconnection 
+Request does not constitute a valid request. Generator shall 
+provide the Transmission Provider the additional requested 
+information needed to constitute a valid request within ten (10) 
+Business Days after receipt of such notice. Failure by Generator to 
+comply with this Section 3.3.3 shall be treated in accordance with 
+Section 3.6. 
+12 
+3.3.4 Initial Scoping Meeting. Within ten (10) Business Days after 
+receipt of a valid Interconnection Request, Transmission Provider 
+shall establish a date agreeable to Generator for the initial scoping 
+meeting, and such date shall be no later than 30 days from receipt 
+of the Interconnection Request. 
+Small Gen Position: The scoping meeting may be waived 
+by Generator. 
+The purpose of the initial scoping meeting shall be to discuss 
+alternative interconnection options, to exchange information 
+including any transmission data that would reasonably be expected 
+to impact such interconnection options, to analyze such information 
+and to determine the potential feasible points of interconnection. 
+Transmission Provider and Generator will bring to the meeting such 
+technical data, including, but not limited to: (i) general facility 
+loadings, (ii) general instability issues, (iii) general short circuit 
+issues, (iv) general voltage issues, and (v) general reliability issues 
+as may be reasonably required to accomplish the purpose of the 
+meeting. Transmission Provider and Generator will also bring to 
+the meeting personnel and other resources as may be reasonably 
+required to accomplish the purpose of the meeting in the time 
+allocated for the meeting. On the basis of the meeting, Generator 
+shall designate its Point of Interconnection, pursuant to Section 6.1, 
+and one or more available alternative points of interconnection. 
+The duration of the meeting shall allocate sufficient time to 
+accomplish its purpose. 
+13 
+Within five (5) Business Days after the scoping meeting is held, 
+Generator may elect not to have an Interconnection Feasibility 
+Study conducted for the Interconnection Request. If Generator so 
+elects, Generator will notify the Transmission Provider in writing 
+within such period. In that event, the Transmission Provider will 
+initiate an Interconnection System Impact Study in accordance with 
+Section 7 of these Interconnection Procedures and apply the 
+$10,000 deposit towards the Interconnection System Impact Study. 
+3.4  OASIS Posting. The Transmission Provider will maintain on its OASIS a 
+list of all Interconnection Requests. The list will identify, for each 
+Interconnection Request: (i) the maximum summer and winter megawatt 
+electrical output; (ii) the location by county and state; (iii) the station or 
+transmission line or lines where the interconnection will be made; (iv) the 
+projected In-Service Date; (v) the status of the Interconnection Request, 
+including queue position; (vi) the type of interconnection service being 
+requested; and (vii) the availability of any studies related to the 
+Interconnection Request. 
+Gen Position: The list will not disclose the identity of the 
+Generator until the Generator executes an Interconnection and 
+Operating Agreement or requests that the Transmission Provider 
+file an unexecuted Interconnection and Operating Agreement with 
+the Commission. 
+TO Position: The list of Interconnection Requests will disclose the 
+identity of the Generator. 
+14 
+The Transmission Provider shall post to its OASIS site any deviations from 
+the study timelines set forth herein. Interconnection Study reports and 
+Optional Study reports shall be posted to the Transmission Provider’s 
+OASIS site subsequent to the meeting between the Generator and the 
+Transmission Provider to discuss the applicable study results. 
+3.5  Coordination with Affected Systems. 
+Gen Position: The Transmission Provider will coordinate the 
+conduct of any studies required to determine the impact of the 
+Interconnection Request on Affected Systems with Affected System 
+Operators and include those results in its applicable 
+Interconnection Study within the timeframe specified in these 
+Interconnection Procedures. The Transmission Provider will 
+include such Affected System Operators in all meetings held with 
+the Generator as required by these Interconnection Procedures. 
+The Generator will cooperate with the Transmission Provider in all 
+matters related to the conduct of studies and the determination of 
+modifications to Affected Systems. A transmission provider which 
+may be an Affected System shall cooperate with the Transmission 
+Provider with whom interconnection has been requested in all 
+matters related to the conduct of studies and the determination of 
+modifications to Affected Systems. 
+TO Position: The Transmission Provider and Generators shall use 
+Reasonable Efforts to coordinate with the Affected Systems to 
+perform the Interconnection Studies. The Transmission Provider 
+shall not be obligated to pay for: (i) any costs related to the 
+15 
+Interconnection Studies performed on the Affected Systems; or 
+(ii) any costs related to any necessary network upgrades on the 
+Affected Systems identified as a result of the Interconnection 
+Studies. In addition, to the extent that Affected System studies 
+delay or impede studies or other related activities on the 
+Transmission Provider’s Transmission System, the Transmission 
+Provider shall not be held in default or, in any case, liable to the 
+Generator. 
+3.6  Withdrawal. The Generator may withdraw its Interconnection Request at 
+any time by written notice of such withdrawal to the Transmission 
+Provider. In addition, if the Generator fails to adhere to all requirements of 
+these Interconnection Procedures, except as provided in Section 13.6, the 
+Transmission Provider shall deem the Interconnection Request to be 
+withdrawn and shall provide written notice to the Generator of the deemed 
+withdrawal and an explanation of the reasons for such deemed 
+withdrawal. Withdrawal shall result in the loss of the Generator’s queue 
+position. A Generator that withdraws or is deemed to have withdrawn its 
+Interconnection Request shall pay to the Transmission Provider all costs 
+that the Transmission Provider prudently incurs with respect to that 
+Interconnection Request prior to the Transmission Provider’s receipt of 
+notice described above. The Transmission Provider shall (i) update the 
+OASIS queue posting and (ii) refund to the Generator any portion of the 
+Generator’s deposit or study payments hat exceeds the costs that the 
+Transmission Provider has incurred, including interest calculated in 
+accordance with Section 35.19a(a)(2) of the Commission’s regulations. In 
+16 
+the event of such withdrawal, the Transmission Provider, subject to the 
+confidentiality provisions of Section 13.1, shall provide, at Generator’s 
+request, all information that the Transmission Provider developed for the 
+purpose of completing any study up to the date of withdrawal of the 
+Interconnection Request, unless the Transmission Provider has not 
+delivered the final study report to the Generator. 
+4.   Queue Position. 
+4.1  General. The Transmission Provider shall assign a queue position based 
+upon the date and time of receipt of the valid Interconnection Request; 
+provided that, if the sole reason an Interconnection Request is not valid is 
+the lack of required information on the application form, and the Generator 
+provides such information in accordance with Section 3.3.3, then the 
+Transmission Provider shall assign the Generator a queue position based 
+on the date the application form was originally filed. The queue position of 
+each Interconnection Request will be used to determine the order of 
+performing the Interconnection Studies and determination of cost 
+responsibility for the facilities necessary to accommodate the 
+Interconnection Request. 
+4.2  Clustering. At Transmission Provider’s option, Interconnection Requests 
+may be studied serially or in clusters for the purpose of the 
+Interconnection System Impact Study. 
+TO Position: for all types of Interconnection Services. 
+Gen Position: for all types of Interconnection Services, except for 
+energy resource type interconnection service, which will be studied 
+serially. 
+
+17 
+If Transmission Provider elects to study Interconnection Requests in 
+clusters, all Interconnection Requests received within a period not to 
+exceed 
+TO Position: 180 days 
+Gen Position: 90 days                   
+, hereinafter referred to as the “queue cluster window,” shall be studied 
+together, as appropriate. Transmission Provider may study an 
+Interconnection Request separately to the extent warranted by Good 
+Utility Practice based upon the electrical remoteness of the proposed 
+Facility or pursuant to a Generator’s request for an expedited study as set 
+forth in Section 4.2.2. 
+4.2.1 Non-RTO/ISO Environment. In a non-RTO/ISO environment, 
+Transmission Providers may study Interconnection Requests 
+sequentially to the extent practicable. 
+4.2.2 [Fast Track. The Interconnection Procedures Drafting Committee 
+did not address this Section.] 
+4.3  Transferability of Queue Position. A Generator may transfer its queue 
+position to another entity only if such entity acquires the specific facility 
+identified in the Interconnection Request and the Point of Interconnection 
+does not change. 
+4.4  Modifications. The Generator may submit to the Transmission Provider, 
+in writing, modifications to any information provided in the Interconnection 
+Request. The Generator shall retain its queue position if the modifications 
+are in accordance with Sections 4.4.1, 4.4.2 or 4.4.5, or are determined 
+not to be Material Modifications pursuant to Sections 4.4.3 and 4.4.4. 
+18 
+Notwithstanding the above, during the course of the Interconnection 
+Studies, either the Generator or Transmission Provider may identify 
+changes to the planned interconnection that may improve the costs and 
+benefits (including reliability) of the interconnection, and the ability of the 
+proposed change to accommodate the Interconnection Request. To the 
+extent the identified changes are acceptable to the Transmission Provider 
+and Generator, such acceptance not be unreasonably withheld, 
+Transmission Provider shall modify the Point of Interconnection and/or 
+configuration in accordance with such changes and proceed with any restudies 
+necessary to do so in accordance with Section 6.4, Section 7.6 
+and Section 8.6 as applicable and Generator shall retain its queue 
+position. 
+4.4.1 Prior to the return of the executed Interconnection System Impact 
+Study Agreement to the Transmission Provider, modifications 
+permitted under this Section shall include specifically: (a) a 
+reduction up to 60% (MW) of electrical output of the proposed 
+project; (b) modifying the technical parameters associated with the 
+generator technology or the generator step-up transformer 
+impedance characteristics; (c) modifying the interconnection 
+configuration; and/or (d) any other change except to the Point of 
+Interconnection. For plant increases, the incremental increase in 
+plant output will go to the end of the queue for the purposes of cost 
+allocation and study analysis. 
+4.4.2 Prior to the return of the executed Interconnection Facility Study 
+Agreement to the Transmission Provider, the modifications 
+19 
+permitted under this Section shall include specifically: (a) additional 
+15% decrease in plant size (MW), and (b) generator technical 
+parameters associated with modifications to generator technology 
+and transformer impedances; provided, however, the incremental 
+costs associated with those modifications are the responsibility of 
+the requesting Generator. 
+4.4.3 Prior to making any modification other than those specifically 
+permitted by Sections 4.4.1, 4.4.2, and 4.4.5, Generator may first 
+request that the Transmission Provider evaluate whether such 
+modification is a Material Modification. Material Modifications are 
+those modifications that have a material impact on the cost or 
+timing of any Interconnection Request with a later queue priority 
+date. In response to Generator’s request, the Transmission 
+Provider shall evaluate the proposed modifications prior to making 
+them and inform the Generator in writing of whether the 
+modifications would constitute a Material Modification. The 
+Generator may then withdraw the proposed modification or proceed 
+with a new Interconnection Request for such modification. 
+4.4.4 Upon receipt of Generator’s request for modification permitted 
+under this Section 4.4, the Transmission Provider shall commence 
+and perform any necessary additional studies as soon as 
+practicable, but in no event shall the Transmission Provider 
+commence such studies later than thirty (30) days after receiving 
+notice of Generator’s request. Any additional studies resulting from 
+such modification shall be done at Generator’s cost. 
+20 
+4.4.5 Except for fast-track Interconnection Requests, extensions of less 
+than three (3) cumulative years in the Commercial Operation Date 
+of the Facility to which the Interconnection Request relates are not 
+material and should be handled through construction sequencing. 
+No change in Commercial Operation Date is permitted for fast-track 
+projects. 
+5.   Procedures for Interconnection Requests Submitted Prior to Effective Date 
+of Interconnection Procedures. 
+5.1  Queue Position for Pending Requests. 
+5.1.1 Any generator assigned a queue position prior to the effective date 
+of these Interconnection Procedures shall retain that queue 
+position. 
+5.1.1.1   If an Interconnection Study Agreement has not been 
+executed as of the effective date of these 
+Interconnection Procedures, then such Interconnection 
+Study, and any subsequent Interconnection Studies, 
+shall be processed in accordance with these 
+Interconnection Procedures. 
+5.1.1.2   If an Interconnection Study Agreement has been 
+executed prior to the effective date of these 
+Interconnection Procedures, such Interconnection Study 
+shall be completed in accordance with the terms of such 
+agreement. 
+5.1.1.3   If an Interconnection and Operating Agreement has 
+been tendered as of the effective date of these 
+21 
+Interconnection Procedures, then the Transmission 
+Provider and Generator shall finalize its terms. 
+5.1.2 Transition Period. To the extent necessary, the Transmission 
+Provider and Generators with an outstanding request shall 
+transition to these Interconnection Procedures within a reasonable 
+period of time not to exceed 60 days. Any Generator with an 
+outstanding request as of the effective date of these 
+Interconnection Procedures may request a reasonable extension of 
+any deadline, otherwise applicable, if necessary to avoid undue 
+hardship or prejudice to its Interconnection Request. A reasonable 
+extension shall be granted by the Transmission Provider to the 
+extent consistent with the intent and process provided for under 
+these Interconnection Procedures. 
+5.2  New Transmission Provider.  If the Transmission Provider transfers 
+control of its Transmission System to a successor Transmission Provider 
+during the period when an Interconnection Request is pending, the original 
+Transmission Provider shall transfer to the successor Transmission 
+Provider any amount of the deposit or payment that exceeds the cost that 
+it incurred to evaluate the request for interconnection. Any difference 
+between such net amount and the deposit or payment required by these 
+Interconnection Procedures shall be paid by or refunded to the Generator, 
+as appropriate. The original Transmission Provider shall coordinate with 
+the successor Transmission Provider to complete any Interconnection 
+Study, as appropriate, that the original Transmission Provider has begun 
+but has not completed. If the Transmission Provider has tendered a draft 
+22 
+Interconnection and Operating Agreement to the Generator but the 
+Generator has not either executed the Interconnection and Operating 
+Agreement or requested the filing of an unexecuted Interconnection and 
+Operating Agreement with the Commission, unless otherwise provided, 
+the Generator may elect to complete negotiations with the Transmission 
+Provider or the successor Transmission Provider. 
+6.   Interconnection Feasibility Study 
+6.1  Interconnection Feasibility Study Agreement. Simultaneously with the 
+acknowledgement of a valid Interconnection Request the Transmission 
+Provider shall provide to Generator an Interconnection Feasibility Study 
+Agreement in the form of Appendix 2. The Interconnection Feasibility 
+Study Agreement shall specify that Generator is responsible for the actual 
+cost of the Interconnection Feasibility Study. Within five (5) Business 
+Days following the initial scoping meeting Generator shall specify for 
+inclusion in the attachment to the Interconnection Feasibility Study 
+Agreement the Point(s) of Interconnection and any reasonable alternative 
+points of interconnection. Within five (5) Business Days following the 
+Transmission Provider’s receipt of such designation, Transmission 
+Provider shall tender to Generator the Interconnection Feasibility Study 
+Agreement signed by Transmission Provider, which includes a good faith 
+estimate of the cost for completing the Interconnection Feasibility Study. 
+TO Position: and Generator shall pay the difference between the 
+$10,000 deposit and the good faith estimate of cost for the study 
+provided by the Transmission Provider. 
+Gen Position: no additional language. 
+23 
+On or before the return of the executed Interconnection Feasibility Study 
+Agreement to the Transmission Provider, the Generator shall provide the 
+technical data called for in Appendix 2. 
+If the Feasibility Study uncovers any unexpected result(s) not 
+contemplated during the Initial Scoping Meeting, a substitute Point of 
+Interconnection identified by either Generator or Transmission Provider, 
+and acceptable to the other, such acceptance not to be unreasonably 
+withheld, will be substituted for the designated Interconnection Point 
+specified above without loss of queue position, and re-studies shall be 
+completed pursuant to Section 6.4 as applicable. For the purpose of this 
+Section 6.1, if the Transmission Provider and Generator cannot agree on 
+the substituted Point of Interconnection, then Generator may direct that 
+one of the alternatives as specified in the Interconnection Feasibility Study 
+Agreement, as specified pursuant to Section 3.3.4, shall be the substitute. 
+6.2  Scope of Interconnection Feasibility Study.2  The Interconnection 
+Feasibility Study shall preliminarily evaluate the feasibility of the proposed 
+interconnection to the Transmission System. 
+2 
+Additional details on the Interconnection Feasibility Study scope are contained in Appendix 2. 
+24 
+The Interconnection Feasibility Study will consider the Base Case as well 
+as all generating facilities (and with respect to (iii), any identified network 
+upgrades) that, on the date the Interconnection Feasibility Study is 
+commenced: (i) are directly interconnected to the Transmission System; 
+(ii) are interconnected to Affected Systems and may have an impact on 
+the Interconnection Request; (iii) have a pending higher queued 
+Interconnection Request to interconnect to the Transmission System; and 
+(iv) have no queue position but have executed an Interconnection and 
+Operating Agreement or requested that an unexecuted Interconnection 
+and Operating Agreement be filed with the Commission. The 
+Interconnection Feasibility Study will consist of a power flow and short 
+circuit analysis. The Interconnection Feasibility Study will provide a list of 
+facilities and a non-binding good faith estimate of cost responsibility and a 
+non-binding good faith estimated time to construct. 
+6.3  Interconnection Feasibility Study Procedures.  The Transmission 
+Provider shall utilize existing studies to the extent practicable when it 
+performs the study. The Transmission Provider shall use Reasonable 
+Efforts to complete the Interconnection Feasibility Study no later than 45 
+days after the Transmission Provider receives the fully executed 
+Interconnection Feasibility Study Agreement. At the request of the 
+Generator or at any time the Transmission Provider determines that it will 
+not meet the required time frame for completing the Interconnection 
+Feasibility Study, Transmission Provider shall notify the Generator as to 
+the schedule status of the Interconnection Feasibility Study. If the 
+Transmission Provider is unable to complete the Interconnection 
+25 
+Feasibility Study within that time period, it shall notify the Generator and 
+provide an estimated completion date with an explanation of the reasons 
+why additional time is required. Upon request, the Transmission Provider 
+shall provide the Generator supporting documentation, workpapers and 
+relevant power flow, short circuit and stability databases for the 
+Interconnection Feasibility Study, subject to confidentiality arrangements 
+consistent with Section 13.1. 
+6.3.1 Meeting with Transmission Provider. Within ten (10) Business 
+Days of providing an Interconnection Feasibility Study report to 
+Generator, Transmission Provider and Generator shall meet to 
+discuss the results of the Interconnection Feasibility Study. 
+6.4  Re-Study. If re-study of the Feasibility Study is required due to a higher 
+queued project dropping out of the queue, or a modification of a higher 
+queued project subject to Section 4.4, or re-designation of the Point of 
+Interconnection pursuant to Section 6.1 Transmission Provider shall notify 
+Generator in writing. Such re-study shall take not longer than forty-five 
+(45) days from the date of the notice. Any cost of re-study shall be borne 
+by the Generator being re-studied. 
+7.   Interconnection System Impact Study. 
+7.1  Interconnection System Impact Study Agreement. Unless otherwise 
+provided in Section 3.3.4,simultaneously with the delivery of the 
+Interconnection Feasibility Study to the Generator, the Transmission 
+Provider shall provide to the Generator an Interconnection System Impact 
+Study Agreement in the form of Appendix 3 to these Interconnection 
+Procedures. The Interconnection System Impact Study Agreement shall 
+26 
+provide that the Generator shall compensate the Transmission Provider 
+for the actual cost of the Interconnection System Impact Study. Within 
+three (3) Business Days following the Interconnection Feasibility Study 
+results meeting, the Transmission Provider shall provide to Generator a 
+non-binding good faith estimate of the cost and timeframe for completing 
+the Interconnection System Impact Study. 
+7.2  Execution of Interconnection System Impact Study Agreement. The 
+Generator shall execute the Interconnection System Impact Study 
+Agreement and deliver the executed Interconnection System Impact Study 
+Agreement to the Transmission Provider no later than thirty (30) days after 
+its receipt along with demonstration of Site Control, and 
+TO Position: prepayment of the estimated cost of the study or 
+other form of payment based upon mutual agreement between the 
+parties. 
+Gen Position: a $50,000 deposit. 
+If the Generator does not provide all such technical data when it delivers 
+the Interconnection System Impact Study Agreement, the Transmission 
+Provider shall notify the Generator of the deficiency within five (5) 
+Business Days of the receipt of the executed Interconnection System 
+Impact Study Agreement and the Generator shall cure the deficiency 
+within ten (10) Business Days of receipt of the notice, provided, however, 
+such deficiency does not include failure to deliver the executed 
+Interconnection System Impact Study Agreement or deposit. 
+If the System Impact Study uncovers any unexpected result(s) not 
+contemplated during the Initial Scoping Meeting and the Interconnection 
+27 
+Feasibility Study, a substitute Point of Interconnection identified by either 
+Generator or Transmission Provider, and acceptable to the other, such 
+acceptance not to be unreasonably withheld, will be substituted for the 
+designated Interconnection Point specified above without loss of queue 
+position, and restudies shall be completed pursuant to Section 7.6 as 
+applicable. For the purpose of this Section 7.6, if the Transmission 
+Provider and Generator cannot agree on the substituted Point of 
+Interconnection, then Generator may direct the one of the alternatives as 
+specified in the Interconnection Feasibility Study Agreement, as specified 
+pursuant to Section 3.3.4, shall be the substitute. 
+7.3  Scope of Interconnection System Impact Study.3 The Interconnection 
+System Impact Study shall evaluate the impact of the proposed 
+interconnection on the reliability of the Transmission System. The 
+Interconnection System Impact Study will consider the Base Case as well 
+as all generating facilities (and with respect to (iii) below, any identified 
+network upgrades associated with such higher queued interconnection) 
+that, on the date the Interconnection System Impact Study is commenced: 
+(i) are directly interconnected to the Transmission System; (ii) are 
+interconnected to Affected Systems and may have an impact on the 
+Interconnection Request; (iii) have a pending higher queued 
+Interconnection Request to interconnect to the Transmission System; and 
+(iv) have no queue position but have executed an Interconnection and 
+Operating Agreement or requested that an unexecuted Interconnection 
+and Operating Agreement be filed with the Commission. The 
+3 
+Additional details on the Interconnection System Impact Study scope are contained in Appendix 3. 
+28 
+Interconnection System Impact Study will consist of a short circuit 
+analysis, a stability analysis, and a power flow analysis. The 
+Interconnection System Impact Study will state the assumptions upon 
+which it is based; state the results of the analyses; and provide the 
+requirements or potential impediments to providing the requested 
+interconnection service, including a preliminary indication of the cost and 
+length of time that would be necessary to correct any problems identified 
+in those analyses and implement the interconnection. The Interconnection 
+System Impact Study will provide a list of facilities that are required as a 
+result of the Interconnection Request and a non-binding good faith 
+estimate of cost responsibility and a non-binding good faith estimated time 
+to construct. 
+7.4  Interconnection System Impact Study Procedures. The Transmission 
+Provider shall use Reasonable Efforts to coordinate the Interconnection 
+System Impact Study with any Affected System that is affected by the 
+Interconnection Request. The Transmission Provider shall utilize existing 
+studies to the extent practicable when it performs the study. The 
+Transmission Provider shall use Reasonable Efforts to complete the 
+Interconnection System Impact Study within 
+Gen Position: 60 
+TO Position: 90 
+days after the receipt of the Interconnection System Impact Study 
+Agreement or notification to proceed, study payment, and technical data. 
+If Transmission Provider uses clustering, the Transmission Provider shall 
+use Reasonable Efforts to deliver a completed Interconnection System 
+29 
+Impact Study within 120 days after the close of the queue cluster window. 
+At the request of the Generator or at any time the Transmission Provider 
+determines that it will not meet the required time frame for completing the 
+Interconnection System Impact Study, Transmission Provider shall notify 
+the Generator as to the schedule status of the Interconnection System 
+Impact Study. If the Transmission Provider is unable to complete the 
+Interconnection System Impact Study within the time period, it shall notify 
+the Generator and provide an estimated completion date with an 
+explanation of the reasons why additional time is required. Upon request, 
+the Transmission Provider shall provide the Generator supporting 
+documentation, workpapers and relevant pre-Interconnection Request and 
+post-Interconnection Request power flow, short circuit and stability 
+databases for the Interconnection System Impact Study, subject to 
+confidentiality arrangements consistent with Section 13.1. 
+7.5  Meeting with Transmission Provider. Within ten (10) Business Days of 
+providing an Interconnection System Impact Study report to Generator, 
+Transmission Provider and Generator shall meet to discuss the results of 
+the Interconnection System Impact Study. 
+7.6  Re-Study. If re-study of the Interconnection System Impact Study is 
+required due to a higher queued project dropping out of the queue, a 
+modification of a higher queued project subject to 4.4, or re-designation of 
+the Point of Interconnection pursuant to Section 6.1 Transmission Provider 
+shall notify Generator in writing. Such re-study shall take no longer than 
+sixty (60) days 
+Gen Position: from the date of notice. 
+30 
+TO Position: from initiation. Initiation will commence as soon as 
+possible and will be governed by queue position. 
+Any cost of re-study shall be borne by the Generator being re-studied. 
+8.   Interconnection Facilities Study. 
+8.1  Interconnection Facilities Study Agreement. Simultaneously with the 
+delivery of the Interconnection System Impact Study to the Generator, the 
+Transmission Provider shall provide to the Generator an Interconnection 
+Facilities Study Agreement in the form of Appendix 4 to these 
+Interconnection Procedures. The Interconnection Facilities Study 
+Agreement shall provide that the Generator shall compensate the 
+Transmission Provider for the actual cost of the Interconnection Facilities 
+Study. Within three (3) Business Days following the Interconnection 
+System Impact Study results meeting, the Transmission Provider shall 
+provide to Generator a non-binding good faith estimate of the cost and 
+timeframe for completing the Interconnection Facilities Study. The 
+Generator shall execute the Interconnection Facilities Study Agreement 
+and deliver the executed Interconnection Facilities Study Agreement to the 
+Transmission Provider within thirty (30) days after its receipt, together with 
+the required technical data and the greater of $100,000 or Generator’s 
+portion of the estimated monthly cost of conducting the Interconnection 
+Facilities Study. 
+8.1.1 Transmission Provider shall invoice Generator on a monthly basis 
+for the work to be conducted on the Interconnection Facilities Study 
+each month. Generator shall pay invoiced amounts within thirty 
+(30) days of receipt of invoice. Transmission Provider shall 
+31 
+continue to hold the amounts on deposit until settlement of the final 
+invoice. 
+8.2  Scope of Interconnection Facilities Study.4  The Interconnection 
+Facilities Study Agreement shall specify and estimate the cost of the 
+equipment, engineering, procurement and construction work needed to 
+implement the conclusions of the Interconnection System Impact Study in 
+accordance with Good Utility Practice to physically and electrically connect 
+the Interconnection Request to the Transmission System. The 
+Interconnection Facilities Study shall also identify the electrical switching 
+configuration of the connection equipment, including, without limitation: 
+the transformer, switchgear, meters, and other station equipment; the 
+nature and estimated cost of any Transmission Provider Interconnection 
+Facilities and Network Upgrades necessary to accomplish the 
+interconnection; and an estimate of the time required to complete the 
+construction and installation of such facilities. 
+8.3  Interconnection Facilities Study Procedures.   The Transmission 
+Provider shall use Reasonable Efforts to coordinate the Interconnection 
+Facilities Study with any Affected System. The Transmission Provider 
+shall utilize existing studies to the extent practicable in performing the 
+Interconnection Facilities Study. The Transmission Provider shall use 
+Reasonable Efforts to complete the study and issue a draft 
+Interconnection Facilities Study report to the Generator within the following 
+number of days after receipt of an executed Interconnection Facilities 
+Study Agreement: ninety (90) days, with no more than a +/- 20% cost 
+4 
+Additional details on the Interconnection Facilities Study scope are contained in Appendix 4. 
+32 
+estimate contained in the report; or 180 days, if the Generator requests a                                                      
++/- 10% cost estimate. At the request of the Generator or at any time the 
+Transmission Provider determines that it will not meet the required time 
+frame for completing the Interconnection Facilities Study, Transmission 
+Provider shall notify the Generator as to the schedule status of the 
+Interconnection Facilities Study. If the Transmission Provider is unable to 
+complete the Interconnection Facilities Study and issue a draft 
+Interconnection Facilities Study report within the time required, it shall 
+notify the Generator and provide an estimated completion date and an 
+explanation of the reasons why additional time is required. The Generator 
+may, within thirty (30) days after receipt of the draft report, provide written 
+comments to the Transmission Provider, which the Transmission Provider 
+shall include in the final report. The Transmission Provider shall issue the 
+final Interconnection Facilities Study report within fifteen (15) Business 
+Days of receiving the Generator’s comments or promptly upon receiving 
+Generator’s statement that it will not provide comments. The 
+Transmission Provider may reasonably extend such fifteen-day period 
+upon notice to the Generator if the Generator’s comments require the 
+Transmission Provider to perform additional analyses or make other 
+significant modifications prior to the issuance of the final Interconnection 
+Facilities Report. Upon request, the Transmission Provider shall provide 
+the Generator supporting documentation, workpapers, and databases or 
+data developed in the preparation of the Interconnection Facilities Study, 
+subject to confidentiality arrangements consistent with Section 13.1. 
+33 
+8.4  Meeting with Transmission Provider. Within ten (10) Business Days of 
+providing a draft Interconnection Facilities Study report to Generator, 
+Transmission Provider and Generator shall meet to discuss the results of 
+the Interconnection Facilities Study. 
+8.5  Re-Study. If re-study of the Interconnection Facilities Study is required 
+due to a higher queued project dropping out of the queue or a modification 
+of a higher queued project pursuant to Section 4.4, Transmission Provider 
+shall so notify Generator in writing. Such re-study shall take no longer 
+than sixty (60) days 
+Gen Position: from the date of notice. 
+TO Position: from initiation. Initiation will commence as soon as 
+possible and will be governed by queue position. 
+Any cost of re-study shall be borne by the Generator being re-studied. 
+9.   Interim Agreements. 
+9.1  Interim Engineering & Procurement (“E&P”) Agreement.  Prior to 
+executing an Interconnection and Operating Agreement, a Generator may, 
+in order to advance the implementation of its interconnection, request and 
+Transmission Owner5 shall offer the Generator, an agreement that 
+authorizes the Transmission Owner to begin engineering and procurement 
+of long lead-time items necessary for the establishment of the 
+interconnection (“Interim E&P Agreement”). However, the Transmission 
+Owner shall not be obligated to offer an Interim E&P Agreement if 
+Generator is in dispute resolution as a result of an allegation that 
+5 
+If a Transmission Owner has transferred to another party responsibility for engineering and procurement 
+of major equipment with respect to all interconnections, in connection or related to operational control of 
+the Transmission System, for purposes of this Section 9.1 the term “Transmission Owner” shall be 
+deemed to refer to such party. 
+34 
+Generator has failed to meet any milestones or comply with any 
+prerequisites specified in other parts of the Interconnection Procedures. 
+The Interim E&P Agreement is an optional procedure and it will not alter 
+the Generator’s queue position or In-Service Date. The Interim E&P 
+Agreement shall provide for the Generator to pay the cost of all activities 
+authorized by the Generator and to make advance payments or provide 
+other satisfactory security for such costs. The Generator shall pay the 
+cost of such authorized activities and any cancellation costs for equipment 
+that is already ordered for its interconnection, which cannot be mitigated 
+as hereafter described, whether or not such items or equipment later 
+become unnecessary. If Generator withdraws its application for 
+interconnection or either party terminates the Interim E&P Agreement, to 
+the extent the equipment ordered can be canceled under reasonable 
+terms, Generator shall be obligated to pay the associated cancellation 
+costs. To the extent that the equipment cannot be reasonably canceled, 
+Transmission Owner may elect: (i) to take title to the equipment, in which 
+event Transmission Owner shall refund Generator any amounts paid by 
+Generator for such equipment and shall pay the cost of delivery of such 
+equipment, or (ii) to transfer title to and deliver such equipment to 
+Generator, in which event Generator shall pay any unpaid balance and 
+cost of delivery of such equipment. 
+9.2  Other Interim Agreements Upon Mutual Agreement. The Transmission 
+Provider or the Generator may request and enter into other types of 
+interim agreements prior to executing an Interconnection and Operating 
+35 
+Agreement. These other interim agreements may include but are not 
+limited to design, construction and/or siting activities. 
+9.3  Minimum Terms and Conditions of Interim Agreements.  Interim 
+agreements, including Interim E&P Agreements, should at a minimum, 
+address the following issues in a manner consistent with the Tariff: 
+Scope 
+Schedule 
+Delivery Point for Equipment (if applicable) 
+Payment 
+Security 
+Termination rights and obligations 
+Mitigation 
+Liability exposure 
+Indemnity obligations 
+Insurance 
+Force Majeure 
+10.  Optional Study. 
+10.1 Optional Study Agreement. On or after the date when the Generator 
+receives Interconnection System Impact Study results, the Generator may 
+request, and the Transmission Provider shall perform a reasonable 
+number of Optional Studies. The request shall describe the assumptions 
+that the Generator wishes the Transmission Provider to study within the 
+scope described in Section 10.2. Within five (5) Business Days after 
+receipt of a request for an Optional Study, the Transmission Provider shall 
+provide to the Generator an Optional Study Agreement in the form of 
+36 
+Appendix 5. The Optional Study Agreement shall: (i) specify the technical 
+data that the Generator must provide for each phase of the Optional 
+Study, (ii) specify Generator’s assumptions as to which Interconnection 
+Requests with earlier queue priority dates will be excluded from the 
+optional study case and assumptions as to the type of interconnection 
+service for Interconnection Requests remaining in the optional study case, 
+and (iii) the Transmission Provider’s estimate of the cost of the Optional 
+Study. To the extent known by the Transmission Provider, such estimate 
+shall include any costs expected to be incurred by any Affected System 
+whose participation is necessary to complete the Optional Study. 
+Notwithstanding the above, the Transmission Provider shall not be 
+required as a result of an Optional Study request to conduct any additional 
+Interconnection Studies with respect to any other Interconnection 
+Request. The Generator shall execute the Optional Study Agreement 
+within ten (10) Business Days of receipt and deliver the Optional Study 
+Agreement, the technical data and the study payment to the Transmission 
+Provider. 
+10.2 Scope of Optional Study. The Optional Study will consist of a sensitivity 
+analysis based on the assumptions specified by the Generator in the 
+Optional Study Agreement. The Optional Study will also identify the 
+Transmission Provider Interconnection Facilities and the Network 
+Upgrades, and the estimated cost thereof, that may be required to provide 
+transmission service or interconnection service based upon the results of 
+the Optional Study. The Optional Study shall be performed solely for 
+informational purposes. The Transmission Provider shall use Reasonable 
+37 
+Efforts to coordinate the study with any Affected Systems that may be 
+affected by the types of interconnection services that are being studied. 
+The Transmission Provider shall utilize existing studies to the extent 
+practicable in conducting the Optional Study. 
+10.3 Optional Study Procedures. The executed Optional Study Agreement, 
+the prepayment, and technical and other data called for therein must be 
+provided to the Transmission Provider within ten (10) Business Days of 
+Generator’s receipt of the Optional Study Agreement. The Transmission 
+Provider shall use Reasonable Efforts to complete the Optional Study 
+within a mutually agreed upon time period specified within the Optional 
+Study Agreement. If the Transmission Provider is unable to complete the 
+Optional Study within such time period, it shall notify the Generator and 
+provide an estimated completion date and an explanation of the reasons 
+why additional time is required. Any difference between the study 
+payment and the actual cost of the study shall be paid to the Transmission 
+Provider or refunded to the Generator, as appropriate. Upon request, the 
+Transmission Provider shall provide the Generator supporting 
+documentation and workpapers and databases or data developed in the 
+preparation of the Optional Study, subject to confidentiality arrangements 
+consistent with Section 13.1. 
+11.  Interconnection and Operating Agreement.6 
+11.1 Tender. Simultaneously with the issuance of the draft Interconnection 
+Facilities Study report to the Generator, the Transmission Provider shall 
+6 
+This section does not attempt to resolve which entities other than the Generator will be parties to the 
+Interconnection and Operating Agreement or whether separate operating agreements will be utilized in 
+ISO/RTO environments. 
+38 
+tender to the Generator a draft Interconnection and Operating Agreement 
+together with draft appendices completed to the extent practicable. The 
+draft Interconnection and Operating Agreement shall be in the form of the 
+pro forma Interconnection and Operating Agreement included in Appendix 
+7. Within thirty days after the issuance of the draft Interconnection 
+Facilities Study Report, the Transmission Provider shall tender the 
+completed draft Interconnection and Operating Agreement appendices. 
+11.2 Negotiation.  Notwithstanding Section 11.1, at the request of the 
+Generator the Transmission Provider shall begin negotiations with the 
+Generator concerning the appendices to the Interconnection and 
+Operating Agreement at any time after the Generator executes the 
+Interconnection Facilities Study Agreement. The Transmission Provider 
+and the Generator shall negotiate concerning any disputed provisions of 
+the appendices to the draft Interconnection and Operating Agreement for 
+not more than sixty days after tender of the final Interconnection Facilities 
+Study Report. If the Generator determines that negotiations are at an 
+impasse, it may request termination of the negotiations at any time after 
+tender of the Interconnection and Operating Agreement pursuant to 
+Section 11.1 and request submission of the unexecuted Interconnection 
+and Operating Agreement with the Commission or initiate dispute 
+resolution procedures pursuant to Section 13.6. If the Generator requests 
+termination of the negotiations, but within 60 days thereafter fails to 
+request either the filing of the unexecuted Interconnection and Operating 
+Agreement or initiate dispute resolution, it shall be deemed to have 
+withdrawn its Interconnection Request. The Transmission Provider shall 
+39 
+provide to the Generator a final Interconnection and Operating Agreement 
+within fifteen (15) Business Days after the completion of the negotiation 
+process. 
+11.3 Execution and Filing. Within fifteen (15) Business Days after receipt of 
+the final Interconnection and Operating Agreement, the Generator shall 
+provide the Transmission Provider reasonable evidence that continued 
+Site Control and one or more of the following milestones in the 
+development of the Facility, at the Generator’s election, has been 
+achieved: (i) the execution of a contract for the supply or transportation of 
+fuel to the Facility; (ii) the execution of a contract for the supply of cooling 
+water to the Facility; (iii) execution of a contract for the engineering for, 
+procurement of major equipment for, or construction of, the Facility; (iv) 
+execution of a contract for the sale of electric energy or capacity from the 
+Facility; (v) application for an air, water, or land use permit; or (vi) posting 
+of $250,000, non-refundable additional security, which shall be applied 
+toward future construction costs. 
+The Generator shall either: (i) execute two originals of the tendered 
+Interconnection and Operating Agreement and return them to the 
+Transmission Provider; or (ii) request in writing that the Transmission 
+Provider file with the Commission an Interconnection and Operating 
+Agreement in unexecuted form. As soon as practicable, but not later than 
+ten (10) Business Days after receiving either the two executed originals of 
+the tendered Interconnection and Operating Agreement or the request to 
+file an unexecuted Interconnection and Operating Agreement, the 
+Transmission Provider shall file the Interconnection and Operating 
+40 
+Agreement with the Commission, together with its explanation of any 
+matters as to which the Generator and the Transmission Provider 
+disagree and support for the costs that the Transmission Provider 
+proposes to charge to the Generator under the Interconnection and 
+Operating Agreement. 
+11.4 Commencement of Interconnection Activities.  If the Generator 
+executes the final Interconnection and Operating Agreement, the 
+Transmission Owner and the Generator shall perform their respective 
+obligations in accordance with the terms of the Interconnection and 
+Operating Agreement, subject to modification by the Commission. Upon 
+submission of an unexecuted Interconnection and Operating Agreement, 
+both Generator and Transmission Owner shall promptly comply with the 
+unexecuted Interconnection and Operating Agreement, subject to 
+modification by the Commission. 
+12.  Construction of Transmission Provider Interconnection Facilities and 
+Network Upgrades. 
+12.1 Schedule. The Transmission Provider and the Generator shall negotiate 
+in good faith concerning a schedule for the construction of the 
+Transmission Provider Interconnection Facilities and the Network 
+Upgrades. 
+12.2 Permits. The Interconnection and Operating Agreement shall specify the 
+allocation of the responsibilities of the Transmission Provider/Owner and 
+the Generator to obtain all permits, licenses and authorizations that are 
+necessary to accomplish the interconnection in compliance with applicable 
+laws and regulations. The Transmission Provider/Owner and the 
+41 
+Generator shall cooperate with each other in good faith in obtaining any 
+such permits, licenses and authorizations. Nothing in this Section 12.2 
+shall be construed to waive any rights under applicable law. 
+12.3 Construction Sequencing. 
+Gen Position: In general, the In-Service Date of generators 
+seeking interconnection to the Transmission System will determine 
+the sequence of construction of Network Upgrades. A Generator 
+with an Interconnection and Operating Agreement, in order to 
+maintain its In-Service Date, may request that the Transmission 
+Provider advance to the extent necessary the completion of 
+Network Upgrades that: (i) were assumed in the Interconnection 
+Studies for such Generator, (ii) are necessary to support such InService 
+Date, and (iii) would otherwise not be completed, pursuant 
+to a contractual obligation of an entity other than the Generator that 
+is seeking interconnection to the Transmission System, in time to 
+support such In-Service Date. Upon such request, Transmission 
+Provider will use Reasonable Efforts to advance the construction of 
+such Network Upgrades to accommodate such request; provided 
+that the Generator commits to pay Transmission Provider: (i) any 
+associated expediting costs and (ii) the cost of such Network 
+Upgrades. The Transmission Provider will refund to the Generator 
+the costs in clause (ii) of the prior sentence at such time as it 
+receives payment from the entity with a contractual obligation to 
+construct such Network Upgrades. Until such costs are refunded 
+by the Transmission Provider, the Generator may utilize the 
+42 
+transmission credits, if any, associated with the Network Upgrades 
+the construction of which was advanced; thereafter the balance of 
+such credits may be utilized by the entity that provided the 
+Transmission Provider with the funds for such refund, to the extent 
+of those funds. The Generator shall be entitled to transmission 
+credits, if any, for any expediting costs paid. The inclusion of costs, 
+recovery of costs and credits in this Section 12.3 is subject to the 
+Commission determination of cost responsibility in the cost 
+responsibility and pricing NOPR. 
+A Generator with an Interconnection and Operating Agreement, in 
+order to maintain its In-Service Date, may request that the 
+Transmission Provider advance to the extent necessary the 
+completion of Network Upgrades that: (i) are necessary to support 
+such In-Service Date and (ii) would otherwise not be completed, 
+pursuant to an expansion plan of the Transmission Provider, in time 
+to support such In-Service Date. Upon such request, Transmission 
+Provider will use Reasonable Efforts to advance the construction of 
+such Network Upgrades to accommodate such request; provided 
+that the Generator commits to pay Transmission Provider any 
+associated expediting costs. The Generator shall be entitled to 
+transmission credits, if any, for any expediting costs paid. The 
+inclusion of costs, recovery of costs and credits in this Section 12.3 
+is subject to the Commission determination of cost responsibility in 
+the cost responsibility and pricing NOPR. 
+43 
+TO Position: A Transmission Provider on its own initiative or at 
+the request of the Generator, in order to maintain the requested InService 
+Date of the Generator, may advance to the extent 
+necessary the completion of Network Upgrades required to support 
+such In-Service Date and would otherwise not be completed. The 
+Transmission Provider will use Reasonable Efforts to advance the 
+construction of such Network Upgrades to accommodate such 
+requested In-Service Date provided that the Generator commits to 
+pay Transmission Provider: (i) any associated expediting costs and 
+(ii) the cost of such Network Upgrades that would otherwise have 
+been paid by another Generator, subject to reimbursement 
+pursuant to the Commission’s determination in the cost 
+responsibility and pricing NOPR. An Interconnection System 
+Impact Study will be amended to determine the facilities necessary 
+to support the requested In-Service Date. This amended study will 
+include those transmission and generator facilities that are 
+expected to be in service on or before the requested In-Service 
+Date. 
+13.  Miscellaneous. 
+13.1 Confidentiality. Transmission Provider, Transmission Owner(s), and such 
+entities’ officers, employees, and contractors shall keep confidential all 
+information provided by Generator related to interconnection service 
+required by Transmission Provider to process an Interconnection Request 
+for network or similar type interconnection service as specified by the 
+Commission (other than the information contained in the Interconnection 
+44 
+Request in Appendix 1) or that otherwise constitutes trade secrets or 
+commercial or financial information, the disclosure of which would harm or 
+prejudice the Generator or Generator’s business 
+TO Position: , all of which shall be clearly identified as confidential 
+in writing by Generator 
+Gen Position: no additional language necessary 
+(“Confidential Information”). Such Confidential Information shall exclude 
+information to the extent that such information is or becomes generally 
+available to the public without the violation of any obligation of secrecy 
+relating to the information disclosed, including the posted Interconnection 
+Studies on OASIS pursuant to the terms of Section 3.4. Transmission 
+Provider shall use such information solely for the purpose of the 
+Interconnection Study for which it was provided and no other purpose. 
+Confidential Information should only be shared among individuals within 
+the Transmission Provider; Transmission Owner; and any third party who 
+need it to perform Interconnection Studies, to review Interconnection 
+Study results, or to negotiate an Interconnection and Operating 
+Agreement; provided that, under no circumstances shall data be shared 
+with individuals 
+TO Position: in contravention of Order 889 
+Gen Position: that have responsibilities within the Transmission 
+Providers/Owners and/or its affiliates’ merchant generation and/or 
+marketing functions and otherwise required pursuant to Order 889. 
+Further, Transmission Provider shall be liable to Generator for any breach 
+of confidentiality caused by its agents or third party contractors. 
+45 
+The Transmission Provider shall, at Generator’s election, destroy, in a 
+confidential manner, or return the Confidential Information provided at the 
+time the Confidential Information is no longer needed. 
+Other than any required disclosures of Interconnection Studies on OASIS, 
+should Transmission Provider be required to disclose the Generator’s 
+confidential information with any regulatory body, Transmission Provider 
+shall request confidential treatment of such information from such 
+regulatory body. If Transmission Provider receives any request to 
+disclose confidential information, Transmission Provider shall provide 
+Generator with prompt written notice of any such request so that the 
+Generator may contest disclosure. 
+Notwithstanding anything to the contrary herein, these provisions shall not 
+require the Transmission Provider or the Generator to disclose information 
+in violation of any confidentiality obligations to third parties. 
+13.2 Delegation of Responsibility. The Transmission Provider may use the 
+services of subcontractors as it deems appropriate to perform its 
+obligations under these Interconnection Procedures. Transmission 
+Provider shall remain primarily liable to the Generator for the performance 
+of such subcontractors and compliance with its obligations of these 
+Interconnection Procedures. The subcontractor shall keep all information 
+provided confidential and shall use such information solely for the 
+performance of such obligation for which it was provided and no other 
+purpose. 
+
+46 
+13.3 Obligation for Study Costs. Transmission Provider shall charge and 
+Generator shall pay the actual costs of the Interconnection Studies. Any 
+difference between the study deposit and the actual cost of the applicable 
+Interconnection Study shall be paid by or refunded, except as otherwise 
+provided herein, to Generator or offset against the cost of any future 
+Interconnection Studies associated with the applicable Interconnection 
+Request prior to beginning of any such future Interconnection Studies. 
+Generator shall pay any such undisputed costs within thirty (30) days of 
+receipt of an invoice therefor. The Transmission Provider shall not be 
+obligated to perform or continue to perform any studies unless Generator 
+has paid all undisputed amounts in compliance herewith. 
+13.4 Third Parties Conducting Studies. If (i) at the time of the signing of an 
+Interconnection Study Agreement there is disagreement as to the 
+estimated time to complete an Interconnection Study, (ii) the Generator 
+receives notice pursuant to Sections 6.3, 7.4 or 8.3 that the Transmission 
+Provider will not complete an Interconnection Study within the applicable 
+timeframe for such Interconnection Study, or (iii) Generator receives 
+neither the Interconnection Study nor a notice under Sections 6.3, 7.4 or 
+8.3 within the applicable timeframe for such Interconnection Study, then 
+the Generator may require the Transmission Provider to 
+Gen Position: , within 30 days of notifying Transmission Provider, 
+TO Position: [No time frame was discussed during the drafting 
+meetings in the context of this section.] 
+utilize a third party reasonably acceptable to Generator and Transmission 
+Provider to perform such Interconnection Study under the direction of the 
+47 
+Transmission Provider. Transmission Provider shall convey all 
+workpapers, databases, study results and all other supporting 
+documentation prepared to date with respect to the Interconnection 
+Request as soon as practicable upon Generator’s request subject to the 
+confidentiality provision in Section 13.1. In any case, such third party 
+contract may be entered into with either the Generator or the 
+Transmission Provider at the Transmission Provider’s discretion. In the 
+case of (i), (ii) and (iii) such Interconnection Study will be at the 
+Generator’s expense and in the case of (iii) the Generator maintains its 
+right to submit a claim to dispute resolution to recover the costs of such 
+third party study. Such subcontractors shall be required to comply with 
+these Interconnection Procedures and shall use the information provided 
+to it solely for purposes of performing such services and for no other 
+purposes. The Transmission Provider shall cooperate with such 
+subcontractor and Generator to complete and issue the Interconnection 
+Study in the shortest reasonable time. 
+13.5 Performance Liquidated Damages. 
+Gen Position: In the event the Transmission Provider fails to meet 
+any of its obligations under these Interconnection Procedures, and 
+fails to remedy any failure within fifteen (15) Business Days, the 
+Transmission Provider shall pay the Generator liquidated damages. 
+Any liquidated damages paid by the Transmission Provider to the 
+Generator shall be an amount equal to 1% of the actual cost of the 
+applicable study cost (including any third party study costs), per 
+day. However, in no event shall the total liquidated damages 
+48 
+exceed 50% of the actual cost of the applicable study(ies). In 
+addition to these liquidated damages, Transmission Provider shall 
+refund any deposit amount for the applicable study previously paid 
+by Generator in excess of actual reasonably incurred study costs 
+immediately upon expiration of the remedy period noted above. 
+TO Position: TOs believe that this Section 13.5 is unnecessary. 
+13.6 Disputes.  The Generator and Transmission Provider may utilize the 
+dispute resolution procedures of the Tariff if there is a reasonable 
+expectation to resolve the dispute within thirty (30) days, otherwise the 
+Generator and/or Transmission Provider may seek immediate resolution 
+through the Commission, including the Commission’s alternative dispute 
+resolution processes. During the pendency of a dispute, neither the 
+Transmission Provider nor the Generator shall be required to continue to 
+comply with the disputed milestones or requirements, or any milestones or 
+requirements for which the disputed milestones or requirements are 
+necessary conditions, of these Interconnection Procedures. The 
+Generator and Transmission Provider shall have a reasonable time after a 
+dispute is resolved in order to come into compliance with such disputed 
+milestones or requirements. The queue position associated with the 
+Interconnection Request shall be maintained during the pendency of a 
+dispute. 
+TO Position: Commission alternative dispute resolution will be 
+non-binding and appealable to the Commission. 
+49 
+Small Gen Position: The Commission alternative dispute 
+resolution will be binding in disputes relating to Small Generators, 
+at the Small Generator’s option. 
+14.  Small Generator Interconnection Requests. 
+14.1 Applicability. 
+TO Position: This Section establishes the modified 
+Interconnection Procedures that apply to the Small Generator that 
+is interconnecting generation capacity additions of 5 MW or less for 
+a single unit with an aggregate totaling 20 MW or less for multiple 
+units at a single point of interconnection to the Transmission 
+System. Best practices may require recognition of state and 
+regional differences. If the Small Generator is connecting to 
+facilities classified as distribution, nothing herein shall preempt 
+state and local legal requirements and/or applicable reliability and 
+safety criteria of the distribution company necessary for the 
+interconnection to the local distribution system. 
+Small Gen Position: Small Generators are defined as units 20 
+MW and below or aggregations of interconnecting generators at a 
+single Point of Interconnection totaling 20 MW and below, including 
+those owned by Transmission Providers or their affiliates, or 
+increases of less than 20 MW to the capability of existing 
+generation resources. Small Generators may be interconnected 
+through expedited procedures or as may be provided in the 
+Interconnection and Operating Agreement. 
+50 
+14.2 Modified Interconnection Procedure. 
+TO Position: With the exception of the Interconnection Study 
+deposit, all requirements related to the interconnection for a larger 
+resource must be satisfied by a Small Generator for a capacity 
+addition interconnection of small generating Facilities, as defined in 
+Section 14.1. 
+Small Gen Position: Requirements related to the application and 
+interconnection for a larger resource are followed except as 
+modified in this Section 14. 
+14.2.1 Interconnection Study Deposits. Each deposit requirement for 
+an Interconnection Study is waived. 
+14.2.2 Interconnection Study Costs. While the deposit requirement for 
+the Small Generator is waived, the Small Generator is responsible 
+for all costs associated with the processing of the Interconnection 
+Request and the performance of Interconnection Studies 
+Small Gen Position: , unless waived. 
+TO Position: No additional language. 
+The Small Generator will be billed for such costs following the 
+completion of the Interconnection Studies performed. 
+14.2.3 Expedited Procedures. 
+TO Position: Expedited analysis procedures will be utilized, 
+where appropriate, according to good utility practice and 
+subject to applicable state and local requirements and 
+applicable safety and reliability requirements of the local 
+51 
+distribution system, when conducting further Interconnection 
+Studies in connection with the Interconnection Request. 
+Small Gen Position: Expedited analysis procedures will be 
+utilized. 
+14.3 Coordination with Local Facilities. 
+TO Position: A Small Generator that is proposing to interconnect 
+a Facility to the distribution system of a local distribution utility 
+interconnected with the Transmission System shall apply to such 
+local distribution utility for interconnection. Such interconnections 
+may be subject to Planning and Operating Protocols of the 
+RTO/ISO and applicable agreements between the Transmission 
+Provider and the local distribution utility. 
+Small Gen Position: No corresponding section. 
+14.4 Queue. 
+TO Position: TOs have no corresponding section because this 
+matter is best addressed by state and local utility regulators and 
+distribution utilities as provided in Section 14.1 proposed by the 
+TOs. 
+Small Gen Position: Except for Small Packaged/Micro generators 
+(which have a separate queue), the Small Generators will enter the 
+appropriate queue for larger resources. They may be accelerated 
+through the queue to an Interconnection and Operating Agreement 
+if certain studies are waived or expedited pursuant to Appendix 6. 
+52 
+14.5 Interconnection Studies for Permanent Network and Energy 
+Resource Additions. 
+TO Position: TOs have no corresponding section because this 
+matter is best addressed by state and local utility regulators and 
+distribution utilities as provided in Section 14.1 proposed by the 
+TOs. 
+State Commission Position: The National Association of 
+Regulatory Utility Commissioners and the State Commission 
+Representative working on this draft do not agree with a provision 
+in this draft for national pre-certification and technical standards 
+that have not been established nor for interconnection to 
+distribution facilities that we regulate. Such provision is beyond the 
+scope and intent of the Commission’s process for standardized 
+generation interconnection procedures for Transmission Providers. 
+Small Gen Position: These are network or energy resource 
+product Interconnection Requests for permanent Facilities less than 
+20 MW. 
+14.5.1 Feasibility Study. 
+TO Position: TOs have no corresponding section because 
+this matter is best addressed by state and local utility 
+regulators and distribution utilities as provided in Section 
+14.1 proposed by the TOs. 
+Small Gen Position: Generally, small generation additions 
+will have very limited and isolated impacts on system 
+facilities. Feasibility Study analyses can be expedited by 
+examining limited contingencies pursuant to Appendix 6. 
+
+54 
+deposit in the amount of the estimated cost of the Facilities 
+Study, unless waived. 
+If the Impact Study so warrants, the Facilities Study may not 
+be required and the project will proceed directly to the 
+execution of an Interconnection and Operating Agreement. 
+14.5.3 Facilities Study. 
+TO Position: TOs have no corresponding section because 
+this matter is best addressed by state and local utility 
+regulators and distribution utilities as provided in Section 
+14.1 proposed by the TOs. 
+Small Gen Position: As with larger generation projects, the 
+need to study facilities design for any required attachment 
+facilities and/or Network Upgrades will be performed through 
+the execution of a Facilities Study Agreement between the 
+Interconnection Customer and the Transmission Provider. 
+Facilities design for small capacity additions will be 
+expedited. In most cases, few or no Network Upgrades will 
+be required for Small Generator additions. Attachment 
+facilities, for some Small Generators, may, in part, be 
+elements of a “turn key” or “packaged” installation. In such 
+instances, the design of “turn key” or “packaged” 
+attachments will be reviewed by the Transmission Provider 
+on an expedited basis. 
+55 
+14.5.4 Interconnection and Operating Agreement. 
+TO Position: TOs have no corresponding section because 
+this matter is best addressed by state and local utility 
+regulators and distribution utilities as provided in Section 
+14.1 proposed by the TOs. 
+Small Gen Position: As with larger generation projects, an 
+Interconnection Agreement must be executed and filed with 
+the Commission. A modified version of the standard 
+Interconnection and Operating Agreement may be executed. 
+14.6 Interconnection Studies for Small Packaged and Micro Generators. 
+TO Position: TOs do not agree with a provision for technologies 
+that have not been proven, for standards that have not been 
+established, and for distribution facilities that are not regulated by 
+the Commission. 
+Small Gen Position: Small Packaged Generators are those new 
+generation resources of less than 2 MW, but greater than 250 kW, 
+and pre-certified for interconnected operation. Micro Generators 
+are those new generation resources less than 250 kW and precertified 
+for interconnected operation. 
+Small Packaged and Micro Generators meeting certain pre-defined 
+requirements can be approved for interconnection with a very 
+limited review. Because these generators are pre-certified for 
+interconnected operation and represent a small portion of the 
+system to which they are interconnecting, their interconnections 
+can be considered sufficiently simple that they have little chance of 
+56 
+having an impact on the system or being a hazard to the system, 
+personnel, or other customers. These generators should not 
+require any additional Interconnection Studies. 
+The pre-certification of these resources means all safety and 
+protection equipment needed for interconnected operation is 
+provided with the pre-certified generator. 
+The inherent assumptions justifying the greater degree of 
+expedition in these procedures are that such resources will only be 
+connected in situations where no transmission upgrades are 
+required. 
+14.6.1 Application. A simplified short form application shall be used. (see 
+Small Generator Interconnection Study Application Short Form). 
+14.6.2 Feasibility/Impact/Facilities Study. For Small Packaged and 
+Micro Generators, the Interconnection Studies are collapsed into a 
+single study (see Appendix 6). 
+For pre-certified Small Packaged and Micro Generators that do not 
+exceed fifteen percent (15%) of the most recent peak load on the 
+circuit at the point of interconnection or any capacity or load limiting 
+device upstream, the Interconnection Study shall be limited to this 
+fifteen percent (15%) determination (see Appendix 6). 
+If it is determined during the Interconnection Study that the 
+generator requesting interconnection exceeds this fifteen percent 
+(15%) limitation, then additional studies as described in Appendix 6 
+Small Generator shall be conducted. Transmission Providers may 
+require Micro Generators to be pre-certified in all circumstances. 
+57 
+Provided the Small Packaged or Micro Generator is pre-certified 
+and does not exceed the fifteen percent (15%) limit, the project will 
+proceed directly to the execution of an Interconnection and 
+Operating Agreement. 
+14.6.3 Costs. Cost for the limited Feasibility Studies are waived if the 
+Small Generator meets the pre-certification and threshold 
+requirements of Section 14.5.2. 
+14.6.4 Interconnection Service Agreement. A simplified Interconnection 
+and Operating Agreement will be executed and filed with the 
+Commission, identifying the obligations and rights related to the 
+interconnection of Small Packaged and Micro Generators. For 
+Micro Generators the Interconnection and Operating Agreement 
+shall be not longer than a one page agreement. 
+14.6.5 Other Requirements. Control center facilities and modeling 
+requirements are waived. However, Small Packaged Generator 
+Facilities must have hourly integrated energy meters to facilitate 
+payment for sales. Micro Generators may utilize hourly integrated 
+energy meters or other generation measuring methodologies if 
+approved by the Transmission Provider, RTO/ISO or Commission. 
+A separate queue for Small Packaged Generators and Micro 
+Generators will be maintained in order to facilitate processing of 
+Interconnection Requests. 
+APPENDICES 
+APPENDIX 1       INTERCONNECTION REQUEST 
+APPENDIX 2       INTERCONNECTION FEASIBILITY STUDY 
+AGREEMENT 
+APPENDIX 3       INTERCONNECTION SYSTEM IMPACT STUDY 
+AGREEMENT 
+APPENDIX 4       INTERCONNECTION FACILITIES STUDY 
+AGREEMENT 
+APPENDIX 5       OPTIONAL STUDY AGREEMENT 
+APPENDIX 6       SMALL GENERATOR EXPEDITED 
+INTERCONNECTION STUDIES 
+APPENDIX 7       INTERCONNECTION AND OPERATING 
+AGREEMENT 
+
+APPENDIX 1 
+INTERCONNECTION REQUEST 
+1.   The undersigned Generator submits this request to its Facility with the 
+Transmission Provider’s Transmission System pursuant to a Tariff. 
+2.   This Interconnection Request is for (check one):                       
+_____ A proposed new Facility.             
+_____ An increase in the generating capacity or a Material Modification of 
+an existing Facility. 
+3.   Is the Generator requesting expedited procedures pursuant to Section 14 of the 
+Interconnection Procedures?  
+_____ Yes 
+_____ No 
+4.   The type of interconnection service requested (check one or both as 
+appropriate): 
+_____ [It is intended that the types of interconnection services specified in 
+Section 2.4 of the Interconnection Procedures be placed here.] 
+5.   The Generator provides the following information: 
+a.   Address or location or the proposed new Facility site (to the extent known) 
+or, in the case of an existing Facility, the name and specific location of the 
+Facility; 
+b.   Maximum summer at ____ degrees C and winter at _____ degrees C 
+megawatt electrical output of the proposed new Facility or the amount of 
+megawatt increase in the generating capacity of an existing Facility; 
+c.   General description of the equipment configuration; 
+d.   Commercial Operation Date by day, month, and year; 
+e.   Name, address, telephone number, and e-mail address of the Generator’s 
+contact person; 
+INTERCONNECTION REQUEST 
+Page 2 
+f.    Approximate location of the proposed Point of Interconnection (optional); 
+and 
+g.   Generator Data (set forth in Attachment A) 
+6.   Applicable deposit amount as specified in the Interconnection Procedures. 
+7.   Evidence of Site Control as specified in the Interconnection Procedures (check 
+one) 
+____ Is attached to this Interconnection Request                           
+____ Will be provided at a later date in accordance with these Interconnection 
+Procedures 
+8.   This Interconnection Request shall be submitted to the representative indicated 
+below: 
+[To be completed by Transmission Provider] 
+9    Representative of the Generator to contact: 
+[To be completed by Generator] 
+10.  This Interconnection Request is submitted by: 
+Name of Generator: ______________________________________              
+By (signature) _____________________________________________      
+Name (type or print): ________________________________________            
+Title: ______________________________________________________ 
+Date: ______________________________________________________ 
+INTERCONNECTION REQUEST 
+Page 3                       
+Attachment A 
+GENERATOR DATA 
+UNIT RATINGS 
+kVA ________________ ?F                
+Voltage________ 
+Power Factor ________     
+Speed (RPM) ________                  
+Connection (e.g. Wye) ________                                                   
+Short Circuit Ratio ________              
+Frequency, Hertz ________                                              
+Stator Amperes at Rated kVA ________     Field Volts ________                                           
+Max Turbine MW ________    ?F 
+COMBINED TURBINE-GENERATOR-EXCITER INERTIA DATA 
+Inertia Constant, H                 =    _____________________ kW sec/kVA 
+Moment-of-Inertia, WR2             =    _____________________ lb. ft.2 
+REACTANCE DATA (PER UNIT-RATED KVA)          DIRECT AXIS 
+QUADRATURE AXIS 
+Synchronous – saturated            
+Xdv ________    Xqv ________                                         
+Synchronous – unsaturated          
+Xdi ________     Xqi ________                                           
+Transient – saturated               
+X’dv ________   X’qv ________                                            
+Transient – unsaturated             
+X’di ________    X’qi ________                                         
+Subtransient – saturated            
+X”dv ________   X”qv ________                                          
+Subtransient – unsaturated          
+X”di ________    X”qi ________                                             
+Negative Sequence – saturated       X2v ________                            
+Negative Sequence – unsaturated     X2i ________                               
+Zero Sequence – saturated          
+X0v ________                                
+Zero Sequence – unsaturated        
+X0i ________                            
+Leakage Reactance                
+Xlm ________                              
+FIELD TIME CONSTANT DATA (SEC) 
+Open Circuit                      
+T’do ________   T’qo ________                                           
+Three-Phase Short Circuit Transient   T’d3 ________   T’q  ________                                                  
+Line to Line Short Circuit Transient    T’d2 ________                                
+Line to Neutral Short Circuit Transient  T’d1 ________                                
+Short Circuit Subtransient           
+T”d ________    T”q  ________                                                 
+Open Circuit Subtransient           
+T”do ________   T”qo ________                                           
+ARMATURE TIME CONSTANT DATA (SEC) 
+Three Phase Short Circuit                      
+Ta3  ________ 
+INTERCONNECTION REQUEST 
+Page 4 
+Line to Line Short Circuit                       
+Ta2  ________                                            
+Line to Neutral Short Circuit                    
+Ta1  ________                              
+MW CAPABILITY AND PLANT CONFIGURATION 
+GENERATOR DATA 
+ARMATURE WINDING RESISTANCE DATA (PER UNIT) 
+Positive                               
+R1   ________                                   
+Negative                              
+R2   ________                                       
+Zero                                 
+R0   ________                                      
+Rotor Short Time Thermal Capacity I22t             = ___________                                           
+Field Current at Rated kVA, Armature Voltage and PF  = ___________ amps 
+Field Current at Rated kVA and Armature Voltage, 0 PF = ___________ amps 
+Three Phase Armature Winding Capacitance         
+= ___________ microfarad 
+Field Winding Resistance                
+= ___________   ohms _______ ? C 
+Armature Winding Resistance (Per Phase)   = ___________   ohms _______ ? C 
+CURVES 
+Saturation, Vee, Reactive Capability, Capacity Temperature Correction 
+Designate normal and emergency Hydrogen Presure operating range for multiple 
+curves         
+GENERATOR STEP-UP TRANSFORMER DATA 
+RATINGS 
+Capacity              
+Self-cooled/maximum nameplate          
+______________/______________ kVA 
+Voltage Ratio          
+Generator side/System side           
+______________/______________ kV 
+Winding Connections    Low V/High V (Delta or Wye)           
+______________/______________ 
+Fixed Taps Available__________________________________________________ 
+Present Tap Setting __________________________________________________ 
+INTERCONNECTION REQUEST 
+Page 5 
+IMPEDANCE 
+Positive       Z1 (on self-cooled kVA rating) __________________ % ______ X/R 
+Zero       Z0 (on self-cooled kVA rating) _____________________ % ______ X/R 
+EXCITATION SYSTEM DATA 
+Identify appropriate IEEE model block diagram of excitation system and power system 
+stabilizer (PSS) for computer representation in power system stability simulations and 
+the corresponding excitation system and PSS constants for use in the model. 
+GOVERNOR SYSTEM DATA 
+Identify appropriate IEEE model block diagram of governor system for computer 
+representation in power system stability simulations and the corresponding governor 
+system constants for use in the model. 
+APPENDIX 2 
+INTERCONNECTION FEASIBILITY STUDY AGREEMENT 
+THIS AGREEMENT is made and entered into this ____ day of ________, 20__ 
+by and between ________________, a           
+organized and existing under the 
+laws of the State of _________, ("Generator,") and _______________ a 
+existing under the laws of the State of _______, ("Transmission Provider "). Generator 
+and Transmission Provider each may be referred to as a "Party," or collectively as the 
+"Parties."                      
+RECITALS 
+WHEREAS, Generator is proposing to develop a Facility or generating capacity 
+addition to an existing Facility consistent with the Interconnection Request submitted by 
+the Generator dated ________; and 
+WHEREAS, Generator desires to interconnect the Facility with the Transmission 
+System; and 
+WHEREAS, Generator has requested the Transmission Provider to perform an 
+Interconnection Feasibility Study to assess the feasibility of interconnecting the 
+proposed Facility to the Transmission System, 
+Gen Position: and of any Affected Systems; 
+TO Position: and to coordinate with Affected Systems; 
+NOW, THEREFORE, in consideration of and subject to the mutual covenants 
+contained herein the Parties agreed as follows: 
+1.0  When used in this agreement, with initial capitalization, the terms specified 
+shall have the meanings indicated. Terms used in this agreement with 
+initial capitalization but not defined in this Section 1 shall have the 
+meanings specified in the Tariff. 
+2.0  Generator elects and Transmission Provider shall cause to be performed 
+an Interconnection Feasibility Study consistent with Section 6.0 of these 
+Interconnection Procedures in accordance with the Tariff. 
+3.0  The scope of the Interconnection Feasibility Study shall be subject to the 
+assumptions set forth in Attachment A to this Agreement. 
+4.0  The Interconnection Feasibility Study shall be based on the technical 
+information provided by Generator in the Interconnection Request, as may 
+be modified as the result of the Initial Scoping Meeting. Transmission 
+Provider reserves the right to request additional technical information from 
+Generator as may reasonably become necessary consistent with Good 
+INTERCONNECTION FEASIBILITY STUDY AGREEMENT 
+Page 2     
+Utility Practice during the course of the Interconnection Feasibility Study 
+and as designated in accordance with Section 3.3.4 of the Interconnection 
+Procedures. If, after the designation of the Point of Interconnection 
+pursuant to Section 3.3.4 of the Interconnection Procedures, Generator 
+modifies its Interconnection Request, the time to complete the 
+Interconnection Feasibility Study may be extended. 
+5.0  The Interconnection Feasibility Study report shall provide the following 
+information: 
+– preliminary identification of any circuit breaker short circuit capability 
+limits exceeded as a result of the interconnection;                            
+– preliminary identification of any thermal overload or voltage limit 
+violations resulting from the interconnection; and                                     
+– preliminary description and non-bonding estimated cost of facilities 
+required to interconnect the Facility to the Transmission System and to 
+address the identified short circuit and power flow issues. 
+6.0  The Transmission Provider’s good faith estimated cost for performance of 
+the Interconnection Feasibility Study is $___________.                            
+TO Position: The Generator shall pay the Transmission Provider the 
+amount by which the estimated cost exceeds the deposit the Generator 
+submitted with the Interconnection Request when the Generator executes 
+this Agreement. 
+Gen Position: Upon receipt of the Interconnection Feasibility Study the 
+Transmission Provider shall charge and Generator shall pay the actual 
+costs of the Interconnection Feasibility Study. 
+Any difference between the deposit and the actual cost of the study shall 
+be paid by or refunded to the Generator, as appropriate. 
+7.0  Miscellaneous. [The Interconnection Feasibility Study Agreement shall 
+include standard miscellaneous terms including, but not limited to, 
+indemnities, representations, disclaimers, warranties, governing law, 
+amendment, execution, waiver, enforceability and assignment, that reflect 
+best practices in the electric industry, and that are consistent with regional 
+differences, applicable laws, and the organizational nature of each Party. 
+All of these provisions, to the extent practicable, shall be consistent with 
+the provisions of the Interconnection Procedures and the Interconnection 
+and Operating Agreement.] 
+INTERCONNECTION FEASIBILITY STUDY AGREEMENT 
+Page 3 
+IN WITNESS WHEREOF, the Parties have caused this Agreement to be duly 
+executed by their duly authorized officers or agents on the day and year first above 
+written. 
+[Insert name of Transmission Provider]      
+[Insert name of Generator] 
+By _________________________________    By __________________________                                      
+Name (typed or printed):                    
+Name (typed or printed): 
+Title                                    
+Title 
+
+INTERCONNECTION FEASIBILITY STUDY AGREEMENT 
+Page 4                                                  
+Attachment A to 
+Interconnection Feasibility 
+Study Agreement 
+ASSUMPTIONS USED IN CONDUCTING THE FEASIBILITY STUDY 
+The Interconnection Feasibility Study will be based upon the information set forth 
+in the Interconnection Request and agreed upon in the Initial Scoping Meeting held on                                                      
+___________:         
+1. Designation of Point of Interconnection and configuration 
+to be studied. 
+2. Designation of alternative point(s) of interconnection and 
+configuration 
+[Above assumptions to be completed by Generator and other assumptions to 
+be provided by Generator and Transmission Provider] 
+APPENDIX 3 
+INTERCONNECTION SYSTEM IMPACT STUDY AGREEMENT 
+THIS AGREEMENT is made and entered into this ____ day of ________, 20__ 
+by and between ________________, a           
+organized and existing under the 
+laws of the State of _________, ("Generator,") and _______________ a 
+existing under the laws of the State of _______, ("Transmission Provider "). Generator 
+and Transmission Provider each may be referred to as a "Party," or collectively as the 
+"Parties."                      
+RECITALS 
+WHEREAS, Generator is proposing to develop a Facility or generating capacity 
+addition to an existing Facility consistent with the Interconnection Request submitted by 
+the Generator dated ________; and 
+WHEREAS, Generator desires to interconnect the Facility with the Transmission 
+System; 
+WHEREAS, the Transmission Provider has completed a Feasibility Study (the 
+“Feasibility Study”) and provided the results of said study to the Generator; 
+7and 
+WHEREAS, Generator has requested the Transmission Provider to perform an 
+Interconnection System Impact Study to assess the impact of interconnecting the 
+Facility to the Transmission System, 
+Gen Position: and of any Affected Systems; 
+TO Position: to coordinate with Affected Systems; 
+NOW, THEREFORE, in consideration of and subject to the mutual covenants 
+contained herein the Parties agreed as follows: 
+1.0  When used in this agreement, with initial capitalization, the terms specified 
+shall have the meanings indicated. Terms used in this agreement with 
+initial capitalization but not defined in this Section 1 shall have the 
+meanings specified in the Tariff. 
+2.0  Generator elects and Transmission Provider shall cause to be performed 
+an Interconnection System Impact Study consistent with Section 7.0 of 
+these Interconnection Procedures in accordance with the Tariff. 
+3.0  The scope of the Interconnection System Impact Study shall be subject to 
+the assumptions set forth in Attachment A to this Agreement. 
+7 
+This recital to be omitted if Generator has elected to forego the Feasibility Study. 
+INTERCONNECTION SYSTEM IMPACT AGREEMENT 
+Page 2 
+4.0  The Interconnection System Impact Study will be based upon the results 
+of the Feasibility Study and the technical information provided by 
+Generator in the Interconnection Request, subject to any modifications in 
+accordance with Section 4.4 of the Interconnection Procedures. 
+Transmission Provider reserves the right to request additional technical 
+information from Generator as may reasonably become necessary 
+consistent with Good Utility Practice during the course of the 
+Interconnection System Impact Study. If Generator modifies its 
+designated Point of Interconnection, Interconnection Request, or the 
+technical information provided therein is modified, the time to complete the 
+Interconnection System Impact Study may be extended. 
+5.0  The Interconnection System Impact Study report shall provide the 
+following information:      
+– identification of any circuit breaker short circuit capability limits 
+exceeded as a result of the interconnection;                       
+– identification of any thermal overload or voltage limit violations 
+resulting from the interconnection;                
+– identification of any instability or inadequately damped response to 
+system disturbances resulting from the interconnection and                                             
+– description and non-binding, good faith estimated cost of facilities 
+required to interconnect the Facility to the Transmission System and to 
+address the identified short circuit, instability, and power flow issues. 
+6.0  The Transmission Provider’s good faith estimated cost for performance of 
+the Interconnection System Impact Study is $___________. The 
+Transmission Provider’s good faith estimate for the time of completion of 
+the Interconnection System Impact Study is [insert date]. 
+TO Position: The Generator shall pay the Transmission Provider the 
+amount by which the estimated cost exceeds the deposit the Generator 
+submitted with its Interconnection Request when it executes this 
+Agreement. 
+Gen Position: Upon receipt of the Interconnection System Impact Study, 
+Transmission Provider shall charge and Generator shall pay the actual 
+costs of the Interconnection System Impact Study .                                    
+Any difference between the deposit and the actual cost of the study shall 
+be paid by or refunded to the Generator, as appropriate. 
+7.0  Miscellaneous. [The Interconnection System Impact Study Agreement 
+INTERCONNECTION SYSTEM IMPACT AGREEMENT 
+Page 3     
+shall include standard miscellaneous terms including, but not limited to, 
+indemnities, representations, disclaimers, warranties, governing law, 
+amendment, execution, waiver, enforceability and assignment, that reflect 
+best practices in the electric industry, that are consistent with regional 
+differences, applicable laws and the organizational nature of each Party. 
+All of these provisions, to the extent practicable, shall be consistent with 
+the provisions of the Interconnection Procedures and the Interconnection 
+and Operating Agreement.] 
+IN WITNESS WHEREOF, the Parties have caused this Agreement to be duly 
+executed by their duly authorized officers or agents on the day and year first above 
+written. 
+[Insert name of Transmission Provider]      
+[Insert name of Generator] 
+By _________________________________    By __________________________                                      
+Name (typed or printed):                    
+Name (typed or printed): 
+Title                                     
+Title 
+
+INTERCONNECTION SYSTEM IMPACT AGREEMENT 
+Page 4                                                  
+Attachment A to 
+Interconnection System Impact 
+Study Agreement 
+ASSUMPTIONS USED IN CONDUCTING THE SYSTEM IMPACT STUDY 
+The Interconnection System Impact Study will be based upon the results of the 
+Feasibility Study, subject to any modifications in accordance with Section 4.4 of the 
+Interconnection Procedures, and the following assumptions: 
+1. Designation of Point of Interconnection and configuration 
+to be studied. 
+2. Designation of alternative point(s) of interconnection and 
+configuration. 
+[Above assumptions to be completed by Generator and other assumptions to 
+be provided by Generator and Transmission Provider] 
+APPENDIX 4 
+INTERCONNECTION FACILITIES STUDY AGREEMENT 
+THIS AGREEMENT is made and entered into this ____ day of ________, 20__ 
+by and between ________________, a           
+organized and existing under the 
+laws of the State of _________, ("Generator,") and _______________ a 
+existing under the laws of the State of _______, ("Transmission Provider "). Generator 
+and Transmission Provider each may be referred to as a "Party," or collectively as the 
+"Parties."                      
+RECITALS 
+WHEREAS, Generator is proposing to develop a Facility or generating capacity 
+addition to an existing Facility consistent with the Interconnection Request submitted by 
+the Generator dated ________; and 
+WHEREAS, Generator desires to interconnect the Facility with the Transmission 
+System; 
+WHEREAS, the Transmission Provider has completed a System Impact Study (the 
+“System Impact Study”) and provided he 
+t results of said study to the Generator; and 
+WHEREAS, Generator has requested the Transmission Provider to perform an 
+Interconnection Facilities Study to specify and estimate the cost of the equipment, 
+engineering, procurement and construction work needed to implement the conclusions 
+of the Interconnection System Impact Study in accordance with Good Utility Practice to 
+physically and electrically connect the Facility to the Transmission System. 
+NOW, THEREFORE, in consideration of and subject to the mutual covenants 
+contained herein the Parties agreed as follows: 
+1.0  When used in this agreement, with initial capitalization, the terms specified 
+shall have the meanings indicated. Terms used in this agreement with 
+initial capitalization but not defined in this Section 1 shall have the 
+meanings specified in the Tariff. 
+2.0  Generator elects and Transmission Provider shall cause an 
+Interconnection Facilities Study consistent with Section 8.0 of these 
+Interconnection Procedures to be performed in accordance with the Tariff. 
+3.0  The scope of the Interconnection Facilities Study shall be subject to the 
+assumptions set forth in Attachment A and the data provided in 
+Attachment B to this Agreement. 
+4.0  The Interconnection Facilities Study report (i) shall provide a description, 
+estimated cost of (consistent with Attachment A), schedule for required 
+facilities to interconnect the Facility to the Transmission System and 
+INTERCONNECTION FACILITIES STUDY AGREEMENT 
+Page 2     
+(ii) shall address the short circuit, instability, and power flow issues 
+identified in the System Impact Study. 
+5.0  The Transmission Provider’s good faith estimated cost for performance of 
+the Interconnection Facilities Study is $___________. The time for 
+completion of the Interconnection Facilities Study is specified in 
+Attachment A. 
+Transmission Provider shall invoice Generator on a monthly basis for the 
+work to be conducted on the Interconnection Facilities Study each month. 
+Generator shall pay invoiced amounts within thirty (30) days of receipt of 
+invoice. Transmission Provider shall continue to hold the amounts on 
+deposit until settlement of the final invoice. 
+6.0  Miscellaneous. [The Interconnection Facility Study Agreement shall 
+include standard miscellaneous terms including, but not limited to, 
+indemnities, representations, disclaimers, warranties, governing law, 
+amendment, execution, waiver, enforceability and assignment, that reflect 
+best practices in the electric industry, and that are consistent with regional 
+differences, applicable laws, and the organizational nature of each Party. 
+All of these provisions, to the extent practicable, shall be consistent with 
+the provisions of the Interconnection Procedures and the Interconnection 
+and Operating Agreement.] 
+IN WITNESS WHEREOF, the Parties have caused this Agreement to be duly 
+executed by their duly authorized officers or agents on the day and year first above 
+written. 
+[Insert name of Transmission Provider]      
+[Insert name of Generator] 
+By _________________________________    By __________________________                                      
+Name (typed or printed):                    
+Name (typed or printed): 
+Title Title 
+INTERCONNECTION FACILITIES STUDY AGREEMENT 
+Page 3                                                  
+Attachment A to 
+Interconnection Facilities 
+Study Agreement 
+GENERATOR SCHEDULE ELECTION FOR CONDUCTING THE FACILITIES STUDY 
+The Transmission Provider shall use Reasonable Efforts to complete the study and 
+issue a draft Interconnection Facilities Study report to the Generator within the following 
+number of days after of receipt of an executed copy of this Interconnection Facilities 
+Study Agreement:   
+? 90 days with no more than a +/- 20% cost estimate contained in the report, or                                                            
+? 180 days with no more than a +/- 10% cost estimate contained in the report. 
+[Above to be completed by Generator and other assumptions to be provided by 
+Generator and Transmission Provider] 
+INTERCONNECTION FACILITIES STUDY AGREEMENT 
+Page 4                                                  
+Attachment B to 
+Interconnection Facilities 
+Study Agreement 
+DATA FORM TO BE PROVIDED BY GENERATOR WITH THE FACILITIES STUDY 
+AGREEMENT 
+Provide location plan and simplified one-line diagram of the plant and station facilities. 
+For staged projects, please indicate future generation, transmission circuits, etc. 
+One set of metering is required for each generation connection to the new ring bus or 
+existing Transmission Provider station. Number of generation connections: 
+On the one line indicate the generation capacity attached at each metering location. 
+(Maximum load on CT/PT) 
+On the one line indicate the location of auxiliary power. (Minimum load on CT/PT) 
+Amps 
+Will an alternate source of auxiliary power be available during CT/PT maintenance?                                                     
+? ? Yes                                                     ? ? No? 
+Will a transfer bus on the generation side of the metering require that each meter set be 
+designed for the total plant generation?? ? Yes                      ? 
+?   No          
+(Please indicate on one line). 
+What type of control system or PLC will be located at the Generator’s Facility?                      
+_________________________________ 
+What protocol does the control system or PLC use? 
+_____________________________________________ 
+Please provide a 7.5-minute quadrangle of the site. Sketch the plant, station, 
+transmission line, and property line. 
+Physical dimensions of the proposed interconnection station: 
+INTERCONNECTION FACILITIES STUDY AGREEMENT 
+Page 5 
+Bus length from generation to interconnection station: 
+Line length from interconnection station to Transmission Provider transmission 
+line. 
+Tower number observed in the field. (Painted on tower leg)* 
+Number of third party easements required for transmission lines*:                                                 
+* To be completed in coordination with Transmission Provider. 
+Is the Facility in the Transmission Provider’s service area?                                    
+?? Yes    ? ? No     Local provider:                            
+? 
+Please provide proposed schedule dates: 
+Begin Construction                 
+Date: ______________________________                                 
+GSU transformers receive back feed Date: 
+Generation Testing               
+Date: 
+Commercial Operation            
+Date: 
+
+APPENDIX 5 
+OPTIONAL STUDY AGREEMENT 
+THIS AGREEMENT is made and entered into this ____ day of ________, 20__ 
+by and between ________________, a          
+organized and existing under the 
+laws of the State of _________, ("Generator,") and ____________, a 
+organized and existing under the laws of the State of __________ ("Transmission 
+Provider "). Generator and Transmission Provider each may be referred to as a "Party," 
+or collectively as the "Parties."      
+RECITALS 
+WHEREAS, Generator is proposing to develop a Facility or generating capacity 
+addition to an existing Facility consistent with the Interconnection Request submitted by 
+the Generator dated ________; 
+WHEREAS, Generator is proposing to establish an interconnection with the 
+Transmission System; and 
+WHEREAS, Generator has submitted to Transmission Provider an 
+Interconnection Request; and 
+WHEREAS, on or after the date when the Generator receives the 
+Interconnection System Impact Study results, Generator has further requested that the 
+Transmission Provider prepare an Optional Study; 
+NOW, THEREFORE, in consideration of and subject to the mutual covenants 
+contained herein the Parties agree as follows: 
+1.0  When used in this agreement, with initial capitalization, the terms specified 
+shall have the meanings indicated. Terms used in this agreement with 
+initial capitalization but not defined in this Section 1 shall have the 
+meanings specified in the Tariff. 
+2.0  Generator elects and Transmission Provider shall cause an Optional 
+Study consistent with Section 10.0 of these Interconnection Procedures to 
+be performed in accordance with the Tariff. 
+3.0  The scope of the Optional Study shall be subject to the assumptions set 
+forth in Attachment A to this Agreement. 
+4.0  The Optional Study shall be performed solely for informational purposes. 
+5.0  The Optional Study report shall provide a sensitivity analysis based on the 
+assumptions specified by the Generator in Attachment A to this Agreement. The 
+Optional Study will identify the Transmission Provider Interconnection Facilities 
+and the Network Upgrades, and the estimated cost thereof, that may be required 
+to provide transmission service or interconnection service based upon the 
+OPTIONAL STUDY AGREEMENT 
+Page 2 
+assumptions specified by the Generator in Attachment A. 
+6.0  The Transmission Provider’s good faith estimated cost for performance of 
+the Optional Study is $___________. The Transmission Provider’s good 
+faith estimate for the time of completion of the Optional Study is [insert 
+date]. 
+TO Position: The Generator shall pay the Transmission Provider the 
+amount by which the estimated cost exceeds the deposit the Generator 
+submitted with its Interconnection Request when it executes this 
+Agreement. 
+Gen Position: Upon receipt of the Optional Study, the Transmission 
+Provider shall charge and Generator shall pay the actual costs of the 
+Optional Study. 
+Any difference between the initial payment and the actual cost of the study 
+shall be paid by or refunded to the Generator, as appropriate. 
+7.0  Miscellaneous. [The Optional Study Agreement shall include standard 
+miscellaneous terms including, but not limited to, indemnities, 
+representations, disclaimers, warranties, governing law, amendment, 
+execution, waiver, enforceability and assignment, that reflect best 
+practices in the electric industry, and that are consistent with regional 
+differences, applicable laws, and the organizational nature of each Party. 
+All of these provisions, to the extent practicable, shall be consistent with 
+the provisions of the Interconnection Procedures and the Interconnection 
+and Operating Agreement.] 
+IN WITNESS WHEREOF, the Parties have caused this Agreement to be duly 
+executed by their duly authorized officers or agents on the day and year first above 
+written. 
+[Transmission Provider]                
+[Generator] 
+By _____________________________      
+By _____________________________                             
+Name (typed or printed):                  
+Name (typed or printed): 
+Title:                                 
+Title 
+
+OPTIONAL STUDY AGREEMENT 
+Page 3                                                  
+Attachment A to 
+Optional 
+Study Agreement 
+ASSUMPTIONS USED IN CONDUCTING THE OPTIONAL STUDY 
+[To be completed by Generator consistent with Section 10 of the 
+Interconnection Procedures.] 
+APPENDIX 6 
+SMALL GENERATOR EXPEDITED INTERCONNECTION STUDIES 
+Small Gen Position: Include this Small Generator Appendix. 
+State Commission Position: Do not include this Small Generator Appendix. 
+TO Position: No additional language needed: refer to TO Position in Section 14. 
+Permanent Network and Energy Resource Additions Feasibility Study 
+Feasibility Study analyses can generally be expedited by examining a limited 
+contingency set that focuses on the impact of the small capacity addition on 
+contingency limits in the vicinity of the capacity resource. 
+Linear analysis tools are used to evaluate the impact of a small capacity addition with 
+respect to compliance with contingency criteria. 
+[Proposed Option: Where applicable, the capacity addition may be studied based on 
+actual generation available to grid (real net generator impact -- not phantom impact) 
+which may require the imposition of special operating conditions.] 
+Short circuit calculations are performed for small resource additions to ensure that 
+circuit breaker capabilities are not exceeded. 
+In most cases, where no network impacts are identified and there are no other projects 
+in the vicinity of the small resource addition, the Impact Study may be waived and the 
+project will proceed directly to the Facilities Study. 
+Impact Study 
+Load deliverability will only be evaluated for sub-areas where margins are known to be 
+limited. In most cases, the addition of small capacity resources will improve local 
+deliverability margins. However, if sub-area margins are known to be limited, the impact 
+of the new resource will be evaluated based on its impact on the contingencies limiting 
+emergency imports to the sub-area. 
+Generation deliverability is tested using linear analysis tools. In most cases, small 
+capacity additions will have no impact on generator deliverability in an area. If violations 
+are observed, more detailed testing using AC tools is required. 
+Stability analysis is generally not performed for small capacity additions. If the capacity 
+of an existing generating resource is increased by less than 20 MW through expansion 
+of the Facility, stability will be evaluated for critical contingencies only if existing stability 
+margins are small. New capacity resources of less than 20 MW will only be evaluated if 
+they are connected at a location where stability margins associated with existing 
+resources are small. 
+Short circuit calculations are performed during the Impact Study for small resource 
+additions, taking into consideration all elements of the regional plan, to ensure that 
+circuit breaker capabilities are not exceeded. 
+AGREEMENT PROVIDING FOR THE COMMENCEMENT OF INTERCONNECTION ACTIVITIES 
+Page 2 
+If no Transmission System facilities are required, the Facilities Study may not be 
+required and the project will proceed directly to the execution of an Interconnection 
+Agreement 
+Small Packaged and Micro Generators Interconnections --                                     
+Feasibility/Impact/ Facilities Studies (Interconnection Study) 
+Only the following studies are performed unless the results of these studies warrant 
+additional analysis. 
+For pre-certified Small Packaged and Micro Generators, if the generator does not 
+exceed fifteen percent (15%) of the most recent peak load on the circuit at the point of 
+interconnection or any capacity or load limiting device upstream, the Interconnection 
+Study will be limited to this fifteen percent (15%) determination. The Interconnection 
+Study , which shall include all previously interconnected Small Packaged and Micro 
+Generators, may also include a certification by the generator of the pre-certification for 
+interconnected operation. 
+For generators not pre-certified, or those above the fifteen percent (15%) threshold, the 
+following applies: 
+Limited power flow analyses will be performed to ensure that local contingency criteria 
+are not violated. 
+Load deliverability and generation deliverability tests are not performed for energy 
+resources. 
+Stability analysis will only be performed if temporary energy-only resources are 
+connected at a location where stability margins associated with existing resources are 
+small. 
+Short circuit calculations are performed for small resource additions to ensure that 
+circuit breaker capabilities are not exceeded. 
+Pre-certification for interconnected operation. 
+Systems meeting all applicable ANSI/IEEE, Underwriters Laboratories (or other 
+approved national testing entity), and NFPA (National Electric Code) standards for 
+interconnected generation. The Commission may promulgate additional pre-certification 
+criteria. Transmission Providers may maintain and publish a list of pre-certified 
+generation equipment. 
+APPENDIX 7 
+INTERCONNECTION AND OPERATING AGREEMENT 
+1/7/02 
+Generator Interconnection Products and Studies 
+1/7/02 
+1 
+Generator Interconnection Products and Studies *, 
+**                                                                           
+Energy Resource (“ER”) Interconnection Service 
+The Product 
+Energy Resource interconnection service allows a Generator to connect its 
+generating facility (the “Facility”) to the Transmission Provider’s transmission 
+system and be eligible to deliver the Facility’s output using the existing firm or 
+non-firm capacity of the Transmission Provider’s transmission system on an “a s 
+available” basis. 
+8 To the extent a Generator wants to receive ER Interconnection 
+Service, the Transmission Provider shall construct facilities consistent with the 
+studies identified below.9 ER interconnection service does not in and of itself 
+convey any transmission delivery service. 
+The Study 
+The study consists of short circuit/fault duty, steady state (thermal and voltage) 
+and stability analyses. The short circuit/fault duty analysis would identify direct 
+interconnection facilities required and the network upgrades necessary to 
+address short circuit issues associated with the interconnection facilities. The 
+stability and steady state studies would identify necessary upgrades to allow full 
+output of the proposed Facility and would also identify the maximum allowed 
+output, at the time the study is performed, of the interconnecting Facility without 
+requiring additional network upgrades. The PJM procedure for evaluating ERs, 
+appended hereto, represents an acceptable method for conducting such study.                                                               
+* The definition, study requirements, or delivery implications associated with a given interconnection 
+service product may have different implications in different regions of the country. To the extent that any 
+party believes that this description of Interconnection Products and Studies should be modified to 
+accommodate such differences, such party may make filings at FERC to the effect that the 
+interconnection products in this description should be modified to accommodate such regional 
+differences. The burden will be on the filing party to show that proposed modifications would result in 
+interconnection service that is at least equivalent or superior to the services described herein.                                                                   
+** All rights and obligations referred to herein regarding interconnection to a transmission system are also 
+intended to apply to interconnections to a distribution system. Distribution level interconnections, 
+however, may include additional obligations and charges to be borne by the interconnecting Generator, 
+as well as other rights associated with such services. 
+8 With respect to any Facility receiving ER Interconnection Service, “as available” means that congestion 
+relief and curtailments associated with transmission delivery service will be based on the type of 
+transmission delivery service ultimately obtained. 
+9 Any Facility receiving ER Interconnection Service is not precluded from later qualifying as a Network 
+Resource by later requesting Network Resource Interconnection Service provided that the requirements 
+for Network Resource Interconnection Service are met by such Facility. Furthermore, a network 
+transmission customer may take delivery of the output of an ER Interconnection Service Facility as 
+secondary service. The value of this ER Interconnection Service product may not be realized absent a 
+market-based congestion management system. 
+1/7/02 
+2 
+The purpose of the analysis is to evaluate the proposed Facility against those 
+planning criteria that are not observed in real time by the transmission system 
+operator. In general, this requires analysis of short circuit, stability and multiple 
+transmission and Facility outages, but does not include single contingencies. 
+The Transmission Provider will be required to file procedures with the FERC to 
+demonstrate that its procedures meet the design objectives described above, 
+and receive FERC acceptance of such procedures. Studies of subsequent 
+interconnection requests will assume the maximum allowed output of the ER 
+generator in stability evaluations, provided that any upgrades initially required in 
+order to qualify as an Energy Resource have been or will be constructed. 
+Delivery Service Implications 
+Under ER Interconnection Service, the interconnected Generator will be able to 
+inject power from the Facility into and deliver power across the interconnecting 
+Transmission Provider’s transmission system on an “as available” basis up to the 
+amount of MW’s identified in the applicable stability and steady state studies to 
+the extent the upgrades initially required to qualify for ER Interconnection Service 
+have been constructed. Where eligible to do so (e.g., PJM, ISO-NE, NYISO), the 
+interconnected Generator may place a bid to sell into the market up to the 
+maximum identified Facility output, subject to any conditions specified in the 
+interconnection service approval, and the Facility will be dispatched to the extent 
+the Generator’s bid clears. In all other instances, no transmission delivery 
+service from the Facility is assured, but the interconnecting Generator may obtain 
+point-to-point transmission delivery service or be used for secondary network 
+transmission service, pursuant to the Transmission Provider’s Open Access 
+Transmission Tariff (“OATT”), up to the maximum output identified in the stability 
+and steady state studies. In those instances, in order for the Generator to obtain 
+the right to deliver or inject energy beyond the Facility’s interconnection point or 
+to improve its ability to do so, transmission delivery service must be obtained 
+pursuant to the provisions of the Transmission Provider’s OATT. The 
+Generator’s ability to inject its Facility output beyond the point of interconnection, 
+therefore, will depend on the existing capacity of the Transmission Provider’s 
+transmission system at such time as a transmission service request is made that 
+would accommodate such delivery. 
+Network Resource (“NR”) Interconnection Service 
+The Product 
+The Transmission Provider must conduct the necessary studies and construct 
+the network facilities needed to integrate the Generator’s Facility (1) in a manner 
+comparable to that in which the Transmission Provider integrates its generating 
+facilities to serve native load customers, or (2) in an ISO or RTO with market 
+1/7/02 
+3 
+based congestion management, in the same manner as all other Network 
+Resources. Network Resource Interconnection Service in and of itself does not 
+convey any transmission delivery service. 
+The Study 
+The interconnection study for Network Resource Interconnection Service shall 
+assure that the Generator’s Facility meets the requirements for Energy Resource 
+Interconnection Service and as a general matter, that such Facility 
+interconnection is also studied with the Transmission Provider’s transmission 
+system at peak load, under a variety of severely stressed conditions, to 
+determine whether, with the interconnecting Generator Facility at full output, the 
+aggregate of generation in the local area can be delivered to the aggregate of 
+load on the Transmission Provider’s transmission system, consistent with the 
+Transmission Provider’s reliability criteria and procedures. This approach 
+assumes that some portion of existing Network Resources are displaced by the 
+output of the Generator’s Facility. The PJM Generator Deliverability Procedure, 
+appended hereto, represents an acceptable method for conducting such study. 
+Transmission Providers will be required to file procedures with FERC to 
+demonstrate that its procedures meet the design objectives described above, 
+and receive FERC acceptance of such procedures. The foregoing study 
+standard does not preclude a Transmission Provider from offering Network 
+Resource Interconnection Service under a study standard less stringent than the 
+PJM Generator Deliverability Procedure.10 
+The interconnecting Generator may request the studies associated with Network 
+Resource Interconnection Service at the time of its interconnection application, 
+together with its request(s) for study of other levels of interconnection service, 
+and, following the completion of the requested facilities studies and subject to 
+the construction of all necessary upgrades, may elect to proceed with Network 
+Resource Interconnection Service or to proceed under a lower level of 
+interconnection service to the extent that only certain upgrades will be 
+completed. 
+There is no requirement either at the time of study or interconnection, or at any 
+point in the future, that the interconnecting Generator’s Facility be designated as 
+a Network Resource by a network transmission customer or that the Generator 
+identify a specific buyer (or sink). To the extent a Network Customer does 
+designate the Facility as a Network Resource, it must do so pursuant to the 
+10 For example, satisfying a Minimum Interconnection Standard for New York ISO and for ISO New 
+England, that is less stringent than the standard defined above for Network Resource Interconnection 
+Service, allows any Generator in those markets to compete in the energy, capacity and ancillary service 
+markets on an equal basis. In the case of the New York ISO, the issue of deliverability of capacity is 
+sometimes addressed through locational capacity requirements. In PJM, satisfying the Energy Resource 
+Interconnection Service standard allows the Generator’s Facility to become a Network Resource for the 
+purposes of the Energy market. 
+1/7/02 
+4 
+Transmission Provider’s OATT. 
+Delivery Service Implications: 
+Network Resource Interconnection Service allows the interconnecting 
+Generator’s Facility to be designated by any Network Customer on the 
+Transmission Provider’s transmission system as a Network Resource, up to the 
+Facility’s full output, on the same basis as all other existing Network Resources 
+interconnected to the Transmission Provider’s transmission system, and to be 
+studied as a Network Resource on the assumption that such a designation will 
+occur. Any Network Customer can utilize its network service to obtain delivery of 
+energy from the interconnected Generator’s Facility in the same manner as it 
+accesses other Network Resources. A Facility receiving Network Resource 
+Interconnection Service may also be used to provide ancillary services after 
+technical studies and/or periodic analyses are performed with respect to the 
+Facility’s ability to provide any applicable ancillary service, provided that such 
+studies and analyses have been or would be required in connection with the 
+provision of such ancillary services by any existing Network Resource. In 
+addition, in the event of transmission constraints on the Transmission Provider’s 
+transmission system, the Generator’s Facility shall be subject to the applicable 
+congestion management procedures in the Transmission Provider’s transmission 
+system in the same manner as all other Network Resources.11 
+Once a Generator satisfies the requirements for obtaining Network Resource 
+Interconnection Service, any future transmission service request for delivery from the 
+Facility within the Transmission Provider’s transmission system of any amount of 
+capacity and/or energy, up to the amount initially studied, will not require that any 
+additional studies be performed or that any further upgrades associated with such 
+Facility be undertaken, regardless of whether or not such Facility is ever designated by 
+a Network Customer as a Network Resource and regardless of changes n i ownership of 
+the Facility. Accordingly, to the extent the Generator subsequently enters into an 
+arrangement for long term firm point to point transmission service for a term in excess of 
+[_______year(s)] 
+12 for deliveries from the Facility outside the Transmission Provider’s 
+transmission system, if the Generator subsequently requests that the amount of such 
+point to point reserved capacity revert back to the amount of capacity initially studied in 
+connection with the earlier request for the Network Resource Interconnection Service, 
+such request may require additional studies and upgrades in order for the Transmission 
+Provider to grant such request. 
+11 If there is congestion, the Transmission Provider will relieve congestion by means including, but not 
+limited to, the use of least cost redispatch, or otherwise consistent with such Transmission Provider’s 
+OATT. 
+12 PJM and NEPOOL presently allow the Network Resource designation to remain in effect at least for 
+three years following a cessation of operation of the Facility. In addition, PJM and NEPOOL do not 
+remove such designation when the resource sells outside of the control area. 
+1/7/02 
+5 
+Depending on how the cost allocation issue is resolved, the interconnecting Generator 
+may be allocated congestion rights based on the construction of upgrades. 
+Optional Interconnection Service(s) 
+Interconnection service products are defined by the types of studies performed, and the 
+level of system upgrades undertaken, in connection with a given request for 
+interconnection service. For example, Energy Resource Interconnection Service and 
+Network Resource Interconnection Service products are studied as set forth above. 
+Other “optional ” interconnection service products and the rights associated with such 
+interconnection service products may also be defined to the extent alternative studies 
+are undertaken. For example, even if a Facility is studied as a Network Resource, it 
+may wish to construct only those upgrades that would allow the Generator to deliver the 
+Facility’s output to a more limited number of delivery points. Agreement has not been 
+reached in defining specific optional interconnection service products or with respect to 
+what, if any, alternative studies a Transmission Provider would be willing to perform 
+beyond the NR Interconnection Service or ER Interconnection Service study described 
+above. If, however, a Transmission Provider does not agree to perform a given study, 
+the Transmission Provider will, at the Generator’s option, provide the required data to 
+perform such study to an appropriate third party under suitable confidentiality limitations. 

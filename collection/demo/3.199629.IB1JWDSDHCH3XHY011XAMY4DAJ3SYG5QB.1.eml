@@ -1,0 +1,336 @@
+RAC - Risk Assessment & Control	
+California Exposure as of COB	5/9/2001	
+April 	May	April & May	
+Financial 	Physical 	Sales 	Purchases 	Cash	Sales 	Purchases 	Cash	Net Settlement Risk	Enron's Net	Counterparty's  	
+Counterparty	Enron Entity	Mark-to-Market 	Mark-to-Market 	(A/R)	(A/P)	(A/R - A/P)	(A/R)	(A/P)	(A/R - A/P)	(A/R - A/P)	Exposure	Net Exposure	
+Pacific Gas & Electric Company	Enron Canada	$0 	($1,329,642)	$23,127,420 	($489,692)	$22,637,728 	$13,721,952 	$0 	$13,721,952 	$36,359,680 	$35,030,038 	$0 	
+Pacific Gas & Electric Company	ENA Corp.	$63,210,710 	($56,870,581)	$12,727,229 	($1,916,245)	$10,810,984 	$0 	$0 	$0 	$10,810,984 	$63,210,710 	($46,059,597)	
+Pacific Gas & Electric Company	EPMI	$0 	($143,054,543)	$0 	$0 	$0 	$4,871,360 	$0 	$4,871,360 	$4,871,360 	$0 	($138,183,183)	
+Pacific Gas & Electric Company	EES	$0 	$0 	$226,301,754 	$0 	$226,301,754 	$0 	$0 	$0 	$226,301,754 	$226,301,754 	$0 	Px Credit due to EES, part of which was transferred to EPMI balance sheet.  Physical MTM of $277.6mm was released due to putting customers back to utility.	
+Pacific Gas & Electric Company	EEMC	$0 	$0 	$161,582,434 	$0 	$161,582,434 	$0 	$0 	$0 	$161,582,434 	$161,582,434 	$0 	Px Credit due to EEMC, part of which was transferred to EPMI balance sheet.  Physical MTM of $328.5mm was released due to putting customers back to utility.	
+Pacific Gas & Electric Company	EES	$0 	$0 	$0 	($1,025,908)	($1,025,908)	$0 	$0 	$0 	($1,025,908)	$0 	($1,025,908)	
+Pacific Gas & Electric Company	Enron Wind	$0 	$0 	$447,802 	$0 	$447,802 	$0 	$0 	$0 	$447,802 	$447,802 	$0 	
+     Total Pacific Gas & Electric Company	$486,572,738 	($185,268,688)	$301,304,050 	(a)	
+PG&E Energy Services, Energy Trading Corporation	Enron Canada	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	
+PG&E Energy Services, Energy Trading Corporation	ENA Corp.	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	
+PG&E Energy Services, Energy Trading Corporation	EPMI	$0 	$0 	$0 	$0 	$0 	$0 	($22,223)	($22,223)	($22,223)	$0 	($22,223)	Power Swap - One day only	
+PG&E Energy Services, Energy Trading Corporation	EES/EEMC	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	
+      Total PG&E Energy Services, Energy Trading Corporation	$0 	No Set Off	
+PG&E Energy Trading - Power, L.P.	Enron Coal	$0 	$0 	$0 	$0 	$0 	$0 	$0 	
+PG&E Energy Trading - Power, L.P.	Enron Coal -London	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	Phys. MTM per London	
+PG&E Energy Trading - Power, L.P.	ENA Corp.	($983,042)	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	($983,042)	
+PG&E Energy Trading - Power, L.P.	ENA Corp.	$0 	($950,899)	$0 	$0 	$0 	$4,123,625 	($3,715,000)	$408,625 	$3,472,703 	$2,521,804 	$0 	
+PG&E Energy Trading - Power, L.P.	EEMC	$0 	$32,935,037 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$32,935,037 	$0 	
+PG&E Energy Trading - Power, L.P.	EPMI	$0 	$13,537,326 	$43,432,199 	($36,826,520)	$6,605,679 	$50,997,203 	($72,653,382)	($21,656,179)	($6,825,907)	$6,711,419 	$0 	Physical MTM has been reduce by $404.8mm due to assigment to other CPs. 	
+    Total PG&E Energy Trading - Power, L.P.	$42,168,260 	No Set Off	
+PG&E Quantum Ventures	EEMC	$0 	$0 	$0 	$0 	$0 	$0 	$0 	PG&E Corp. guaranteed $10MM receivable to EES was received 01/23.	
+CEG Energy Options Inc.	ENA Corp.	$0 	$0 	$0 	$0 	$0 	$0 	$0 	
+     Total Quantum Ventures and CEG Energy Options	$0 	$0 	$0 	No Set Off	$8,223,610 	
+$0 	$0 	
+PG&E Energy Trading, Canada Corporation	Enron Canada	$2,050,552 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$2,050,552 	$0 	Set Off W/I Enron Canada	
+PG&E Energy Trading, Canada Corporation	Enron Canada	$0 	($20,836,804)	$0 	($7,589,673)	($7,589,673)	$51,302,988 	($23,660,817)	$27,642,171 	$19,859,144 	$0 	($977,660)	Set Off W/I Enron Canada	
+PG&E Energy Trading, Canada Corporation	ENA Corp.	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	
+PG&E Energy Trading, Canada Corporation	ENA Corp.	$0 	$154,671 	$698,700 	$0 	$698,700 	$3,653,340 	$0 	$3,653,340 	$6,018,387 	$6,173,058 	$0 	
+    Total PG&E Energy Trading, Canada Corporation	$8,223,610 	
+PG&E Energy Trading-Gas Corporation	Enron Canada	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	
+PG&E Energy Trading-Gas Corporation	Enron Canada	$0 	($84,043)	$0 	$0 	($1,637,380)	($1,637,380)	($1,637,380)	$0 	($1,721,423)	
+PG&E Energy Trading-Gas Corporation	ENA Corp.	$173,293,743 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$173,293,743 	$0 	
+PG&E Energy Trading-Gas Corporation	ENA Corp.	$0 	($8,442,220)	$1,342,182 	($10,037,915)	($8,695,733)	$17,232,951 	($35,324,029)	($18,091,078)	($23,649,555)	$0 	($32,091,775)	
+PG&E Energy Trading-Gas Corporation	HPL Co.	$0 	($152,446)	$100,125 	($513,717)	($413,592)	$797,875 	($2,265,015)	($1,467,140)	($1,732,517)	$0 	($1,884,963)	
+PG&E Energy Trading-Gas Corporation*	EEMC/EES	$2,463,093 	($3,376,566)	$0 	$0 	$0 	$629,387 	$0 	$629,387 	$0 	$2,463,093 	($3,376,566)	
+     Total  PG&E Energy Trading-Gas Corporation*	$175,756,836 	No Set Off	
+          Subtotal PG&E Trading Subsidiaries	$226,148,706 	($41,057,652)	
+     Total Exposure to PG&E Trading Subsidiaries	$226,148,706 	(b)	DOUBLE CHECK NETTING CALC.	
+     Total Master Set-Off Benefit	($41,057,652)	Threshold Plus Collateral	Potential Margin	
+           Total Exposure after Set-Off	$185,091,054 	
+                     Less Cash Collateral	($100,000,000)	
+                     Less Pipeline Capacity Collateral	($151,817,323)	
+           Total PG&E NEG Net Position	($66,726,269)	
+$3,035,828 	Net Amts Paid @ 03/15/01	
+PG&E Gas Transmission, Northwest Corporation	ENA Corp.	$0 	$65,544,466 	$0 	$0 	$0 	$0 	$65,544,466 	$0 	$65,544,466 	('c)	($3,035,828)	
+$65,544,466 	$0 	
+$0 	$0 	$0 	$65,544,466 	No Set Off	
+Nine Energy Services LLC	ENA Corp.	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	$0 	(a)	
+$778,265,910 	($226,326,340)	
+     Total PGE Relationship Exposure	$291,693,172 	(b)+('c)	
+     Total Master Set-Off Benefit	($41,057,652)	
+           Total Relationship Exposure after Set-Off	$250,635,520 	
+                     Less Cash Collateral	($100,000,000)	
+                     Less Pipeline Capacity Collateral	($151,817,323)	
+           Total Relationship Net Position	($1,181,803)	
+3806700	($3,175,692)	
+$237,571,963 	($152,484,715)	Check Figures	$387,470,827 	($222,949,774)	
+Trading Check Figures	
+Credit Agg Tie	$176,824,346 	($20,150,981)	
+FMTM	PMTM	Net Receivables	Total Exposure	
+ENA	$172,310,701 	($9,238,448)	($14,158,465)	
+EPMI / EEMC+EES	$2,463,093 	$43,095,797 	($6,848,130)	66000000	
+ECC	$2,050,552 	($20,920,847)	$19,859,144 	
+HPL	$0 	($152,446)	($1,732,517)	
+EEL	$0 	$0 	$0 	
+$176,824,346 	$12,784,056 	($2,879,968)	$186,728,434 	
+($20,150,981)	wconwell:
+Intramonth receivable per EES
+wconwell:
+Unbilled receivable per EES
+wconwell:
+Unbilled payable per EES
+wconwell:
+Interpolated based on sell volume and sell exposure as there was buy volume but no buy exposure associated with it.
+wconwell: Per Mary Lynne Ruffer, amounts which have or will be transferred to EPMI related to Px Credit
+wconwell:
+Includes $16,200 payable in SAP
+wconwell:
+Includes $574 receivable in SAP
+wconwell:
+Per Mary Lynne Ruffer, amounts which have or will be transferred to EPMI related to Px Credit.
+wconwell:
+CAS shows values in SAP that have been transferred from EES and EEMC for Px Credit receivables.  However, we are still reconciling how much was actually transferred.  Hence this schedule shows total Px Credit due still with EES and EEMS
+wconwell:
+Receivables per Kevin Bosse to Leslie Reeves dated 4/03/01
+wconwell:
+Per Settlements
+
+wconwell:
+Per Settlements
+wconwell:
+Per Settlements
+wconwell:
+Per Settlements
+wconwell:
+Per Settlements
+wconwell:
+Per Settlements
+RAC - Risk Assessment & Control	
+California Exposure as of COB	5/3/2001	
+April & May	
+Financial 	Physical 	Net Settlement Risk	Enron's Net	Counterparty's  	
+Counterparty	Enron Entity	Mark-to-Market 	Mark-to-Market 	(A/R - A/P)	Exposure	Net Exposure	
+Pacific Gas & Electric Company	Enron Canada	$0 	($1,915,874)	$34,346,264 	$32,430,390 	$0 	
+Pacific Gas & Electric Company	ENA Corp.	$65,471,620 	($83,125,247)	$17,578,097 	$65,471,620 	($65,547,150)	
+Pacific Gas & Electric Company	EPMI	$0 	($142,941,950)	$3,614,880 	$0 	($139,327,070)	
+Pacific Gas & Electric Company	EES	$0 	$0 	$230,336,115 	$230,336,115 	$0 	Px Credit due to EES, part of which was transferred to EPMI balance sheet.  Forward Physical MTM of $250.1mm was released due to putting customers back to utility.	
+Pacific Gas & Electric Company	EEMC	$0 	$0 	$162,080,419 	$162,080,419 	$0 	Px Credit due to EEMC, part of which was transferred to EPMI balance sheet.  Forward Physical MTM of $309.3mm was released due to putting customers back to utility.	
+Pacific Gas & Electric Company	EES	$0 	$0 	($2,646,443)	$0 	($2,646,443)	
+Pacific Gas & Electric Company	Enron Wind	$0 	($629,599)	$216,336 	$0 	($413,262)	
+     Total Pacific Gas & Electric Company	$490,318,544 	($207,933,925)	$282,384,619 	(a)	
+PG&E Energy Services, Energy Trading Corporation	Enron Canada	$0 	$0 	$0 	$0 	$0 	
+PG&E Energy Services, Energy Trading Corporation	ENA Corp.	$0 	$0 	$0 	$0 	$0 	
+PG&E Energy Services, Energy Trading Corporation	EPMI	$0 	$0 	($22,223)	$0 	($22,223)	Power Swap - One day only	
+PG&E Energy Services, Energy Trading Corporation	EES/EEMC	$0 	$0 	$0 	$0 	$0 	
+      Total PG&E Energy Services, Energy Trading Corporation	$0 	No Set Off	
+PG&E Energy Trading - Power, L.P.	Enron Coal	$0 	$0 	$0 	$0 	$0 	
+PG&E Energy Trading - Power, L.P.	Enron Coal -London	$0 	$0 	$0 	$0 	$0 	Phys. MTM per London	
+PG&E Energy Trading - Power, L.P.	ENA Corp.	($983,042)	$0 	$0 	$0 	($983,042)	
+PG&E Energy Trading - Power, L.P.	ENA Corp.	$0 	($950,899)	$3,472,703 	$2,521,804 	$0 	
+PG&E Energy Trading - Power, L.P.	EEMC	$0 	$32,935,037 	$0 	$32,935,037 	$0 	
+PG&E Energy Trading - Power, L.P.	EPMI	$0 	$13,537,326 	($6,825,907)	$6,711,419 	$0 	Physical MTM has been reduce by $404.8mm due to assigment to other CPs.	
+    Total PG&E Energy Trading - Power, L.P.	$42,168,260 	No Set Off	
+PG&E Quantum Ventures	EEMC	$0 	$0 	$0 	$0 	$0 	PG&E Corp. guaranteed $10MM receivable to EES was received 01/23.	
+CEG Energy Options Inc.	ENA Corp.	$0 	$0 	$0 	$0 	$0 	
+     Total Quantum Ventures and CEG Energy Options	$0 	No Set Off	$8,223,610 	
+PG&E Energy Trading, Canada Corporation	Enron Canada	$2,050,552 	$0 	$0 	$2,050,552 	$0 	Set Off W/I Enron Canada	
+PG&E Energy Trading, Canada Corporation	Enron Canada	$0 	($20,836,804)	$19,859,144 	$0 	($977,660)	Set Off W/I Enron Canada	
+PG&E Energy Trading, Canada Corporation	ENA Corp.	$0 	$0 	$0 	$0 	$0 	
+PG&E Energy Trading, Canada Corporation	ENA Corp.	$0 	$154,671 	$6,018,387 	$6,173,058 	$0 	
+    Total PG&E Energy Trading, Canada Corporation	$8,223,610 	
+PG&E Energy Trading-Gas Corporation	Enron Canada	$0 	$0 	$0 	$0 	$0 	
+PG&E Energy Trading-Gas Corporation	Enron Canada	$0 	($84,043)	($1,637,380)	$0 	($1,721,423)	
+PG&E Energy Trading-Gas Corporation	ENA Corp.	$173,293,743 	$0 	$0 	$173,293,743 	$0 	
+PG&E Energy Trading-Gas Corporation	ENA Corp.	$0 	($8,442,220)	($23,649,555)	$0 	($32,091,775)	
+PG&E Energy Trading-Gas Corporation	HPL Co.	$0 	($152,446)	($1,732,517)	$0 	($1,884,963)	
+PG&E Energy Trading-Gas Corporation*	EEMC/EES	$2,463,093 	($3,376,566)	$0 	$2,463,093 	($3,376,566)	
+     Total  PG&E Energy Trading-Gas Corporation*	$175,756,836 	No Set Off	
+          Subtotal PG&E Trading Subsidiaries	$226,148,706 	($41,057,652)	
+     Total Exposure to PG&E Trading Subsidiaries	$226,148,706 	(b)	DOUBLE CHECK NETTING CALC.	
+     Total Master Set-Off Benefit	($41,057,652)	Threshold Plus Collateral	Potential Margin	
+           Total Exposure after Set-Off	$185,091,054 	
+                     Less Cash Collateral	($100,000,000)	
+                     Less Pipeline Capacity Collateral	($151,817,323)	
+           Total PG&E NEG Net Position	($66,726,269)	
+$3,035,828 	Net Amts Paid @ 03/15/01	
+PG&E Gas Transmission, Northwest Corporation	ENA Corp.	$0 	$65,544,466 	$0 	$65,544,466 	$0 	$65,544,466 	('c)	($3,035,828)	
+$65,544,466 	$0 	
+$65,544,466 	No Set Off	
+Nine Energy Services LLC	ENA Corp.	$0 	$0 	$0 	$0 	$0 	(a)	
+$782,011,716 	($248,991,577)	
+     Total PGE Relationship Exposure	$574,077,791 	(a)+(b)+('c)	
+     Total Master Set-Off Benefit	($41,057,652)	
+           Total Relationship Exposure after Set-Off	$533,020,139 	
+                     Less Cash Collateral	($100,000,000)	
+                     Less Pipeline Capacity Collateral	($151,817,323)	
+           Total Relationship Net Position	$281,202,816 	
+$239,832,873 	($179,842,619)	Check Figures	$387,132,089 	($245,201,749)	
+Check Figures	
+Credit Agg Tie	$242,295,966 	($182,589,586)	
+FMTM	PMTM	Net Receivables	Total Exposure	
+ENA	$172,310,701 	($9,238,448)	($14,158,465)	
+EPMI / EEMC+EES	$2,463,093 	$43,095,797 	($6,848,130)	66000000	
+ECC	$2,050,552 	($20,920,847)	$19,859,144 	
+HPL	$0 	($152,446)	($1,732,517)	
+EEL	$0 	$0 	$0 	
+$176,824,346 	$12,784,056 	($2,879,968)	$186,728,434 	wconwell:
+Intramonth receivable per EES
+wconwell:
+Interpolated based on sell volume and sell exposure as there was buy volume but no buy exposure associated with it.
+wconwell:
+Per London
+wconwell: Per Mary Lynne Ruffer, amounts which have or will be transferred to EPMI related to Px Credit
+wconwell:
+Per Mary Lynne Ruffer, amounts which have or will be transferred to EPMI related to Px Credit.
+wconwell:
+Per Tanya's Schedule dated 04/08/01
+wconwell:
+Per Tanya's Schedule
+wconwell:
+Per Tanya's Schedule
+wconwell:
+Per Tanya's Schedule
+wconwell:
+Per Tanya's Schedule
+wconwell:
+Per Tanya's Schedule
+wconwell:
+Per Tanya's Schedule dated 04/08/01
+wconwell:
+Per Tanya's Schedule dated 04/08/01
+wconwell:
+Per Tanya's Schedule dated 04/08/01
+wconwell:
+Per Minal Dalia worksheet dated 04/10/01
+wconwell:
+Unbilled receivable per EES
+wconwell:
+Unbilled payable per EES
+wconwell:
+Includes $574 receivable in SAP
+wconwell:
+Includes $16,200 payable in SAP
+wconwell:
+Per Settlements
+wconwell:
+Per Settlements
+wconwell:
+Receivables per Kevin Bosse to Leslie Reeves dated 4/03/01
+wconwell:
+Per Settlements
+
+wconwell:
+Per Settlements
+wconwell:
+Per Settlements
+wconwell:
+Per Settlements
+RAC - Risk Assessment & Control	
+California Exposure as of COB	5/9/2001	$122,838,762 	
+April & May	
+Financial 	Physical 	Net Settlement Risk	Enron's Net	Counterparty's  	
+Counterparty	Enron Entity	Mark-to-Market 	Mark-to-Market 	(A/R - A/P)	Exposure	Net Exposure	
+Southern California Edison Company	EPMI	$0 	($51,425,893)	$126,904,112 	$75,478,219 	$0 	Master Power Contract; forward exposure relating to EPMI fixed power supply out to 2005	
+Southern California Edison Company	Portland General 	$0 	$0 	$53,333,333 	$53,333,333 	$0 	Estimates of Portland General Exposure relating to an annuity stream due for the termination of power sales agreement 3 years ago.	Estimates of Portland General Exposure relating to an annuity stream (23 remaining monthly pmts of $2,667,000) for the termination of a long-term power sales agreement 3 years ago.	
+Southern California Edison Company	EES	$0 	$0 	$84,093,697 	$84,093,697 	$0 	Px Credit due to EES which is to be transferred to EPMI's balance sheet.  Forward Physical MTM of $100mm was released due to putting customers back to utility effective March 13.	
+Southern California Edison Company	EEMC	$0 	$0 	$38,745,066 	$38,745,066 	$0 	Px Credit due to EEMC which is to be transferred to EPMI's balance sheet.  Forward Physical MTM of $194.2mm was released due to putting customers back to utility effective March 13.	
+Southern California Edison Company	Enron Wind 	$0 	$27,853,251 	$8,652,379 	$36,505,631 	$0 	Mark to Market as of 04/18/01; estimates on accrued A/R as of 04/10/01.	
+     Total Utility Exposure	288,155,945 	0 	$288,155,945 	
+Edison First Power Limited	ECT Resources Int.	$0 	$0 	$0 	$0 	$0 	Per London. Power Swaps	
+Edison First Power Limited	ECT Resources Ltd.	$0 	($7,646,982)	$0 	$0 	($7,646,982)	Enron Coal sleeves for ECT Resources under one coal contract.	(a)	
+Edison Mission Energy	ENA Corp.	$0 	$0 	$0 	$0 	$0 	
+Edison Mission Energy - First Hydro 	ECT Resources Int.	$0 	$0 	$0 	$0 	$0 	Exposure if any is due to financially settled swaps.	
+Edison Mission Marketing & Trading	ENA Corp.	$10,377,138 	($39,353)	$0 	$10,377,138 	($39,353)	ENA has a $35MM inc gty from Edison Mission Energy for (4) specific swaps and a $15MM inc gty from Edison Mission Midwest Holdings for the remaining swap portfolio.	
+Edison Mission Marketing & Trading 	EPMI	$0 	$1,737,103 	($2,009,555)	$0 	($272,452)	EPMI has a $20MM inc gty from Edison Mission Energy and $14MM letters of credit.	
+          Subtotal Non-Utility Exposure	$10,377,138 	($7,958,787)	
+     Total Exposure to Non-Utility Subsidiaries	$10,377,138 	($7,958,787)	With Master Set-Off	$2,418,351 	
+     Total Master Set-Off Benefit	($7,958,787)	
+              Total Exposure after Set-Off	$2,418,351 	
+     Total Relationship Exposure	$298,533,083 	($7,958,787)	
+$298,533,083 	$290,574,296 	With Master Set-Off	
+     Total Master Set-Off Benefit	($7,958,787)	
+           Total Relationship Exposure after Set-Off	$290,574,296 	
+Notes: 	
+(a) Net Settlement Risk for Coal is only one-month receivables/payables due to approx. 10 day settlement for coal delivery.	
+CHECK	$85,855,357 	($7,958,787)	wconwell:
+Per Evan Hughes as of 04/10
+
+wconwell:
+Per Evan Hughes as of 04/10
+
+wconwell:
+Includes $40 of payables in SAP
+wconwell:
+Includes $40 from 12/1/2000 per SAP
+wconwell:
+Per Minal Dalia worksheet dated 04/10/01
+wconwell:
+SAP feed per CAS 05/02/01
+RAC - Risk Assessment & Control	
+California Exposure as of COB	5/3/2001	
+Net Sales	Net Purchases	Enron's Net	CA ISO's	ISO	
+Counterparty	Enron Entity	Activity Month	(if A/R-A/P > $0)	(if A/P-A/R < $0)	Exposure	Net Exposure	Pmt. Date	
+California ISO	Enron Power Marketing, Inc.	Nov 2000	$41,504,394 	a	$41,504,394 	02-Feb-01	
+California ISO	Enron Power Marketing, Inc.	Dec 2000	$0 	b	$0 	
+California ISO	Enron Power Marketing, Inc.	Jan 2001	$0 	b	$0 	
+California ISO	Enron Power Marketing, Inc.	Feb 2001	$0 	b	$0 	
+California ISO	Portland General	Nov 2000	$6,243,321 	$6,243,321 	02-Feb-01	
+California ISO	Portland General	Dec 2000	$41,224,222 	$41,224,222 	05-Mar-01	
+California ISO	Portland General	Jan 2001	$10,586,073 	$10,586,073 	
+California ISO	Portland General	Feb 2001 (estimate)	$4,358,562 	$4,358,562 	03-Apr-01	
+Total CA ISO	$103,916,572 	$0 	$103,916,572 	$0 	
+PX Net Purchases	PX Net Sales	
+Physical 	Net Sales	Net Purchases	Enron's Net	CA PX's	Payment	Receipt	
+Counterparty	Enron Entity	Activity Month	Mark-to-Market 	(if A/R-A/P > $0)	(if A/P-A/R < $0)	Exposure	Net Exposure	Date:	Date:	
+California Power Exchange Corporation	Enron Power Marketing, Inc.	Nov 2000 (Real Time)	$19,263 	$0 	$19,263 	$0 	01-Feb-01	05-Feb-01	
+California Power Exchange Corporation	Enron Power Marketing, Inc.	Dec 2000 (Real Time Mkt)	$0 	c	02-Mar-01	06-Mar-01	
+California Power Exchange Corporation	Enron Power Marketing, Inc.	Dec 2000 (Core Mkt Default Share - SCE)	$8,253,866 	d	$8,253,866 	16-Jan-01	18-Jan-01	EPMI received $4.1MM of $12.5MM	
+California Power Exchange Corporation	Enron Power Marketing, Inc.	Dec 2000 (Blk FW Mkt)	$0 	e	16-Jan-01	18-Jan-01	EPMI paid invoice	
+California Power Exchange Corporation	Enron Power Marketing, Inc.	Jan 2001 (Real Time Mkt)	$0 	f	$0 	02-Apr-01	04-Apr-01	
+California Power Exchange Corporation	Enron Power Marketing, Inc.	Jan 2001 (Core Mkt)	($24,715,955)	g	($24,715,955)	15-Feb-01	20-Feb-01	
+California Power Exchange Corporation	Enron Power Marketing, Inc.	Jan 2001 (Block FW Mkt)	($13,338,016)	g	($13,338,016)	15-Feb-01	20-Feb-01	
+California Power Exchange Corporation	Enron Power Marketing, Inc.	Jan 2001 (Admin Fees for Core & Blk FW Mkt)	$0 	h	
+California Power Exchange Corporation	Enron Power Marketing, Inc.	Feb 2001 (Real Time)	$101 	$101 	
+California Power Exchange Corporation	Portland General	Oct 2000 (Real Time)	$9,280 	$9,280 	$0 	
+California Power Exchange Corporation	Portland General	Nov 2000 (Real Time)	$1,221,198 	$1,221,198 	
+Dec 2000 (Core)	$333,417 	$333,417 	
+California Power Exchange Corporation	Portland General	January 2001 (Real Time)	$120 	$120 	
+California Power Exchange Corporation	Portland General	January 2001 (Core Mkt)	$7,623,476 	$7,623,476 	
+California Power Exchange Corporation	Portland General	February 2001 (Core Mkt)	$0 	$0 	
+Total CA PX	$17,460,621 	($38,053,870)	$17,460,620 	($38,053,870)	
+NOTES:	
+a- As of 5/9/01, CAPX does not have available to the industry details to the actual percentages repesenting the CAPX default to the CAISO for Nov 2000 real time.  CAPX estimated only that 80% of the CAPX default is attributed to PG&E.	
+b- EPMI had paid in full the Dec, Jan, and Feb invoices due CAISO for real-time transmission and grid management charges to ensure EPMI compliance as a Scheduling Coordinator	PORTLAND GENERAL	TOTAL	
+c- EPMI had CAPX net the Prelim and Final invoices of $864,091.23 and $15,297.24, respectively, from EPMI's cash collateral held by CAPX in escrow.	$0 	$282,384,619 	
+$0 	$183,980,446 	
+$0 	$65,544,466 	
+$53,333,333 	$288,155,945 	
+$0 	$10,377,138 	
+$53,333,333 	$830,442,614 	
+$62,412,178 	$103,916,572 	
+#REF!	$17,460,620 	
+#REF!	$121,377,193 	
+b- EPMI had paid in full the Dec, Jan, and Feb invoices due CAISO for real-time transmission and grid management charges to ensure EPMI compliance as a Scheduling Coordinator	
+c- EPMI had CAPX net the Prelim and Final invoices of $864,091.23 and $15,297.24, respectively, from EPMI's cash collateral held by CAPX in escrow.	
+d- all net sales due attributed to DEFAULT OF SOUTHERN CALIFORNIA EDISON COMPANY; FERC ordered reversal of previous chargebacks/shortpayments.	
+e- EPMI had paid $32,648,116 in full to CAPX for the Dec Block Forward Market	
+f- EPMI had CAPX net the Prelim and Final invoices of $64,547.04 and $2,255.74, respectively, from EPMI's cash collateral held by CAPX in escrow.	
+g- not yet billed by CAPX	
+h- EPMI paid CAPX admin fees for the Core and Block Forward Markets of $55,007.32 and $1,232.00, respectively, by having CAPX net the fees against EPMI's cash collateral held by CAPX in escrow.	wconwell:
+Realtime transmisison and grid mgt.
+wconwell:
+Realtime and grid mgt - includes $7.6mm mandated sales per Richardson order
+wconwell:
+All sales mandated per Richarson order
+wconwell:
+All sales mandated per Richarson order
+SUMMARY EXPOSURE BY ENRON ENTITY	
+As of COB 05/03/01	
+Counterparty	ENA	EEMC/EES	EEL	EWS	PGE	Total	
+PG&E Utility	($106,972,210)	$389,770,091 	($413,262)	$282,384,619 	$281,202,816 	
+PG&E Non-Utility	($33,203,367)	*	$32,021,564 	*	$0 	($1,181,803)	
+SCE Utility	$75,478,219 	$122,838,762 	$36,505,631 	$53,333,333 	$288,155,945 	
+SCE Non-Utility	$2,418,351 	*	$0 	$2,418,351 	
+ISO	$41,504,394 	$62,412,178 	$103,916,572 	
+Px	$8,273,129 	$9,187,491 	$17,460,620 	
+     Subtotal	($12,501,484)	$544,630,417 	$0 	$36,092,368 	$124,933,003 	
+     Total California Utility Exposure	$693,154,305 	
+Note:	
+* includes master set-off within trading entities and collateral held to date.	
+Check	$693,154,305 	

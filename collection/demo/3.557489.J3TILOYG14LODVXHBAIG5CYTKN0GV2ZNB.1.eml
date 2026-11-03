@@ -1,0 +1,66 @@
+Forward on Enron Corporation
+Summary of Final Terms as of November 29, 2000
+
+Forward Buyer: Enron Corp.
+
+Forward Seller: Lehman Brothers Finance S.A. 
+  (Guaranteed by Lehman Brothers Holdings Inc.)
+
+Agent: Lehman Brothers Inc. (“LBI”) is acting as agent on behalf of Lehman Brothers Finance S.A. ("LBF") for this Transaction.  LBI has no obligations, by guarantee, endorsement or otherwise, with respect to the performance of this Transaction by LBF.
+
+Selected Security: Enron Corporation
+  (Bloomberg ticker: “ENE”)
+
+Notional Amount: 1,000,000 shares
+
+Trade Date: November 29, 2000
+
+Effective Date: December 4, 2000
+
+Expiration Date: February 28, 2001
+
+Forward Price: $73.9260 subject to adjustment (see Dividend Adjustment below)
+
+Settlement Method: Physical, with cash or net share settlement alternative at Forward Buyer’s option
+
+Settlement Date: Three business days after the Expiration Date
+
+Forward Settlement: Forward Buyer shall give Forward Seller 10 trading days advance notice as to the Settlement Method chosen.   If Forward Buyer elects cash or net share settlement, it must enter into an underwriting agreement and provide an effective registration statement pursuant to which Forward Seller can unwind its hedge.
+
+ In the case of Physical Settlement:
+ On the Settlement Date, Forward Buyer will settle this Forward by paying to the Forward Seller an amount in USD equivalent to the Notional Amount in exchange for the Number of Selected Securities. 
+
+ In the case of Cash or Net Share Settlement:
+ On the Settlement Date, Forward Buyer will receive from the Forward Seller a payment based on the appreciation of the Selected Security above the Forward Price calculated as follows: 
+ 
+The greater of
+a) 0; or:
+b)Number of Selected Securities  x (Sf – F)
+ 
+Additionally, the Forward Seller will receive from the Forward Buyer a payment based on the depreciation of the Selected Security below the Forward Price calculated as follows:
+
+
+The greater of
+a) 0; or:
+b)Number of Selected Securities  x (F– Sf)
+
+ where:
+  
+ F is the Forward Price
+Sf is the average execution price of the Selected Security at which Forward Seller unwinds its hedge.
+
+The payments as calculated above may be made in either USD (“Cash Settlement”) or unencumbered, fully registered and freely tradable shares of the Selected Security (“Free Shares”) of equivalent value (“Net Share Settlement”) at Forward Buyer’s sole discretion. If Forward Buyer elects Net Share Settlement and does not deliver Free Shares or enter into an underwriting agreement, Sf shall be the price determined by Forward Seller in a commercially reasonable manner. 
+The number of Shares that may be issued at settlement by Forward Seller will be limited to the total Shares authorized but not outstanding, reduced by the total amount of contingently issuable Shares. In any event, the number of Shares issuable by Forward Seller at settlement shall not exceed 3,000,000 Shares.
+Price Trigger Settlement: Upon the occurrence of a Price Trigger Event, Forward Seller shall be entitled to terminate or cause settlement of this Transaction with respect to all or a portion of the Shares. Forward Seller's partial exercise of such right in connection with a Price Trigger Event shall not preclude later exercises with respect to the remaining portion of Shares. 
+If Forward Seller elects to settle this Transaction, it shall notify Forward Buyer (a "Price Trigger Notice") of (i) the number of Shares subject to such Price Trigger Settlement and (ii) the Price Trigger Settlement Date (the "Exercise Date"). Physical Settlement shall apply, unless (i) Forward Buyer notifies Forward Seller by written notice of its election of Net Share Settlement within one Business Day of the effective date of the Price Trigger Notice.
+ If Forward Seller elects to terminate this Transaction, the Price Trigger Event shall constitute an Additional Termination Event with respect to Forward Buyer and Forward Buyer shall be the Affected Party.  "Price Trigger Event" means the closing price of a Share on the Exchange is $50 per Share or lower for 3 consecutive Exchange Business Days.
+
+Dividend Adjustment: If, at any time during the period from and including the Trade Date to, but excluding, the Expiration Date (the “Trade Period”), ex-dividend dates occur with respect to the Shares, the sum of all cash dividend amounts corresponding to such ex-dividend dates shall be subtracted from the Forward Price (F).
+
+Execution Fee: Forward Buyer shall pay Forward Seller a $0.03 / share execution fee on the Effective Date.  On the Settlement Date, Forward Buyer shall pay Forward Seller a $0.01 / share execution fee if the transaction is physically settled and a $0.03 / share execution fee if the transaction is cash or net share settled. 
+
+Calculation Agent: Lehman Brothers, Inc.
+
+Currency: All payments made in USD unless otherwise noted
+ 
+Documentation: ISDA
