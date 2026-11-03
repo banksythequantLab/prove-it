@@ -255,9 +255,12 @@ ui/             single-file operator dashboard
 | Cage posture | 12 flag assertions passing without a daemon |
 | Sinkhole | all four listeners verified end to end |
 | Pipeline + API | verified end to end in degraded mode |
-| Test suite | 40 passing |
+| Test suite | 41 passing |
+| Vision asymmetry | confirmed on all 4 techniques (82-95% of hidden words unseen) |
+| Injection obedience | **64% ungated; 0 reach the classifier gated** |
+| Privilege classification | **weak (recall 0.19-0.28) — needs fuller document context; no claim made** |
 | **Cage spawn / sealing proof** | **not yet run — needs a live daemon (`scripts/verify_cage.sh`)** |
-| Model passes (baseline F1, injection obedience) | not yet run — needs a Vultr Inference key |
+| Model passes | run on live Vultr Serverless Inference |
 
 ## License
 
