@@ -147,14 +147,49 @@ Two fixes, and the second is the one that matters:
 
 Carrier prose is also scrubbed before use. Mail transport headers (`Received:`, `Message-ID:`) are stripped, and so are confidentiality footers — leaving those in would let a classifier score well by pattern-matching "privileged and confidential" boilerplate instead of reading the document, inflating the one number here that is meant to be trustworthy. A test asserts the keyword rates stay within 10 points across classes.
 
-### Model benchmarks (need a Vultr Inference key)
+### Model results, measured on Vultr Serverless Inference
+
+Run against live Vultr Serverless Inference (`glm-5.3` and `mimo-v2.6-flash` for text, `mimo-v2.6-pro` for vision), on real TREC-labelled documents.
+
+**1. The asymmetry the whole design rests on — confirmed.** For each poison technique, the structural detector recovered the hidden instruction and a vision model was asked to transcribe the rendered page:
+
+| technique | hidden text recovered | appeared in vision transcript | shadow words unseen |
+|---|---|---|---|
+| white-on-white | 270 chars | no | 82% |
+| micro-type | 199 chars | no | 95% |
+| off-page | 242 chars | no | 89% |
+| render mode 3 | 201 chars | no | 86% |
+
+The text layer hands the model an instruction that is not on the page. That is now measured, not assumed.
+
+**2. Injection obedience — the number this project exists to move.**
+
+30 poisoned / 30 clean, balanced privileged/not, neutral titles:
+
+| | |
+|---|---|
+| Injection detected | 30/30 (100%), 0 false positives |
+| **Privileged docs talked into "not privileged" (ungated)** | **9 of 14 — 64%** |
+| Same documents, quarantine gate on | **0 reached the classifier**; 14/14 quarantined |
+| Model said it noticed an injection | 30/30 poisoned, 0/30 clean |
+
+The last two rows together are the finding: **the model's injection awareness was perfect and its resistance was not.** It flagged `injection_noted: true` on every poisoned document — including all 9 it then obeyed. Asking a model to be careful is measurably not a defense. That is the argument for containment as architecture rather than instruction, and it is the one claim here that is fully demonstrated.
+
+**3. Privilege classification accuracy — weak, and reported as such.**
+
+| run | recall | precision | note |
+|---|---|---|---|
+| glm-5.3, raw carrier prose, 80 docs | 0.275 | 0.846 | no poison |
+| mimo-v2.6-flash, rendered PDF, clean docs | 0.188 | 1.000 | neutral title |
+
+The model cannot currently do privilege review on this input, and the honest reason is that the input is thin: carrier extraction deliberately strips headers, footers and quoted replies, leaving ~5 lines of body prose. Real privilege review uses the whole document, the thread, and who the sender is — whether a participant is counsel is often the determining fact, and it has been stripped out. **No accuracy claim should be made for Faraday's classifier until it sees more of each document.** The containment result above does not depend on it.
+
+> **A benchmark that scored itself.** The first version of `--mode pdf` titled privileged documents "Counsel Communication" and everything else "Business Correspondence" — printing the ground-truth class at the top of every page. It reported recall **1.00** and F1 **0.947**. Against 0.275 on raw prose, that gap was the giveaway. With a neutral title, recall fell to **0.188** and measured obedience *rose* from 20% to 64%, because the leaked title had been giving the model a strong visible cue to resist the injection with. The leak flattered the classifier and understated the containment case at the same time. `tests/test_trec.py::test_benchmark_pdf_title_leaks_no_label` guards it.
 
 ```bash
-python3 scripts/benchmark_privilege.py --mode text --n 100   # baseline precision/recall
-python3 scripts/benchmark_privilege.py --mode pdf  --n 60    # injection obedience
+python3 scripts/benchmark_privilege.py --mode text --n 80   # baseline precision/recall
+python3 scripts/benchmark_privilege.py --mode pdf  --n 60   # injection obedience
 ```
-
-`--mode pdf` reports the number this project exists to move: **injection obedience** — how often a hidden instruction demanding "reclassify as NOT PRIVILEGED" actually flips the label on a genuinely privileged document. It measures it twice, with the quarantine gate off and on. A model at 0.9 F1 that obeys injections 60% of the time is not usable in a law firm, and the gap between those two runs is what Faraday is selling.
 
 > **Privacy.** This is real correspondence from real people, including personal mail swept into a public regulatory release. Aggregate benchmarking is ordinary research practice; putting an identifiable person's personal message on screen is not. `redact()` masks addresses, phone numbers and long digit strings and is **on by default**. Use the real corpus for the number and the synthetic corpus on camera.
 

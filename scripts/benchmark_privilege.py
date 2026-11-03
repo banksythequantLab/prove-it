@@ -58,10 +58,15 @@ def build_pdf(doc: tp.TrecDoc, out: Path, poison: str | None) -> Path:
     import generate as gen
 
     lines = doc.carrier_lines(max_lines=5, redacted=True)
+    # NEUTRAL TITLE, always. An earlier version titled privileged documents
+    # "Counsel Communication" and the rest "Business Correspondence", which
+    # announced the ground-truth class in 24pt at the top of the page. The
+    # classifier scored recall 1.00 on that run by reading our label instead of
+    # judging the document, against 0.275 on raw prose. The title must carry no
+    # information about the label or the accuracy number is meaningless.
     spec = gen.DocSpec(
         doc_id=doc.docid[:24],
-        title="Counsel Communication" if doc.is_privileged
-              else "Business Correspondence",
+        title="Document Production",
         label=gen.PRIVILEGED if doc.is_privileged else gen.RESPONSIVE,
         body=lines,
         poisoned=bool(poison),

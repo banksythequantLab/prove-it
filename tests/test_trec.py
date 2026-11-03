@@ -257,3 +257,19 @@ def test_cli_rejects_unknown_carrier():
         capture_output=True, text=True)
     assert res.returncode != 0
     assert "invalid choice" in res.stderr
+
+
+def test_benchmark_pdf_title_leaks_no_label():
+    """
+    Regression guard for a benchmark that scored itself. An earlier build
+    titled privileged documents "Counsel Communication" and everything else
+    "Business Correspondence", so the ground-truth class was printed at the top
+    of every page. Measured recall went 0.275 (raw prose) -> 1.00 (titled PDF).
+    The title must be constant across classes.
+    """
+    src = (ROOT / "scripts" / "benchmark_privilege.py").read_text()
+    build = src[src.index("def build_pdf"):src.index("def mode_text")]
+    assert "is_privileged" not in build.split("label=")[0], \
+        "build_pdf varies something by label BEFORE the label field -- likely a leak"
+    assert 'title="Document Production"' in build, \
+        "benchmark PDFs must use a single neutral title"
