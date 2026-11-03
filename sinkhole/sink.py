@@ -36,6 +36,27 @@ import time
 from pathlib import Path
 
 SINK_IP = os.environ.get("SINK_IP", "0.0.0.0")
+
+
+def _self_address() -> str:
+    """
+    The address to hand back in DNS answers: our own IP on the cage bridge.
+
+    This was hardcoded to 10.255.0.2, which is not where the sinkhole actually
+    lives, so a resolved name pointed nowhere and the follow-up connection was
+    never made -- the attempt stayed invisible, which is the one thing this
+    process exists to prevent.
+    """
+    override = os.environ.get("SINK_ANSWER_IP")
+    if override:
+        return override
+    try:
+        return socket.gethostbyname(socket.gethostname())
+    except Exception:
+        return "127.0.0.1"
+
+
+ANSWER_IP = _self_address()
 LOG_PATH = Path(os.environ.get("SINK_LOG", "/var/log/faraday/egress.jsonl"))
 _lock = threading.Lock()
 
@@ -80,7 +101,7 @@ class DNSHandler(socketserver.BaseRequestHandler):
             return
 
         record(kind="dns", host=qname, qtype=qtype,
-               peer=self.client_address[0],
+               peer=self.client_address[0], answer=ANSWER_IP,
                note="resolved to sinkhole; no external resolver reachable")
 
         txid = data[:2]
@@ -88,7 +109,7 @@ class DNSHandler(socketserver.BaseRequestHandler):
         question = data[12:end + 4]
         # answer: name pointer to the question, A/IN, ttl 30, 4-byte rdata
         answer = struct.pack(">HHHIH", 0xC00C, 1, 1, 30, 4)
-        answer += socket.inet_aton("10.255.0.2")
+        answer += socket.inet_aton(ANSWER_IP)
         try:
             sock.sendto(header + question + answer, self.client_address)
         except OSError:
@@ -232,6 +253,7 @@ def main() -> int:
     for label, srv in servers:
         serve(srv)
         print(f"sinkhole listening {label} on {SINK_IP}", flush=True)
+    print(f"sinkhole answering all A queries with {ANSWER_IP}", flush=True)
     print(f"sinkhole log -> {LOG_PATH}", flush=True)
     try:
         while True:
